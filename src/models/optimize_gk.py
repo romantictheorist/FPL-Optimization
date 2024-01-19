@@ -123,3 +123,10 @@ def optimize_goalkeeper(goalkeepers_df, budget):
     else:
         print("Failed to solve problem.")
         print("Status:", LpStatus[model.status])
+
+
+# ----------------------------------------
+# Testing the function
+# ----------------------------------------
+
+test = optimize_goalkeeper(goalkeepers_df, 1000)
