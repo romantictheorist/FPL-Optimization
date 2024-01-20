@@ -1,0 +1,5 @@
+id,singular_name_short,squad_select,squad_min_play,squad_max_play
+1,GKP,2,1,1
+2,DEF,5,3,5
+3,MID,5,2,5
+4,FWD,3,1,3
