@@ -203,10 +203,10 @@ id,code,event,finished,finished_provisional,team_a,team_a_score,team_h,team_h_sc
 209,2367746,21.0,True,True,13,3.0,15,2.0,2024-01-13T17:30:00Z,90,False,True,Man City,Newcastle
 207,2367744,21.0,True,True,2,0.0,9,0.0,2024-01-14T14:00:00Z,90,False,True,Aston Villa,Everton
 208,2367745,21.0,True,True,18,2.0,14,2.0,2024-01-14T16:30:00Z,90,False,True,Spurs,Man Utd
-201,2367739,21.0,False,True,8,0.0,1,5.0,2024-01-20T12:30:00Z,90,False,True,Crystal Palace,Arsenal
-203,2367740,21.0,False,False,16,1.0,4,1.0,2024-01-20T17:30:00Z,0,False,True,Nott'm Forest,Brentford
-210,2367747,21.0,False,False,19,,17,,2024-01-21T14:00:00Z,0,False,False,West Ham,Sheffield Utd
-202,2367738,21.0,False,False,11,,3,,2024-01-21T16:30:00Z,0,False,False,Liverpool,Bournemouth
+201,2367739,21.0,True,True,8,0.0,1,5.0,2024-01-20T12:30:00Z,90,False,True,Crystal Palace,Arsenal
+203,2367740,21.0,True,True,16,2.0,4,3.0,2024-01-20T17:30:00Z,90,False,True,Nott'm Forest,Brentford
+210,2367747,21.0,True,True,19,2.0,17,2.0,2024-01-21T14:00:00Z,90,False,True,West Ham,Sheffield Utd
+202,2367738,21.0,True,True,11,4.0,3,0.0,2024-01-21T16:30:00Z,90,False,True,Liverpool,Bournemouth
 204,2367741,21.0,False,False,20,,5,,2024-01-22T19:45:00Z,0,False,False,Wolves,Brighton
 215,2367752,22.0,False,False,1,,16,,2024-01-30T19:30:00Z,0,False,False,Arsenal,Nott'm Forest
 213,2367750,22.0,False,False,9,,10,,2024-01-30T19:45:00Z,0,False,False,Everton,Fulham

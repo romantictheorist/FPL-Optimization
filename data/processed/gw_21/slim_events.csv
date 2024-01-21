@@ -19,7 +19,7 @@ id,name,deadline_time,finished,data_checked,is_previous,is_current,is_next,most_
 18,Gameweek 18,2023-12-21T18:30:00Z,True,True,False,False,False,355.0,60.0,85.0,"{'id': 85, 'points': 17}",355.0,308.0
 19,Gameweek 19,2023-12-26T11:00:00Z,True,True,False,False,False,355.0,85.0,468.0,"{'id': 468, 'points': 17}",308.0,516.0
 20,Gameweek 20,2023-12-30T11:00:00Z,True,True,True,False,False,19.0,343.0,362.0,"{'id': 362, 'points': 18}",355.0,308.0
-21,Gameweek 21,2024-01-12T18:15:00Z,False,False,False,True,False,19.0,353.0,5.0,"{'id': 5, 'points': 15}",355.0,19.0
+21,Gameweek 21,2024-01-12T18:15:00Z,False,False,False,True,False,19.0,353.0,294.0,"{'id': 294, 'points': 19}",355.0,19.0
 22,Gameweek 22,2024-01-30T18:00:00Z,False,False,False,False,True,,,,,,
 23,Gameweek 23,2024-02-03T11:00:00Z,False,False,False,False,False,,,,,,
 24,Gameweek 24,2024-02-10T11:00:00Z,False,False,False,False,False,,,,,,
