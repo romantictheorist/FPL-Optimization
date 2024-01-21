@@ -1,16 +1,16 @@
-id,web_name,position,element_type,team,gw_current,gw_next,now_cost,ep_next,in_lineup,is_captain,is_vice_captain
-524,Areola,GKP,1,West Ham,21,22,42,8.0,1,0,0
-321,Doughty,DEF,2,Luton,21,22,45,7.0,1,0,0
-676,Mavropanos,DEF,2,West Ham,21,22,45,7.0,1,0,0
-5,Gabriel,DEF,2,Arsenal,21,22,50,5.8,1,0,0
-344,Bernardo,MID,3,Man City,21,22,65,9.0,1,0,1
-294,Diogo J.,MID,3,Liverpool,21,22,78,8.5,1,0,0
-353,Foden,MID,3,Man City,21,22,80,8.3,1,0,0
-362,Palmer,MID,3,Chelsea,21,22,58,6.7,1,0,0
-468,Wood,FWD,4,Nott'm Forest,21,22,49,9.0,1,1,0
-85,Solanke,FWD,4,Bournemouth,21,22,71,6.8,1,0,0
-343,J.Alvarez,FWD,4,Man City,21,22,70,6.7,1,0,0
-636,G.Shelvey,GKP,1,Nott'm Forest,21,22,39,-0.5,0,0,0
-563,Kilman,DEF,2,Wolves,21,22,45,4.0,0,0,0
-283,Robinson,DEF,2,Fulham,21,22,44,1.5,0,0,0
-783,Gordon,MID,3,Liverpool,21,22,45,1.8,0,0,0
+id,web_name,position,element_type,team,gw_current,gw_next,now_cost,ep_next,chance_of_playing_next_round,in_lineup,is_captain,is_vice_captain
+524,Areola,GKP,1,West Ham,21,22,42,8.0,100.0,1,0,0
+321,Doughty,DEF,2,Luton,21,22,45,7.0,100.0,1,0,0
+676,Mavropanos,DEF,2,West Ham,21,22,45,7.0,100.0,1,0,0
+5,Gabriel,DEF,2,Arsenal,21,22,50,5.8,75.0,1,0,0
+344,Bernardo,MID,3,Man City,21,22,65,9.0,100.0,1,0,1
+294,Diogo J.,MID,3,Liverpool,21,22,78,8.5,100.0,1,0,0
+362,Palmer,MID,3,Chelsea,21,22,58,6.7,100.0,1,0,0
+365,Rodrigo,MID,3,Man City,21,22,56,6.3,100.0,1,0,0
+12,Martinelli,MID,3,Arsenal,21,22,77,6.3,100.0,1,0,0
+468,Wood,FWD,4,Nott'm Forest,21,22,49,9.0,100.0,1,1,0
+85,Solanke,FWD,4,Bournemouth,21,22,71,6.8,100.0,1,0,0
+479,A.Davies,GKP,1,Sheffield Utd,21,22,40,-0.5,100.0,0,0,0
+330,Osho,DEF,2,Luton,21,22,44,2.0,100.0,0,0,0
+455,McKenna,DEF,2,Nott'm Forest,21,22,44,-0.5,100.0,0,0,0
+590,Cunha,FWD,4,Wolves,21,22,58,4.5,100.0,0,0,0

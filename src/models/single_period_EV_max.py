@@ -217,6 +217,12 @@ def solve_single_period_model(budget):
     for team in teams:
         model += squad_team_count[team] <= 3
 
+    ## Every lineup player must play at have at least 75% chance of playing next gameweek
+    for p in players:
+        model += squad[p] <= (
+            slim_elements_df.loc[p, "chance_of_playing_next_round"] >= 75
+        )
+
     # ----------------------------------------
     # Solve model and get results
     # ----------------------------------------
@@ -299,6 +305,7 @@ def solve_single_period_model(budget):
                     player_data["gw_next"],
                     player_data["now_cost"],
                     player_data["ep_next"],
+                    player_data["chance_of_playing_next_round"],
                     in_lineup,
                     is_captain,
                     is_vice_captain,
@@ -318,6 +325,7 @@ def solve_single_period_model(budget):
                 "gw_next",
                 "now_cost",
                 "ep_next",
+                "chance_of_playing_next_round",
                 "in_lineup",
                 "is_captain",
                 "is_vice_captain",
@@ -376,3 +384,6 @@ if __name__ == "__main__":
     print("Time spent in loop:", round(time.time() - t0, 1), "seconds")
 
 # ----------------------------------------
+
+df = pd.read_csv("../../models/single_period/solved_EV_max_gw_21_budget_1000.csv")
+df

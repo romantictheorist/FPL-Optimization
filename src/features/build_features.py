@@ -60,6 +60,8 @@ def build_slim_dataframes(gw):
                 "form",
                 "ep_this",
                 "ep_next",
+                "chance_of_playing_this_round",
+                "chance_of_playing_next_round",
             ]
         ]
 
