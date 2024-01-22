@@ -3969,7 +3969,7 @@ COLUMNS
     captain_10  _C3        1.000000000000e+00
     captain_10  _C797      1.000000000000e+00
     captain_10  _C2365     1.000000000000e+00
-    captain_10  OBJ        1.000000000000e+00
+    captain_10  OBJ        1.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_100  _C3        1.000000000000e+00
@@ -4052,7 +4052,7 @@ COLUMNS
     captain_113  _C3        1.000000000000e+00
     captain_113  _C815      1.000000000000e+00
     captain_113  _C2383     1.000000000000e+00
-    captain_113  OBJ        4.700000000000e+00
+    captain_113  OBJ        5.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_114  _C3        1.000000000000e+00
@@ -4090,7 +4090,7 @@ COLUMNS
     captain_12  _C3        1.000000000000e+00
     captain_12  _C799      1.000000000000e+00
     captain_12  _C2367     1.000000000000e+00
-    captain_12  OBJ        6.300000000000e+00
+    captain_12  OBJ        7.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_120  _C3        1.000000000000e+00
@@ -4123,7 +4123,7 @@ COLUMNS
     captain_125  _C3        1.000000000000e+00
     captain_125  _C941      1.000000000000e+00
     captain_125  _C2509     1.000000000000e+00
-    captain_125  OBJ        1.500000000000e+00
+    captain_125  OBJ        1.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_126  _C3        1.000000000000e+00
@@ -4146,13 +4146,13 @@ COLUMNS
     captain_129  _C3        1.000000000000e+00
     captain_129  _C944      1.000000000000e+00
     captain_129  _C2512     1.000000000000e+00
-    captain_129  OBJ        5.000000000000e-01
+    captain_129  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_13  _C3        1.000000000000e+00
     captain_13  _C800      1.000000000000e+00
     captain_13  _C2368     1.000000000000e+00
-    captain_13  OBJ        2.300000000000e+00
+    captain_13  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_130  _C3        1.000000000000e+00
@@ -4163,7 +4163,7 @@ COLUMNS
     captain_131  _C3        1.000000000000e+00
     captain_131  _C946      1.000000000000e+00
     captain_131  _C2514     1.000000000000e+00
-    captain_131  OBJ        4.500000000000e+00
+    captain_131  OBJ        4.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_132  _C3        1.000000000000e+00
@@ -4175,19 +4175,19 @@ COLUMNS
     captain_133  _C3        1.000000000000e+00
     captain_133  _C948      1.000000000000e+00
     captain_133  _C2516     1.000000000000e+00
-    captain_133  OBJ        2.200000000000e+00
+    captain_133  OBJ        2.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_134  _C3        1.000000000000e+00
     captain_134  _C949      1.000000000000e+00
     captain_134  _C2517     1.000000000000e+00
-    captain_134  OBJ        2.200000000000e+00
+    captain_134  OBJ        2.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_135  _C3        1.000000000000e+00
     captain_135  _C950      1.000000000000e+00
     captain_135  _C2518     1.000000000000e+00
-    captain_135  OBJ        6.500000000000e+00
+    captain_135  OBJ        6.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_136  _C3        1.000000000000e+00
@@ -4209,12 +4209,13 @@ COLUMNS
     captain_139  _C3        1.000000000000e+00
     captain_139  _C954      1.000000000000e+00
     captain_139  _C2522     1.000000000000e+00
+    captain_139  OBJ        5.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_14  _C3        1.000000000000e+00
     captain_14  _C801      1.000000000000e+00
     captain_14  _C2369     1.000000000000e+00
-    captain_14  OBJ        4.300000000000e+00
+    captain_14  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_140  _C3        1.000000000000e+00
@@ -4231,7 +4232,7 @@ COLUMNS
     captain_142  _C3        1.000000000000e+00
     captain_142  _C957      1.000000000000e+00
     captain_142  _C2525     1.000000000000e+00
-    captain_142  OBJ        3.500000000000e+00
+    captain_142  OBJ        3.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_143  _C3        1.000000000000e+00
@@ -4263,7 +4264,7 @@ COLUMNS
     captain_148  _C3        1.000000000000e+00
     captain_148  _C962      1.000000000000e+00
     captain_148  _C2530     1.000000000000e+00
-    captain_148  OBJ        3.500000000000e+00
+    captain_148  OBJ        3.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_149  _C3        1.000000000000e+00
@@ -4279,7 +4280,7 @@ COLUMNS
     captain_150  _C3        1.000000000000e+00
     captain_150  _C964      1.000000000000e+00
     captain_150  _C2532     1.000000000000e+00
-    captain_150  OBJ        3.500000000000e+00
+    captain_150  OBJ        3.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_151  _C3        1.000000000000e+00
@@ -4302,7 +4303,7 @@ COLUMNS
     captain_154  _C3        1.000000000000e+00
     captain_154  _C968      1.000000000000e+00
     captain_154  _C2536     1.000000000000e+00
-    captain_154  OBJ        2.800000000000e+00
+    captain_154  OBJ        3.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_155  _C3        1.000000000000e+00
@@ -4319,7 +4320,7 @@ COLUMNS
     captain_157  _C3        1.000000000000e+00
     captain_157  _C981      1.000000000000e+00
     captain_157  _C2549     1.000000000000e+00
-    captain_157  OBJ       -5.000000000000e-01
+    captain_157  OBJ       -3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_158  _C3        1.000000000000e+00
@@ -4341,13 +4342,13 @@ COLUMNS
     captain_160  _C3        1.000000000000e+00
     captain_160  _C984      1.000000000000e+00
     captain_160  _C2552     1.000000000000e+00
-    captain_160  OBJ        6.000000000000e-01
+    captain_160  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_161  _C3        1.000000000000e+00
     captain_161  _C985      1.000000000000e+00
     captain_161  _C2553     1.000000000000e+00
-    captain_161  OBJ        1.200000000000e+00
+    captain_161  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_162  _C3        1.000000000000e+00
@@ -4359,7 +4360,7 @@ COLUMNS
     captain_163  _C3        1.000000000000e+00
     captain_163  _C987      1.000000000000e+00
     captain_163  _C2555     1.000000000000e+00
-    captain_163  OBJ       -8.000000000000e-01
+    captain_163  OBJ       -7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_164  _C3        1.000000000000e+00
@@ -4370,7 +4371,7 @@ COLUMNS
     captain_165  _C3        1.000000000000e+00
     captain_165  _C989      1.000000000000e+00
     captain_165  _C2557     1.000000000000e+00
-    captain_165  OBJ       -5.000000000000e-01
+    captain_165  OBJ       -3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_166  _C3        1.000000000000e+00
@@ -4382,13 +4383,13 @@ COLUMNS
     captain_167  _C3        1.000000000000e+00
     captain_167  _C991      1.000000000000e+00
     captain_167  _C2559     1.000000000000e+00
-    captain_167  OBJ       -5.000000000000e-01
+    captain_167  OBJ       -3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_168  _C3        1.000000000000e+00
     captain_168  _C992      1.000000000000e+00
     captain_168  _C2560     1.000000000000e+00
-    captain_168  OBJ        2.800000000000e+00
+    captain_168  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_169  _C3        1.000000000000e+00
@@ -4406,7 +4407,7 @@ COLUMNS
     captain_170  _C3        1.000000000000e+00
     captain_170  _C994      1.000000000000e+00
     captain_170  _C2562     1.000000000000e+00
-    captain_170  OBJ        1.200000000000e+00
+    captain_170  OBJ        2.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_171  _C3        1.000000000000e+00
@@ -4423,7 +4424,7 @@ COLUMNS
     captain_173  _C3        1.000000000000e+00
     captain_173  _C997      1.000000000000e+00
     captain_173  _C2565     1.000000000000e+00
-    captain_173  OBJ        2.000000000000e+00
+    captain_173  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_174  _C3        1.000000000000e+00
@@ -4440,19 +4441,19 @@ COLUMNS
     captain_176  _C3        1.000000000000e+00
     captain_176  _C1000     1.000000000000e+00
     captain_176  _C2568     1.000000000000e+00
-    captain_176  OBJ       -2.000000000000e-01
+    captain_176  OBJ       -3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_177  _C3        1.000000000000e+00
     captain_177  _C1001     1.000000000000e+00
     captain_177  _C2569     1.000000000000e+00
-    captain_177  OBJ       -8.000000000000e-01
+    captain_177  OBJ       -1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_178  _C3        1.000000000000e+00
     captain_178  _C1002     1.000000000000e+00
     captain_178  _C2570     1.000000000000e+00
-    captain_178  OBJ        6.000000000000e-01
+    captain_178  OBJ       -5.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_179  _C3        1.000000000000e+00
@@ -4479,7 +4480,7 @@ COLUMNS
     captain_182  _C3        1.000000000000e+00
     captain_182  _C1006     1.000000000000e+00
     captain_182  _C2574     1.000000000000e+00
-    captain_182  OBJ        1.500000000000e+00
+    captain_182  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_183  _C3        1.000000000000e+00
@@ -4522,7 +4523,7 @@ COLUMNS
     captain_19  _C3        1.000000000000e+00
     captain_19  _C806      1.000000000000e+00
     captain_19  _C2374     1.000000000000e+00
-    captain_19  OBJ        3.700000000000e+00
+    captain_19  OBJ        4.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_190  _C3        1.000000000000e+00
@@ -4592,7 +4593,7 @@ COLUMNS
     captain_20  _C3        1.000000000000e+00
     captain_20  _C807      1.000000000000e+00
     captain_20  _C2375     1.000000000000e+00
-    captain_20  OBJ        2.700000000000e+00
+    captain_20  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_200  _C3        1.000000000000e+00
@@ -4615,19 +4616,19 @@ COLUMNS
     captain_203  _C3        1.000000000000e+00
     captain_203  _C1041     1.000000000000e+00
     captain_203  _C2609     1.000000000000e+00
-    captain_203  OBJ        3.000000000000e+00
+    captain_203  OBJ        2.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_204  _C3        1.000000000000e+00
     captain_204  _C1328     1.000000000000e+00
     captain_204  _C2896     1.000000000000e+00
-    captain_204  OBJ        1.300000000000e+00
+    captain_204  OBJ        1.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_205  _C3        1.000000000000e+00
     captain_205  _C1372     1.000000000000e+00
     captain_205  _C2940     1.000000000000e+00
-    captain_205  OBJ        1.700000000000e+00
+    captain_205  OBJ        2.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_206  _C3        1.000000000000e+00
@@ -4654,7 +4655,7 @@ COLUMNS
     captain_21  _C3        1.000000000000e+00
     captain_21  _C1212     1.000000000000e+00
     captain_21  _C2780     1.000000000000e+00
-    captain_21  OBJ        2.700000000000e+00
+    captain_21  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_210  _C3        1.000000000000e+00
@@ -4715,7 +4716,7 @@ COLUMNS
     captain_22  _C3        1.000000000000e+00
     captain_22  _C808      1.000000000000e+00
     captain_22  _C2376     1.000000000000e+00
-    captain_22  OBJ        1.000000000000e+00
+    captain_22  OBJ        1.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_220  _C3        1.000000000000e+00
@@ -4869,25 +4870,25 @@ COLUMNS
     captain_244  _C3        1.000000000000e+00
     captain_244  _C1106     1.000000000000e+00
     captain_244  _C2674     1.000000000000e+00
-    captain_244  OBJ        2.200000000000e+00
+    captain_244  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_245  _C3        1.000000000000e+00
     captain_245  _C1107     1.000000000000e+00
     captain_245  _C2675     1.000000000000e+00
-    captain_245  OBJ        2.000000000000e+00
+    captain_245  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_246  _C3        1.000000000000e+00
     captain_246  _C1108     1.000000000000e+00
     captain_246  _C2676     1.000000000000e+00
-    captain_246  OBJ        1.800000000000e+00
+    captain_246  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_247  _C3        1.000000000000e+00
     captain_247  _C1109     1.000000000000e+00
     captain_247  _C2677     1.000000000000e+00
-    captain_247  OBJ        1.800000000000e+00
+    captain_247  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_248  _C3        1.000000000000e+00
@@ -4898,7 +4899,7 @@ COLUMNS
     captain_249  _C3        1.000000000000e+00
     captain_249  _C1111     1.000000000000e+00
     captain_249  _C2679     1.000000000000e+00
-    captain_249  OBJ        8.000000000000e-01
+    captain_249  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_25  _C3        1.000000000000e+00
@@ -4909,7 +4910,7 @@ COLUMNS
     captain_250  _C3        1.000000000000e+00
     captain_250  _C1112     1.000000000000e+00
     captain_250  _C2680     1.000000000000e+00
-    captain_250  OBJ        2.200000000000e+00
+    captain_250  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_251  _C3        1.000000000000e+00
@@ -4945,7 +4946,7 @@ COLUMNS
     captain_257  _C3        1.000000000000e+00
     captain_257  _C1118     1.000000000000e+00
     captain_257  _C2686     1.000000000000e+00
-    captain_257  OBJ        5.000000000000e-01
+    captain_257  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_258  _C3        1.000000000000e+00
@@ -4957,25 +4958,25 @@ COLUMNS
     captain_259  _C3        1.000000000000e+00
     captain_259  _C1119     1.000000000000e+00
     captain_259  _C2687     1.000000000000e+00
-    captain_259  OBJ        2.200000000000e+00
+    captain_259  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_26  _C3        1.000000000000e+00
     captain_26  _C811      1.000000000000e+00
     captain_26  _C2379     1.000000000000e+00
-    captain_26  OBJ        3.500000000000e+00
+    captain_26  OBJ        4.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_260  _C3        1.000000000000e+00
     captain_260  _C1120     1.000000000000e+00
     captain_260  _C2688     1.000000000000e+00
-    captain_260  OBJ        2.200000000000e+00
+    captain_260  OBJ        2.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_261  _C3        1.000000000000e+00
     captain_261  _C1121     1.000000000000e+00
     captain_261  _C2689     1.000000000000e+00
-    captain_261  OBJ        2.000000000000e+00
+    captain_261  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_262  _C3        1.000000000000e+00
@@ -4986,7 +4987,7 @@ COLUMNS
     captain_263  _C3        1.000000000000e+00
     captain_263  _C1123     1.000000000000e+00
     captain_263  _C2691     1.000000000000e+00
-    captain_263  OBJ        3.800000000000e+00
+    captain_263  OBJ        4.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_264  _C3        1.000000000000e+00
@@ -4997,7 +4998,7 @@ COLUMNS
     captain_265  _C3        1.000000000000e+00
     captain_265  _C1125     1.000000000000e+00
     captain_265  _C2693     1.000000000000e+00
-    captain_265  OBJ        1.800000000000e+00
+    captain_265  OBJ        2.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_266  _C3        1.000000000000e+00
@@ -5008,13 +5009,13 @@ COLUMNS
     captain_267  _C3        1.000000000000e+00
     captain_267  _C1140     1.000000000000e+00
     captain_267  _C2708     1.000000000000e+00
-    captain_267  OBJ        1.500000000000e+00
+    captain_267  OBJ        1.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_268  _C3        1.000000000000e+00
     captain_268  _C1141     1.000000000000e+00
     captain_268  _C2709     1.000000000000e+00
-    captain_268  OBJ        3.000000000000e+00
+    captain_268  OBJ        3.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_269  _C3        1.000000000000e+00
@@ -5031,13 +5032,13 @@ COLUMNS
     captain_270  _C3        1.000000000000e+00
     captain_270  _C1143     1.000000000000e+00
     captain_270  _C2711     1.000000000000e+00
-    captain_270  OBJ        3.500000000000e+00
+    captain_270  OBJ        4.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_271  _C3        1.000000000000e+00
     captain_271  _C1144     1.000000000000e+00
     captain_271  _C2712     1.000000000000e+00
-    captain_271  OBJ        8.000000000000e-01
+    captain_271  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_272  _C3        1.000000000000e+00
@@ -5064,7 +5065,7 @@ COLUMNS
     captain_276  _C3        1.000000000000e+00
     captain_276  _C1149     1.000000000000e+00
     captain_276  _C2717     1.000000000000e+00
-    captain_276  OBJ        5.000000000000e-01
+    captain_276  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_277  _C3        1.000000000000e+00
@@ -5080,19 +5081,19 @@ COLUMNS
     captain_279  _C3        1.000000000000e+00
     captain_279  _C1152     1.000000000000e+00
     captain_279  _C2720     1.000000000000e+00
-    captain_279  OBJ        1.200000000000e+00
+    captain_279  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_28  _C3        1.000000000000e+00
     captain_28  _C1371     1.000000000000e+00
     captain_28  _C2939     1.000000000000e+00
-    captain_28  OBJ        1.700000000000e+00
+    captain_28  OBJ        1.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_280  _C3        1.000000000000e+00
     captain_280  _C1153     1.000000000000e+00
     captain_280  _C2721     1.000000000000e+00
-    captain_280  OBJ        1.800000000000e+00
+    captain_280  OBJ        2.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_281  _C3        1.000000000000e+00
@@ -5103,13 +5104,13 @@ COLUMNS
     captain_282  _C3        1.000000000000e+00
     captain_282  _C1155     1.000000000000e+00
     captain_282  _C2723     1.000000000000e+00
-    captain_282  OBJ        5.000000000000e-01
+    captain_282  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_283  _C3        1.000000000000e+00
     captain_283  _C1156     1.000000000000e+00
     captain_283  _C2724     1.000000000000e+00
-    captain_283  OBJ        1.500000000000e+00
+    captain_283  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_284  _C3        1.000000000000e+00
@@ -5120,25 +5121,25 @@ COLUMNS
     captain_285  _C3        1.000000000000e+00
     captain_285  _C1158     1.000000000000e+00
     captain_285  _C2726     1.000000000000e+00
-    captain_285  OBJ        8.000000000000e-01
+    captain_285  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_286  _C3        1.000000000000e+00
     captain_286  _C1159     1.000000000000e+00
     captain_286  _C2727     1.000000000000e+00
-    captain_286  OBJ        1.500000000000e+00
+    captain_286  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_287  _C3        1.000000000000e+00
     captain_287  _C1160     1.000000000000e+00
     captain_287  _C2728     1.000000000000e+00
-    captain_287  OBJ        5.000000000000e-01
+    captain_287  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_288  _C3        1.000000000000e+00
     captain_288  _C1161     1.000000000000e+00
     captain_288  _C2729     1.000000000000e+00
-    captain_288  OBJ        1.200000000000e+00
+    captain_288  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_289  _C3        1.000000000000e+00
@@ -5150,18 +5151,19 @@ COLUMNS
     captain_29  _C3        1.000000000000e+00
     captain_29  _C812      1.000000000000e+00
     captain_29  _C2380     1.000000000000e+00
-    captain_29  OBJ        2.700000000000e+00
+    captain_29  OBJ        3.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_290  _C3        1.000000000000e+00
     captain_290  _C1175     1.000000000000e+00
     captain_290  _C2743     1.000000000000e+00
+    captain_290  OBJ        1.600000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_291  _C3        1.000000000000e+00
     captain_291  _C1176     1.000000000000e+00
     captain_291  _C2744     1.000000000000e+00
-    captain_291  OBJ        4.300000000000e+00
+    captain_291  OBJ        4.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_292  _C3        1.000000000000e+00
@@ -5172,19 +5174,19 @@ COLUMNS
     captain_293  _C3        1.000000000000e+00
     captain_293  _C1178     1.000000000000e+00
     captain_293  _C2746     1.000000000000e+00
-    captain_293  OBJ        6.700000000000e+00
+    captain_293  OBJ        8.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_294  _C3        1.000000000000e+00
     captain_294  _C1179     1.000000000000e+00
     captain_294  _C2747     1.000000000000e+00
-    captain_294  OBJ        8.500000000000e+00
+    captain_294  OBJ        1.120000000000e+01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_295  _C3        1.000000000000e+00
     captain_295  _C1180     1.000000000000e+00
     captain_295  _C2748     1.000000000000e+00
-    captain_295  OBJ        2.300000000000e+00
+    captain_295  OBJ        2.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_296  _C3        1.000000000000e+00
@@ -5195,13 +5197,13 @@ COLUMNS
     captain_297  _C3        1.000000000000e+00
     captain_297  _C1182     1.000000000000e+00
     captain_297  _C2750     1.000000000000e+00
-    captain_297  OBJ        4.500000000000e+00
+    captain_297  OBJ        5.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_298  _C3        1.000000000000e+00
     captain_298  _C1183     1.000000000000e+00
     captain_298  _C2751     1.000000000000e+00
-    captain_298  OBJ        5.000000000000e+00
+    captain_298  OBJ        6.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_299  _C3        1.000000000000e+00
@@ -5222,7 +5224,7 @@ COLUMNS
     captain_300  _C3        1.000000000000e+00
     captain_300  _C1185     1.000000000000e+00
     captain_300  _C2753     1.000000000000e+00
-    captain_300  OBJ        4.300000000000e+00
+    captain_300  OBJ        3.600000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_301  _C3        1.000000000000e+00
@@ -5234,19 +5236,19 @@ COLUMNS
     captain_302  _C3        1.000000000000e+00
     captain_302  _C1187     1.000000000000e+00
     captain_302  _C2755     1.000000000000e+00
-    captain_302  OBJ        2.700000000000e+00
+    captain_302  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_303  _C3        1.000000000000e+00
     captain_303  _C1188     1.000000000000e+00
     captain_303  _C2756     1.000000000000e+00
-    captain_303  OBJ        3.000000000000e+00
+    captain_303  OBJ        3.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_304  _C3        1.000000000000e+00
     captain_304  _C1189     1.000000000000e+00
     captain_304  _C2757     1.000000000000e+00
-    captain_304  OBJ        1.500000000000e+00
+    captain_304  OBJ        1.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_305  _C3        1.000000000000e+00
@@ -5262,6 +5264,7 @@ COLUMNS
     captain_307  _C3        1.000000000000e+00
     captain_307  _C1192     1.000000000000e+00
     captain_307  _C2760     1.000000000000e+00
+    captain_307  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_308  _C3        1.000000000000e+00
@@ -5272,13 +5275,13 @@ COLUMNS
     captain_309  _C3        1.000000000000e+00
     captain_309  _C1194     1.000000000000e+00
     captain_309  _C2762     1.000000000000e+00
-    captain_309  OBJ        1.300000000000e+00
+    captain_309  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_31  _C3        1.000000000000e+00
     captain_31  _C814      1.000000000000e+00
     captain_31  _C2382     1.000000000000e+00
-    captain_31  OBJ        2.700000000000e+00
+    captain_31  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_310  _C3        1.000000000000e+00
@@ -5299,30 +5302,31 @@ COLUMNS
     captain_313  _C3        1.000000000000e+00
     captain_313  _C1198     1.000000000000e+00
     captain_313  _C2766     1.000000000000e+00
-    captain_313  OBJ        4.500000000000e+00
+    captain_313  OBJ        5.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_314  _C3        1.000000000000e+00
     captain_314  _C1214     1.000000000000e+00
     captain_314  _C2782     1.000000000000e+00
-    captain_314  OBJ        2.500000000000e+00
+    captain_314  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_315  _C3        1.000000000000e+00
     captain_315  _C1215     1.000000000000e+00
     captain_315  _C2783     1.000000000000e+00
+    captain_315  OBJ       -1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_316  _C3        1.000000000000e+00
     captain_316  _C1216     1.000000000000e+00
     captain_316  _C2784     1.000000000000e+00
-    captain_316  OBJ        2.300000000000e+00
+    captain_316  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_317  _C3        1.000000000000e+00
     captain_317  _C1217     1.000000000000e+00
     captain_317  _C2785     1.000000000000e+00
-    captain_317  OBJ       -3.000000000000e-01
+    captain_317  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_318  _C3        1.000000000000e+00
@@ -5345,12 +5349,13 @@ COLUMNS
     captain_320  _C3        1.000000000000e+00
     captain_320  _C1220     1.000000000000e+00
     captain_320  _C2788     1.000000000000e+00
+    captain_320  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_321  _C3        1.000000000000e+00
     captain_321  _C1221     1.000000000000e+00
     captain_321  _C2789     1.000000000000e+00
-    captain_321  OBJ        7.000000000000e+00
+    captain_321  OBJ        6.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_322  _C3        1.000000000000e+00
@@ -5376,7 +5381,7 @@ COLUMNS
     captain_326  _C3        1.000000000000e+00
     captain_326  _C1226     1.000000000000e+00
     captain_326  _C2794     1.000000000000e+00
-    captain_326  OBJ        3.500000000000e+00
+    captain_326  OBJ        4.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_327  _C3        1.000000000000e+00
@@ -5387,7 +5392,7 @@ COLUMNS
     captain_328  _C3        1.000000000000e+00
     captain_328  _C1228     1.000000000000e+00
     captain_328  _C2796     1.000000000000e+00
-    captain_328  OBJ        7.000000000000e-01
+    captain_328  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_329  _C3        1.000000000000e+00
@@ -5404,7 +5409,7 @@ COLUMNS
     captain_330  _C3        1.000000000000e+00
     captain_330  _C1230     1.000000000000e+00
     captain_330  _C2798     1.000000000000e+00
-    captain_330  OBJ        2.000000000000e+00
+    captain_330  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_331  _C3        1.000000000000e+00
@@ -5463,7 +5468,7 @@ COLUMNS
     captain_340  _C3        1.000000000000e+00
     captain_340  _C1240     1.000000000000e+00
     captain_340  _C2808     1.000000000000e+00
-    captain_340  OBJ       -3.000000000000e-01
+    captain_340  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_341  _C3        1.000000000000e+00
@@ -5532,7 +5537,7 @@ COLUMNS
     captain_351  _C3        1.000000000000e+00
     captain_351  _C1534     1.000000000000e+00
     captain_351  _C3102     1.000000000000e+00
-    captain_351  OBJ        1.000000000000e+00
+    captain_351  OBJ        1.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_352  _C3        1.000000000000e+00
@@ -5659,19 +5664,19 @@ COLUMNS
     captain_371  _C3        1.000000000000e+00
     captain_371  _C1289     1.000000000000e+00
     captain_371  _C2857     1.000000000000e+00
-    captain_371  OBJ        2.000000000000e-01
+    captain_371  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_372  _C3        1.000000000000e+00
     captain_372  _C1290     1.000000000000e+00
     captain_372  _C2858     1.000000000000e+00
-    captain_372  OBJ        1.200000000000e+00
+    captain_372  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_373  _C3        1.000000000000e+00
     captain_373  _C1291     1.000000000000e+00
     captain_373  _C2859     1.000000000000e+00
-    captain_373  OBJ        1.500000000000e+00
+    captain_373  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_374  _C3        1.000000000000e+00
@@ -5692,19 +5697,19 @@ COLUMNS
     captain_377  _C3        1.000000000000e+00
     captain_377  _C1295     1.000000000000e+00
     captain_377  _C2863     1.000000000000e+00
-    captain_377  OBJ        5.000000000000e-01
+    captain_377  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_378  _C3        1.000000000000e+00
     captain_378  _C1373     1.000000000000e+00
     captain_378  _C2941     1.000000000000e+00
-    captain_378  OBJ        3.800000000000e+00
+    captain_378  OBJ        2.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_379  _C3        1.000000000000e+00
     captain_379  _C1296     1.000000000000e+00
     captain_379  _C2864     1.000000000000e+00
-    captain_379  OBJ        1.200000000000e+00
+    captain_379  OBJ        1.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_38  _C3        1.000000000000e+00
@@ -5725,7 +5730,7 @@ COLUMNS
     captain_382  _C3        1.000000000000e+00
     captain_382  _C1299     1.000000000000e+00
     captain_382  _C2867     1.000000000000e+00
-    captain_382  OBJ        5.500000000000e+00
+    captain_382  OBJ        6.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_383  _C3        1.000000000000e+00
@@ -5757,7 +5762,7 @@ COLUMNS
     captain_388  _C3        1.000000000000e+00
     captain_388  _C1304     1.000000000000e+00
     captain_388  _C2872     1.000000000000e+00
-    captain_388  OBJ        1.800000000000e+00
+    captain_388  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_389  _C3        1.000000000000e+00
@@ -5778,37 +5783,36 @@ COLUMNS
     captain_391  _C3        1.000000000000e+00
     captain_391  _C1307     1.000000000000e+00
     captain_391  _C2875     1.000000000000e+00
-    captain_391  OBJ        2.000000000000e-01
+    captain_391  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_392  _C3        1.000000000000e+00
     captain_392  _C1308     1.000000000000e+00
     captain_392  _C2876     1.000000000000e+00
-    captain_392  OBJ        1.200000000000e+00
+    captain_392  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_393  _C3        1.000000000000e+00
     captain_393  _C1241     1.000000000000e+00
     captain_393  _C2809     1.000000000000e+00
-    captain_393  OBJ        1.500000000000e+00
+    captain_393  OBJ        5.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_394  _C3        1.000000000000e+00
     captain_394  _C1309     1.000000000000e+00
     captain_394  _C2877     1.000000000000e+00
-    captain_394  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_395  _C3        1.000000000000e+00
     captain_395  _C1310     1.000000000000e+00
     captain_395  _C2878     1.000000000000e+00
-    captain_395  OBJ        5.000000000000e-01
+    captain_395  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_396  _C3        1.000000000000e+00
     captain_396  _C1311     1.000000000000e+00
     captain_396  _C2879     1.000000000000e+00
-    captain_396  OBJ        5.000000000000e+00
+    captain_396  OBJ        6.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_397  _C3        1.000000000000e+00
@@ -5846,13 +5850,13 @@ COLUMNS
     captain_401  _C3        1.000000000000e+00
     captain_401  _C1316     1.000000000000e+00
     captain_401  _C2884     1.000000000000e+00
-    captain_401  OBJ        8.000000000000e-01
+    captain_401  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_402  _C3        1.000000000000e+00
     captain_402  _C1329     1.000000000000e+00
     captain_402  _C2897     1.000000000000e+00
-    captain_402  OBJ        2.000000000000e+00
+    captain_402  OBJ        1.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_403  _C3        1.000000000000e+00
@@ -5868,7 +5872,7 @@ COLUMNS
     captain_405  _C3        1.000000000000e+00
     captain_405  _C1332     1.000000000000e+00
     captain_405  _C2900     1.000000000000e+00
-    captain_405  OBJ        2.700000000000e+00
+    captain_405  OBJ        3.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_406  _C3        1.000000000000e+00
@@ -5880,7 +5884,7 @@ COLUMNS
     captain_407  _C3        1.000000000000e+00
     captain_407  _C1334     1.000000000000e+00
     captain_407  _C2902     1.000000000000e+00
-    captain_407  OBJ        2.300000000000e+00
+    captain_407  OBJ        2.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_408  _C3        1.000000000000e+00
@@ -5891,7 +5895,7 @@ COLUMNS
     captain_409  _C3        1.000000000000e+00
     captain_409  _C1336     1.000000000000e+00
     captain_409  _C2904     1.000000000000e+00
-    captain_409  OBJ        4.500000000000e+00
+    captain_409  OBJ        4.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_41  _C3        1.000000000000e+00
@@ -5914,7 +5918,7 @@ COLUMNS
     captain_412  _C3        1.000000000000e+00
     captain_412  _C1339     1.000000000000e+00
     captain_412  _C2907     1.000000000000e+00
-    captain_412  OBJ        4.300000000000e+00
+    captain_412  OBJ        4.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_413  _C3        1.000000000000e+00
@@ -5930,7 +5934,7 @@ COLUMNS
     captain_415  _C3        1.000000000000e+00
     captain_415  _C1342     1.000000000000e+00
     captain_415  _C2910     1.000000000000e+00
-    captain_415  OBJ        5.500000000000e+00
+    captain_415  OBJ        6.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_416  _C3        1.000000000000e+00
@@ -5952,7 +5956,7 @@ COLUMNS
     captain_419  _C3        1.000000000000e+00
     captain_419  _C1346     1.000000000000e+00
     captain_419  _C2914     1.000000000000e+00
-    captain_419  OBJ        1.000000000000e+00
+    captain_419  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_42  _C3        1.000000000000e+00
@@ -5968,7 +5972,7 @@ COLUMNS
     captain_421  _C3        1.000000000000e+00
     captain_421  _C1348     1.000000000000e+00
     captain_421  _C2916     1.000000000000e+00
-    captain_421  OBJ        3.000000000000e+00
+    captain_421  OBJ        3.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_422  _C3        1.000000000000e+00
@@ -6001,7 +6005,7 @@ COLUMNS
     captain_427  _C3        1.000000000000e+00
     captain_427  _C1354     1.000000000000e+00
     captain_427  _C2922     1.000000000000e+00
-    captain_427  OBJ        1.300000000000e+00
+    captain_427  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_428  _C3        1.000000000000e+00
@@ -6023,7 +6027,7 @@ COLUMNS
     captain_430  _C3        1.000000000000e+00
     captain_430  _C1357     1.000000000000e+00
     captain_430  _C2925     1.000000000000e+00
-    captain_430  OBJ        1.500000000000e+00
+    captain_430  OBJ        1.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_431  _C3        1.000000000000e+00
@@ -6039,7 +6043,7 @@ COLUMNS
     captain_433  _C3        1.000000000000e+00
     captain_433  _C1360     1.000000000000e+00
     captain_433  _C2928     1.000000000000e+00
-    captain_433  OBJ        7.000000000000e-01
+    captain_433  OBJ        4.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_434  _C3        1.000000000000e+00
@@ -6093,7 +6097,7 @@ COLUMNS
     captain_442  _C3        1.000000000000e+00
     captain_442  _C1382     1.000000000000e+00
     captain_442  _C2950     1.000000000000e+00
-    captain_442  OBJ        2.700000000000e+00
+    captain_442  OBJ        3.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_443  _C3        1.000000000000e+00
@@ -6120,7 +6124,7 @@ COLUMNS
     captain_447  _C3        1.000000000000e+00
     captain_447  _C1387     1.000000000000e+00
     captain_447  _C2955     1.000000000000e+00
-    captain_447  OBJ        3.000000000000e+00
+    captain_447  OBJ        1.900000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_448  _C3        1.000000000000e+00
@@ -6144,7 +6148,7 @@ COLUMNS
     captain_450  _C3        1.000000000000e+00
     captain_450  _C1461     1.000000000000e+00
     captain_450  _C3029     1.000000000000e+00
-    captain_450  OBJ        4.800000000000e+00
+    captain_450  OBJ        3.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_451  _C3        1.000000000000e+00
@@ -6160,6 +6164,7 @@ COLUMNS
     captain_453  _C3        1.000000000000e+00
     captain_453  _C1392     1.000000000000e+00
     captain_453  _C2960     1.000000000000e+00
+    captain_453  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_454  _C3        1.000000000000e+00
@@ -6227,6 +6232,7 @@ COLUMNS
     captain_465  _C3        1.000000000000e+00
     captain_465  _C1404     1.000000000000e+00
     captain_465  _C2972     1.000000000000e+00
+    captain_465  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_466  _C3        1.000000000000e+00
@@ -6237,19 +6243,19 @@ COLUMNS
     captain_467  _C3        1.000000000000e+00
     captain_467  _C1406     1.000000000000e+00
     captain_467  _C2974     1.000000000000e+00
-    captain_467  OBJ        3.000000000000e-01
+    captain_467  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_468  _C3        1.000000000000e+00
     captain_468  _C1407     1.000000000000e+00
     captain_468  _C2975     1.000000000000e+00
-    captain_468  OBJ        9.000000000000e+00
+    captain_468  OBJ        8.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_469  _C3        1.000000000000e+00
     captain_469  _C1408     1.000000000000e+00
     captain_469  _C2976     1.000000000000e+00
-    captain_469  OBJ       -3.000000000000e-01
+    captain_469  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_47  _C3        1.000000000000e+00
@@ -6261,7 +6267,7 @@ COLUMNS
     captain_470  _C3        1.000000000000e+00
     captain_470  _C1409     1.000000000000e+00
     captain_470  _C2977     1.000000000000e+00
-    captain_470  OBJ        1.300000000000e+00
+    captain_470  OBJ        1.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_471  _C3        1.000000000000e+00
@@ -6290,7 +6296,7 @@ COLUMNS
     captain_475  _C3        1.000000000000e+00
     captain_475  _C1010     1.000000000000e+00
     captain_475  _C2578     1.000000000000e+00
-    captain_475  OBJ        1.000000000000e+00
+    captain_475  OBJ       -1.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_476  _C3        1.000000000000e+00
@@ -6302,7 +6308,6 @@ COLUMNS
     captain_477  _C3        1.000000000000e+00
     captain_477  _C1431     1.000000000000e+00
     captain_477  _C2999     1.000000000000e+00
-    captain_477  OBJ       -5.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_478  _C3        1.000000000000e+00
@@ -6400,7 +6405,7 @@ COLUMNS
     captain_492  _C3        1.000000000000e+00
     captain_492  _C1463     1.000000000000e+00
     captain_492  _C3031     1.000000000000e+00
-    captain_492  OBJ        1.800000000000e+00
+    captain_492  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_493  _C3        1.000000000000e+00
@@ -6411,7 +6416,7 @@ COLUMNS
     captain_494  _C3        1.000000000000e+00
     captain_494  _C1465     1.000000000000e+00
     captain_494  _C3033     1.000000000000e+00
-    captain_494  OBJ        8.000000000000e-01
+    captain_494  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_495  _C3        1.000000000000e+00
@@ -6427,7 +6432,7 @@ COLUMNS
     captain_497  _C3        1.000000000000e+00
     captain_497  _C1468     1.000000000000e+00
     captain_497  _C3036     1.000000000000e+00
-    captain_497  OBJ        1.800000000000e+00
+    captain_497  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_498  _C3        1.000000000000e+00
@@ -6438,13 +6443,13 @@ COLUMNS
     captain_499  _C3        1.000000000000e+00
     captain_499  _C1470     1.000000000000e+00
     captain_499  _C3038     1.000000000000e+00
-    captain_499  OBJ        1.500000000000e+00
+    captain_499  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_5  _C3        1.000000000000e+00
     captain_5  _C793      1.000000000000e+00
     captain_5  _C2361     1.000000000000e+00
-    captain_5  OBJ        5.800000000000e+00
+    captain_5  OBJ        5.100000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_50  _C3        1.000000000000e+00
@@ -6461,7 +6466,7 @@ COLUMNS
     captain_501  _C3        1.000000000000e+00
     captain_501  _C1472     1.000000000000e+00
     captain_501  _C3040     1.000000000000e+00
-    captain_501  OBJ        5.000000000000e-01
+    captain_501  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_502  _C3        1.000000000000e+00
@@ -6487,7 +6492,7 @@ COLUMNS
     captain_506  _C3        1.000000000000e+00
     captain_506  _C1477     1.000000000000e+00
     captain_506  _C3045     1.000000000000e+00
-    captain_506  OBJ        3.800000000000e+00
+    captain_506  OBJ        4.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_507  _C3        1.000000000000e+00
@@ -6503,7 +6508,7 @@ COLUMNS
     captain_509  _C3        1.000000000000e+00
     captain_509  _C1479     1.000000000000e+00
     captain_509  _C3047     1.000000000000e+00
-    captain_509  OBJ        6.200000000000e+00
+    captain_509  OBJ        5.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_51  _C3        1.000000000000e+00
@@ -6519,7 +6524,7 @@ COLUMNS
     captain_511  _C3        1.000000000000e+00
     captain_511  _C1481     1.000000000000e+00
     captain_511  _C3049     1.000000000000e+00
-    captain_511  OBJ        5.000000000000e-01
+    captain_511  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_512  _C3        1.000000000000e+00
@@ -6540,7 +6545,7 @@ COLUMNS
     captain_515  _C3        1.000000000000e+00
     captain_515  _C1485     1.000000000000e+00
     captain_515  _C3053     1.000000000000e+00
-    captain_515  OBJ        1.000000000000e+00
+    captain_515  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_516  _C3        1.000000000000e+00
@@ -6561,7 +6566,7 @@ COLUMNS
     captain_519  _C3        1.000000000000e+00
     captain_519  _C1489     1.000000000000e+00
     captain_519  _C3057     1.000000000000e+00
-    captain_519  OBJ        8.000000000000e-01
+    captain_519  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_52  _C3        1.000000000000e+00
@@ -6572,7 +6577,7 @@ COLUMNS
     captain_520  _C3        1.000000000000e+00
     captain_520  _C1490     1.000000000000e+00
     captain_520  _C3058     1.000000000000e+00
-    captain_520  OBJ        2.800000000000e+00
+    captain_520  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_521  _C3        1.000000000000e+00
@@ -6604,19 +6609,18 @@ COLUMNS
     captain_526  _C3        1.000000000000e+00
     captain_526  _C1506     1.000000000000e+00
     captain_526  _C3074     1.000000000000e+00
-    captain_526  OBJ        2.400000000000e+00
+    captain_526  OBJ        3.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_527  _C3        1.000000000000e+00
     captain_527  _C1507     1.000000000000e+00
     captain_527  _C3075     1.000000000000e+00
-    captain_527  OBJ        1.800000000000e+00
+    captain_527  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_528  _C3        1.000000000000e+00
     captain_528  _C1508     1.000000000000e+00
     captain_528  _C3076     1.000000000000e+00
-    captain_528  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_529  _C3        1.000000000000e+00
@@ -6643,31 +6647,31 @@ COLUMNS
     captain_532  _C3        1.000000000000e+00
     captain_532  _C1512     1.000000000000e+00
     captain_532  _C3080     1.000000000000e+00
-    captain_532  OBJ        5.500000000000e+00
+    captain_532  OBJ        4.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_533  _C3        1.000000000000e+00
     captain_533  _C1513     1.000000000000e+00
     captain_533  _C3081     1.000000000000e+00
-    captain_533  OBJ        2.000000000000e-01
+    captain_533  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_534  _C3        1.000000000000e+00
     captain_534  _C1514     1.000000000000e+00
     captain_534  _C3082     1.000000000000e+00
-    captain_534  OBJ        1.500000000000e+00
+    captain_534  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_535  _C3        1.000000000000e+00
     captain_535  _C1515     1.000000000000e+00
     captain_535  _C3083     1.000000000000e+00
-    captain_535  OBJ        2.500000000000e+00
+    captain_535  OBJ        3.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_536  _C3        1.000000000000e+00
     captain_536  _C1516     1.000000000000e+00
     captain_536  _C3084     1.000000000000e+00
-    captain_536  OBJ        1.800000000000e+00
+    captain_536  OBJ        2.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_537  _C3        1.000000000000e+00
@@ -6678,13 +6682,13 @@ COLUMNS
     captain_538  _C3        1.000000000000e+00
     captain_538  _C1518     1.000000000000e+00
     captain_538  _C3086     1.000000000000e+00
-    captain_538  OBJ        5.000000000000e-01
+    captain_538  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_539  _C3        1.000000000000e+00
     captain_539  _C1519     1.000000000000e+00
     captain_539  _C3087     1.000000000000e+00
-    captain_539  OBJ        4.000000000000e-01
+    captain_539  OBJ        1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_54  _C3        1.000000000000e+00
@@ -6695,7 +6699,7 @@ COLUMNS
     captain_540  _C3        1.000000000000e+00
     captain_540  _C816      1.000000000000e+00
     captain_540  _C2384     1.000000000000e+00
-    captain_540  OBJ        2.500000000000e+00
+    captain_540  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_541  _C3        1.000000000000e+00
@@ -6706,7 +6710,7 @@ COLUMNS
     captain_542  _C3        1.000000000000e+00
     captain_542  _C1521     1.000000000000e+00
     captain_542  _C3089     1.000000000000e+00
-    captain_542  OBJ        4.200000000000e+00
+    captain_542  OBJ        4.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_543  _C3        1.000000000000e+00
@@ -6717,7 +6721,7 @@ COLUMNS
     captain_544  _C3        1.000000000000e+00
     captain_544  _C1523     1.000000000000e+00
     captain_544  _C3091     1.000000000000e+00
-    captain_544  OBJ        1.800000000000e+00
+    captain_544  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_545  _C3        1.000000000000e+00
@@ -6760,7 +6764,7 @@ COLUMNS
     captain_551  _C3        1.000000000000e+00
     captain_551  _C1541     1.000000000000e+00
     captain_551  _C3109     1.000000000000e+00
-    captain_551  OBJ        5.200000000000e+00
+    captain_551  OBJ        5.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_552  _C3        1.000000000000e+00
@@ -6771,6 +6775,7 @@ COLUMNS
     captain_553  _C3        1.000000000000e+00
     captain_553  _C1242     1.000000000000e+00
     captain_553  _C2810     1.000000000000e+00
+    captain_553  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_554  _C3        1.000000000000e+00
@@ -6796,7 +6801,7 @@ COLUMNS
     captain_558  _C3        1.000000000000e+00
     captain_558  _C1162     1.000000000000e+00
     captain_558  _C2730     1.000000000000e+00
-    captain_558  OBJ        2.200000000000e+00
+    captain_558  OBJ        3.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_559  _C3        1.000000000000e+00
@@ -6827,7 +6832,7 @@ COLUMNS
     captain_563  _C3        1.000000000000e+00
     captain_563  _C1551     1.000000000000e+00
     captain_563  _C3119     1.000000000000e+00
-    captain_563  OBJ        4.000000000000e+00
+    captain_563  OBJ        4.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_564  _C3        1.000000000000e+00
@@ -6838,7 +6843,7 @@ COLUMNS
     captain_565  _C3        1.000000000000e+00
     captain_565  _C1553     1.000000000000e+00
     captain_565  _C3121     1.000000000000e+00
-    captain_565  OBJ        4.500000000000e+00
+    captain_565  OBJ        4.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_566  _C3        1.000000000000e+00
@@ -6850,7 +6855,7 @@ COLUMNS
     captain_567  _C3        1.000000000000e+00
     captain_567  _C1554     1.000000000000e+00
     captain_567  _C3122     1.000000000000e+00
-    captain_567  OBJ        2.000000000000e-01
+    captain_567  OBJ        5.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_568  _C3        1.000000000000e+00
@@ -6861,7 +6866,7 @@ COLUMNS
     captain_569  _C3        1.000000000000e+00
     captain_569  _C1556     1.000000000000e+00
     captain_569  _C3124     1.000000000000e+00
-    captain_569  OBJ        3.000000000000e+00
+    captain_569  OBJ        3.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_57  _C3        1.000000000000e+00
@@ -6872,7 +6877,7 @@ COLUMNS
     captain_570  _C3        1.000000000000e+00
     captain_570  _C1557     1.000000000000e+00
     captain_570  _C3125     1.000000000000e+00
-    captain_570  OBJ        3.800000000000e+00
+    captain_570  OBJ        4.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_571  _C3        1.000000000000e+00
@@ -6883,13 +6888,13 @@ COLUMNS
     captain_572  _C3        1.000000000000e+00
     captain_572  _C1559     1.000000000000e+00
     captain_572  _C3127     1.000000000000e+00
-    captain_572  OBJ        2.500000000000e+00
+    captain_572  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_573  _C3        1.000000000000e+00
     captain_573  _C1560     1.000000000000e+00
     captain_573  _C3128     1.000000000000e+00
-    captain_573  OBJ        3.200000000000e+00
+    captain_573  OBJ        3.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_574  _C3        1.000000000000e+00
@@ -6911,13 +6916,13 @@ COLUMNS
     captain_577  _C3        1.000000000000e+00
     captain_577  _C1524     1.000000000000e+00
     captain_577  _C3092     1.000000000000e+00
-    captain_577  OBJ        3.000000000000e+00
+    captain_577  OBJ        4.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_578  _C3        1.000000000000e+00
     captain_578  _C817      1.000000000000e+00
     captain_578  _C2385     1.000000000000e+00
-    captain_578  OBJ        7.000000000000e-01
+    captain_578  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_579  _C3        1.000000000000e+00
@@ -6946,6 +6951,7 @@ COLUMNS
     captain_582  _C3        1.000000000000e+00
     captain_582  _C1244     1.000000000000e+00
     captain_582  _C2812     1.000000000000e+00
+    captain_582  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_583  _C3        1.000000000000e+00
@@ -6967,6 +6973,7 @@ COLUMNS
     captain_586  _C3        1.000000000000e+00
     captain_586  _C1245     1.000000000000e+00
     captain_586  _C2813     1.000000000000e+00
+    captain_586  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_587  _C3        1.000000000000e+00
@@ -6992,13 +6999,13 @@ COLUMNS
     captain_590  _C3        1.000000000000e+00
     captain_590  _C1562     1.000000000000e+00
     captain_590  _C3130     1.000000000000e+00
-    captain_590  OBJ        4.500000000000e+00
+    captain_590  OBJ        4.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_591  _C3        1.000000000000e+00
     captain_591  _C1163     1.000000000000e+00
     captain_591  _C2731     1.000000000000e+00
-    captain_591  OBJ        1.000000000000e+00
+    captain_591  OBJ        1.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_592  _C3        1.000000000000e+00
@@ -7014,7 +7021,7 @@ COLUMNS
     captain_594  _C3        1.000000000000e+00
     captain_594  _C1011     1.000000000000e+00
     captain_594  _C2579     1.000000000000e+00
-    captain_594  OBJ        4.000000000000e+00
+    captain_594  OBJ        5.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_595  _C3        1.000000000000e+00
@@ -7025,7 +7032,7 @@ COLUMNS
     captain_596  _C3        1.000000000000e+00
     captain_596  _C1012     1.000000000000e+00
     captain_596  _C2580     1.000000000000e+00
-    captain_596  OBJ        3.000000000000e+00
+    captain_596  OBJ        1.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_597  _C3        1.000000000000e+00
@@ -7036,7 +7043,7 @@ COLUMNS
     captain_598  _C3        1.000000000000e+00
     captain_598  _C1563     1.000000000000e+00
     captain_598  _C3131     1.000000000000e+00
-    captain_598  OBJ        2.500000000000e+00
+    captain_598  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_599  _C3        1.000000000000e+00
@@ -7048,7 +7055,7 @@ COLUMNS
     captain_6  _C3        1.000000000000e+00
     captain_6  _C794      1.000000000000e+00
     captain_6  _C2362     1.000000000000e+00
-    captain_6  OBJ        2.000000000000e+00
+    captain_6  OBJ        2.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_60  _C3        1.000000000000e+00
@@ -7060,13 +7067,13 @@ COLUMNS
     captain_600  _C3        1.000000000000e+00
     captain_600  _C1013     1.000000000000e+00
     captain_600  _C2581     1.000000000000e+00
-    captain_600  OBJ       -5.000000000000e-01
+    captain_600  OBJ       -7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_601  _C3        1.000000000000e+00
     captain_601  _C1129     1.000000000000e+00
     captain_601  _C2697     1.000000000000e+00
-    captain_601  OBJ        1.500000000000e+00
+    captain_601  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_602  _C3        1.000000000000e+00
@@ -7103,7 +7110,7 @@ COLUMNS
     captain_608  _C3        1.000000000000e+00
     captain_608  _C1015     1.000000000000e+00
     captain_608  _C2583     1.000000000000e+00
-    captain_608  OBJ       -2.000000000000e-01
+    captain_608  OBJ       -3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_609  _C3        1.000000000000e+00
@@ -7135,7 +7142,7 @@ COLUMNS
     captain_614  _C3        1.000000000000e+00
     captain_614  _C1247     1.000000000000e+00
     captain_614  _C2815     1.000000000000e+00
-    captain_614  OBJ        3.000000000000e+00
+    captain_614  OBJ        2.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_615  _C3        1.000000000000e+00
@@ -7153,7 +7160,7 @@ COLUMNS
     captain_617  _C3        1.000000000000e+00
     captain_617  _C1318     1.000000000000e+00
     captain_617  _C2886     1.000000000000e+00
-    captain_617  OBJ        4.800000000000e+00
+    captain_617  OBJ        6.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_618  _C3        1.000000000000e+00
@@ -7181,7 +7188,7 @@ COLUMNS
     captain_621  _C3        1.000000000000e+00
     captain_621  _C971      1.000000000000e+00
     captain_621  _C2539     1.000000000000e+00
-    captain_621  OBJ        4.500000000000e+00
+    captain_621  OBJ        4.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_622  _C3        1.000000000000e+00
@@ -7207,13 +7214,13 @@ COLUMNS
     captain_626  _C3        1.000000000000e+00
     captain_626  _C1199     1.000000000000e+00
     captain_626  _C2767     1.000000000000e+00
-    captain_626  OBJ        2.000000000000e+00
+    captain_626  OBJ        2.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_627  _C3        1.000000000000e+00
     captain_627  _C1200     1.000000000000e+00
     captain_627  _C2768     1.000000000000e+00
-    captain_627  OBJ        7.000000000000e-01
+    captain_627  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_628  _C3        1.000000000000e+00
@@ -7230,19 +7237,19 @@ COLUMNS
     captain_63  _C3        1.000000000000e+00
     captain_63  _C864      1.000000000000e+00
     captain_63  _C2432     1.000000000000e+00
-    captain_63  OBJ        2.000000000000e+00
+    captain_63  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_630  _C3        1.000000000000e+00
     captain_630  _C1248     1.000000000000e+00
     captain_630  _C2816     1.000000000000e+00
-    captain_630  OBJ        3.700000000000e+00
+    captain_630  OBJ        3.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_631  _C3        1.000000000000e+00
     captain_631  _C1249     1.000000000000e+00
     captain_631  _C2817     1.000000000000e+00
-    captain_631  OBJ        5.000000000000e-01
+    captain_631  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_632  _C3        1.000000000000e+00
@@ -7253,7 +7260,7 @@ COLUMNS
     captain_633  _C3        1.000000000000e+00
     captain_633  _C1364     1.000000000000e+00
     captain_633  _C2932     1.000000000000e+00
-    captain_633  OBJ        1.000000000000e+00
+    captain_633  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_634  _C3        1.000000000000e+00
@@ -7265,7 +7272,7 @@ COLUMNS
     captain_635  _C3        1.000000000000e+00
     captain_635  _C1366     1.000000000000e+00
     captain_635  _C2934     1.000000000000e+00
-    captain_635  OBJ        1.700000000000e+00
+    captain_635  OBJ        1.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_636  _C3        1.000000000000e+00
@@ -7289,13 +7296,13 @@ COLUMNS
     captain_639  _C3        1.000000000000e+00
     captain_639  _C1493     1.000000000000e+00
     captain_639  _C3061     1.000000000000e+00
-    captain_639  OBJ        2.000000000000e-01
+    captain_639  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_64  _C3        1.000000000000e+00
     captain_64  _C865      1.000000000000e+00
     captain_64  _C2433     1.000000000000e+00
-    captain_64  OBJ        1.800000000000e+00
+    captain_64  OBJ        2.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_640  _C3        1.000000000000e+00
@@ -7311,7 +7318,7 @@ COLUMNS
     captain_642  _C3        1.000000000000e+00
     captain_642  _C1525     1.000000000000e+00
     captain_642  _C3093     1.000000000000e+00
-    captain_642  OBJ        2.200000000000e+00
+    captain_642  OBJ        2.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_643  _C3        1.000000000000e+00
@@ -7322,7 +7329,7 @@ COLUMNS
     captain_644  _C3        1.000000000000e+00
     captain_644  _C895      1.000000000000e+00
     captain_644  _C2463     1.000000000000e+00
-    captain_644  OBJ        4.000000000000e+00
+    captain_644  OBJ        5.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_645  _C3        1.000000000000e+00
@@ -7354,7 +7361,7 @@ COLUMNS
     captain_65  _C3        1.000000000000e+00
     captain_65  _C866      1.000000000000e+00
     captain_65  _C2434     1.000000000000e+00
-    captain_65  OBJ        2.000000000000e+00
+    captain_65  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_650  _C3        1.000000000000e+00
@@ -7421,13 +7428,13 @@ COLUMNS
     captain_660  _C3        1.000000000000e+00
     captain_660  _C1017     1.000000000000e+00
     captain_660  _C2585     1.000000000000e+00
-    captain_660  OBJ        4.200000000000e+00
+    captain_660  OBJ        1.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_661  _C3        1.000000000000e+00
     captain_661  _C1134     1.000000000000e+00
     captain_661  _C2702     1.000000000000e+00
-    captain_661  OBJ        3.500000000000e+00
+    captain_661  OBJ        4.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_662  _C3        1.000000000000e+00
@@ -7444,7 +7451,7 @@ COLUMNS
     captain_664  _C3        1.000000000000e+00
     captain_664  _C1527     1.000000000000e+00
     captain_664  _C3095     1.000000000000e+00
-    captain_664  OBJ        5.200000000000e+00
+    captain_664  OBJ        6.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_665  _C3        1.000000000000e+00
@@ -7482,7 +7489,6 @@ COLUMNS
     captain_670  _C3        1.000000000000e+00
     captain_670  _C856      1.000000000000e+00
     captain_670  _C2424     1.000000000000e+00
-    captain_670  OBJ       -5.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_671  _C3        1.000000000000e+00
@@ -7510,13 +7516,13 @@ COLUMNS
     captain_675  _C3        1.000000000000e+00
     captain_675  _C1019     1.000000000000e+00
     captain_675  _C2587     1.000000000000e+00
-    captain_675  OBJ       -5.000000000000e-01
+    captain_675  OBJ       -3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_676  _C3        1.000000000000e+00
     captain_676  _C1528     1.000000000000e+00
     captain_676  _C3096     1.000000000000e+00
-    captain_676  OBJ        7.000000000000e+00
+    captain_676  OBJ        7.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_677  _C3        1.000000000000e+00
@@ -7534,7 +7540,7 @@ COLUMNS
     captain_679  _C3        1.000000000000e+00
     captain_679  _C1413     1.000000000000e+00
     captain_679  _C2981     1.000000000000e+00
-    captain_679  OBJ        2.700000000000e+00
+    captain_679  OBJ        3.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_68  _C3        1.000000000000e+00
@@ -7571,7 +7577,7 @@ COLUMNS
     captain_685  _C3        1.000000000000e+00
     captain_685  _C1321     1.000000000000e+00
     captain_685  _C2889     1.000000000000e+00
-    captain_685  OBJ        2.000000000000e-01
+    captain_685  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_686  _C3        1.000000000000e+00
@@ -7588,7 +7594,7 @@ COLUMNS
     captain_688  _C3        1.000000000000e+00
     captain_688  _C1170     1.000000000000e+00
     captain_688  _C2738     1.000000000000e+00
-    captain_688  OBJ        1.200000000000e+00
+    captain_688  OBJ        1.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_689  _C3        1.000000000000e+00
@@ -7610,7 +7616,7 @@ COLUMNS
     captain_691  _C3        1.000000000000e+00
     captain_691  _C1135     1.000000000000e+00
     captain_691  _C2703     1.000000000000e+00
-    captain_691  OBJ        1.200000000000e+00
+    captain_691  OBJ        1.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_692  _C3        1.000000000000e+00
@@ -7637,7 +7643,7 @@ COLUMNS
     captain_696  _C3        1.000000000000e+00
     captain_696  _C1414     1.000000000000e+00
     captain_696  _C2982     1.000000000000e+00
-    captain_696  OBJ        1.700000000000e+00
+    captain_696  OBJ        2.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_697  _C3        1.000000000000e+00
@@ -7686,7 +7692,7 @@ COLUMNS
     captain_703  _C3        1.000000000000e+00
     captain_703  _C1323     1.000000000000e+00
     captain_703  _C2891     1.000000000000e+00
-    captain_703  OBJ        8.000000000000e-01
+    captain_703  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_704  _C3        1.000000000000e+00
@@ -7697,13 +7703,13 @@ COLUMNS
     captain_705  _C3        1.000000000000e+00
     captain_705  _C897      1.000000000000e+00
     captain_705  _C2465     1.000000000000e+00
-    captain_705  OBJ        2.500000000000e+00
+    captain_705  OBJ        3.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_706  _C3        1.000000000000e+00
     captain_706  _C1021     1.000000000000e+00
     captain_706  _C2589     1.000000000000e+00
-    captain_706  OBJ        2.000000000000e-01
+    captain_706  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_707  _C3        1.000000000000e+00
@@ -7714,7 +7720,7 @@ COLUMNS
     captain_708  _C3        1.000000000000e+00
     captain_708  _C1204     1.000000000000e+00
     captain_708  _C2772     1.000000000000e+00
-    captain_708  OBJ        2.000000000000e+00
+    captain_708  OBJ        2.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_709  _C3        1.000000000000e+00
@@ -7736,13 +7742,13 @@ COLUMNS
     captain_711  _C3        1.000000000000e+00
     captain_711  _C1416     1.000000000000e+00
     captain_711  _C2984     1.000000000000e+00
-    captain_711  OBJ       -3.000000000000e-01
+    captain_711  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_712  _C3        1.000000000000e+00
     captain_712  _C1417     1.000000000000e+00
     captain_712  _C2985     1.000000000000e+00
-    captain_712  OBJ        2.500000000000e+00
+    captain_712  OBJ        3.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_713  _C3        1.000000000000e+00
@@ -7787,7 +7793,7 @@ COLUMNS
     captain_72  _C3        1.000000000000e+00
     captain_72  _C873      1.000000000000e+00
     captain_72  _C2441     1.000000000000e+00
-    captain_72  OBJ        2.800000000000e+00
+    captain_72  OBJ        3.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_720  _C3        1.000000000000e+00
@@ -7832,7 +7838,7 @@ COLUMNS
     captain_727  _C3        1.000000000000e+00
     captain_727  _C1253     1.000000000000e+00
     captain_727  _C2821     1.000000000000e+00
-    captain_727  OBJ        3.700000000000e+00
+    captain_727  OBJ        1.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_728  _C3        1.000000000000e+00
@@ -8017,7 +8023,7 @@ COLUMNS
     captain_757  _C3        1.000000000000e+00
     captain_757  _C1209     1.000000000000e+00
     captain_757  _C2777     1.000000000000e+00
-    captain_757  OBJ        2.500000000000e+00
+    captain_757  OBJ        3.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_758  _C3        1.000000000000e+00
@@ -8035,7 +8041,7 @@ COLUMNS
     captain_76  _C3        1.000000000000e+00
     captain_76  _C877      1.000000000000e+00
     captain_76  _C2445     1.000000000000e+00
-    captain_76  OBJ        5.000000000000e-01
+    captain_76  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_760  _C3        1.000000000000e+00
@@ -8075,7 +8081,7 @@ COLUMNS
     captain_766  _C3        1.000000000000e+00
     captain_766  _C1326     1.000000000000e+00
     captain_766  _C2894     1.000000000000e+00
-    captain_766  OBJ        5.000000000000e-01
+    captain_766  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_767  _C3        1.000000000000e+00
@@ -8097,7 +8103,7 @@ COLUMNS
     captain_77  _C3        1.000000000000e+00
     captain_77  _C878      1.000000000000e+00
     captain_77  _C2446     1.000000000000e+00
-    captain_77  OBJ        3.200000000000e+00
+    captain_77  OBJ        4.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_770  _C3        1.000000000000e+00
@@ -8206,7 +8212,7 @@ COLUMNS
     captain_8  _C3        1.000000000000e+00
     captain_8  _C795      1.000000000000e+00
     captain_8  _C2363     1.000000000000e+00
-    captain_8  OBJ        2.700000000000e+00
+    captain_8  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_80  _C3        1.000000000000e+00
@@ -8227,24 +8233,25 @@ COLUMNS
     captain_83  _C3        1.000000000000e+00
     captain_83  _C884      1.000000000000e+00
     captain_83  _C2452     1.000000000000e+00
+    captain_83  OBJ        2.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_84  _C3        1.000000000000e+00
     captain_84  _C885      1.000000000000e+00
     captain_84  _C2453     1.000000000000e+00
-    captain_84  OBJ        2.800000000000e+00
+    captain_84  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_85  _C3        1.000000000000e+00
     captain_85  _C886      1.000000000000e+00
     captain_85  _C2454     1.000000000000e+00
-    captain_85  OBJ        6.800000000000e+00
+    captain_85  OBJ        3.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_86  _C3        1.000000000000e+00
     captain_86  _C887      1.000000000000e+00
     captain_86  _C2455     1.000000000000e+00
-    captain_86  OBJ        3.200000000000e+00
+    captain_86  OBJ        3.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_87  _C3        1.000000000000e+00
@@ -8260,13 +8267,13 @@ COLUMNS
     captain_89  _C3        1.000000000000e+00
     captain_89  _C890      1.000000000000e+00
     captain_89  _C2458     1.000000000000e+00
-    captain_89  OBJ        2.200000000000e+00
+    captain_89  OBJ        2.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_9  _C3        1.000000000000e+00
     captain_9  _C796      1.000000000000e+00
     captain_9  _C2364     1.000000000000e+00
-    captain_9  OBJ        1.500000000000e+00
+    captain_9  OBJ        1.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     captain_90  _C3        1.000000000000e+00
@@ -8338,7 +8345,7 @@ COLUMNS
     lineup_10  _C1581    -1.000000000000e+00
     lineup_10  _C3143     1.000000000000e+00
     lineup_10  _C3144     1.000000000000e+00
-    lineup_10  OBJ        1.000000000000e+00
+    lineup_10  OBJ        1.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_100  _C2        1.000000000000e+00
@@ -8466,7 +8473,7 @@ COLUMNS
     lineup_113  _C1599    -1.000000000000e+00
     lineup_113  _C3141     1.000000000000e+00
     lineup_113  _C3142     1.000000000000e+00
-    lineup_113  OBJ        4.700000000000e+00
+    lineup_113  OBJ        5.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_114  _C2        1.000000000000e+00
@@ -8525,7 +8532,7 @@ COLUMNS
     lineup_12  _C1583    -1.000000000000e+00
     lineup_12  _C3145     1.000000000000e+00
     lineup_12  _C3146     1.000000000000e+00
-    lineup_12  OBJ        6.300000000000e+00
+    lineup_12  OBJ        7.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_120  _C2        1.000000000000e+00
@@ -8576,7 +8583,7 @@ COLUMNS
     lineup_125  _C1725    -1.000000000000e+00
     lineup_125  _C3145     1.000000000000e+00
     lineup_125  _C3146     1.000000000000e+00
-    lineup_125  OBJ        1.500000000000e+00
+    lineup_125  OBJ        1.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_126  _C2        1.000000000000e+00
@@ -8611,7 +8618,7 @@ COLUMNS
     lineup_129  _C1728    -1.000000000000e+00
     lineup_129  _C3143     1.000000000000e+00
     lineup_129  _C3144     1.000000000000e+00
-    lineup_129  OBJ        5.000000000000e-01
+    lineup_129  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_13  _C2        1.000000000000e+00
@@ -8620,7 +8627,7 @@ COLUMNS
     lineup_13  _C1584    -1.000000000000e+00
     lineup_13  _C3147     1.000000000000e+00
     lineup_13  _C3148     1.000000000000e+00
-    lineup_13  OBJ        2.300000000000e+00
+    lineup_13  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_130  _C2        1.000000000000e+00
@@ -8637,7 +8644,7 @@ COLUMNS
     lineup_131  _C1730    -1.000000000000e+00
     lineup_131  _C3143     1.000000000000e+00
     lineup_131  _C3144     1.000000000000e+00
-    lineup_131  OBJ        4.500000000000e+00
+    lineup_131  OBJ        4.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_132  _C2        1.000000000000e+00
@@ -8655,7 +8662,7 @@ COLUMNS
     lineup_133  _C1732    -1.000000000000e+00
     lineup_133  _C3145     1.000000000000e+00
     lineup_133  _C3146     1.000000000000e+00
-    lineup_133  OBJ        2.200000000000e+00
+    lineup_133  OBJ        2.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_134  _C2        1.000000000000e+00
@@ -8664,7 +8671,7 @@ COLUMNS
     lineup_134  _C1733    -1.000000000000e+00
     lineup_134  _C3145     1.000000000000e+00
     lineup_134  _C3146     1.000000000000e+00
-    lineup_134  OBJ        2.200000000000e+00
+    lineup_134  OBJ        2.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_135  _C2        1.000000000000e+00
@@ -8673,7 +8680,7 @@ COLUMNS
     lineup_135  _C1734    -1.000000000000e+00
     lineup_135  _C3147     1.000000000000e+00
     lineup_135  _C3148     1.000000000000e+00
-    lineup_135  OBJ        6.500000000000e+00
+    lineup_135  OBJ        6.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_136  _C2        1.000000000000e+00
@@ -8707,6 +8714,7 @@ COLUMNS
     lineup_139  _C1738    -1.000000000000e+00
     lineup_139  _C3143     1.000000000000e+00
     lineup_139  _C3144     1.000000000000e+00
+    lineup_139  OBJ        5.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_14  _C2        1.000000000000e+00
@@ -8715,7 +8723,7 @@ COLUMNS
     lineup_14  _C1585    -1.000000000000e+00
     lineup_14  _C3145     1.000000000000e+00
     lineup_14  _C3146     1.000000000000e+00
-    lineup_14  OBJ        4.300000000000e+00
+    lineup_14  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_140  _C2        1.000000000000e+00
@@ -8741,7 +8749,7 @@ COLUMNS
     lineup_142  _C1741    -1.000000000000e+00
     lineup_142  _C3145     1.000000000000e+00
     lineup_142  _C3146     1.000000000000e+00
-    lineup_142  OBJ        3.500000000000e+00
+    lineup_142  OBJ        3.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_143  _C2        1.000000000000e+00
@@ -8791,7 +8799,7 @@ COLUMNS
     lineup_148  _C1746    -1.000000000000e+00
     lineup_148  _C3141     1.000000000000e+00
     lineup_148  _C3142     1.000000000000e+00
-    lineup_148  OBJ        3.500000000000e+00
+    lineup_148  OBJ        3.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_149  _C2        1.000000000000e+00
@@ -8816,7 +8824,7 @@ COLUMNS
     lineup_150  _C1748    -1.000000000000e+00
     lineup_150  _C3143     1.000000000000e+00
     lineup_150  _C3144     1.000000000000e+00
-    lineup_150  OBJ        3.500000000000e+00
+    lineup_150  OBJ        3.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_151  _C2        1.000000000000e+00
@@ -8851,7 +8859,7 @@ COLUMNS
     lineup_154  _C1752    -1.000000000000e+00
     lineup_154  _C3147     1.000000000000e+00
     lineup_154  _C3148     1.000000000000e+00
-    lineup_154  OBJ        2.800000000000e+00
+    lineup_154  OBJ        3.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_155  _C2        1.000000000000e+00
@@ -8877,7 +8885,7 @@ COLUMNS
     lineup_157  _C1765    -1.000000000000e+00
     lineup_157  _C3143     1.000000000000e+00
     lineup_157  _C3144     1.000000000000e+00
-    lineup_157  OBJ       -5.000000000000e-01
+    lineup_157  OBJ       -3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_158  _C2        1.000000000000e+00
@@ -8911,7 +8919,7 @@ COLUMNS
     lineup_160  _C1768    -1.000000000000e+00
     lineup_160  _C3143     1.000000000000e+00
     lineup_160  _C3144     1.000000000000e+00
-    lineup_160  OBJ        6.000000000000e-01
+    lineup_160  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_161  _C2        1.000000000000e+00
@@ -8920,7 +8928,7 @@ COLUMNS
     lineup_161  _C1769    -1.000000000000e+00
     lineup_161  _C3145     1.000000000000e+00
     lineup_161  _C3146     1.000000000000e+00
-    lineup_161  OBJ        1.200000000000e+00
+    lineup_161  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_162  _C2        1.000000000000e+00
@@ -8938,7 +8946,7 @@ COLUMNS
     lineup_163  _C1771    -1.000000000000e+00
     lineup_163  _C3145     1.000000000000e+00
     lineup_163  _C3146     1.000000000000e+00
-    lineup_163  OBJ       -8.000000000000e-01
+    lineup_163  OBJ       -7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_164  _C2        1.000000000000e+00
@@ -8955,7 +8963,7 @@ COLUMNS
     lineup_165  _C1773    -1.000000000000e+00
     lineup_165  _C3145     1.000000000000e+00
     lineup_165  _C3146     1.000000000000e+00
-    lineup_165  OBJ       -5.000000000000e-01
+    lineup_165  OBJ       -3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_166  _C2        1.000000000000e+00
@@ -8973,7 +8981,7 @@ COLUMNS
     lineup_167  _C1775    -1.000000000000e+00
     lineup_167  _C3143     1.000000000000e+00
     lineup_167  _C3144     1.000000000000e+00
-    lineup_167  OBJ       -5.000000000000e-01
+    lineup_167  OBJ       -3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_168  _C2        1.000000000000e+00
@@ -8982,7 +8990,7 @@ COLUMNS
     lineup_168  _C1776    -1.000000000000e+00
     lineup_168  _C3147     1.000000000000e+00
     lineup_168  _C3148     1.000000000000e+00
-    lineup_168  OBJ        2.800000000000e+00
+    lineup_168  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_169  _C2        1.000000000000e+00
@@ -9009,7 +9017,7 @@ COLUMNS
     lineup_170  _C1778    -1.000000000000e+00
     lineup_170  _C3145     1.000000000000e+00
     lineup_170  _C3146     1.000000000000e+00
-    lineup_170  OBJ        1.200000000000e+00
+    lineup_170  OBJ        2.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_171  _C2        1.000000000000e+00
@@ -9035,7 +9043,7 @@ COLUMNS
     lineup_173  _C1781    -1.000000000000e+00
     lineup_173  _C3143     1.000000000000e+00
     lineup_173  _C3144     1.000000000000e+00
-    lineup_173  OBJ        2.000000000000e+00
+    lineup_173  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_174  _C2        1.000000000000e+00
@@ -9061,7 +9069,7 @@ COLUMNS
     lineup_176  _C1784    -1.000000000000e+00
     lineup_176  _C3143     1.000000000000e+00
     lineup_176  _C3144     1.000000000000e+00
-    lineup_176  OBJ       -2.000000000000e-01
+    lineup_176  OBJ       -3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_177  _C2        1.000000000000e+00
@@ -9070,7 +9078,7 @@ COLUMNS
     lineup_177  _C1785    -1.000000000000e+00
     lineup_177  _C3147     1.000000000000e+00
     lineup_177  _C3148     1.000000000000e+00
-    lineup_177  OBJ       -8.000000000000e-01
+    lineup_177  OBJ       -1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_178  _C2        1.000000000000e+00
@@ -9079,7 +9087,7 @@ COLUMNS
     lineup_178  _C1786    -1.000000000000e+00
     lineup_178  _C3143     1.000000000000e+00
     lineup_178  _C3144     1.000000000000e+00
-    lineup_178  OBJ        6.000000000000e-01
+    lineup_178  OBJ       -5.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_179  _C2        1.000000000000e+00
@@ -9121,7 +9129,7 @@ COLUMNS
     lineup_182  _C1790    -1.000000000000e+00
     lineup_182  _C3143     1.000000000000e+00
     lineup_182  _C3144     1.000000000000e+00
-    lineup_182  OBJ        1.500000000000e+00
+    lineup_182  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_183  _C2        1.000000000000e+00
@@ -9188,7 +9196,7 @@ COLUMNS
     lineup_19  _C1590    -1.000000000000e+00
     lineup_19  _C3145     1.000000000000e+00
     lineup_19  _C3146     1.000000000000e+00
-    lineup_19  OBJ        3.700000000000e+00
+    lineup_19  OBJ        4.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_190  _C2        1.000000000000e+00
@@ -9294,7 +9302,7 @@ COLUMNS
     lineup_20  _C1591    -1.000000000000e+00
     lineup_20  _C3143     1.000000000000e+00
     lineup_20  _C3144     1.000000000000e+00
-    lineup_20  OBJ        2.700000000000e+00
+    lineup_20  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_200  _C2        1.000000000000e+00
@@ -9329,7 +9337,7 @@ COLUMNS
     lineup_203  _C1825    -1.000000000000e+00
     lineup_203  _C3143     1.000000000000e+00
     lineup_203  _C3144     1.000000000000e+00
-    lineup_203  OBJ        3.000000000000e+00
+    lineup_203  OBJ        2.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_204  _C2        1.000000000000e+00
@@ -9338,7 +9346,7 @@ COLUMNS
     lineup_204  _C2112    -1.000000000000e+00
     lineup_204  _C3143     1.000000000000e+00
     lineup_204  _C3144     1.000000000000e+00
-    lineup_204  OBJ        1.300000000000e+00
+    lineup_204  OBJ        1.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_205  _C2        1.000000000000e+00
@@ -9347,7 +9355,7 @@ COLUMNS
     lineup_205  _C2156    -1.000000000000e+00
     lineup_205  _C3145     1.000000000000e+00
     lineup_205  _C3146     1.000000000000e+00
-    lineup_205  OBJ        1.700000000000e+00
+    lineup_205  OBJ        2.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_206  _C2        1.000000000000e+00
@@ -9389,7 +9397,7 @@ COLUMNS
     lineup_21  _C1996    -1.000000000000e+00
     lineup_21  _C3145     1.000000000000e+00
     lineup_21  _C3146     1.000000000000e+00
-    lineup_21  OBJ        2.700000000000e+00
+    lineup_21  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_210  _C2        1.000000000000e+00
@@ -9483,7 +9491,7 @@ COLUMNS
     lineup_22  _C1592    -1.000000000000e+00
     lineup_22  _C3145     1.000000000000e+00
     lineup_22  _C3146     1.000000000000e+00
-    lineup_22  OBJ        1.000000000000e+00
+    lineup_22  OBJ        1.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_220  _C2        1.000000000000e+00
@@ -9718,7 +9726,7 @@ COLUMNS
     lineup_244  _C1890    -1.000000000000e+00
     lineup_244  _C3145     1.000000000000e+00
     lineup_244  _C3146     1.000000000000e+00
-    lineup_244  OBJ        2.200000000000e+00
+    lineup_244  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_245  _C2        1.000000000000e+00
@@ -9727,7 +9735,7 @@ COLUMNS
     lineup_245  _C1891    -1.000000000000e+00
     lineup_245  _C3143     1.000000000000e+00
     lineup_245  _C3144     1.000000000000e+00
-    lineup_245  OBJ        2.000000000000e+00
+    lineup_245  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_246  _C2        1.000000000000e+00
@@ -9736,7 +9744,7 @@ COLUMNS
     lineup_246  _C1892    -1.000000000000e+00
     lineup_246  _C3147     1.000000000000e+00
     lineup_246  _C3148     1.000000000000e+00
-    lineup_246  OBJ        1.800000000000e+00
+    lineup_246  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_247  _C2        1.000000000000e+00
@@ -9745,7 +9753,7 @@ COLUMNS
     lineup_247  _C1893    -1.000000000000e+00
     lineup_247  _C3143     1.000000000000e+00
     lineup_247  _C3144     1.000000000000e+00
-    lineup_247  OBJ        1.800000000000e+00
+    lineup_247  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_248  _C2        1.000000000000e+00
@@ -9762,7 +9770,7 @@ COLUMNS
     lineup_249  _C1895    -1.000000000000e+00
     lineup_249  _C3145     1.000000000000e+00
     lineup_249  _C3146     1.000000000000e+00
-    lineup_249  OBJ        8.000000000000e-01
+    lineup_249  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_25  _C2        1.000000000000e+00
@@ -9779,7 +9787,7 @@ COLUMNS
     lineup_250  _C1896    -1.000000000000e+00
     lineup_250  _C3145     1.000000000000e+00
     lineup_250  _C3146     1.000000000000e+00
-    lineup_250  OBJ        2.200000000000e+00
+    lineup_250  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_251  _C2        1.000000000000e+00
@@ -9836,7 +9844,7 @@ COLUMNS
     lineup_257  _C1902    -1.000000000000e+00
     lineup_257  _C3143     1.000000000000e+00
     lineup_257  _C3144     1.000000000000e+00
-    lineup_257  OBJ        5.000000000000e-01
+    lineup_257  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_258  _C2        1.000000000000e+00
@@ -9854,7 +9862,7 @@ COLUMNS
     lineup_259  _C1903    -1.000000000000e+00
     lineup_259  _C3145     1.000000000000e+00
     lineup_259  _C3146     1.000000000000e+00
-    lineup_259  OBJ        2.200000000000e+00
+    lineup_259  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_26  _C2        1.000000000000e+00
@@ -9863,7 +9871,7 @@ COLUMNS
     lineup_26  _C1595    -1.000000000000e+00
     lineup_26  _C3145     1.000000000000e+00
     lineup_26  _C3146     1.000000000000e+00
-    lineup_26  OBJ        3.500000000000e+00
+    lineup_26  OBJ        4.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_260  _C2        1.000000000000e+00
@@ -9872,7 +9880,7 @@ COLUMNS
     lineup_260  _C1904    -1.000000000000e+00
     lineup_260  _C3143     1.000000000000e+00
     lineup_260  _C3144     1.000000000000e+00
-    lineup_260  OBJ        2.200000000000e+00
+    lineup_260  OBJ        2.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_261  _C2        1.000000000000e+00
@@ -9881,7 +9889,7 @@ COLUMNS
     lineup_261  _C1905    -1.000000000000e+00
     lineup_261  _C3145     1.000000000000e+00
     lineup_261  _C3146     1.000000000000e+00
-    lineup_261  OBJ        2.000000000000e+00
+    lineup_261  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_262  _C2        1.000000000000e+00
@@ -9898,7 +9906,7 @@ COLUMNS
     lineup_263  _C1907    -1.000000000000e+00
     lineup_263  _C3141     1.000000000000e+00
     lineup_263  _C3142     1.000000000000e+00
-    lineup_263  OBJ        3.800000000000e+00
+    lineup_263  OBJ        4.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_264  _C2        1.000000000000e+00
@@ -9915,7 +9923,7 @@ COLUMNS
     lineup_265  _C1909    -1.000000000000e+00
     lineup_265  _C3143     1.000000000000e+00
     lineup_265  _C3144     1.000000000000e+00
-    lineup_265  OBJ        1.800000000000e+00
+    lineup_265  OBJ        2.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_266  _C2        1.000000000000e+00
@@ -9932,7 +9940,7 @@ COLUMNS
     lineup_267  _C1924    -1.000000000000e+00
     lineup_267  _C3145     1.000000000000e+00
     lineup_267  _C3146     1.000000000000e+00
-    lineup_267  OBJ        1.500000000000e+00
+    lineup_267  OBJ        1.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_268  _C2        1.000000000000e+00
@@ -9941,7 +9949,7 @@ COLUMNS
     lineup_268  _C1925    -1.000000000000e+00
     lineup_268  _C3145     1.000000000000e+00
     lineup_268  _C3146     1.000000000000e+00
-    lineup_268  OBJ        3.000000000000e+00
+    lineup_268  OBJ        3.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_269  _C2        1.000000000000e+00
@@ -9967,7 +9975,7 @@ COLUMNS
     lineup_270  _C1927    -1.000000000000e+00
     lineup_270  _C3145     1.000000000000e+00
     lineup_270  _C3146     1.000000000000e+00
-    lineup_270  OBJ        3.500000000000e+00
+    lineup_270  OBJ        4.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_271  _C2        1.000000000000e+00
@@ -9976,7 +9984,7 @@ COLUMNS
     lineup_271  _C1928    -1.000000000000e+00
     lineup_271  _C3143     1.000000000000e+00
     lineup_271  _C3144     1.000000000000e+00
-    lineup_271  OBJ        8.000000000000e-01
+    lineup_271  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_272  _C2        1.000000000000e+00
@@ -10018,7 +10026,7 @@ COLUMNS
     lineup_276  _C1933    -1.000000000000e+00
     lineup_276  _C3145     1.000000000000e+00
     lineup_276  _C3146     1.000000000000e+00
-    lineup_276  OBJ        5.000000000000e-01
+    lineup_276  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_277  _C2        1.000000000000e+00
@@ -10043,7 +10051,7 @@ COLUMNS
     lineup_279  _C1936    -1.000000000000e+00
     lineup_279  _C3147     1.000000000000e+00
     lineup_279  _C3148     1.000000000000e+00
-    lineup_279  OBJ        1.200000000000e+00
+    lineup_279  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_28  _C2        1.000000000000e+00
@@ -10052,7 +10060,7 @@ COLUMNS
     lineup_28  _C2155    -1.000000000000e+00
     lineup_28  _C3141     1.000000000000e+00
     lineup_28  _C3142     1.000000000000e+00
-    lineup_28  OBJ        1.700000000000e+00
+    lineup_28  OBJ        1.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_280  _C2        1.000000000000e+00
@@ -10061,7 +10069,7 @@ COLUMNS
     lineup_280  _C1937    -1.000000000000e+00
     lineup_280  _C3145     1.000000000000e+00
     lineup_280  _C3146     1.000000000000e+00
-    lineup_280  OBJ        1.800000000000e+00
+    lineup_280  OBJ        2.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_281  _C2        1.000000000000e+00
@@ -10078,7 +10086,7 @@ COLUMNS
     lineup_282  _C1939    -1.000000000000e+00
     lineup_282  _C3145     1.000000000000e+00
     lineup_282  _C3146     1.000000000000e+00
-    lineup_282  OBJ        5.000000000000e-01
+    lineup_282  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_283  _C2        1.000000000000e+00
@@ -10087,7 +10095,7 @@ COLUMNS
     lineup_283  _C1940    -1.000000000000e+00
     lineup_283  _C3143     1.000000000000e+00
     lineup_283  _C3144     1.000000000000e+00
-    lineup_283  OBJ        1.500000000000e+00
+    lineup_283  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_284  _C2        1.000000000000e+00
@@ -10104,7 +10112,7 @@ COLUMNS
     lineup_285  _C1942    -1.000000000000e+00
     lineup_285  _C3143     1.000000000000e+00
     lineup_285  _C3144     1.000000000000e+00
-    lineup_285  OBJ        8.000000000000e-01
+    lineup_285  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_286  _C2        1.000000000000e+00
@@ -10113,7 +10121,7 @@ COLUMNS
     lineup_286  _C1943    -1.000000000000e+00
     lineup_286  _C3143     1.000000000000e+00
     lineup_286  _C3144     1.000000000000e+00
-    lineup_286  OBJ        1.500000000000e+00
+    lineup_286  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_287  _C2        1.000000000000e+00
@@ -10122,7 +10130,7 @@ COLUMNS
     lineup_287  _C1944    -1.000000000000e+00
     lineup_287  _C3147     1.000000000000e+00
     lineup_287  _C3148     1.000000000000e+00
-    lineup_287  OBJ        5.000000000000e-01
+    lineup_287  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_288  _C2        1.000000000000e+00
@@ -10131,7 +10139,7 @@ COLUMNS
     lineup_288  _C1945    -1.000000000000e+00
     lineup_288  _C3145     1.000000000000e+00
     lineup_288  _C3146     1.000000000000e+00
-    lineup_288  OBJ        1.200000000000e+00
+    lineup_288  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_289  _C2        1.000000000000e+00
@@ -10149,7 +10157,7 @@ COLUMNS
     lineup_29  _C1596    -1.000000000000e+00
     lineup_29  _C3143     1.000000000000e+00
     lineup_29  _C3144     1.000000000000e+00
-    lineup_29  OBJ        2.700000000000e+00
+    lineup_29  OBJ        3.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_290  _C2        1.000000000000e+00
@@ -10158,6 +10166,7 @@ COLUMNS
     lineup_290  _C1959    -1.000000000000e+00
     lineup_290  _C3143     1.000000000000e+00
     lineup_290  _C3144     1.000000000000e+00
+    lineup_290  OBJ        1.600000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_291  _C2        1.000000000000e+00
@@ -10166,7 +10175,7 @@ COLUMNS
     lineup_291  _C1960    -1.000000000000e+00
     lineup_291  _C3141     1.000000000000e+00
     lineup_291  _C3142     1.000000000000e+00
-    lineup_291  OBJ        4.300000000000e+00
+    lineup_291  OBJ        4.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_292  _C2        1.000000000000e+00
@@ -10183,7 +10192,7 @@ COLUMNS
     lineup_293  _C1962    -1.000000000000e+00
     lineup_293  _C3147     1.000000000000e+00
     lineup_293  _C3148     1.000000000000e+00
-    lineup_293  OBJ        6.700000000000e+00
+    lineup_293  OBJ        8.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_294  _C2        1.000000000000e+00
@@ -10192,7 +10201,7 @@ COLUMNS
     lineup_294  _C1963    -1.000000000000e+00
     lineup_294  _C3145     1.000000000000e+00
     lineup_294  _C3146     1.000000000000e+00
-    lineup_294  OBJ        8.500000000000e+00
+    lineup_294  OBJ        1.120000000000e+01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_295  _C2        1.000000000000e+00
@@ -10201,7 +10210,7 @@ COLUMNS
     lineup_295  _C1964    -1.000000000000e+00
     lineup_295  _C3145     1.000000000000e+00
     lineup_295  _C3146     1.000000000000e+00
-    lineup_295  OBJ        2.300000000000e+00
+    lineup_295  OBJ        2.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_296  _C2        1.000000000000e+00
@@ -10218,7 +10227,7 @@ COLUMNS
     lineup_297  _C1966    -1.000000000000e+00
     lineup_297  _C3147     1.000000000000e+00
     lineup_297  _C3148     1.000000000000e+00
-    lineup_297  OBJ        4.500000000000e+00
+    lineup_297  OBJ        5.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_298  _C2        1.000000000000e+00
@@ -10227,7 +10236,7 @@ COLUMNS
     lineup_298  _C1967    -1.000000000000e+00
     lineup_298  _C3143     1.000000000000e+00
     lineup_298  _C3144     1.000000000000e+00
-    lineup_298  OBJ        5.000000000000e+00
+    lineup_298  OBJ        6.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_299  _C2        1.000000000000e+00
@@ -10260,7 +10269,7 @@ COLUMNS
     lineup_300  _C1969    -1.000000000000e+00
     lineup_300  _C3145     1.000000000000e+00
     lineup_300  _C3146     1.000000000000e+00
-    lineup_300  OBJ        4.300000000000e+00
+    lineup_300  OBJ        3.600000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_301  _C2        1.000000000000e+00
@@ -10278,7 +10287,7 @@ COLUMNS
     lineup_302  _C1971    -1.000000000000e+00
     lineup_302  _C3143     1.000000000000e+00
     lineup_302  _C3144     1.000000000000e+00
-    lineup_302  OBJ        2.700000000000e+00
+    lineup_302  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_303  _C2        1.000000000000e+00
@@ -10287,7 +10296,7 @@ COLUMNS
     lineup_303  _C1972    -1.000000000000e+00
     lineup_303  _C3145     1.000000000000e+00
     lineup_303  _C3146     1.000000000000e+00
-    lineup_303  OBJ        3.000000000000e+00
+    lineup_303  OBJ        3.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_304  _C2        1.000000000000e+00
@@ -10296,7 +10305,7 @@ COLUMNS
     lineup_304  _C1973    -1.000000000000e+00
     lineup_304  _C3145     1.000000000000e+00
     lineup_304  _C3146     1.000000000000e+00
-    lineup_304  OBJ        1.500000000000e+00
+    lineup_304  OBJ        1.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_305  _C2        1.000000000000e+00
@@ -10321,6 +10330,7 @@ COLUMNS
     lineup_307  _C1976    -1.000000000000e+00
     lineup_307  _C3143     1.000000000000e+00
     lineup_307  _C3144     1.000000000000e+00
+    lineup_307  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_308  _C2        1.000000000000e+00
@@ -10337,7 +10347,7 @@ COLUMNS
     lineup_309  _C1978    -1.000000000000e+00
     lineup_309  _C3145     1.000000000000e+00
     lineup_309  _C3146     1.000000000000e+00
-    lineup_309  OBJ        1.300000000000e+00
+    lineup_309  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_31  _C2        1.000000000000e+00
@@ -10346,7 +10356,7 @@ COLUMNS
     lineup_31  _C1598    -1.000000000000e+00
     lineup_31  _C3143     1.000000000000e+00
     lineup_31  _C3144     1.000000000000e+00
-    lineup_31  OBJ        2.700000000000e+00
+    lineup_31  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_310  _C2        1.000000000000e+00
@@ -10379,7 +10389,7 @@ COLUMNS
     lineup_313  _C1982    -1.000000000000e+00
     lineup_313  _C3143     1.000000000000e+00
     lineup_313  _C3144     1.000000000000e+00
-    lineup_313  OBJ        4.500000000000e+00
+    lineup_313  OBJ        5.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_314  _C2        1.000000000000e+00
@@ -10388,7 +10398,7 @@ COLUMNS
     lineup_314  _C1998    -1.000000000000e+00
     lineup_314  _C3147     1.000000000000e+00
     lineup_314  _C3148     1.000000000000e+00
-    lineup_314  OBJ        2.500000000000e+00
+    lineup_314  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_315  _C2        1.000000000000e+00
@@ -10397,6 +10407,7 @@ COLUMNS
     lineup_315  _C1999    -1.000000000000e+00
     lineup_315  _C3143     1.000000000000e+00
     lineup_315  _C3144     1.000000000000e+00
+    lineup_315  OBJ       -1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_316  _C2        1.000000000000e+00
@@ -10405,7 +10416,7 @@ COLUMNS
     lineup_316  _C2000    -1.000000000000e+00
     lineup_316  _C3143     1.000000000000e+00
     lineup_316  _C3144     1.000000000000e+00
-    lineup_316  OBJ        2.300000000000e+00
+    lineup_316  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_317  _C2        1.000000000000e+00
@@ -10414,7 +10425,7 @@ COLUMNS
     lineup_317  _C2001    -1.000000000000e+00
     lineup_317  _C3145     1.000000000000e+00
     lineup_317  _C3146     1.000000000000e+00
-    lineup_317  OBJ       -3.000000000000e-01
+    lineup_317  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_318  _C2        1.000000000000e+00
@@ -10449,6 +10460,7 @@ COLUMNS
     lineup_320  _C2004    -1.000000000000e+00
     lineup_320  _C3145     1.000000000000e+00
     lineup_320  _C3146     1.000000000000e+00
+    lineup_320  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_321  _C2        1.000000000000e+00
@@ -10457,7 +10469,7 @@ COLUMNS
     lineup_321  _C2005    -1.000000000000e+00
     lineup_321  _C3143     1.000000000000e+00
     lineup_321  _C3144     1.000000000000e+00
-    lineup_321  OBJ        7.000000000000e+00
+    lineup_321  OBJ        6.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_322  _C2        1.000000000000e+00
@@ -10498,7 +10510,7 @@ COLUMNS
     lineup_326  _C2010    -1.000000000000e+00
     lineup_326  _C3147     1.000000000000e+00
     lineup_326  _C3148     1.000000000000e+00
-    lineup_326  OBJ        3.500000000000e+00
+    lineup_326  OBJ        4.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_327  _C2        1.000000000000e+00
@@ -10515,7 +10527,7 @@ COLUMNS
     lineup_328  _C2012    -1.000000000000e+00
     lineup_328  _C3147     1.000000000000e+00
     lineup_328  _C3148     1.000000000000e+00
-    lineup_328  OBJ        7.000000000000e-01
+    lineup_328  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_329  _C2        1.000000000000e+00
@@ -10541,7 +10553,7 @@ COLUMNS
     lineup_330  _C2014    -1.000000000000e+00
     lineup_330  _C3143     1.000000000000e+00
     lineup_330  _C3144     1.000000000000e+00
-    lineup_330  OBJ        2.000000000000e+00
+    lineup_330  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_331  _C2        1.000000000000e+00
@@ -10633,7 +10645,7 @@ COLUMNS
     lineup_340  _C2024    -1.000000000000e+00
     lineup_340  _C3147     1.000000000000e+00
     lineup_340  _C3148     1.000000000000e+00
-    lineup_340  OBJ       -3.000000000000e-01
+    lineup_340  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_341  _C2        1.000000000000e+00
@@ -10738,7 +10750,7 @@ COLUMNS
     lineup_351  _C2318    -1.000000000000e+00
     lineup_351  _C3145     1.000000000000e+00
     lineup_351  _C3146     1.000000000000e+00
-    lineup_351  OBJ        1.000000000000e+00
+    lineup_351  OBJ        1.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_352  _C2        1.000000000000e+00
@@ -10931,7 +10943,7 @@ COLUMNS
     lineup_371  _C2073    -1.000000000000e+00
     lineup_371  _C3145     1.000000000000e+00
     lineup_371  _C3146     1.000000000000e+00
-    lineup_371  OBJ        2.000000000000e-01
+    lineup_371  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_372  _C2        1.000000000000e+00
@@ -10940,7 +10952,7 @@ COLUMNS
     lineup_372  _C2074    -1.000000000000e+00
     lineup_372  _C3145     1.000000000000e+00
     lineup_372  _C3146     1.000000000000e+00
-    lineup_372  OBJ        1.200000000000e+00
+    lineup_372  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_373  _C2        1.000000000000e+00
@@ -10949,7 +10961,7 @@ COLUMNS
     lineup_373  _C2075    -1.000000000000e+00
     lineup_373  _C3145     1.000000000000e+00
     lineup_373  _C3146     1.000000000000e+00
-    lineup_373  OBJ        1.500000000000e+00
+    lineup_373  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_374  _C2        1.000000000000e+00
@@ -10982,7 +10994,7 @@ COLUMNS
     lineup_377  _C2079    -1.000000000000e+00
     lineup_377  _C3143     1.000000000000e+00
     lineup_377  _C3144     1.000000000000e+00
-    lineup_377  OBJ        5.000000000000e-01
+    lineup_377  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_378  _C2        1.000000000000e+00
@@ -10991,7 +11003,7 @@ COLUMNS
     lineup_378  _C2157    -1.000000000000e+00
     lineup_378  _C3145     1.000000000000e+00
     lineup_378  _C3146     1.000000000000e+00
-    lineup_378  OBJ        3.800000000000e+00
+    lineup_378  OBJ        2.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_379  _C2        1.000000000000e+00
@@ -11000,7 +11012,7 @@ COLUMNS
     lineup_379  _C2080    -1.000000000000e+00
     lineup_379  _C3145     1.000000000000e+00
     lineup_379  _C3146     1.000000000000e+00
-    lineup_379  OBJ        1.200000000000e+00
+    lineup_379  OBJ        1.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_38  _C2        1.000000000000e+00
@@ -11033,7 +11045,7 @@ COLUMNS
     lineup_382  _C2083    -1.000000000000e+00
     lineup_382  _C3145     1.000000000000e+00
     lineup_382  _C3146     1.000000000000e+00
-    lineup_382  OBJ        5.500000000000e+00
+    lineup_382  OBJ        6.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_383  _C2        1.000000000000e+00
@@ -11083,7 +11095,7 @@ COLUMNS
     lineup_388  _C2088    -1.000000000000e+00
     lineup_388  _C3145     1.000000000000e+00
     lineup_388  _C3146     1.000000000000e+00
-    lineup_388  OBJ        1.800000000000e+00
+    lineup_388  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_389  _C2        1.000000000000e+00
@@ -11116,7 +11128,7 @@ COLUMNS
     lineup_391  _C2091    -1.000000000000e+00
     lineup_391  _C3143     1.000000000000e+00
     lineup_391  _C3144     1.000000000000e+00
-    lineup_391  OBJ        2.000000000000e-01
+    lineup_391  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_392  _C2        1.000000000000e+00
@@ -11125,7 +11137,7 @@ COLUMNS
     lineup_392  _C2092    -1.000000000000e+00
     lineup_392  _C3145     1.000000000000e+00
     lineup_392  _C3146     1.000000000000e+00
-    lineup_392  OBJ        1.200000000000e+00
+    lineup_392  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_393  _C2        1.000000000000e+00
@@ -11134,7 +11146,7 @@ COLUMNS
     lineup_393  _C2025    -1.000000000000e+00
     lineup_393  _C3143     1.000000000000e+00
     lineup_393  _C3144     1.000000000000e+00
-    lineup_393  OBJ        1.500000000000e+00
+    lineup_393  OBJ        5.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_394  _C2        1.000000000000e+00
@@ -11143,7 +11155,6 @@ COLUMNS
     lineup_394  _C2093    -1.000000000000e+00
     lineup_394  _C3145     1.000000000000e+00
     lineup_394  _C3146     1.000000000000e+00
-    lineup_394  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_395  _C2        1.000000000000e+00
@@ -11152,7 +11163,7 @@ COLUMNS
     lineup_395  _C2094    -1.000000000000e+00
     lineup_395  _C3143     1.000000000000e+00
     lineup_395  _C3144     1.000000000000e+00
-    lineup_395  OBJ        5.000000000000e-01
+    lineup_395  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_396  _C2        1.000000000000e+00
@@ -11161,7 +11172,7 @@ COLUMNS
     lineup_396  _C2095    -1.000000000000e+00
     lineup_396  _C3145     1.000000000000e+00
     lineup_396  _C3146     1.000000000000e+00
-    lineup_396  OBJ        5.000000000000e+00
+    lineup_396  OBJ        6.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_397  _C2        1.000000000000e+00
@@ -11220,7 +11231,7 @@ COLUMNS
     lineup_401  _C2100    -1.000000000000e+00
     lineup_401  _C3143     1.000000000000e+00
     lineup_401  _C3144     1.000000000000e+00
-    lineup_401  OBJ        8.000000000000e-01
+    lineup_401  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_402  _C2        1.000000000000e+00
@@ -11229,7 +11240,7 @@ COLUMNS
     lineup_402  _C2113    -1.000000000000e+00
     lineup_402  _C3145     1.000000000000e+00
     lineup_402  _C3146     1.000000000000e+00
-    lineup_402  OBJ        2.000000000000e+00
+    lineup_402  OBJ        1.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_403  _C2        1.000000000000e+00
@@ -11254,7 +11265,7 @@ COLUMNS
     lineup_405  _C2116    -1.000000000000e+00
     lineup_405  _C3143     1.000000000000e+00
     lineup_405  _C3144     1.000000000000e+00
-    lineup_405  OBJ        2.700000000000e+00
+    lineup_405  OBJ        3.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_406  _C2        1.000000000000e+00
@@ -11272,7 +11283,7 @@ COLUMNS
     lineup_407  _C2118    -1.000000000000e+00
     lineup_407  _C3143     1.000000000000e+00
     lineup_407  _C3144     1.000000000000e+00
-    lineup_407  OBJ        2.300000000000e+00
+    lineup_407  OBJ        2.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_408  _C2        1.000000000000e+00
@@ -11289,7 +11300,7 @@ COLUMNS
     lineup_409  _C2120    -1.000000000000e+00
     lineup_409  _C3141     1.000000000000e+00
     lineup_409  _C3142     1.000000000000e+00
-    lineup_409  OBJ        4.500000000000e+00
+    lineup_409  OBJ        4.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_41  _C2        1.000000000000e+00
@@ -11324,7 +11335,7 @@ COLUMNS
     lineup_412  _C2123    -1.000000000000e+00
     lineup_412  _C3145     1.000000000000e+00
     lineup_412  _C3146     1.000000000000e+00
-    lineup_412  OBJ        4.300000000000e+00
+    lineup_412  OBJ        4.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_413  _C2        1.000000000000e+00
@@ -11349,7 +11360,7 @@ COLUMNS
     lineup_415  _C2126    -1.000000000000e+00
     lineup_415  _C3147     1.000000000000e+00
     lineup_415  _C3148     1.000000000000e+00
-    lineup_415  OBJ        5.500000000000e+00
+    lineup_415  OBJ        6.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_416  _C2        1.000000000000e+00
@@ -11383,7 +11394,7 @@ COLUMNS
     lineup_419  _C2130    -1.000000000000e+00
     lineup_419  _C3143     1.000000000000e+00
     lineup_419  _C3144     1.000000000000e+00
-    lineup_419  OBJ        1.000000000000e+00
+    lineup_419  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_42  _C2        1.000000000000e+00
@@ -11408,7 +11419,7 @@ COLUMNS
     lineup_421  _C2132    -1.000000000000e+00
     lineup_421  _C3145     1.000000000000e+00
     lineup_421  _C3146     1.000000000000e+00
-    lineup_421  OBJ        3.000000000000e+00
+    lineup_421  OBJ        3.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_422  _C2        1.000000000000e+00
@@ -11459,7 +11470,7 @@ COLUMNS
     lineup_427  _C2138    -1.000000000000e+00
     lineup_427  _C3143     1.000000000000e+00
     lineup_427  _C3144     1.000000000000e+00
-    lineup_427  OBJ        1.300000000000e+00
+    lineup_427  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_428  _C2        1.000000000000e+00
@@ -11493,7 +11504,7 @@ COLUMNS
     lineup_430  _C2141    -1.000000000000e+00
     lineup_430  _C3143     1.000000000000e+00
     lineup_430  _C3144     1.000000000000e+00
-    lineup_430  OBJ        1.500000000000e+00
+    lineup_430  OBJ        1.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_431  _C2        1.000000000000e+00
@@ -11518,7 +11529,7 @@ COLUMNS
     lineup_433  _C2144    -1.000000000000e+00
     lineup_433  _C3147     1.000000000000e+00
     lineup_433  _C3148     1.000000000000e+00
-    lineup_433  OBJ        7.000000000000e-01
+    lineup_433  OBJ        4.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_434  _C2        1.000000000000e+00
@@ -11602,7 +11613,7 @@ COLUMNS
     lineup_442  _C2166    -1.000000000000e+00
     lineup_442  _C3145     1.000000000000e+00
     lineup_442  _C3146     1.000000000000e+00
-    lineup_442  OBJ        2.700000000000e+00
+    lineup_442  OBJ        3.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_443  _C2        1.000000000000e+00
@@ -11644,7 +11655,7 @@ COLUMNS
     lineup_447  _C2171    -1.000000000000e+00
     lineup_447  _C3145     1.000000000000e+00
     lineup_447  _C3146     1.000000000000e+00
-    lineup_447  OBJ        3.000000000000e+00
+    lineup_447  OBJ        1.900000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_448  _C2        1.000000000000e+00
@@ -11680,7 +11691,7 @@ COLUMNS
     lineup_450  _C2245    -1.000000000000e+00
     lineup_450  _C3145     1.000000000000e+00
     lineup_450  _C3146     1.000000000000e+00
-    lineup_450  OBJ        4.800000000000e+00
+    lineup_450  OBJ        3.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_451  _C2        1.000000000000e+00
@@ -11705,6 +11716,7 @@ COLUMNS
     lineup_453  _C2176    -1.000000000000e+00
     lineup_453  _C3145     1.000000000000e+00
     lineup_453  _C3146     1.000000000000e+00
+    lineup_453  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_454  _C2        1.000000000000e+00
@@ -11811,6 +11823,7 @@ COLUMNS
     lineup_465  _C2188    -1.000000000000e+00
     lineup_465  _C3143     1.000000000000e+00
     lineup_465  _C3144     1.000000000000e+00
+    lineup_465  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_466  _C2        1.000000000000e+00
@@ -11827,7 +11840,7 @@ COLUMNS
     lineup_467  _C2190    -1.000000000000e+00
     lineup_467  _C3143     1.000000000000e+00
     lineup_467  _C3144     1.000000000000e+00
-    lineup_467  OBJ        3.000000000000e-01
+    lineup_467  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_468  _C2        1.000000000000e+00
@@ -11836,7 +11849,7 @@ COLUMNS
     lineup_468  _C2191    -1.000000000000e+00
     lineup_468  _C3147     1.000000000000e+00
     lineup_468  _C3148     1.000000000000e+00
-    lineup_468  OBJ        9.000000000000e+00
+    lineup_468  OBJ        8.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_469  _C2        1.000000000000e+00
@@ -11845,7 +11858,7 @@ COLUMNS
     lineup_469  _C2192    -1.000000000000e+00
     lineup_469  _C3143     1.000000000000e+00
     lineup_469  _C3144     1.000000000000e+00
-    lineup_469  OBJ       -3.000000000000e-01
+    lineup_469  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_47  _C2        1.000000000000e+00
@@ -11863,7 +11876,7 @@ COLUMNS
     lineup_470  _C2193    -1.000000000000e+00
     lineup_470  _C3145     1.000000000000e+00
     lineup_470  _C3146     1.000000000000e+00
-    lineup_470  OBJ        1.300000000000e+00
+    lineup_470  OBJ        1.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_471  _C2        1.000000000000e+00
@@ -11907,7 +11920,7 @@ COLUMNS
     lineup_475  _C1794    -1.000000000000e+00
     lineup_475  _C3145     1.000000000000e+00
     lineup_475  _C3146     1.000000000000e+00
-    lineup_475  OBJ        1.000000000000e+00
+    lineup_475  OBJ       -1.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_476  _C2        1.000000000000e+00
@@ -11925,7 +11938,6 @@ COLUMNS
     lineup_477  _C2215    -1.000000000000e+00
     lineup_477  _C3147     1.000000000000e+00
     lineup_477  _C3148     1.000000000000e+00
-    lineup_477  OBJ       -5.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_478  _C2        1.000000000000e+00
@@ -12074,7 +12086,7 @@ COLUMNS
     lineup_492  _C2247    -1.000000000000e+00
     lineup_492  _C3145     1.000000000000e+00
     lineup_492  _C3146     1.000000000000e+00
-    lineup_492  OBJ        1.800000000000e+00
+    lineup_492  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_493  _C2        1.000000000000e+00
@@ -12091,7 +12103,7 @@ COLUMNS
     lineup_494  _C2249    -1.000000000000e+00
     lineup_494  _C3145     1.000000000000e+00
     lineup_494  _C3146     1.000000000000e+00
-    lineup_494  OBJ        8.000000000000e-01
+    lineup_494  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_495  _C2        1.000000000000e+00
@@ -12116,7 +12128,7 @@ COLUMNS
     lineup_497  _C2252    -1.000000000000e+00
     lineup_497  _C3143     1.000000000000e+00
     lineup_497  _C3144     1.000000000000e+00
-    lineup_497  OBJ        1.800000000000e+00
+    lineup_497  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_498  _C2        1.000000000000e+00
@@ -12133,7 +12145,7 @@ COLUMNS
     lineup_499  _C2254    -1.000000000000e+00
     lineup_499  _C3145     1.000000000000e+00
     lineup_499  _C3146     1.000000000000e+00
-    lineup_499  OBJ        1.500000000000e+00
+    lineup_499  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_5  _C2        1.000000000000e+00
@@ -12142,7 +12154,7 @@ COLUMNS
     lineup_5  _C1577    -1.000000000000e+00
     lineup_5  _C3143     1.000000000000e+00
     lineup_5  _C3144     1.000000000000e+00
-    lineup_5  OBJ        5.800000000000e+00
+    lineup_5  OBJ        5.100000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_50  _C2        1.000000000000e+00
@@ -12168,7 +12180,7 @@ COLUMNS
     lineup_501  _C2256    -1.000000000000e+00
     lineup_501  _C3145     1.000000000000e+00
     lineup_501  _C3146     1.000000000000e+00
-    lineup_501  OBJ        5.000000000000e-01
+    lineup_501  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_502  _C2        1.000000000000e+00
@@ -12209,7 +12221,7 @@ COLUMNS
     lineup_506  _C2261    -1.000000000000e+00
     lineup_506  _C3143     1.000000000000e+00
     lineup_506  _C3144     1.000000000000e+00
-    lineup_506  OBJ        3.800000000000e+00
+    lineup_506  OBJ        4.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_507  _C2        1.000000000000e+00
@@ -12234,7 +12246,7 @@ COLUMNS
     lineup_509  _C2263    -1.000000000000e+00
     lineup_509  _C3145     1.000000000000e+00
     lineup_509  _C3146     1.000000000000e+00
-    lineup_509  OBJ        6.200000000000e+00
+    lineup_509  OBJ        5.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_51  _C2        1.000000000000e+00
@@ -12259,7 +12271,7 @@ COLUMNS
     lineup_511  _C2265    -1.000000000000e+00
     lineup_511  _C3143     1.000000000000e+00
     lineup_511  _C3144     1.000000000000e+00
-    lineup_511  OBJ        5.000000000000e-01
+    lineup_511  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_512  _C2        1.000000000000e+00
@@ -12292,7 +12304,7 @@ COLUMNS
     lineup_515  _C2269    -1.000000000000e+00
     lineup_515  _C3145     1.000000000000e+00
     lineup_515  _C3146     1.000000000000e+00
-    lineup_515  OBJ        1.000000000000e+00
+    lineup_515  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_516  _C2        1.000000000000e+00
@@ -12325,7 +12337,7 @@ COLUMNS
     lineup_519  _C2273    -1.000000000000e+00
     lineup_519  _C3143     1.000000000000e+00
     lineup_519  _C3144     1.000000000000e+00
-    lineup_519  OBJ        8.000000000000e-01
+    lineup_519  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_52  _C2        1.000000000000e+00
@@ -12342,7 +12354,7 @@ COLUMNS
     lineup_520  _C2274    -1.000000000000e+00
     lineup_520  _C3141     1.000000000000e+00
     lineup_520  _C3142     1.000000000000e+00
-    lineup_520  OBJ        2.800000000000e+00
+    lineup_520  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_521  _C2        1.000000000000e+00
@@ -12392,7 +12404,7 @@ COLUMNS
     lineup_526  _C2290    -1.000000000000e+00
     lineup_526  _C3145     1.000000000000e+00
     lineup_526  _C3146     1.000000000000e+00
-    lineup_526  OBJ        2.400000000000e+00
+    lineup_526  OBJ        3.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_527  _C2        1.000000000000e+00
@@ -12401,7 +12413,7 @@ COLUMNS
     lineup_527  _C2291    -1.000000000000e+00
     lineup_527  _C3145     1.000000000000e+00
     lineup_527  _C3146     1.000000000000e+00
-    lineup_527  OBJ        1.800000000000e+00
+    lineup_527  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_528  _C2        1.000000000000e+00
@@ -12410,7 +12422,6 @@ COLUMNS
     lineup_528  _C2292    -1.000000000000e+00
     lineup_528  _C3143     1.000000000000e+00
     lineup_528  _C3144     1.000000000000e+00
-    lineup_528  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_529  _C2        1.000000000000e+00
@@ -12452,7 +12463,7 @@ COLUMNS
     lineup_532  _C2296    -1.000000000000e+00
     lineup_532  _C3143     1.000000000000e+00
     lineup_532  _C3144     1.000000000000e+00
-    lineup_532  OBJ        5.500000000000e+00
+    lineup_532  OBJ        4.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_533  _C2        1.000000000000e+00
@@ -12461,7 +12472,7 @@ COLUMNS
     lineup_533  _C2297    -1.000000000000e+00
     lineup_533  _C3141     1.000000000000e+00
     lineup_533  _C3142     1.000000000000e+00
-    lineup_533  OBJ        2.000000000000e-01
+    lineup_533  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_534  _C2        1.000000000000e+00
@@ -12470,7 +12481,7 @@ COLUMNS
     lineup_534  _C2298    -1.000000000000e+00
     lineup_534  _C3145     1.000000000000e+00
     lineup_534  _C3146     1.000000000000e+00
-    lineup_534  OBJ        1.500000000000e+00
+    lineup_534  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_535  _C2        1.000000000000e+00
@@ -12479,7 +12490,7 @@ COLUMNS
     lineup_535  _C2299    -1.000000000000e+00
     lineup_535  _C3147     1.000000000000e+00
     lineup_535  _C3148     1.000000000000e+00
-    lineup_535  OBJ        2.500000000000e+00
+    lineup_535  OBJ        3.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_536  _C2        1.000000000000e+00
@@ -12488,7 +12499,7 @@ COLUMNS
     lineup_536  _C2300    -1.000000000000e+00
     lineup_536  _C3143     1.000000000000e+00
     lineup_536  _C3144     1.000000000000e+00
-    lineup_536  OBJ        1.800000000000e+00
+    lineup_536  OBJ        2.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_537  _C2        1.000000000000e+00
@@ -12505,7 +12516,7 @@ COLUMNS
     lineup_538  _C2302    -1.000000000000e+00
     lineup_538  _C3147     1.000000000000e+00
     lineup_538  _C3148     1.000000000000e+00
-    lineup_538  OBJ        5.000000000000e-01
+    lineup_538  OBJ        7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_539  _C2        1.000000000000e+00
@@ -12514,7 +12525,7 @@ COLUMNS
     lineup_539  _C2303    -1.000000000000e+00
     lineup_539  _C3145     1.000000000000e+00
     lineup_539  _C3146     1.000000000000e+00
-    lineup_539  OBJ        4.000000000000e-01
+    lineup_539  OBJ        1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_54  _C2        1.000000000000e+00
@@ -12531,7 +12542,7 @@ COLUMNS
     lineup_540  _C1600    -1.000000000000e+00
     lineup_540  _C3145     1.000000000000e+00
     lineup_540  _C3146     1.000000000000e+00
-    lineup_540  OBJ        2.500000000000e+00
+    lineup_540  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_541  _C2        1.000000000000e+00
@@ -12548,7 +12559,7 @@ COLUMNS
     lineup_542  _C2305    -1.000000000000e+00
     lineup_542  _C3145     1.000000000000e+00
     lineup_542  _C3146     1.000000000000e+00
-    lineup_542  OBJ        4.200000000000e+00
+    lineup_542  OBJ        4.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_543  _C2        1.000000000000e+00
@@ -12565,7 +12576,7 @@ COLUMNS
     lineup_544  _C2307    -1.000000000000e+00
     lineup_544  _C3143     1.000000000000e+00
     lineup_544  _C3144     1.000000000000e+00
-    lineup_544  OBJ        1.800000000000e+00
+    lineup_544  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_545  _C2        1.000000000000e+00
@@ -12632,7 +12643,7 @@ COLUMNS
     lineup_551  _C2325    -1.000000000000e+00
     lineup_551  _C3143     1.000000000000e+00
     lineup_551  _C3144     1.000000000000e+00
-    lineup_551  OBJ        5.200000000000e+00
+    lineup_551  OBJ        5.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_552  _C2        1.000000000000e+00
@@ -12649,6 +12660,7 @@ COLUMNS
     lineup_553  _C2026    -1.000000000000e+00
     lineup_553  _C3143     1.000000000000e+00
     lineup_553  _C3144     1.000000000000e+00
+    lineup_553  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_554  _C2        1.000000000000e+00
@@ -12689,7 +12701,7 @@ COLUMNS
     lineup_558  _C1946    -1.000000000000e+00
     lineup_558  _C3147     1.000000000000e+00
     lineup_558  _C3148     1.000000000000e+00
-    lineup_558  OBJ        2.200000000000e+00
+    lineup_558  OBJ        3.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_559  _C2        1.000000000000e+00
@@ -12738,7 +12750,7 @@ COLUMNS
     lineup_563  _C2335    -1.000000000000e+00
     lineup_563  _C3143     1.000000000000e+00
     lineup_563  _C3144     1.000000000000e+00
-    lineup_563  OBJ        4.000000000000e+00
+    lineup_563  OBJ        4.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_564  _C2        1.000000000000e+00
@@ -12755,7 +12767,7 @@ COLUMNS
     lineup_565  _C2337    -1.000000000000e+00
     lineup_565  _C3145     1.000000000000e+00
     lineup_565  _C3146     1.000000000000e+00
-    lineup_565  OBJ        4.500000000000e+00
+    lineup_565  OBJ        4.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_566  _C2        1.000000000000e+00
@@ -12773,7 +12785,7 @@ COLUMNS
     lineup_567  _C2338    -1.000000000000e+00
     lineup_567  _C3145     1.000000000000e+00
     lineup_567  _C3146     1.000000000000e+00
-    lineup_567  OBJ        2.000000000000e-01
+    lineup_567  OBJ        5.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_568  _C2        1.000000000000e+00
@@ -12790,7 +12802,7 @@ COLUMNS
     lineup_569  _C2340    -1.000000000000e+00
     lineup_569  _C3141     1.000000000000e+00
     lineup_569  _C3142     1.000000000000e+00
-    lineup_569  OBJ        3.000000000000e+00
+    lineup_569  OBJ        3.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_57  _C2        1.000000000000e+00
@@ -12807,7 +12819,7 @@ COLUMNS
     lineup_570  _C2341    -1.000000000000e+00
     lineup_570  _C3145     1.000000000000e+00
     lineup_570  _C3146     1.000000000000e+00
-    lineup_570  OBJ        3.800000000000e+00
+    lineup_570  OBJ        4.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_571  _C2        1.000000000000e+00
@@ -12824,7 +12836,7 @@ COLUMNS
     lineup_572  _C2343    -1.000000000000e+00
     lineup_572  _C3143     1.000000000000e+00
     lineup_572  _C3144     1.000000000000e+00
-    lineup_572  OBJ        2.500000000000e+00
+    lineup_572  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_573  _C2        1.000000000000e+00
@@ -12833,7 +12845,7 @@ COLUMNS
     lineup_573  _C2344    -1.000000000000e+00
     lineup_573  _C3143     1.000000000000e+00
     lineup_573  _C3144     1.000000000000e+00
-    lineup_573  OBJ        3.200000000000e+00
+    lineup_573  OBJ        3.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_574  _C2        1.000000000000e+00
@@ -12867,7 +12879,7 @@ COLUMNS
     lineup_577  _C2308    -1.000000000000e+00
     lineup_577  _C3143     1.000000000000e+00
     lineup_577  _C3144     1.000000000000e+00
-    lineup_577  OBJ        3.000000000000e+00
+    lineup_577  OBJ        4.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_578  _C2        1.000000000000e+00
@@ -12876,7 +12888,7 @@ COLUMNS
     lineup_578  _C1601    -1.000000000000e+00
     lineup_578  _C3145     1.000000000000e+00
     lineup_578  _C3146     1.000000000000e+00
-    lineup_578  OBJ        7.000000000000e-01
+    lineup_578  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_579  _C2        1.000000000000e+00
@@ -12920,6 +12932,7 @@ COLUMNS
     lineup_582  _C2028    -1.000000000000e+00
     lineup_582  _C3145     1.000000000000e+00
     lineup_582  _C3146     1.000000000000e+00
+    lineup_582  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_583  _C2        1.000000000000e+00
@@ -12953,6 +12966,7 @@ COLUMNS
     lineup_586  _C2029    -1.000000000000e+00
     lineup_586  _C3145     1.000000000000e+00
     lineup_586  _C3146     1.000000000000e+00
+    lineup_586  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_587  _C2        1.000000000000e+00
@@ -12993,7 +13007,7 @@ COLUMNS
     lineup_590  _C2346    -1.000000000000e+00
     lineup_590  _C3147     1.000000000000e+00
     lineup_590  _C3148     1.000000000000e+00
-    lineup_590  OBJ        4.500000000000e+00
+    lineup_590  OBJ        4.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_591  _C2        1.000000000000e+00
@@ -13002,7 +13016,7 @@ COLUMNS
     lineup_591  _C1947    -1.000000000000e+00
     lineup_591  _C3145     1.000000000000e+00
     lineup_591  _C3146     1.000000000000e+00
-    lineup_591  OBJ        1.000000000000e+00
+    lineup_591  OBJ        1.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_592  _C2        1.000000000000e+00
@@ -13027,7 +13041,7 @@ COLUMNS
     lineup_594  _C1795    -1.000000000000e+00
     lineup_594  _C3147     1.000000000000e+00
     lineup_594  _C3148     1.000000000000e+00
-    lineup_594  OBJ        4.000000000000e+00
+    lineup_594  OBJ        5.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_595  _C2        1.000000000000e+00
@@ -13044,7 +13058,7 @@ COLUMNS
     lineup_596  _C1796    -1.000000000000e+00
     lineup_596  _C3141     1.000000000000e+00
     lineup_596  _C3142     1.000000000000e+00
-    lineup_596  OBJ        3.000000000000e+00
+    lineup_596  OBJ        1.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_597  _C2        1.000000000000e+00
@@ -13061,7 +13075,7 @@ COLUMNS
     lineup_598  _C2347    -1.000000000000e+00
     lineup_598  _C3143     1.000000000000e+00
     lineup_598  _C3144     1.000000000000e+00
-    lineup_598  OBJ        2.500000000000e+00
+    lineup_598  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_599  _C2        1.000000000000e+00
@@ -13079,7 +13093,7 @@ COLUMNS
     lineup_6  _C1578    -1.000000000000e+00
     lineup_6  _C3145     1.000000000000e+00
     lineup_6  _C3146     1.000000000000e+00
-    lineup_6  OBJ        2.000000000000e+00
+    lineup_6  OBJ        2.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_60  _C2        1.000000000000e+00
@@ -13097,7 +13111,7 @@ COLUMNS
     lineup_600  _C1797    -1.000000000000e+00
     lineup_600  _C3145     1.000000000000e+00
     lineup_600  _C3146     1.000000000000e+00
-    lineup_600  OBJ       -5.000000000000e-01
+    lineup_600  OBJ       -7.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_601  _C2        1.000000000000e+00
@@ -13106,7 +13120,7 @@ COLUMNS
     lineup_601  _C1913    -1.000000000000e+00
     lineup_601  _C3145     1.000000000000e+00
     lineup_601  _C3146     1.000000000000e+00
-    lineup_601  OBJ        1.500000000000e+00
+    lineup_601  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_602  _C2        1.000000000000e+00
@@ -13164,7 +13178,7 @@ COLUMNS
     lineup_608  _C1799    -1.000000000000e+00
     lineup_608  _C3145     1.000000000000e+00
     lineup_608  _C3146     1.000000000000e+00
-    lineup_608  OBJ       -2.000000000000e-01
+    lineup_608  OBJ       -3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_609  _C2        1.000000000000e+00
@@ -13214,7 +13228,7 @@ COLUMNS
     lineup_614  _C2031    -1.000000000000e+00
     lineup_614  _C3141     1.000000000000e+00
     lineup_614  _C3142     1.000000000000e+00
-    lineup_614  OBJ        3.000000000000e+00
+    lineup_614  OBJ        2.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_615  _C2        1.000000000000e+00
@@ -13241,7 +13255,7 @@ COLUMNS
     lineup_617  _C2102    -1.000000000000e+00
     lineup_617  _C3147     1.000000000000e+00
     lineup_617  _C3148     1.000000000000e+00
-    lineup_617  OBJ        4.800000000000e+00
+    lineup_617  OBJ        6.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_618  _C2        1.000000000000e+00
@@ -13284,7 +13298,7 @@ COLUMNS
     lineup_621  _C1755    -1.000000000000e+00
     lineup_621  _C3145     1.000000000000e+00
     lineup_621  _C3146     1.000000000000e+00
-    lineup_621  OBJ        4.500000000000e+00
+    lineup_621  OBJ        4.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_622  _C2        1.000000000000e+00
@@ -13325,7 +13339,7 @@ COLUMNS
     lineup_626  _C1983    -1.000000000000e+00
     lineup_626  _C3143     1.000000000000e+00
     lineup_626  _C3144     1.000000000000e+00
-    lineup_626  OBJ        2.000000000000e+00
+    lineup_626  OBJ        2.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_627  _C2        1.000000000000e+00
@@ -13334,7 +13348,7 @@ COLUMNS
     lineup_627  _C1984    -1.000000000000e+00
     lineup_627  _C3145     1.000000000000e+00
     lineup_627  _C3146     1.000000000000e+00
-    lineup_627  OBJ        7.000000000000e-01
+    lineup_627  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_628  _C2        1.000000000000e+00
@@ -13360,7 +13374,7 @@ COLUMNS
     lineup_63  _C1648    -1.000000000000e+00
     lineup_63  _C3145     1.000000000000e+00
     lineup_63  _C3146     1.000000000000e+00
-    lineup_63  OBJ        2.000000000000e+00
+    lineup_63  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_630  _C2        1.000000000000e+00
@@ -13369,7 +13383,7 @@ COLUMNS
     lineup_630  _C2032    -1.000000000000e+00
     lineup_630  _C3145     1.000000000000e+00
     lineup_630  _C3146     1.000000000000e+00
-    lineup_630  OBJ        3.700000000000e+00
+    lineup_630  OBJ        3.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_631  _C2        1.000000000000e+00
@@ -13378,7 +13392,7 @@ COLUMNS
     lineup_631  _C2033    -1.000000000000e+00
     lineup_631  _C3147     1.000000000000e+00
     lineup_631  _C3148     1.000000000000e+00
-    lineup_631  OBJ        5.000000000000e-01
+    lineup_631  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_632  _C2        1.000000000000e+00
@@ -13395,7 +13409,7 @@ COLUMNS
     lineup_633  _C2148    -1.000000000000e+00
     lineup_633  _C3143     1.000000000000e+00
     lineup_633  _C3144     1.000000000000e+00
-    lineup_633  OBJ        1.000000000000e+00
+    lineup_633  OBJ        8.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_634  _C2        1.000000000000e+00
@@ -13413,7 +13427,7 @@ COLUMNS
     lineup_635  _C2150    -1.000000000000e+00
     lineup_635  _C3145     1.000000000000e+00
     lineup_635  _C3146     1.000000000000e+00
-    lineup_635  OBJ        1.700000000000e+00
+    lineup_635  OBJ        1.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_636  _C2        1.000000000000e+00
@@ -13449,7 +13463,7 @@ COLUMNS
     lineup_639  _C2277    -1.000000000000e+00
     lineup_639  _C3143     1.000000000000e+00
     lineup_639  _C3144     1.000000000000e+00
-    lineup_639  OBJ        2.000000000000e-01
+    lineup_639  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_64  _C2        1.000000000000e+00
@@ -13458,7 +13472,7 @@ COLUMNS
     lineup_64  _C1649    -1.000000000000e+00
     lineup_64  _C3145     1.000000000000e+00
     lineup_64  _C3146     1.000000000000e+00
-    lineup_64  OBJ        1.800000000000e+00
+    lineup_64  OBJ        2.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_640  _C2        1.000000000000e+00
@@ -13483,7 +13497,7 @@ COLUMNS
     lineup_642  _C2309    -1.000000000000e+00
     lineup_642  _C3145     1.000000000000e+00
     lineup_642  _C3146     1.000000000000e+00
-    lineup_642  OBJ        2.200000000000e+00
+    lineup_642  OBJ        2.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_643  _C2        1.000000000000e+00
@@ -13500,7 +13514,7 @@ COLUMNS
     lineup_644  _C1679    -1.000000000000e+00
     lineup_644  _C3145     1.000000000000e+00
     lineup_644  _C3146     1.000000000000e+00
-    lineup_644  OBJ        4.000000000000e+00
+    lineup_644  OBJ        5.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_645  _C2        1.000000000000e+00
@@ -13550,7 +13564,7 @@ COLUMNS
     lineup_65  _C1650    -1.000000000000e+00
     lineup_65  _C3145     1.000000000000e+00
     lineup_65  _C3146     1.000000000000e+00
-    lineup_65  OBJ        2.000000000000e+00
+    lineup_65  OBJ        2.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_650  _C2        1.000000000000e+00
@@ -13653,7 +13667,7 @@ COLUMNS
     lineup_660  _C1801    -1.000000000000e+00
     lineup_660  _C3145     1.000000000000e+00
     lineup_660  _C3146     1.000000000000e+00
-    lineup_660  OBJ        4.200000000000e+00
+    lineup_660  OBJ        1.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_661  _C2        1.000000000000e+00
@@ -13662,7 +13676,7 @@ COLUMNS
     lineup_661  _C1918    -1.000000000000e+00
     lineup_661  _C3145     1.000000000000e+00
     lineup_661  _C3146     1.000000000000e+00
-    lineup_661  OBJ        3.500000000000e+00
+    lineup_661  OBJ        4.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_662  _C2        1.000000000000e+00
@@ -13688,7 +13702,7 @@ COLUMNS
     lineup_664  _C2311    -1.000000000000e+00
     lineup_664  _C3145     1.000000000000e+00
     lineup_664  _C3146     1.000000000000e+00
-    lineup_664  OBJ        5.200000000000e+00
+    lineup_664  OBJ        6.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_665  _C2        1.000000000000e+00
@@ -13747,7 +13761,6 @@ COLUMNS
     lineup_670  _C1640    -1.000000000000e+00
     lineup_670  _C3141     1.000000000000e+00
     lineup_670  _C3142     1.000000000000e+00
-    lineup_670  OBJ       -5.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_671  _C2        1.000000000000e+00
@@ -13790,7 +13803,7 @@ COLUMNS
     lineup_675  _C1803    -1.000000000000e+00
     lineup_675  _C3145     1.000000000000e+00
     lineup_675  _C3146     1.000000000000e+00
-    lineup_675  OBJ       -5.000000000000e-01
+    lineup_675  OBJ       -3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_676  _C2        1.000000000000e+00
@@ -13799,7 +13812,7 @@ COLUMNS
     lineup_676  _C2312    -1.000000000000e+00
     lineup_676  _C3143     1.000000000000e+00
     lineup_676  _C3144     1.000000000000e+00
-    lineup_676  OBJ        7.000000000000e+00
+    lineup_676  OBJ        7.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_677  _C2        1.000000000000e+00
@@ -13826,7 +13839,7 @@ COLUMNS
     lineup_679  _C2197    -1.000000000000e+00
     lineup_679  _C3143     1.000000000000e+00
     lineup_679  _C3144     1.000000000000e+00
-    lineup_679  OBJ        2.700000000000e+00
+    lineup_679  OBJ        3.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_68  _C2        1.000000000000e+00
@@ -13884,7 +13897,7 @@ COLUMNS
     lineup_685  _C2105    -1.000000000000e+00
     lineup_685  _C3145     1.000000000000e+00
     lineup_685  _C3146     1.000000000000e+00
-    lineup_685  OBJ        2.000000000000e-01
+    lineup_685  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_686  _C2        1.000000000000e+00
@@ -13910,7 +13923,7 @@ COLUMNS
     lineup_688  _C1954    -1.000000000000e+00
     lineup_688  _C3143     1.000000000000e+00
     lineup_688  _C3144     1.000000000000e+00
-    lineup_688  OBJ        1.200000000000e+00
+    lineup_688  OBJ        1.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_689  _C2        1.000000000000e+00
@@ -13944,7 +13957,7 @@ COLUMNS
     lineup_691  _C1919    -1.000000000000e+00
     lineup_691  _C3147     1.000000000000e+00
     lineup_691  _C3148     1.000000000000e+00
-    lineup_691  OBJ        1.200000000000e+00
+    lineup_691  OBJ        1.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_692  _C2        1.000000000000e+00
@@ -13986,7 +13999,7 @@ COLUMNS
     lineup_696  _C2198    -1.000000000000e+00
     lineup_696  _C3143     1.000000000000e+00
     lineup_696  _C3144     1.000000000000e+00
-    lineup_696  OBJ        1.700000000000e+00
+    lineup_696  OBJ        2.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_697  _C2        1.000000000000e+00
@@ -14062,7 +14075,7 @@ COLUMNS
     lineup_703  _C2107    -1.000000000000e+00
     lineup_703  _C3143     1.000000000000e+00
     lineup_703  _C3144     1.000000000000e+00
-    lineup_703  OBJ        8.000000000000e-01
+    lineup_703  OBJ        1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_704  _C2        1.000000000000e+00
@@ -14079,7 +14092,7 @@ COLUMNS
     lineup_705  _C1681    -1.000000000000e+00
     lineup_705  _C3145     1.000000000000e+00
     lineup_705  _C3146     1.000000000000e+00
-    lineup_705  OBJ        2.500000000000e+00
+    lineup_705  OBJ        3.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_706  _C2        1.000000000000e+00
@@ -14088,7 +14101,7 @@ COLUMNS
     lineup_706  _C1805    -1.000000000000e+00
     lineup_706  _C3145     1.000000000000e+00
     lineup_706  _C3146     1.000000000000e+00
-    lineup_706  OBJ        2.000000000000e-01
+    lineup_706  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_707  _C2        1.000000000000e+00
@@ -14105,7 +14118,7 @@ COLUMNS
     lineup_708  _C1988    -1.000000000000e+00
     lineup_708  _C3145     1.000000000000e+00
     lineup_708  _C3146     1.000000000000e+00
-    lineup_708  OBJ        2.000000000000e+00
+    lineup_708  OBJ        2.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_709  _C2        1.000000000000e+00
@@ -14139,7 +14152,7 @@ COLUMNS
     lineup_711  _C2200    -1.000000000000e+00
     lineup_711  _C3143     1.000000000000e+00
     lineup_711  _C3144     1.000000000000e+00
-    lineup_711  OBJ       -3.000000000000e-01
+    lineup_711  OBJ       -2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_712  _C2        1.000000000000e+00
@@ -14148,7 +14161,7 @@ COLUMNS
     lineup_712  _C2201    -1.000000000000e+00
     lineup_712  _C3145     1.000000000000e+00
     lineup_712  _C3146     1.000000000000e+00
-    lineup_712  OBJ        2.500000000000e+00
+    lineup_712  OBJ        3.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_713  _C2        1.000000000000e+00
@@ -14217,7 +14230,7 @@ COLUMNS
     lineup_72  _C1657    -1.000000000000e+00
     lineup_72  _C3145     1.000000000000e+00
     lineup_72  _C3146     1.000000000000e+00
-    lineup_72  OBJ        2.800000000000e+00
+    lineup_72  OBJ        3.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_720  _C2        1.000000000000e+00
@@ -14286,7 +14299,7 @@ COLUMNS
     lineup_727  _C2037    -1.000000000000e+00
     lineup_727  _C3145     1.000000000000e+00
     lineup_727  _C3146     1.000000000000e+00
-    lineup_727  OBJ        3.700000000000e+00
+    lineup_727  OBJ        1.500000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_728  _C2        1.000000000000e+00
@@ -14570,7 +14583,7 @@ COLUMNS
     lineup_757  _C1993    -1.000000000000e+00
     lineup_757  _C3143     1.000000000000e+00
     lineup_757  _C3144     1.000000000000e+00
-    lineup_757  OBJ        2.500000000000e+00
+    lineup_757  OBJ        3.200000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_758  _C2        1.000000000000e+00
@@ -14597,7 +14610,7 @@ COLUMNS
     lineup_76  _C1661    -1.000000000000e+00
     lineup_76  _C3147     1.000000000000e+00
     lineup_76  _C3148     1.000000000000e+00
-    lineup_76  OBJ        5.000000000000e-01
+    lineup_76  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_760  _C2        1.000000000000e+00
@@ -14658,7 +14671,7 @@ COLUMNS
     lineup_766  _C2110    -1.000000000000e+00
     lineup_766  _C3143     1.000000000000e+00
     lineup_766  _C3144     1.000000000000e+00
-    lineup_766  OBJ        5.000000000000e-01
+    lineup_766  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_767  _C2        1.000000000000e+00
@@ -14692,7 +14705,7 @@ COLUMNS
     lineup_77  _C1662    -1.000000000000e+00
     lineup_77  _C3141     1.000000000000e+00
     lineup_77  _C3142     1.000000000000e+00
-    lineup_77  OBJ        3.200000000000e+00
+    lineup_77  OBJ        4.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_770  _C2        1.000000000000e+00
@@ -14858,7 +14871,7 @@ COLUMNS
     lineup_8  _C1579    -1.000000000000e+00
     lineup_8  _C3147     1.000000000000e+00
     lineup_8  _C3148     1.000000000000e+00
-    lineup_8  OBJ        2.700000000000e+00
+    lineup_8  OBJ        2.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_80  _C2        1.000000000000e+00
@@ -14891,6 +14904,7 @@ COLUMNS
     lineup_83  _C1668    -1.000000000000e+00
     lineup_83  _C3143     1.000000000000e+00
     lineup_83  _C3144     1.000000000000e+00
+    lineup_83  OBJ        2.000000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_84  _C2        1.000000000000e+00
@@ -14899,7 +14913,7 @@ COLUMNS
     lineup_84  _C1669    -1.000000000000e+00
     lineup_84  _C3143     1.000000000000e+00
     lineup_84  _C3144     1.000000000000e+00
-    lineup_84  OBJ        2.800000000000e+00
+    lineup_84  OBJ        1.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_85  _C2        1.000000000000e+00
@@ -14908,7 +14922,7 @@ COLUMNS
     lineup_85  _C1670    -1.000000000000e+00
     lineup_85  _C3147     1.000000000000e+00
     lineup_85  _C3148     1.000000000000e+00
-    lineup_85  OBJ        6.800000000000e+00
+    lineup_85  OBJ        3.300000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_86  _C2        1.000000000000e+00
@@ -14917,7 +14931,7 @@ COLUMNS
     lineup_86  _C1671    -1.000000000000e+00
     lineup_86  _C3145     1.000000000000e+00
     lineup_86  _C3146     1.000000000000e+00
-    lineup_86  OBJ        3.200000000000e+00
+    lineup_86  OBJ        3.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_87  _C2        1.000000000000e+00
@@ -14942,7 +14956,7 @@ COLUMNS
     lineup_89  _C1674    -1.000000000000e+00
     lineup_89  _C3143     1.000000000000e+00
     lineup_89  _C3144     1.000000000000e+00
-    lineup_89  OBJ        2.200000000000e+00
+    lineup_89  OBJ        2.700000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_9  _C2        1.000000000000e+00
@@ -14951,7 +14965,7 @@ COLUMNS
     lineup_9  _C1580    -1.000000000000e+00
     lineup_9  _C3145     1.000000000000e+00
     lineup_9  _C3146     1.000000000000e+00
-    lineup_9  OBJ        1.500000000000e+00
+    lineup_9  OBJ        1.800000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     lineup_90  _C2        1.000000000000e+00
@@ -16186,7 +16200,7 @@ COLUMNS
     squad_228  _C1        1.000000000000e+00
     squad_228  _C298     -1.000000000000e+00
     squad_228  _C3150     1.000000000000e+00
-    squad_228  _C3153     4.500000000000e+01
+    squad_228  _C3153     4.400000000000e+01
     squad_228  _C3161     1.000000000000e+00
     squad_228  _C3467     1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
@@ -16242,7 +16256,7 @@ COLUMNS
     squad_234  _C1        1.000000000000e+00
     squad_234  _C304     -1.000000000000e+00
     squad_234  _C3150     1.000000000000e+00
-    squad_234  _C3153     4.700000000000e+01
+    squad_234  _C3153     4.600000000000e+01
     squad_234  _C3161     1.000000000000e+00
     squad_234  _C3473     1.000000000000e+00
     MARK      'MARKER'                 'INTEND'
@@ -21319,7 +21333,7 @@ COLUMNS
     vice_captain_10  _C4        1.000000000000e+00
     vice_captain_10  _C1581     1.000000000000e+00
     vice_captain_10  _C2365     1.000000000000e+00
-    vice_captain_10  OBJ        1.000000000000e-01
+    vice_captain_10  OBJ        1.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_100  _C4        1.000000000000e+00
@@ -21402,7 +21416,7 @@ COLUMNS
     vice_captain_113  _C4        1.000000000000e+00
     vice_captain_113  _C1599     1.000000000000e+00
     vice_captain_113  _C2383     1.000000000000e+00
-    vice_captain_113  OBJ        4.700000000000e-01
+    vice_captain_113  OBJ        5.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_114  _C4        1.000000000000e+00
@@ -21440,7 +21454,7 @@ COLUMNS
     vice_captain_12  _C4        1.000000000000e+00
     vice_captain_12  _C1583     1.000000000000e+00
     vice_captain_12  _C2367     1.000000000000e+00
-    vice_captain_12  OBJ        6.300000000000e-01
+    vice_captain_12  OBJ        7.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_120  _C4        1.000000000000e+00
@@ -21473,7 +21487,7 @@ COLUMNS
     vice_captain_125  _C4        1.000000000000e+00
     vice_captain_125  _C1725     1.000000000000e+00
     vice_captain_125  _C2509     1.000000000000e+00
-    vice_captain_125  OBJ        1.500000000000e-01
+    vice_captain_125  OBJ        1.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_126  _C4        1.000000000000e+00
@@ -21496,13 +21510,13 @@ COLUMNS
     vice_captain_129  _C4        1.000000000000e+00
     vice_captain_129  _C1728     1.000000000000e+00
     vice_captain_129  _C2512     1.000000000000e+00
-    vice_captain_129  OBJ        5.000000000000e-02
+    vice_captain_129  OBJ        8.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_13  _C4        1.000000000000e+00
     vice_captain_13  _C1584     1.000000000000e+00
     vice_captain_13  _C2368     1.000000000000e+00
-    vice_captain_13  OBJ        2.300000000000e-01
+    vice_captain_13  OBJ        2.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_130  _C4        1.000000000000e+00
@@ -21513,7 +21527,7 @@ COLUMNS
     vice_captain_131  _C4        1.000000000000e+00
     vice_captain_131  _C1730     1.000000000000e+00
     vice_captain_131  _C2514     1.000000000000e+00
-    vice_captain_131  OBJ        4.500000000000e-01
+    vice_captain_131  OBJ        4.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_132  _C4        1.000000000000e+00
@@ -21525,19 +21539,19 @@ COLUMNS
     vice_captain_133  _C4        1.000000000000e+00
     vice_captain_133  _C1732     1.000000000000e+00
     vice_captain_133  _C2516     1.000000000000e+00
-    vice_captain_133  OBJ        2.200000000000e-01
+    vice_captain_133  OBJ        2.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_134  _C4        1.000000000000e+00
     vice_captain_134  _C1733     1.000000000000e+00
     vice_captain_134  _C2517     1.000000000000e+00
-    vice_captain_134  OBJ        2.200000000000e-01
+    vice_captain_134  OBJ        2.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_135  _C4        1.000000000000e+00
     vice_captain_135  _C1734     1.000000000000e+00
     vice_captain_135  _C2518     1.000000000000e+00
-    vice_captain_135  OBJ        6.500000000000e-01
+    vice_captain_135  OBJ        6.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_136  _C4        1.000000000000e+00
@@ -21559,12 +21573,13 @@ COLUMNS
     vice_captain_139  _C4        1.000000000000e+00
     vice_captain_139  _C1738     1.000000000000e+00
     vice_captain_139  _C2522     1.000000000000e+00
+    vice_captain_139  OBJ        5.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_14  _C4        1.000000000000e+00
     vice_captain_14  _C1585     1.000000000000e+00
     vice_captain_14  _C2369     1.000000000000e+00
-    vice_captain_14  OBJ        4.300000000000e-01
+    vice_captain_14  OBJ        2.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_140  _C4        1.000000000000e+00
@@ -21581,7 +21596,7 @@ COLUMNS
     vice_captain_142  _C4        1.000000000000e+00
     vice_captain_142  _C1741     1.000000000000e+00
     vice_captain_142  _C2525     1.000000000000e+00
-    vice_captain_142  OBJ        3.500000000000e-01
+    vice_captain_142  OBJ        3.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_143  _C4        1.000000000000e+00
@@ -21613,7 +21628,7 @@ COLUMNS
     vice_captain_148  _C4        1.000000000000e+00
     vice_captain_148  _C1746     1.000000000000e+00
     vice_captain_148  _C2530     1.000000000000e+00
-    vice_captain_148  OBJ        3.500000000000e-01
+    vice_captain_148  OBJ        3.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_149  _C4        1.000000000000e+00
@@ -21629,7 +21644,7 @@ COLUMNS
     vice_captain_150  _C4        1.000000000000e+00
     vice_captain_150  _C1748     1.000000000000e+00
     vice_captain_150  _C2532     1.000000000000e+00
-    vice_captain_150  OBJ        3.500000000000e-01
+    vice_captain_150  OBJ        3.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_151  _C4        1.000000000000e+00
@@ -21652,7 +21667,7 @@ COLUMNS
     vice_captain_154  _C4        1.000000000000e+00
     vice_captain_154  _C1752     1.000000000000e+00
     vice_captain_154  _C2536     1.000000000000e+00
-    vice_captain_154  OBJ        2.800000000000e-01
+    vice_captain_154  OBJ        3.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_155  _C4        1.000000000000e+00
@@ -21669,7 +21684,7 @@ COLUMNS
     vice_captain_157  _C4        1.000000000000e+00
     vice_captain_157  _C1765     1.000000000000e+00
     vice_captain_157  _C2549     1.000000000000e+00
-    vice_captain_157  OBJ       -5.000000000000e-02
+    vice_captain_157  OBJ       -3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_158  _C4        1.000000000000e+00
@@ -21691,13 +21706,13 @@ COLUMNS
     vice_captain_160  _C4        1.000000000000e+00
     vice_captain_160  _C1768     1.000000000000e+00
     vice_captain_160  _C2552     1.000000000000e+00
-    vice_captain_160  OBJ        6.000000000000e-02
+    vice_captain_160  OBJ       -2.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_161  _C4        1.000000000000e+00
     vice_captain_161  _C1769     1.000000000000e+00
     vice_captain_161  _C2553     1.000000000000e+00
-    vice_captain_161  OBJ        1.200000000000e-01
+    vice_captain_161  OBJ        1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_162  _C4        1.000000000000e+00
@@ -21709,7 +21724,7 @@ COLUMNS
     vice_captain_163  _C4        1.000000000000e+00
     vice_captain_163  _C1771     1.000000000000e+00
     vice_captain_163  _C2555     1.000000000000e+00
-    vice_captain_163  OBJ       -8.000000000000e-02
+    vice_captain_163  OBJ       -7.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_164  _C4        1.000000000000e+00
@@ -21720,7 +21735,7 @@ COLUMNS
     vice_captain_165  _C4        1.000000000000e+00
     vice_captain_165  _C1773     1.000000000000e+00
     vice_captain_165  _C2557     1.000000000000e+00
-    vice_captain_165  OBJ       -5.000000000000e-02
+    vice_captain_165  OBJ       -3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_166  _C4        1.000000000000e+00
@@ -21732,13 +21747,13 @@ COLUMNS
     vice_captain_167  _C4        1.000000000000e+00
     vice_captain_167  _C1775     1.000000000000e+00
     vice_captain_167  _C2559     1.000000000000e+00
-    vice_captain_167  OBJ       -5.000000000000e-02
+    vice_captain_167  OBJ       -3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_168  _C4        1.000000000000e+00
     vice_captain_168  _C1776     1.000000000000e+00
     vice_captain_168  _C2560     1.000000000000e+00
-    vice_captain_168  OBJ        2.800000000000e-01
+    vice_captain_168  OBJ        2.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_169  _C4        1.000000000000e+00
@@ -21756,7 +21771,7 @@ COLUMNS
     vice_captain_170  _C4        1.000000000000e+00
     vice_captain_170  _C1778     1.000000000000e+00
     vice_captain_170  _C2562     1.000000000000e+00
-    vice_captain_170  OBJ        1.200000000000e-01
+    vice_captain_170  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_171  _C4        1.000000000000e+00
@@ -21773,7 +21788,7 @@ COLUMNS
     vice_captain_173  _C4        1.000000000000e+00
     vice_captain_173  _C1781     1.000000000000e+00
     vice_captain_173  _C2565     1.000000000000e+00
-    vice_captain_173  OBJ        2.000000000000e-01
+    vice_captain_173  OBJ        1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_174  _C4        1.000000000000e+00
@@ -21790,19 +21805,19 @@ COLUMNS
     vice_captain_176  _C4        1.000000000000e+00
     vice_captain_176  _C1784     1.000000000000e+00
     vice_captain_176  _C2568     1.000000000000e+00
-    vice_captain_176  OBJ       -2.000000000000e-02
+    vice_captain_176  OBJ       -3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_177  _C4        1.000000000000e+00
     vice_captain_177  _C1785     1.000000000000e+00
     vice_captain_177  _C2569     1.000000000000e+00
-    vice_captain_177  OBJ       -8.000000000000e-02
+    vice_captain_177  OBJ       -1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_178  _C4        1.000000000000e+00
     vice_captain_178  _C1786     1.000000000000e+00
     vice_captain_178  _C2570     1.000000000000e+00
-    vice_captain_178  OBJ        6.000000000000e-02
+    vice_captain_178  OBJ       -5.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_179  _C4        1.000000000000e+00
@@ -21829,7 +21844,7 @@ COLUMNS
     vice_captain_182  _C4        1.000000000000e+00
     vice_captain_182  _C1790     1.000000000000e+00
     vice_captain_182  _C2574     1.000000000000e+00
-    vice_captain_182  OBJ        1.500000000000e-01
+    vice_captain_182  OBJ        3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_183  _C4        1.000000000000e+00
@@ -21872,7 +21887,7 @@ COLUMNS
     vice_captain_19  _C4        1.000000000000e+00
     vice_captain_19  _C1590     1.000000000000e+00
     vice_captain_19  _C2374     1.000000000000e+00
-    vice_captain_19  OBJ        3.700000000000e-01
+    vice_captain_19  OBJ        4.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_190  _C4        1.000000000000e+00
@@ -21942,7 +21957,7 @@ COLUMNS
     vice_captain_20  _C4        1.000000000000e+00
     vice_captain_20  _C1591     1.000000000000e+00
     vice_captain_20  _C2375     1.000000000000e+00
-    vice_captain_20  OBJ        2.700000000000e-01
+    vice_captain_20  OBJ        2.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_200  _C4        1.000000000000e+00
@@ -21965,19 +21980,19 @@ COLUMNS
     vice_captain_203  _C4        1.000000000000e+00
     vice_captain_203  _C1825     1.000000000000e+00
     vice_captain_203  _C2609     1.000000000000e+00
-    vice_captain_203  OBJ        3.000000000000e-01
+    vice_captain_203  OBJ        2.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_204  _C4        1.000000000000e+00
     vice_captain_204  _C2112     1.000000000000e+00
     vice_captain_204  _C2896     1.000000000000e+00
-    vice_captain_204  OBJ        1.300000000000e-01
+    vice_captain_204  OBJ        1.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_205  _C4        1.000000000000e+00
     vice_captain_205  _C2156     1.000000000000e+00
     vice_captain_205  _C2940     1.000000000000e+00
-    vice_captain_205  OBJ        1.700000000000e-01
+    vice_captain_205  OBJ        2.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_206  _C4        1.000000000000e+00
@@ -22004,7 +22019,7 @@ COLUMNS
     vice_captain_21  _C4        1.000000000000e+00
     vice_captain_21  _C1996     1.000000000000e+00
     vice_captain_21  _C2780     1.000000000000e+00
-    vice_captain_21  OBJ        2.700000000000e-01
+    vice_captain_21  OBJ        2.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_210  _C4        1.000000000000e+00
@@ -22065,7 +22080,7 @@ COLUMNS
     vice_captain_22  _C4        1.000000000000e+00
     vice_captain_22  _C1592     1.000000000000e+00
     vice_captain_22  _C2376     1.000000000000e+00
-    vice_captain_22  OBJ        1.000000000000e-01
+    vice_captain_22  OBJ        1.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_220  _C4        1.000000000000e+00
@@ -22219,25 +22234,25 @@ COLUMNS
     vice_captain_244  _C4        1.000000000000e+00
     vice_captain_244  _C1890     1.000000000000e+00
     vice_captain_244  _C2674     1.000000000000e+00
-    vice_captain_244  OBJ        2.200000000000e-01
+    vice_captain_244  OBJ        7.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_245  _C4        1.000000000000e+00
     vice_captain_245  _C1891     1.000000000000e+00
     vice_captain_245  _C2675     1.000000000000e+00
-    vice_captain_245  OBJ        2.000000000000e-01
+    vice_captain_245  OBJ        2.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_246  _C4        1.000000000000e+00
     vice_captain_246  _C1892     1.000000000000e+00
     vice_captain_246  _C2676     1.000000000000e+00
-    vice_captain_246  OBJ        1.800000000000e-01
+    vice_captain_246  OBJ        1.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_247  _C4        1.000000000000e+00
     vice_captain_247  _C1893     1.000000000000e+00
     vice_captain_247  _C2677     1.000000000000e+00
-    vice_captain_247  OBJ        1.800000000000e-01
+    vice_captain_247  OBJ        2.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_248  _C4        1.000000000000e+00
@@ -22248,7 +22263,7 @@ COLUMNS
     vice_captain_249  _C4        1.000000000000e+00
     vice_captain_249  _C1895     1.000000000000e+00
     vice_captain_249  _C2679     1.000000000000e+00
-    vice_captain_249  OBJ        8.000000000000e-02
+    vice_captain_249  OBJ        1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_25  _C4        1.000000000000e+00
@@ -22259,7 +22274,7 @@ COLUMNS
     vice_captain_250  _C4        1.000000000000e+00
     vice_captain_250  _C1896     1.000000000000e+00
     vice_captain_250  _C2680     1.000000000000e+00
-    vice_captain_250  OBJ        2.200000000000e-01
+    vice_captain_250  OBJ        2.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_251  _C4        1.000000000000e+00
@@ -22295,7 +22310,7 @@ COLUMNS
     vice_captain_257  _C4        1.000000000000e+00
     vice_captain_257  _C1902     1.000000000000e+00
     vice_captain_257  _C2686     1.000000000000e+00
-    vice_captain_257  OBJ        5.000000000000e-02
+    vice_captain_257  OBJ        7.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_258  _C4        1.000000000000e+00
@@ -22307,25 +22322,25 @@ COLUMNS
     vice_captain_259  _C4        1.000000000000e+00
     vice_captain_259  _C1903     1.000000000000e+00
     vice_captain_259  _C2687     1.000000000000e+00
-    vice_captain_259  OBJ        2.200000000000e-01
+    vice_captain_259  OBJ        2.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_26  _C4        1.000000000000e+00
     vice_captain_26  _C1595     1.000000000000e+00
     vice_captain_26  _C2379     1.000000000000e+00
-    vice_captain_26  OBJ        3.500000000000e-01
+    vice_captain_26  OBJ        4.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_260  _C4        1.000000000000e+00
     vice_captain_260  _C1904     1.000000000000e+00
     vice_captain_260  _C2688     1.000000000000e+00
-    vice_captain_260  OBJ        2.200000000000e-01
+    vice_captain_260  OBJ        2.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_261  _C4        1.000000000000e+00
     vice_captain_261  _C1905     1.000000000000e+00
     vice_captain_261  _C2689     1.000000000000e+00
-    vice_captain_261  OBJ        2.000000000000e-01
+    vice_captain_261  OBJ        2.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_262  _C4        1.000000000000e+00
@@ -22336,7 +22351,7 @@ COLUMNS
     vice_captain_263  _C4        1.000000000000e+00
     vice_captain_263  _C1907     1.000000000000e+00
     vice_captain_263  _C2691     1.000000000000e+00
-    vice_captain_263  OBJ        3.800000000000e-01
+    vice_captain_263  OBJ        4.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_264  _C4        1.000000000000e+00
@@ -22347,7 +22362,7 @@ COLUMNS
     vice_captain_265  _C4        1.000000000000e+00
     vice_captain_265  _C1909     1.000000000000e+00
     vice_captain_265  _C2693     1.000000000000e+00
-    vice_captain_265  OBJ        1.800000000000e-01
+    vice_captain_265  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_266  _C4        1.000000000000e+00
@@ -22358,13 +22373,13 @@ COLUMNS
     vice_captain_267  _C4        1.000000000000e+00
     vice_captain_267  _C1924     1.000000000000e+00
     vice_captain_267  _C2708     1.000000000000e+00
-    vice_captain_267  OBJ        1.500000000000e-01
+    vice_captain_267  OBJ        1.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_268  _C4        1.000000000000e+00
     vice_captain_268  _C1925     1.000000000000e+00
     vice_captain_268  _C2709     1.000000000000e+00
-    vice_captain_268  OBJ        3.000000000000e-01
+    vice_captain_268  OBJ        3.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_269  _C4        1.000000000000e+00
@@ -22381,13 +22396,13 @@ COLUMNS
     vice_captain_270  _C4        1.000000000000e+00
     vice_captain_270  _C1927     1.000000000000e+00
     vice_captain_270  _C2711     1.000000000000e+00
-    vice_captain_270  OBJ        3.500000000000e-01
+    vice_captain_270  OBJ        4.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_271  _C4        1.000000000000e+00
     vice_captain_271  _C1928     1.000000000000e+00
     vice_captain_271  _C2712     1.000000000000e+00
-    vice_captain_271  OBJ        8.000000000000e-02
+    vice_captain_271  OBJ        1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_272  _C4        1.000000000000e+00
@@ -22414,7 +22429,7 @@ COLUMNS
     vice_captain_276  _C4        1.000000000000e+00
     vice_captain_276  _C1933     1.000000000000e+00
     vice_captain_276  _C2717     1.000000000000e+00
-    vice_captain_276  OBJ        5.000000000000e-02
+    vice_captain_276  OBJ        7.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_277  _C4        1.000000000000e+00
@@ -22430,19 +22445,19 @@ COLUMNS
     vice_captain_279  _C4        1.000000000000e+00
     vice_captain_279  _C1936     1.000000000000e+00
     vice_captain_279  _C2720     1.000000000000e+00
-    vice_captain_279  OBJ        1.200000000000e-01
+    vice_captain_279  OBJ        1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_28  _C4        1.000000000000e+00
     vice_captain_28  _C2155     1.000000000000e+00
     vice_captain_28  _C2939     1.000000000000e+00
-    vice_captain_28  OBJ        1.700000000000e-01
+    vice_captain_28  OBJ        1.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_280  _C4        1.000000000000e+00
     vice_captain_280  _C1937     1.000000000000e+00
     vice_captain_280  _C2721     1.000000000000e+00
-    vice_captain_280  OBJ        1.800000000000e-01
+    vice_captain_280  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_281  _C4        1.000000000000e+00
@@ -22453,13 +22468,13 @@ COLUMNS
     vice_captain_282  _C4        1.000000000000e+00
     vice_captain_282  _C1939     1.000000000000e+00
     vice_captain_282  _C2723     1.000000000000e+00
-    vice_captain_282  OBJ        5.000000000000e-02
+    vice_captain_282  OBJ        3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_283  _C4        1.000000000000e+00
     vice_captain_283  _C1940     1.000000000000e+00
     vice_captain_283  _C2724     1.000000000000e+00
-    vice_captain_283  OBJ        1.500000000000e-01
+    vice_captain_283  OBJ        1.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_284  _C4        1.000000000000e+00
@@ -22470,25 +22485,25 @@ COLUMNS
     vice_captain_285  _C4        1.000000000000e+00
     vice_captain_285  _C1942     1.000000000000e+00
     vice_captain_285  _C2726     1.000000000000e+00
-    vice_captain_285  OBJ        8.000000000000e-02
+    vice_captain_285  OBJ        1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_286  _C4        1.000000000000e+00
     vice_captain_286  _C1943     1.000000000000e+00
     vice_captain_286  _C2727     1.000000000000e+00
-    vice_captain_286  OBJ        1.500000000000e-01
+    vice_captain_286  OBJ        1.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_287  _C4        1.000000000000e+00
     vice_captain_287  _C1944     1.000000000000e+00
     vice_captain_287  _C2728     1.000000000000e+00
-    vice_captain_287  OBJ        5.000000000000e-02
+    vice_captain_287  OBJ        3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_288  _C4        1.000000000000e+00
     vice_captain_288  _C1945     1.000000000000e+00
     vice_captain_288  _C2729     1.000000000000e+00
-    vice_captain_288  OBJ        1.200000000000e-01
+    vice_captain_288  OBJ        1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_289  _C4        1.000000000000e+00
@@ -22500,18 +22515,19 @@ COLUMNS
     vice_captain_29  _C4        1.000000000000e+00
     vice_captain_29  _C1596     1.000000000000e+00
     vice_captain_29  _C2380     1.000000000000e+00
-    vice_captain_29  OBJ        2.700000000000e-01
+    vice_captain_29  OBJ        3.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_290  _C4        1.000000000000e+00
     vice_captain_290  _C1959     1.000000000000e+00
     vice_captain_290  _C2743     1.000000000000e+00
+    vice_captain_290  OBJ        1.600000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_291  _C4        1.000000000000e+00
     vice_captain_291  _C1960     1.000000000000e+00
     vice_captain_291  _C2744     1.000000000000e+00
-    vice_captain_291  OBJ        4.300000000000e-01
+    vice_captain_291  OBJ        4.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_292  _C4        1.000000000000e+00
@@ -22522,19 +22538,19 @@ COLUMNS
     vice_captain_293  _C4        1.000000000000e+00
     vice_captain_293  _C1962     1.000000000000e+00
     vice_captain_293  _C2746     1.000000000000e+00
-    vice_captain_293  OBJ        6.700000000000e-01
+    vice_captain_293  OBJ        8.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_294  _C4        1.000000000000e+00
     vice_captain_294  _C1963     1.000000000000e+00
     vice_captain_294  _C2747     1.000000000000e+00
-    vice_captain_294  OBJ        8.500000000000e-01
+    vice_captain_294  OBJ        1.120000000000e+00
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_295  _C4        1.000000000000e+00
     vice_captain_295  _C1964     1.000000000000e+00
     vice_captain_295  _C2748     1.000000000000e+00
-    vice_captain_295  OBJ        2.300000000000e-01
+    vice_captain_295  OBJ        2.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_296  _C4        1.000000000000e+00
@@ -22545,13 +22561,13 @@ COLUMNS
     vice_captain_297  _C4        1.000000000000e+00
     vice_captain_297  _C1966     1.000000000000e+00
     vice_captain_297  _C2750     1.000000000000e+00
-    vice_captain_297  OBJ        4.500000000000e-01
+    vice_captain_297  OBJ        5.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_298  _C4        1.000000000000e+00
     vice_captain_298  _C1967     1.000000000000e+00
     vice_captain_298  _C2751     1.000000000000e+00
-    vice_captain_298  OBJ        5.000000000000e-01
+    vice_captain_298  OBJ        6.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_299  _C4        1.000000000000e+00
@@ -22572,7 +22588,7 @@ COLUMNS
     vice_captain_300  _C4        1.000000000000e+00
     vice_captain_300  _C1969     1.000000000000e+00
     vice_captain_300  _C2753     1.000000000000e+00
-    vice_captain_300  OBJ        4.300000000000e-01
+    vice_captain_300  OBJ        3.600000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_301  _C4        1.000000000000e+00
@@ -22584,19 +22600,19 @@ COLUMNS
     vice_captain_302  _C4        1.000000000000e+00
     vice_captain_302  _C1971     1.000000000000e+00
     vice_captain_302  _C2755     1.000000000000e+00
-    vice_captain_302  OBJ        2.700000000000e-01
+    vice_captain_302  OBJ        2.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_303  _C4        1.000000000000e+00
     vice_captain_303  _C1972     1.000000000000e+00
     vice_captain_303  _C2756     1.000000000000e+00
-    vice_captain_303  OBJ        3.000000000000e-01
+    vice_captain_303  OBJ        3.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_304  _C4        1.000000000000e+00
     vice_captain_304  _C1973     1.000000000000e+00
     vice_captain_304  _C2757     1.000000000000e+00
-    vice_captain_304  OBJ        1.500000000000e-01
+    vice_captain_304  OBJ        1.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_305  _C4        1.000000000000e+00
@@ -22612,6 +22628,7 @@ COLUMNS
     vice_captain_307  _C4        1.000000000000e+00
     vice_captain_307  _C1976     1.000000000000e+00
     vice_captain_307  _C2760     1.000000000000e+00
+    vice_captain_307  OBJ        2.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_308  _C4        1.000000000000e+00
@@ -22622,13 +22639,13 @@ COLUMNS
     vice_captain_309  _C4        1.000000000000e+00
     vice_captain_309  _C1978     1.000000000000e+00
     vice_captain_309  _C2762     1.000000000000e+00
-    vice_captain_309  OBJ        1.300000000000e-01
+    vice_captain_309  OBJ        8.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_31  _C4        1.000000000000e+00
     vice_captain_31  _C1598     1.000000000000e+00
     vice_captain_31  _C2382     1.000000000000e+00
-    vice_captain_31  OBJ        2.700000000000e-01
+    vice_captain_31  OBJ        2.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_310  _C4        1.000000000000e+00
@@ -22649,30 +22666,31 @@ COLUMNS
     vice_captain_313  _C4        1.000000000000e+00
     vice_captain_313  _C1982     1.000000000000e+00
     vice_captain_313  _C2766     1.000000000000e+00
-    vice_captain_313  OBJ        4.500000000000e-01
+    vice_captain_313  OBJ        5.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_314  _C4        1.000000000000e+00
     vice_captain_314  _C1998     1.000000000000e+00
     vice_captain_314  _C2782     1.000000000000e+00
-    vice_captain_314  OBJ        2.500000000000e-01
+    vice_captain_314  OBJ        2.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_315  _C4        1.000000000000e+00
     vice_captain_315  _C1999     1.000000000000e+00
     vice_captain_315  _C2783     1.000000000000e+00
+    vice_captain_315  OBJ       -1.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_316  _C4        1.000000000000e+00
     vice_captain_316  _C2000     1.000000000000e+00
     vice_captain_316  _C2784     1.000000000000e+00
-    vice_captain_316  OBJ        2.300000000000e-01
+    vice_captain_316  OBJ        8.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_317  _C4        1.000000000000e+00
     vice_captain_317  _C2001     1.000000000000e+00
     vice_captain_317  _C2785     1.000000000000e+00
-    vice_captain_317  OBJ       -3.000000000000e-02
+    vice_captain_317  OBJ       -2.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_318  _C4        1.000000000000e+00
@@ -22695,12 +22713,13 @@ COLUMNS
     vice_captain_320  _C4        1.000000000000e+00
     vice_captain_320  _C2004     1.000000000000e+00
     vice_captain_320  _C2788     1.000000000000e+00
+    vice_captain_320  OBJ        2.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_321  _C4        1.000000000000e+00
     vice_captain_321  _C2005     1.000000000000e+00
     vice_captain_321  _C2789     1.000000000000e+00
-    vice_captain_321  OBJ        7.000000000000e-01
+    vice_captain_321  OBJ        6.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_322  _C4        1.000000000000e+00
@@ -22726,7 +22745,7 @@ COLUMNS
     vice_captain_326  _C4        1.000000000000e+00
     vice_captain_326  _C2010     1.000000000000e+00
     vice_captain_326  _C2794     1.000000000000e+00
-    vice_captain_326  OBJ        3.500000000000e-01
+    vice_captain_326  OBJ        4.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_327  _C4        1.000000000000e+00
@@ -22737,7 +22756,7 @@ COLUMNS
     vice_captain_328  _C4        1.000000000000e+00
     vice_captain_328  _C2012     1.000000000000e+00
     vice_captain_328  _C2796     1.000000000000e+00
-    vice_captain_328  OBJ        7.000000000000e-02
+    vice_captain_328  OBJ        8.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_329  _C4        1.000000000000e+00
@@ -22754,7 +22773,7 @@ COLUMNS
     vice_captain_330  _C4        1.000000000000e+00
     vice_captain_330  _C2014     1.000000000000e+00
     vice_captain_330  _C2798     1.000000000000e+00
-    vice_captain_330  OBJ        2.000000000000e-01
+    vice_captain_330  OBJ        8.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_331  _C4        1.000000000000e+00
@@ -22813,7 +22832,7 @@ COLUMNS
     vice_captain_340  _C4        1.000000000000e+00
     vice_captain_340  _C2024     1.000000000000e+00
     vice_captain_340  _C2808     1.000000000000e+00
-    vice_captain_340  OBJ       -3.000000000000e-02
+    vice_captain_340  OBJ       -2.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_341  _C4        1.000000000000e+00
@@ -22882,7 +22901,7 @@ COLUMNS
     vice_captain_351  _C4        1.000000000000e+00
     vice_captain_351  _C2318     1.000000000000e+00
     vice_captain_351  _C3102     1.000000000000e+00
-    vice_captain_351  OBJ        1.000000000000e-01
+    vice_captain_351  OBJ        1.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_352  _C4        1.000000000000e+00
@@ -23009,19 +23028,19 @@ COLUMNS
     vice_captain_371  _C4        1.000000000000e+00
     vice_captain_371  _C2073     1.000000000000e+00
     vice_captain_371  _C2857     1.000000000000e+00
-    vice_captain_371  OBJ        2.000000000000e-02
+    vice_captain_371  OBJ        3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_372  _C4        1.000000000000e+00
     vice_captain_372  _C2074     1.000000000000e+00
     vice_captain_372  _C2858     1.000000000000e+00
-    vice_captain_372  OBJ        1.200000000000e-01
+    vice_captain_372  OBJ        1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_373  _C4        1.000000000000e+00
     vice_captain_373  _C2075     1.000000000000e+00
     vice_captain_373  _C2859     1.000000000000e+00
-    vice_captain_373  OBJ        1.500000000000e-01
+    vice_captain_373  OBJ        1.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_374  _C4        1.000000000000e+00
@@ -23042,19 +23061,19 @@ COLUMNS
     vice_captain_377  _C4        1.000000000000e+00
     vice_captain_377  _C2079     1.000000000000e+00
     vice_captain_377  _C2863     1.000000000000e+00
-    vice_captain_377  OBJ        5.000000000000e-02
+    vice_captain_377  OBJ        7.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_378  _C4        1.000000000000e+00
     vice_captain_378  _C2157     1.000000000000e+00
     vice_captain_378  _C2941     1.000000000000e+00
-    vice_captain_378  OBJ        3.800000000000e-01
+    vice_captain_378  OBJ        2.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_379  _C4        1.000000000000e+00
     vice_captain_379  _C2080     1.000000000000e+00
     vice_captain_379  _C2864     1.000000000000e+00
-    vice_captain_379  OBJ        1.200000000000e-01
+    vice_captain_379  OBJ        1.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_38  _C4        1.000000000000e+00
@@ -23075,7 +23094,7 @@ COLUMNS
     vice_captain_382  _C4        1.000000000000e+00
     vice_captain_382  _C2083     1.000000000000e+00
     vice_captain_382  _C2867     1.000000000000e+00
-    vice_captain_382  OBJ        5.500000000000e-01
+    vice_captain_382  OBJ        6.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_383  _C4        1.000000000000e+00
@@ -23107,7 +23126,7 @@ COLUMNS
     vice_captain_388  _C4        1.000000000000e+00
     vice_captain_388  _C2088     1.000000000000e+00
     vice_captain_388  _C2872     1.000000000000e+00
-    vice_captain_388  OBJ        1.800000000000e-01
+    vice_captain_388  OBJ        1.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_389  _C4        1.000000000000e+00
@@ -23128,37 +23147,36 @@ COLUMNS
     vice_captain_391  _C4        1.000000000000e+00
     vice_captain_391  _C2091     1.000000000000e+00
     vice_captain_391  _C2875     1.000000000000e+00
-    vice_captain_391  OBJ        2.000000000000e-02
+    vice_captain_391  OBJ        3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_392  _C4        1.000000000000e+00
     vice_captain_392  _C2092     1.000000000000e+00
     vice_captain_392  _C2876     1.000000000000e+00
-    vice_captain_392  OBJ        1.200000000000e-01
+    vice_captain_392  OBJ        1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_393  _C4        1.000000000000e+00
     vice_captain_393  _C2025     1.000000000000e+00
     vice_captain_393  _C2809     1.000000000000e+00
-    vice_captain_393  OBJ        1.500000000000e-01
+    vice_captain_393  OBJ        5.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_394  _C4        1.000000000000e+00
     vice_captain_394  _C2093     1.000000000000e+00
     vice_captain_394  _C2877     1.000000000000e+00
-    vice_captain_394  OBJ        2.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_395  _C4        1.000000000000e+00
     vice_captain_395  _C2094     1.000000000000e+00
     vice_captain_395  _C2878     1.000000000000e+00
-    vice_captain_395  OBJ        5.000000000000e-02
+    vice_captain_395  OBJ        7.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_396  _C4        1.000000000000e+00
     vice_captain_396  _C2095     1.000000000000e+00
     vice_captain_396  _C2879     1.000000000000e+00
-    vice_captain_396  OBJ        5.000000000000e-01
+    vice_captain_396  OBJ        6.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_397  _C4        1.000000000000e+00
@@ -23196,13 +23214,13 @@ COLUMNS
     vice_captain_401  _C4        1.000000000000e+00
     vice_captain_401  _C2100     1.000000000000e+00
     vice_captain_401  _C2884     1.000000000000e+00
-    vice_captain_401  OBJ        8.000000000000e-02
+    vice_captain_401  OBJ        7.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_402  _C4        1.000000000000e+00
     vice_captain_402  _C2113     1.000000000000e+00
     vice_captain_402  _C2897     1.000000000000e+00
-    vice_captain_402  OBJ        2.000000000000e-01
+    vice_captain_402  OBJ        1.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_403  _C4        1.000000000000e+00
@@ -23218,7 +23236,7 @@ COLUMNS
     vice_captain_405  _C4        1.000000000000e+00
     vice_captain_405  _C2116     1.000000000000e+00
     vice_captain_405  _C2900     1.000000000000e+00
-    vice_captain_405  OBJ        2.700000000000e-01
+    vice_captain_405  OBJ        3.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_406  _C4        1.000000000000e+00
@@ -23230,7 +23248,7 @@ COLUMNS
     vice_captain_407  _C4        1.000000000000e+00
     vice_captain_407  _C2118     1.000000000000e+00
     vice_captain_407  _C2902     1.000000000000e+00
-    vice_captain_407  OBJ        2.300000000000e-01
+    vice_captain_407  OBJ        2.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_408  _C4        1.000000000000e+00
@@ -23241,7 +23259,7 @@ COLUMNS
     vice_captain_409  _C4        1.000000000000e+00
     vice_captain_409  _C2120     1.000000000000e+00
     vice_captain_409  _C2904     1.000000000000e+00
-    vice_captain_409  OBJ        4.500000000000e-01
+    vice_captain_409  OBJ        4.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_41  _C4        1.000000000000e+00
@@ -23264,7 +23282,7 @@ COLUMNS
     vice_captain_412  _C4        1.000000000000e+00
     vice_captain_412  _C2123     1.000000000000e+00
     vice_captain_412  _C2907     1.000000000000e+00
-    vice_captain_412  OBJ        4.300000000000e-01
+    vice_captain_412  OBJ        4.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_413  _C4        1.000000000000e+00
@@ -23280,7 +23298,7 @@ COLUMNS
     vice_captain_415  _C4        1.000000000000e+00
     vice_captain_415  _C2126     1.000000000000e+00
     vice_captain_415  _C2910     1.000000000000e+00
-    vice_captain_415  OBJ        5.500000000000e-01
+    vice_captain_415  OBJ        6.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_416  _C4        1.000000000000e+00
@@ -23302,7 +23320,7 @@ COLUMNS
     vice_captain_419  _C4        1.000000000000e+00
     vice_captain_419  _C2130     1.000000000000e+00
     vice_captain_419  _C2914     1.000000000000e+00
-    vice_captain_419  OBJ        1.000000000000e-01
+    vice_captain_419  OBJ        8.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_42  _C4        1.000000000000e+00
@@ -23318,7 +23336,7 @@ COLUMNS
     vice_captain_421  _C4        1.000000000000e+00
     vice_captain_421  _C2132     1.000000000000e+00
     vice_captain_421  _C2916     1.000000000000e+00
-    vice_captain_421  OBJ        3.000000000000e-01
+    vice_captain_421  OBJ        3.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_422  _C4        1.000000000000e+00
@@ -23351,7 +23369,7 @@ COLUMNS
     vice_captain_427  _C4        1.000000000000e+00
     vice_captain_427  _C2138     1.000000000000e+00
     vice_captain_427  _C2922     1.000000000000e+00
-    vice_captain_427  OBJ        1.300000000000e-01
+    vice_captain_427  OBJ        8.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_428  _C4        1.000000000000e+00
@@ -23373,7 +23391,7 @@ COLUMNS
     vice_captain_430  _C4        1.000000000000e+00
     vice_captain_430  _C2141     1.000000000000e+00
     vice_captain_430  _C2925     1.000000000000e+00
-    vice_captain_430  OBJ        1.500000000000e-01
+    vice_captain_430  OBJ        1.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_431  _C4        1.000000000000e+00
@@ -23389,7 +23407,7 @@ COLUMNS
     vice_captain_433  _C4        1.000000000000e+00
     vice_captain_433  _C2144     1.000000000000e+00
     vice_captain_433  _C2928     1.000000000000e+00
-    vice_captain_433  OBJ        7.000000000000e-02
+    vice_captain_433  OBJ        4.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_434  _C4        1.000000000000e+00
@@ -23443,7 +23461,7 @@ COLUMNS
     vice_captain_442  _C4        1.000000000000e+00
     vice_captain_442  _C2166     1.000000000000e+00
     vice_captain_442  _C2950     1.000000000000e+00
-    vice_captain_442  OBJ        2.700000000000e-01
+    vice_captain_442  OBJ        3.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_443  _C4        1.000000000000e+00
@@ -23470,7 +23488,7 @@ COLUMNS
     vice_captain_447  _C4        1.000000000000e+00
     vice_captain_447  _C2171     1.000000000000e+00
     vice_captain_447  _C2955     1.000000000000e+00
-    vice_captain_447  OBJ        3.000000000000e-01
+    vice_captain_447  OBJ        1.900000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_448  _C4        1.000000000000e+00
@@ -23494,7 +23512,7 @@ COLUMNS
     vice_captain_450  _C4        1.000000000000e+00
     vice_captain_450  _C2245     1.000000000000e+00
     vice_captain_450  _C3029     1.000000000000e+00
-    vice_captain_450  OBJ        4.800000000000e-01
+    vice_captain_450  OBJ        3.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_451  _C4        1.000000000000e+00
@@ -23510,6 +23528,7 @@ COLUMNS
     vice_captain_453  _C4        1.000000000000e+00
     vice_captain_453  _C2176     1.000000000000e+00
     vice_captain_453  _C2960     1.000000000000e+00
+    vice_captain_453  OBJ       -2.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_454  _C4        1.000000000000e+00
@@ -23577,6 +23596,7 @@ COLUMNS
     vice_captain_465  _C4        1.000000000000e+00
     vice_captain_465  _C2188     1.000000000000e+00
     vice_captain_465  _C2972     1.000000000000e+00
+    vice_captain_465  OBJ       -2.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_466  _C4        1.000000000000e+00
@@ -23587,19 +23607,19 @@ COLUMNS
     vice_captain_467  _C4        1.000000000000e+00
     vice_captain_467  _C2190     1.000000000000e+00
     vice_captain_467  _C2974     1.000000000000e+00
-    vice_captain_467  OBJ        3.000000000000e-02
+    vice_captain_467  OBJ        2.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_468  _C4        1.000000000000e+00
     vice_captain_468  _C2191     1.000000000000e+00
     vice_captain_468  _C2975     1.000000000000e+00
-    vice_captain_468  OBJ        9.000000000000e-01
+    vice_captain_468  OBJ        8.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_469  _C4        1.000000000000e+00
     vice_captain_469  _C2192     1.000000000000e+00
     vice_captain_469  _C2976     1.000000000000e+00
-    vice_captain_469  OBJ       -3.000000000000e-02
+    vice_captain_469  OBJ       -2.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_47  _C4        1.000000000000e+00
@@ -23611,7 +23631,7 @@ COLUMNS
     vice_captain_470  _C4        1.000000000000e+00
     vice_captain_470  _C2193     1.000000000000e+00
     vice_captain_470  _C2977     1.000000000000e+00
-    vice_captain_470  OBJ        1.300000000000e-01
+    vice_captain_470  OBJ        1.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_471  _C4        1.000000000000e+00
@@ -23640,7 +23660,7 @@ COLUMNS
     vice_captain_475  _C4        1.000000000000e+00
     vice_captain_475  _C1794     1.000000000000e+00
     vice_captain_475  _C2578     1.000000000000e+00
-    vice_captain_475  OBJ        1.000000000000e-01
+    vice_captain_475  OBJ       -1.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_476  _C4        1.000000000000e+00
@@ -23652,7 +23672,6 @@ COLUMNS
     vice_captain_477  _C4        1.000000000000e+00
     vice_captain_477  _C2215     1.000000000000e+00
     vice_captain_477  _C2999     1.000000000000e+00
-    vice_captain_477  OBJ       -5.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_478  _C4        1.000000000000e+00
@@ -23750,7 +23769,7 @@ COLUMNS
     vice_captain_492  _C4        1.000000000000e+00
     vice_captain_492  _C2247     1.000000000000e+00
     vice_captain_492  _C3031     1.000000000000e+00
-    vice_captain_492  OBJ        1.800000000000e-01
+    vice_captain_492  OBJ        2.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_493  _C4        1.000000000000e+00
@@ -23761,7 +23780,7 @@ COLUMNS
     vice_captain_494  _C4        1.000000000000e+00
     vice_captain_494  _C2249     1.000000000000e+00
     vice_captain_494  _C3033     1.000000000000e+00
-    vice_captain_494  OBJ        8.000000000000e-02
+    vice_captain_494  OBJ        1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_495  _C4        1.000000000000e+00
@@ -23777,7 +23796,7 @@ COLUMNS
     vice_captain_497  _C4        1.000000000000e+00
     vice_captain_497  _C2252     1.000000000000e+00
     vice_captain_497  _C3036     1.000000000000e+00
-    vice_captain_497  OBJ        1.800000000000e-01
+    vice_captain_497  OBJ        7.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_498  _C4        1.000000000000e+00
@@ -23788,13 +23807,13 @@ COLUMNS
     vice_captain_499  _C4        1.000000000000e+00
     vice_captain_499  _C2254     1.000000000000e+00
     vice_captain_499  _C3038     1.000000000000e+00
-    vice_captain_499  OBJ        1.500000000000e-01
+    vice_captain_499  OBJ        1.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_5  _C4        1.000000000000e+00
     vice_captain_5  _C1577     1.000000000000e+00
     vice_captain_5  _C2361     1.000000000000e+00
-    vice_captain_5  OBJ        5.800000000000e-01
+    vice_captain_5  OBJ        5.100000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_50  _C4        1.000000000000e+00
@@ -23811,7 +23830,7 @@ COLUMNS
     vice_captain_501  _C4        1.000000000000e+00
     vice_captain_501  _C2256     1.000000000000e+00
     vice_captain_501  _C3040     1.000000000000e+00
-    vice_captain_501  OBJ        5.000000000000e-02
+    vice_captain_501  OBJ        3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_502  _C4        1.000000000000e+00
@@ -23837,7 +23856,7 @@ COLUMNS
     vice_captain_506  _C4        1.000000000000e+00
     vice_captain_506  _C2261     1.000000000000e+00
     vice_captain_506  _C3045     1.000000000000e+00
-    vice_captain_506  OBJ        3.800000000000e-01
+    vice_captain_506  OBJ        4.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_507  _C4        1.000000000000e+00
@@ -23853,7 +23872,7 @@ COLUMNS
     vice_captain_509  _C4        1.000000000000e+00
     vice_captain_509  _C2263     1.000000000000e+00
     vice_captain_509  _C3047     1.000000000000e+00
-    vice_captain_509  OBJ        6.200000000000e-01
+    vice_captain_509  OBJ        5.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_51  _C4        1.000000000000e+00
@@ -23869,7 +23888,7 @@ COLUMNS
     vice_captain_511  _C4        1.000000000000e+00
     vice_captain_511  _C2265     1.000000000000e+00
     vice_captain_511  _C3049     1.000000000000e+00
-    vice_captain_511  OBJ        5.000000000000e-02
+    vice_captain_511  OBJ        3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_512  _C4        1.000000000000e+00
@@ -23890,7 +23909,7 @@ COLUMNS
     vice_captain_515  _C4        1.000000000000e+00
     vice_captain_515  _C2269     1.000000000000e+00
     vice_captain_515  _C3053     1.000000000000e+00
-    vice_captain_515  OBJ        1.000000000000e-01
+    vice_captain_515  OBJ        7.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_516  _C4        1.000000000000e+00
@@ -23911,7 +23930,7 @@ COLUMNS
     vice_captain_519  _C4        1.000000000000e+00
     vice_captain_519  _C2273     1.000000000000e+00
     vice_captain_519  _C3057     1.000000000000e+00
-    vice_captain_519  OBJ        8.000000000000e-02
+    vice_captain_519  OBJ        1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_52  _C4        1.000000000000e+00
@@ -23922,7 +23941,7 @@ COLUMNS
     vice_captain_520  _C4        1.000000000000e+00
     vice_captain_520  _C2274     1.000000000000e+00
     vice_captain_520  _C3058     1.000000000000e+00
-    vice_captain_520  OBJ        2.800000000000e-01
+    vice_captain_520  OBJ        1.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_521  _C4        1.000000000000e+00
@@ -23954,19 +23973,18 @@ COLUMNS
     vice_captain_526  _C4        1.000000000000e+00
     vice_captain_526  _C2290     1.000000000000e+00
     vice_captain_526  _C3074     1.000000000000e+00
-    vice_captain_526  OBJ        2.400000000000e-01
+    vice_captain_526  OBJ        3.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_527  _C4        1.000000000000e+00
     vice_captain_527  _C2291     1.000000000000e+00
     vice_captain_527  _C3075     1.000000000000e+00
-    vice_captain_527  OBJ        1.800000000000e-01
+    vice_captain_527  OBJ        2.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_528  _C4        1.000000000000e+00
     vice_captain_528  _C2292     1.000000000000e+00
     vice_captain_528  _C3076     1.000000000000e+00
-    vice_captain_528  OBJ        2.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_529  _C4        1.000000000000e+00
@@ -23993,31 +24011,31 @@ COLUMNS
     vice_captain_532  _C4        1.000000000000e+00
     vice_captain_532  _C2296     1.000000000000e+00
     vice_captain_532  _C3080     1.000000000000e+00
-    vice_captain_532  OBJ        5.500000000000e-01
+    vice_captain_532  OBJ        4.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_533  _C4        1.000000000000e+00
     vice_captain_533  _C2297     1.000000000000e+00
     vice_captain_533  _C3081     1.000000000000e+00
-    vice_captain_533  OBJ        2.000000000000e-02
+    vice_captain_533  OBJ        3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_534  _C4        1.000000000000e+00
     vice_captain_534  _C2298     1.000000000000e+00
     vice_captain_534  _C3082     1.000000000000e+00
-    vice_captain_534  OBJ        1.500000000000e-01
+    vice_captain_534  OBJ        1.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_535  _C4        1.000000000000e+00
     vice_captain_535  _C2299     1.000000000000e+00
     vice_captain_535  _C3083     1.000000000000e+00
-    vice_captain_535  OBJ        2.500000000000e-01
+    vice_captain_535  OBJ        3.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_536  _C4        1.000000000000e+00
     vice_captain_536  _C2300     1.000000000000e+00
     vice_captain_536  _C3084     1.000000000000e+00
-    vice_captain_536  OBJ        1.800000000000e-01
+    vice_captain_536  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_537  _C4        1.000000000000e+00
@@ -24028,13 +24046,13 @@ COLUMNS
     vice_captain_538  _C4        1.000000000000e+00
     vice_captain_538  _C2302     1.000000000000e+00
     vice_captain_538  _C3086     1.000000000000e+00
-    vice_captain_538  OBJ        5.000000000000e-02
+    vice_captain_538  OBJ        7.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_539  _C4        1.000000000000e+00
     vice_captain_539  _C2303     1.000000000000e+00
     vice_captain_539  _C3087     1.000000000000e+00
-    vice_captain_539  OBJ        4.000000000000e-02
+    vice_captain_539  OBJ        1.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_54  _C4        1.000000000000e+00
@@ -24045,7 +24063,7 @@ COLUMNS
     vice_captain_540  _C4        1.000000000000e+00
     vice_captain_540  _C1600     1.000000000000e+00
     vice_captain_540  _C2384     1.000000000000e+00
-    vice_captain_540  OBJ        2.500000000000e-01
+    vice_captain_540  OBJ        2.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_541  _C4        1.000000000000e+00
@@ -24056,7 +24074,7 @@ COLUMNS
     vice_captain_542  _C4        1.000000000000e+00
     vice_captain_542  _C2305     1.000000000000e+00
     vice_captain_542  _C3089     1.000000000000e+00
-    vice_captain_542  OBJ        4.200000000000e-01
+    vice_captain_542  OBJ        4.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_543  _C4        1.000000000000e+00
@@ -24067,7 +24085,7 @@ COLUMNS
     vice_captain_544  _C4        1.000000000000e+00
     vice_captain_544  _C2307     1.000000000000e+00
     vice_captain_544  _C3091     1.000000000000e+00
-    vice_captain_544  OBJ        1.800000000000e-01
+    vice_captain_544  OBJ        3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_545  _C4        1.000000000000e+00
@@ -24110,7 +24128,7 @@ COLUMNS
     vice_captain_551  _C4        1.000000000000e+00
     vice_captain_551  _C2325     1.000000000000e+00
     vice_captain_551  _C3109     1.000000000000e+00
-    vice_captain_551  OBJ        5.200000000000e-01
+    vice_captain_551  OBJ        5.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_552  _C4        1.000000000000e+00
@@ -24121,6 +24139,7 @@ COLUMNS
     vice_captain_553  _C4        1.000000000000e+00
     vice_captain_553  _C2026     1.000000000000e+00
     vice_captain_553  _C2810     1.000000000000e+00
+    vice_captain_553  OBJ       -2.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_554  _C4        1.000000000000e+00
@@ -24146,7 +24165,7 @@ COLUMNS
     vice_captain_558  _C4        1.000000000000e+00
     vice_captain_558  _C1946     1.000000000000e+00
     vice_captain_558  _C2730     1.000000000000e+00
-    vice_captain_558  OBJ        2.200000000000e-01
+    vice_captain_558  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_559  _C4        1.000000000000e+00
@@ -24177,7 +24196,7 @@ COLUMNS
     vice_captain_563  _C4        1.000000000000e+00
     vice_captain_563  _C2335     1.000000000000e+00
     vice_captain_563  _C3119     1.000000000000e+00
-    vice_captain_563  OBJ        4.000000000000e-01
+    vice_captain_563  OBJ        4.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_564  _C4        1.000000000000e+00
@@ -24188,7 +24207,7 @@ COLUMNS
     vice_captain_565  _C4        1.000000000000e+00
     vice_captain_565  _C2337     1.000000000000e+00
     vice_captain_565  _C3121     1.000000000000e+00
-    vice_captain_565  OBJ        4.500000000000e-01
+    vice_captain_565  OBJ        4.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_566  _C4        1.000000000000e+00
@@ -24200,7 +24219,7 @@ COLUMNS
     vice_captain_567  _C4        1.000000000000e+00
     vice_captain_567  _C2338     1.000000000000e+00
     vice_captain_567  _C3122     1.000000000000e+00
-    vice_captain_567  OBJ        2.000000000000e-02
+    vice_captain_567  OBJ        5.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_568  _C4        1.000000000000e+00
@@ -24211,7 +24230,7 @@ COLUMNS
     vice_captain_569  _C4        1.000000000000e+00
     vice_captain_569  _C2340     1.000000000000e+00
     vice_captain_569  _C3124     1.000000000000e+00
-    vice_captain_569  OBJ        3.000000000000e-01
+    vice_captain_569  OBJ        3.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_57  _C4        1.000000000000e+00
@@ -24222,7 +24241,7 @@ COLUMNS
     vice_captain_570  _C4        1.000000000000e+00
     vice_captain_570  _C2341     1.000000000000e+00
     vice_captain_570  _C3125     1.000000000000e+00
-    vice_captain_570  OBJ        3.800000000000e-01
+    vice_captain_570  OBJ        4.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_571  _C4        1.000000000000e+00
@@ -24233,13 +24252,13 @@ COLUMNS
     vice_captain_572  _C4        1.000000000000e+00
     vice_captain_572  _C2343     1.000000000000e+00
     vice_captain_572  _C3127     1.000000000000e+00
-    vice_captain_572  OBJ        2.500000000000e-01
+    vice_captain_572  OBJ        2.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_573  _C4        1.000000000000e+00
     vice_captain_573  _C2344     1.000000000000e+00
     vice_captain_573  _C3128     1.000000000000e+00
-    vice_captain_573  OBJ        3.200000000000e-01
+    vice_captain_573  OBJ        3.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_574  _C4        1.000000000000e+00
@@ -24261,13 +24280,13 @@ COLUMNS
     vice_captain_577  _C4        1.000000000000e+00
     vice_captain_577  _C2308     1.000000000000e+00
     vice_captain_577  _C3092     1.000000000000e+00
-    vice_captain_577  OBJ        3.000000000000e-01
+    vice_captain_577  OBJ        4.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_578  _C4        1.000000000000e+00
     vice_captain_578  _C1601     1.000000000000e+00
     vice_captain_578  _C2385     1.000000000000e+00
-    vice_captain_578  OBJ        7.000000000000e-02
+    vice_captain_578  OBJ        8.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_579  _C4        1.000000000000e+00
@@ -24296,6 +24315,7 @@ COLUMNS
     vice_captain_582  _C4        1.000000000000e+00
     vice_captain_582  _C2028     1.000000000000e+00
     vice_captain_582  _C2812     1.000000000000e+00
+    vice_captain_582  OBJ       -2.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_583  _C4        1.000000000000e+00
@@ -24317,6 +24337,7 @@ COLUMNS
     vice_captain_586  _C4        1.000000000000e+00
     vice_captain_586  _C2029     1.000000000000e+00
     vice_captain_586  _C2813     1.000000000000e+00
+    vice_captain_586  OBJ        2.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_587  _C4        1.000000000000e+00
@@ -24342,13 +24363,13 @@ COLUMNS
     vice_captain_590  _C4        1.000000000000e+00
     vice_captain_590  _C2346     1.000000000000e+00
     vice_captain_590  _C3130     1.000000000000e+00
-    vice_captain_590  OBJ        4.500000000000e-01
+    vice_captain_590  OBJ        4.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_591  _C4        1.000000000000e+00
     vice_captain_591  _C1947     1.000000000000e+00
     vice_captain_591  _C2731     1.000000000000e+00
-    vice_captain_591  OBJ        1.000000000000e-01
+    vice_captain_591  OBJ        1.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_592  _C4        1.000000000000e+00
@@ -24364,7 +24385,7 @@ COLUMNS
     vice_captain_594  _C4        1.000000000000e+00
     vice_captain_594  _C1795     1.000000000000e+00
     vice_captain_594  _C2579     1.000000000000e+00
-    vice_captain_594  OBJ        4.000000000000e-01
+    vice_captain_594  OBJ        5.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_595  _C4        1.000000000000e+00
@@ -24375,7 +24396,7 @@ COLUMNS
     vice_captain_596  _C4        1.000000000000e+00
     vice_captain_596  _C1796     1.000000000000e+00
     vice_captain_596  _C2580     1.000000000000e+00
-    vice_captain_596  OBJ        3.000000000000e-01
+    vice_captain_596  OBJ        1.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_597  _C4        1.000000000000e+00
@@ -24386,7 +24407,7 @@ COLUMNS
     vice_captain_598  _C4        1.000000000000e+00
     vice_captain_598  _C2347     1.000000000000e+00
     vice_captain_598  _C3131     1.000000000000e+00
-    vice_captain_598  OBJ        2.500000000000e-01
+    vice_captain_598  OBJ        2.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_599  _C4        1.000000000000e+00
@@ -24398,7 +24419,7 @@ COLUMNS
     vice_captain_6  _C4        1.000000000000e+00
     vice_captain_6  _C1578     1.000000000000e+00
     vice_captain_6  _C2362     1.000000000000e+00
-    vice_captain_6  OBJ        2.000000000000e-01
+    vice_captain_6  OBJ        2.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_60  _C4        1.000000000000e+00
@@ -24410,13 +24431,13 @@ COLUMNS
     vice_captain_600  _C4        1.000000000000e+00
     vice_captain_600  _C1797     1.000000000000e+00
     vice_captain_600  _C2581     1.000000000000e+00
-    vice_captain_600  OBJ       -5.000000000000e-02
+    vice_captain_600  OBJ       -7.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_601  _C4        1.000000000000e+00
     vice_captain_601  _C1913     1.000000000000e+00
     vice_captain_601  _C2697     1.000000000000e+00
-    vice_captain_601  OBJ        1.500000000000e-01
+    vice_captain_601  OBJ        1.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_602  _C4        1.000000000000e+00
@@ -24453,7 +24474,7 @@ COLUMNS
     vice_captain_608  _C4        1.000000000000e+00
     vice_captain_608  _C1799     1.000000000000e+00
     vice_captain_608  _C2583     1.000000000000e+00
-    vice_captain_608  OBJ       -2.000000000000e-02
+    vice_captain_608  OBJ       -3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_609  _C4        1.000000000000e+00
@@ -24485,7 +24506,7 @@ COLUMNS
     vice_captain_614  _C4        1.000000000000e+00
     vice_captain_614  _C2031     1.000000000000e+00
     vice_captain_614  _C2815     1.000000000000e+00
-    vice_captain_614  OBJ        3.000000000000e-01
+    vice_captain_614  OBJ        2.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_615  _C4        1.000000000000e+00
@@ -24503,7 +24524,7 @@ COLUMNS
     vice_captain_617  _C4        1.000000000000e+00
     vice_captain_617  _C2102     1.000000000000e+00
     vice_captain_617  _C2886     1.000000000000e+00
-    vice_captain_617  OBJ        4.800000000000e-01
+    vice_captain_617  OBJ        6.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_618  _C4        1.000000000000e+00
@@ -24531,7 +24552,7 @@ COLUMNS
     vice_captain_621  _C4        1.000000000000e+00
     vice_captain_621  _C1755     1.000000000000e+00
     vice_captain_621  _C2539     1.000000000000e+00
-    vice_captain_621  OBJ        4.500000000000e-01
+    vice_captain_621  OBJ        4.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_622  _C4        1.000000000000e+00
@@ -24557,13 +24578,13 @@ COLUMNS
     vice_captain_626  _C4        1.000000000000e+00
     vice_captain_626  _C1983     1.000000000000e+00
     vice_captain_626  _C2767     1.000000000000e+00
-    vice_captain_626  OBJ        2.000000000000e-01
+    vice_captain_626  OBJ        2.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_627  _C4        1.000000000000e+00
     vice_captain_627  _C1984     1.000000000000e+00
     vice_captain_627  _C2768     1.000000000000e+00
-    vice_captain_627  OBJ        7.000000000000e-02
+    vice_captain_627  OBJ        8.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_628  _C4        1.000000000000e+00
@@ -24580,19 +24601,19 @@ COLUMNS
     vice_captain_63  _C4        1.000000000000e+00
     vice_captain_63  _C1648     1.000000000000e+00
     vice_captain_63  _C2432     1.000000000000e+00
-    vice_captain_63  OBJ        2.000000000000e-01
+    vice_captain_63  OBJ        1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_630  _C4        1.000000000000e+00
     vice_captain_630  _C2032     1.000000000000e+00
     vice_captain_630  _C2816     1.000000000000e+00
-    vice_captain_630  OBJ        3.700000000000e-01
+    vice_captain_630  OBJ        3.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_631  _C4        1.000000000000e+00
     vice_captain_631  _C2033     1.000000000000e+00
     vice_captain_631  _C2817     1.000000000000e+00
-    vice_captain_631  OBJ        5.000000000000e-02
+    vice_captain_631  OBJ        2.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_632  _C4        1.000000000000e+00
@@ -24603,7 +24624,7 @@ COLUMNS
     vice_captain_633  _C4        1.000000000000e+00
     vice_captain_633  _C2148     1.000000000000e+00
     vice_captain_633  _C2932     1.000000000000e+00
-    vice_captain_633  OBJ        1.000000000000e-01
+    vice_captain_633  OBJ        8.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_634  _C4        1.000000000000e+00
@@ -24615,7 +24636,7 @@ COLUMNS
     vice_captain_635  _C4        1.000000000000e+00
     vice_captain_635  _C2150     1.000000000000e+00
     vice_captain_635  _C2934     1.000000000000e+00
-    vice_captain_635  OBJ        1.700000000000e-01
+    vice_captain_635  OBJ        1.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_636  _C4        1.000000000000e+00
@@ -24639,13 +24660,13 @@ COLUMNS
     vice_captain_639  _C4        1.000000000000e+00
     vice_captain_639  _C2277     1.000000000000e+00
     vice_captain_639  _C3061     1.000000000000e+00
-    vice_captain_639  OBJ        2.000000000000e-02
+    vice_captain_639  OBJ        3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_64  _C4        1.000000000000e+00
     vice_captain_64  _C1649     1.000000000000e+00
     vice_captain_64  _C2433     1.000000000000e+00
-    vice_captain_64  OBJ        1.800000000000e-01
+    vice_captain_64  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_640  _C4        1.000000000000e+00
@@ -24661,7 +24682,7 @@ COLUMNS
     vice_captain_642  _C4        1.000000000000e+00
     vice_captain_642  _C2309     1.000000000000e+00
     vice_captain_642  _C3093     1.000000000000e+00
-    vice_captain_642  OBJ        2.200000000000e-01
+    vice_captain_642  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_643  _C4        1.000000000000e+00
@@ -24672,7 +24693,7 @@ COLUMNS
     vice_captain_644  _C4        1.000000000000e+00
     vice_captain_644  _C1679     1.000000000000e+00
     vice_captain_644  _C2463     1.000000000000e+00
-    vice_captain_644  OBJ        4.000000000000e-01
+    vice_captain_644  OBJ        5.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_645  _C4        1.000000000000e+00
@@ -24704,7 +24725,7 @@ COLUMNS
     vice_captain_65  _C4        1.000000000000e+00
     vice_captain_65  _C1650     1.000000000000e+00
     vice_captain_65  _C2434     1.000000000000e+00
-    vice_captain_65  OBJ        2.000000000000e-01
+    vice_captain_65  OBJ        2.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_650  _C4        1.000000000000e+00
@@ -24771,13 +24792,13 @@ COLUMNS
     vice_captain_660  _C4        1.000000000000e+00
     vice_captain_660  _C1801     1.000000000000e+00
     vice_captain_660  _C2585     1.000000000000e+00
-    vice_captain_660  OBJ        4.200000000000e-01
+    vice_captain_660  OBJ        1.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_661  _C4        1.000000000000e+00
     vice_captain_661  _C1918     1.000000000000e+00
     vice_captain_661  _C2702     1.000000000000e+00
-    vice_captain_661  OBJ        3.500000000000e-01
+    vice_captain_661  OBJ        4.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_662  _C4        1.000000000000e+00
@@ -24794,7 +24815,7 @@ COLUMNS
     vice_captain_664  _C4        1.000000000000e+00
     vice_captain_664  _C2311     1.000000000000e+00
     vice_captain_664  _C3095     1.000000000000e+00
-    vice_captain_664  OBJ        5.200000000000e-01
+    vice_captain_664  OBJ        6.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_665  _C4        1.000000000000e+00
@@ -24832,7 +24853,6 @@ COLUMNS
     vice_captain_670  _C4        1.000000000000e+00
     vice_captain_670  _C1640     1.000000000000e+00
     vice_captain_670  _C2424     1.000000000000e+00
-    vice_captain_670  OBJ       -5.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_671  _C4        1.000000000000e+00
@@ -24860,13 +24880,13 @@ COLUMNS
     vice_captain_675  _C4        1.000000000000e+00
     vice_captain_675  _C1803     1.000000000000e+00
     vice_captain_675  _C2587     1.000000000000e+00
-    vice_captain_675  OBJ       -5.000000000000e-02
+    vice_captain_675  OBJ       -3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_676  _C4        1.000000000000e+00
     vice_captain_676  _C2312     1.000000000000e+00
     vice_captain_676  _C3096     1.000000000000e+00
-    vice_captain_676  OBJ        7.000000000000e-01
+    vice_captain_676  OBJ        7.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_677  _C4        1.000000000000e+00
@@ -24884,7 +24904,7 @@ COLUMNS
     vice_captain_679  _C4        1.000000000000e+00
     vice_captain_679  _C2197     1.000000000000e+00
     vice_captain_679  _C2981     1.000000000000e+00
-    vice_captain_679  OBJ        2.700000000000e-01
+    vice_captain_679  OBJ        3.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_68  _C4        1.000000000000e+00
@@ -24921,7 +24941,7 @@ COLUMNS
     vice_captain_685  _C4        1.000000000000e+00
     vice_captain_685  _C2105     1.000000000000e+00
     vice_captain_685  _C2889     1.000000000000e+00
-    vice_captain_685  OBJ        2.000000000000e-02
+    vice_captain_685  OBJ        3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_686  _C4        1.000000000000e+00
@@ -24938,7 +24958,7 @@ COLUMNS
     vice_captain_688  _C4        1.000000000000e+00
     vice_captain_688  _C1954     1.000000000000e+00
     vice_captain_688  _C2738     1.000000000000e+00
-    vice_captain_688  OBJ        1.200000000000e-01
+    vice_captain_688  OBJ        1.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_689  _C4        1.000000000000e+00
@@ -24960,7 +24980,7 @@ COLUMNS
     vice_captain_691  _C4        1.000000000000e+00
     vice_captain_691  _C1919     1.000000000000e+00
     vice_captain_691  _C2703     1.000000000000e+00
-    vice_captain_691  OBJ        1.200000000000e-01
+    vice_captain_691  OBJ        1.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_692  _C4        1.000000000000e+00
@@ -24987,7 +25007,7 @@ COLUMNS
     vice_captain_696  _C4        1.000000000000e+00
     vice_captain_696  _C2198     1.000000000000e+00
     vice_captain_696  _C2982     1.000000000000e+00
-    vice_captain_696  OBJ        1.700000000000e-01
+    vice_captain_696  OBJ        2.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_697  _C4        1.000000000000e+00
@@ -25036,7 +25056,7 @@ COLUMNS
     vice_captain_703  _C4        1.000000000000e+00
     vice_captain_703  _C2107     1.000000000000e+00
     vice_captain_703  _C2891     1.000000000000e+00
-    vice_captain_703  OBJ        8.000000000000e-02
+    vice_captain_703  OBJ        1.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_704  _C4        1.000000000000e+00
@@ -25047,13 +25067,13 @@ COLUMNS
     vice_captain_705  _C4        1.000000000000e+00
     vice_captain_705  _C1681     1.000000000000e+00
     vice_captain_705  _C2465     1.000000000000e+00
-    vice_captain_705  OBJ        2.500000000000e-01
+    vice_captain_705  OBJ        3.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_706  _C4        1.000000000000e+00
     vice_captain_706  _C1805     1.000000000000e+00
     vice_captain_706  _C2589     1.000000000000e+00
-    vice_captain_706  OBJ        2.000000000000e-02
+    vice_captain_706  OBJ        3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_707  _C4        1.000000000000e+00
@@ -25064,7 +25084,7 @@ COLUMNS
     vice_captain_708  _C4        1.000000000000e+00
     vice_captain_708  _C1988     1.000000000000e+00
     vice_captain_708  _C2772     1.000000000000e+00
-    vice_captain_708  OBJ        2.000000000000e-01
+    vice_captain_708  OBJ        2.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_709  _C4        1.000000000000e+00
@@ -25086,13 +25106,13 @@ COLUMNS
     vice_captain_711  _C4        1.000000000000e+00
     vice_captain_711  _C2200     1.000000000000e+00
     vice_captain_711  _C2984     1.000000000000e+00
-    vice_captain_711  OBJ       -3.000000000000e-02
+    vice_captain_711  OBJ       -2.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_712  _C4        1.000000000000e+00
     vice_captain_712  _C2201     1.000000000000e+00
     vice_captain_712  _C2985     1.000000000000e+00
-    vice_captain_712  OBJ        2.500000000000e-01
+    vice_captain_712  OBJ        3.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_713  _C4        1.000000000000e+00
@@ -25137,7 +25157,7 @@ COLUMNS
     vice_captain_72  _C4        1.000000000000e+00
     vice_captain_72  _C1657     1.000000000000e+00
     vice_captain_72  _C2441     1.000000000000e+00
-    vice_captain_72  OBJ        2.800000000000e-01
+    vice_captain_72  OBJ        3.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_720  _C4        1.000000000000e+00
@@ -25182,7 +25202,7 @@ COLUMNS
     vice_captain_727  _C4        1.000000000000e+00
     vice_captain_727  _C2037     1.000000000000e+00
     vice_captain_727  _C2821     1.000000000000e+00
-    vice_captain_727  OBJ        3.700000000000e-01
+    vice_captain_727  OBJ        1.500000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_728  _C4        1.000000000000e+00
@@ -25367,7 +25387,7 @@ COLUMNS
     vice_captain_757  _C4        1.000000000000e+00
     vice_captain_757  _C1993     1.000000000000e+00
     vice_captain_757  _C2777     1.000000000000e+00
-    vice_captain_757  OBJ        2.500000000000e-01
+    vice_captain_757  OBJ        3.200000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_758  _C4        1.000000000000e+00
@@ -25385,7 +25405,7 @@ COLUMNS
     vice_captain_76  _C4        1.000000000000e+00
     vice_captain_76  _C1661     1.000000000000e+00
     vice_captain_76  _C2445     1.000000000000e+00
-    vice_captain_76  OBJ        5.000000000000e-02
+    vice_captain_76  OBJ        3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_760  _C4        1.000000000000e+00
@@ -25425,7 +25445,7 @@ COLUMNS
     vice_captain_766  _C4        1.000000000000e+00
     vice_captain_766  _C2110     1.000000000000e+00
     vice_captain_766  _C2894     1.000000000000e+00
-    vice_captain_766  OBJ        5.000000000000e-02
+    vice_captain_766  OBJ        3.000000000000e-02
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_767  _C4        1.000000000000e+00
@@ -25447,7 +25467,7 @@ COLUMNS
     vice_captain_77  _C4        1.000000000000e+00
     vice_captain_77  _C1662     1.000000000000e+00
     vice_captain_77  _C2446     1.000000000000e+00
-    vice_captain_77  OBJ        3.200000000000e-01
+    vice_captain_77  OBJ        4.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_770  _C4        1.000000000000e+00
@@ -25556,7 +25576,7 @@ COLUMNS
     vice_captain_8  _C4        1.000000000000e+00
     vice_captain_8  _C1579     1.000000000000e+00
     vice_captain_8  _C2363     1.000000000000e+00
-    vice_captain_8  OBJ        2.700000000000e-01
+    vice_captain_8  OBJ        2.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_80  _C4        1.000000000000e+00
@@ -25577,24 +25597,25 @@ COLUMNS
     vice_captain_83  _C4        1.000000000000e+00
     vice_captain_83  _C1668     1.000000000000e+00
     vice_captain_83  _C2452     1.000000000000e+00
+    vice_captain_83  OBJ        2.000000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_84  _C4        1.000000000000e+00
     vice_captain_84  _C1669     1.000000000000e+00
     vice_captain_84  _C2453     1.000000000000e+00
-    vice_captain_84  OBJ        2.800000000000e-01
+    vice_captain_84  OBJ        1.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_85  _C4        1.000000000000e+00
     vice_captain_85  _C1670     1.000000000000e+00
     vice_captain_85  _C2454     1.000000000000e+00
-    vice_captain_85  OBJ        6.800000000000e-01
+    vice_captain_85  OBJ        3.300000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_86  _C4        1.000000000000e+00
     vice_captain_86  _C1671     1.000000000000e+00
     vice_captain_86  _C2455     1.000000000000e+00
-    vice_captain_86  OBJ        3.200000000000e-01
+    vice_captain_86  OBJ        3.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_87  _C4        1.000000000000e+00
@@ -25610,13 +25631,13 @@ COLUMNS
     vice_captain_89  _C4        1.000000000000e+00
     vice_captain_89  _C1674     1.000000000000e+00
     vice_captain_89  _C2458     1.000000000000e+00
-    vice_captain_89  OBJ        2.200000000000e-01
+    vice_captain_89  OBJ        2.700000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_9  _C4        1.000000000000e+00
     vice_captain_9  _C1580     1.000000000000e+00
     vice_captain_9  _C2364     1.000000000000e+00
-    vice_captain_9  OBJ        1.500000000000e-01
+    vice_captain_9  OBJ        1.800000000000e-01
     MARK      'MARKER'                 'INTEND'
     MARK      'MARKER'                 'INTORG'
     vice_captain_90  _C4        1.000000000000e+00
@@ -28929,7 +28950,7 @@ RHS
     RHS       _C3253     0.000000000000e+00
     RHS       _C3254     0.000000000000e+00
     RHS       _C3255     0.000000000000e+00
-    RHS       _C3256     0.000000000000e+00
+    RHS       _C3256     1.000000000000e+00
     RHS       _C3257     0.000000000000e+00
     RHS       _C3258     0.000000000000e+00
     RHS       _C3259     0.000000000000e+00
@@ -28942,7 +28963,7 @@ RHS
     RHS       _C3266     1.000000000000e+00
     RHS       _C3267     0.000000000000e+00
     RHS       _C3268     0.000000000000e+00
-    RHS       _C3269     0.000000000000e+00
+    RHS       _C3269     1.000000000000e+00
     RHS       _C3270     1.000000000000e+00
     RHS       _C3271     1.000000000000e+00
     RHS       _C3272     1.000000000000e+00
@@ -29012,7 +29033,7 @@ RHS
     RHS       _C3336     0.000000000000e+00
     RHS       _C3337     0.000000000000e+00
     RHS       _C3338     1.000000000000e+00
-    RHS       _C3339     0.000000000000e+00
+    RHS       _C3339     1.000000000000e+00
     RHS       _C3340     0.000000000000e+00
     RHS       _C3341     0.000000000000e+00
     RHS       _C3342     1.000000000000e+00
@@ -29076,7 +29097,7 @@ RHS
     RHS       _C3400     0.000000000000e+00
     RHS       _C3401     0.000000000000e+00
     RHS       _C3402     0.000000000000e+00
-    RHS       _C3403     0.000000000000e+00
+    RHS       _C3403     1.000000000000e+00
     RHS       _C3404     1.000000000000e+00
     RHS       _C3405     0.000000000000e+00
     RHS       _C3406     0.000000000000e+00
@@ -29252,7 +29273,7 @@ RHS
     RHS       _C3576     0.000000000000e+00
     RHS       _C3577     0.000000000000e+00
     RHS       _C3578     0.000000000000e+00
-    RHS       _C3579     1.000000000000e+00
+    RHS       _C3579     0.000000000000e+00
     RHS       _C3580     0.000000000000e+00
     RHS       _C3581     0.000000000000e+00
     RHS       _C3582     0.000000000000e+00
@@ -29431,7 +29452,7 @@ RHS
     RHS       _C3755     0.000000000000e+00
     RHS       _C3756     0.000000000000e+00
     RHS       _C3757     1.000000000000e+00
-    RHS       _C3758     1.000000000000e+00
+    RHS       _C3758     0.000000000000e+00
     RHS       _C3759     0.000000000000e+00
     RHS       _C3760     0.000000000000e+00
     RHS       _C3761     0.000000000000e+00
@@ -29445,7 +29466,7 @@ RHS
     RHS       _C3769     0.000000000000e+00
     RHS       _C3770     0.000000000000e+00
     RHS       _C3771     0.000000000000e+00
-    RHS       _C3772     0.000000000000e+00
+    RHS       _C3772     1.000000000000e+00
     RHS       _C3773     1.000000000000e+00
     RHS       _C3774     0.000000000000e+00
     RHS       _C3775     0.000000000000e+00
@@ -29477,7 +29498,7 @@ RHS
     RHS       _C3801     0.000000000000e+00
     RHS       _C3802     1.000000000000e+00
     RHS       _C3803     0.000000000000e+00
-    RHS       _C3804     1.000000000000e+00
+    RHS       _C3804     0.000000000000e+00
     RHS       _C3805     0.000000000000e+00
     RHS       _C3806     0.000000000000e+00
     RHS       _C3807     0.000000000000e+00
@@ -29489,7 +29510,7 @@ RHS
     RHS       _C3813     1.000000000000e+00
     RHS       _C3814     0.000000000000e+00
     RHS       _C3815     1.000000000000e+00
-    RHS       _C3816     1.000000000000e+00
+    RHS       _C3816     0.000000000000e+00
     RHS       _C3817     1.000000000000e+00
     RHS       _C3818     1.000000000000e+00
     RHS       _C3819     0.000000000000e+00
@@ -29564,9 +29585,9 @@ RHS
     RHS       _C3888     0.000000000000e+00
     RHS       _C3889     1.000000000000e+00
     RHS       _C3890     0.000000000000e+00
-    RHS       _C3891     0.000000000000e+00
+    RHS       _C3891     1.000000000000e+00
     RHS       _C3892     1.000000000000e+00
-    RHS       _C3893     1.000000000000e+00
+    RHS       _C3893     0.000000000000e+00
     RHS       _C3894     0.000000000000e+00
     RHS       _C3895     1.000000000000e+00
     RHS       _C3896     0.000000000000e+00

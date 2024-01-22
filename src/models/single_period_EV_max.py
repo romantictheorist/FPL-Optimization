@@ -6,67 +6,18 @@ import sys
 
 import numpy as np
 import pandas as pd
-import requests
-import json
 import pulp
 from pulp import *
 import time
+import multiprocessing
+
+import sys
 
 sys.path.append("..")
 
+from data.pull_data import get_general_data
+
 pd.options.mode.chained_assignment = None  # default='warn'
-
-
-# ----------------------------------------
-# Define function to get data for model
-# ----------------------------------------
-
-
-def get_model_data():
-    """
-    Returns a dictionary of slim dataframes for the current gameweek.
-    """
-
-    # Run make_dataset.py to get latest data from FPL API
-    import data.make_dataset
-
-    # Run build_features.py to create slim dataframes (clean and processed data) from latest data
-    import features.build_features
-
-    # Define path to processed data
-    processed_path = "../../data/processed/"
-
-    # Get gameweek number of newest data, i.e. current gameweek
-    current_gw = max(
-        [
-            int(folder.split("_")[1])
-            for folder in os.listdir(processed_path)
-            if os.path.isdir(processed_path + folder)
-        ]
-    )
-
-    # Define processed path for current gameweek
-    current_gw_processed_path = "../../data/processed/gw_" + str(current_gw)
-
-    # Load data and set IDs as index
-    slim_elements_df = pd.read_csv(current_gw_processed_path + "/slim_elements.csv")
-    slim_elements_df.set_index("id", inplace=True)  # Set index to player id
-
-    slim_element_types_df = pd.read_csv(
-        current_gw_processed_path + "/slim_element_types.csv"
-    )
-    slim_element_types_df.set_index("id", inplace=True)  # Set index to element type id
-
-    slim_teams_df = pd.read_csv(current_gw_processed_path + "/slim_teams.csv")
-    slim_teams_df.set_index("id", inplace=True)  # Set index to team id
-
-    return {
-        "slim_elements_df": slim_elements_df,
-        "slim_element_types_df": slim_element_types_df,
-        "slim_teams_df": slim_teams_df,
-        "current_gw": current_gw,
-    }
-
 
 # ----------------------------------------
 # Define function to solve single period model
@@ -74,24 +25,33 @@ def get_model_data():
 
 
 def solve_single_period_model(budget):
+    print("-" * 80)
     # ----------------------------------------
-    # Get data for current gameweek
+    # Pull data from FPL API
     # ----------------------------------------
 
-    model_data = get_model_data()
+    general_data = get_general_data()
+    elements_df = general_data["elements"]
+    element_types_df = general_data["element_types"]
+    teams_df = general_data["teams"]
+    current_gw = general_data["current_gw"]
 
-    # Get slim dataframes
-    slim_elements_df = model_data["slim_elements_df"]
-    slim_element_types_df = model_data["slim_element_types_df"]
-    slim_teams_df = model_data["slim_teams_df"]
+    # ----------------------------------------
+    # Set index to 'id's
+    # ----------------------------------------
 
-    # Get current gameweek
-    gw = model_data["current_gw"]
+    # Set index of elements_df to 'id'
+    elements_df.set_index("id", inplace=True)
+    element_types_df.set_index("id", inplace=True)
+    teams_df.set_index("id", inplace=True)
 
-    # Get list of player IDs, element type IDs and team IDs (for use in model)
-    players = list(slim_elements_df.index)
-    positions = list(slim_element_types_df.index)
-    teams = list(slim_teams_df.index)
+    # ----------------------------------------
+    # List of player IDs, positions and teams (to be used in model)
+    # ----------------------------------------
+
+    players = list(elements_df.index)
+    positions = list(element_types_df.index)
+    teams = list(teams_df.index)
 
     # ----------------------------------------
     # Initialise model
@@ -109,13 +69,13 @@ def solve_single_period_model(budget):
     vice_captain = LpVariable.dicts("vice_captain", players, cat="Binary")
 
     # ----------------------------------------
-    # Define objective function
+    # Define objective function: Maximize expected points in next gameweek
     # ----------------------------------------
 
     # Maximize expected points, captain gets 2x and vice captain gets 1.1x)
     total_ep_next = lpSum(
         [
-            slim_elements_df.loc[p, "ep_next"]
+            float(elements_df.loc[p, "ep_next"])
             * (lineup[p] + captain[p] + 0.1 * vice_captain[p])
             for p in players
         ]
@@ -158,11 +118,7 @@ def solve_single_period_model(budget):
     ## Dictionary that counts the number of players in each position in lineup
     lineup_position_count = {
         pos: lpSum(
-            [
-                lineup[p]
-                for p in players
-                if slim_elements_df.loc[p, "element_type"] == pos
-            ]
+            [lineup[p] for p in players if elements_df.loc[p, "element_type"] == pos]
         )
         for pos in positions
     }
@@ -170,11 +126,7 @@ def solve_single_period_model(budget):
     ## Dictionary that counts the number of players in each position in squad
     squad_position_count = {
         pos: lpSum(
-            [
-                squad[p]
-                for p in players
-                if slim_elements_df.loc[p, "element_type"] == pos
-            ]
+            [squad[p] for p in players if elements_df.loc[p, "element_type"] == pos]
         )
         for pos in positions
     }
@@ -183,33 +135,25 @@ def solve_single_period_model(budget):
     for pos in positions:
         # Minimum number of players in lineup
         model += (
-            lineup_position_count[pos]
-            >= slim_element_types_df.loc[pos, "squad_min_play"]
+            lineup_position_count[pos] >= element_types_df.loc[pos, "squad_min_play"]
         )
         # Maximum number of players in lineup
         model += (
-            lineup_position_count[pos]
-            <= slim_element_types_df.loc[pos, "squad_max_play"]
+            lineup_position_count[pos] <= element_types_df.loc[pos, "squad_max_play"]
         )
 
     ## Number of players in each position in squad must be satisfied (defined in element_types_df as squad_select)
     for pos in positions:
-        model += (
-            squad_position_count[pos] == slim_element_types_df.loc[pos, "squad_select"]
-        )
+        model += squad_position_count[pos] == element_types_df.loc[pos, "squad_select"]
 
     ## Total cost of entire squad must be less than or equal to budget
     budget = budget
-    squad_cost = lpSum(
-        [slim_elements_df.loc[p, "now_cost"] * squad[p] for p in players]
-    )
+    squad_cost = lpSum([elements_df.loc[p, "now_cost"] * squad[p] for p in players])
     model += squad_cost <= budget
 
     ## Dictionary that counts the number of players in each team in squad
     squad_team_count = {
-        team: lpSum(
-            [squad[p] for p in players if slim_elements_df.loc[p, "team"] == team]
-        )
+        team: lpSum([squad[p] for p in players if elements_df.loc[p, "team"] == team])
         for team in teams
     }
 
@@ -219,9 +163,7 @@ def solve_single_period_model(budget):
 
     ## Every lineup player must play at have at least 75% chance of playing next gameweek
     for p in players:
-        model += squad[p] <= (
-            slim_elements_df.loc[p, "chance_of_playing_next_round"] >= 75
-        )
+        model += squad[p] <= (elements_df.loc[p, "chance_of_playing_next_round"] >= 75)
 
     # ----------------------------------------
     # Solve model and get results
@@ -232,64 +174,58 @@ def solve_single_period_model(budget):
 
     # If model was solved to optimality, save and get results
     if model.status == 1:
-        print("Model solved successfully.")
-        print(
-            "Results exported to models/single_period/solved_EV_max_gw_"
-            + str(gw)
-            + "_budget_"
-            + str(budget)
-        )
-        print("-" * 40)
-        print("Status:", LpStatus[model.status])
-        print("Current gameweek:", gw)
-        print("Budget:", budget)
-        print("Expected points:", round(value(model.objective), 1))
-        print("Cost:", round(value(squad_cost), 1))
-        print("-" * 40)
+        model_name = f"solved_EV_max_gw_{current_gw}_budget_{budget}"
+        model_path = "../../models/single_period/"
 
-        # Export model to MPS file with current gameweek and budget in name
-        model.writeMPS(
-            "../../models/single_period/solved_EV_max_gw_"
-            + str(gw)
-            + "_budget_"
-            + str(budget)
-            + ".mps"
-        )
+        # Check if model/single_period folder exists, if not create it
+        if not os.path.exists(model_path):
+            os.makedirs(model_path)
+        else:
+            pass
 
-        # Create empty lists for each variable
+        # Write model to .mps file
+        model.writeMPS(model_path + model_name + ".mps")
+
+        # Empty lists for each variable
         squad = []
         lineup = []
         captain = []
         vice_captain = []
 
-        # Get model variables that are 1
+        # Loop through model variables and get variables that are 1 (i.e. selected)
         for v in model.variables():
             if v.varValue == 1:
-                # If variable is a squad player
+                # If variable is a squad player, add to squad list
                 if v.name[0] == "s":
                     id = int(v.name[6:])
                     squad.append(id)
 
-                # If variable is a lineup player
+                # If variable is a lineup player, add to lineup list
                 elif v.name[0] == "l":
                     id = int(v.name[7:])
                     lineup.append(id)
 
-                # If variable is a captain
+                # If variable is a captain, add to captain list
                 elif v.name[0] == "c":
                     id = int(v.name[8:])
                     captain.append(id)
 
-                # If variable is a vice captain
+                # If variable is a vice captain, add to vice captain list
                 elif v.name[0] == "v":
                     id = int(v.name[13:])
                     vice_captain.append(id)
 
-        # Create  empty list for results
+        # Get total expected points
+        total_ep_next = round(value(model.objective), 1)
+
+        # Get total squad cost
+        squad_cost = round(value(squad_cost), 1)
+
+        # Create a results dataframe with only the selected players
         results = []
 
         for p in squad:
-            player_data = slim_elements_df.loc[p]
+            player_data = elements_df.loc[p]
             in_lineup = 1 if p in lineup else 0
             is_captain = 1 if p in captain else 0
             is_vice_captain = 1 if p in vice_captain else 0
@@ -300,9 +236,7 @@ def solve_single_period_model(budget):
                     player_data["web_name"],
                     player_data["position"],
                     player_data["element_type"],
-                    player_data["team_name"],
-                    player_data["gw_current"],
-                    player_data["gw_next"],
+                    player_data["team"],
                     player_data["now_cost"],
                     player_data["ep_next"],
                     player_data["chance_of_playing_next_round"],
@@ -312,7 +246,6 @@ def solve_single_period_model(budget):
                 ]
             )
 
-        # Create dataframe with results
         results_df = pd.DataFrame(
             results,
             columns=[
@@ -321,8 +254,6 @@ def solve_single_period_model(budget):
                 "position",
                 "element_type",
                 "team",
-                "gw_current",
-                "gw_next",
                 "now_cost",
                 "ep_next",
                 "chance_of_playing_next_round",
@@ -340,14 +271,16 @@ def solve_single_period_model(budget):
         )
 
         # Export results to csv file
-        results_df.to_csv(
-            "../../models/single_period/solved_EV_max_gw_"
-            + str(gw)
-            + "_budget_"
-            + str(budget)
-            + ".csv",
-            index=False,
+        results_df.to_csv(model_path + model_name + ".csv", index=False)
+
+        # Print message to console
+        print("Status:", LpStatus[model.status])
+        print(
+            f"Model successfully solved for gameweek {current_gw} with a budget of {budget}."
         )
+        print("Results exported to " + model_path + model_name)
+        print("Expected points:", total_ep_next)
+        print("Squad cost:", squad_cost)
 
         return {
             "model": model,
@@ -356,7 +289,7 @@ def solve_single_period_model(budget):
             "lineup": lineup,
             "captain": captain,
             "vice_captain": vice_captain,
-            "total_ep_next": round(value(model.objective), 1),
+            "total_ep_next": total_ep_next,
             "squad_cost": squad_cost,
         }
 
@@ -365,25 +298,58 @@ def solve_single_period_model(budget):
         print("Status:", LpStatus[model.status])
         results_df = None
 
+    print("-" * 80)
+
 
 # ----------------------------------------
 # Main
 # ----------------------------------------
 
 if __name__ == "__main__":
+    # Set start time
     t0 = time.time()
 
-    results = []
+    # List of budgets to run model for
+    budgets = list(range(650, 1001, 25))
 
-    for budget in range(650, 1001, 25):
-        r = solve_single_period_model(budget=budget)["total_ep_next"]
-        results.append([budget, r])
+    # ----------------------------------------
+    # Loop through budgets and solve model for each budget
+    # ----------------------------------------
 
-    results_df = pd.DataFrame(results, columns=["budget", "total_ep_next"])
-    print(results_df)
-    print("Time spent in loop:", round(time.time() - t0, 1), "seconds")
+    # results = []
 
-# ----------------------------------------
+    # for budget in budgets:
+    #     r = solve_single_period_model(budget=budget)["total_ep_next"]
+    #     results.append([budget, r])
 
-df = pd.read_csv("../../models/single_period/solved_EV_max_gw_21_budget_1000.csv")
-df
+    # # Make a dataframe with results
+    # results_df = pd.DataFrame(results, columns=["budget", "total_ep_next"])
+
+    # # Print results_df and time spent in loop
+    # print(results_df)
+    # print("Time spent in loop:", round(time.time() - t0, 1), "seconds")
+
+    # ----------------------------------------
+    # Parallel processing using multiprocessing
+    # ----------------------------------------
+
+    with multiprocessing.Pool() as pool:
+        # Map budgets to solve_single_period_model function
+        responses = pool.map(solve_single_period_model, budgets)
+
+        # Get total_ep_next from results
+        total_ep_next = [r["total_ep_next"] for r in responses]
+
+        # Zip budgets and total_ep_next into a list of lists
+        results = zip(budgets, total_ep_next)
+
+        # Make a dataframe with total_ep_next_results
+        results_df = pd.DataFrame(results, columns=["budget", "total_ep_next"])
+
+        # Print total_ep_next_results_df
+        print(results_df)
+
+        # Print time spent parallel processing
+        print("Time spent parallel processing:", round(time.time() - t0, 1), "seconds")
+
+    # ----------------------------------------
