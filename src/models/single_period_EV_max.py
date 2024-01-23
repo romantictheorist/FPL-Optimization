@@ -115,10 +115,10 @@ def solve_single_period_model(budget):
     # Define decision variables
     # ----------------------------------------
 
-    squad = LpVariable.dicts("squad", players, cat="Binary")
-    lineup = LpVariable.dicts("lineup", players, cat="Binary")
-    captain = LpVariable.dicts("captain", players, cat="Binary")
-    vice_captain = LpVariable.dicts("vice_captain", players, cat="Binary")
+    squad = LpVariable("squad", players, cat="Binary")
+    lineup = LpVariable("lineup", players, cat="Binary")
+    captain = LpVariable("captain", players, cat="Binary")
+    vice_captain = LpVariable("vice_captain", players, cat="Binary")
 
     # ----------------------------------------
     # Define objective function: Maximize expected points in next gameweek

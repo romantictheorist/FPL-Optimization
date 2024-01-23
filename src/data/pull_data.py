@@ -35,13 +35,15 @@ def pull_general_data():
     r2 = requests.get(base_url + "fixtures/").json()
     fixtures_df = pd.DataFrame(r2)
 
-    # Find current and next gameweek numbers using is_current and is_next columns in events_df
+    # Find previous, current and next gameweek numbers from events_df
+    previous_gw = events_df[events_df["is_previous"] == True]["id"].iloc[0]
     current_gw = events_df[events_df["is_current"] == True]["id"].iloc[0]
     next_gw = events_df[events_df["is_next"] == True]["id"].iloc[0]
 
-    # Add current_gw and next_gw to elements_df
+    # Add previous, current and next gameweek numbers to elements_df
+    elements_df["previous_gw"] = previous_gw
     elements_df["current_gw"] = current_gw
-    elements_df["nexy_gw"] = next_gw
+    elements_df["next_gw"] = next_gw
 
     # Map 'element_type' in elements_df to 'singular_name_short' in element_types_df
     elements_df["position"] = elements_df.element_type.map(
@@ -87,6 +89,7 @@ def pull_general_data():
         "teams": teams_df,
         "events": events_df,
         "fixtures": fixtures_df,
+        "previous_gw": previous_gw,
         "current_gw": current_gw,
         "next_gw": next_gw,
     }
@@ -100,3 +103,26 @@ def pull_player_data(player_id):
     r = requests.get(base_url + "element-summary/" + str(player_id) + "/").json()
 
     return r
+
+
+def pull_squad(gw, team_id=216079):
+    """
+    Returns a list of player ids for a given team id and gameweek.
+    """
+
+    r = requests.get(
+        base_url + "entry/" + str(team_id) + "/event/" + str(gw) + "/picks/"
+    ).json()
+
+    # if r contains "detail" key, then team_id is invalid
+    if "detail" in r.keys() and r["detail"] == "Not found.":
+        raise ValueError("Team ID not found.")
+        return None
+
+    else:
+        picks = r["picks"]
+        squad = [p["element"] for p in picks]
+        return squad
+
+
+# my_team_id = 10599528

@@ -15,69 +15,43 @@ import sys
 
 sys.path.append("..")
 
-from data.pull_data import pull_general_data
+from data.pull_data import pull_general_data, pull_squad
+from features.build_features import merge_fpl_form_data
 
 pd.options.mode.chained_assignment = None  # default='warn'
-
-
-# ----------------------------------------
-# Define function to merge fpl_form_data with elements_df
-# ----------------------------------------
-
-
-def merge_fpl_form_data(elements_df, fpl_form_data):
-    """
-    Merge fpl_form_data with elements_df.
-    """
-
-    # Replace GK with GKP to match elements_df
-    fpl_form_data["Pos"] = fpl_form_data["Pos"].replace("GK", "GKP")
-
-    # Merge fpl_form_data with elements_df
-    merged_elements_df = pd.merge(
-        elements_df,
-        fpl_form_data,
-        left_on=[
-            "id",
-            "web_name",
-            "position",
-        ],
-        right_on=["ID", "Name", "Pos"],
-    )
-
-    # Drop duplicate columns
-    merged_elements_df.drop(
-        columns=["ID", "Name", "Pos", "Team", "Price"],
-        inplace=True,
-    )
-
-    # If merge was successful, return merged_elements_df
-    if len(merged_elements_df) == len(elements_df):
-        print("FPL form data successfully merged with elements_df.")
-        return merged_elements_df
-    else:
-        print("Merge was unsuccessful.")
-        return None
-
 
 # ----------------------------------------
 # Define function to solve single period model
 # ----------------------------------------
 
 
-def solve_single_period_model(budget):
+def solve_single_period_model(
+    team_id,
+    gameweek,
+    num_free_transfers,
+    money_in_bank,
+    horizon,
+    objective,
+    decay_base=0.85,
+):
     print("-" * 80)
 
     # ----------------------------------------
-    # Pull data from FPL API
+    # Pull data from FPL API-
     # ----------------------------------------
 
+    # Latest general data
     general_data = pull_general_data()
     elements_df = general_data["elements"]
     element_types_df = general_data["element_types"]
     teams_df = general_data["teams"]
+
+    previous_gw = general_data["previous_gw"]
     current_gw = general_data["current_gw"]
     next_gw = general_data["next_gw"]
+
+    # Initial squad (i.e. squad from gameweek prior to the one we are solving for)
+    initial_squad = pull_squad(team_id=team_id, gw=gameweek - 1)
 
     # ----------------------------------------
     # Read in fpl_form_data and merge with elements_df
@@ -98,33 +72,54 @@ def solve_single_period_model(budget):
     teams_df.set_index("id", inplace=True)
 
     # ----------------------------------------
-    # List of player IDs, positions and teams (to be used in model)
+    # Sets
     # ----------------------------------------
 
     players = list(merged_elements_df.index)
     positions = list(element_types_df.index)
     teams = list(teams_df.index)
+    future_gameweeks = list(range(next_gw, next_gw + horizon))
+    all_gameweeks = [current_gw] + future_gameweeks
 
     # ----------------------------------------
     # Initialise model
     # ----------------------------------------
 
-    model = LpProblem("SinglePeriod", sense=LpMaximize)
+    model_name = f"solve_EV_max_gw_{gameweek}_horizon_{horizon}_objective_{objective}"
+    model = LpProblem(model_name, sense=LpMaximize)
 
     # ----------------------------------------
     # Define decision variables
     # ----------------------------------------
 
-    squad = LpVariable.dicts("squad", players, cat="Binary")
-    lineup = LpVariable.dicts("lineup", players, cat="Binary")
-    captain = LpVariable.dicts("captain", players, cat="Binary")
-    vice_captain = LpVariable.dicts("vice_captain", players, cat="Binary")
+    squad = LpVariable("squad", (players, all_gameweeks), cat="Binary")
+    lineup = LpVariable("lineup", (players, future_gameweeks), cat="Binary")
+    captain = LpVariable("captain", (players, future_gameweeks), cat="Binary")
+    vice_captain = LpVariable("vice_captain", (players, future_gameweeks), cat="Binary")
+    transfers_in = LpVariable("transfers_in", (players, future_gameweeks), cat="Binary")
+    transfers_out = LpVariable(
+        "transfers_in", (players, future_gameweeks), cat="Binary"
+    )
+    available_balance = LpVariable(
+        "available_balance", (all_gameweeks), cat="Integer", lowBound=0
+    )
+    free_transfers_available = LpVariable(
+        "free_transfers_available",
+        (all_gameweeks),
+        cat="Integer",
+        lowBound=1,
+        upBound=2,
+    )
+    penalised_transfers = LpVariable(
+        "penalised_transfers", (future_gameweeks), cat="Integer", lowBound=0
+    )
+    auxiliary_var = LpVariable("auxiliary_var", (future_gameweeks), cat="Binary")
 
     # ----------------------------------------
     # Define objective function: Maximize expected points in next gameweek
     # ----------------------------------------
 
-    # Maximize {next_gw}_pts_no_prob: captain gets 2x and vice captain gets 1.1x
+    # Captain gets 2x and vice captain gets 1.1x
     total_ep_next = lpSum(
         [
             float(merged_elements_df.loc[p, f"{next_gw}_pts_no_prob"])
@@ -136,81 +131,77 @@ def solve_single_period_model(budget):
     model += total_ep_next
 
     # ----------------------------------------
-    # Define constraints
+    # Create dictionaries to use for constraints
     # ----------------------------------------
 
-    # Total number of players in squad must be 15
-    model += lpSum([squad[p] for p in players]) == 15
+    # Dictionary that stores the cost of each player
+    player_cost = merged_elements_df["now_cost"].to_dict()
 
-    # Total number of players in lineup must be 11
-    model += lpSum([lineup[p] for p in players]) == 11
+    # Dictionary that stores the revenue made transfers from each gameweek (i.e. amount sold)
+    transfer_revenue = {
+        gw: lpSum([player_cost[p] * transfers_out[p, gw] for p in players])
+        for gw in future_gameweeks
+    }
 
-    # Only 1 captain
-    model += lpSum([captain[p] for p in players]) == 1
+    # Dictionary that stores the amount spent on transfers in each gameweek (i.e. amount bought)
+    transfer_spent = {
+        gw: lpSum([player_cost[p] * transfers_in[p, gw] for p in players])
+        for gw in future_gameweeks
+    }
 
-    # Only 1 vice captain
-    model += lpSum([vice_captain[p] for p in players]) == 1
+    # Dictionary that stores the expected points of each player in each gameweek
+    # Use player ID and gameweek number as keys, and expected points as values
+    player_xp_gw = {
+        (p, gw): merged_elements_df.loc[p, f"{gw}_pts_no_prob"]
+        for p in players
+        for gw in future_gameweeks
+    }
 
-    # Lineup player must be in squad (but reverse can not be true)
-    for p in players:
-        model += lineup[p] <= squad[p]
+    # Dictionary of the total points scored by the lineup in each gameweek (i.e. sum of points scored by each player in lineup)
+    # Captains get 2x and vice captains get 1.1x
+    lineup_xp_gw = {
+        gw: lpSum(
+            [
+                player_xp_gw[p, gw] * (lineup[p] + captain[p] + 0.1 * vice_captain[p])
+                for p in players
+            ]
+        )
+        for gw in future_gameweeks
+    }
 
-    # Captain must be in lineup
-    for p in players:
-        model += captain[p] <= lineup[p]
+    # Dictionary of the final xp of the team for each gameweek (taking into account penalty for transfers: -4 points per transfer over allowed free transfers)
+    final_xp_gw = {
+        gw: lineup_xp_gw[gw] - 4 * penalised_transfers[gw] for gw in future_gameweeks
+    }
 
-    # Vice captain must be in lineup
-    for p in players:
-        model += vice_captain[p] <= lineup[p]
+    # Dictionary that counts the numbe of players in squad in each gameweek
+    squad_count = {gw: lpSum([squad[p, gw] for p in players]) for gw in all_gameweeks}
 
-    # Captain and vice captain can not be the same player
-    for p in players:
-        model += captain[p] + vice_captain[p] <= 1
-
-    # Dictionary that counts the number of players in each position in lineup
+    # Dictionary that counts the number of players in each position in lineup in each gameweek
     lineup_position_count = {
-        pos: lpSum(
+        (pos, gw): lpSum(
             [
-                lineup[p]
+                lineup[p, gw]
                 for p in players
                 if merged_elements_df.loc[p, "element_type"] == pos
             ]
         )
         for pos in positions
+        for gw in future_gameweeks
     }
 
-    # Dictionary that counts the number of players in each position in squad
+    # Dictionary that counts the number of players in each position in squad in each gameweek
     squad_position_count = {
-        pos: lpSum(
+        (pos, gw): lpSum(
             [
-                squad[p]
+                squad[p, gw]
                 for p in players
                 if merged_elements_df.loc[p, "element_type"] == pos
             ]
         )
         for pos in positions
+        for gw in all_gameweeks
     }
-
-    # Number of players in each position in lineup must be within the allowed range (defined in element_types_df as squad_min_play and squad_max_play)
-    for pos in positions:
-        # Minimum number of players in lineup
-        model += (
-            lineup_position_count[pos] >= element_types_df.loc[pos, "squad_min_play"]
-        )
-        # Maximum number of players in lineup
-        model += (
-            lineup_position_count[pos] <= element_types_df.loc[pos, "squad_max_play"]
-        )
-
-    # Number of players in each position in squad must be satisfied (defined in element_types_df as squad_select)
-    for pos in positions:
-        model += squad_position_count[pos] == element_types_df.loc[pos, "squad_select"]
-
-    # Total cost of entire squad must be less than or equal to budget
-    squad_cost = lpSum(
-        [merged_elements_df.loc[p, "now_cost"] * squad[p] for p in players]
-    )
-    model += squad_cost <= budget
 
     # Dictionary that counts the number of players in each team in squad
     squad_team_count = {
@@ -220,15 +211,196 @@ def solve_single_period_model(budget):
         for team in teams
     }
 
-    # Number of players in each team in squad must be less than or equal to 3
+    # Dictionary that stores the number of transfers out in each gameweek
+    transfers_out_count = {
+        gw: lpSum([transfers_out[p, gw] for p in players]) for gw in future_gameweeks
+    }
+
+    # Dictionary that counts number of difference between transfers out and free transfers available in each gameweek
+    # A positive value means that we have made more transfers out than the free transfers available, and those will be penalised
+    # A negative value means that we have made less transfers out than the free transfers available, and those will not be penalised
+    transfer_diff = {
+        gw: free_transfers_available[gw] - transfers_out_count[gw]
+        for gw in future_gameweeks
+    }
+
+    # ----------------------------------------
+    # Define initial conditions
+    # ----------------------------------------
+
+    # Players in squad in current gameweek must be in current_squad
+    for p in players:
+        model += squad[p, current_gw] == 1 if p in initial_squad else 0
+
+    # Available balance in current gameweek must be equal to in_the_bank (i.e. amount in the bank)
+    model += available_balance[current_gw] == money_in_bank
+
+    # Free transfers for current gameweek must be equal to num_free_transfers
+    model += free_transfers_available[current_gw] == num_free_transfers
+
+    # ? Assume we have already made 1 transfer out in current gameweek
+    model += transfers_out_count[current_gw] == 1
+
+    # ----------------------------------------
+    # Defining squad and lineup constraints
+    # ----------------------------------------
+
+    # Total number of players in squad in each gameweek must be equal to 15
+    for gw in all_gameweeks:
+        model += squad_count[gw] == 15
+
+    # Total number of players in lineup in each gameweek must be equal to 11
+    for gw in future_gameweeks:
+        model += lpSum([lineup[p, gw] for p in players]) == 11
+
+    # Lineup player must be in squad (but reverse can not be true) in each gameweek
+    for gw in future_gameweeks:
+        for p in players:
+            model += lineup[p, gw] <= squad[p, gw]
+
+    # ----------------------------------------
+    # Defining captain and vice captain constraints
+    # ----------------------------------------
+
+    # Only 1 captain in each gameweek
+    for gw in future_gameweeks:
+        model += lpSum([captain[p, gw] for p in players]) == 1
+
+    # Only 1 vice captain in each gameweek
+    for gw in future_gameweeks:
+        model += lpSum([vice_captain[p, gw] for p in players]) == 1
+
+    # Captain must be in lineup in each gameweek
+    for gw in future_gameweeks:
+        for p in players:
+            model += captain[p, gw] <= lineup[p, gw]
+
+    # Vice captain must be in lineup in each gameweek
+    for gw in future_gameweeks:
+        for p in players:
+            model += vice_captain[p, gw] <= lineup[p, gw]
+
+    # Captain and vice captain can not be the same player in each gameweek
+    for gw in future_gameweeks:
+        for p in players:
+            model += captain[p, gw] + vice_captain[p, gw] <= 1
+
+    # ----------------------------------------
+    # Defining position / formation constraints
+    # ----------------------------------------
+
+    # Number of players in each position in lineup must be within the allowed range (defined in element_types_df as squad_min_play and squad_max_play)
+    # for every gameweek
+    for pos in positions:
+        for gw in future_gameweeks:
+            model += (
+                lineup_position_count[pos, gw]
+                >= element_types_df.loc[pos, "squad_min_play"]
+            )
+            model += (
+                lineup_position_count[pos, gw]
+                <= element_types_df.loc[pos, "squad_max_play"]
+            )
+
+    # Number of players in each position in squad must be satisfied (defined in element_types_df as squad_select) for every gameweek
+    for pos in positions:
+        for gw in all_gameweeks:
+            model += (
+                squad_position_count[pos, gw]
+                == element_types_df.loc[pos, "squad_select"]
+            )
+
+    # ----------------------------------------
+    # Defining team count constraints
+    # ----------------------------------------
+
+    #! Total cost of entire squad must be less than or equal to budget
+    #! squad_cost = lpSum(
+    #!     [merged_elements_df.loc[p, "now_cost"] * squad[p] for p in players]
+    #! )
+    #! model += squad_cost <= budget
+
+    # Number of players in each team in squad must be less than or equal to 3 for every gameweek
     for team in teams:
-        model += squad_team_count[team] <= 3
+        for gw in all_gameweeks:
+            model += squad_team_count[team] <= 3
+
+    # ----------------------------------------
+    # Defining player appearance constraints
+    # ----------------------------------------
 
     # Probability of squad player appearing in next gameweek must be greater than or equal to 50%,
     # while probability of lineup player appearing in next gameweek must be greater than or equal to 75%
+    # for every gameweek
     for p in players:
-        model += squad[p] <= (merged_elements_df.loc[p, f"{next_gw}_prob"] >= 0.5)
-        model += lineup[p] <= (merged_elements_df.loc[p, f"{next_gw}_prob"] >= 0.75)
+        for gw in future_gameweeks:
+            model += squad[p, gw] <= (merged_elements_df.loc[p, f"{gw}_prob"] >= 0.5)
+            model += lineup[p, gw] <= (merged_elements_df.loc[p, f"{gw}_prob"] >= 0.75)
+
+    # ----------------------------------------
+    # Defining transfer constraints
+    # ----------------------------------------
+
+    # Players in next gameweek squad must either be in current gameweek squad or transferred in
+    # Players not in next gameweek squad must be transferred out
+    for p in players:
+        for gw in future_gameweeks:
+            model += (
+                squad[p, gw]
+                == squad[p, gw - 1] + transfers_in[p, gw] - transfers_out[p, gw]
+            )
+
+    # Available balance in each gameweek must be equal to previous gameweek balance plus transfer revenue minus transfer spent
+    for gw in future_gameweeks:
+        model += (
+            available_balance[gw]
+            == available_balance[gw - 1] + transfer_revenue[gw] - transfer_spent[gw]
+        )
+
+    # ----------------------------------------
+    # Defining free transfer constraints
+    # ----------------------------------------
+
+    # Free transfers available in each gameweek is equal to auxillary variable in each gameweek plus 1
+    for gw in future_gameweeks:
+        model += free_transfers_available[gw] == auxiliary_var[gw] + 1
+
+    # Equality 1: F1 - Tout <= 2 * Aux
+    for gw in future_gameweeks:
+        model += (
+            free_transfers_available[gw - 1] - transfers_out_count[gw - 1]
+            <= 2 * auxiliary_var[gw]
+        )
+
+    # Equation 2: F1 - Tout >= Aux + (-14) * (1 - Aux)
+    for gw in future_gameweeks:
+        model += free_transfers_available[gw - 1] - transfers_out_count[
+            gw - 1
+        ] >= auxiliary_var[gw] + (-14) * (1 - auxiliary_var[gw])
+
+    # Number of penalised transfers in each gameweek must be equal to or greater than the difference between transfers out and free transfers available
+    for gw in future_gameweeks:
+        model += penalised_transfers[gw] >= transfer_diff[gw]
+
+    # ----------------------------------------
+    # Defining objective functions
+    # ----------------------------------------
+
+    # Objective function 1 (regular): Maximize final expected points in each gameweek
+    if objective == "regular":
+        final_xp_obj = lpSum([final_xp_gw[gw] for gw in future_gameweeks])
+        model += final_xp_obj
+
+    # Objective function 2 (decay): Maximize final expected points in each gameweek, with decay factor
+    elif objective == "decay":
+        decay_obj = lpSum(
+            [final_xp_gw[gw] * pow(decay_base, gw - next_gw) for gw in future_gameweeks]
+        )
+        model += decay_obj
+        model_name += "_decay_base_" + str(decay_base)
+
+        # Rename model
+        model.name = model_name
 
     # ----------------------------------------
     # Solve model and get results
@@ -239,10 +411,9 @@ def solve_single_period_model(budget):
 
     # If model was solved to optimality, save and get results
     if model.status == 1:
-        model_name = f"solved_EV_max_gw_{current_gw}_budget_{budget}"
-        model_path = "../../models/single_period/"
+        model_path = "../../models/multi_period/"
 
-        # Check if model/single_period folder exists, if not create it
+        # Check if model_path exists, if not create it
         if not os.path.exists(model_path):
             os.makedirs(model_path)
         else:
@@ -256,6 +427,44 @@ def solve_single_period_model(budget):
         lineup = []
         captain = []
         vice_captain = []
+        transfers_out = []
+        transfers_in = []
+
+        # Loop through model variables for each gameweek and get variables that are 1 (i.e. selected)
+        for gw in all_gameweeks:
+            for v in model.variables():
+                if v.varValue == 1:
+                    # If variable is a squad player, add to squad list
+                    if v.name[0] == "s":
+                        id = int(v.name[6:])
+                        squad.append(id)
+
+                    # If variable is a lineup player, add to lineup list
+                    elif v.name[0] == "l":
+                        id = int(v.name[7:])
+                        lineup.append(id)
+
+                    # If variable is a captain, add to captain list
+                    elif v.name[0] == "c":
+                        id = int(v.name[8:])
+                        captain.append(id)
+
+                    # If variable is a vice captain, add to vice captain list
+                    elif v.name[0] == "v":
+                        id = int(v.name[13:])
+                        vice_captain.append(id)
+
+                    # If variable is a transfer out, add to transfers_out list
+                    elif v.name[0] == "t" and v.name[1] == "o":
+                        id = int(v.name[13:])
+                        transfers_out.append(id)
+
+                    # If variable is a transfer in, add to transfers_in list
+                    elif v.name[0] == "t" and v.name[1] == "i":
+                        id = int(v.name[12:])
+                        transfers_in.append(id)
+
+        # ----------------------------------------
 
         # Loop through model variables and get variables that are 1 (i.e. selected)
         for v in model.variables():
@@ -302,6 +511,7 @@ def solve_single_period_model(budget):
                     player_data["position"],
                     player_data["element_type"],
                     player_data["team_name"],
+                    player_data["current_gw"],
                     player_data["now_cost"],
                     player_data["form"],
                     player_data[f"{next_gw}_prob"],
@@ -320,6 +530,7 @@ def solve_single_period_model(budget):
                 "position",
                 "element_type",
                 "team",
+                "current_gw",
                 "now_cost",
                 "form",
                 f"gw_{next_gw}_prob",
