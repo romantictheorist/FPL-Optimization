@@ -1,0 +1,16 @@
+id,web_name,position,team,now_cost,form,gw_22_prob,gw_22_ep,in_lineup,is_captain,is_vice_captain
+101,Flekken,GKP,Brentford,45,1.0,0.95,3.69,1,0,0
+369,Walker,DEF,Man City,54,4.7,0.94,4.64,1,0,0
+342,Aké,DEF,Man City,50,4.0,0.86,4.56,1,0,0
+228,Guéhi,DEF,Crystal Palace,44,2.3,0.94,4.01,1,0,0
+526,Bowen,MID,West Ham,81,3.7,0.94,5.61,1,1,0
+664,Ward-Prowse,MID,West Ham,60,6.0,0.94,5.57,1,0,1
+134,Gross,MID,Brighton,65,2.7,0.94,5.25,1,0,0
+43,Douglas Luiz,MID,Aston Villa,56,5.0,0.94,5.12,1,0,0
+362,Palmer,MID,Chelsea,58,9.3,0.93,4.93,1,0,0
+343,J.Alvarez,FWD,Man City,70,5.7,0.94,5.27,1,0,0
+590,Cunha,FWD,Wolves,58,6.0,0.94,4.48,1,0,0
+28,Turner,GKP,Nott'm Forest,39,2.3,0.95,3.19,0,0,0
+473,Baldock,DEF,Sheffield Utd,38,0.3,0.65,2.18,0,0,0
+139,Lamptey,DEF,Brighton,39,0.3,0.66,1.18,0,0,0
+538,Mubama,FWD,West Ham,42,0.7,0.56,1.22,0,0,0

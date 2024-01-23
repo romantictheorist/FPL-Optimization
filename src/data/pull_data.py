@@ -21,7 +21,7 @@ pd.options.mode.chained_assignment = None  # default='warn'
 base_url = "https://fantasy.premierleague.com/api/"
 
 
-def get_general_data():
+def pull_general_data():
     """
     Returns a dictionary of general data for the current season.
     Data includes: elements, element_types, teams, events.
@@ -40,8 +40,8 @@ def get_general_data():
     next_gw = events_df[events_df["is_next"] == True]["id"].iloc[0]
 
     # Add current_gw and next_gw to elements_df
-    elements_df["gw_current"] = current_gw
-    elements_df["gw_next"] = next_gw
+    elements_df["current_gw"] = current_gw
+    elements_df["nexy_gw"] = next_gw
 
     # Map 'element_type' in elements_df to 'singular_name_short' in element_types_df
     elements_df["position"] = elements_df.element_type.map(
@@ -88,10 +88,11 @@ def get_general_data():
         "events": events_df,
         "fixtures": fixtures_df,
         "current_gw": current_gw,
+        "next_gw": next_gw,
     }
 
 
-def get_player_data(player_id):
+def pull_player_data(player_id):
     """
     Returns a dictionary of player data for a given player id.
     Data includes: fixtures, history, history_past.

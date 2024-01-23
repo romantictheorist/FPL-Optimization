@@ -1,0 +1,16 @@
+id,web_name,position,team,now_cost,form,gw_22_prob,gw_22_ep,in_lineup,is_captain,is_vice_captain
+28,Turner,GKP,Nott'm Forest,39,2.3,0.95,3.19,1,0,0
+228,Guéhi,DEF,Crystal Palace,44,2.3,0.94,4.01,1,0,0
+283,Robinson,DEF,Fulham,44,1.7,0.94,3.41,1,0,0
+150,Van Hecke,DEF,Brighton,40,5.0,0.92,2.66,1,0,0
+238,C.Richards,DEF,Crystal Palace,39,0.7,0.87,2.48,1,0,0
+664,Ward-Prowse,MID,West Ham,60,6.0,0.94,5.57,1,1,0
+43,Douglas Luiz,MID,Aston Villa,56,5.0,0.94,5.12,1,0,1
+542,Souček,MID,West Ham,49,4.7,0.94,4.06,1,0,0
+199,Enzo,MID,Chelsea,48,1.0,0.91,3.62,1,0,0
+231,Lerma,MID,Crystal Palace,47,2.0,0.93,3.47,1,0,0
+33,Archer,FWD,Sheffield Utd,44,2.3,0.94,2.68,1,0,0
+148,Steele,GKP,Brighton,42,6.3,0.7,3.55,0,0,0
+473,Baldock,DEF,Sheffield Utd,38,0.3,0.65,2.18,0,0,0
+490,Osula,FWD,Sheffield Utd,43,2.3,0.86,1.68,0,0,0
+538,Mubama,FWD,West Ham,42,0.7,0.56,1.22,0,0,0

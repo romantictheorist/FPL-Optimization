@@ -383,50 +383,6 @@ def solve_single_period_model(budget):
 # ----------------------------------------
 
 if __name__ == "__main__":
-    # Set start time
-    t0 = time.time()
+    results = solve_single_period_model(1000)["results"]
 
-    # List of budgets to run model for
-    budgets = list(range(650, 1001, 25))
-
-    # ----------------------------------------
-    # Loop through budgets and solve model for each budget
-    # ----------------------------------------
-
-    # results = []
-
-    # for budget in budgets:
-    #     r = solve_single_period_model(budget=budget)["total_ep_next"]
-    #     results.append([budget, r])
-
-    # # Make a dataframe with results
-    # results_df = pd.DataFrame(results, columns=["budget", "total_ep_next"])
-
-    # # Print results_df and time spent in loop
-    # print(results_df)
-    # print("Time spent in loop:", round(time.time() - t0, 1), "seconds")
-
-    # ----------------------------------------
-    # Parallel processing using multiprocessing
-    # ----------------------------------------
-
-    with multiprocessing.Pool() as pool:
-        # Map budgets to solve_single_period_model function
-        responses = pool.map(solve_single_period_model, budgets)
-
-        # Get total_ep_next from results
-        total_ep_next = [r["total_ep_next"] for r in responses]
-
-        # Zip budgets and total_ep_next into a list of lists
-        results = zip(budgets, total_ep_next)
-
-        # Make a dataframe with total_ep_next_results
-        results_df = pd.DataFrame(results, columns=["budget", "total_ep_next"])
-
-        # Print total_ep_next_results_df
-        print(results_df)
-
-        # Print time spent parallel processing
-        print("Time spent parallel processing:", round(time.time() - t0, 1), "seconds")
-
-    # ----------------------------------------
+    pass
