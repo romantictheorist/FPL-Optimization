@@ -5,7 +5,6 @@
 import sys
 import os
 
-import numpy as np
 import pandas as pd
 import requests
 
@@ -114,15 +113,24 @@ def pull_squad(gw, team_id=216079):
         base_url + "entry/" + str(team_id) + "/event/" + str(gw) + "/picks/"
     ).json()
 
-    # if r contains "detail" key, then team_id is invalid
-    if "detail" in r.keys() and r["detail"] == "Not found.":
-        raise ValueError("Team ID not found.")
+    if "detail" in r.keys():
+        raise ValueError("Details not found.")
         return None
 
     else:
         picks = r["picks"]
         squad = [p["element"] for p in picks]
         return squad
+
+
+def pull_manager_data(manager_id):
+    """
+    Returns a dictionary of manager data for a given manager id.
+    Data includes: history, leagues, picks, season.
+    """
+    r = requests.get(base_url + "entry/" + str(manager_id) + "/").json()
+
+    return r
 
 
 # my_team_id = 10599528
