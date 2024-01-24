@@ -30,6 +30,7 @@ bank_balance = 0.5 # Money in the bank
 horizon = 3 # Number of gameweeks we are solving for
 objective = "regular" 
 num_free_transfers = 1 # Number of free transfers available
+decay_base = 0.9 # Decay base for decay objective function
 
 # ----------------------------------------
 # Pull data from FPL API-
@@ -108,9 +109,6 @@ player_xp_gw = {(p, gw): merged_elements_df.loc[p, f"{gw}_pts_no_prob"] for p in
 # Dictionary that stores the probability of each player appearing in each gameweek
 player_prob_gw = {(p, gw): merged_elements_df.loc[p, f"{gw}_prob"] for p in players for gw in future_gameweeks}
 
-# Dictionary that stores total points scored by the lineup in each gameweek (i.e. sum of points scored by each player in lineup) with weights for captain and vice captain 
-#! lineup_xp_gw = {gw: lpSum([player_xp_gw[p, gw] * (lineup[p, gw] + captain[p, gw] + 0.1 * vice_captain[p, gw]) for p in players]) for gw in future_gameweeks}
-
 # Dictionary that counts the number of players in squad in each gameweek
 squad_count = {gw: lpSum([squad[p][gw] for p in players]) for gw in future_gameweeks}
 
@@ -137,12 +135,6 @@ transfers_made = {gw: lpSum([transfer_in[p][gw] for p in players]) for gw in fut
 
 # Assume we have already made 1 transfer in current gameweek (does not affect number of free transfers available for following gameweeks)
 transfers_made[gameweek - 1] = 1
-
-# Dictionary of the final xp of the team for each gameweek (taking into account penalty for transfers: -4 points per transfer over allowed free transfers)
-#! final_xp_gw = {gw: lineup_xp_gw[gw] - 4 * penalised_transfers[gw] for gw in future_gameweeks}
-
-# Dictionary that stores the number of transfers out in each gameweek
-#! transfers_out_count = {gw: lpSum([transfers_out[p, gw] for p in players]) for gw in future_gameweeks}
 
 # Dictionary that counts number of difference between transfers made and free transfers available in each gameweek
 # A positive value means that we have made more transfers than allowed, and those will be penalised
@@ -289,34 +281,34 @@ for gw in future_gameweeks:
 # Defining objective functions
 # ----------------------------------------
 
-# Dictionary of gameweek expected points (no weights for captain and vice captain)
+# Dictionary of total expected points for each gameweek (i.e. sum of expected points for each player in lineup) with weights for captain and vice captain
 gw_xp = {gw: lpSum([player_xp_gw[p, gw] * (lineup[p][gw] + captain[p][gw] + 0.1 * vice_captain[p][gw]) for p in players]) for gw in future_gameweeks}
 
-# Objective function 1 (regular): Maximize total expected points over all gameweeks
+# Dictionary of final expected points for each gameweek (i.e. with transfer penalty of -4 points for each penalised transfer)
+final_xp_gw = {gw: gw_xp[gw] - 4 * penalised_transfers[gw] for gw in future_gameweeks}
+
+# Objective function 1 (regular): Maximize total expected points over all gameweeks 
 if objective == "regular":
     total_xp = lpSum([gw_xp[gw] for gw in future_gameweeks])
     model += total_xp
-
+    
 # Objective function 2 (decay): Maximize final expected points in each gameweek, with decay factor
-#! elif objective == "decay":
-#!    decay_obj = lpSum(
-#!        [final_xp_gw[gw] * pow(decay_base, gw - next_gw) for gw in future_gameweeks]
-#!    )
-#!    model += decay_obj
-#!    model_name += "_decay_base_" + str(decay_base)
-
-#!    # Rename model
-#!    model.name = model_name
+elif objective == "decay":
+    total_xp = lpSum([final_xp_gw[gw] * pow(decay_base, gw - gameweek) for gw in future_gameweeks])
+    model += total_xp
+    model_name += "_decay_base_" + str(decay_base)
+    model.name = model_name
 
 # ----------------------------------------
 # Solve model and get results
 # ----------------------------------------
 
 # Solve model using CBC solver and surpress output
-model.solve(pulp.PULP_CBC_CMD(msg=1))
+model.solve(pulp.PULP_CBC_CMD(msg=0))
 
 # If model was solved to optimality, save and get results
 if model.status == 1:
+    print("Status: Model solved to optimality.")
     model_path = "../../models/multi_period/"
 
     # Check if model_path exists, if not create it
@@ -330,67 +322,131 @@ if model.status == 1:
     
     # Get results for each gameweek
     results = []
-    
+
     for gw in future_gameweeks:
         for p in players:
-            results.append(
-                {   
-                    "gw": gw,
-                    "player_id": p,
-                    "player_name": merged_elements_df.loc[p, "web_name"],
-                    "team": merged_elements_df.loc[p, "team_name"],
-                    "position": merged_elements_df.loc[p, "position"],
-                    "cost": player_cost[p],
-                    "prob_appearance": player_prob_gw[p, gw],
-                    "xp": player_xp_gw[p, gw],
-                    "squad": squad[p][gw].varValue,
-                    "lineup": lineup[p][gw].varValue,
-                    "captain": captain[p][gw].varValue,
-                    "vice_captain": vice_captain[p][gw].varValue,
-                }
-            )
-    
-    # Filter results to only include squad players
-    results = [r for r in results if r["squad"] == 1]
+            if squad[p][gw].varValue == 1 or transfer_out[p][gw].varValue == 1:
+                results.append(
+                    {   
+                        "gw": gw,
+                        "player_id": p,
+                        "player_name": merged_elements_df.loc[p, "web_name"],
+                        "team": merged_elements_df.loc[p, "team_name"],
+                        "position": merged_elements_df.loc[p, "position"],
+                        "position_id": merged_elements_df.loc[p, "element_type"],
+                        "cost": player_cost[p],
+                        "prob_appearance": player_prob_gw[p, gw],
+                        "xp": player_xp_gw[p, gw],
+                        "squad": squad[p][gw].varValue,
+                        "lineup": lineup[p][gw].varValue,
+                        "captain": captain[p][gw].varValue,
+                        "vice_captain": vice_captain[p][gw].varValue,
+                        "transfer_in": transfer_in[p][gw].varValue,
+                        "transfer_out": transfer_out[p][gw].varValue,
+                    }
+                )
     
     # Convert results to dataframe
     results_df = pd.DataFrame(results).round(2)
+    
+    # ----------------------------------------
+    # Check results
+    # ----------------------------------------
+    
+    # For every gameweek, check the following:
+    
+    # 1. Number of players in squad is equal to 15
+    # 2. Number of players in lineup is equal to 11
+    # 3. Number of transfer_in is equal to number of transfer_out
+    # 4. Number of players from a team in squad is less than or equal to 3
+    # 5. Number of players in each position in squad is equal to squad_select (defined in element_types_df)
+    # 6. Number of players in each position in lineup is within the allowed range (defined in element_types_df as squad_min_play and squad_max_play)
+    # 7. Probability of appearance for each player in squad is greater than 50%
+    # 8. Probability of appearance for each player in lineup is greater than 75%
+    # 9. Only 1 captain
+    # 10. Only 1 vice captain
+    # 11. Captain must be in lineup
+    # 12. Vice captain must be in lineup
+ 
+    # If any of the above are not true, print a warning message
+    # If all are true, print a success message
+    
+    checks_dict = {} # True if all checks are passed, False otherwise
+    
+    for gw in future_gameweeks:
+        condition_1 = results_df[results_df["gw"] == gw].squad.sum() == 15
+        condition_2 = results_df[results_df["gw"] == gw].lineup.sum() == 11
+        condition_3 = results_df[results_df["gw"] == gw].transfer_in.sum() == results_df[results_df["gw"] == gw].transfer_out.sum()
+        condition_4 = results_df[(results_df["gw"] == gw) & (results_df["squad"] == 1)].team.value_counts().max() <= 3
+        condition_5 = all(results_df[results_df["gw"] == gw].groupby("position_id").squad.sum() == element_types_df["squad_select"])
+        condition_6a = all(results_df[results_df["gw"] == gw].groupby("position_id").lineup.sum() >= element_types_df["squad_min_play"])
+        condition_6b = all(results_df[results_df["gw"] == gw].groupby("position_id").lineup.sum() <= element_types_df["squad_max_play"])
+        condition_7 = all(results_df[(results_df["gw"] == gw) & (results_df["squad"] == 1)].prob_appearance > 0.5)
+        condition_8 = all(results_df[(results_df["gw"] == gw) & (results_df["lineup"] == 1)].prob_appearance > 0.75)
+        condition_9 = results_df[results_df["gw"] == gw].captain.sum() == 1
+        condition_10 = results_df[results_df["gw"] == gw].vice_captain.sum() == 1
+        condition_11 = all(results_df[(results_df["gw"] == gw) & (results_df["captain"] == 1)].lineup == 1)
+        condition_12 = all(results_df[(results_df["gw"] == gw) & (results_df["vice_captain"] == 1)].lineup == 1)
+  
+        if condition_1 and condition_2 and condition_3 and condition_4 and condition_5 and condition_6a and condition_6b and condition_7 and condition_8 and condition_9 and condition_10 and condition_11 and condition_12:
+            checks_dict[gw] = True
+        else:
+            checks_dict[gw] = False
+            print(f"WARNING: Results for gameweek {gw} are not correct.")
+            if not condition_1:
+                print(f"WARNING: Number of players in squad for gameweek {gw} is not 15.")
+            if not condition_2:
+                print(f"WARNING: Number of players in lineup for gameweek {gw} is not 11.")
+            if not condition_3:
+                print(f"WARNING: Number of transfers in is not equal to number of transfer out for gameweek {gw}.")
+            if not condition_4:
+                print(f"WARNING: Number of players from each team in squad exceeds the limit of 3 for gameweek {gw}.")
+            if not condition_5:
+                print(f"WARNING: Number of players in each position in squad is not equal to squad_select (defined in element_types_df) for gameweek {gw}.")
+            if not condition_6a:
+                print(f"WARNING: Number of players in each position in lineup is greater than the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for gameweek {gw}.")
+            if not condition_6b:
+                print(f"WARNING: Number of players in each position in lineup is less than the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for gameweek {gw}.")
+            if not condition_7:
+                print(f"WARNING: Probability of appearance for each player in squad is not greater than 50% for gameweek {gw}.")
+            if not condition_8:
+                print(f"WARNING: Probability of appearance for each player in lineup is not greater than 75% for gameweek {gw}.")
+            if not condition_9:
+                print(f"WARNING: Number of captains is not equal to 1 for gameweek {gw}.")
+            if not condition_10:
+                print(f"WARNING: Number of vice captains is not equal to 1 for gameweek {gw}.")
+            if not condition_11:
+                print(f"WARNING: Captain is not in lineup for gameweek {gw}.")
+            if not condition_12:
+                print(f"WARNING: Vice captain is not in lineup for gameweek {gw}.")
+    
+            print("\n")
+            
+    # If all checks are passed, print a success message
+    if all(value == True for value in checks_dict.values()):
+        print("All checks passed.")
+    
+    
+        
+        
+else:
+    print("Model could not be solved.")
+    print("Status:", LpStatus[model.status])
     
 # ----------------------------------------
 # Check results
 # ----------------------------------------
 
-# Group results by gameweek, count number of players in lineup and sum expected points
-grouped_results_df1 = results_df.groupby("gw").agg(
-    {
-        "lineup": "sum",
-        "xp": "sum",
-    }
-)
 
 
-grouped_results_df2 = results_df.groupby("gw").agg(
-    {
-        "captain": "sum",
-        "vice_captain": "sum",
-        "cost": "sum",
-    }
-)
 
 
-grouped_results_df3 = results_df.groupby(["gw", "team"]).agg(
-    {
-        "player_id": "count",
-    }
-)
 
-# Group by gameweek and count the number of players in each position
-grouped_results_df4 = results_df.groupby(["gw", "position"]).agg(
-    {
-        "player_id": "count",
-    }
-)
 
-# Get results for first gameweek
-first_gw = results_df[results_df["gw"] == future_gameweeks[0]]
+
+
+
+
+
+
     
