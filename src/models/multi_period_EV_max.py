@@ -27,8 +27,8 @@ pd.options.mode.chained_assignment = None  # default='warn'
 team_id = 216079 # Team ID
 gameweek = 22 # Upcoming (i.e. next) gameweek
 bank_balance = 0.5 # Money in the bank
-horizon = 3 # Number of gameweeks we are solving for
-objective = "regular" 
+horizon = 4 # Number of gameweeks we are solving for
+objective = "regular" # "regular" or "decay
 num_free_transfers = 1 # Number of free transfers available
 decay_base = 0.9 # Decay base for decay objective function
 
@@ -47,7 +47,7 @@ initial_squad = pull_squad(team_id=team_id, gw=gameweek - 1)
 
 # Dataframe of players in initial squad
 initial_squad_df = elements_df[elements_df["id"].isin(initial_squad)]
-initial_squad_df = initial_squad_df[["id", "web_name", "team_name", "element_type", "now_cost"]]
+initial_squad_list = initial_squad_df["web_name"].values.tolist()
 
 # ----------------------------------------
 # Read in fpl_form_data and merge with elements_df
@@ -256,6 +256,10 @@ for gw in future_gameweeks:
     for p in players:
         model += (squad[p][gw] == (squad[p][gw - 1] + transfer_in[p][gw] - transfer_out[p][gw])), f"Player {p} squad/transfer constraint for gameweek {gw}"
 
+# Number of transfers made in each gameweek cannot exceed 5
+for gw in future_gameweeks:
+    model += transfers_made[gw] <= 5, f"Transfers made constraint for gameweek {gw}"
+    
 # ----------------------------------------
 # Defining free transfer constraints
 # ----------------------------------------
@@ -276,7 +280,7 @@ for gw in future_gameweeks:
 # I.e. only penalise transfers if we have made more transfers than allowed
 for gw in future_gameweeks:
     model += penalised_transfers[gw] >= transfer_diff[gw], f"Penalised transfers constraint for gameweek {gw}"
-
+    
 # ----------------------------------------
 # Defining objective functions
 # ----------------------------------------
@@ -348,6 +352,9 @@ if model.status == 1:
     
     # Convert results to dataframe
     results_df = pd.DataFrame(results).round(2)
+    
+    # Sort results
+    results_df.sort_values(by=["gw", "squad", "lineup", "position_id", "xp"], ascending=[True, False, False, True, False], inplace=True)
     
     # ----------------------------------------
     # Check results
@@ -425,10 +432,40 @@ if model.status == 1:
     # If all checks are passed, print a success message
     if all(value == True for value in checks_dict.values()):
         print("All checks passed.")
-    
-    
         
+    # ----------------------------------------
+    # Summary of actions
+    # ----------------------------------------
+    
+    # For every gameweek, print the following:
+    
+    # 1. Money in bank
+    # 2. Number of free transfers available
+    # 3. Number of transfers made
+    # 4. Number of penalised transfers
+    # 5. Players transferred in (ID, name, team, position, expected points)
+    # 6. Players transferred out (ID, name, team, position, expected points)
+    # 6. Players captained (ID, name, team, position, expected points)
+    # 7. Players vice captained (ID, name, team, position, expected points)
+    
+    # If no players are transferred in/out, benched, captained or vice captained, print a message saying so
+    
+    for gw in future_gameweeks:
+        print("-" * 50)
+        print(f"Gameweek {gw} summary:")
+        print("-" * 50)
+        #! print(f"Total expected points: {}")
+        print(f"Money in bank: {money_in_bank[gw].varValue}")
+        print(f"Free transfers available: {free_transfers_available[gw].varValue}")
+        #! print(f"Transfers made: {transfers_made[gw].varValue}")
+        print(f"Penalised transfers: {penalised_transfers[gw].varValue}")
         
+        for p in players:
+            if transfer_in[p][gw].varValue == 1:
+                print(f"Player {p} ({merged_elements_df.loc[p, 'web_name']} @ {merged_elements_df.loc[p, 'team_name']}) transferred in.")
+            if transfer_out[p][gw].varValue == 1:
+                print(f"Player {p} ({merged_elements_df.loc[p, 'web_name']} @ {merged_elements_df.loc[p, 'team_name']}) transferred out.")
+                
 else:
     print("Model could not be solved.")
     print("Status:", LpStatus[model.status])
@@ -436,11 +473,6 @@ else:
 # ----------------------------------------
 # Check results
 # ----------------------------------------
-
-
-
-
-
 
 
 
