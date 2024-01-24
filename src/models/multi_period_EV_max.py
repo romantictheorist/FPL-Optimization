@@ -26,9 +26,10 @@ pd.options.mode.chained_assignment = None  # default='warn'
 
 team_id = 216079 # Team ID
 gameweek = 22 # Upcoming (i.e. next) gameweek
-bank_balance = 0 # Money in the bank
+bank_balance = 0.5 # Money in the bank
 horizon = 3 # Number of gameweeks we are solving for
 objective = "regular" 
+num_free_transfers = 1 # Number of free transfers available
 
 # ----------------------------------------
 # Pull data from FPL API-
@@ -87,12 +88,12 @@ squad = LpVariable.dicts("squad", (players, all_gameweeks), cat="Binary")
 lineup = LpVariable.dicts("lineup", (players, future_gameweeks), cat="Binary")
 captain = LpVariable.dicts("captain", (players, future_gameweeks), cat="Binary")
 vice_captain = LpVariable.dicts("vice_captain", (players, future_gameweeks), cat="Binary")
-transfer_in = LpVariable.dicts("transfers_in", (players, future_gameweeks), cat="Binary")
-transfer_out = LpVariable.dicts("transfers_in", (players, future_gameweeks), cat="Binary")
+transfer_in = LpVariable.dicts("transfer_in", (players, future_gameweeks), cat="Binary")
+transfer_out = LpVariable.dicts("transfer_out", (players, future_gameweeks), cat="Binary")
 money_in_bank = LpVariable.dicts("money_in_bank", (all_gameweeks), lowBound=0, cat="Continuous")
 free_transfers_available = LpVariable.dicts("free_transfers_available", (all_gameweeks), lowBound=1, upBound=2, cat="Integer")
 penalised_transfers = LpVariable.dicts("penalised_transfers", (future_gameweeks), cat="Integer", lowBound=0)
-aux_var = LpVariable.dicts("auxiliary_var", (future_gameweeks), cat="Binary")
+aux = LpVariable.dicts("auxiliary_variable", (future_gameweeks), cat="Binary")
 
 # ----------------------------------------
 # Create dictionaries to use for constraints
@@ -131,16 +132,22 @@ revenue = {gw: lpSum([player_cost[p] * transfer_out[p][gw] for p in players]) fo
 # Dictionary that stores the amount spent on transfers in each gameweek (i.e. expenditure)
 expenditure = {gw: lpSum([player_cost[p] * transfer_in[p][gw] for p in players]) for gw in future_gameweeks}
 
+# Dictionary that stores the number of transfers made in each gameweek (i.e. number of transfers in OR number of transfers out, as they are equal)
+transfers_made = {gw: lpSum([transfer_in[p][gw] for p in players]) for gw in future_gameweeks}
+
+# Assume we have already made 1 transfer in current gameweek (does not affect number of free transfers available for following gameweeks)
+transfers_made[gameweek - 1] = 1
+
 # Dictionary of the final xp of the team for each gameweek (taking into account penalty for transfers: -4 points per transfer over allowed free transfers)
 #! final_xp_gw = {gw: lineup_xp_gw[gw] - 4 * penalised_transfers[gw] for gw in future_gameweeks}
 
 # Dictionary that stores the number of transfers out in each gameweek
 #! transfers_out_count = {gw: lpSum([transfers_out[p, gw] for p in players]) for gw in future_gameweeks}
 
-# Dictionary that counts number of difference between transfers out and free transfers available in each gameweek
-# A positive value means that we have made more transfers out than the free transfers available, and those will be penalised
-# A negative value means that we have made less transfers out than the free transfers available, and those will not be penalised
-#! transfer_diff = {gw: (free_transfers_available[gw] - transfers_out_count[gw]) for gw in future_gameweeks}
+# Dictionary that counts number of difference between transfers made and free transfers available in each gameweek
+# A positive value means that we have made more transfers than allowed, and those will be penalised
+# A negative value means that we have made less transfers out allowed, and those will not be penalised
+transfer_diff = {gw: (transfers_made[gw] - free_transfers_available[gw]) for gw in future_gameweeks}
 
 # ----------------------------------------
 # Define initial conditions
@@ -155,13 +162,10 @@ for p in [player for player in players if player not in initial_squad]:
     model += squad[p][gameweek - 1] == 0, f"Not initial squad constraint for player {p}"
     
 # Money in bank at current gameweek must be equal to bank balance
-#! model += money_in_bank[gameweek - 1] == bank_balance, f"Initial money in bank constraint"
+model += money_in_bank[gameweek - 1] == bank_balance, f"Initial money in bank constraint"
 
-# Free transfers for current gameweek must be equal to num_free_transfers
-#! model += free_transfers_available[current_gw] == num_free_transfers
-
-# Assume we have already made 1 transfer out in current gameweek
-#! model += transfers_out_count[current_gw] == 1
+# Number of free transfers available in current gameweek must be equal to num_free_transfers
+model += free_transfers_available[gameweek - 1] == num_free_transfers, f"Initial free transfers available constraint"
 
 # ----------------------------------------
 # Defining squad and lineup constraints
@@ -242,18 +246,13 @@ for gw in future_gameweeks:
         model += squad[p][gw] <= (player_prob_gw[p, gw] >= 0.5), f"Probability of appearance for squad player {p} for gameweek {gw}"
         model += lineup[p][gw] <= (player_prob_gw[p, gw] >= 0.75), f"Probability of appearance for lineup player {p} for gameweek {gw}"
     
-#? ----------------------------------------
-#? Defining budget/money constraints
-#? ----------------------------------------
+# ----------------------------------------
+# Defining budget/money constraints
+# ----------------------------------------
 
-# Total cost of squad in each gameweek must be less than or equal to 1000
+# Money in bank in each gameweek must be equal to previous gameweek money in bank plus transfer revenue minus transfer expenditure
 for gw in future_gameweeks:
-    model += lpSum([player_cost[p] * squad[p][gw] for p in players]) <= 1000, f"Budget constraint for gameweek {gw}"
-    
-
-#! Money in bank in each gameweek must be equal to previous gameweek money in bank plus transfer revenue minus transfer expenditure
-#! for gw in future_gameweeks:
-#!    model += (money_in_bank[gw] == (money_in_bank[gw - 1] + revenue[gw] - expenditure[gw])), f"Money in bank constraint for gameweek {gw}"
+    model += (money_in_bank[gw] == (money_in_bank[gw - 1] + revenue[gw] - expenditure[gw])), f"Money in bank constraint for gameweek {gw}"
 
 # ----------------------------------------
 # Defining transfer constraints
@@ -261,34 +260,30 @@ for gw in future_gameweeks:
 
 # Players in next gameweek squad must either be in current gameweek squad or transferred in
 # And players not in next gameweek squad must be transferred out
-#! for gw in future_gameweeks:
-#!   for p in players:
-#!        model += (squad[p][gw] == (squad[p][gw - 1] + transfer_in[p][gw] - transfer_out[p][gw])), f"Player {p} squad/transfer constraint for gameweek {gw}"
+for gw in future_gameweeks:
+    for p in players:
+        model += (squad[p][gw] == (squad[p][gw - 1] + transfer_in[p][gw] - transfer_out[p][gw])), f"Player {p} squad/transfer constraint for gameweek {gw}"
 
 # ----------------------------------------
 # Defining free transfer constraints
 # ----------------------------------------
 
-# Free transfers available in each gameweek is equal to auxillary variable in each gameweek plus 1
-#! for gw in future_gameweeks:
-    #! model += free_transfers_available[gw] == auxiliary_var[gw] + 1
+# Free transfers available and auxiliary variable conditions for each gameweek
+for gw in future_gameweeks:
+    model += (free_transfers_available[gw] == (aux[gw] + 1)), f"FTA and Aux constraint for gameweek {gw}"
 
-# Equality 1: F1 - Tout <= 2 * Aux
-#! for gw in future_gameweeks:
-#!    model += (
-#!       free_transfers_available[gw - 1] - transfers_out_count[gw - 1]
-#!        <= 2 * auxiliary_var[gw]
-#!    )
+# Equality 1: FTA_{1} - TM_{1} <= 2 * Aux_{2}
+for gw in future_gameweeks:
+    model += free_transfers_available[gw - 1] - transfers_made[gw - 1] <= 2 * aux[gw], f"FTA and TM Equality 1 constraint for gameweek {gw}"
+    
+# Equality 2: FTA_{1} - TM_{1} >= Aux_{2} + (-14) * (1 - Aux_{2})
+for gw in future_gameweeks:
+    model += free_transfers_available[gw - 1] - transfers_made[gw - 1] >= aux[gw] + (-14) * (1 - aux[gw]), f"FTA and TM Equality 2 constraint for gameweek {gw}"
 
-# Equation 2: F1 - Tout >= Aux + (-14) * (1 - Aux)
-#!for gw in future_gameweeks:
-#!    model += free_transfers_available[gw - 1] - transfers_out_count[
-#!        gw - 1
-#!    ] >= auxiliary_var[gw] + (-14) * (1 - auxiliary_var[gw])
-
-# Number of penalised transfers in each gameweek must be equal to or greater than the difference between transfers out and free transfers available
-#!for gw in future_gameweeks:
-#!    model += penalised_transfers[gw] >= transfer_diff[gw]
+# Number of penalised transfers in each gameweek must be equal to or greater than the transfer difference (i.e. number of transfers made minus number of free transfers available)
+# I.e. only penalise transfers if we have made more transfers than allowed
+for gw in future_gameweeks:
+    model += penalised_transfers[gw] >= transfer_diff[gw], f"Penalised transfers constraint for gameweek {gw}"
 
 # ----------------------------------------
 # Defining objective functions
@@ -318,7 +313,7 @@ if objective == "regular":
 # ----------------------------------------
 
 # Solve model using CBC solver and surpress output
-model.solve(pulp.PULP_CBC_CMD(msg=0))
+model.solve(pulp.PULP_CBC_CMD(msg=1))
 
 # If model was solved to optimality, save and get results
 if model.status == 1:
