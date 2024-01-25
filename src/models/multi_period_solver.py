@@ -99,8 +99,7 @@ class OptimizeMultiPeriod:
         positions = data["positions"]
         teams = data["teams"]
         future_gameweeks = data["future_gameweeks"]
-        all_gameweeks = data["all_gameweeks"]
-        
+       
         # Variables
         squad = variables["squad"]
         lineup = variables["lineup"]
@@ -507,8 +506,47 @@ class OptimizeMultiPeriod:
             self.checks = checks_dict
             
             return self.checks
-
-
+        
+        
+    def extract_summary(self, data, variables, dictionaries):
+        # Dataframes
+        merged_elements_df = data["merged_elements_df"]
+        
+        # Lists
+        players = data["players"]
+        future_gameweeks = data["future_gameweeks"]
+        
+        # Variables
+        transfer_in = variables["transfer_in"]
+        transfer_out = variables["transfer_out"]
+        money_in_bank = variables["money_in_bank"]
+        free_transfers_available = variables["free_transfers_available"]
+        penalised_transfers = variables["penalised_transfers"]
+        
+        # Dictionaries
+        transfers_made = dictionaries["transfers_made"]
+    
+        # Initialize summary string
+        self.summary = ""
+        
+        for gw in future_gameweeks:
+            self.summary += "-" * 50 + "\n"
+            self.summary += f"Gameweek {gw} summary:\n"
+            self.summary += "-" * 50 + "\n"
+            self.summary += f"Total expected points: {self.gw_xp[gw]}\n"
+            self.summary += f"Money in bank: {money_in_bank[gw].varValue}\n"
+            self.summary += f"Free transfers available: {int(free_transfers_available[gw].varValue)}\n"
+            self.summary += f"Transfers made: {int(value(transfers_made[gw]))}\n"
+            self.summary += f"Penalised transfers: {int(penalised_transfers[gw].varValue)}\n"
+            
+            for p in players:
+                if transfer_in[p][gw].varValue == 1:
+                    self.summary += f"Player {p} ({merged_elements_df.loc[p, 'web_name']} @ {merged_elements_df.loc[p, 'team_name']}) transferred in.\n"
+                if transfer_out[p][gw].varValue == 1:
+                    self.summary += f"Player {p} ({merged_elements_df.loc[p, 'web_name']} @ {merged_elements_df.loc[p, 'team_name']}) transferred out.\n"
+                        
+        return self.summary
+        
     def solve_problem(self):
         # Get data
         data = self.prepare_data()
@@ -549,6 +587,9 @@ class OptimizeMultiPeriod:
         # Check results
         self.check_results(data)
         
+        # Extract summary
+        self.extract_summary(data, variables, dictionaries)
+        
         return self.model
 
 
@@ -565,6 +606,4 @@ if __name__ == "__main__":
     print(optimizer.total_xp)
     print(optimizer.gw_xp)
     print(optimizer.checks)
-    
-    # Print modelname
-    print(optimizer.model.name)
+    print(optimizer.summary)
