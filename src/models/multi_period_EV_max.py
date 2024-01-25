@@ -26,9 +26,9 @@ pd.options.mode.chained_assignment = None  # default='warn'
 
 team_id = 216079 # Team ID
 gameweek = 22 # Upcoming (i.e. next) gameweek
-bank_balance = 0.5 # Money in the bank
-horizon = 4 # Number of gameweeks we are solving for
-objective = "regular" # "regular" or "decay
+bank_balance = 4.7 # Money in the bank
+horizon = 7 # Number of gameweeks we are solving for
+objective = "decay" # "regular" or "decay
 num_free_transfers = 1 # Number of free transfers available
 decay_base = 0.9 # Decay base for decay objective function
 
@@ -43,7 +43,8 @@ element_types_df = general_data["element_types"]
 teams_df = general_data["teams"]
 
 # Current squad, i.e. the squad from gameweek prior to the one we are solving for)
-initial_squad = pull_squad(team_id=team_id, gw=gameweek - 1)
+# initial_squad = pull_squad(team_id=team_id, gw=gameweek - 1)
+initial_squad = [275, 369, 342, 506, 19, 526, 664, 14, 117, 60, 343, 230, 129, 112, 126]
 
 # Dataframe of players in initial squad
 initial_squad_df = elements_df[elements_df["id"].isin(initial_squad)]
@@ -258,7 +259,7 @@ for gw in future_gameweeks:
 
 # Number of transfers made in each gameweek cannot exceed 5
 for gw in future_gameweeks:
-    model += transfers_made[gw] <= 5, f"Transfers made constraint for gameweek {gw}"
+    model += transfers_made[gw] <= 20, f"Transfers made constraint for gameweek {gw}"
     
 # ----------------------------------------
 # Defining free transfer constraints
@@ -286,19 +287,19 @@ for gw in future_gameweeks:
 # ----------------------------------------
 
 # Dictionary of total expected points for each gameweek (i.e. sum of expected points for each player in lineup) with weights for captain and vice captain
-gw_xp = {gw: lpSum([player_xp_gw[p, gw] * (lineup[p][gw] + captain[p][gw] + 0.1 * vice_captain[p][gw]) for p in players]) for gw in future_gameweeks}
+gw_xp_before_pen = {gw: lpSum([player_xp_gw[p, gw] * (lineup[p][gw] + captain[p][gw] + 0.1 * vice_captain[p][gw]) for p in players]) for gw in future_gameweeks}
 
 # Dictionary of final expected points for each gameweek (i.e. with transfer penalty of -4 points for each penalised transfer)
-final_xp_gw = {gw: gw_xp[gw] - 4 * penalised_transfers[gw] for gw in future_gameweeks}
+gw_xp_after_pen = {gw: gw_xp_before_pen[gw] - 4 * penalised_transfers[gw] for gw in future_gameweeks}
 
 # Objective function 1 (regular): Maximize total expected points over all gameweeks 
 if objective == "regular":
-    total_xp = lpSum([gw_xp[gw] for gw in future_gameweeks])
+    total_xp = lpSum([gw_xp_after_pen [gw] for gw in future_gameweeks])
     model += total_xp
     
 # Objective function 2 (decay): Maximize final expected points in each gameweek, with decay factor
 elif objective == "decay":
-    total_xp = lpSum([final_xp_gw[gw] * pow(decay_base, gw - gameweek) for gw in future_gameweeks])
+    total_xp = lpSum([gw_xp_after_pen[gw] * pow(decay_base, gw - gameweek) for gw in future_gameweeks])
     model += total_xp
     model_name += "_decay_base_" + str(decay_base)
     model.name = model_name
@@ -454,11 +455,11 @@ if model.status == 1:
         print("-" * 50)
         print(f"Gameweek {gw} summary:")
         print("-" * 50)
-        #! print(f"Total expected points: {}")
+        print(f"Total expected points: {round(value(gw_xp_after_pen[gw]))}")
         print(f"Money in bank: {money_in_bank[gw].varValue}")
-        print(f"Free transfers available: {free_transfers_available[gw].varValue}")
-        #! print(f"Transfers made: {transfers_made[gw].varValue}")
-        print(f"Penalised transfers: {penalised_transfers[gw].varValue}")
+        print(f"Free transfers available: {int(free_transfers_available[gw].varValue)}")
+        print(f"Transfers made: {int(value(transfers_made[gw]))}")
+        print(f"Penalised transfers: {int(penalised_transfers[gw].varValue)}")
         
         for p in players:
             if transfer_in[p][gw].varValue == 1:
@@ -471,9 +472,6 @@ else:
     print("Status:", LpStatus[model.status])
     
 # ----------------------------------------
-
-
-
 
 
 

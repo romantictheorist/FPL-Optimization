@@ -43,6 +43,9 @@ def pull_general_data():
     elements_df["previous_gw"] = previous_gw
     elements_df["current_gw"] = current_gw
     elements_df["next_gw"] = next_gw
+    
+    # Divide 'now_cost' by 10 to get cost in millions
+    elements_df["now_cost"] = elements_df.now_cost / 10
 
     # Map 'element_type' in elements_df to 'singular_name_short' in element_types_df
     elements_df["position"] = elements_df.element_type.map(
