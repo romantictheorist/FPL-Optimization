@@ -22,6 +22,7 @@ pd.options.mode.chained_assignment = None  # default='warn'
 
 # ----------------------------------------
 
+
 def prepare_data(team_id, gameweek):
     """
     Summary:
@@ -148,7 +149,6 @@ def check_results(results_df, element_types_df):
         print("All checks passed.")
     
     return checks_dict
-
 
 
 def solve_multi_period_ev_max(
@@ -493,20 +493,7 @@ def solve_multi_period_ev_max(
         # ----------------------------------------
         # Summary of actions
         # ----------------------------------------
-        
-        # For every gameweek, print the following:
-        
-        # 1. Money in bank
-        # 2. Number of free transfers available
-        # 3. Number of transfers made
-        # 4. Number of penalised transfers
-        # 5. Players transferred in (ID, name, team, position, expected points)
-        # 6. Players transferred out (ID, name, team, position, expected points)
-        # 6. Players captained (ID, name, team, position, expected points)
-        # 7. Players vice captained (ID, name, team, position, expected points)
-        
-        # If no players are transferred in/out, benched, captained or vice captained, print a message saying so
-        
+     
         summary = ""
         
         for gw in future_gameweeks:
