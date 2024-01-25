@@ -22,6 +22,135 @@ pd.options.mode.chained_assignment = None  # default='warn'
 
 # ----------------------------------------
 
+def prepare_data(team_id, gameweek):
+    """
+    Summary:
+    --------
+    Pulls data from FPL API and prepares it for the optimization model.
+    
+    Parameters:
+    -----------
+    team_id: int
+        FPL team ID of the team to be optimized.
+    gameweek: int
+        First gameweek to be optimized, i.e. the upcoming gameweek.
+
+    Returns:
+    --------
+    data: dictionary
+        Dictionary containing dataframes and list of initial squad.
+    """
+    
+    # Pull data from FPL API
+    general_data = pull_general_data()
+    
+    # Get dataframes from general_data
+    elements_df = general_data["elements"]
+    element_types_df = general_data["element_types"]
+    teams_df = general_data["teams"]
+    
+    # Pull current squad from FPL API
+    #! initial_squad = pull_squad(team_id=team_id, gw=gameweek - 1)
+    initial_squad = [275, 369, 342, 506, 19, 526, 664, 14, 117, 60, 343, 230, 129, 112, 126]
+    
+    # Merge elements_df with fpl_form_data
+    fpl_form_data = pd.read_csv("../../data/raw/fpl-form-predicted-points.csv")
+    merged_elements_df = merge_fpl_form_data(elements_df, fpl_form_data)
+    
+    # Set index to 'id's
+    merged_elements_df.set_index("id", inplace=True)
+    element_types_df.set_index("id", inplace=True)
+    teams_df.set_index("id", inplace=True)
+    
+    # Return dataframes
+    return {'merged_elements_df': merged_elements_df, 'element_types_df': element_types_df, 'teams_df': teams_df, 'initial_squad': initial_squad}
+
+
+
+def check_results(results_df, element_types_df):
+    """
+    Summary:
+    --------
+    Checks if results are satisfy basic constraints.
+    
+    Parameters:
+    -----------
+    results_df: dataframe
+        Dataframe containing results.
+    element_types_df: dataframe
+        Dataframe containing element types data.
+        
+    Returns:
+    --------
+    checks_dict: dictionary
+    """
+    
+    # Get list of gameweeks in results_df
+    future_gameweeks = list(results_df.gw.unique())
+    
+    # Set up dictionary to store results of checks
+    checks_dict = {} # True if all checks are passed, False otherwise
+    
+    for gw in future_gameweeks:
+        condition_1 = results_df[results_df["gw"] == gw].squad.sum() == 15
+        condition_2 = results_df[results_df["gw"] == gw].lineup.sum() == 11
+        condition_3 = results_df[results_df["gw"] == gw].transfer_in.sum() == results_df[results_df["gw"] == gw].transfer_out.sum()
+        condition_4 = results_df[(results_df["gw"] == gw) & (results_df["squad"] == 1)].team.value_counts().max() <= 3
+        condition_5 = all(results_df[results_df["gw"] == gw].groupby("position_id").squad.sum() == element_types_df["squad_select"])
+        condition_6a = all(results_df[results_df["gw"] == gw].groupby("position_id").lineup.sum() >= element_types_df["squad_min_play"])
+        condition_6b = all(results_df[results_df["gw"] == gw].groupby("position_id").lineup.sum() <= element_types_df["squad_max_play"])
+        condition_5 = True
+        condition_6a = True
+        condition_6b = True
+        condition_7 = all(results_df[(results_df["gw"] == gw) & (results_df["squad"] == 1)].prob_appearance > 0.5)
+        condition_8 = all(results_df[(results_df["gw"] == gw) & (results_df["lineup"] == 1)].prob_appearance > 0.75)
+        condition_9 = results_df[results_df["gw"] == gw].captain.sum() == 1
+        condition_10 = results_df[results_df["gw"] == gw].vice_captain.sum() == 1
+        condition_11 = all(results_df[(results_df["gw"] == gw) & (results_df["captain"] == 1)].lineup == 1)
+        condition_12 = all(results_df[(results_df["gw"] == gw) & (results_df["vice_captain"] == 1)].lineup == 1)
+
+        if condition_1 and condition_2 and condition_3 and condition_4 and condition_5 and condition_6a and condition_6b and condition_7 and condition_8 and condition_9 and condition_10 and condition_11 and condition_12:
+            checks_dict[gw] = True
+        else:
+            checks_dict[gw] = False
+            print(f"WARNING: Results for gameweek {gw} are not correct.")
+            if not condition_1:
+                print(f"WARNING: Number of players in squad for gameweek {gw} is not 15.")
+            if not condition_2:
+                print(f"WARNING: Number of players in lineup for gameweek {gw} is not 11.")
+            if not condition_3:
+                print(f"WARNING: Number of transfers in is not equal to number of transfer out for gameweek {gw}.")
+            if not condition_4:
+                print(f"WARNING: Number of players from each team in squad exceeds the limit of 3 for gameweek {gw}.")
+            if not condition_5:
+                print(f"WARNING: Number of players in each position in squad is not equal to squad_select (defined in element_types_df) for gameweek {gw}.")
+            if not condition_6a:
+                print(f"WARNING: Number of players in each position in lineup is greater than the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for gameweek {gw}.")
+            if not condition_6b:
+                print(f"WARNING: Number of players in each position in lineup is less than the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for gameweek {gw}.")
+            if not condition_7:
+                print(f"WARNING: Probability of appearance for each player in squad is not greater than 50% for gameweek {gw}.")
+            if not condition_8:
+                print(f"WARNING: Probability of appearance for each player in lineup is not greater than 75% for gameweek {gw}.")
+            if not condition_9:
+                print(f"WARNING: Number of captains is not equal to 1 for gameweek {gw}.")
+            if not condition_10:
+                print(f"WARNING: Number of vice captains is not equal to 1 for gameweek {gw}.")
+            if not condition_11:
+                print(f"WARNING: Captain is not in lineup for gameweek {gw}.")
+            if not condition_12:
+                print(f"WARNING: Vice captain is not in lineup for gameweek {gw}.")
+    
+            print("\n")
+            
+    # If all checks are passed, print a success message
+    if all(value == True for value in checks_dict.values()):
+        print("All checks passed.")
+    
+    return checks_dict
+
+
+
 def solve_multi_period_ev_max(
     team_id,
     gameweek,
@@ -54,56 +183,26 @@ def solve_multi_period_ev_max(
     
     """
     
-    # ----------------------------------------
-    # Pull data from FPL API-
-    # ----------------------------------------
+    # Get data
+    data = prepare_data(team_id, gameweek)
+    merged_elements_df = data["merged_elements_df"]
+    element_types_df = data["element_types_df"]
+    teams_df = data["teams_df"]
+    initial_squad = data["initial_squad"]
+    
 
-    # Latest general data
-    general_data = pull_general_data()
-    elements_df = general_data["elements"]
-    element_types_df = general_data["element_types"]
-    teams_df = general_data["teams"]
-
-    # Current squad, i.e. the squad from gameweek prior to the one we are solving for)
-    #! initial_squad = pull_squad(team_id=team_id, gw=gameweek - 1)
-    initial_squad = [275, 369, 342, 506, 19, 526, 664, 14, 117, 60, 343, 230, 129, 112, 126]
-
-    # ----------------------------------------
-    # Read in fpl_form_data and merge with elements_df
-    # ----------------------------------------
-
-    fpl_form_data = pd.read_csv("../../data/raw/fpl-form-predicted-points.csv")
-    merged_elements_df = merge_fpl_form_data(elements_df, fpl_form_data)
-
-    # ----------------------------------------
-    # Set index to 'id's
-    # ----------------------------------------
-
-    merged_elements_df.set_index("id", inplace=True)
-    element_types_df.set_index("id", inplace=True)
-    teams_df.set_index("id", inplace=True)
-
-    # ----------------------------------------
-    # Create sets
-    # ----------------------------------------
-
+    # Create lists of players, positions, teams and gameweeks
     players = list(merged_elements_df.index)
     positions = list(element_types_df.index)
     teams = list(teams_df.index)
     future_gameweeks = list(range(gameweek, gameweek + horizon))
     all_gameweeks = [gameweek - 1] + future_gameweeks
 
-    # ----------------------------------------
     # Initialise model
-    # ----------------------------------------
-
     model_name = f"solve_EV_max_gw_{gameweek}_horizon_{horizon}_objective_{objective}"
     model = LpProblem(model_name, sense=LpMaximize)
 
-    # ----------------------------------------
     # Define decision variables
-    # ----------------------------------------
-
     squad = LpVariable.dicts("squad", (players, all_gameweeks), cat="Binary")
     lineup = LpVariable.dicts("lineup", (players, future_gameweeks), cat="Binary")
     captain = LpVariable.dicts("captain", (players, future_gameweeks), cat="Binary")
@@ -116,52 +215,52 @@ def solve_multi_period_ev_max(
     aux = LpVariable.dicts("auxiliary_variable", (future_gameweeks), cat="Binary")
 
     # ----------------------------------------
-    # Create dictionaries to use for constraints
+    # Dictionaries to use for constraints 
     # ----------------------------------------
 
-    # Dictionary that stores the cost of each player
+    # Cost of each player
     player_cost = merged_elements_df["now_cost"].to_dict()
 
-    # Dictionary that stores the expected points of each player in each gameweek
+    # Expected points of each player in each gameweek
     player_xp_gw = {(p, gw): merged_elements_df.loc[p, f"{gw}_pts_no_prob"] for p in players for gw in future_gameweeks}
 
-    # Dictionary that stores the probability of each player appearing in each gameweek
+    # Probability of each player appearing in each gameweek
     player_prob_gw = {(p, gw): merged_elements_df.loc[p, f"{gw}_prob"] for p in players for gw in future_gameweeks}
 
-    # Dictionary that counts the number of players in squad in each gameweek
+    # Number of players in squad in each gameweek
     squad_count = {gw: lpSum([squad[p][gw] for p in players]) for gw in future_gameweeks}
 
-    # Dictionary that counts the number of players in lineup in each gameweek
+    # Number of players in lineup in each gameweek
     lineup_count = {gw: lpSum([lineup[p][gw] for p in players]) for gw in future_gameweeks}
 
-    # Dictionary that counts the number of players in each position in lineup in each gameweek
+    # Number of players in each position in lineup in each gameweek
     lineup_position_count = {(pos, gw): lpSum([lineup[p][gw] for p in players if merged_elements_df.loc[p, "element_type"] == pos]) for pos in positions for gw in future_gameweeks}
 
-    # Dictionary that counts the number of players in each position in squad in each gameweek
+    # Nnumber of players in each position in squad in each gameweek
     squad_position_count = {(pos, gw): lpSum([squad[p][gw] for p in players if merged_elements_df.loc[p, "element_type"] == pos]) for pos in positions for gw in future_gameweeks}
 
-    # Dictionary that stores the number of players from each team in squad in each gameweek
+    # Number of players from each team in squad in each gameweek
     squad_team_count = {(team, gw): lpSum([squad[p][gw] for p in players if merged_elements_df.loc[p, "team"] == team]) for team in teams for gw in future_gameweeks}
 
-    # Dictionary that stores the revenue made transfers from each gameweek (i.e. amount sold)
+    # Transfer revenue in each gameweek (i.e. amount sold)
     revenue = {gw: lpSum([player_cost[p] * transfer_out[p][gw] for p in players]) for gw in future_gameweeks}
 
-    # Dictionary that stores the amount spent on transfers in each gameweek (i.e. expenditure)
+    # Transfer spend in each gameweek 
     expenditure = {gw: lpSum([player_cost[p] * transfer_in[p][gw] for p in players]) for gw in future_gameweeks}
 
-    # Dictionary that stores the number of transfers made in each gameweek (i.e. number of transfers in OR number of transfers out, as they are equal)
+    # Number of transfers made in each gameweek (i.e. number of transfers in OR number of transfers out, as they are equal)
     transfers_made = {gw: lpSum([transfer_in[p][gw] for p in players]) for gw in future_gameweeks}
 
     # Assume we have already made 1 transfer in current gameweek (does not affect number of free transfers available for following gameweeks)
     transfers_made[gameweek - 1] = 1
 
-    # Dictionary that counts number of difference between transfers made and free transfers available in each gameweek
+    # Difference between transfers made and free transfers available in each gameweek
     # A positive value means that we have made more transfers than allowed, and those will be penalised
     # A negative value means that we have made less transfers out allowed, and those will not be penalised
     transfer_diff = {gw: (transfers_made[gw] - free_transfers_available[gw]) for gw in future_gameweeks}
 
     # ----------------------------------------
-    # Define initial conditions
+    # Initial conditions
     # ----------------------------------------
 
     # Players in initial squad must be in squad in current gameweek
@@ -179,7 +278,7 @@ def solve_multi_period_ev_max(
     model += free_transfers_available[gameweek - 1] == num_free_transfers, f"Initial free transfers available constraint"
 
     # ----------------------------------------
-    # Defining squad and lineup constraints
+    # Squad and lineup constraints
     # ----------------------------------------
 
     # Total number of players in squad in each gameweek must be equal to 15
@@ -196,7 +295,7 @@ def solve_multi_period_ev_max(
             model += lineup[p][gw] <= squad[p][gw], f"Lineup player must be in squad constraint for player {p} in gameweek {gw}"
 
     # ----------------------------------------
-    # Defining captain and vice captain constraints
+    # Captain and vice captain constraints
     # ----------------------------------------
 
     # Only 1 captain in each gameweek
@@ -223,7 +322,7 @@ def solve_multi_period_ev_max(
             model += captain[p][gw] + vice_captain[p][gw] <= 1, f"Captain and vice captain can not be the same player constraint for player {p} in gameweek {gw}"
             
     # ----------------------------------------
-    # Defining position / formation constraints
+    # Position / Formation constraints
     # ----------------------------------------
 
     # Number of players in each position in lineup must be within the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for every gameweek
@@ -233,13 +332,13 @@ def solve_multi_period_ev_max(
             model += (lineup_position_count[pos, gw] <= element_types_df.loc[pos, "squad_max_play"]), f"Max lineup players in position {pos} in gameweek {gw}"
 
 
-    # # Number of players in each position in squad must be satisfied (defined in element_types_df as squad_select) for every gameweek
+    # Number of players in each position in squad must be satisfied (defined in element_types_df as squad_select) for every gameweek
     for gw in future_gameweeks:
         for pos in positions:
             model += (squad_position_count[pos, gw] == element_types_df.loc[pos, "squad_select"]), f"Squad players in position {pos} in gameweek {gw}"
 
     # ----------------------------------------
-    # Defining team count constraints
+    # Team played for constraints
     # ----------------------------------------
 
     # Number of players in each team in squad must be less than or equal to 3 for every gameweek
@@ -248,7 +347,7 @@ def solve_multi_period_ev_max(
             model += (squad_team_count[team, gw] <= 3), f"Max players from team {team} in gameweek {gw}"
 
     # ----------------------------------------
-    # Defining player appearance constraints
+    # Probability of appearance constraints
     # ----------------------------------------
 
     # For every gameweek the probability of squad player appearing in next gameweek must be >= 50%, while probability of lineup player > 75%
@@ -258,7 +357,7 @@ def solve_multi_period_ev_max(
             model += lineup[p][gw] <= (player_prob_gw[p, gw] >= 0.75), f"Probability of appearance for lineup player {p} for gameweek {gw}"
         
     # ----------------------------------------
-    # Defining budget/money constraints
+    # Budgeting / Financial constraints
     # ----------------------------------------
 
     # Money in bank in each gameweek must be equal to previous gameweek money in bank plus transfer revenue minus transfer expenditure
@@ -266,7 +365,7 @@ def solve_multi_period_ev_max(
         model += (money_in_bank[gw] == (money_in_bank[gw - 1] + revenue[gw] - expenditure[gw])), f"Money in bank constraint for gameweek {gw}"
 
     # ----------------------------------------
-    # Defining transfer constraints
+    # General transfer constraints
     # ----------------------------------------
 
     # Players in next gameweek squad must either be in current gameweek squad or transferred in
@@ -280,7 +379,7 @@ def solve_multi_period_ev_max(
         model += transfers_made[gw] <= 20, f"Transfers made constraint for gameweek {gw}"
         
     # ----------------------------------------
-    # Defining free transfer constraints
+    # Free transfer constraints
     # ----------------------------------------
 
     # Free transfers available and auxiliary variable conditions for each gameweek
@@ -301,7 +400,7 @@ def solve_multi_period_ev_max(
         model += penalised_transfers[gw] >= transfer_diff[gw], f"Penalised transfers constraint for gameweek {gw}"
         
     # ----------------------------------------
-    # Defining objective functions
+    # Objective functions
     # ----------------------------------------
 
     # Dictionary of total expected points for each gameweek (i.e. sum of expected points for each player in lineup) with weights for captain and vice captain
@@ -376,6 +475,9 @@ def solve_multi_period_ev_max(
         results_df.sort_values(by=["gw", "squad", "lineup", "position_id", "xp"], ascending=[True, False, False, True, False], inplace=True)
         results_df.reset_index(drop=True, inplace=True)
         
+        # Export results to csv
+        results_df.to_csv(model_path + model_name + ".csv", index=False)
+        
         # Get the real total expected points (i.e. without decay or vice captain weights) for each gameweek
         real_gw_xp = {gw: round(value(lpSum([player_xp_gw[p, gw] * (lineup[p][gw] + captain[p][gw] - (4 * penalised_transfers[gw])) for p in players])), 2) for gw in future_gameweeks}
         
@@ -386,79 +488,8 @@ def solve_multi_period_ev_max(
         # Check results
         # ----------------------------------------
         
-        # For every gameweek, check the following:
+        checks_dict = check_results(results_df, element_types_df)
         
-        # 1. Number of players in squad is equal to 15
-        # 2. Number of players in lineup is equal to 11
-        # 3. Number of transfer_in is equal to number of transfer_out
-        # 4. Number of players from a team in squad is less than or equal to 3
-        # 5. Number of players in each position in squad is equal to squad_select (defined in element_types_df)
-        # 6. Number of players in each position in lineup is within the allowed range (defined in element_types_df as squad_min_play and squad_max_play)
-        # 7. Probability of appearance for each player in squad is greater than 50%
-        # 8. Probability of appearance for each player in lineup is greater than 75%
-        # 9. Only 1 captain
-        # 10. Only 1 vice captain
-        # 11. Captain must be in lineup
-        # 12. Vice captain must be in lineup
-    
-        # If any of the above are not true, print a warning message
-        # If all are true, print a success message
-        
-        checks_dict = {} # True if all checks are passed, False otherwise
-        
-        for gw in future_gameweeks:
-            condition_1 = results_df[results_df["gw"] == gw].squad.sum() == 15
-            condition_2 = results_df[results_df["gw"] == gw].lineup.sum() == 11
-            condition_3 = results_df[results_df["gw"] == gw].transfer_in.sum() == results_df[results_df["gw"] == gw].transfer_out.sum()
-            condition_4 = results_df[(results_df["gw"] == gw) & (results_df["squad"] == 1)].team.value_counts().max() <= 3
-            condition_5 = all(results_df[results_df["gw"] == gw].groupby("position_id").squad.sum() == element_types_df["squad_select"])
-            condition_6a = all(results_df[results_df["gw"] == gw].groupby("position_id").lineup.sum() >= element_types_df["squad_min_play"])
-            condition_6b = all(results_df[results_df["gw"] == gw].groupby("position_id").lineup.sum() <= element_types_df["squad_max_play"])
-            condition_7 = all(results_df[(results_df["gw"] == gw) & (results_df["squad"] == 1)].prob_appearance > 0.5)
-            condition_8 = all(results_df[(results_df["gw"] == gw) & (results_df["lineup"] == 1)].prob_appearance > 0.75)
-            condition_9 = results_df[results_df["gw"] == gw].captain.sum() == 1
-            condition_10 = results_df[results_df["gw"] == gw].vice_captain.sum() == 1
-            condition_11 = all(results_df[(results_df["gw"] == gw) & (results_df["captain"] == 1)].lineup == 1)
-            condition_12 = all(results_df[(results_df["gw"] == gw) & (results_df["vice_captain"] == 1)].lineup == 1)
-    
-            if condition_1 and condition_2 and condition_3 and condition_4 and condition_5 and condition_6a and condition_6b and condition_7 and condition_8 and condition_9 and condition_10 and condition_11 and condition_12:
-                checks_dict[gw] = True
-            else:
-                checks_dict[gw] = False
-                print(f"WARNING: Results for gameweek {gw} are not correct.")
-                if not condition_1:
-                    print(f"WARNING: Number of players in squad for gameweek {gw} is not 15.")
-                if not condition_2:
-                    print(f"WARNING: Number of players in lineup for gameweek {gw} is not 11.")
-                if not condition_3:
-                    print(f"WARNING: Number of transfers in is not equal to number of transfer out for gameweek {gw}.")
-                if not condition_4:
-                    print(f"WARNING: Number of players from each team in squad exceeds the limit of 3 for gameweek {gw}.")
-                if not condition_5:
-                    print(f"WARNING: Number of players in each position in squad is not equal to squad_select (defined in element_types_df) for gameweek {gw}.")
-                if not condition_6a:
-                    print(f"WARNING: Number of players in each position in lineup is greater than the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for gameweek {gw}.")
-                if not condition_6b:
-                    print(f"WARNING: Number of players in each position in lineup is less than the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for gameweek {gw}.")
-                if not condition_7:
-                    print(f"WARNING: Probability of appearance for each player in squad is not greater than 50% for gameweek {gw}.")
-                if not condition_8:
-                    print(f"WARNING: Probability of appearance for each player in lineup is not greater than 75% for gameweek {gw}.")
-                if not condition_9:
-                    print(f"WARNING: Number of captains is not equal to 1 for gameweek {gw}.")
-                if not condition_10:
-                    print(f"WARNING: Number of vice captains is not equal to 1 for gameweek {gw}.")
-                if not condition_11:
-                    print(f"WARNING: Captain is not in lineup for gameweek {gw}.")
-                if not condition_12:
-                    print(f"WARNING: Vice captain is not in lineup for gameweek {gw}.")
-        
-                print("\n")
-                
-        # If all checks are passed, print a success message
-        if all(value == True for value in checks_dict.values()):
-            print("All checks passed.")
-            
         # ----------------------------------------
         # Summary of actions
         # ----------------------------------------
@@ -503,19 +534,16 @@ def solve_multi_period_ev_max(
     
 # ----------------------------------------
 
-team_id = 216079 # Team ID
-gameweek = 22 # Upcoming (i.e. next) gameweek
-bank_balance = 4.7 # Money in the bank
-horizon = 5 # Number of gameweeks we are solving for
-objective = "regular" # "regular" or "decay
-num_free_transfers = 1 # Number of free transfers available
-decay_base = 0.9 # Decay base for decay objective function
 
 if __name__ == "__main__":
     
-    r = solve_multi_period_ev_max(team_id, gameweek=22, bank_balance=4.2, num_free_transfers=1, horizon=3)
+    r = solve_multi_period_ev_max(team_id=1, gameweek=22, bank_balance=4.2, num_free_transfers=1, horizon=3)
     print(r["results"])
     print(r["summary"])
+
+
+
+    
 
 
 
