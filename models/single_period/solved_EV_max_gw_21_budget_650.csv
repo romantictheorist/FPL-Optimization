@@ -1,16 +1,16 @@
 id,web_name,position,team,now_cost,form,gw_22_prob,gw_22_ep,in_lineup,is_captain,is_vice_captain
-524,Areola,GKP,West Ham,42,8.0,0.95,3.58,1,0,0
-228,Guéhi,DEF,Crystal Palace,44,2.3,0.94,4.01,1,0,0
-150,Van Hecke,DEF,Brighton,40,5.0,0.92,2.66,1,0,0
-27,Trusty,DEF,Sheffield Utd,39,1.0,0.93,2.52,1,0,0
-238,C.Richards,DEF,Crystal Palace,39,0.7,0.87,2.48,1,0,0
-316,Bell,DEF,Luton,39,1.3,0.93,2.11,1,0,0
-43,Douglas Luiz,MID,Aston Villa,56,5.0,0.94,5.12,1,1,0
-542,Souček,MID,West Ham,49,4.7,0.94,4.06,1,0,1
-231,Lerma,MID,Crystal Palace,47,2.0,0.93,3.47,1,0,0
-621,Hinshelwood,MID,Brighton,45,5.0,0.87,2.73,1,0,0
-33,Archer,FWD,Sheffield Utd,44,2.3,0.94,2.68,1,0,0
-28,Turner,GKP,Nott'm Forest,39,2.3,0.95,3.19,0,0,0
-196,Chukwuemeka,MID,Chelsea,42,0.3,0.88,0.88,0,0,0
-490,Osula,FWD,Sheffield Utd,43,2.3,0.86,1.68,0,0,0
-538,Mubama,FWD,West Ham,42,0.7,0.56,1.22,0,0,0
+275,Leno,GKP,Fulham,4.8,1.5,0.95,4.01,1,0,0
+369,Walker,DEF,Man City,5.4,6.0,0.94,4.64,1,0,0
+342,Aké,DEF,Man City,5.0,3.5,0.86,4.56,1,0,0
+506,Pedro Porro,DEF,Spurs,5.9,4.3,0.94,4.51,1,0,0
+19,Saka,MID,Arsenal,9.1,4.0,0.94,5.9,1,1,0
+526,Bowen,MID,West Ham,8.1,3.7,0.94,5.61,1,0,1
+664,Ward-Prowse,MID,West Ham,6.0,6.0,0.94,5.57,1,0,0
+14,Ødegaard,MID,Arsenal,8.5,2.3,0.92,5.37,1,0,0
+117,Toney,FWD,Brentford,8.0,4.0,0.93,5.47,1,0,0
+60,Watkins,FWD,Aston Villa,8.9,4.5,0.94,5.37,1,0,0
+343,J.Alvarez,FWD,Man City,7.0,4.5,0.94,5.27,1,0,0
+230,Johnstone,GKP,Crystal Palace,4.5,0.0,0.7,3.54,0,0,0
+129,Dunk,DEF,Brighton,5.0,2.0,0.93,3.04,0,0,0
+112,Pinnock,DEF,Brentford,4.6,1.0,0.94,2.97,0,0,0
+126,Caicedo,MID,Chelsea,4.5,2.5,0.87,2.63,0,0,0

@@ -1,0 +1,20 @@
+--------------------------------------------------
+Gameweek 22 summary:
+--------------------------------------------------
+Total expected points: 62.18
+Money in bank: 2.5
+Free transfers available: 1
+Transfers made: 1
+Penalised transfers: 0
+Player 129 (Dunk @ Brighton) transferred out.
+Player 430 (Trippier @ Newcastle) transferred in.
+--------------------------------------------------
+Gameweek 23 summary:
+--------------------------------------------------
+Total expected points: 59.38
+Money in bank: 1.9
+Free transfers available: 1
+Transfers made: 1
+Penalised transfers: 0
+Player 343 (J.Alvarez @ Man City) transferred out.
+Player 415 (Isak @ Newcastle) transferred in.

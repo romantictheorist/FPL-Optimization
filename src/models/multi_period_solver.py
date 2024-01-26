@@ -48,7 +48,7 @@ class OptimizeMultiPeriod:
             Decay base to use for "decay" objective function.
         """
         
-        # Problem parameters
+        # Set attributes
         self.team_id = team_id
         self.gameweek = gameweek
         self.bank_balance = bank_balance
@@ -57,53 +57,34 @@ class OptimizeMultiPeriod:
         self.objective = objective
         self.decay_base = decay_base
         
-        # Data
-        self.elements_df = None
-        self.element_types = None
-        self.teams_df = None
-        self.merged_elements_df = None
-        self.players = None
-        self.positions = None
-        self.teams = None
-        self.future_gameweeks = None
-        self.all_gameweeks = None
-        self.initial_squad = None
         
-        # Problem variables
-        self.squad = None
-        self.lineup = None
-        self.captain = None
-        self.vice_captain = None
-        self.transfer_in = None
-        self.transfer_out = None
-        self.money_in_bank = None
-        self.free_transfers_available = None
-        self.penalised_transfers = None
-        self.aux = None
+    def solve_problem(self):
+        self.get_data()
+        self.set_problem()
+        self.set_variables()
+        self.get_dictionaries()
+        self.set_initial_conditions()
+        self.set_constraints()
+        self.set_objective(objective=self.objective)
+        self.model.solve(pulp.PULP_CBC_CMD(msg=0))
         
-        # Problem dictionaries
-        self.player_cost = None
-        self.player_xp_gw = None
-        self.player_prob_gw = None
-        self.squad_count = None
-        self.lineup_count = None
-        self.lineup_position_count = None
-        self.squad_position_count = None
-        self.squad_team_count = None
-        self.revenue = None
-        self.expenditure = None
-        self.transfers_made = None
-        self.transfer_diff = None
+        if self.model.status != 1:
+            print("Model could not solved.")
+            print("Status:", self.model.status)
+            return None
+        else:
+            print("Model solved.")
+            print("Status:", self.model.status)
+            print("Time:", round(self.model.solutionTime, 2))
+            
+        self.get_results()
+        self.check_results(results=self.results)
+        self.get_summary()
         
-        # Problem results
-        self.model = None
-        self.results = None
-        self.summary = None
-        self.total_xp = None
-        self.gw_xp = None
-        self.checks = None
+        return {"model": self.model, "results": self.results, "summary": self.summary, "total_xp": self.total_xp, "gw_xp": self.gw_xp, "checks": self.checks}    
         
-    def prepare_data(self):
+    
+    def get_data(self):
         """
         Summary:
         --------
@@ -149,11 +130,11 @@ class OptimizeMultiPeriod:
         self.future_gameweeks = list(range(self.gameweek, self.gameweek + self.horizon))
         self.all_gameweeks = [self.gameweek - 1] + self.future_gameweeks
         
-        return {"merged_elements_df": self.merged_elements_df, "element_types": self.element_types, "teams_df": self.teams_df, "players": self.players, "positions": self.positions, 
+        return {"merged_elements_df": self.merged_elements_df, "element_types": self.element_types_df, "teams_df": self.teams_df, "players": self.players, "positions": self.positions, 
                 "teams": self.teams, "future_gameweeks": self.future_gameweeks, "all_gameweeks": self.all_gameweeks, "initial_squad": self.initial_squad}
         
     
-    def define_problem(self):
+    def set_problem(self):
         """
         Summary:
         --------
@@ -169,7 +150,7 @@ class OptimizeMultiPeriod:
         return self.model
     
     
-    def define_variables(self):
+    def set_variables(self):
         """
         Summary:
         --------
@@ -204,7 +185,7 @@ class OptimizeMultiPeriod:
         return {"squad": self.squad, "lineup": self.lineup, "captain": self.captain, "vice_captain": self.vice_captain, "transfer_in": self.transfer_in, "transfer_out": self.transfer_out, 
                 "money_in_bank": self.money_in_bank, "free_transfers_available": self.free_transfers_available, "penalised_transfers": self.penalised_transfers, "aux": self.aux}
         
-    def define_dictionaries(self):
+    def get_dictionaries(self):
         """
         Summary:
         --------
@@ -246,7 +227,7 @@ class OptimizeMultiPeriod:
                 "expenditure": self.expenditure, "transfers_made": self.transfers_made, "transfer_diff": self.transfer_diff}
         
     
-    def define_initial_conditions(self):
+    def set_initial_conditions(self):
         """
         Summary:
         --------
@@ -269,7 +250,7 @@ class OptimizeMultiPeriod:
         self.model += self.free_transfers_available[self.gameweek - 1] == self.num_free_transfers, f"Initial free transfers available constraint"
             
         
-    def define_constraints(self):
+    def set_constraints(self):
         """
         Summary:
         --------
@@ -288,20 +269,19 @@ class OptimizeMultiPeriod:
             - General transfer constraints
             - Free transfer constraints
         """
+        
         # ----------------------------------------
         # Squad and lineup constraints
         # ----------------------------------------
-
-        # Total number of players in squad in each gameweek must be equal to 15
+        
         for gw in self.future_gameweeks:
+            # Total number of players in squad in each gameweek must be equal to 15
             self.model += self.squad_count[gw] == 15, f"Squad count constraint for gameweek {gw}"
 
-        # Total number of players in lineup in each gameweek must be equal to 11
-        for gw in self.future_gameweeks:
+            # Total number of players in lineup in each gameweek must be equal to 11
             self.model += self.lineup_count[gw] == 11, f"Lineup count constraint for gameweek {gw}"
 
-        # Lineup player must be in squad (but reverse can not be true) in each gameweek
-        for gw in self.future_gameweeks:
+            # Lineup player must be in squad (but reverse can not be true) in each gameweek
             for p in self.players:
                 self.model += self.lineup[p][gw] <= self.squad[p][gw], f"Lineup player must be in squad constraint for player {p} in gameweek {gw}"
 
@@ -309,43 +289,36 @@ class OptimizeMultiPeriod:
         # Captain and vice captain constraints
         # ----------------------------------------
 
-        # Only 1 captain in each gameweek
         for gw in self.future_gameweeks:
+            # Only 1 captain in each gameweek
             self.model += lpSum([self.captain[p][gw] for p in self.players]) == 1, f"Captain count constraint for gameweek {gw}"
-
-        # Only 1 vice captain in each gameweek
-        for gw in self.future_gameweeks:
+            
+            # Only 1 vice captain in each gameweek
             self.model += lpSum([self.vice_captain[p][gw] for p in self.players]) == 1, f"Vice captain count constraint for gameweek {gw}"
 
-        # Captain must be in lineup in each gameweek
-        for gw in self.future_gameweeks:
+            # Captain must be in lineup in each gameweek
             for p in self.players:
                 self.model += self.captain[p][gw] <= self.lineup[p][gw], f"Captain must be in lineup constraint for player {p} in gameweek {gw}"
-
-        # Vice captain must be in lineup in each gameweek
-        for gw in self.future_gameweeks:
+            
+            # Vice captain must be in lineup in each gameweek
             for p in self.players:
                 self.model += self.vice_captain[p][gw] <= self.lineup[p][gw], f"Vice captain must be in lineup constraint for player {p} in gameweek {gw}"
 
-        # Captain and vice captain can not be the same player in each gameweek
-        for gw in self.future_gameweeks:
+            # Captain and vice captain can not be the same player in each gameweek
             for p in self.players:
                 self.model += self.captain[p][gw] + self.vice_captain[p][gw] <= 1, f"Captain and vice captain can not be the same player constraint for player {p} in gameweek {gw}"
                 
         # ----------------------------------------
         # Position / Formation constraints
         # ----------------------------------------
-
-        # Number of players in each position in lineup must be within the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for every gameweek
+        
         for gw in self.future_gameweeks:
             for pos in self.positions:
+                # Number of players in each position in lineup must be within the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for every gameweek
                 self.model += (self.lineup_position_count[pos, gw] >= self.element_types_df.loc[pos, "squad_min_play"]), f"Min lineup players in position {pos} in gameweek {gw}"
                 self.model += (self.lineup_position_count[pos, gw] <= self.element_types_df.loc[pos, "squad_max_play"]), f"Max lineup players in position {pos} in gameweek {gw}"
 
-
-        # Number of players in each position in squad must be satisfied (defined in element_types_df as squad_select) for every gameweek
-        for gw in self.future_gameweeks:
-            for pos in self.positions:
+                # Number of players in each position in squad must be satisfied (defined in element_types_df as squad_select) for every gameweek
                 self.model += (self.squad_position_count[pos, gw] == self.element_types_df.loc[pos, "squad_select"]), f"Squad players in position {pos} in gameweek {gw}"
 
         # ----------------------------------------
@@ -379,39 +352,35 @@ class OptimizeMultiPeriod:
         # General transfer constraints
         # ----------------------------------------
 
-        # Players in next gameweek squad must either be in current gameweek squad or transferred in
-        # And players not in next gameweek squad must be transferred out
         for gw in self.future_gameweeks:
+            # Players in next gameweek squad must either be in current gameweek squad or transferred in
+            # And players not in next gameweek squad must be transferred out
             for p in self.players:
                 self.model += (self.squad[p][gw] == (self.squad[p][gw - 1] + self.transfer_in[p][gw] - self.transfer_out[p][gw])), f"Player {p} squad/transfer constraint for gameweek {gw}"
 
-        # Number of transfers made in each gameweek cannot exceed 5
-        for gw in self.future_gameweeks:
+            # Number of transfers made in each gameweek cannot exceed 5
             self.model += self.transfers_made[gw] <= 20, f"Transfers made constraint for gameweek {gw}"
             
         # ----------------------------------------
         # Free transfer constraints
         # ----------------------------------------
 
-        # Free transfers available and auxiliary variable conditions for each gameweek
         for gw in self.future_gameweeks:
+            # Free transfers available and auxiliary variable conditions for each gameweek
             self.model += (self.free_transfers_available[gw] == (self.aux[gw] + 1)), f"FTA and Aux constraint for gameweek {gw}"
-
-        # Equality 1: FTA_{1} - TM_{1} <= 2 * Aux_{2}
-        for gw in self.future_gameweeks:
+            
+            # Equality 1: FTA_{1} - TM_{1} <= 2 * Aux_{2}
             self.model += self.free_transfers_available[gw - 1] - self.transfers_made[gw - 1] <= 2 * self.aux[gw], f"FTA and TM Equality 1 constraint for gameweek {gw}"
             
-        # Equality 2: FTA_{1} - TM_{1} >= Aux_{2} + (-14) * (1 - Aux_{2})
-        for gw in self.future_gameweeks:
+            # Equality 2: FTA_{1} - TM_{1} >= Aux_{2} + (-14) * (1 - Aux_{2})
             self.model += self.free_transfers_available[gw - 1] - self.transfers_made[gw - 1] >= self.aux[gw] + (-14) * (1 - self.aux[gw]), f"FTA and TM Equality 2 constraint for gameweek {gw}"
 
-        # Number of penalised transfers in each gameweek must be equal to or greater than the transfer difference (i.e. number of transfers made minus number of free transfers available)
-        # I.e. only penalise transfers if we have made more transfers than allowed
-        for gw in self.future_gameweeks:
+            # Number of penalised transfers in each gameweek must be equal to or greater than the transfer difference (i.e. number of transfers made minus number of free transfers available)
+            # I.e. only penalise transfers if we have made more transfers than allowed
             self.model += self.penalised_transfers[gw] >= self.transfer_diff[gw], f"Penalised transfers constraint for gameweek {gw}"
         
         
-    def define_objective(self, objective: str):
+    def set_objective(self, objective: str):
         """
         Summary:
         --------
@@ -443,7 +412,7 @@ class OptimizeMultiPeriod:
             self.model.name = model_name
             
     
-    def extract_results(self):
+    def get_results(self):
         """
         Summary:
         --------
@@ -452,7 +421,8 @@ class OptimizeMultiPeriod:
         Returns:
         --------
         Dictionary with the following keys:
-            - results: Dataframe with results.
+            - model: PuLP model object (solved).
+            - dataframe: Dataframe with results.
             - total_xp: Total expected points.
             - gw_xp: Dictionary with expected points for each gameweek.
         """
@@ -498,7 +468,7 @@ class OptimizeMultiPeriod:
             self.gw_xp = {gw: round(value(lpSum([self.player_xp_gw[p, gw] * (self.lineup[p][gw] + self.captain[p][gw] - (4 * self.penalised_transfers[gw])) for p in self.players])), 2) for gw in self.future_gameweeks}
             self.total_xp = round(value(lpSum([self.gw_xp[gw] for gw in self.future_gameweeks])), 2)
             
-            return {"results": self.results, "total_xp": self.total_xp, "gw_xp": self.gw_xp}
+            return {"model": self.model, "dataframe": self.results, "total_xp": self.total_xp, "gw_xp": self.gw_xp}
         
    
     def check_results(self, results: pd.DataFrame):
@@ -519,6 +489,9 @@ class OptimizeMultiPeriod:
             - Number of vice captains is equal to 1 for each gameweek
             - Captain is in lineup for each gameweek
             - Vice captain is in lineup for each gameweek
+        
+        If all checks are passed, prints "Results passed checks".
+        
 
         Args:
         --------
@@ -528,29 +501,46 @@ class OptimizeMultiPeriod:
         --------
         Dictionary with results of checks for each gameweek (True if all checks are passed, False otherwise)
         """
-        # Set up dictionary to store results of checks for each gameweek (True if all checks are passed, False otherwise)
-        checks_dict = {} 
-        
+        checks_dict = {}
+
         if results is None:
             print("WARNING: No results available to check.")
             return None
         else:
             for gw in self.future_gameweeks:
-                condition_1 = results[results["gw"] == gw].squad.sum() == 15
-                condition_2 = results[results["gw"] == gw].lineup.sum() == 11
-                condition_3 = results[results["gw"] == gw].transfer_in.sum() == results[results["gw"] == gw].transfer_out.sum()
-                condition_4 = results[(results["gw"] == gw) & (results["squad"] == 1)].team.value_counts().max() <= 3
-                condition_5 = all(results[results["gw"] == gw].groupby("position_id").squad.sum() == self.element_types_df["squad_select"])
-                condition_6a = all(results[results["gw"] == gw].groupby("position_id").lineup.sum() >= self.element_types_df["squad_min_play"])
-                condition_6b = all(results[results["gw"] == gw].groupby("position_id").lineup.sum() <= self.element_types_df["squad_max_play"])
-                condition_7 = all(results[(results["gw"] == gw) & (results["squad"] == 1)].prob_appearance > 0.5)
-                condition_8 = all(results[(results["gw"] == gw) & (results["lineup"] == 1)].prob_appearance > 0.75)
-                condition_9 = results[results["gw"] == gw].captain.sum() == 1
-                condition_10 = results[results["gw"] == gw].vice_captain.sum() == 1
-                condition_11 = all(results[(results["gw"] == gw) & (results["captain"] == 1)].lineup == 1)
-                condition_12 = all(results[(results["gw"] == gw) & (results["vice_captain"] == 1)].lineup == 1)
+                gw_results = results[results["gw"] == gw]
 
-                if condition_1 and condition_2 and condition_3 and condition_4 and condition_5 and condition_6a and condition_6b and condition_7 and condition_8 and condition_9 and condition_10 and condition_11 and condition_12:
+                condition_1 = gw_results.squad.sum() == 15
+                condition_2 = gw_results.lineup.sum() == 11
+                condition_3 = gw_results.transfer_in.sum() == gw_results.transfer_out.sum()
+                condition_4 = gw_results[gw_results["squad"] == 1].team.value_counts().max() <= 3
+                condition_5 = all(gw_results.groupby("position_id").squad.sum() == self.element_types_df["squad_select"])
+                condition_6a = all(gw_results.groupby("position_id").lineup.sum() >= self.element_types_df["squad_min_play"])
+                condition_6b = all(gw_results.groupby("position_id").lineup.sum() <= self.element_types_df["squad_max_play"])
+                condition_7 = all(gw_results[gw_results["squad"] == 1].prob_appearance > 0.5)
+                condition_8 = all(gw_results[gw_results["lineup"] == 1].prob_appearance > 0.75)
+                condition_9 = gw_results.captain.sum() == 1
+                condition_10 = gw_results.vice_captain.sum() == 1
+                condition_11 = gw_results[gw_results["captain"] == 1].lineup.sum() == 1
+                condition_12 = gw_results[gw_results["vice_captain"] == 1].lineup.sum() == 1
+                
+                if all(
+                    [
+                        condition_1,
+                        condition_2,
+                        condition_3,
+                        condition_4,
+                        condition_5,
+                        condition_6a,
+                        condition_6b,
+                        condition_7,
+                        condition_8,
+                        condition_9,
+                        condition_10,
+                        condition_11,
+                        condition_12,
+                    ]
+                ):
                     checks_dict[gw] = True
                 else:
                     checks_dict[gw] = False
@@ -581,20 +571,18 @@ class OptimizeMultiPeriod:
                         print(f"WARNING: Captain is not in lineup for gameweek {gw}.")
                     if not condition_12:
                         print(f"WARNING: Vice captain is not in lineup for gameweek {gw}.")
-            
+
                     print("\n")
-                    
-            # If all checks are passed, print a success message
-            if all(value == True for value in checks_dict.values()):
+
+            if all(value for value in checks_dict.values()):
                 print("Results passed checks.")
-            
-            # Update checks attribute
+
             self.checks = checks_dict
-            
+
             return self.checks
         
         
-    def extract_summary(self):
+    def get_summary(self):
         """
         Summary:
         --------
@@ -605,67 +593,65 @@ class OptimizeMultiPeriod:
         --------
         String with summary of actions over all gameweeks.
         """
-        # Initialize summary string
-        summary = ""
+        # Initialize summary list
+        summary_list = []
         
         for gw in self.future_gameweeks:
-            summary += "-" * 50 + "\n"
-            summary += f"Gameweek {gw} summary:\n"
-            summary += "-" * 50 + "\n"
-            summary += f"Total expected points: {self.gw_xp[gw]}\n"
-            summary += f"Money in bank: {self.money_in_bank[gw].varValue}\n"
-            summary += f"Free transfers available: {int(self.free_transfers_available[gw].varValue)}\n"
-            summary += f"Transfers made: {int(value(self.transfers_made[gw]))}\n"
-            summary += f"Penalised transfers: {int(self.penalised_transfers[gw].varValue)}\n"
+            summary_list.append("-" * 50)
+            summary_list.append(f"Gameweek {gw} summary:")
+            summary_list.append("-" * 50)
+            
+            gw_xp = self.gw_xp[gw]
+            money_in_bank = self.money_in_bank[gw].varValue
+            free_transfers_available = int(self.free_transfers_available[gw].varValue)
+            transfers_made = int(value(self.transfers_made[gw]))
+            penalised_transfers = int(self.penalised_transfers[gw].varValue)
+            
+            summary_list.append(f"Total expected points: {gw_xp}")
+            summary_list.append(f"Money in bank: {money_in_bank}")
+            summary_list.append(f"Free transfers available: {free_transfers_available}")
+            summary_list.append(f"Transfers made: {transfers_made}")
+            summary_list.append(f"Penalised transfers: {penalised_transfers}")
             
             for p in self.players:
                 if self.transfer_in[p][gw].varValue == 1:
-                    summary += f"Player {p} ({self.merged_elements_df.loc[p, 'web_name']} @ {self.merged_elements_df.loc[p, 'team_name']}) transferred in.\n"
+                    web_name = self.merged_elements_df.loc[p, 'web_name']
+                    team_name = self.merged_elements_df.loc[p, 'team_name']
+                    summary_list.append(f"Player {p} ({web_name} @ {team_name}) transferred in.")
                 if self.transfer_out[p][gw].varValue == 1:
-                    summary += f"Player {p} ({self.merged_elements_df.loc[p, 'web_name']} @ {self.merged_elements_df.loc[p, 'team_name']}) transferred out.\n"
-                    
+                    web_name = self.merged_elements_df.loc[p, 'web_name']
+                    team_name = self.merged_elements_df.loc[p, 'team_name']
+                    summary_list.append(f"Player {p} ({web_name} @ {team_name}) transferred out.")
+        
+        # Join the summary list into a single string
+        summary = "\n".join(summary_list)
+        
         # Update summary attribute
         self.summary = summary
-                                
+        
         return self.summary
         
-    def solve_problem(self):
-        self.prepare_data()
-        self.define_problem()
-        self.define_variables()
-        self.define_dictionaries()
-        self.define_initial_conditions()
-        self.define_constraints()
-        self.define_objective(objective=self.objective)
-        self.model.solve(pulp.PULP_CBC_CMD(msg=0))
-        
-        if self.model.status != 1:
-            print("Model could not solved.")
-            print("Status:", self.model.status)
-            return None
-        else:
-            print("Model solved.")
-            print("Status:", self.model.status)
-            print("Time:", round(self.model.solutionTime, 2))
-            
-        self.extract_results()
-        self.check_results(results=self.results)
-        self.extract_summary()
-        
-        return {"model": self.model, "results": self.results, "summary": self.summary, "total_xp": self.total_xp, "gw_xp": self.gw_xp, "checks": self.checks}
-
 
 if __name__ == "__main__":
     
-    # Initialize optimizer
-    optimizer = OptimizeMultiPeriod(team_id=1, gameweek=22, bank_balance=4.2, num_free_transfers=1, horizon=3)
+    horizons = [1, 2, 3, 4, 5]
     
-    # Solve problem
-    optimizer.solve_problem()
+    for h in horizons:
+        
+        print(f"Optimizing for horizon {h}...")
+        
+        optimizer = OptimizeMultiPeriod(team_id=1, gameweek=22, bank_balance=4.2, num_free_transfers=1, horizon=h)
+        optimizer.solve_problem()
+        
+        r = optimizer.get_results()
+        s = optimizer.get_summary()
+        n = optimizer.model.name
+        
+        r["model"].writeLP(f"../../models/multi_period/{n}_model.lp")
+        r["dataframe"].to_csv(f"../../models/multi_period/{n}_results.csv", index=False)
+        
+        with open(f"../../models/multi_period/{n}_summary.txt", "w") as f:
+            f.write(s)
 
-    # Print results
-    print(optimizer.results)
-    print(optimizer.total_xp)
-    print(optimizer.gw_xp)
-    print(optimizer.checks)
-    print(optimizer.summary)
+        
+
