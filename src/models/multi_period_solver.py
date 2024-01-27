@@ -1,5 +1,5 @@
 # ----------------------------------------
-# Import packages and set working directory
+# Imports
 # ----------------------------------------
 
 import sys
@@ -15,20 +15,23 @@ import sys
 
 sys.path.append("..")
 
-from data.pull_data import pull_general_data, pull_squad
+from data.get_data import FPLDataPuller
 from features.build_features import merge_fpl_form_data
 
 pd.options.mode.chained_assignment = None  # default='warn'
 
 # ----------------------------------------
+# Classes
+# ----------------------------------------
 
-class OptimizeMultiPeriod:
+class OptimizeMultiPeriod(FPLDataPuller):
     def __init__(self, team_id, gameweek, bank_balance, num_free_transfers, horizon, objective='regular', decay_base=0.85):
         
         """
         Summary:
         --------
         Class to solve the multi-period optimization problem for Fantasy Premier League.
+        Inherited from custom FPLDataPuller class.
         
         Parameters:
         -----------
@@ -104,9 +107,14 @@ class OptimizeMultiPeriod:
             - initial_squad: List of player IDs in initial squad.
         """
         
-        # Pull data from FPL API
-        data = pull_general_data()
-        # self.initial_squad = pull_squad(self.team_id)
+        # Initialize FPLDataPuller object
+        puller = FPLDataPuller()
+        
+        # Pull general data from FPL API
+        data = puller.get_general_data()
+        
+        # Pull initial squad from FPL API
+        #! self.initial_squad = puller.get_initial_squad(team_id=self.team_id)
         self.initial_squad = [275, 369, 342, 506, 19, 526, 664, 14, 117, 60, 343, 230, 129, 112, 126]
         
         # Get dataframes from dictionary
@@ -631,11 +639,14 @@ class OptimizeMultiPeriod:
         
         return self.summary
         
-
+        
+# ----------------------------------------
+# Main
+# ----------------------------------------       
+        
 if __name__ == "__main__":
     
     horizons = [1, 2, 3, 4, 5]
-    
     for h in horizons:
         
         print(f"Optimizing for horizon {h}...")
