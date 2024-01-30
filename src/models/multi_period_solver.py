@@ -25,7 +25,7 @@ pd.options.mode.chained_assignment = None  # default='warn'
 # ----------------------------------------
 
 class OptimizeMultiPeriod(FPLDataPuller):
-    def __init__(self, team_id, gameweek, bank_balance, num_free_transfers, horizon, objective='regular', decay_base=0.85):
+    def __init__(self, team_id, gameweek, num_free_transfers, horizon, objective='regular', decay_base=0.85):
         
         """
         Summary:
@@ -39,8 +39,6 @@ class OptimizeMultiPeriod(FPLDataPuller):
             Team ID of the team to optimize.
         gameweek: int
             Gameweek to optimize for.
-        bank_balance: float
-            Bank balance at the start of the gameweek (currently)
         num_free_transfers: int
             Number of free transfers available currently.
         horizon: int
@@ -54,7 +52,6 @@ class OptimizeMultiPeriod(FPLDataPuller):
         # Set attributes
         self.team_id = team_id
         self.gameweek = gameweek
-        self.bank_balance = bank_balance
         self.num_free_transfers = num_free_transfers
         self.horizon = horizon
         self.objective = objective
@@ -108,23 +105,27 @@ class OptimizeMultiPeriod(FPLDataPuller):
         """
         
         # Initialize FPLDataPuller object
-        puller = FPLDataPuller()
+        fpl = FPLDataPuller()
         
         # Pull general data from FPL API
-        data = puller.get_general_data()
+        data = fpl.get_general_data()
         
-        # Pull initial squad from FPL API
-        #! self.initial_squad = puller.get_initial_squad(team_id=self.team_id)
-        self.initial_squad = [275, 369, 342, 506, 19, 526, 664, 14, 117, 60, 343, 230, 129, 112, 126]
+        # Pull team data from FPL API
+        team_data = fpl.get_team_data(team_id=self.team_id)
         
+        # Set initial squad from FPL API
+        self.initial_squad = fpl.get_team_ids(team_id=self.team_id, gameweek=self.gameweek-1)
+        
+        # Set bank balance
+        self.bank_balance = team_data["bank_balance"]
+    
         # Get dataframes from dictionary
         self.elements_df = data["elements"]
         self.element_types_df = data["element_types"]
         self.teams_df = data["teams"]
         
         # Merge elements_df with form data
-        form_data = pd.read_csv("../../data/raw/fpl-form-predicted-points.csv")
-        self.merged_elements_df = merge_fpl_form_data(self.elements_df, form_data)
+        self.merged_elements_df = merge_fpl_form_data(self.elements_df)
         
         # Set index for dataframes
         self.merged_elements_df.set_index("id", inplace=True)
@@ -416,8 +417,8 @@ class OptimizeMultiPeriod(FPLDataPuller):
         elif objective == "decay":
             total_xp = lpSum([gw_xp_after_pen[gw] * pow(self.decay_base, gw - self.gameweek) for gw in self.future_gameweeks])
             self.model += total_xp
-            model_name += "_decay_base_" + str(self.decay_base)
-            self.model.name = model_name
+            add_name = "_base_" + str(self.decay_base)
+            self.model.name += add_name
             
     
     def get_results(self):
@@ -646,23 +647,24 @@ class OptimizeMultiPeriod(FPLDataPuller):
         
 if __name__ == "__main__":
     
-    horizons = [1, 2, 3, 4, 5]
-    for h in horizons:
-        
-        print(f"Optimizing for horizon {h}...")
-        
-        optimizer = OptimizeMultiPeriod(team_id=1, gameweek=22, bank_balance=4.2, num_free_transfers=1, horizon=h)
-        optimizer.solve_problem()
-        
-        r = optimizer.get_results()
-        s = optimizer.get_summary()
-        n = optimizer.model.name
-        
-        r["model"].writeLP(f"../../models/multi_period/{n}_model.lp")
-        r["dataframe"].to_csv(f"../../models/multi_period/{n}_results.csv", index=False)
-        
-        with open(f"../../models/multi_period/{n}_summary.txt", "w") as f:
-            f.write(s)
+    for objective in ["regular", "decay"]:
+        for h in [1, 2, 3, 4, 5]:
+            print("-" * 50)
+            print(f"Optimizing for objective {objective} and horizon {h}...")
+            print("-" * 50)
+            
+            optimizer = OptimizeMultiPeriod(team_id=10599528, gameweek=23, num_free_transfers=1, horizon=h, objective=objective, decay_base=0.85)
+            optimizer.solve_problem()
+            
+            r = optimizer.get_results()
+            s = optimizer.get_summary()
+            n = optimizer.model.name
+            
+            r["model"].writeLP(f"../../models/multi_period/{n}_model.lp")
+            r["dataframe"].to_csv(f"../../models/multi_period/{n}_results.csv", index=False)
+            
+            with open(f"../../models/multi_period/{n}_summary.txt", "w") as f:
+                f.write(s)
 
         
 

@@ -151,11 +151,11 @@ class FPLDataPuller:
         }
     
         
-    def get_squad(self, team_id: int, gameweek: int) -> dict:
+    def get_team_ids(self, team_id: int, gameweek: int) -> dict:
         """
         Summary:
         --------
-        Pulls squad data for a given team id from FPL API.
+        Pulls team ids for a given team id and gameweek from FPL API.
 
         Args:
         -----
@@ -183,13 +183,37 @@ class FPLDataPuller:
             squad = [p["element"] for p in picks]
             return squad
         
+    def get_team_data(self, team_id: int) -> dict:
+        """
+        Summary:
+        --------
+        Pulls team data for a given team id from FPL API.
+        Data includes: money_in_bank, team_value, total_points, gameweek_points, current_gw.
+        
+        Parameters:
+        -----------
+        team_id: int
+            Team id for which data is to be pulled.
+            
+        Returns:
+        --------
+        Dictionary of team data for the current season.
+        """
+        
+        r = requests.get(self.base_url + "entry/" + str(team_id) + "/").json()
+        
+        bank_balance = r["last_deadline_bank"] / 10
+        team_value = r["last_deadline_value"] / 10
+        total_points = r["summary_overall_points"]
+        gameweek_points = r["summary_event_points"]
+        current_gw = r["current_event"]
+
+        return {
+            "bank_balance": bank_balance,
+            "team_value": team_value,
+            "total_points": total_points,
+            "gameweek_points": gameweek_points,
+            "current_gw": current_gw,
+        }
         
         
-        
-
-
-
-
-
-# my_team_id = 10599528
-#pull_squad(team_id=10599528, gw=21)

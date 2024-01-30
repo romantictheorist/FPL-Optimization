@@ -1,0 +1,50 @@
+--------------------------------------------------
+Gameweek 23 summary:
+--------------------------------------------------
+Total expected points: 56.95
+Money in bank: 4.6
+Free transfers available: 1
+Transfers made: 1
+Penalised transfers: 0
+Player 373 (B.Fernandes @ Man Utd) transferred in.
+Player 526 (Bowen @ West Ham) transferred out.
+--------------------------------------------------
+Gameweek 24 summary:
+--------------------------------------------------
+Total expected points: 58.56
+Money in bank: 4.6
+Free transfers available: 1
+Transfers made: 1
+Penalised transfers: 0
+Player 101 (Flekken @ Brentford) transferred in.
+Player 230 (Johnstone @ Crystal Palace) transferred out.
+--------------------------------------------------
+Gameweek 25 summary:
+--------------------------------------------------
+Total expected points: 86.17
+Money in bank: 0.0
+Free transfers available: 1
+Transfers made: 1
+Penalised transfers: 0
+Player 14 (Ødegaard @ Arsenal) transferred out.
+Player 308 (Salah @ Liverpool) transferred in.
+--------------------------------------------------
+Gameweek 26 summary:
+--------------------------------------------------
+Total expected points: 64.66
+Money in bank: 0.4
+Free transfers available: 1
+Transfers made: 1
+Penalised transfers: 0
+Player 5 (Gabriel @ Arsenal) transferred in.
+Player 369 (Walker @ Man City) transferred out.
+--------------------------------------------------
+Gameweek 27 summary:
+--------------------------------------------------
+Total expected points: 63.12
+Money in bank: 0.1
+Free transfers available: 1
+Transfers made: 1
+Penalised transfers: 0
+Player 14 (Ødegaard @ Arsenal) transferred in.
+Player 373 (B.Fernandes @ Man Utd) transferred out.
