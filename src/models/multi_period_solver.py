@@ -10,13 +10,13 @@ import pulp
 from pulp import *
 import time
 import multiprocessing
-
+from datetime import datetime
 import sys
 
 sys.path.append("..")
 
-from data.get_data import FPLDataPuller
-from features.build_features import merge_fpl_form_data
+from data.get_data import FPLDataPuller, FPLFormScraper
+from features.build_features import merge_predicted_points
 
 pd.options.mode.chained_assignment = None  # default='warn'
 
@@ -66,6 +66,8 @@ class OptimizeMultiPeriod(FPLDataPuller):
         self.set_initial_conditions()
         self.set_constraints()
         self.set_objective(objective=self.objective)
+        
+        print("Solving model...")
         self.model.solve(pulp.PULP_CBC_CMD(msg=0))
         
         if self.model.status != 1:
@@ -74,8 +76,8 @@ class OptimizeMultiPeriod(FPLDataPuller):
             return None
         else:
             print("Model solved.")
-            print("Status:", self.model.status)
             print("Time:", round(self.model.solutionTime, 2))
+            print("Objective:", round(self.model.objective.value(), 2))
             
         self.get_results()
         self.check_results(results=self.results)
@@ -104,31 +106,45 @@ class OptimizeMultiPeriod(FPLDataPuller):
             - initial_squad: List of player IDs in initial squad.
         """
         
-        # Initialize FPLDataPuller object
-        fpl = FPLDataPuller()
-        
-        # Pull general data from FPL API
-        data = fpl.get_general_data()
-        
-        # Pull team data from FPL API
-        team_data = fpl.get_team_data(team_id=self.team_id)
-        
-        # Set initial squad from FPL API
-        self.initial_squad = fpl.get_team_ids(team_id=self.team_id, gameweek=self.gameweek-1)
-        
-        # Set bank balance
+   
+        # Check if folder for current gameweek exists, if so, load data from there
+        # If not, pull data from FPL API and FPLForm scraper
+        gameweek_path = f"../../data/raw/gameweeks/gw_{self.gameweek - 1}/"
+        if os.path.exists(gameweek_path):
+            self.elements_df = pd.read_csv(gameweek_path + "elements.csv")
+            self.element_types_df = pd.read_csv(gameweek_path + "element_types.csv")
+            self.teams_df = pd.read_csv(gameweek_path + "teams.csv")
+        else:
+            # Pull general data from FPL API
+            puller = FPLDataPuller()
+            general_data = puller.get_general_data()
+            self.elements_df = general_data["elements"]
+            self.element_types_df = general_data["element_types"]
+            self.teams_df = general_data["teams"]
+            
+        # Check if today's predictions have been scraped, if so, load data from there
+        # If not, scrape data from FPLForm scraper
+        # Check by looking for file that has today's date as name
+        predicted_points_path = f"../../data/raw/predicted_points/{datetime.now().strftime("%Y_%m_%d")}_predicted_points.csv"
+        if os.path.exists(predicted_points_path):
+            predicted_points_df = pd.read_csv(predicted_points_path)
+        else:
+            scrapper = FPLFormScraper()
+            predicted_points_df = scrapper.get_predicted_points()
+            
+        # Get team data from FPL API
+        puller = FPLDataPuller()
+        team_data = puller.get_team_data(team_id=self.team_id)
         self.bank_balance = team_data["bank_balance"]
-    
-        # Get dataframes from dictionary
-        self.elements_df = data["elements"]
-        self.element_types_df = data["element_types"]
-        self.teams_df = data["teams"]
         
-        # Merge elements_df with form data
-        self.merged_elements_df = merge_fpl_form_data(self.elements_df)
+        # Get current squad from FPL API and set as initial squad
+        self.initial_squad = puller.get_team_ids(team_id=self.team_id, gameweek=self.gameweek-1)
+                
+        # Merge predicted points with elements_df
+        self.merged_elements_df = merge_predicted_points(predicted_points_df=predicted_points_df, other_df=self.elements_df)
         
         # Set index for dataframes
-        self.merged_elements_df.set_index("id", inplace=True)
+        self.merged_elements_df.set_index("id", inplace=True) 
         self.element_types_df.set_index("id", inplace=True)
         self.teams_df.set_index("id", inplace=True)
         
@@ -584,7 +600,7 @@ class OptimizeMultiPeriod(FPLDataPuller):
                     print("\n")
 
             if all(value for value in checks_dict.values()):
-                print("Results passed checks.")
+                print("Results check: passed")
 
             self.checks = checks_dict
 
@@ -661,9 +677,9 @@ if __name__ == "__main__":
             n = optimizer.model.name
             
             r["model"].writeLP(f"../../models/multi_period/{n}_model.lp")
-            r["dataframe"].to_csv(f"../../models/multi_period/{n}_results.csv", index=False)
+            r["dataframe"].to_csv(f"../../data/external/{n}_results.csv", index=False)
             
-            with open(f"../../models/multi_period/{n}_summary.txt", "w") as f:
+            with open(f"../../reports/{n}_summary.txt", "w") as f:
                 f.write(s)
 
         

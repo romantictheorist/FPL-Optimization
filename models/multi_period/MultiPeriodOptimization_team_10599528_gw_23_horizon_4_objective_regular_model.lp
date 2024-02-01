@@ -1,2883 +1,2704 @@
 \* MultiPeriodOptimization_team_10599528_gw_23_horizon_4_objective_regular *\
 Maximize
-OBJ: 3.65488 captain_101_23 + 3.79145 captain_101_24 + 6.65908 captain_101_25
- + 3.40499 captain_101_26 + 1.12469 captain_102_23 + 1.65232 captain_102_24
- + 2.33729 captain_102_25 + 1.36188 captain_102_26 + 3.09937 captain_105_23
- + 3.19657 captain_105_24 + 6.17758 captain_105_25 + 3.22072 captain_105_26
- + 3.28572 captain_106_23 + 3.4487 captain_106_24 + 6.53256 captain_106_25
- + 3.3804 captain_106_26 + 2.93393 captain_107_23 + 2.98374 captain_107_24
- + 5.59091 captain_107_25 + 2.90707 captain_107_26 + 2.54056 captain_109_23
- + 3.56471 captain_109_24 + 5.32025 captain_109_25 + 3.0371 captain_109_26
- + 1.92571 captain_10_23 + 2.07239 captain_10_24 + 2.67898 captain_10_25
- + 2.51624 captain_10_26 + 3.42627 captain_110_23 + 3.65282 captain_110_24
- + 7.00868 captain_110_25 + 3.67021 captain_110_26 + 1.86531 captain_111_23
- + 1.97513 captain_111_24 + 3.84008 captain_111_25 + 1.99845 captain_111_26
- + 2.78347 captain_112_23 + 3.94493 captain_112_24 + 6.10096 captain_112_25
- + 3.45841 captain_112_26 + 3.65883 captain_113_23 + 3.56125 captain_113_24
- + 3.92794 captain_113_25 + 3.66584 captain_113_26 + 1.85464 captain_114_23
- + 2.50274 captain_114_24 + 3.96354 captain_114_25 + 2.20947 captain_114_26
- + 3.0926 captain_116_23 + 3.20133 captain_116_24 + 5.66716 captain_116_25
- + 2.89366 captain_116_26 + 4.92528 captain_117_23 + 5.46427 captain_117_24
- + 10.3209 captain_117_25 + 5.59916 captain_117_26 + 3.60619 captain_119_23
- + 3.9216 captain_119_24 + 7.42409 captain_119_25 + 3.97978 captain_119_26
- + 1.32941 captain_120_23 + 1.44981 captain_120_24 + 2.93912 captain_120_25
- + 1.52815 captain_120_26 + 1.73377 captain_121_23 + 2.43561 captain_121_24
- + 3.65563 captain_121_25 + 2.07806 captain_121_26 + 3.00016 captain_122_23
- + 2.90539 captain_122_24 + 3.03883 captain_122_25 + 3.08648 captain_122_26
- + 1.99994 captain_125_23 + 1.94552 captain_125_24 + 2.03312 captain_125_25
- + 2.06531 captain_125_26 + 2.96665 captain_126_23 + 2.85682 captain_126_24
- + 2.71043 captain_126_25 + 2.99687 captain_126_26 + 2.17711 captain_128_23
- + 2.11139 captain_128_24 + 2.20392 captain_128_25 + 2.23697 captain_128_26
- + 3.69607 captain_129_23 + 2.8241 captain_129_24 + 3.23797 captain_129_25
- + 3.85682 captain_129_26 + 4.39054 captain_12_23 + 4.41479 captain_12_24
- + 4.47903 captain_12_25 + 4.85135 captain_12_26 + 2.09246 captain_130_25
- + 2.13146 captain_130_26 + 3.09897 captain_131_23 + 2.37463 captain_131_24
- + 2.74496 captain_131_25 + 3.28707 captain_131_26 + 2.72685 captain_132_23
- + 2.88947 captain_132_24 + 2.95393 captain_132_25 + 3.0096 captain_132_26
- + 2.71432 captain_133_23 + 2.67186 captain_133_24 + 2.81226 captain_133_25
- + 2.86975 captain_133_26 + 5.13073 captain_134_23 + 4.89705 captain_134_24
- + 5.13138 captain_134_25 + 5.20109 captain_134_26 + 3.92712 captain_135_23
- + 3.95164 captain_135_24 + 3.97842 captain_135_25 + 4.00641 captain_135_26
- + 1.64219 captain_138_23 + 1.63777 captain_138_24 + 1.71198 captain_138_25
- + 1.74893 captain_138_26 + 1.51399 captain_139_23 + 1.08995 captain_139_24
- + 1.31111 captain_139_25 + 1.6356 captain_139_26 + 2.70598 captain_13_23
- + 2.83442 captain_13_24 + 2.72273 captain_13_25 + 3.0171 captain_13_26
- + 3.15357 captain_141_23 + 3.06626 captain_141_24 + 3.0443 captain_141_25
- + 3.22979 captain_141_26 + 2.09176 captain_142_23 + 1.97051 captain_142_24
- + 1.99498 captain_142_25 + 2.03388 captain_142_26 + 4.01438 captain_143_23
- + 3.86511 captain_143_24 + 4.07528 captain_143_25 + 4.15034 captain_143_26
- + 1.34971 captain_144_23 + 1.31786 captain_144_24 + 1.34945 captain_144_25
- + 1.36648 captain_144_26 + 3.47915 captain_145_23 + 3.61998 captain_145_24
- + 3.06013 captain_145_25 + 3.43246 captain_145_26 + 3.6325 captain_148_23
- + 3.52757 captain_148_24 + 3.50118 captain_148_25 + 3.72411 captain_148_26
- + 5.18529 captain_14_23 + 5.22002 captain_14_24 + 5.35133 captain_14_25
- + 5.8541 captain_14_26 + 3.1241 captain_150_23 + 2.41042 captain_150_24
- + 2.69426 captain_150_25 + 3.13223 captain_150_26 + 2.25759 captain_151_24
- + 2.57035 captain_151_25 + 3.04985 captain_151_26 + 3.6057 captain_152_23
- + 3.49996 captain_152_24 + 3.47337 captain_152_25 + 3.69802 captain_152_26
- + 2.62343 captain_153_23 + 2.01395 captain_153_24 + 2.33691 captain_153_25
- + 2.80223 captain_153_26 + 2.60413 captain_154_23 + 2.71814 captain_154_24
- + 2.76828 captain_154_25 + 2.80666 captain_154_26 + 1.27703 captain_156_23
- + 1.1459 captain_156_24 + 1.18861 captain_156_25 + 1.18258 captain_156_26
- + 2.34436 captain_157_23 + 1.52262 captain_157_24 + 2.00445 captain_157_25
- + 2.26213 captain_157_26 + 2.33337 captain_159_23 + 2.02637 captain_159_24
- + 2.12637 captain_159_25 + 2.11224 captain_159_26 + 2.78988 captain_160_23
- + 1.68522 captain_160_24 + 2.36742 captain_160_25 + 2.71328 captain_160_26
- + 3.30335 captain_161_23 + 2.91509 captain_161_24 + 3.08557 captain_161_25
- + 3.0848 captain_161_26 + 1.21839 captain_162_23 + 1.09155 captain_162_24
- + 1.13287 captain_162_25 + 1.12703 captain_162_26 + 1.80651 captain_163_23
- + 1.61252 captain_163_24 + 1.71763 captain_163_25 + 1.73887 captain_163_26
- + 2.41069 captain_165_23 + 2.11428 captain_165_24 + 2.22724 captain_165_25
- + 2.22542 captain_165_26 + 1.73982 captain_166_23 + 0.96708 captain_166_24
- + 1.41334 captain_166_25 + 1.65001 captain_166_26 + 1.85146 captain_167_23
- + 1.06648 captain_167_24 + 1.53821 captain_167_25 + 1.79385 captain_167_26
- + 3.18263 captain_168_23 + 2.52766 captain_168_24 + 2.61614 captain_168_25
- + 2.65766 captain_168_26 + 3.34501 captain_169_23 + 3.07867 captain_169_24
- + 2.86091 captain_169_25 + 3.0867 captain_169_26 + 2.92043 captain_170_23
- + 2.53492 captain_170_24 + 2.6755 captain_170_25 + 2.65089 captain_170_26
- + 3.64403 captain_172_23 + 3.33707 captain_172_24 + 3.0861 captain_172_25
- + 3.34632 captain_172_26 + 2.99426 captain_173_23 + 1.97839 captain_173_24
- + 2.62795 captain_173_25 + 2.97555 captain_173_26 + 2.00842 captain_174_23
- + 1.55199 captain_174_24 + 1.59592 captain_174_25 + 1.61209 captain_174_26
- + 2.23092 captain_176_23 + 1.39891 captain_176_24 + 1.97715 captain_176_25
- + 2.28668 captain_176_26 + 3.42187 captain_177_23 + 2.65636 captain_177_24
- + 2.73004 captain_177_25 + 2.75715 captain_177_26 + 2.70211 captain_178_23
- + 1.70694 captain_178_24 + 2.33119 captain_178_25 + 2.64721 captain_178_26
- + 3.36295 captain_17_23 + 3.28108 captain_17_24 + 3.5887 captain_17_25
- + 3.36883 captain_17_26 + 3.34501 captain_181_23 + 3.07867 captain_181_24
- + 2.86091 captain_181_25 + 3.0867 captain_181_26 + 3.15178 captain_182_23
- + 2.10823 captain_182_24 + 2.78177 captain_182_25 + 3.13368 captain_182_26
- + 1.86768 captain_184_23 + 1.63012 captain_184_24 + 1.7075 captain_184_25
- + 1.69657 captain_184_26 + 1.25633 captain_186_23 + 1.20192 captain_186_24
- + 1.14104 captain_186_25 + 1.22816 captain_186_26 + 2.90057 captain_191_23
- + 2.9039 captain_191_24 + 1.93008 captain_191_25 + 2.54866 captain_191_26
- + 2.90323 captain_192_23 + 3.00762 captain_192_24 + 2.5926 captain_192_25
- + 2.86862 captain_192_26 + 2.23044 captain_193_23 + 2.09365 captain_193_24
- + 2.07294 captain_193_25 + 2.26561 captain_193_26 + 2.01624 captain_194_23
- + 2.00073 captain_194_24 + 1.27484 captain_194_25 + 1.73593 captain_194_26
- + 2.46437 captain_195_23 + 2.4831 captain_195_24 + 1.51082 captain_195_25
- + 2.19443 captain_195_26 + 0.99812 captain_196_23 + 0.97516 captain_196_24
- + 0.9461 captain_196_25 + 1.05684 captain_196_26 + 3.19051 captain_197_23
- + 3.25009 captain_197_24 + 2.26118 captain_197_25 + 2.93293 captain_197_26
- + 4.15552 captain_199_23 + 3.89199 captain_199_24 + 3.59307 captain_199_25
- + 4.05108 captain_199_26 + 5.68085 captain_19_23 + 5.64369 captain_19_24
- + 5.71356 captain_19_25 + 6.25639 captain_19_26 + 1.58813 captain_1_23
- + 1.49612 captain_1_24 + 1.57128 captain_1_25 + 1.55681 captain_1_26
- + 1.56141 captain_200_23 + 1.15811 captain_200_24 + 1.19693 captain_200_25
- + 1.21121 captain_200_26 + 3.42114 captain_202_23 + 3.18976 captain_202_24
- + 2.95505 captain_202_25 + 3.33883 captain_202_26 + 2.40594 captain_203_23
- + 2.38235 captain_203_24 + 1.50608 captain_203_25 + 2.10283 captain_203_26
- + 2.16359 captain_204_23 + 2.05306 captain_204_24 + 2.08381 captain_204_25
- + 1.51034 captain_204_26 + 2.18891 captain_205_23 + 2.31925 captain_205_24
- + 2.27707 captain_205_25 + 2.11305 captain_205_26 + 3.39528 captain_207_23
- + 3.18595 captain_207_24 + 2.93575 captain_207_25 + 3.13732 captain_207_26
- + 2.3609 captain_208_23 + 2.2214 captain_208_24 + 2.09473 captain_208_25
- + 2.3509 captain_208_26 + 2.30148 captain_209_23 + 2.1224 captain_209_24
- + 2.28769 captain_209_25 + 2.40751 captain_209_26 + 3.20586 captain_20_23
- + 3.3831 captain_20_24 + 4.26862 captain_20_25 + 3.95069 captain_20_26
- + 3.22911 captain_210_23 + 2.97279 captain_210_24 + 2.74145 captain_210_25
- + 3.07252 captain_210_26 + 4.40404 captain_211_23 + 4.03727 captain_211_24
- + 3.95751 captain_211_25 + 4.39277 captain_211_26 + 2.52837 captain_214_23
- + 2.51007 captain_214_24 + 1.6539 captain_214_25 + 2.19775 captain_214_26
- + 4.57003 captain_216_23 + 4.24352 captain_216_24 + 3.87719 captain_216_25
- + 4.42212 captain_216_26 + 3.16982 captain_217_23 + 3.24892 captain_217_24
- + 2.29757 captain_217_25 + 2.96536 captain_217_26 + 1.05791 captain_219_23
- + 1.09237 captain_219_24 + 1.09771 captain_219_25 + 1.15089 captain_219_26
- + 2.14967 captain_21_23 + 2.33548 captain_21_24 + 2.35758 captain_21_25
- + 2.13698 captain_21_26 + 2.81441 captain_220_23 + 2.90388 captain_220_24
- + 3.13355 captain_220_25 + 3.96592 captain_220_26 + 3.2783 captain_221_23
- + 3.40411 captain_221_24 + 3.34772 captain_221_25 + 3.55615 captain_221_26
- + 2.1554 captain_222_23 + 2.22585 captain_222_24 + 2.38457 captain_222_25
- + 2.93389 captain_222_26 + 1.16421 captain_224_23 + 1.18821 captain_224_24
- + 1.17213 captain_224_25 + 1.22188 captain_224_26 + 3.13871 captain_225_23
- + 3.0132 captain_225_24 + 3.42687 captain_225_25 + 3.43894 captain_225_26
- + 3.90765 captain_226_23 + 4.05376 captain_226_24 + 3.95587 captain_226_25
- + 4.25858 captain_226_26 + 2.96001 captain_228_23 + 3.05939 captain_228_24
- + 3.29698 captain_228_25 + 4.12887 captain_228_26 + 2.0953 captain_229_23
- + 2.18564 captain_229_24 + 2.19082 captain_229_25 + 2.30631 captain_229_26
- + 2.11479 captain_22_23 + 2.16496 captain_22_24 + 2.21836 captain_22_25
- + 2.41491 captain_22_26 + 3.51685 captain_230_23 + 3.51304 captain_230_24
- + 3.71354 captain_230_25 + 3.44845 captain_230_26 + 3.34477 captain_231_23
- + 3.50967 captain_231_24 + 3.47927 captain_231_25 + 3.71211 captain_231_26
- + 2.40563 captain_232_23 + 2.33437 captain_232_24 + 2.67413 captain_232_25
- + 2.69307 captain_232_26 + 3.10226 captain_233_23 + 3.09893 captain_233_24
- + 3.27435 captain_233_25 + 3.04241 captain_233_26 + 2.60998 captain_234_23
- + 2.69328 captain_234_24 + 2.89866 captain_234_25 + 3.63734 captain_234_26
- + 4.3472 captain_236_23 + 4.39703 captain_236_24 + 4.23843 captain_236_25
- + 4.55059 captain_236_26 + 1.84586 captain_238_23 + 1.9106 captain_238_24
- + 2.05601 captain_238_25 + 2.56343 captain_238_26 + 1.4204 captain_239_23
- + 1.44786 captain_239_24 + 1.42946 captain_239_25 + 1.48639 captain_239_26
- + 1.5602 captain_23_23 + 1.59054 captain_23_24 + 1.64772 captain_23_25
- + 1.28991 captain_23_26 + 2.97754 captain_240_23 + 3.15888 captain_240_24
- + 3.15886 captain_240_25 + 3.35402 captain_240_26 + 1.09184 captain_241_23
- + 1.12117 captain_241_24 + 1.23257 captain_241_25 + 1.64368 captain_241_26
- + 3.10097 captain_243_23 + 3.09763 captain_243_24 + 3.27384 captain_243_25
- + 3.04086 captain_243_26 + 1.3106 captain_244_23 + 1.22879 captain_244_24
- + 1.37617 captain_244_25 + 1.33452 captain_244_26 + 2.32817 captain_245_23
- + 1.85048 captain_245_24 + 2.86812 captain_245_25 + 2.28958 captain_245_26
- + 3.88785 captain_246_23 + 3.57666 captain_246_24 + 3.87257 captain_246_25
- + 3.89407 captain_246_26 + 1.98267 captain_247_23 + 1.55108 captain_247_24
- + 2.4608 captain_247_25 + 1.94969 captain_247_26 + 3.86902 captain_249_23
- + 3.43849 captain_249_24 + 3.99612 captain_249_25 + 3.85538 captain_249_26
- + 3.42444 captain_250_23 + 3.12756 captain_250_24 + 3.57308 captain_250_25
- + 3.45284 captain_250_26 + 2.00187 captain_252_23 + 1.51238 captain_252_24
- + 2.39515 captain_252_25 + 1.85775 captain_252_26 + 2.50939 captain_254_23
- + 2.2767 captain_254_24 + 2.54177 captain_254_25 + 2.45505 captain_254_26
- + 3.7825 captain_256_23 + 4.18576 captain_256_24 + 3.83323 captain_256_25
- + 3.84381 captain_256_26 + 2.23872 captain_257_23 + 1.75649 captain_257_24
- + 2.75184 captain_257_25 + 2.16329 captain_257_26 + 2.85767 captain_258_23
- + 3.17892 captain_258_24 + 6.09202 captain_258_25 + 3.29165 captain_258_26
- + 3.80649 captain_259_23 + 3.45726 captain_259_24 + 4.03018 captain_259_25
- + 3.915 captain_259_26 + 1.67989 captain_25_23 + 1.7783 captain_25_24
- + 2.28966 captain_25_25 + 2.11088 captain_25_26 + 2.64719 captain_260_23
- + 2.14197 captain_260_24 + 3.21188 captain_260_25 + 2.60055 captain_260_26
- + 3.07965 captain_261_23 + 2.8301 captain_261_24 + 3.21994 captain_261_25
- + 3.12354 captain_261_26 + 2.03134 captain_262_23 + 1.58414 captain_262_24
- + 2.51709 captain_262_25 + 1.96797 captain_262_26 + 3.51653 captain_263_23
- + 3.16319 captain_263_24 + 3.7779 captain_263_25 + 3.73362 captain_263_26
- + 3.06216 captain_265_23 + 2.4262 captain_265_24 + 3.73555 captain_265_25
- + 2.98261 captain_265_26 + 2.94406 captain_266_23 + 2.66085 captain_266_24
- + 3.15357 captain_266_25 + 3.11807 captain_266_26 + 3.42144 captain_267_23
- + 3.81943 captain_267_24 + 3.51832 captain_267_25 + 3.54009 captain_267_26
- + 2.25423 captain_268_23 + 2.42889 captain_268_24 + 2.24726 captain_268_25
- + 2.25488 captain_268_26 + 3.797 captain_26_23 + 3.72242 captain_26_24
- + 3.74167 captain_26_25 + 3.97628 captain_26_26 + 2.73952 captain_270_23
- + 2.9861 captain_270_24 + 2.73297 captain_270_25 + 2.76907 captain_270_26
- + 2.62663 captain_271_23 + 2.59172 captain_271_24 + 2.42142 captain_271_25
- + 2.22671 captain_271_26 + 1.1551 captain_272_23 + 1.22653 captain_272_24
+OBJ: 3.64094 captain_101_23 + 3.77572 captain_101_24 + 6.64144 captain_101_25
+ + 3.39433 captain_101_26 + 3.01298 captain_105_23 + 3.13031 captain_105_24
+ + 6.10903 captain_105_25 + 3.21827 captain_105_26 + 3.13939 captain_106_23
+ + 3.32605 captain_106_24 + 6.36551 captain_106_25 + 3.33456 captain_106_26
+ + 2.8857 captain_107_23 + 2.95269 captain_107_24 + 5.58335 captain_107_25
+ + 2.93064 captain_107_26 + 2.46065 captain_109_23 + 3.49399 captain_109_24
+ + 5.32629 captain_109_25 + 3.03201 captain_109_26 + 1.69429 captain_10_23
+ + 1.88022 captain_10_24 + 2.50792 captain_10_25 + 2.35115 captain_10_26
+ + 3.25634 captain_110_23 + 3.50671 captain_110_24 + 6.80086 captain_110_25
+ + 3.60512 captain_110_26 + 1.82794 captain_111_23 + 1.93636 captain_111_24
+ + 3.76407 captain_111_25 + 1.95977 captain_111_26 + 2.65791 captain_112_23
+ + 3.82937 captain_112_24 + 6.05184 captain_112_25 + 3.4319 captain_112_26
+ + 3.66111 captain_113_23 + 3.56348 captain_113_24 + 3.93035 captain_113_25
+ + 3.65101 captain_113_26 + 1.7802 captain_114_23 + 2.44268 captain_114_24
+ + 3.96653 captain_114_25 + 2.2215 captain_114_26 + 3.08208 captain_116_23
+ + 3.19043 captain_116_24 + 5.64928 captain_116_25 + 2.88382 captain_116_26
+ + 5.03029 captain_117_23 + 5.56595 captain_117_24 + 10.45685 captain_117_25
+ + 5.67033 captain_117_26 + 3.54 captain_119_23 + 3.85054 captain_119_24
+ + 7.27221 captain_119_25 + 3.90777 captain_119_26 + 1.2585 captain_120_23
+ + 1.3895 captain_120_24 + 2.8402 captain_120_25 + 1.49399 captain_120_26
+ + 1.71716 captain_121_23 + 2.41581 captain_121_24 + 3.66823 captain_121_25
+ + 2.06001 captain_121_26 + 2.94162 captain_122_23 + 2.83554 captain_122_24
+ + 2.97959 captain_122_25 + 3.05822 captain_122_26 + 1.85552 captain_125_23
+ + 1.82157 captain_125_24 + 1.94108 captain_125_25 + 2.01905 captain_125_26
+ + 2.85394 captain_126_23 + 2.75759 captain_126_24 + 2.63786 captain_126_25
+ + 2.15607 captain_128_23 + 2.08181 captain_128_24 + 2.18265 captain_128_25
+ + 2.2377 captain_128_26 + 3.5094 captain_129_23 + 2.66421 captain_129_24
+ + 3.13631 captain_129_25 + 3.72906 captain_129_26 + 4.28294 captain_12_23
+ + 4.33221 captain_12_24 + 4.42101 captain_12_25 + 4.79182 captain_12_26
+ + 2.05215 captain_130_25 + 2.11653 captain_130_26 + 2.86894 captain_131_23
+ + 2.17977 captain_131_24 + 2.60736 captain_131_25 + 3.13165 captain_131_26
+ + 2.54915 captain_132_23 + 2.78114 captain_132_24 + 2.82654 captain_132_25
+ + 2.889 captain_132_26 + 2.56239 captain_133_23 + 2.5441 captain_133_24
+ + 2.72402 captain_133_25 + 2.83965 captain_133_26 + 4.96508 captain_134_23
+ + 4.74079 captain_134_24 + 5.03266 captain_134_25 + 5.20068 captain_134_26
+ + 3.85876 captain_135_23 + 3.96655 captain_135_24 + 3.94316 captain_135_25
+ + 3.95946 captain_135_26 + 1.62584 captain_138_23 + 1.61553 captain_138_24
+ + 1.69549 captain_138_25 + 1.74754 captain_138_26 + 1.53765 captain_139_23
+ + 1.09286 captain_139_24 + 1.34448 captain_139_25 + 1.66016 captain_139_26
+ + 2.55956 captain_13_23 + 2.7118 captain_13_24 + 2.62828 captain_13_25
+ + 2.97009 captain_13_26 + 3.15357 captain_141_23 + 3.02911 captain_141_24
+ + 3.0443 captain_141_25 + 3.18427 captain_141_26 + 1.99404 captain_142_23
+ + 1.88664 captain_142_24 + 1.93901 captain_142_25 + 2.01765 captain_142_26
+ + 3.93556 captain_143_23 + 3.76859 captain_143_24 + 3.99531 captain_143_25
+ + 4.11907 captain_143_26 + 1.25855 captain_144_23 + 1.24415 captain_144_24
+ + 1.29944 captain_144_25 + 1.34786 captain_144_26 + 3.44958 captain_145_23
+ + 3.53932 captain_145_24 + 3.0364 captain_145_25 + 3.63066 captain_148_23
+ + 3.48195 captain_148_24 + 3.5001 captain_148_25 + 3.66736 captain_148_26
+ + 5.32708 captain_14_23 + 5.34403 captain_14_24 + 5.45931 captain_14_25
+ + 5.92314 captain_14_26 + 2.97796 captain_150_23 + 2.29067 captain_150_24
+ + 2.6212 captain_150_25 + 3.03903 captain_150_26 + 2.19326 captain_151_24
+ + 2.52605 captain_151_25 + 2.95789 captain_151_26 + 3.59083 captain_152_23
+ + 3.44076 captain_152_24 + 3.45908 captain_152_25 + 3.62785 captain_152_26
+ + 2.60141 captain_153_23 + 1.97403 captain_153_24 + 2.31673 captain_153_25
+ + 2.74173 captain_153_26 + 2.68448 captain_154_23 + 2.84254 captain_154_24
+ + 2.84496 captain_154_25 + 2.86151 captain_154_26 + 1.27703 captain_156_23
+ + 1.14376 captain_156_24 + 1.18383 captain_156_25 + 1.18015 captain_156_26
+ + 2.97195 captain_157_23 + 1.90097 captain_157_24 + 2.40456 captain_157_25
+ + 2.61259 captain_157_26 + 2.31096 captain_159_23 + 2.00162 captain_159_24
+ + 2.09462 captain_159_25 + 2.0861 captain_159_26 + 2.19646 captain_15_23
+ + 2.18668 captain_15_24 + 2.20723 captain_15_25 + 2.35484 captain_15_26
+ + 2.76685 captain_160_23 + 1.66127 captain_160_24 + 2.34706 captain_160_25
+ + 2.66757 captain_160_26 + 3.3383 captain_161_23 + 2.9384 captain_161_24
+ + 3.10468 captain_161_25 + 3.11401 captain_161_26 + 1.78842 captain_163_23
+ + 1.59259 captain_163_24 + 1.69259 captain_163_25 + 1.71794 captain_163_26
+ + 2.38713 captain_165_23 + 2.08837 captain_165_24 + 2.1943 captain_165_25
+ + 2.19811 captain_165_26 + 1.73982 captain_166_23 + 0.96234 captain_166_24
+ + 1.41344 captain_166_25 + 1.63392 captain_166_26 + 1.87528 captain_167_23
+ + 1.06963 captain_167_24 + 1.56257 captain_167_25 + 1.81174 captain_167_26
+ + 3.07996 captain_168_23 + 2.43485 captain_168_24 + 2.53053 captain_168_25
+ + 2.58968 captain_168_26 + 3.34501 captain_169_23 + 3.12959 captain_169_24
+ + 2.85201 captain_169_25 + 3.04851 captain_169_26 + 2.83491 captain_170_23
+ + 2.4598 captain_170_24 + 2.60543 captain_170_25 + 2.60256 captain_170_26
+ + 3.64403 captain_172_23 + 3.39576 captain_172_24 + 3.07584 captain_172_25
+ + 3.3023 captain_172_26 + 2.97104 captain_173_23 + 1.96052 captain_173_24
+ + 2.62429 captain_173_25 + 2.95798 captain_173_26 + 2.05452 captain_176_23
+ + 1.25397 captain_176_24 + 1.84845 captain_176_25 + 2.15482 captain_176_26
+ + 3.39274 captain_177_23 + 2.61882 captain_177_24 + 2.6853 captain_177_25
+ + 2.71659 captain_177_26 + 2.67985 captain_178_23 + 1.68338 captain_178_24
+ + 2.31119 captain_178_25 + 2.60417 captain_178_26 + 3.34887 captain_17_23
+ + 3.26737 captain_17_24 + 3.57361 captain_17_25 + 3.34044 captain_17_26
+ + 3.34501 captain_181_23 + 3.12959 captain_181_24 + 2.85201 captain_181_25
+ + 3.04851 captain_181_26 + 3.11927 captain_182_23 + 2.08315 captain_182_24
+ + 2.77038 captain_182_25 + 3.10749 captain_182_26 + 1.73523 captain_184_23
+ + 1.52748 captain_184_24 + 1.6191 captain_184_25 + 1.63517 captain_184_26
+ + 1.24455 captain_186_23 + 1.18808 captain_186_24 + 1.12945 captain_186_25
+ + 2.7909 captain_191_23 + 2.79311 captain_191_24 + 1.95296 captain_191_25
+ + 2.90323 captain_192_23 + 2.9704 captain_192_24 + 2.59391 captain_192_25
+ + 2.21125 captain_193_23 + 2.06372 captain_193_24 + 2.0459 captain_193_25
+ + 2.01624 captain_194_23 + 1.98216 captain_194_24 + 1.31624 captain_194_25
+ + 2.21634 captain_195_23 + 2.23746 captain_195_24 + 1.41269 captain_195_25
+ + 0.98425 captain_196_23 + 0.97039 captain_196_24 + 0.95443 captain_196_25
+ + 3.95436 captain_199_23 + 3.71296 captain_199_24 + 3.45995 captain_199_25
+ + 5.7912 captain_19_23 + 5.74168 captain_19_24 + 5.80063 captain_19_25
+ + 6.30493 captain_19_26 + 1.58813 captain_1_23 + 1.49612 captain_1_24
+ + 1.57128 captain_1_25 + 1.55681 captain_1_26 + 1.5859 captain_200_23
+ + 1.17707 captain_200_24 + 1.22211 captain_200_25 + 1.24814 captain_200_26
+ + 3.18917 captain_202_23 + 2.99349 captain_202_24 + 2.81304 captain_202_25
+ + 2.3657 captain_203_23 + 2.32661 captain_203_24 + 1.53797 captain_203_25
+ + 2.14672 captain_204_23 + 2.07942 captain_204_24 + 2.06773 captain_204_25
+ + 1.49654 captain_204_26 + 2.02295 captain_205_23 + 2.16769 captain_205_24
+ + 2.16342 captain_205_25 + 2.04925 captain_205_26 + 3.39528 captain_207_23
+ + 3.18595 captain_207_24 + 2.93575 captain_207_25 + 2.17269 captain_208_23
+ + 2.06259 captain_208_24 + 1.9768 captain_208_25 + 2.30148 captain_209_23
+ + 2.14181 captain_209_24 + 2.2675 captain_209_25 + 2.40751 captain_209_26
+ + 3.19974 captain_20_23 + 3.38571 captain_20_24 + 4.28579 captain_20_25
+ + 3.89923 captain_20_26 + 3.19429 captain_210_23 + 2.93502 captain_210_24
+ + 2.71699 captain_210_25 + 4.36332 captain_211_23 + 3.97303 captain_211_24
+ + 3.90011 captain_211_25 + 2.85831 captain_212_23 + 2.65268 captain_212_24
+ + 2.64777 captain_212_25 + 2.52837 captain_214_23 + 2.48817 captain_214_24
+ + 1.70273 captain_214_25 + 4.3953 captain_216_23 + 4.09348 captain_216_24
+ + 3.77854 captain_216_25 + 3.04271 captain_217_23 + 3.12013 captain_217_24
+ + 2.29839 captain_217_25 + 1.04745 captain_219_23 + 1.08341 captain_219_24
+ + 1.08722 captain_219_25 + 1.14159 captain_219_26 + 2.25375 captain_21_23
+ + 2.46411 captain_21_24 + 2.46226 captain_21_25 + 2.69046 captain_220_23
+ + 2.88841 captain_220_24 + 3.07181 captain_220_25 + 3.87707 captain_220_26
+ + 3.21828 captain_221_23 + 3.37136 captain_221_24 + 3.32403 captain_221_25
+ + 3.55838 captain_221_26 + 2.13504 captain_222_23 + 2.25608 captain_222_24
+ + 2.36365 captain_222_25 + 2.87462 captain_222_26 + 1.16421 captain_224_23
+ + 1.19041 captain_224_24 + 1.17213 captain_224_25 + 1.2238 captain_224_26
+ + 2.9275 captain_225_23 + 2.88818 captain_225_24 + 3.2774 captain_225_25
+ + 3.37287 captain_225_26 + 4.49016 captain_226_23 + 4.57425 captain_226_24
+ + 4.36723 captain_226_25 + 4.61881 captain_226_26 + 2.82469 captain_228_23
+ + 3.03356 captain_228_24 + 3.22598 captain_228_25 + 4.03135 captain_228_26
+ + 2.1059 captain_229_23 + 2.21276 captain_229_24 + 2.22323 captain_229_25
+ + 2.35571 captain_229_26 + 2.32424 captain_22_23 + 2.36368 captain_22_24
+ + 2.40905 captain_22_25 + 2.59827 captain_22_26 + 3.50262 captain_230_23
+ + 3.49418 captain_230_24 + 3.69852 captain_230_25 + 3.41049 captain_230_26
+ + 3.19258 captain_231_23 + 3.39271 captain_231_24 + 3.38086 captain_231_25
+ + 3.6465 captain_231_26 + 2.41987 captain_232_23 + 2.39334 captain_232_24
+ + 2.70547 captain_232_25 + 2.77113 captain_232_26 + 3.09218 captain_233_23
+ + 3.08478 captain_233_24 + 3.26372 captain_233_25 + 3.0115 captain_233_26
+ + 2.50449 captain_234_23 + 2.68434 captain_234_24 + 2.84941 captain_234_25
+ + 3.5662 captain_234_26 + 4.64596 captain_236_23 + 4.67711 captain_236_24
+ + 4.45976 captain_236_25 + 4.75857 captain_236_26 + 1.83354 captain_238_23
+ + 1.96385 captain_238_24 + 2.08083 captain_238_25 + 2.58092 captain_238_26
+ + 1.40682 captain_239_23 + 1.4366 captain_239_24 + 1.41582 captain_239_25
+ + 1.47454 captain_239_26 + 1.5487 captain_23_23 + 1.54556 captain_23_24
+ + 1.63598 captain_23_25 + 1.32426 captain_23_26 + 2.75305 captain_240_23
+ + 2.97892 captain_240_24 + 3.01203 captain_240_25 + 3.24799 captain_240_26
+ + 1.08264 captain_241_23 + 1.14927 captain_241_24 + 1.22315 captain_241_25
+ + 1.6068 captain_241_26 + 2.42418 captain_242_23 + 2.5002 captain_242_24
+ + 2.58885 captain_242_25 + 3.21626 captain_242_26 + 3.10097 captain_243_23
+ + 3.09352 captain_243_24 + 3.27384 captain_243_25 + 3.01967 captain_243_26
+ + 2.22724 captain_245_23 + 1.81797 captain_245_24 + 2.80477 captain_245_25
+ + 2.24614 captain_245_26 + 3.86868 captain_246_23 + 3.5504 captain_246_24
+ + 3.87363 captain_246_25 + 3.90528 captain_246_26 + 1.96498 captain_247_23
+ + 1.57819 captain_247_24 + 2.44148 captain_247_25 + 1.9326 captain_247_26
+ + 3.34786 captain_250_23 + 3.07104 captain_250_24 + 3.53555 captain_250_25
+ + 3.43606 captain_250_26 + 2.35579 captain_252_23 + 1.79292 captain_252_24
+ + 2.73368 captain_252_25 + 2.06327 captain_252_26 + 2.46059 captain_254_23
+ + 2.23041 captain_254_24 + 2.4924 captain_254_25 + 2.4072 captain_254_26
+ + 3.70665 captain_256_23 + 4.10343 captain_256_24 + 3.75786 captain_256_25
+ + 3.76825 captain_256_26 + 2.21873 captain_257_23 + 1.787 captain_257_24
+ + 2.72975 captain_257_25 + 2.14406 captain_257_26 + 2.83864 captain_258_23
+ + 3.16858 captain_258_24 + 6.07186 captain_258_25 + 3.30008 captain_258_26
+ + 3.65852 captain_259_23 + 3.34382 captain_259_24 + 3.94318 captain_259_25
+ + 3.86136 captain_259_26 + 1.64979 captain_25_23 + 1.74761 captain_25_24
+ + 2.25474 captain_25_25 + 2.03663 captain_25_26 + 2.59194 captain_260_23
+ + 2.15411 captain_260_24 + 3.1905 captain_260_25 + 2.59532 captain_260_26
+ + 3.04839 captain_261_23 + 2.79956 captain_261_24 + 3.18829 captain_261_25
+ + 3.09293 captain_261_26 + 1.87213 captain_262_23 + 1.50984 captain_262_24
+ + 2.41224 captain_262_25 + 1.90494 captain_262_26 + 3.52295 captain_263_23
+ + 3.16979 captain_263_24 + 3.78544 captain_263_25 + 3.74096 captain_263_26
+ + 3.09577 captain_265_23 + 2.51337 captain_265_24 + 3.77374 captain_265_25
+ + 3.00957 captain_265_26 + 2.94406 captain_266_23 + 2.66219 captain_266_24
+ + 3.15357 captain_266_25 + 3.11807 captain_266_26 + 3.43925 captain_267_23
+ + 3.84665 captain_267_24 + 3.54675 captain_267_25 + 3.5741 captain_267_26
+ + 2.63157 captain_268_23 + 2.77782 captain_268_24 + 2.51971 captain_268_25
+ + 2.47646 captain_268_26 + 3.53107 captain_26_23 + 3.50355 captain_26_24
+ + 3.56824 captain_26_25 + 3.82211 captain_26_26 + 3.0027 captain_270_23
+ + 3.23246 captain_270_24 + 2.92735 captain_270_25 + 2.93019 captain_270_26
+ + 2.59407 captain_271_23 + 2.57787 captain_271_24 + 2.42514 captain_271_25
+ + 2.24804 captain_271_26 + 1.1551 captain_272_23 + 1.22653 captain_272_24
  + 1.14971 captain_272_25 + 1.15187 captain_272_26 + 1.39897 captain_273_23
  + 1.50092 captain_273_24 + 1.40711 captain_273_25 + 1.38779 captain_273_26
  + 2.0795 captain_274_23 + 2.05894 captain_274_24 + 1.74659 captain_274_25
- + 1.43896 captain_274_26 + 3.82951 captain_275_23 + 3.77794 captain_275_24
- + 3.74046 captain_275_25 + 3.91018 captain_275_26 + 1.53893 captain_276_23
- + 1.68216 captain_276_24 + 1.59766 captain_276_25 + 1.62217 captain_276_26
+ + 1.43896 captain_274_26 + 3.82057 captain_275_23 + 3.76936 captain_275_24
+ + 3.73215 captain_275_25 + 3.90067 captain_275_26 + 1.52333 captain_276_23
+ + 1.66583 captain_276_24 + 1.58212 captain_276_25 + 1.60661 captain_276_26
  + 2.10765 captain_277_23 + 2.08709 captain_277_24 + 1.77474 captain_277_25
- + 1.46712 captain_277_26 + 1.69448 captain_279_23 + 1.70203 captain_279_24
- + 1.74294 captain_279_25 + 1.69161 captain_279_26 + 2.36673 captain_27_23
- + 2.27629 captain_27_24 + 2.24994 captain_27_25 + 2.56912 captain_27_26
- + 2.89285 captain_280_23 + 3.19622 captain_280_24 + 2.96797 captain_280_25
- + 2.99395 captain_280_26 + 2.86435 captain_281_23 + 2.77901 captain_281_24
- + 2.54866 captain_281_25 + 2.3236 captain_281_26 + 2.37872 captain_282_23
- + 2.58144 captain_282_24 + 2.43572 captain_282_25 + 2.44081 captain_282_26
- + 3.37184 captain_283_23 + 3.31718 captain_283_24 + 3.07685 captain_283_25
- + 2.82618 captain_283_26 + 3.0963 captain_284_23 + 3.05805 captain_284_24
- + 3.03025 captain_284_25 + 3.15613 captain_284_26 + 2.76736 captain_285_23
- + 2.71672 captain_285_24 + 2.50432 captain_285_25 + 2.29725 captain_285_26
- + 2.96879 captain_286_23 + 2.93502 captain_286_24 + 2.72134 captain_286_25
- + 2.49761 captain_286_26 + 2.04854 captain_287_23 + 2.06312 captain_287_24
- + 2.09742 captain_287_25 + 2.01573 captain_287_26 + 2.40209 captain_288_23
- + 2.67739 captain_288_24 + 2.50514 captain_288_25 + 2.52446 captain_288_26
- + 2.97973 captain_289_23 + 3.05737 captain_289_24 + 2.94966 captain_289_25
- + 3.02657 captain_289_26 + 3.46363 captain_28_23 + 3.25059 captain_28_24
- + 3.65498 captain_28_25 + 3.2372 captain_28_26 + 3.54107 captain_290_23
- + 5.7126 captain_290_24 + 4.41359 captain_290_25 + 5.75177 captain_290_26
- + 3.72063 captain_291_23 + 3.82906 captain_291_24 + 3.67864 captain_291_25
- + 3.78604 captain_291_26 + 1.60973 captain_292_25 + 1.603 captain_292_26
- + 3.93589 captain_293_23 + 4.7319 captain_293_24 + 3.98164 captain_293_25
- + 5.0163 captain_293_26 + 2.93613 captain_294_23 + 3.42149 captain_294_24
- + 3.25903 captain_294_25 + 3.24221 captain_294_26 + 2.01985 captain_295_23
- + 2.23523 captain_295_24 + 2.15677 captain_295_25 + 2.14816 captain_295_26
- + 2.83925 captain_297_23 + 3.47224 captain_297_24 + 3.05485 captain_297_25
- + 3.84289 captain_297_26 + 1.96995 captain_298_23 + 2.98716 captain_298_24
- + 2.42194 captain_298_25 + 3.02765 captain_298_26 + 3.2419 captain_29_23
- + 3.40049 captain_29_24 + 4.30616 captain_29_25 + 3.97093 captain_29_26
- + 1.33646 captain_2_23 + 1.39215 captain_2_24 + 1.78422 captain_2_25
- + 1.63859 captain_2_26 + 2.69597 captain_300_23 + 2.92552 captain_300_24
- + 2.69418 captain_300_25 + 2.68764 captain_300_26 + 3.0279 captain_301_23
- + 3.10592 captain_301_24 + 2.99769 captain_301_25 + 3.07496 captain_301_26
- + 2.25658 captain_302_23 + 3.41664 captain_302_24 + 2.75685 captain_302_25
- + 3.46233 captain_302_26 + 3.29375 captain_303_23 + 3.8508 captain_303_24
- + 3.73558 captain_303_25 + 3.74909 captain_303_26 + 3.26673 captain_304_23
- + 3.84825 captain_304_24 + 3.7493 captain_304_25 + 3.76173 captain_304_26
- + 2.33128 captain_307_23 + 3.65951 captain_307_24 + 2.88559 captain_307_25
- + 3.69332 captain_307_26 + 7.02573 captain_308_23 + 8.05781 captain_308_24
- + 7.45938 captain_308_25 + 7.4159 captain_308_26 + 3.77509 captain_309_23
- + 4.34136 captain_309_24 + 4.1777 captain_309_25 + 4.15896 captain_309_26
- + 1.58358 captain_310_25 + 1.57707 captain_310_26 + 1.97397 captain_311_23
- + 2.9721 captain_311_24 + 2.39052 captain_311_25 + 2.99752 captain_311_26
- + 2.77426 captain_313_23 + 4.33224 captain_313_24 + 3.51165 captain_313_25
- + 4.4477 captain_313_26 + 2.78155 captain_314_23 + 2.88079 captain_314_24
- + 2.71956 captain_314_25 + 2.46978 captain_314_26 + 1.23503 captain_315_23
- + 2.06705 captain_315_24 + 1.7163 captain_315_25 + 1.1039 captain_315_26
- + 1.881 captain_316_23 + 2.86843 captain_316_24 + 2.48801 captain_316_25
- + 1.79475 captain_316_26 + 1.62234 captain_317_23 + 1.77391 captain_317_24
- + 1.80811 captain_317_25 + 1.67103 captain_317_26 + 1.46997 captain_318_23
- + 2.36082 captain_318_24 + 1.97249 captain_318_25 + 1.29447 captain_318_26
- + 2.26571 captain_319_23 + 2.33293 captain_319_24 + 2.45915 captain_319_25
- + 2.21585 captain_319_26 + 3.25945 captain_31_23 + 3.40984 captain_31_24
- + 4.31938 captain_31_25 + 3.97289 captain_31_26 + 1.63294 captain_320_23
- + 1.74778 captain_320_24 + 1.75241 captain_320_25 + 1.59619 captain_320_26
- + 2.5576 captain_321_23 + 3.90421 captain_321_24 + 3.25755 captain_321_25
- + 2.2301 captain_321_26 + 3.08533 captain_326_23 + 3.2799 captain_326_24
- + 3.14705 captain_326_25 + 2.85512 captain_326_26 + 1.4086 captain_327_23
- + 1.49272 captain_327_24 + 1.57759 captain_327_25 + 1.43172 captain_327_26
- + 3.04269 captain_328_23 + 3.15983 captain_328_24 + 2.97106 captain_328_25
- + 2.64549 captain_328_26 + 2.82932 captain_32_23 + 3.04811 captain_32_24
- + 2.97351 captain_32_25 + 3.34973 captain_32_26 + 2.02212 captain_330_23
- + 3.08951 captain_330_24 + 2.65793 captain_330_25 + 1.88263 captain_330_26
- + 1.38802 captain_332_23 + 1.41939 captain_332_24 + 1.47828 captain_332_25
- + 1.36475 captain_332_26 + 0.95732 captain_333_23 + 1.72063 captain_333_24
- + 1.3879 captain_333_25 + 0.80695 captain_333_26 + 3.11661 captain_335_23
- + 3.41494 captain_335_24 + 3.46526 captain_335_25 + 3.34989 captain_335_26
- + 1.38806 captain_339_23 + 1.41943 captain_339_24 + 1.47835 captain_339_25
- + 1.36478 captain_339_26 + 2.82264 captain_33_23 + 2.85442 captain_33_24
- + 2.89436 captain_33_25 + 2.93794 captain_33_26 + 1.42095 captain_340_23
- + 1.50664 captain_340_24 + 1.45333 captain_340_25 + 1.31026 captain_340_26
- + 3.25065 captain_341_23 + 4.00189 captain_341_24 + 6.71338 captain_341_25
- + 3.56796 captain_341_26 + 3.63083 captain_342_23 + 4.45931 captain_342_24
- + 7.43642 captain_342_25 + 3.96789 captain_342_26 + 4.49769 captain_343_23
- + 4.75813 captain_343_24 + 8.56772 captain_343_25 + 4.41588 captain_343_26
- + 3.87163 captain_344_23 + 4.02982 captain_344_24 + 7.78557 captain_344_25
- + 3.86789 captain_344_26 + 1.76044 captain_345_23 + 1.77963 captain_345_24
- + 3.35302 captain_345_25 + 1.64658 captain_345_26 + 3.5228 captain_346_23
- + 4.47254 captain_346_24 + 7.23065 captain_346_25 + 3.49178 captain_346_26
- + 2.95945 captain_347_23 + 3.2405 captain_347_24 + 6.06323 captain_347_25
- + 3.11795 captain_347_26 + 3.7693 captain_349_23 + 3.97212 captain_349_24
- + 7.68857 captain_349_25 + 3.82673 captain_349_26 + 3.04663 captain_34_23
- + 3.13241 captain_34_24 + 3.01483 captain_34_25 + 3.26213 captain_34_26
- + 3.17726 captain_350_23 + 3.92067 captain_350_24 + 6.78107 captain_350_25
- + 3.59465 captain_350_26 + 1.59726 captain_351_23 + 1.71204 captain_351_24
- + 1.66989 captain_351_25 + 1.74604 captain_351_26 + 3.64698 captain_352_23
- + 4.03887 captain_352_24 + 7.49521 captain_352_25 + 3.86798 captain_352_26
- + 4.84801 captain_353_23 + 4.98004 captain_353_24 + 9.46766 captain_353_25
- + 4.70544 captain_353_26 + 3.72823 captain_354_23 + 3.98796 captain_354_24
- + 7.78805 captain_354_25 + 3.86938 captain_354_26 + 5.88965 captain_355_23
- + 6.54324 captain_355_24 + 11.89958 captain_355_25 + 6.18785 captain_355_26
- + 2.57555 captain_356_23 + 2.71286 captain_356_24 + 5.297 captain_356_25
- + 2.63784 captain_356_26 + 2.26316 captain_358_23 + 2.81011 captain_358_24
- + 4.80205 captain_358_25 + 2.54822 captain_358_26 + 2.67149 captain_35_23
- + 2.70947 captain_35_24 + 2.5809 captain_35_25 + 2.76977 captain_35_26
- + 2.49085 captain_360_23 + 2.56323 captain_360_24 + 2.52676 captain_360_25
- + 2.47641 captain_360_26 + 3.01598 captain_361_23 + 3.30112 captain_361_24
- + 6.1784 captain_361_25 + 3.17678 captain_361_26 + 5.51508 captain_362_23
- + 4.95016 captain_362_24 + 4.33551 captain_362_25 + 4.92679 captain_362_26
- + 1.58612 captain_364_23 + 1.63267 captain_364_24 + 3.18966 captain_364_25
- + 1.58846 captain_364_26 + 4.06006 captain_365_23 + 4.26797 captain_365_24
- + 8.29275 captain_365_25 + 4.13008 captain_365_26 + 1.45724 captain_366_23
- + 1.78617 captain_366_24 + 2.98137 captain_366_25 + 1.58682 captain_366_26
- + 2.95945 captain_367_23 + 3.2405 captain_367_24 + 6.06323 captain_367_25
- + 3.11795 captain_367_26 + 3.74177 captain_369_23 + 4.47552 captain_369_24
- + 7.48581 captain_369_25 + 3.94742 captain_369_26 + 3.1376 captain_36_23
- + 3.39087 captain_36_24 + 3.31622 captain_36_25 + 3.80298 captain_36_26
- + 1.12935 captain_371_23 + 1.06748 captain_371_24 + 1.1435 captain_371_25
- + 1.19147 captain_371_26 + 2.88195 captain_372_23 + 2.74809 captain_372_24
- + 3.06843 captain_372_25 + 3.28483 captain_372_26 + 5.51155 captain_373_23
- + 5.06402 captain_373_24 + 5.71706 captain_373_25 + 6.16352 captain_373_26
- + 3.02109 captain_376_23 + 2.74392 captain_376_24 + 2.99976 captain_376_25
- + 3.1852 captain_376_26 + 3.33255 captain_377_23 + 2.70866 captain_377_24
- + 2.94901 captain_377_25 + 3.51291 captain_377_26 + 3.4006 captain_378_23
- + 3.50889 captain_378_24 + 3.40849 captain_378_25 + 3.12934 captain_378_26
- + 3.14946 captain_379_23 + 2.89749 captain_379_24 + 3.16086 captain_379_25
- + 3.3726 captain_379_26 + 1.48243 captain_37_23 + 1.59242 captain_37_24
- + 1.54817 captain_37_25 + 1.76798 captain_37_26 + 1.97349 captain_380_23
- + 1.50089 captain_380_24 + 1.50445 captain_380_25 + 1.9227 captain_380_26
- + 3.23869 captain_382_23 + 2.95565 captain_382_24 + 3.23458 captain_382_25
- + 3.4356 captain_382_26 + 3.22616 captain_384_23 + 2.8571 captain_384_24
- + 3.03546 captain_384_25 + 3.29067 captain_384_26 + 3.15322 captain_385_23
- + 3.14974 captain_385_24 + 3.33274 captain_385_25 + 3.09079 captain_385_26
- + 2.76917 captain_386_23 + 2.26179 captain_386_24 + 2.44475 captain_386_25
- + 2.89536 captain_386_26 + 2.70904 captain_387_23 + 2.20871 captain_387_24
- + 2.38913 captain_387_25 + 2.83348 captain_387_26 + 1.86106 captain_388_23
- + 1.78383 captain_388_24 + 1.92362 captain_388_25 + 2.00961 captain_388_26
- + 1.75771 captain_389_23 + 1.37278 captain_389_24 + 1.51159 captain_389_25
- + 1.85344 captain_389_26 + 2.55815 captain_38_23 + 2.63649 captain_38_24
- + 2.59192 captain_38_25 + 2.72911 captain_38_26 + 2.46339 captain_390_23
- + 2.31144 captain_390_24 + 2.38533 captain_390_25 + 2.73849 captain_390_26
- + 1.89044 captain_391_23 + 1.52445 captain_391_24 + 1.69245 captain_391_25
- + 2.06746 captain_391_26 + 3.17226 captain_392_23 + 2.97696 captain_392_24
- + 3.2666 captain_392_25 + 3.4525 captain_392_26 + 1.84567 captain_393_23
- + 2.80987 captain_393_24 + 2.42042 captain_393_25 + 1.72854 captain_393_26
- + 1.45985 captain_394_23 + 1.37593 captain_394_24 + 1.45339 captain_394_25
- + 1.50955 captain_394_26 + 2.69972 captain_395_23 + 2.22557 captain_395_24
- + 2.43652 captain_395_25 + 2.90105 captain_395_26 + 4.53796 captain_396_23
- + 4.17245 captain_396_24 + 4.64758 captain_396_25 + 4.97587 captain_396_26
- + 2.76499 captain_398_23 + 2.19891 captain_398_24 + 2.40305 captain_398_25
- + 2.90578 captain_398_26 + 1.39761 captain_399_23 + 1.30999 captain_399_24
- + 1.3526 captain_399_25 + 1.55622 captain_399_26 + 2.24149 captain_39_23
+ + 1.46712 captain_277_26 + 1.68327 captain_279_23 + 1.69936 captain_279_24
+ + 1.74954 captain_279_25 + 1.70541 captain_279_26 + 2.28771 captain_27_23
+ + 2.17417 captain_27_24 + 2.2024 captain_27_25 + 2.54121 captain_27_26
+ + 2.9257 captain_280_23 + 3.23324 captain_280_24 + 2.99555 captain_280_25
+ + 3.01934 captain_280_26 + 2.67192 captain_281_23 + 2.62516 captain_281_24
+ + 2.43562 captain_281_25 + 2.25129 captain_281_26 + 2.35491 captain_282_23
+ + 2.5562 captain_282_24 + 2.41201 captain_282_25 + 2.41706 captain_282_26
+ + 3.25126 captain_283_23 + 3.22638 captain_283_24 + 3.01686 captain_283_25
+ + 2.79698 captain_283_26 + 3.0963 captain_284_23 + 3.05805 captain_284_24
+ + 3.03025 captain_284_25 + 3.15613 captain_284_26 + 2.74437 captain_285_23
+ + 2.69415 captain_285_24 + 2.48287 captain_285_25 + 2.2769 captain_285_26
+ + 2.87147 captain_286_23 + 2.86599 captain_286_24 + 2.6819 captain_286_25
+ + 2.48772 captain_286_26 + 2.03119 captain_287_23 + 2.0458 captain_287_24
+ + 2.07992 captain_287_25 + 1.99866 captain_287_26 + 2.45608 captain_288_25
+ + 2.47529 captain_288_26 + 2.97973 captain_289_23 + 3.03599 captain_289_24
+ + 2.94966 captain_289_25 + 3.46557 captain_28_23 + 3.24023 captain_28_24
+ + 3.65626 captain_28_25 + 3.24725 captain_28_26 + 3.27128 captain_290_23
+ + 5.34596 captain_290_24 + 4.2185 captain_290_25 + 3.71883 captain_291_23
+ + 3.79721 captain_291_24 + 3.67693 captain_291_25 + 1.60973 captain_292_25
+ + 4.15456 captain_293_23 + 5.02588 captain_293_24 + 4.14016 captain_293_25
+ + 3.06181 captain_294_23 + 3.56512 captain_294_24 + 3.3829 captain_294_25
+ + 1.89355 captain_295_23 + 2.13442 captain_295_24 + 2.0787 captain_295_25
+ + 2.6804 captain_297_23 + 3.37293 captain_297_24 + 2.93887 captain_297_25
+ + 2.10004 captain_298_23 + 3.0983 captain_298_24 + 2.5389 captain_298_25
+ + 3.24862 captain_29_23 + 3.41234 captain_29_24 + 4.32887 captain_29_25
+ + 3.91936 captain_29_26 + 1.33646 captain_2_23 + 1.39215 captain_2_24
+ + 1.78422 captain_2_25 + 1.60498 captain_2_26 + 2.68602 captain_300_23
+ + 2.93727 captain_300_24 + 2.71347 captain_300_25 + 3.01763 captain_301_23
+ + 3.07397 captain_301_24 + 2.98752 captain_301_25 + 2.25107 captain_302_23
+ + 3.3775 captain_302_24 + 2.75687 captain_302_25 + 3.43088 captain_303_23
+ + 4.00276 captain_303_24 + 3.86041 captain_303_25 + 3.19926 captain_304_23
+ + 3.80848 captain_304_24 + 3.71993 captain_304_25 + 2.19392 captain_307_23
+ + 3.47287 captain_307_24 + 2.7925 captain_307_25 + 7.92524 captain_308_24
+ + 7.31161 captain_308_25 + 3.81034 captain_309_23 + 4.39689 captain_309_24
+ + 4.22208 captain_309_25 + 1.58358 captain_310_25 + 1.9371 captain_311_23
+ + 2.88287 captain_311_24 + 2.34935 captain_311_25 + 2.76866 captain_313_23
+ + 4.26823 captain_313_24 + 3.51396 captain_313_25 + 3.21717 captain_314_23
+ + 3.24959 captain_314_24 + 3.05865 captain_314_25 + 1.21215 captain_315_23
+ + 2.00974 captain_315_24 + 1.6906 captain_315_25 + 1.87413 captain_316_23
+ + 2.84865 captain_316_24 + 2.50844 captain_316_25 + 1.48133 captain_317_23
+ + 1.66176 captain_317_24 + 1.70938 captain_317_25 + 1.51671 captain_318_23
+ + 2.40251 captain_318_24 + 2.04672 captain_318_25 + 2.26571 captain_319_23
+ + 2.33293 captain_319_24 + 2.45915 captain_319_25 + 3.65686 captain_31_23
+ + 3.7538 captain_31_24 + 4.66248 captain_31_25 + 4.14731 captain_31_26
+ + 1.81056 captain_320_23 + 1.94443 captain_320_24 + 1.92306 captain_320_25
+ + 2.50754 captain_321_23 + 3.81304 captain_321_24 + 3.23454 captain_321_25
+ + 3.22632 captain_326_23 + 3.37806 captain_326_24 + 3.26758 captain_326_25
+ + 1.4086 captain_327_23 + 1.49272 captain_327_24 + 1.57759 captain_327_25
+ + 3.61089 captain_328_23 + 3.6444 captain_328_24 + 3.4085 captain_328_25
+ + 2.44808 captain_32_23 + 2.72121 captain_32_24 + 2.73675 captain_32_25
+ + 3.13783 captain_32_26 + 2.01011 captain_330_23 + 3.05968 captain_330_24
+ + 2.67399 captain_330_25 + 1.38802 captain_332_23 + 1.41939 captain_332_24
+ + 1.47828 captain_332_25 + 0.94893 captain_333_23 + 1.68213 captain_333_24
+ + 1.37833 captain_333_25 + 3.10476 captain_335_23 + 3.39511 captain_335_24
+ + 3.45196 captain_335_25 + 1.38806 captain_339_23 + 1.41943 captain_339_24
+ + 1.47835 captain_339_25 + 2.64003 captain_33_23 + 2.68712 captain_33_24
+ + 2.81859 captain_33_25 + 2.83112 captain_33_26 + 1.3654 captain_340_23
+ + 1.44846 captain_340_24 + 1.42729 captain_340_25 + 3.22113 captain_341_23
+ + 3.90964 captain_341_24 + 6.76054 captain_341_25 + 3.53654 captain_341_26
+ + 3.42171 captain_342_23 + 4.2127 captain_342_24 + 7.35888 captain_342_25
+ + 3.93111 captain_342_26 + 4.78153 captain_343_23 + 4.98823 captain_343_24
+ + 9.06538 captain_343_25 + 4.55875 captain_343_26 + 3.83374 captain_344_23
+ + 4.03803 captain_344_24 + 7.74848 captain_344_25 + 3.82992 captain_344_26
+ + 1.74471 captain_345_23 + 1.77955 captain_345_24 + 3.33465 captain_345_25
+ + 1.63083 captain_345_26 + 3.5228 captain_346_23 + 4.47254 captain_346_24
+ + 7.23065 captain_346_25 + 3.49178 captain_346_26 + 2.94966 captain_347_23
+ + 3.18427 captain_347_24 + 6.04445 captain_347_25 + 3.10764 captain_347_26
+ + 3.83757 captain_349_23 + 4.10032 captain_349_24 + 7.87918 captain_349_25
+ + 3.90081 captain_349_26 + 3.00347 captain_34_23 + 3.10144 captain_34_24
+ + 2.98926 captain_34_25 + 3.25541 captain_34_26 + 3.14729 captain_350_23
+ + 3.8323 captain_350_24 + 6.82028 captain_350_25 + 3.56297 captain_350_26
+ + 1.59726 captain_351_23 + 1.72042 captain_351_24 + 1.66404 captain_351_25
+ + 1.7562 captain_351_26 + 3.63166 captain_352_23 + 3.95808 captain_352_24
+ + 7.46523 captain_352_25 + 3.85146 captain_352_26 + 4.73554 captain_353_23
+ + 4.95494 captain_353_24 + 9.42604 captain_353_25 + 4.69898 captain_353_26
+ + 3.40955 captain_354_23 + 3.76949 captain_354_24 + 7.46562 captain_354_25
+ + 3.77038 captain_354_26 + 5.52725 captain_355_23 + 6.17171 captain_355_24
+ + 11.62672 captain_355_25 + 6.048 captain_355_26 + 2.33861 captain_356_23
+ + 2.53556 captain_356_24 + 5.0327 captain_356_25 + 2.5523 captain_356_26
+ + 2.20513 captain_358_23 + 2.73586 captain_358_24 + 4.88761 captain_358_25
+ + 2.59124 captain_358_26 + 2.67149 captain_35_23 + 2.70947 captain_35_24
+ + 2.57642 captain_35_25 + 2.76977 captain_35_26 + 2.54155 captain_360_23
+ + 2.59883 captain_360_24 + 2.58003 captain_360_25 + 2.53759 captain_360_26
+ + 3.00563 captain_361_23 + 3.24363 captain_361_24 + 6.15848 captain_361_25
+ + 3.16589 captain_361_26 + 5.24727 captain_362_23 + 4.72187 captain_362_24
+ + 4.18032 captain_362_25 + 1.56548 captain_364_23 + 1.5438 captain_364_24
+ + 1.6114 captain_364_25 + 1.61191 captain_364_26 + 3.95872 captain_365_23
+ + 4.24354 captain_365_24 + 8.25932 captain_365_25 + 4.12961 captain_365_26
+ + 1.32183 captain_366_23 + 1.65349 captain_366_24 + 2.92611 captain_366_25
+ + 1.58406 captain_366_26 + 2.94966 captain_367_23 + 3.18427 captain_367_24
+ + 6.04445 captain_367_25 + 3.10764 captain_367_26 + 2.3507 captain_368_23
+ + 2.91434 captain_368_24 + 5.10434 captain_368_25 + 2.71338 captain_368_26
+ + 3.70859 captain_369_23 + 4.37682 captain_369_24 + 7.53013 captain_369_25
+ + 3.91221 captain_369_26 + 2.98718 captain_36_23 + 3.27072 captain_36_24
+ + 3.25024 captain_36_25 + 3.74522 captain_36_26 + 1.12935 captain_371_23
+ + 1.07525 captain_371_24 + 1.13541 captain_371_25 + 1.19147 captain_371_26
+ + 2.88195 captain_372_23 + 2.77601 captain_372_24 + 3.03939 captain_372_25
+ + 3.28483 captain_372_26 + 5.51155 captain_373_23 + 5.12877 captain_373_24
+ + 5.64971 captain_373_25 + 6.16352 captain_373_26 + 3.02109 captain_376_23
+ + 2.77396 captain_376_24 + 2.96851 captain_376_25 + 3.1852 captain_376_26
+ + 3.33255 captain_377_23 + 2.78916 captain_377_24 + 2.89256 captain_377_25
+ + 3.51291 captain_377_26 + 3.17515 captain_378_23 + 3.29689 captain_378_24
+ + 3.24956 captain_378_25 + 3.04345 captain_378_26 + 3.14946 captain_379_23
+ + 2.92713 captain_379_24 + 3.13003 captain_379_25 + 3.3726 captain_379_26
+ + 1.48243 captain_37_23 + 1.59242 captain_37_24 + 1.55654 captain_37_25
+ + 1.76798 captain_37_26 + 1.97349 captain_380_23 + 1.50089 captain_380_24
+ + 1.50445 captain_380_25 + 1.9227 captain_380_26 + 3.23869 captain_382_23
+ + 2.98599 captain_382_24 + 3.20302 captain_382_25 + 3.4356 captain_382_26
+ + 3.22616 captain_384_23 + 2.86361 captain_384_24 + 3.01281 captain_384_25
+ + 3.29067 captain_384_26 + 3.18388 captain_385_23 + 3.17605 captain_385_24
+ + 3.36554 captain_385_25 + 3.09845 captain_385_26 + 2.76917 captain_386_23
+ + 2.32477 captain_386_24 + 2.40058 captain_386_25 + 2.89536 captain_386_26
+ + 2.70904 captain_387_23 + 2.27082 captain_387_24 + 2.34558 captain_387_25
+ + 2.83348 captain_387_26 + 1.86106 captain_388_23 + 1.79647 captain_388_24
+ + 1.91047 captain_388_25 + 2.00961 captain_388_26 + 1.75771 captain_389_23
+ + 1.42056 captain_389_24 + 1.47808 captain_389_25 + 1.85344 captain_389_26
+ + 2.55815 captain_38_23 + 2.63649 captain_38_24 + 2.59192 captain_38_25
+ + 2.72911 captain_38_26 + 1.89044 captain_391_23 + 1.57317 captain_391_24
+ + 1.65828 captain_391_25 + 2.06746 captain_391_26 + 3.17226 captain_392_23
+ + 3.00657 captain_392_24 + 3.2358 captain_392_25 + 3.4525 captain_392_26
+ + 1.82773 captain_393_23 + 2.75399 captain_393_24 + 2.40035 captain_393_25
+ + 1.45985 captain_394_23 + 1.38502 captain_394_24 + 1.44393 captain_394_25
+ + 1.50955 captain_394_26 + 2.69972 captain_395_23 + 2.28927 captain_395_24
+ + 2.39185 captain_395_25 + 2.90105 captain_395_26 + 4.53796 captain_396_23
+ + 4.22051 captain_396_24 + 4.59759 captain_396_25 + 4.97587 captain_396_26
+ + 2.76499 captain_398_23 + 2.26919 captain_398_24 + 2.35377 captain_398_25
+ + 2.90578 captain_398_26 + 1.39761 captain_399_23 + 1.29475 captain_399_24
+ + 1.34793 captain_399_25 + 1.55622 captain_399_26 + 2.24149 captain_39_23
  + 2.20328 captain_39_24 + 2.35799 captain_39_25 + 2.52396 captain_39_26
- + 1.04838 captain_3_23 + 1.04523 captain_3_24 + 1.05186 captain_3_25
- + 1.10278 captain_3_26 + 2.80372 captain_401_23 + 2.31291 captain_401_24
- + 2.53961 captain_401_25 + 3.0385 captain_401_26 + 3.77329 captain_402_23
- + 3.95244 captain_402_24 + 4.24506 captain_402_25 + 3.63413 captain_402_26
- + 3.43496 captain_405_23 + 3.25835 captain_405_24 + 3.30562 captain_405_25
- + 2.41104 captain_405_26 + 3.7643 captain_406_23 + 3.9281 captain_406_24
- + 4.20591 captain_406_25 + 3.59455 captain_406_26 + 3.78062 captain_407_23
- + 3.57729 captain_407_24 + 3.61864 captain_407_25 + 2.60988 captain_407_26
- + 3.29589 captain_409_23 + 3.39169 captain_409_24 + 3.33192 captain_409_25
- + 3.24213 captain_409_26 + 1.98154 captain_40_23 + 1.94 captain_40_24
- + 1.90088 captain_40_25 + 2.00797 captain_40_26 + 3.02657 captain_411_23
- + 3.11003 captain_411_24 + 3.05795 captain_411_25 + 2.97973 captain_411_26
- + 3.69715 captain_412_23 + 3.82372 captain_412_24 + 4.09979 captain_412_25
- + 3.47188 captain_412_26 + 1.42506 captain_414_23 + 1.4906 captain_414_24
- + 1.50797 captain_414_25 + 1.35889 captain_414_26 + 5.7237 captain_415_23
- + 4.72629 captain_415_24 + 4.63811 captain_415_25 + 4.18781 captain_415_26
- + 3.79833 captain_416_25 + 3.20975 captain_416_26 + 2.7784 captain_417_23
- + 2.54397 captain_417_24 + 2.52709 captain_417_25 + 1.79157 captain_417_26
- + 2.84758 captain_419_23 + 2.63225 captain_419_24 + 2.63787 captain_419_25
- + 1.89083 captain_419_26 + 2.39527 captain_41_23 + 2.59029 captain_41_24
- + 2.56793 captain_41_25 + 2.8881 captain_41_26 + 3.13939 captain_421_23
- + 3.25965 captain_421_24 + 3.46639 captain_421_25 + 3.01234 captain_421_26
- + 2.07127 captain_423_23 + 2.11499 captain_423_24 + 2.23167 captain_423_25
- + 1.92604 captain_423_26 + 1.20118 captain_425_23 + 1.21812 captain_425_24
- + 1.26335 captain_425_25 + 1.14488 captain_425_26 + 4.01017 captain_427_23
- + 3.79913 captain_427_24 + 3.85815 captain_427_25 + 2.82754 captain_427_26
- + 2.26695 captain_428_23 + 2.0647 captain_428_24 + 2.05013 captain_428_25
- + 1.41553 captain_428_26 + 2.88454 captain_42_23 + 3.11496 captain_42_24
- + 3.03428 captain_42_25 + 3.43506 captain_42_26 + 5.29779 captain_430_23
- + 4.90836 captain_430_24 + 4.90698 captain_430_25 + 3.41764 captain_430_26
- + 4.90678 captain_433_23 + 4.08 captain_433_24 + 3.99189 captain_433_25
- + 3.59254 captain_433_26 + 1.21519 captain_435_23 + 1.26356 captain_435_24
- + 1.2343 captain_435_25 + 1.16214 captain_435_26 + 2.62883 captain_436_23
- + 2.6631 captain_436_24 + 2.73458 captain_436_25 + 2.23063 captain_436_26
- + 3.05606 captain_437_23 + 3.33537 captain_437_24 + 3.22585 captain_437_25
- + 3.01258 captain_437_26 + 2.5815 captain_439_23 + 2.65812 captain_439_24
- + 2.77481 captain_439_25 + 2.23204 captain_439_26 + 4.90012 captain_43_23
- + 4.9685 captain_43_24 + 4.67537 captain_43_25 + 5.08331 captain_43_26
- + 2.52516 captain_442_23 + 2.6437 captain_442_24 + 2.55311 captain_442_25
- + 2.34677 captain_442_26 + 2.31576 captain_445_23 + 2.34768 captain_445_24
- + 2.41426 captain_445_25 + 1.94486 captain_445_26 + 2.57056 captain_446_23
- + 2.56436 captain_446_24 + 2.55972 captain_446_25 + 2.41961 captain_446_26
- + 4.29886 captain_447_23 + 4.59895 captain_447_24 + 4.45945 captain_447_25
- + 4.0513 captain_447_26 + 3.03868 captain_448_23 + 2.85332 captain_448_24
- + 3.20517 captain_448_25 + 2.84166 captain_448_26 + 3.37045 captain_449_23
- + 3.15 captain_449_24 + 3.56846 captain_449_25 + 3.13614 captain_449_26
- + 1.57322 captain_44_23 + 1.57422 captain_44_24 + 1.60169 captain_44_25
- + 1.87238 captain_44_26 + 3.47238 captain_450_23 + 3.61044 captain_450_24
- + 3.74037 captain_450_25 + 3.46552 captain_450_26 + 1.46827 captain_451_23
- + 1.55592 captain_451_24 + 1.5194 captain_451_25 + 1.42933 captain_451_26
- + 2.68812 captain_453_23 + 2.82849 captain_453_24 + 2.76338 captain_453_25
- + 2.54972 captain_453_26 + 2.4263 captain_455_23 + 2.45873 captain_455_24
- + 2.52638 captain_455_25 + 2.04942 captain_455_26 + 1.44885 captain_456_23
+ + 1.03856 captain_3_23 + 1.03542 captain_3_24 + 1.04201 captain_3_25
+ + 1.08935 captain_3_26 + 2.80372 captain_401_23 + 2.38026 captain_401_24
+ + 2.49238 captain_401_25 + 3.0385 captain_401_26 + 3.66284 captain_402_23
+ + 3.87544 captain_402_24 + 4.16897 captain_402_25 + 3.58032 captain_402_26
+ + 1.71683 captain_403_24 + 1.79068 captain_403_25 + 1.58347 captain_403_26
+ + 3.40814 captain_405_23 + 3.30782 captain_405_24 + 3.29943 captain_405_25
+ + 2.41604 captain_405_26 + 3.68418 captain_406_23 + 3.88211 captain_406_24
+ + 4.16152 captain_406_25 + 3.57379 captain_406_26 + 3.71572 captain_407_23
+ + 3.60269 captain_407_24 + 3.58659 captain_407_25 + 2.59973 captain_407_26
+ + 3.31205 captain_409_23 + 3.42419 captain_409_24 + 3.34822 captain_409_25
+ + 3.25807 captain_409_26 + 3.02657 captain_411_23 + 3.12386 captain_411_24
+ + 3.05795 captain_411_25 + 2.97973 captain_411_26 + 3.68498 captain_412_23
+ + 3.83202 captain_412_24 + 4.0967 captain_412_25 + 3.46772 captain_412_26
+ + 1.42506 captain_414_23 + 1.4906 captain_414_24 + 1.50797 captain_414_25
+ + 1.35889 captain_414_26 + 5.36714 captain_415_23 + 4.44148 captain_415_24
+ + 4.40173 captain_415_25 + 4.00826 captain_415_26 + 2.53669 captain_417_23
+ + 2.39756 captain_417_24 + 2.36551 captain_417_25 + 1.69941 captain_417_26
+ + 2.8249 captain_419_23 + 2.66386 captain_419_24 + 2.61648 captain_419_25
+ + 1.87323 captain_419_26 + 2.37391 captain_41_23 + 2.56816 captain_41_24
+ + 2.55767 captain_41_25 + 2.86474 captain_41_26 + 3.41561 captain_421_23
+ + 3.51521 captain_421_24 + 3.68263 captain_421_25 + 3.16173 captain_421_26
+ + 2.22885 captain_423_23 + 2.26927 captain_423_24 + 2.37038 captain_423_25
+ + 2.0335 captain_423_26 + 1.18986 captain_425_23 + 1.20969 captain_425_24
+ + 1.25164 captain_425_25 + 1.13393 captain_425_26 + 4.70087 captain_427_23
+ + 4.43044 captain_427_24 + 4.29277 captain_427_25 + 3.06079 captain_427_26
+ + 2.01911 captain_428_25 + 1.38984 captain_428_26 + 2.83336 captain_42_23
+ + 3.06128 captain_42_24 + 2.99668 captain_42_25 + 3.37741 captain_42_26
+ + 5.39371 captain_430_23 + 5.0946 captain_430_24 + 4.96739 captain_430_25
+ + 3.45287 captain_430_26 + 3.07304 captain_432_23 + 3.15925 captain_432_24
+ + 3.34165 captain_432_25 + 2.82983 captain_432_26 + 4.81841 captain_433_23
+ + 4.00111 captain_433_24 + 3.91866 captain_433_25 + 3.52565 captain_433_26
+ + 1.21519 captain_435_23 + 1.2596 captain_435_24 + 1.2343 captain_435_25
+ + 1.16996 captain_435_26 + 2.58479 captain_436_23 + 2.57271 captain_436_24
+ + 2.68947 captain_436_25 + 2.2525 captain_436_26 + 2.92951 captain_437_23
+ + 3.25159 captain_437_24 + 3.13091 captain_437_25 + 2.90286 captain_437_26
+ + 2.53682 captain_439_23 + 2.56353 captain_439_24 + 2.7289 captain_439_25
+ + 2.25861 captain_439_26 + 4.73485 captain_43_23 + 4.83216 captain_43_24
+ + 4.56149 captain_43_25 + 5.00506 captain_43_26 + 2.52171 captain_442_23
+ + 2.64312 captain_442_24 + 2.57441 captain_442_25 + 2.39913 captain_442_26
+ + 2.29687 captain_445_23 + 2.28556 captain_445_24 + 2.39491 captain_445_25
+ + 1.98569 captain_445_26 + 2.57056 captain_446_23 + 2.56436 captain_446_24
+ + 2.55972 captain_446_25 + 2.41961 captain_446_26 + 4.13842 captain_447_23
+ + 4.44448 captain_447_24 + 4.36182 captain_447_25 + 4.03576 captain_447_26
+ + 3.03868 captain_448_23 + 2.84194 captain_448_24 + 3.20517 captain_448_25
+ + 2.84808 captain_448_26 + 3.37045 captain_449_23 + 3.13647 captain_449_24
+ + 3.56846 captain_449_25 + 3.14377 captain_449_26 + 3.68295 captain_450_23
+ + 3.78812 captain_450_24 + 3.9066 captain_450_25 + 1.43979 captain_451_23
+ + 1.52168 captain_451_24 + 1.49057 captain_451_25 + 1.41143 captain_451_26
+ + 2.64689 captain_453_23 + 2.79224 captain_453_24 + 2.75355 captain_453_25
+ + 2.57682 captain_453_26 + 2.4063 captain_455_23 + 2.39482 captain_455_24
+ + 2.50591 captain_455_25 + 2.09013 captain_455_26 + 1.44885 captain_456_23
  + 1.44585 captain_456_24 + 1.4436 captain_456_25 + 1.37568 captain_456_26
- + 2.53164 captain_457_23 + 2.5675 captain_457_24 + 2.61759 captain_457_25
- + 2.13953 captain_457_26 + 2.07264 captain_458_23 + 2.08001 captain_458_24
+ + 2.48982 captain_457_23 + 2.48173 captain_457_24 + 2.57482 captain_457_25
+ + 2.16008 captain_457_26 + 2.07264 captain_458_23 + 2.08001 captain_458_24
  + 2.05956 captain_458_25 + 1.94819 captain_458_26 + 1.46981 captain_45_23
- + 1.5798 captain_45_24 + 1.53556 captain_45_25 + 1.75536 captain_45_26
+ + 1.5798 captain_45_24 + 1.54392 captain_45_25 + 1.75536 captain_45_26
  + 1.8627 captain_460_23 + 1.81288 captain_460_24 + 1.98863 captain_460_25
- + 1.50144 captain_460_26 + 2.65011 captain_465_23 + 2.7252 captain_465_24
- + 2.83947 captain_465_25 + 2.30898 captain_465_26 + 1.52664 captain_466_23
+ + 1.50144 captain_460_26 + 2.66052 captain_465_23 + 2.69567 captain_465_24
+ + 2.86903 captain_465_25 + 2.40933 captain_465_26 + 1.52664 captain_466_23
  + 1.57614 captain_466_24 + 1.56405 captain_466_25 + 1.52515 captain_466_26
- + 1.97012 captain_467_23 + 2.08115 captain_467_24 + 2.20141 captain_467_25
- + 1.79765 captain_467_26 + 3.208 captain_468_23 + 3.38228 captain_468_24
- + 3.28736 captain_468_25 + 3.07316 captain_468_26 + 2.32638 captain_469_23
- + 2.38595 captain_469_24 + 2.44951 captain_469_25 + 2.00138 captain_469_26
- + 1.13376 captain_46_23 + 1.165 captain_46_24 + 1.12968 captain_46_25
- + 1.18157 captain_46_26 + 2.36249 captain_470_23 + 2.5369 captain_470_24
- + 2.4925 captain_470_25 + 2.33404 captain_470_26 + 2.58673 captain_471_23
- + 2.46231 captain_471_24 + 2.44079 captain_471_25 + 2.85803 captain_471_26
- + 3.03016 captain_472_23 + 3.08562 captain_472_24 + 3.05735 captain_472_25
- + 3.14361 captain_472_26 + 2.04477 captain_473_23 + 1.96656 captain_473_24
- + 1.9392 captain_473_25 + 2.25006 captain_473_26 + 2.82799 captain_475_23
- + 2.46981 captain_475_24 + 2.62537 captain_475_25 + 2.60743 captain_475_26
- + 2.57667 captain_476_23 + 2.48056 captain_476_24 + 2.45948 captain_476_25
- + 2.87599 captain_476_26 + 1.41951 captain_477_24 + 1.44915 captain_477_25
- + 1.47753 captain_477_26 + 1.1968 captain_478_23 + 1.22875 captain_478_24
- + 1.21544 captain_478_25 + 1.19658 captain_478_26 + 3.03016 captain_479_23
- + 3.08562 captain_479_24 + 3.05735 captain_479_25 + 3.14361 captain_479_26
- + 2.74895 captain_47_23 + 2.79838 captain_47_24 + 2.6935 captain_47_25
- + 2.88274 captain_47_26 + 1.6755 captain_481_23 + 1.73031 captain_481_24
- + 1.70748 captain_481_25 + 1.67512 captain_481_26 + 3.60861 captain_482_23
- + 3.67765 captain_482_24 + 3.64246 captain_482_25 + 3.74984 captain_482_26
- + 2.11629 captain_484_23 + 1.98934 captain_484_24 + 1.94276 captain_484_25
- + 2.26895 captain_484_26 + 2.96077 captain_485_23 + 2.97199 captain_485_24
- + 2.95839 captain_485_25 + 2.97784 captain_485_26 + 1.24202 captain_487_23
- + 1.21461 captain_487_24 + 1.23362 captain_487_25 + 1.49902 captain_487_26
- + 2.42076 captain_488_23 + 2.59905 captain_488_24 + 2.61334 captain_488_25
- + 2.59925 captain_488_26 + 1.61375 captain_489_23 + 1.68599 captain_489_24
- + 1.68731 captain_489_25 + 1.65776 captain_489_26 + 3.32761 captain_48_23
- + 3.60722 captain_48_24 + 3.56716 captain_48_25 + 4.02828 captain_48_26
- + 1.7999 captain_490_23 + 1.84561 captain_490_24 + 1.83975 captain_490_25
- + 1.85011 captain_490_26 + 3.2926 captain_491_23 + 3.05735 captain_491_24
- + 2.97958 captain_491_25 + 2.85488 captain_491_26 + 2.04663 captain_492_23
- + 2.09805 captain_492_24 + 2.15576 captain_492_25 + 1.95343 captain_492_26
- + 2.36364 captain_493_23 + 2.41811 captain_493_24 + 2.47926 captain_493_25
- + 2.283 captain_493_26 + 1.75346 captain_494_23 + 1.81397 captain_494_24
- + 1.86252 captain_494_25 + 1.76924 captain_494_26 + 2.71574 captain_495_23
- + 2.65889 captain_495_24 + 3.1519 captain_495_25 + 2.33872 captain_495_26
- + 1.99625 captain_497_23 + 2.03696 captain_497_24 + 2.45282 captain_497_25
- + 1.85128 captain_497_26 + 3.27732 captain_498_23 + 3.04335 captain_498_24
- + 2.966 captain_498_25 + 2.84198 captain_498_26 + 2.6425 captain_499_23
- + 2.73498 captain_499_24 + 2.82842 captain_499_25 + 2.64497 captain_499_26
- + 3.75118 captain_49_23 + 3.93904 captain_49_24 + 3.66957 captain_49_25
- + 4.0052 captain_49_26 + 1.78847 captain_4_23 + 1.77995 captain_4_24
- + 1.79786 captain_4_25 + 1.93542 captain_4_26 + 3.90105 captain_501_23
- + 4.01977 captain_501_24 + 4.12632 captain_501_25 + 3.78434 captain_501_26
- + 3.50183 captain_502_23 + 3.2338 captain_502_24 + 3.14519 captain_502_25
- + 3.00312 captain_502_26 + 4.16072 captain_504_23 + 4.28 captain_504_24
- + 4.41391 captain_504_25 + 3.98412 captain_504_26 + 3.96998 captain_506_23
- + 3.86651 captain_506_24 + 4.56471 captain_506_25 + 3.26609 captain_506_26
- + 1.55332 captain_508_23 + 2.35952 captain_508_24 + 3.58471 captain_508_25
- + 2.07672 captain_508_26 + 3.90554 captain_509_23 + 3.91688 captain_509_24
- + 3.94193 captain_509_25 + 3.59583 captain_509_26 + 3.9365 captain_50_23
- + 4.01324 captain_50_24 + 3.86348 captain_50_25 + 4.15061 captain_50_26
- + 2.54268 captain_511_23 + 2.48642 captain_511_24 + 2.93844 captain_511_25
- + 2.12989 captain_511_26 + 2.48902 captain_513_23 + 2.5937 captain_513_24
- + 2.68269 captain_513_25 + 2.49123 captain_513_26 + 1.53303 captain_514_23
- + 1.49685 captain_514_24 + 1.83316 captain_514_25 + 1.24568 captain_514_26
- + 1.86775 captain_515_23 + 1.91327 captain_515_24 + 1.96291 captain_515_25
- + 1.83858 captain_515_26 + 5.36149 captain_516_23 + 5.53793 captain_516_24
- + 5.71847 captain_516_25 + 5.18864 captain_516_26 + 1.68683 captain_517_23
- + 1.57693 captain_517_24 + 2.01576 captain_517_25 + 1.42176 captain_517_26
+ + 1.9795 captain_467_23 + 2.05966 captain_467_24 + 2.22981 captain_467_25
+ + 1.88468 captain_467_26 + 3.027 captain_468_23 + 3.24865 captain_468_24
+ + 3.15246 captain_468_25 + 2.93455 captain_468_26 + 2.30709 captain_469_23
+ + 2.32539 captain_469_24 + 2.42981 captain_469_25 + 2.03903 captain_469_26
+ + 1.12299 captain_46_23 + 1.15416 captain_46_24 + 1.11784 captain_46_25
+ + 1.17063 captain_46_26 + 2.19381 captain_470_23 + 2.38243 captain_470_24
+ + 2.37796 captain_470_25 + 2.2724 captain_470_26 + 2.61 captain_471_23
+ + 2.43355 captain_471_24 + 2.45759 captain_471_25 + 2.88636 captain_471_26
+ + 3.03016 captain_472_23 + 3.0626 captain_472_24 + 3.0384 captain_472_25
+ + 3.14361 captain_472_26 + 2.01059 captain_473_23 + 1.8959 captain_473_24
+ + 1.90592 captain_473_25 + 2.21453 captain_473_26 + 2.84933 captain_475_23
+ + 2.48737 captain_475_24 + 2.64291 captain_475_25 + 2.6385 captain_475_26
+ + 2.58104 captain_476_23 + 2.44686 captain_476_24 + 2.48255 captain_476_25
+ + 2.91522 captain_476_26 + 1.41402 captain_477_24 + 1.48262 captain_477_25
+ + 1.47753 captain_477_26 + 1.1968 captain_478_23 + 1.22061 captain_478_24
+ + 1.21319 captain_478_25 + 1.19658 captain_478_26 + 3.03016 captain_479_23
+ + 3.0626 captain_479_24 + 3.0384 captain_479_25 + 3.14361 captain_479_26
+ + 2.57028 captain_47_23 + 2.64893 captain_47_24 + 2.57337 captain_47_25
+ + 2.79211 captain_47_26 + 1.65939 captain_481_23 + 1.69992 captain_481_24
+ + 1.68729 captain_481_25 + 1.65902 captain_481_26 + 3.58098 captain_482_23
+ + 3.62087 captain_482_24 + 3.59111 captain_482_25 + 3.7205 captain_482_26
+ + 1.69077 captain_483_23 + 1.70974 captain_483_24 + 1.74895 captain_483_25
+ + 1.72188 captain_483_26 + 2.09909 captain_484_23 + 1.93327 captain_484_24
+ + 1.9259 captain_484_25 + 2.25099 captain_484_26 + 2.90798 captain_485_23
+ + 2.92388 captain_485_24 + 3.01153 captain_485_25 + 2.97594 captain_485_26
+ + 1.05903 captain_487_23 + 1.03096 captain_487_24 + 1.10529 captain_487_25
+ + 1.39453 captain_487_26 + 2.39541 captain_488_23 + 2.55024 captain_488_24
+ + 2.58126 captain_488_25 + 2.57391 captain_488_26 + 1.59782 captain_489_23
+ + 1.65702 captain_489_24 + 1.66766 captain_489_25 + 1.64183 captain_489_26
+ + 3.1228 captain_48_23 + 3.44151 captain_48_24 + 3.4629 captain_48_25
+ + 3.9425 captain_48_26 + 1.78818 captain_490_23 + 1.83553 captain_490_24
+ + 1.88222 captain_490_25 + 1.86168 captain_490_26 + 3.2926 captain_491_23
+ + 3.0384 captain_491_24 + 2.97958 captain_491_25 + 1.87327 captain_492_23
+ + 1.94702 captain_492_24 + 2.03841 captain_492_25 + 2.31767 captain_493_23
+ + 2.36478 captain_493_24 + 2.43125 captain_493_25 + 1.73593 captain_494_23
+ + 1.79227 captain_494_24 + 1.84442 captain_494_25 + 2.69151 captain_495_23
+ + 2.63448 captain_495_24 + 3.12527 captain_495_25 + 1.97777 captain_497_23
+ + 2.01829 captain_497_24 + 2.43285 captain_497_25 + 3.27732 captain_498_23
+ + 3.0245 captain_498_24 + 2.966 captain_498_25 + 2.45933 captain_499_23
+ + 2.57716 captain_499_24 + 2.70841 captain_499_25 + 3.74637 captain_49_23
+ + 3.93328 captain_49_24 + 3.69331 captain_49_25 + 3.9991 captain_49_26
+ + 1.77124 captain_4_23 + 1.76279 captain_4_24 + 1.78055 captain_4_25
+ + 1.90811 captain_4_26 + 3.81245 captain_501_23 + 3.936 captain_501_24
+ + 4.07006 captain_501_25 + 3.50183 captain_502_23 + 3.21221 captain_502_24
+ + 3.14519 captain_502_25 + 4.46944 captain_504_23 + 4.5394 captain_504_24
+ + 4.65432 captain_504_25 + 3.82284 captain_506_23 + 3.75052 captain_506_24
+ + 4.47016 captain_506_25 + 1.53692 captain_508_23 + 2.33949 captain_508_24
+ + 3.60056 captain_508_25 + 2.05869 captain_508_26 + 3.99811 captain_509_23
+ + 3.9975 captain_509_24 + 4.03516 captain_509_25 + 3.84318 captain_50_23
+ + 3.93771 captain_50_24 + 3.79905 captain_50_25 + 4.11062 captain_50_26
+ + 2.47475 captain_511_23 + 2.44179 captain_511_24 + 2.91475 captain_511_25
+ + 2.46397 captain_513_23 + 2.56189 captain_513_24 + 2.65665 captain_513_25
+ + 1.86706 captain_515_23 + 1.91604 captain_515_24 + 1.97764 captain_515_25
+ + 5.25466 captain_516_23 + 5.41105 captain_516_24 + 5.60567 captain_516_25
+ + 1.68683 captain_517_23 + 1.57693 captain_517_24 + 2.01576 captain_517_25
  + 1.61805 captain_518_23 + 1.5072 captain_518_24 + 1.93504 captain_518_25
- + 1.3626 captain_518_26 + 2.69079 captain_519_23 + 2.68128 captain_519_24
- + 3.21918 captain_519_25 + 2.37037 captain_519_26 + 4.03647 captain_520_23
- + 3.72982 captain_520_24 + 3.62845 captain_520_25 + 3.46591 captain_520_26
- + 2.6266 captain_522_23 + 2.74684 captain_522_24 + 3.17049 captain_522_25
- + 3.08054 captain_522_26 + 2.90669 captain_523_23 + 2.82595 captain_523_24
- + 3.02978 captain_523_25 + 2.94618 captain_523_26 + 3.69917 captain_524_23
- + 3.3297 captain_524_24 + 3.64157 captain_524_25 + 3.41431 captain_524_26
- + 3.07557 captain_525_24 + 3.25441 captain_525_25 + 3.24636 captain_525_26
- + 5.06702 captain_526_23 + 5.07846 captain_526_24 + 5.43927 captain_526_25
- + 5.4486 captain_526_26 + 2.40948 captain_527_23 + 2.37109 captain_527_24
- + 2.48091 captain_527_25 + 2.46743 captain_527_26 + 2.37591 captain_528_23
- + 2.54608 captain_528_24 + 2.97313 captain_528_25 + 2.92054 captain_528_26
- + 2.37206 captain_530_23 + 2.49865 captain_530_24 + 2.94467 captain_530_25
- + 2.84996 captain_530_26 + 2.35615 captain_532_23 + 2.54725 captain_532_24
- + 2.99774 captain_532_25 + 2.94137 captain_532_26 + 3.65118 captain_533_23
- + 3.28191 captain_533_24 + 3.59362 captain_533_25 + 3.36648 captain_533_26
- + 2.01946 captain_534_23 + 2.01752 captain_534_24 + 2.10942 captain_534_25
- + 2.11505 captain_534_26 + 2.58009 captain_535_23 + 2.46117 captain_535_24
- + 2.5965 captain_535_25 + 2.47503 captain_535_26 + 1.57905 captain_536_23
- + 1.7093 captain_536_24 + 2.05073 captain_536_25 + 2.01014 captain_536_26
- + 1.228 captain_538_23 + 1.22957 captain_538_24 + 1.35069 captain_538_25
- + 1.33537 captain_538_26 + 3.89584 captain_539_23 + 3.88813 captain_539_24
- + 4.09201 captain_539_25 + 4.08142 captain_539_26 + 3.0169 captain_53_23
- + 3.14765 captain_53_24 + 2.96011 captain_53_25 + 3.1937 captain_53_26
- + 3.83831 captain_540_23 + 3.82203 captain_540_24 + 3.83855 captain_540_25
- + 4.11586 captain_540_26 + 3.74835 captain_542_23 + 3.70692 captain_542_24
- + 3.89636 captain_542_25 + 3.89847 captain_542_26 + 2.68314 captain_544_23
- + 2.83566 captain_544_24 + 3.29703 captain_544_25 + 3.23559 captain_544_26
- + 2.02569 captain_545_23 + 2.77088 captain_545_24 + 2.19433 captain_545_25
- + 3.22952 captain_545_26 + 2.93533 captain_546_23 + 3.01003 captain_546_24
- + 3.14982 captain_546_25 + 3.21944 captain_546_26 + 1.39588 captain_547_23
+ + 3.11777 captain_519_23 + 3.04094 captain_519_24 + 3.5634 captain_519_25
+ + 4.03682 captain_520_23 + 3.7058 captain_520_24 + 3.62921 captain_520_25
+ + 2.6266 captain_522_23 + 2.747 captain_522_24 + 3.22879 captain_522_25
+ + 3.09581 captain_522_26 + 2.90669 captain_523_23 + 2.80561 captain_523_24
+ + 3.02707 captain_523_25 + 2.96729 captain_523_26 + 3.69917 captain_524_23
+ + 3.31856 captain_524_24 + 3.65889 captain_524_25 + 3.42107 captain_524_26
+ + 3.05679 captain_525_24 + 3.26709 captain_525_25 + 3.26847 captain_525_26
+ + 5.06702 captain_526_23 + 5.04325 captain_526_24 + 5.46305 captain_526_25
+ + 5.49008 captain_526_26 + 2.40948 captain_527_23 + 2.35688 captain_527_24
+ + 2.49051 captain_527_25 + 2.48417 captain_527_26 + 2.37591 captain_528_23
+ + 2.54622 captain_528_24 + 3.02757 captain_528_25 + 2.9348 captain_528_26
+ + 2.37206 captain_530_23 + 2.49881 captain_530_24 + 3.00604 captain_530_25
+ + 2.86604 captain_530_26 + 2.35615 captain_532_23 + 2.5474 captain_532_24
+ + 3.0527 captain_532_25 + 2.95577 captain_532_26 + 3.65118 captain_533_23
+ + 3.27078 captain_533_24 + 3.61093 captain_533_25 + 3.37324 captain_533_26
+ + 2.01946 captain_534_23 + 2.00853 captain_534_24 + 2.1155 captain_534_25
+ + 2.12564 captain_534_26 + 2.58009 captain_535_23 + 2.44299 captain_535_24
+ + 2.59407 captain_535_25 + 2.49389 captain_535_26 + 1.57905 captain_536_23
+ + 1.70941 captain_536_24 + 2.09131 captain_536_25 + 2.02077 captain_536_26
+ + 1.228 captain_538_23 + 1.22102 captain_538_24 + 1.34955 captain_538_25
+ + 1.34424 captain_538_26 + 3.89584 captain_539_23 + 3.86342 captain_539_24
+ + 4.10871 captain_539_25 + 4.11053 captain_539_26 + 3.00718 captain_53_23
+ + 3.13752 captain_53_24 + 2.97018 captain_53_25 + 3.18342 captain_53_26
+ + 3.75117 captain_540_23 + 3.75578 captain_540_24 + 3.79294 captain_540_25
+ + 4.07231 captain_540_26 + 3.74835 captain_542_23 + 3.68553 captain_542_24
+ + 3.91081 captain_542_25 + 3.92367 captain_542_26 + 2.68314 captain_544_23
+ + 2.83582 captain_544_24 + 3.35637 captain_544_25 + 3.25114 captain_544_26
+ + 2.02569 captain_545_23 + 2.78645 captain_545_24 + 2.17021 captain_545_25
+ + 3.1834 captain_545_26 + 2.93533 captain_546_23 + 3.01551 captain_546_24
+ + 3.11212 captain_546_25 + 3.21351 captain_546_26 + 1.39588 captain_547_23
  + 1.83773 captain_547_24 + 1.45832 captain_547_25 + 1.99443 captain_547_26
- + 1.52524 captain_548_23 + 2.11448 captain_548_24 + 1.73294 captain_548_25
- + 2.48634 captain_548_26 + 1.31703 captain_54_23 + 1.35034 captain_54_24
+ + 1.52524 captain_548_23 + 2.12581 captain_548_24 + 1.71538 captain_548_25
+ + 2.45278 captain_548_26 + 1.31703 captain_54_23 + 1.35034 captain_54_24
  + 1.34071 captain_54_25 + 1.37977 captain_54_26 + 2.64763 captain_551_23
- + 3.41841 captain_551_24 + 2.73433 captain_551_25 + 3.90775 captain_551_26
- + 1.80374 captain_553_23 + 2.76846 captain_553_24 + 2.35986 captain_553_25
- + 1.64646 captain_553_26 + 2.82665 captain_554_23 + 3.0674 captain_554_24
- + 2.88421 captain_554_25 + 2.88759 captain_554_26 + 1.02377 captain_555_23
- + 1.07556 captain_555_24 + 1.04524 captain_555_25 + 1.08754 captain_555_26
- + 3.72157 captain_557_23 + 3.91288 captain_557_24 + 3.72712 captain_557_25
- + 3.97245 captain_557_26 + 3.04512 captain_558_23 + 3.03444 captain_558_24
- + 3.08723 captain_558_25 + 2.96326 captain_558_26 + 2.68414 captain_559_23
- + 2.8631 captain_559_24 + 2.77017 captain_559_25 + 2.90864 captain_559_26
- + 3.17955 captain_55_23 + 3.2312 captain_55_24 + 3.06974 captain_55_25
- + 3.29421 captain_55_26 + 1.60286 captain_560_23 + 2.18354 captain_560_24
- + 1.72681 captain_560_25 + 2.55585 captain_560_26 + 1.16879 captain_561_23
- + 1.22602 captain_561_24 + 1.19252 captain_561_25 + 1.23926 captain_561_26
- + 2.603 captain_563_23 + 3.33121 captain_563_24 + 2.73612 captain_563_25
- + 3.78945 captain_563_26 + 2.85488 captain_564_23 + 2.9285 captain_564_24
- + 3.06626 captain_564_25 + 3.13487 captain_564_26 + 3.2043 captain_565_23
- + 3.44783 captain_565_24 + 3.32442 captain_565_25 + 3.54873 captain_565_26
- + 2.52882 captain_566_23 + 2.61381 captain_566_24 + 5.09119 captain_566_25
- + 2.53412 captain_566_26 + 3.07006 captain_567_23 + 3.39316 captain_567_24
- + 3.30136 captain_567_25 + 3.532 captain_567_26 + 3.48038 captain_569_23
- + 3.57862 captain_569_24 + 3.76247 captain_569_25 + 3.85403 captain_569_26
- + 2.99826 captain_570_23 + 3.242 captain_570_24 + 3.12091 captain_570_25
- + 3.30979 captain_570_26 + 2.28493 captain_572_23 + 2.99123 captain_572_24
- + 2.46993 captain_572_25 + 3.43903 captain_572_26 + 2.34405 captain_573_23
- + 3.15117 captain_573_24 + 2.57507 captain_573_25 + 3.67843 captain_573_26
- + 1.29045 captain_574_23 + 1.36805 captain_574_24 + 1.35374 captain_574_25
- + 1.40109 captain_574_26 + 2.48574 captain_576_23 + 2.4651 captain_576_24
- + 2.4646 captain_576_25 + 2.83764 captain_576_26 + 1.93849 captain_577_23
- + 2.07318 captain_577_24 + 2.40348 captain_577_25 + 2.33873 captain_577_26
- + 1.37759 captain_578_23 + 1.4082 captain_578_24 + 1.43856 captain_578_25
- + 1.51277 captain_578_26 + 2.94406 captain_579_23 + 2.66085 captain_579_24
- + 3.15357 captain_579_25 + 3.11807 captain_579_26 + 3.02657 captain_580_23
- + 3.11003 captain_580_24 + 3.05795 captain_580_25 + 2.97973 captain_580_26
- + 1.84444 captain_581_23 + 1.67853 captain_581_24 + 1.66658 captain_581_25
- + 1.14602 captain_581_26 + 2.15445 captain_582_23 + 2.33913 captain_582_24
- + 2.3484 captain_582_25 + 2.14372 captain_582_26 + 2.09573 captain_583_23
- + 2.14716 captain_583_24 + 2.20489 captain_583_25 + 2.01959 captain_583_26
- + 2.95837 captain_584_23 + 3.19217 captain_584_24 + 3.16546 captain_584_25
- + 3.53671 captain_584_26 + 1.88441 captain_586_23 + 2.08052 captain_586_24
- + 2.13231 captain_586_25 + 1.95796 captain_586_26 + 1.8064 captain_587_23
- + 1.92922 captain_587_24 + 1.91514 captain_587_25 + 1.88001 captain_587_26
- + 2.46766 captain_588_23 + 1.85239 captain_588_24 + 2.96199 captain_588_25
- + 2.2865 captain_588_26 + 2.38461 captain_58_23 + 2.44422 captain_58_24
- + 2.37166 captain_58_25 + 2.55101 captain_58_26 + 4.1753 captain_590_23
- + 4.17068 captain_590_24 + 4.29704 captain_590_25 + 4.44317 captain_590_26
- + 4.11242 captain_591_23 + 4.53605 captain_591_24 + 4.11846 captain_591_25
- + 4.12506 captain_591_26 + 2.10236 captain_592_23 + 1.99533 captain_592_24
- + 1.95014 captain_592_25 + 2.26666 captain_592_26 + 3.74731 captain_594_23
- + 2.97689 captain_594_24 + 3.05469 captain_594_25 + 3.09092 captain_594_26
- + 2.82308 captain_595_23 + 2.54821 captain_595_24 + 2.03565 captain_595_25
- + 2.02173 captain_595_26 + 4.1259 captain_596_23 + 3.7689 captain_596_24
- + 3.477 captain_596_25 + 3.77966 captain_596_26 + 3.97956 captain_597_23
- + 3.49847 captain_597_24 + 3.73097 captain_597_25 + 4.06365 captain_597_26
- + 1.61513 captain_598_23 + 2.24439 captain_598_24 + 1.85244 captain_598_25
- + 2.65548 captain_598_26 + 4.32869 captain_599_23 + 4.38045 captain_599_24
- + 4.11363 captain_599_25 + 4.45841 captain_599_26 + 1.57322 captain_59_23
- + 1.5904 captain_59_24 + 1.53223 captain_59_25 + 1.61769 captain_59_26
- + 4.03645 captain_5_23 + 4.05605 captain_5_24 + 4.90527 captain_5_25
- + 4.39861 captain_5_26 + 1.60301 captain_600_23 + 1.45964 captain_600_24
- + 1.51321 captain_600_25 + 1.50565 captain_600_26 + 2.63733 captain_601_23
- + 2.42705 captain_601_24 + 2.78596 captain_601_25 + 2.68303 captain_601_26
- + 1.59715 captain_602_23 + 2.53054 captain_602_24 + 2.15966 captain_602_25
- + 1.46834 captain_602_26 + 2.74157 captain_604_23 + 2.7908 captain_604_24
- + 2.85888 captain_604_25 + 2.3507 captain_604_26 + 2.71775 captain_606_23
- + 2.10319 captain_606_24 + 2.38043 captain_606_25 + 2.80547 captain_606_26
- + 3.55678 captain_607_23 + 3.27934 captain_607_24 + 3.1531 captain_607_25
- + 3.33942 captain_607_26 + 2.09837 captain_608_23 + 1.89249 captain_608_24
- + 2.00403 captain_608_25 + 2.01946 captain_608_26 + 5.16863 captain_60_23
- + 5.10114 captain_60_24 + 5.15206 captain_60_25 + 6.09567 captain_60_26
- + 2.8506 captain_610_23 + 2.79868 captain_610_24 + 2.57399 captain_610_25
- + 2.33816 captain_610_26 + 3.39807 captain_611_23 + 3.46065 captain_611_24
- + 2.3894 captain_611_25 + 3.12647 captain_611_26 + 3.38149 captain_614_23
- + 3.69651 captain_614_24 + 3.74965 captain_614_25 + 3.62782 captain_614_26
- + 1.48892 captain_615_23 + 1.60102 captain_615_24 + 1.62406 captain_615_25
- + 1.7227 captain_615_26 + 3.24042 captain_616_23 + 3.94868 captain_616_24
- + 6.67024 captain_616_25 + 3.53238 captain_616_26 + 3.33885 captain_617_23
- + 3.15475 captain_617_24 + 3.26469 captain_617_25 + 3.75372 captain_617_26
- + 1.2321 captain_618_23 + 1.24369 captain_618_24 + 1.20446 captain_618_25
- + 1.26209 captain_618_26 + 1.76752 captain_619_23 + 1.54702 captain_619_24
- + 1.13586 captain_619_25 + 1.12469 captain_619_26 + 1.09202 captain_620_23
- + 1.15193 captain_620_24 + 2.288 captain_620_25 + 1.16781 captain_620_26
- + 2.6728 captain_621_23 + 2.56249 captain_621_24 + 2.66104 captain_621_25
- + 2.71895 captain_621_26 + 1.12794 captain_622_23 + 1.7441 captain_622_24
- + 1.86842 captain_622_25 + 2.11724 captain_622_26 + 1.49733 captain_623_23
- + 1.41911 captain_623_24 + 1.32563 captain_623_25 + 1.40345 captain_623_26
- + 1.34555 captain_624_23 + 1.25743 captain_624_24 + 1.35782 captain_624_25
- + 1.32497 captain_624_26 + 1.74308 captain_625_23 + 1.67861 captain_625_24
- + 1.50459 captain_625_25 + 1.33457 captain_625_26 + 1.3942 captain_626_23
- + 2.14307 captain_626_24 + 1.71041 captain_626_25 + 2.16198 captain_626_26
- + 1.09473 captain_627_23 + 1.20879 captain_627_24 + 1.19553 captain_627_25
- + 1.21184 captain_627_26 + 1.12126 captain_629_23 + 1.2092 captain_629_24
- + 1.17834 captain_629_25 + 1.17507 captain_629_26 + 1.94176 captain_62_23
+ + 3.4359 captain_551_24 + 2.70724 captain_551_25 + 3.85596 captain_551_26
+ + 1.78661 captain_553_23 + 2.71314 captain_553_24 + 2.34058 captain_553_25
+ + 2.82665 captain_554_23 + 3.0674 captain_554_24 + 2.88421 captain_554_25
+ + 2.88759 captain_554_26 + 1.02377 captain_555_23 + 1.08066 captain_555_24
+ + 1.04169 captain_555_25 + 1.09372 captain_555_26 + 3.72157 captain_557_23
+ + 3.94246 captain_557_24 + 3.70648 captain_557_25 + 4.0083 captain_557_26
+ + 2.96424 captain_558_23 + 2.96824 captain_558_24 + 3.03544 captain_558_25
+ + 2.92665 captain_558_26 + 2.68414 captain_559_23 + 2.87979 captain_559_24
+ + 2.75853 captain_559_25 + 2.92888 captain_559_26 + 2.9372 captain_55_23
+ + 3.03061 captain_55_24 + 2.91174 captain_55_25 + 3.17768 captain_55_26
+ + 1.60286 captain_560_23 + 2.18354 captain_560_24 + 1.72681 captain_560_25
+ + 2.55585 captain_560_26 + 1.16879 captain_561_23 + 1.23166 captain_561_24
+ + 1.18859 captain_561_25 + 1.24609 captain_561_26 + 2.603 captain_563_23
+ + 3.34682 captain_563_24 + 2.71193 captain_563_25 + 3.74321 captain_563_26
+ + 2.85488 captain_564_23 + 2.9339 captain_564_24 + 3.02911 captain_564_25
+ + 3.12903 captain_564_26 + 3.2043 captain_565_23 + 3.47225 captain_565_24
+ + 3.30739 captain_565_25 + 3.57833 captain_565_26 + 2.96775 captain_566_23
+ + 3.033 captain_566_24 + 5.69698 captain_566_25 + 2.73379 captain_566_26
+ + 3.07006 captain_567_23 + 3.41893 captain_567_24 + 3.28339 captain_567_25
+ + 3.56324 captain_567_26 + 3.48038 captain_569_23 + 3.58583 captain_569_24
+ + 3.71289 captain_569_25 + 3.84624 captain_569_26 + 2.99826 captain_570_23
+ + 3.26395 captain_570_24 + 3.1056 captain_570_25 + 3.33639 captain_570_26
+ + 2.28493 captain_572_23 + 3.00561 captain_572_24 + 2.44765 captain_572_25
+ + 3.39644 captain_572_26 + 2.34405 captain_573_23 + 3.16752 captain_573_24
+ + 2.54975 captain_573_25 + 3.63001 captain_573_26 + 1.29045 captain_574_23
+ + 1.37376 captain_574_24 + 1.34975 captain_574_25 + 1.40801 captain_574_26
+ + 2.38522 captain_576_23 + 2.34155 captain_576_24 + 2.40107 captain_576_25
+ + 2.79437 captain_576_26 + 1.93849 captain_577_23 + 2.07329 captain_577_24
+ + 2.44544 captain_577_25 + 2.34972 captain_577_26 + 1.36391 captain_578_23
+ + 1.39455 captain_578_24 + 1.42484 captain_578_25 + 1.49375 captain_578_26
+ + 2.94406 captain_579_23 + 2.66219 captain_579_24 + 3.15357 captain_579_25
+ + 3.11807 captain_579_26 + 3.02657 captain_580_23 + 3.12386 captain_580_24
+ + 3.05795 captain_580_25 + 2.97973 captain_580_26 + 1.83225 captain_581_23
+ + 1.70389 captain_581_24 + 1.65491 captain_581_25 + 1.13586 captain_581_26
+ + 1.99172 captain_582_23 + 2.21189 captain_582_24 + 2.23472 captain_582_25
+ + 1.75223 captain_586_23 + 1.98219 captain_586_24 + 2.04455 captain_586_25
+ + 1.66473 captain_587_23 + 1.79553 captain_587_24 + 1.81801 captain_587_25
+ + 1.81338 captain_587_26 + 2.44389 captain_588_23 + 1.89557 captain_588_24
+ + 2.96676 captain_588_25 + 2.30262 captain_588_26 + 2.36314 captain_58_23
+ + 2.43704 captain_58_24 + 2.37437 captain_58_25 + 2.57235 captain_58_26
+ + 4.1753 captain_590_23 + 4.2017 captain_590_24 + 4.36695 captain_590_25
+ + 4.38973 captain_590_26 + 4.00243 captain_591_23 + 4.44768 captain_591_24
+ + 4.06002 captain_591_25 + 4.09212 captain_591_26 + 1.95496 captain_592_23
+ + 1.8408 captain_592_24 + 1.86247 captain_592_25 + 2.20268 captain_592_26
+ + 3.67895 captain_594_23 + 2.90484 captain_594_24 + 2.98483 captain_594_25
+ + 3.03474 captain_594_26 + 2.82308 captain_595_23 + 2.55867 captain_595_24
+ + 2.03565 captain_595_25 + 2.02173 captain_595_26 + 4.11451 captain_596_23
+ + 3.82808 captain_596_24 + 3.45898 captain_596_25 + 3.72025 captain_596_26
+ + 3.97956 captain_597_23 + 3.50696 captain_597_24 + 3.70145 captain_597_25
+ + 4.06365 captain_597_26 + 1.61513 captain_598_23 + 2.25631 captain_598_24
+ + 1.83397 captain_598_25 + 2.62018 captain_598_26 + 4.23981 captain_599_23
+ + 4.31406 captain_599_24 + 4.06366 captain_599_25 + 4.43709 captain_599_26
+ + 1.54329 captain_59_23 + 1.56021 captain_59_24 + 1.50094 captain_59_25
+ + 1.58708 captain_59_26 + 3.98708 captain_5_23 + 4.02074 captain_5_24
+ + 4.88448 captain_5_25 + 4.30693 captain_5_26 + 2.66914 captain_601_23
+ + 2.46069 captain_601_24 + 2.83458 captain_601_25 + 2.73814 captain_601_26
+ + 1.56656 captain_602_23 + 2.45971 captain_602_24 + 2.12509 captain_602_25
+ + 2.74698 captain_603_23 + 2.82355 captain_603_24 + 2.98556 captain_603_25
+ + 2.53095 captain_603_26 + 2.69506 captain_604_23 + 2.69756 captain_604_24
+ + 2.81129 captain_604_25 + 2.37069 captain_604_26 + 2.53303 captain_606_23
+ + 1.94479 captain_606_24 + 2.26558 captain_606_25 + 2.67286 captain_606_26
+ + 3.55678 captain_607_23 + 3.30272 captain_607_24 + 3.1531 captain_607_25
+ + 3.33942 captain_607_26 + 2.07724 captain_608_23 + 1.86932 captain_608_24
+ + 1.97499 captain_608_25 + 1.99513 captain_608_26 + 5.13138 captain_60_23
+ + 5.07543 captain_60_24 + 5.15489 captain_60_25 + 6.09387 captain_60_26
+ + 2.80338 captain_610_23 + 2.75237 captain_610_24 + 2.5301 captain_610_25
+ + 2.29665 captain_610_26 + 3.20849 captain_611_23 + 3.26772 captain_611_24
+ + 2.34202 captain_611_25 + 3.37972 captain_614_23 + 3.6861 captain_614_24
+ + 3.74609 captain_614_25 + 1.4732 captain_615_23 + 1.58839 captain_615_24
+ + 1.60825 captain_615_25 + 1.70925 captain_615_26 + 3.2052 captain_616_23
+ + 3.87929 captain_616_24 + 6.784 captain_616_25 + 3.5641 captain_616_26
+ + 3.33885 captain_617_23 + 3.11886 captain_617_24 + 3.25371 captain_617_25
+ + 3.75372 captain_617_26 + 1.2321 captain_618_23 + 1.24369 captain_618_24
+ + 1.2031 captain_618_25 + 1.26209 captain_618_26 + 1.76752 captain_619_23
+ + 1.55541 captain_619_24 + 1.13586 captain_619_25 + 1.12469 captain_619_26
+ + 1.0811 captain_620_23 + 1.14088 captain_620_24 + 2.26577 captain_620_25
+ + 1.15677 captain_620_26 + 2.62541 captain_621_23 + 2.52395 captain_621_24
+ + 2.6524 captain_621_25 + 2.75737 captain_621_26 + 1.12794 captain_622_23
+ + 1.7441 captain_622_24 + 1.86842 captain_622_25 + 2.11724 captain_622_26
+ + 1.49733 captain_623_23 + 1.41911 captain_623_24 + 1.32563 captain_623_25
+ + 1.2347 captain_624_23 + 1.17305 captain_624_24 + 1.29071 captain_624_25
+ + 1.28188 captain_624_26 + 1.74308 captain_625_23 + 1.67861 captain_625_24
+ + 1.50459 captain_625_25 + 1.33457 captain_625_26 + 1.3815 captain_626_23
+ + 2.09627 captain_626_24 + 1.69663 captain_626_25 + 1.01618 captain_627_23
+ + 1.14773 captain_627_24 + 1.15339 captain_627_25 + 1.11054 captain_629_23
+ + 1.1997 captain_629_24 + 1.16727 captain_629_25 + 1.94176 captain_62_23
  + 2.10404 captain_62_24 + 2.02574 captain_62_25 + 1.90016 captain_62_26
- + 3.07537 captain_630_23 + 3.33554 captain_630_24 + 3.32732 captain_630_25
- + 2.97536 captain_630_26 + 2.57933 captain_631_23 + 2.72741 captain_631_24
- + 2.61177 captain_631_25 + 2.35252 captain_631_26 + 1.2343 captain_632_23
- + 1.16214 captain_632_24 + 1.22875 captain_632_25 + 1.27703 captain_632_26
- + 2.74956 captain_633_23 + 2.61798 captain_633_24 + 2.65458 captain_633_25
- + 1.95059 captain_633_26 + 1.83673 captain_634_23 + 1.67176 captain_634_24
- + 1.65988 captain_634_25 + 1.14226 captain_634_26 + 2.35201 captain_635_23
- + 2.41565 captain_635_24 + 2.57303 captain_635_25 + 2.2549 captain_635_26
- + 3.10764 captain_636_23 + 2.91635 captain_636_24 + 3.27944 captain_636_25
- + 2.90433 captain_636_26 + 1.57265 captain_637_23 + 1.59744 captain_637_24
- + 1.64915 captain_637_25 + 1.28458 captain_637_26 + 2.60267 captain_638_23
- + 2.71485 captain_638_24 + 2.70727 captain_638_25 + 2.675 captain_638_26
- + 2.67157 captain_639_23 + 2.59912 captain_639_24 + 3.02022 captain_639_25
- + 2.21728 captain_639_26 + 3.25808 captain_63_23 + 3.15939 captain_63_24
- + 3.08693 captain_63_25 + 3.11233 captain_63_26 + 1.74536 captain_641_26
- + 2.55331 captain_642_23 + 2.55517 captain_642_24 + 2.67302 captain_642_25
- + 2.66771 captain_642_26 + 2.96672 captain_643_23 + 2.69674 captain_643_24
- + 2.15527 captain_643_25 + 2.15223 captain_643_26 + 2.14499 captain_644_23
- + 1.99613 captain_644_24 + 1.94591 captain_644_25 + 1.96471 captain_644_26
- + 1.6398 captain_645_23 + 1.50194 captain_645_24 + 1.60603 captain_645_25
- + 1.61292 captain_645_26 + 2.91154 captain_646_23 + 2.84458 captain_646_24
- + 3.0962 captain_646_25 + 2.91635 captain_646_26 + 3.15603 captain_647_23
- + 2.86091 captain_647_24 + 3.11003 captain_647_25 + 2.9285 captain_647_26
- + 1.40395 captain_649_23 + 1.32471 captain_649_24 + 1.44539 captain_649_25
- + 1.38516 captain_649_26 + 2.2992 captain_64_23 + 2.1983 captain_64_24
- + 2.1105 captain_64_25 + 2.09013 captain_64_26 + 1.10602 captain_650_23
- + 1.04015 captain_650_24 + 1.11518 captain_650_25 + 1.09064 captain_650_26
- + 1.20241 captain_652_23 + 1.27665 captain_652_24 + 1.1968 captain_652_25
- + 1.19905 captain_652_26 + 1.50459 captain_653_23 + 1.41605 captain_653_24
- + 1.37866 captain_653_25 + 1.64052 captain_653_26 + 1.53287 captain_654_23
- + 1.42288 captain_654_24 + 1.5892 captain_654_25 + 1.47666 captain_654_26
- + 1.7768 captain_655_23 + 1.83904 captain_655_24 + 1.81338 captain_655_25
- + 1.77387 captain_655_26 + 1.28477 captain_656_23 + 1.30172 captain_656_24
- + 1.29781 captain_656_25 + 1.30559 captain_656_26 + 1.2452 captain_657_23
- + 1.27092 captain_657_24 + 1.25369 captain_657_25 + 1.307 captain_657_26
- + 1.44636 captain_658_23 + 1.46622 captain_658_24 + 1.57687 captain_658_25
- + 1.54499 captain_658_26 + 2.97958 captain_659_23 + 3.0867 captain_659_24
- + 2.66085 captain_659_25 + 2.94406 captain_659_26 + 3.4111 captain_65_23
- + 3.24099 captain_65_24 + 3.12341 captain_65_25 + 3.11598 captain_65_26
- + 2.70494 captain_660_23 + 2.36625 captain_660_24 + 2.48608 captain_660_25
- + 2.47384 captain_660_26 + 3.88136 captain_661_23 + 3.46817 captain_661_24
- + 3.98379 captain_661_25 + 3.86048 captain_661_26 + 1.61346 captain_662_23
- + 1.73704 captain_662_24 + 1.60413 captain_662_25 + 1.60788 captain_662_26
- + 3.17244 captain_663_23 + 3.29886 captain_663_24 + 3.25637 captain_663_25
- + 3.19301 captain_663_26 + 5.06751 captain_664_23 + 4.99614 captain_664_24
- + 5.24092 captain_664_25 + 5.1595 captain_664_26 + 3.12858 captain_665_23
- + 3.42817 captain_665_24 + 3.4787 captain_665_25 + 3.36285 captain_665_26
- + 1.1633 captain_666_23 + 1.20073 captain_666_24 + 1.18514 captain_666_25
- + 1.16304 captain_666_26 + 2.12961 captain_668_23 + 2.37416 captain_668_24
- + 2.27974 captain_668_25 + 2.27064 captain_668_26 + 3.29032 captain_669_23
- + 2.91397 captain_669_24 + 3.09585 captain_669_25 + 3.3561 captain_669_26
- + 2.6632 captain_66_23 + 2.5211 captain_66_24 + 2.42896 captain_66_25
- + 2.43167 captain_66_26 + 1.97156 captain_671_23 + 1.82682 captain_671_24
- + 1.13358 captain_671_25 + 1.57288 captain_671_26 + 2.095 captain_672_23
- + 2.19531 captain_672_24 + 2.13189 captain_672_25 + 2.31848 captain_672_26
- + 1.62303 captain_673_26 + 1.9658 captain_674_23 + 1.22764 captain_674_24
- + 1.69138 captain_674_25 + 1.92473 captain_674_26 + 1.99056 captain_675_23
- + 1.81033 captain_675_24 + 1.91292 captain_675_25 + 1.90195 captain_675_26
- + 2.12075 captain_676_23 + 2.27375 captain_676_24 + 2.66002 captain_676_25
- + 2.60993 captain_676_26 + 1.51036 captain_677_23 + 1.39289 captain_677_24
- + 1.36433 captain_677_25 + 1.49654 captain_677_26 + 3.80235 captain_678_23
- + 3.97668 captain_678_24 + 7.69315 captain_678_25 + 3.82592 captain_678_26
- + 2.64402 captain_679_23 + 2.62551 captain_679_24 + 2.642 captain_679_25
- + 2.08833 captain_679_26 + 1.45946 captain_681_23 + 1.41859 captain_681_24
- + 1.3414 captain_681_25 + 1.45278 captain_681_26 + 1.14614 captain_682_23
- + 1.95626 captain_682_24 + 1.60312 captain_682_25 + 0.98654 captain_682_26
- + 1.19487 captain_684_23 + 1.23122 captain_684_24 + 2.38822 captain_684_25
- + 1.22904 captain_684_26 + 1.19679 captain_685_23 + 1.15786 captain_685_24
- + 1.2177 captain_685_25 + 1.26107 captain_685_26 + 3.37762 captain_687_23
- + 3.50573 captain_687_24 + 2.99642 captain_687_25 + 3.33514 captain_687_26
- + 3.48593 captain_688_23 + 3.46851 captain_688_24 + 3.22514 captain_688_25
- + 2.96671 captain_688_26 + 3.30301 captain_689_23 + 3.2808 captain_689_24
- + 3.44448 captain_689_25 + 3.43598 captain_689_26 + 1.71554 captain_690_23
- + 1.69363 captain_690_24 + 1.76013 captain_690_25 + 1.78388 captain_690_26
- + 2.40528 captain_691_23 + 2.2548 captain_691_24 + 2.46198 captain_691_25
- + 2.49608 captain_691_26 + 3.12732 captain_692_23 + 3.08869 captain_692_24
- + 3.06062 captain_692_25 + 3.18775 captain_692_26 + 2.1742 captain_694_23
- + 1.89736 captain_694_24 + 1.98753 captain_694_25 + 1.9748 captain_694_26
- + 3.3124 captain_695_23 + 2.93354 captain_695_24 + 3.11664 captain_695_25
- + 3.37862 captain_695_26 + 3.11839 captain_696_23 + 3.20759 captain_696_24
- + 3.32299 captain_696_25 + 2.75247 captain_696_26 + 1.91702 captain_697_23
- + 2.53185 captain_697_24 + 2.06727 captain_697_25 + 2.91056 captain_697_26
- + 1.96479 captain_698_23 + 2.08663 captain_698_24 + 2.01531 captain_698_25
- + 2.11482 captain_698_26 + 2.77834 captain_699_23 + 2.99216 captain_699_24
- + 2.98168 captain_699_25 + 3.37367 captain_699_26 + 1.87194 captain_69_23
- + 1.67293 captain_69_24 + 1.28379 captain_69_25 + 1.29352 captain_69_26
- + 3.53861 captain_6_23 + 3.57196 captain_6_24 + 3.66333 captain_6_25
- + 3.98554 captain_6_26 + 2.89185 captain_700_25 + 2.94474 captain_700_26
- + 1.80414 captain_701_23 + 1.86787 captain_701_24 + 3.60396 captain_701_25
- + 1.86597 captain_701_26 + 2.25879 captain_703_23 + 1.90449 captain_703_24
- + 2.08194 captain_703_25 + 2.45916 captain_703_26 + 1.2847 captain_704_23
- + 1.30871 captain_704_24 + 1.37534 captain_704_25 + 1.42997 captain_704_26
- + 2.34567 captain_705_23 + 2.27537 captain_705_24 + 2.22188 captain_705_25
- + 2.2389 captain_705_26 + 2.16522 captain_706_23 + 1.98475 captain_706_24
- + 2.12407 captain_706_25 + 2.13957 captain_706_26 + 2.30799 captain_707_23
- + 2.26256 captain_707_24 + 2.0528 captain_707_25 + 1.84786 captain_707_26
- + 2.07056 captain_708_23 + 2.36206 captain_708_24 + 2.3392 captain_708_25
- + 2.35928 captain_708_26 + 2.16517 captain_709_23 + 2.01963 captain_709_24
- + 2.15397 captain_709_25 + 2.25135 captain_709_26 + 2.68652 captain_70_23
- + 2.42678 captain_70_24 + 1.91826 captain_70_25 + 1.93164 captain_70_26
- + 3.50983 captain_710_23 + 3.28469 captain_710_24 + 3.71205 captain_710_25
- + 3.27054 captain_710_26 + 2.5279 captain_711_23 + 2.57858 captain_711_24
- + 2.66687 captain_711_25 + 2.17381 captain_711_26 + 2.73805 captain_712_23
- + 2.89144 captain_712_24 + 2.79907 captain_712_25 + 2.60288 captain_712_26
- + 2.42462 captain_713_23 + 2.56355 captain_713_24 + 2.48804 captain_713_25
- + 2.30179 captain_713_26 + 1.68532 captain_714_23 + 1.82605 captain_714_24
- + 1.77087 captain_714_25 + 1.66341 captain_714_26 + 1.93095 captain_715_23
- + 2.11259 captain_715_24 + 2.09268 captain_715_25 + 2.21908 captain_715_26
- + 1.42952 captain_716_23 + 1.51986 captain_716_24 + 1.02424 captain_716_25
- + 1.41659 captain_716_26 + 1.40159 captain_717_23 + 1.29663 captain_717_24
- + 1.2711 captain_717_25 + 1.38924 captain_717_26 + 1.26733 captain_719_23
- + 1.17797 captain_719_24 + 1.27977 captain_719_25 + 1.24646 captain_719_26
- + 1.27396 captain_71_23 + 1.21595 captain_71_24 + 1.176 captain_71_25
- + 1.17215 captain_71_26 + 1.38702 captain_720_23 + 1.333 captain_720_24
- + 1.51106 captain_720_25 + 1.51626 captain_720_26 + 1.11714 captain_721_23
- + 1.1565 captain_721_24 + 1.16033 captain_721_25 + 1.22252 captain_721_26
- + 1.45481 captain_722_23 + 1.36298 captain_722_24 + 1.37452 captain_722_25
- + 1.2954 captain_722_26 + 1.73643 captain_723_23 + 1.72274 captain_723_24
- + 1.08203 captain_723_25 + 1.48902 captain_723_26 + 1.27051 captain_724_23
- + 1.29659 captain_724_24 + 1.27911 captain_724_25 + 1.33318 captain_724_26
- + 1.18762 captain_725_23 + 1.72548 captain_725_24 + 2.46486 captain_725_25
- + 1.42941 captain_725_26 + 1.24516 captain_726_23 + 1.94653 captain_726_24
- + 1.53948 captain_726_25 + 1.96481 captain_726_26 + 2.80568 captain_727_23
- + 3.07802 captain_727_24 + 3.12806 captain_727_25 + 2.83718 captain_727_26
- + 1.22862 captain_728_23 + 1.94653 captain_728_24 + 1.52823 captain_728_25
- + 1.96481 captain_728_26 + 1.26992 captain_729_23 + 1.34906 captain_729_24
- + 1.35377 captain_729_25 + 1.24985 captain_729_26 + 2.89136 captain_72_23
- + 2.71902 captain_72_24 + 2.61529 captain_72_25 + 2.60044 captain_72_26
- + 1.25264 captain_730_23 + 1.28292 captain_730_24 + 1.2703 captain_730_25
- + 1.25243 captain_730_26 + 1.59879 captain_731_23 + 1.50794 captain_731_24
- + 1.46958 captain_731_25 + 1.73825 captain_731_26 + 1.8566 captain_732_23
- + 1.79023 captain_732_24 + 1.6111 captain_732_25 + 1.43608 captain_732_26
- + 1.23191 captain_733_23 + 1.77698 captain_733_24 + 2.55465 captain_733_25
- + 1.47695 captain_733_26 + 1.2946 captain_734_23 + 1.37484 captain_734_24
- + 1.37961 captain_734_25 + 1.27425 captain_734_26 + 1.33063 captain_735_23
- + 1.32655 captain_735_24 + 1.33513 captain_735_25 + 1.40102 captain_735_26
- + 1.41924 captain_736_23 + 1.47695 captain_736_24 + 1.88325 captain_736_25
- + 1.73233 captain_736_26 + 1.33063 captain_737_23 + 1.32655 captain_737_24
- + 1.33513 captain_737_25 + 1.40102 captain_737_26 + 1.22825 captain_738_23
- + 1.24303 captain_738_24 + 1.28246 captain_738_25 + 1.17917 captain_738_26
- + 1.66454 captain_739_23 + 1.42492 captain_739_24 + 1.40055 captain_739_25
- + 1.29006 captain_739_26 + 2.28939 captain_73_23 + 2.50781 captain_73_24
- + 2.40076 captain_73_25 + 2.23534 captain_73_26 + 1.53735 captain_740_23
- + 1.50561 captain_740_24 + 1.80072 captain_740_25 + 1.2852 captain_740_26
- + 1.43492 captain_741_23 + 1.4819 captain_741_24 + 1.49407 captain_741_25
- + 1.50777 captain_741_26 + 1.22817 captain_742_23 + 1.2288 captain_742_24
- + 1.29042 captain_742_25 + 1.32911 captain_742_26 + 1.27803 captain_743_23
- + 1.38449 captain_743_24 + 1.34714 captain_743_25 + 1.34317 captain_743_26
- + 1.22588 captain_744_23 + 1.2774 captain_744_24 + 2.49159 captain_744_25
- + 1.27554 captain_744_26 + 1.57818 captain_745_23 + 1.35954 captain_745_24
- + 1.3373 captain_745_25 + 1.23648 captain_745_26 + 1.89514 captain_746_23
- + 1.40013 captain_746_24 + 1.61264 captain_746_25 + 1.93845 captain_746_26
- + 1.36771 captain_747_23 + 1.33722 captain_747_24 + 1.38016 captain_747_25
- + 1.39549 captain_747_26 + 1.32416 captain_749_23 + 1.38668 captain_749_24
- + 1.35008 captain_749_25 + 1.40114 captain_749_26 + 1.15187 captain_74_23
- + 1.09794 captain_74_24 + 1.06079 captain_74_25 + 1.05721 captain_74_26
- + 1.22102 captain_750_23 + 1.30228 captain_750_24 + 1.29385 captain_750_25
- + 1.36474 captain_750_26 + 1.29659 captain_751_23 + 1.7811 captain_751_24
- + 1.40001 captain_751_25 + 2.09175 captain_751_26 + 3.18869 captain_752_23
- + 3.29957 captain_752_24 + 5.84908 captain_752_25 + 2.9858 captain_752_26
- + 1.9088 captain_753_23 + 1.41211 captain_753_24 + 1.62534 captain_753_25
- + 1.95225 captain_753_26 + 1.35457 captain_754_23 + 1.37512 captain_754_24
- + 1.39818 captain_754_25 + 1.32416 captain_754_26 + 1.394 captain_755_23
- + 1.36308 captain_755_24 + 1.40661 captain_755_25 + 1.42216 captain_755_26
- + 1.61653 captain_757_23 + 2.49469 captain_757_24 + 1.91969 captain_757_25
- + 2.43805 captain_757_26 + 1.41151 captain_758_23 + 1.35214 captain_758_24
- + 1.28571 captain_758_25 + 1.38077 captain_758_26 + 1.32439 captain_759_23
- + 1.3552 captain_759_24 + 1.34236 captain_759_25 + 1.32418 captain_759_26
- + 2.37087 captain_75_23 + 2.12829 captain_75_24 + 1.66677 captain_75_25
- + 1.66455 captain_75_26 + 1.4074 captain_760_23 + 1.311 captain_760_24
- + 1.42082 captain_760_25 + 1.38489 captain_760_26 + 1.61244 captain_761_23
- + 1.19154 captain_761_24 + 1.95061 captain_761_25 + 1.48851 captain_761_26
- + 1.42647 captain_762_23 + 1.46319 captain_762_24 + 2.86668 captain_762_25
- + 1.42832 captain_762_26 + 1.48851 captain_763_23 + 1.49607 captain_763_24
- + 1.60041 captain_763_25 + 2.05816 captain_763_26 + 1.39583 captain_764_23
- + 1.3916 captain_764_24 + 1.40049 captain_764_25 + 1.4687 captain_764_26
- + 3.21874 captain_765_23 + 3.36042 captain_765_24 + 3.15719 captain_765_25
- + 3.41032 captain_765_26 + 1.95683 captain_766_23 + 1.61912 captain_766_24
- + 1.75358 captain_766_25 + 2.08473 captain_766_26 + 1.44731 captain_767_23
- + 1.46033 captain_767_24 + 1.41627 captain_767_25 + 1.481 captain_767_26
- + 1.86714 captain_768_23 + 1.48149 captain_768_24 + 1.62055 captain_768_25
- + 1.96305 captain_768_26 + 2.41693 captain_76_23 + 2.07913 captain_76_24
- + 2.08019 captain_76_25 + 1.91001 captain_76_26 + 1.3762 captain_770_23
- + 1.44048 captain_770_24 + 1.40285 captain_770_25 + 1.45536 captain_770_26
- + 1.44016 captain_771_23 + 1.47715 captain_771_24 + 2.89417 captain_771_25
- + 1.44202 captain_771_26 + 1.42284 captain_772_23 + 1.41855 captain_772_24
- + 1.42756 captain_772_25 + 1.49674 captain_772_26 + 1.43748 captain_773_23
- + 1.42558 captain_773_24 + 1.47054 captain_773_25 + 1.46821 captain_773_26
- + 1.56019 captain_774_23 + 1.64411 captain_774_24 + 1.93978 captain_774_25
- + 1.877 captain_774_26 + 3.31874 captain_775_23 + 3.41742 captain_775_24
- + 3.33931 captain_775_25 + 3.23954 captain_775_26 + 3.9474 captain_776_23
- + 3.67981 captain_776_24 + 3.71508 captain_776_25 + 3.48474 captain_776_26
- + 2.22271 captain_777_23 + 2.2122 captain_777_24 + 2.62023 captain_777_25
- + 1.99025 captain_777_26 + 3.26691 captain_778_23 + 3.4107 captain_778_24
- + 3.20445 captain_778_25 + 3.46133 captain_778_26 + 1.46986 captain_779_23
- + 1.52535 captain_779_24 + 1.49178 captain_779_25 + 1.40899 captain_779_26
- + 3.81352 captain_77_23 + 3.51231 captain_77_24 + 3.37526 captain_77_25
- + 3.57754 captain_77_26 + 1.54729 captain_780_23 + 1.66894 captain_780_24
- + 1.62124 captain_780_25 + 1.52836 captain_780_26 + 1.54729 captain_781_23
- + 1.66894 captain_781_24 + 1.62124 captain_781_25 + 1.52836 captain_781_26
- + 1.85248 captain_782_23 + 2.8169 captain_782_24 + 2.31205 captain_782_25
- + 2.91268 captain_782_26 + 1.17614 captain_783_23 + 1.28148 captain_783_24
- + 1.28108 captain_783_25 + 1.30524 captain_783_26 + 1.5733 captain_784_23
- + 1.65752 captain_784_24 + 1.95424 captain_784_25 + 1.89124 captain_784_26
- + 1.49784 captain_785_23 + 1.45921 captain_785_24 + 1.55673 captain_785_25
- + 1.51673 captain_785_26 + 1.4761 captain_786_23 + 1.44384 captain_786_24
- + 1.48926 captain_786_25 + 1.50548 captain_786_26 + 1.41662 captain_787_23
- + 1.48228 captain_787_24 + 1.44384 captain_787_25 + 1.49747 captain_787_26
- + 1.39305 captain_788_23 + 1.89124 captain_788_24 + 1.49939 captain_788_25
- + 2.21066 captain_788_26 + 2.3622 captain_78_23 + 2.23168 captain_78_24
- + 2.15159 captain_78_25 + 2.14207 captain_78_26 + 1.67341 captain_7_23
- + 1.68162 captain_7_24 + 1.79492 captain_7_25 + 2.29197 captain_7_26
- + 3.23627 captain_80_23 + 2.99598 captain_80_24 + 2.88665 captain_80_25
- + 3.04801 captain_80_26 + 2.75257 captain_82_23 + 2.4055 captain_82_24
+ + 3.27083 captain_630_23 + 3.55714 captain_630_24 + 3.50556 captain_630_25
+ + 2.5341 captain_631_23 + 2.65025 captain_631_24 + 2.56669 captain_631_25
+ + 1.2343 captain_632_23 + 1.16996 captain_632_24 + 1.22061 captain_632_25
+ + 1.27703 captain_632_26 + 2.57845 captain_633_23 + 2.52833 captain_633_24
+ + 2.54336 captain_633_25 + 1.88279 captain_633_26 + 1.82462 captain_634_23
+ + 1.69698 captain_634_24 + 1.64827 captain_634_25 + 1.13214 captain_634_26
+ + 2.34903 captain_635_23 + 2.43404 captain_635_24 + 2.59626 captain_635_25
+ + 2.29022 captain_635_26 + 3.10764 captain_636_23 + 2.90462 captain_636_24
+ + 3.27944 captain_636_25 + 2.91095 captain_636_26 + 1.57265 captain_637_23
+ + 1.56383 captain_637_24 + 1.64915 captain_637_25 + 1.32984 captain_637_26
+ + 2.70382 captain_638_23 + 2.7934 captain_638_24 + 2.79324 captain_638_25
+ + 2.75837 captain_638_26 + 2.59686 captain_639_23 + 2.54831 captain_639_24
+ + 2.99043 captain_639_25 + 3.25808 captain_63_23 + 3.15412 captain_63_24
+ + 3.08693 captain_63_25 + 3.11233 captain_63_26 + 1.61332 captain_640_23
+ + 1.53919 captain_640_24 + 1.5225 captain_640_25 + 2.55331 captain_642_23
+ + 2.54279 captain_642_24 + 2.68138 captain_642_25 + 2.68229 captain_642_26
+ + 2.14499 captain_644_23 + 1.9928 captain_644_24 + 1.94591 captain_644_25
+ + 1.96471 captain_644_26 + 1.62698 captain_645_23 + 1.48311 captain_645_24
+ + 1.59333 captain_645_25 + 1.60019 captain_645_26 + 2.91154 captain_646_23
+ + 2.84458 captain_646_24 + 3.0962 captain_646_25 + 2.90462 captain_646_26
+ + 3.15603 captain_647_23 + 2.85201 captain_647_24 + 3.12386 captain_647_25
+ + 2.9339 captain_647_26 + 1.40395 captain_649_23 + 1.32471 captain_649_24
+ + 1.44539 captain_649_25 + 1.38516 captain_649_26 + 2.2992 captain_64_23
+ + 2.19467 captain_64_24 + 2.1105 captain_64_25 + 2.09013 captain_64_26
+ + 1.09565 captain_650_23 + 1.02971 captain_650_24 + 1.10476 captain_650_25
+ + 1.08035 captain_650_26 + 1.20241 captain_652_23 + 1.27665 captain_652_24
+ + 1.1968 captain_652_25 + 1.19905 captain_652_26 + 1.50459 captain_653_23
+ + 1.38431 captain_653_24 + 1.37836 captain_653_25 + 1.64052 captain_653_26
+ + 1.53287 captain_654_23 + 1.42288 captain_654_24 + 1.5892 captain_654_25
+ + 1.47666 captain_654_26 + 1.69525 captain_655_23 + 1.76112 captain_655_24
+ + 1.76214 captain_655_25 + 1.74359 captain_655_26 + 1.27539 captain_656_23
+ + 1.28807 captain_656_24 + 1.31425 captain_656_25 + 1.29617 captain_656_26
+ + 1.23337 captain_657_23 + 1.26127 captain_657_24 + 1.2418 captain_657_25
+ + 1.2968 captain_657_26 + 1.44636 captain_658_23 + 1.46622 captain_658_24
+ + 1.57687 captain_658_25 + 1.54499 captain_658_26 + 2.97958 captain_659_23
+ + 3.04851 captain_659_24 + 2.66219 captain_659_25 + 3.4111 captain_65_23
+ + 3.236 captain_65_24 + 3.12341 captain_65_25 + 3.11598 captain_65_26
+ + 2.71559 captain_660_23 + 2.37785 captain_660_24 + 2.50086 captain_660_25
+ + 2.50407 captain_660_26 + 3.82935 captain_661_23 + 3.42827 captain_661_24
+ + 3.96121 captain_661_25 + 3.85269 captain_661_26 + 1.58253 captain_662_23
+ + 1.70414 captain_662_24 + 1.57335 captain_662_25 + 1.57704 captain_662_26
+ + 3.10802 captain_663_23 + 3.22152 captain_663_24 + 3.21981 captain_663_25
+ + 3.18382 captain_663_26 + 5.06751 captain_664_23 + 4.96289 captain_664_24
+ + 5.26339 captain_664_25 + 5.19867 captain_664_26 + 3.11661 captain_665_23
+ + 3.40818 captain_665_24 + 3.46526 captain_665_25 + 1.15231 captain_666_23
+ + 1.18002 captain_666_24 + 1.17138 captain_666_25 + 1.15206 captain_666_26
+ + 2.08817 captain_668_23 + 2.33336 captain_668_24 + 2.23556 captain_668_25
+ + 3.29032 captain_669_23 + 2.91397 captain_669_24 + 3.09585 captain_669_25
+ + 3.3561 captain_669_26 + 2.6632 captain_66_23 + 2.51729 captain_66_24
+ + 2.42896 captain_66_25 + 2.43167 captain_66_26 + 1.97156 captain_671_23
+ + 1.82682 captain_671_24 + 1.13358 captain_671_25 + 1.85664 captain_672_23
+ + 1.98831 captain_672_24 + 1.95823 captain_672_25 + 2.17469 captain_672_26
+ + 1.62303 captain_673_26 + 1.95108 captain_674_23 + 1.21056 captain_674_24
+ + 1.67774 captain_674_25 + 1.89447 captain_674_26 + 1.84718 captain_675_23
+ + 1.69639 captain_675_24 + 1.81423 captain_675_25 + 1.83097 captain_675_26
+ + 2.12075 captain_676_23 + 2.27387 captain_676_24 + 2.7076 captain_676_25
+ + 2.62239 captain_676_26 + 1.49892 captain_677_23 + 1.37374 captain_677_24
+ + 1.34713 captain_677_25 + 3.59803 captain_678_23 + 3.84969 captain_678_24
+ + 7.48423 captain_678_25 + 3.75013 captain_678_26 + 2.67136 captain_679_23
+ + 2.61055 captain_679_24 + 2.69104 captain_679_25 + 2.21614 captain_679_26
+ + 1.45946 captain_681_23 + 1.41859 captain_681_24 + 1.3414 captain_681_25
+ + 1.13586 captain_682_23 + 1.9137 captain_682_24 + 1.5914 captain_682_25
+ + 1.18345 captain_684_23 + 1.21956 captain_684_24 + 2.3648 captain_684_25
+ + 1.21739 captain_684_26 + 1.19679 captain_685_23 + 1.15786 captain_685_24
+ + 1.2177 captain_685_25 + 1.26107 captain_685_26 + 3.42205 captain_687_23
+ + 3.50707 captain_687_24 + 3.03055 captain_687_25 + 3.42791 captain_688_23
+ + 3.42815 captain_688_24 + 3.20184 captain_688_25 + 2.96049 captain_688_26
+ + 3.30301 captain_689_23 + 3.26096 captain_689_24 + 3.45789 captain_689_25
+ + 3.45935 captain_689_26 + 1.52915 captain_690_23 + 1.52733 captain_690_24
+ + 1.62237 captain_690_25 + 1.68546 captain_690_26 + 2.44729 captain_691_23
+ + 2.27874 captain_691_24 + 2.50063 captain_691_25 + 2.53423 captain_691_26
+ + 3.11684 captain_692_23 + 3.07834 captain_692_24 + 3.05036 captain_692_25
+ + 3.17707 captain_692_26 + 1.9684 captain_694_23 + 1.73577 captain_694_24
+ + 1.84001 captain_694_25 + 1.85924 captain_694_26 + 3.3124 captain_695_23
+ + 2.94022 captain_695_24 + 3.09339 captain_695_25 + 3.37862 captain_695_26
+ + 3.04409 captain_696_23 + 3.09782 captain_696_24 + 3.28538 captain_696_25
+ + 2.81085 captain_696_26 + 1.91702 captain_697_23 + 2.54453 captain_697_24
+ + 2.04762 captain_697_25 + 2.87299 captain_697_26 + 1.96479 captain_698_23
+ + 2.09863 captain_698_24 + 2.00694 captain_698_25 + 2.12936 captain_698_26
+ + 2.81866 captain_699_23 + 3.0432 captain_699_24 + 3.05317 captain_699_25
+ + 3.44479 captain_699_26 + 3.22803 captain_6_23 + 3.31092 captain_6_24
+ + 3.44943 captain_6_25 + 3.78918 captain_6_26 + 2.79343 captain_700_23
+ + 2.67573 captain_700_24 + 2.83556 captain_700_25 + 2.9228 captain_700_26
+ + 1.76913 captain_701_23 + 1.83177 captain_701_24 + 3.53292 captain_701_25
+ + 1.82994 captain_701_26 + 2.25879 captain_703_23 + 1.95428 captain_703_24
+ + 2.04702 captain_703_25 + 2.45916 captain_703_26 + 1.2847 captain_704_23
+ + 1.31826 captain_704_24 + 1.39687 captain_704_25 + 1.41352 captain_704_26
+ + 2.34567 captain_705_23 + 2.27169 captain_705_24 + 2.22188 captain_705_25
+ + 2.2389 captain_705_26 + 2.14286 captain_706_23 + 1.96034 captain_706_24
+ + 2.09371 captain_706_25 + 2.11399 captain_706_26 + 2.27206 captain_707_23
+ + 2.2273 captain_707_24 + 2.01933 captain_707_25 + 1.81614 captain_707_26
+ + 2.04887 captain_708_23 + 2.34302 captain_708_24 + 2.31623 captain_708_25
+ + 2.16517 captain_709_23 + 2.0354 captain_709_24 + 2.13756 captain_709_25
+ + 2.25135 captain_709_26 + 2.68652 captain_70_23 + 2.43773 captain_70_24
+ + 1.91826 captain_70_25 + 1.93164 captain_70_26 + 3.49561 captain_710_23
+ + 3.25767 captain_710_24 + 3.69696 captain_710_25 + 3.26509 captain_710_26
+ + 2.52333 captain_711_23 + 2.54274 captain_711_24 + 2.6935 captain_711_25
+ + 2.27967 captain_711_26 + 2.64383 captain_712_23 + 2.80652 captain_712_24
+ + 2.75017 captain_712_25 + 2.60337 captain_712_26 + 2.37727 captain_713_23
+ + 2.50399 captain_713_24 + 2.43984 captain_713_25 + 2.27666 captain_713_26
+ + 1.93095 captain_715_23 + 2.1245 captain_715_24 + 2.08437 captain_715_25
+ + 2.23351 captain_715_26 + 1.41807 captain_716_23 + 1.49409 captain_716_24
+ + 1.04611 captain_716_25 + 1.39124 captain_717_23 + 1.2793 captain_717_24
+ + 1.25551 captain_717_25 + 1.25535 captain_719_23 + 1.16599 captain_719_24
+ + 1.2677 captain_719_25 + 1.23462 captain_719_26 + 1.27396 captain_71_23
+ + 1.21457 captain_71_24 + 1.176 captain_71_25 + 1.17215 captain_71_26
+ + 1.04048 captain_721_23 + 1.10019 captain_721_24 + 1.12156 captain_721_25
+ + 1.20321 captain_721_26 + 1.27091 captain_722_23 + 1.22695 captain_722_24
+ + 1.23153 captain_722_25 + 1.72396 captain_723_23 + 1.69398 captain_723_24
+ + 1.10809 captain_723_25 + 1.25843 captain_724_23 + 1.28671 captain_724_24
+ + 1.26697 captain_724_25 + 1.32276 captain_724_26 + 1.16607 captain_725_23
+ + 1.70043 captain_725_24 + 2.4576 captain_725_25 + 1.40629 captain_725_26
+ + 1.24516 captain_726_23 + 1.94653 captain_726_24 + 1.53948 captain_726_25
+ + 2.5667 captain_727_23 + 2.88418 captain_727_24 + 2.94835 captain_727_25
+ + 1.21764 captain_728_23 + 1.90273 captain_728_24 + 1.51626 captain_728_25
+ + 2.89136 captain_72_23 + 2.71506 captain_72_24 + 2.61529 captain_72_25
+ + 2.60044 captain_72_26 + 1.24077 captain_730_23 + 1.26319 captain_730_24
+ + 1.2562 captain_730_25 + 1.24056 captain_730_26 + 1.58659 captain_731_23
+ + 1.46359 captain_731_24 + 1.45751 captain_731_25 + 1.7256 captain_731_26
+ + 1.84347 captain_732_23 + 1.77733 captain_732_24 + 1.59879 captain_732_25
+ + 1.42435 captain_732_26 + 1.2207 captain_733_23 + 1.76394 captain_733_24
+ + 2.56894 captain_733_25 + 1.46491 captain_733_26 + 1.28219 captain_734_23
+ + 1.36919 captain_734_24 + 1.36662 captain_734_25 + 1.31798 captain_735_23
+ + 1.31393 captain_735_24 + 1.32245 captain_735_25 + 1.38365 captain_735_26
+ + 1.4074 captain_736_23 + 1.46491 captain_736_24 + 1.86985 captain_736_25
+ + 1.68473 captain_736_26 + 1.31798 captain_737_23 + 1.31393 captain_737_24
+ + 1.32245 captain_737_25 + 1.38365 captain_737_26 + 1.21667 captain_738_23
+ + 1.23396 captain_738_24 + 1.27056 captain_738_25 + 1.16787 captain_738_26
+ + 1.65317 captain_739_23 + 1.41297 captain_739_24 + 1.38985 captain_739_25
+ + 1.27964 captain_739_26 + 2.28939 captain_73_23 + 2.50781 captain_73_24
+ + 2.40076 captain_73_25 + 2.23534 captain_73_26 + 1.52511 captain_740_23
+ + 1.49318 captain_740_24 + 1.7876 captain_740_25 + 1.42394 captain_741_23
+ + 1.49286 captain_741_24 + 1.48291 captain_741_25 + 1.48714 captain_741_26
+ + 1.21584 captain_742_23 + 1.21311 captain_742_24 + 1.27802 captain_742_25
+ + 1.32524 captain_742_26 + 1.26574 captain_743_23 + 1.3736 captain_743_24
+ + 1.33437 captain_743_25 + 1.56768 captain_745_23 + 1.34834 captain_745_24
+ + 1.32723 captain_745_25 + 1.2266 captain_745_26 + 1.88162 captain_746_23
+ + 1.37221 captain_746_24 + 1.60007 captain_746_25 + 1.89575 captain_746_26
+ + 1.35477 captain_747_23 + 1.32025 captain_747_24 + 1.36712 captain_747_25
+ + 1.39271 captain_747_26 + 1.32416 captain_749_23 + 1.39283 captain_749_24
+ + 1.34579 captain_749_25 + 1.4086 captain_749_26 + 1.22102 captain_750_23
+ + 1.30785 captain_750_24 + 1.28996 captain_750_25 + 1.3715 captain_750_26
+ + 1.29659 captain_751_23 + 1.7915 captain_751_24 + 1.38389 captain_751_25
+ + 2.06094 captain_751_26 + 3.1772 captain_752_23 + 3.28768 captain_752_24
+ + 5.82941 captain_752_25 + 2.97504 captain_752_26 + 1.89514 captain_753_23
+ + 1.38401 captain_753_24 + 1.61264 captain_753_25 + 1.90932 captain_753_26
+ + 1.34168 captain_754_23 + 1.35964 captain_754_24 + 1.38498 captain_754_25
+ + 1.38079 captain_755_23 + 1.34579 captain_755_24 + 1.39332 captain_755_25
+ + 1.41926 captain_755_26 + 2.34079 captain_757_23 + 3.33594 captain_757_24
+ + 2.56572 captain_757_25 + 1.39818 captain_758_23 + 1.33657 captain_758_24
+ + 1.27261 captain_758_25 + 1.3118 captain_759_23 + 1.33461 captain_759_24
+ + 1.3275 captain_759_25 + 1.31159 captain_759_26 + 2.37087 captain_75_23
+ + 2.13792 captain_75_24 + 1.66677 captain_75_25 + 1.66455 captain_75_26
+ + 1.39402 captain_760_23 + 1.29764 captain_760_24 + 1.40734 captain_760_25
+ + 1.37167 captain_760_26 + 1.59953 captain_761_23 + 1.21774 captain_761_24
+ + 1.93653 captain_761_25 + 1.47603 captain_761_26 + 1.41291 captain_762_23
+ + 1.4601 captain_762_24 + 2.84831 captain_762_25 + 1.41475 captain_762_26
+ + 1.48851 captain_763_23 + 1.49607 captain_763_24 + 1.60041 captain_763_25
+ + 2.05816 captain_763_26 + 1.38253 captain_764_23 + 1.37833 captain_764_24
+ + 1.38715 captain_764_25 + 1.4505 captain_764_26 + 3.207 captain_765_23
+ + 3.34816 captain_765_24 + 3.16692 captain_765_25 + 3.39788 captain_765_26
+ + 1.95683 captain_766_23 + 1.66541 captain_766_24 + 1.72112 captain_766_25
+ + 2.08473 captain_766_26 + 1.43361 captain_767_23 + 1.44654 captain_767_24
+ + 1.40125 captain_767_25 + 1.46706 captain_767_26 + 1.86714 captain_768_23
+ + 1.52936 captain_768_24 + 1.58698 captain_768_25 + 1.96305 captain_768_26
+ + 2.41693 captain_76_23 + 2.0854 captain_76_24 + 2.08019 captain_76_25
+ + 1.91001 captain_76_26 + 1.3762 captain_770_23 + 1.44681 captain_770_24
+ + 1.39843 captain_770_25 + 1.46303 captain_770_26 + 1.42647 captain_771_23
+ + 1.47399 captain_771_24 + 2.87558 captain_771_25 + 1.42832 captain_771_26
+ + 1.40927 captain_772_23 + 1.40501 captain_772_24 + 1.41396 captain_772_25
+ + 1.4782 captain_772_26 + 1.43748 captain_773_23 + 1.42014 captain_773_24
+ + 1.47423 captain_773_25 + 1.47463 captain_773_26 + 1.56019 captain_774_23
+ + 1.64422 captain_774_24 + 1.98046 captain_774_25 + 1.88766 captain_774_26
+ + 2.72669 captain_775_23 + 2.8113 captain_775_24 + 2.79668 captain_775_25
+ + 2.75287 captain_775_26 + 4.56301 captain_776_23 + 4.31329 captain_776_24
+ + 4.2391 captain_776_25 + 1.92965 captain_777_23 + 1.96064 captain_777_24
+ + 2.37946 captain_777_25 + 3.25468 captain_778_23 + 3.39794 captain_778_24
+ + 3.21402 captain_778_25 + 3.44839 captain_778_26 + 1.45587 captain_779_23
+ + 1.50646 captain_779_24 + 1.47764 captain_779_25 + 1.40434 captain_779_26
+ + 3.81352 captain_77_23 + 3.53769 captain_77_24 + 3.37526 captain_77_25
+ + 3.57754 captain_77_26 + 1.53524 captain_780_23 + 1.67013 captain_780_24
+ + 1.60896 captain_780_25 + 1.50025 captain_780_26 + 1.53524 captain_781_23
+ + 1.67013 captain_781_24 + 1.60896 captain_781_25 + 1.50025 captain_781_26
+ + 1.16405 captain_783_23 + 1.27052 captain_783_24 + 1.26871 captain_783_25
+ + 1.5733 captain_784_23 + 1.65763 captain_784_24 + 1.99507 captain_784_25
+ + 1.90194 captain_784_26 + 1.46207 captain_786_23 + 1.42556 captain_786_24
+ + 1.47513 captain_786_25 + 1.50219 captain_786_26 + 1.41662 captain_787_23
+ + 1.48875 captain_787_24 + 1.43933 captain_787_25 + 1.50531 captain_787_26
+ + 3.26008 captain_789_23 + 3.37342 captain_789_24 + 5.98156 captain_789_25
+ + 3.05268 captain_789_26 + 2.3622 captain_78_23 + 2.22828 captain_78_24
+ + 2.15159 captain_78_25 + 2.14207 captain_78_26 + 3.43869 captain_790_23
+ + 3.47718 captain_790_24 + 3.44847 captain_790_25 + 3.5733 captain_790_26
+ + 1.3501 captain_791_23 + 1.3136 captain_791_24 + 1.27495 captain_791_25
+ + 2.43771 captain_792_23 + 2.51178 captain_792_24 + 2.59818 captain_792_25
+ + 3.2096 captain_792_26 + 1.71789 captain_793_23 + 1.83548 captain_793_24
+ + 1.79712 captain_793_25 + 2.02317 captain_793_26 + 1.46375 captain_794_23
+ + 1.48834 captain_794_24 + 1.54037 captain_794_25 + 1.39438 captain_794_26
+ + 1.46375 captain_795_23 + 1.48834 captain_795_24 + 1.54037 captain_795_25
+ + 1.39438 captain_795_26 + 1.45519 captain_796_23 + 1.54037 captain_796_24
+ + 1.44875 captain_796_25 + 1.45133 captain_796_26 + 1.33808 captain_797_23
+ + 1.9004 captain_797_24 + 2.80818 captain_797_25 + 1.59087 captain_797_26
+ + 3.23627 captain_80_23 + 3.01623 captain_80_24 + 2.88665 captain_80_25
+ + 3.04801 captain_80_26 + 2.75257 captain_82_23 + 2.41244 captain_82_24
  + 2.42288 captain_82_25 + 2.231 captain_82_26 + 3.14857 captain_83_23
- + 2.80593 captain_83_24 + 2.18584 captain_83_25 + 2.16856 captain_83_26
- + 2.94383 captain_84_23 + 2.63619 captain_84_24 + 2.08866 captain_84_25
- + 2.07341 captain_84_26 + 5.68821 captain_85_23 + 4.85764 captain_85_24
+ + 2.81892 captain_83_24 + 2.18584 captain_83_25 + 2.16856 captain_83_26
+ + 2.94383 captain_84_23 + 2.64765 captain_84_24 + 2.08866 captain_84_25
+ + 2.07341 captain_84_26 + 5.68821 captain_85_23 + 4.87294 captain_85_24
  + 4.87908 captain_85_25 + 4.48505 captain_85_26 + 4.55451 captain_86_23
- + 4.19341 captain_86_24 + 3.92366 captain_86_25 + 3.89914 captain_86_26
- + 2.934 captain_88_23 + 2.7157 captain_88_24 + 2.61636 captain_88_25
- + 2.76297 captain_88_26 + 3.27938 captain_89_23 + 2.9706 captain_89_24
- + 2.40755 captain_89_25 + 2.40575 captain_89_26 + 4.15547 captain_8_23
- + 4.31203 captain_8_24 + 4.11187 captain_8_25 + 4.53869 captain_8_26
- + 1.78625 captain_90_23 + 2.67941 captain_90_24 + 3.96346 captain_90_25
- + 2.31554 captain_90_26 + 3.04801 captain_91_23 + 3.15403 captain_91_24
- + 5.59089 captain_91_25 + 2.85402 captain_91_26 + 1.43371 captain_92_23
- + 1.51269 captain_92_24 + 2.99099 captain_92_25 + 1.55978 captain_92_26
+ + 4.18591 captain_86_24 + 3.92366 captain_86_25 + 3.89914 captain_86_26
+ + 2.934 captain_88_23 + 2.73409 captain_88_24 + 2.61636 captain_88_25
+ + 2.76297 captain_88_26 + 3.27938 captain_89_23 + 2.98293 captain_89_24
+ + 2.40755 captain_89_25 + 2.40575 captain_89_26 + 4.13787 captain_8_23
+ + 4.29913 captain_8_24 + 4.10134 captain_8_25 + 4.58032 captain_8_26
+ + 1.6225 captain_90_23 + 2.52087 captain_90_24 + 3.83878 captain_90_25
+ + 2.26154 captain_90_26 + 3.03794 captain_91_23 + 3.14361 captain_91_24
+ + 5.57373 captain_91_25 + 2.84458 captain_91_26 + 1.39321 captain_92_23
+ + 1.48621 captain_92_24 + 2.97565 captain_92_25 + 1.57322 captain_92_26
  + 1.29356 captain_93_23 + 1.88723 captain_93_24 + 3.02685 captain_93_25
- + 1.59167 captain_93_26 + 2.14366 captain_96_23 + 2.99083 captain_96_24
- + 4.60185 captain_96_25 + 2.61359 captain_96_26 + 1.78224 captain_98_23
- + 1.89358 captain_98_24 + 3.71755 captain_98_25 + 1.93065 captain_98_26
- + 1.18185 captain_99_23 + 1.24908 captain_99_24 + 2.50155 captain_99_25
- + 1.30251 captain_99_26 + 2.29367 captain_9_23 + 2.29993 captain_9_24
- + 2.33468 captain_9_25 + 2.49834 captain_9_26 + 3.65488 lineup_101_23
- + 3.79145 lineup_101_24 + 6.65908 lineup_101_25 + 3.40499 lineup_101_26
- + 1.12469 lineup_102_23 + 1.65232 lineup_102_24 + 2.33729 lineup_102_25
- + 1.36188 lineup_102_26 + 3.09937 lineup_105_23 + 3.19657 lineup_105_24
- + 6.17758 lineup_105_25 + 3.22072 lineup_105_26 + 3.28572 lineup_106_23
- + 3.4487 lineup_106_24 + 6.53256 lineup_106_25 + 3.3804 lineup_106_26
- + 2.93393 lineup_107_23 + 2.98374 lineup_107_24 + 5.59091 lineup_107_25
- + 2.90707 lineup_107_26 + 2.54056 lineup_109_23 + 3.56471 lineup_109_24
- + 5.32025 lineup_109_25 + 3.0371 lineup_109_26 + 1.92571 lineup_10_23
- + 2.07239 lineup_10_24 + 2.67898 lineup_10_25 + 2.51624 lineup_10_26
- + 3.42627 lineup_110_23 + 3.65282 lineup_110_24 + 7.00868 lineup_110_25
- + 3.67021 lineup_110_26 + 1.86531 lineup_111_23 + 1.97513 lineup_111_24
- + 3.84008 lineup_111_25 + 1.99845 lineup_111_26 + 2.78347 lineup_112_23
- + 3.94493 lineup_112_24 + 6.10096 lineup_112_25 + 3.45841 lineup_112_26
- + 3.65883 lineup_113_23 + 3.56125 lineup_113_24 + 3.92794 lineup_113_25
- + 3.66584 lineup_113_26 + 1.85464 lineup_114_23 + 2.50274 lineup_114_24
- + 3.96354 lineup_114_25 + 2.20947 lineup_114_26 + 3.0926 lineup_116_23
- + 3.20133 lineup_116_24 + 5.66716 lineup_116_25 + 2.89366 lineup_116_26
- + 4.92528 lineup_117_23 + 5.46427 lineup_117_24 + 10.3209 lineup_117_25
- + 5.59916 lineup_117_26 + 3.60619 lineup_119_23 + 3.9216 lineup_119_24
- + 7.42409 lineup_119_25 + 3.97978 lineup_119_26 + 1.32941 lineup_120_23
- + 1.44981 lineup_120_24 + 2.93912 lineup_120_25 + 1.52815 lineup_120_26
- + 1.73377 lineup_121_23 + 2.43561 lineup_121_24 + 3.65563 lineup_121_25
- + 2.07806 lineup_121_26 + 3.00016 lineup_122_23 + 2.90539 lineup_122_24
- + 3.03883 lineup_122_25 + 3.08648 lineup_122_26 + 1.99994 lineup_125_23
- + 1.94552 lineup_125_24 + 2.03312 lineup_125_25 + 2.06531 lineup_125_26
- + 2.96665 lineup_126_23 + 2.85682 lineup_126_24 + 2.71043 lineup_126_25
- + 2.99687 lineup_126_26 + 2.17711 lineup_128_23 + 2.11139 lineup_128_24
- + 2.20392 lineup_128_25 + 2.23697 lineup_128_26 + 3.69607 lineup_129_23
- + 2.8241 lineup_129_24 + 3.23797 lineup_129_25 + 3.85682 lineup_129_26
- + 4.39054 lineup_12_23 + 4.41479 lineup_12_24 + 4.47903 lineup_12_25
- + 4.85135 lineup_12_26 + 2.09246 lineup_130_25 + 2.13146 lineup_130_26
- + 3.09897 lineup_131_23 + 2.37463 lineup_131_24 + 2.74496 lineup_131_25
- + 3.28707 lineup_131_26 + 2.72685 lineup_132_23 + 2.88947 lineup_132_24
- + 2.95393 lineup_132_25 + 3.0096 lineup_132_26 + 2.71432 lineup_133_23
- + 2.67186 lineup_133_24 + 2.81226 lineup_133_25 + 2.86975 lineup_133_26
- + 5.13073 lineup_134_23 + 4.89705 lineup_134_24 + 5.13138 lineup_134_25
- + 5.20109 lineup_134_26 + 3.92712 lineup_135_23 + 3.95164 lineup_135_24
- + 3.97842 lineup_135_25 + 4.00641 lineup_135_26 + 1.64219 lineup_138_23
- + 1.63777 lineup_138_24 + 1.71198 lineup_138_25 + 1.74893 lineup_138_26
- + 1.51399 lineup_139_23 + 1.08995 lineup_139_24 + 1.31111 lineup_139_25
- + 1.6356 lineup_139_26 + 2.70598 lineup_13_23 + 2.83442 lineup_13_24
- + 2.72273 lineup_13_25 + 3.0171 lineup_13_26 + 3.15357 lineup_141_23
- + 3.06626 lineup_141_24 + 3.0443 lineup_141_25 + 3.22979 lineup_141_26
- + 2.09176 lineup_142_23 + 1.97051 lineup_142_24 + 1.99498 lineup_142_25
- + 2.03388 lineup_142_26 + 4.01438 lineup_143_23 + 3.86511 lineup_143_24
- + 4.07528 lineup_143_25 + 4.15034 lineup_143_26 + 1.34971 lineup_144_23
- + 1.31786 lineup_144_24 + 1.34945 lineup_144_25 + 1.36648 lineup_144_26
- + 3.47915 lineup_145_23 + 3.61998 lineup_145_24 + 3.06013 lineup_145_25
- + 3.43246 lineup_145_26 + 3.6325 lineup_148_23 + 3.52757 lineup_148_24
- + 3.50118 lineup_148_25 + 3.72411 lineup_148_26 + 5.18529 lineup_14_23
- + 5.22002 lineup_14_24 + 5.35133 lineup_14_25 + 5.8541 lineup_14_26
- + 3.1241 lineup_150_23 + 2.41042 lineup_150_24 + 2.69426 lineup_150_25
- + 3.13223 lineup_150_26 + 2.25759 lineup_151_24 + 2.57035 lineup_151_25
- + 3.04985 lineup_151_26 + 3.6057 lineup_152_23 + 3.49996 lineup_152_24
- + 3.47337 lineup_152_25 + 3.69802 lineup_152_26 + 2.62343 lineup_153_23
- + 2.01395 lineup_153_24 + 2.33691 lineup_153_25 + 2.80223 lineup_153_26
- + 2.60413 lineup_154_23 + 2.71814 lineup_154_24 + 2.76828 lineup_154_25
- + 2.80666 lineup_154_26 + 1.27703 lineup_156_23 + 1.1459 lineup_156_24
- + 1.18861 lineup_156_25 + 1.18258 lineup_156_26 + 2.34436 lineup_157_23
- + 1.52262 lineup_157_24 + 2.00445 lineup_157_25 + 2.26213 lineup_157_26
- + 2.33337 lineup_159_23 + 2.02637 lineup_159_24 + 2.12637 lineup_159_25
- + 2.11224 lineup_159_26 + 2.78988 lineup_160_23 + 1.68522 lineup_160_24
- + 2.36742 lineup_160_25 + 2.71328 lineup_160_26 + 3.30335 lineup_161_23
- + 2.91509 lineup_161_24 + 3.08557 lineup_161_25 + 3.0848 lineup_161_26
- + 1.21839 lineup_162_23 + 1.09155 lineup_162_24 + 1.13287 lineup_162_25
- + 1.12703 lineup_162_26 + 1.80651 lineup_163_23 + 1.61252 lineup_163_24
- + 1.71763 lineup_163_25 + 1.73887 lineup_163_26 + 2.41069 lineup_165_23
- + 2.11428 lineup_165_24 + 2.22724 lineup_165_25 + 2.22542 lineup_165_26
- + 1.73982 lineup_166_23 + 0.96708 lineup_166_24 + 1.41334 lineup_166_25
- + 1.65001 lineup_166_26 + 1.85146 lineup_167_23 + 1.06648 lineup_167_24
- + 1.53821 lineup_167_25 + 1.79385 lineup_167_26 + 3.18263 lineup_168_23
- + 2.52766 lineup_168_24 + 2.61614 lineup_168_25 + 2.65766 lineup_168_26
- + 3.34501 lineup_169_23 + 3.07867 lineup_169_24 + 2.86091 lineup_169_25
- + 3.0867 lineup_169_26 + 2.92043 lineup_170_23 + 2.53492 lineup_170_24
- + 2.6755 lineup_170_25 + 2.65089 lineup_170_26 + 3.64403 lineup_172_23
- + 3.33707 lineup_172_24 + 3.0861 lineup_172_25 + 3.34632 lineup_172_26
- + 2.99426 lineup_173_23 + 1.97839 lineup_173_24 + 2.62795 lineup_173_25
- + 2.97555 lineup_173_26 + 2.00842 lineup_174_23 + 1.55199 lineup_174_24
- + 1.59592 lineup_174_25 + 1.61209 lineup_174_26 + 2.23092 lineup_176_23
- + 1.39891 lineup_176_24 + 1.97715 lineup_176_25 + 2.28668 lineup_176_26
- + 3.42187 lineup_177_23 + 2.65636 lineup_177_24 + 2.73004 lineup_177_25
- + 2.75715 lineup_177_26 + 2.70211 lineup_178_23 + 1.70694 lineup_178_24
- + 2.33119 lineup_178_25 + 2.64721 lineup_178_26 + 3.36295 lineup_17_23
- + 3.28108 lineup_17_24 + 3.5887 lineup_17_25 + 3.36883 lineup_17_26
- + 3.34501 lineup_181_23 + 3.07867 lineup_181_24 + 2.86091 lineup_181_25
- + 3.0867 lineup_181_26 + 3.15178 lineup_182_23 + 2.10823 lineup_182_24
- + 2.78177 lineup_182_25 + 3.13368 lineup_182_26 + 1.86768 lineup_184_23
- + 1.63012 lineup_184_24 + 1.7075 lineup_184_25 + 1.69657 lineup_184_26
- + 1.25633 lineup_186_23 + 1.20192 lineup_186_24 + 1.14104 lineup_186_25
- + 1.22816 lineup_186_26 + 2.90057 lineup_191_23 + 2.9039 lineup_191_24
- + 1.93008 lineup_191_25 + 2.54866 lineup_191_26 + 2.90323 lineup_192_23
- + 3.00762 lineup_192_24 + 2.5926 lineup_192_25 + 2.86862 lineup_192_26
- + 2.23044 lineup_193_23 + 2.09365 lineup_193_24 + 2.07294 lineup_193_25
- + 2.26561 lineup_193_26 + 2.01624 lineup_194_23 + 2.00073 lineup_194_24
- + 1.27484 lineup_194_25 + 1.73593 lineup_194_26 + 2.46437 lineup_195_23
- + 2.4831 lineup_195_24 + 1.51082 lineup_195_25 + 2.19443 lineup_195_26
- + 0.99812 lineup_196_23 + 0.97516 lineup_196_24 + 0.9461 lineup_196_25
- + 1.05684 lineup_196_26 + 3.19051 lineup_197_23 + 3.25009 lineup_197_24
- + 2.26118 lineup_197_25 + 2.93293 lineup_197_26 + 4.15552 lineup_199_23
- + 3.89199 lineup_199_24 + 3.59307 lineup_199_25 + 4.05108 lineup_199_26
- + 5.68085 lineup_19_23 + 5.64369 lineup_19_24 + 5.71356 lineup_19_25
- + 6.25639 lineup_19_26 + 1.58813 lineup_1_23 + 1.49612 lineup_1_24
- + 1.57128 lineup_1_25 + 1.55681 lineup_1_26 + 1.56141 lineup_200_23
- + 1.15811 lineup_200_24 + 1.19693 lineup_200_25 + 1.21121 lineup_200_26
- + 3.42114 lineup_202_23 + 3.18976 lineup_202_24 + 2.95505 lineup_202_25
- + 3.33883 lineup_202_26 + 2.40594 lineup_203_23 + 2.38235 lineup_203_24
- + 1.50608 lineup_203_25 + 2.10283 lineup_203_26 + 2.16359 lineup_204_23
- + 2.05306 lineup_204_24 + 2.08381 lineup_204_25 + 1.51034 lineup_204_26
- + 2.18891 lineup_205_23 + 2.31925 lineup_205_24 + 2.27707 lineup_205_25
- + 2.11305 lineup_205_26 + 3.39528 lineup_207_23 + 3.18595 lineup_207_24
- + 2.93575 lineup_207_25 + 3.13732 lineup_207_26 + 2.3609 lineup_208_23
- + 2.2214 lineup_208_24 + 2.09473 lineup_208_25 + 2.3509 lineup_208_26
- + 2.30148 lineup_209_23 + 2.1224 lineup_209_24 + 2.28769 lineup_209_25
- + 2.40751 lineup_209_26 + 3.20586 lineup_20_23 + 3.3831 lineup_20_24
- + 4.26862 lineup_20_25 + 3.95069 lineup_20_26 + 3.22911 lineup_210_23
- + 2.97279 lineup_210_24 + 2.74145 lineup_210_25 + 3.07252 lineup_210_26
- + 4.40404 lineup_211_23 + 4.03727 lineup_211_24 + 3.95751 lineup_211_25
- + 4.39277 lineup_211_26 + 2.52837 lineup_214_23 + 2.51007 lineup_214_24
- + 1.6539 lineup_214_25 + 2.19775 lineup_214_26 + 4.57003 lineup_216_23
- + 4.24352 lineup_216_24 + 3.87719 lineup_216_25 + 4.42212 lineup_216_26
- + 3.16982 lineup_217_23 + 3.24892 lineup_217_24 + 2.29757 lineup_217_25
- + 2.96536 lineup_217_26 + 1.05791 lineup_219_23 + 1.09237 lineup_219_24
- + 1.09771 lineup_219_25 + 1.15089 lineup_219_26 + 2.14967 lineup_21_23
- + 2.33548 lineup_21_24 + 2.35758 lineup_21_25 + 2.13698 lineup_21_26
- + 2.81441 lineup_220_23 + 2.90388 lineup_220_24 + 3.13355 lineup_220_25
- + 3.96592 lineup_220_26 + 3.2783 lineup_221_23 + 3.40411 lineup_221_24
- + 3.34772 lineup_221_25 + 3.55615 lineup_221_26 + 2.1554 lineup_222_23
- + 2.22585 lineup_222_24 + 2.38457 lineup_222_25 + 2.93389 lineup_222_26
- + 1.16421 lineup_224_23 + 1.18821 lineup_224_24 + 1.17213 lineup_224_25
- + 1.22188 lineup_224_26 + 3.13871 lineup_225_23 + 3.0132 lineup_225_24
- + 3.42687 lineup_225_25 + 3.43894 lineup_225_26 + 3.90765 lineup_226_23
- + 4.05376 lineup_226_24 + 3.95587 lineup_226_25 + 4.25858 lineup_226_26
- + 2.96001 lineup_228_23 + 3.05939 lineup_228_24 + 3.29698 lineup_228_25
- + 4.12887 lineup_228_26 + 2.0953 lineup_229_23 + 2.18564 lineup_229_24
- + 2.19082 lineup_229_25 + 2.30631 lineup_229_26 + 2.11479 lineup_22_23
- + 2.16496 lineup_22_24 + 2.21836 lineup_22_25 + 2.41491 lineup_22_26
- + 3.51685 lineup_230_23 + 3.51304 lineup_230_24 + 3.71354 lineup_230_25
- + 3.44845 lineup_230_26 + 3.34477 lineup_231_23 + 3.50967 lineup_231_24
- + 3.47927 lineup_231_25 + 3.71211 lineup_231_26 + 2.40563 lineup_232_23
- + 2.33437 lineup_232_24 + 2.67413 lineup_232_25 + 2.69307 lineup_232_26
- + 3.10226 lineup_233_23 + 3.09893 lineup_233_24 + 3.27435 lineup_233_25
- + 3.04241 lineup_233_26 + 2.60998 lineup_234_23 + 2.69328 lineup_234_24
- + 2.89866 lineup_234_25 + 3.63734 lineup_234_26 + 4.3472 lineup_236_23
- + 4.39703 lineup_236_24 + 4.23843 lineup_236_25 + 4.55059 lineup_236_26
- + 1.84586 lineup_238_23 + 1.9106 lineup_238_24 + 2.05601 lineup_238_25
- + 2.56343 lineup_238_26 + 1.4204 lineup_239_23 + 1.44786 lineup_239_24
- + 1.42946 lineup_239_25 + 1.48639 lineup_239_26 + 1.5602 lineup_23_23
- + 1.59054 lineup_23_24 + 1.64772 lineup_23_25 + 1.28991 lineup_23_26
- + 2.97754 lineup_240_23 + 3.15888 lineup_240_24 + 3.15886 lineup_240_25
- + 3.35402 lineup_240_26 + 1.09184 lineup_241_23 + 1.12117 lineup_241_24
- + 1.23257 lineup_241_25 + 1.64368 lineup_241_26 + 3.10097 lineup_243_23
- + 3.09763 lineup_243_24 + 3.27384 lineup_243_25 + 3.04086 lineup_243_26
- + 1.3106 lineup_244_23 + 1.22879 lineup_244_24 + 1.37617 lineup_244_25
- + 1.33452 lineup_244_26 + 2.32817 lineup_245_23 + 1.85048 lineup_245_24
- + 2.86812 lineup_245_25 + 2.28958 lineup_245_26 + 3.88785 lineup_246_23
- + 3.57666 lineup_246_24 + 3.87257 lineup_246_25 + 3.89407 lineup_246_26
- + 1.98267 lineup_247_23 + 1.55108 lineup_247_24 + 2.4608 lineup_247_25
- + 1.94969 lineup_247_26 + 3.86902 lineup_249_23 + 3.43849 lineup_249_24
- + 3.99612 lineup_249_25 + 3.85538 lineup_249_26 + 3.42444 lineup_250_23
- + 3.12756 lineup_250_24 + 3.57308 lineup_250_25 + 3.45284 lineup_250_26
- + 2.00187 lineup_252_23 + 1.51238 lineup_252_24 + 2.39515 lineup_252_25
- + 1.85775 lineup_252_26 + 2.50939 lineup_254_23 + 2.2767 lineup_254_24
- + 2.54177 lineup_254_25 + 2.45505 lineup_254_26 + 3.7825 lineup_256_23
- + 4.18576 lineup_256_24 + 3.83323 lineup_256_25 + 3.84381 lineup_256_26
- + 2.23872 lineup_257_23 + 1.75649 lineup_257_24 + 2.75184 lineup_257_25
- + 2.16329 lineup_257_26 + 2.85767 lineup_258_23 + 3.17892 lineup_258_24
- + 6.09202 lineup_258_25 + 3.29165 lineup_258_26 + 3.80649 lineup_259_23
- + 3.45726 lineup_259_24 + 4.03018 lineup_259_25 + 3.915 lineup_259_26
- + 1.67989 lineup_25_23 + 1.7783 lineup_25_24 + 2.28966 lineup_25_25
- + 2.11088 lineup_25_26 + 2.64719 lineup_260_23 + 2.14197 lineup_260_24
- + 3.21188 lineup_260_25 + 2.60055 lineup_260_26 + 3.07965 lineup_261_23
- + 2.8301 lineup_261_24 + 3.21994 lineup_261_25 + 3.12354 lineup_261_26
- + 2.03134 lineup_262_23 + 1.58414 lineup_262_24 + 2.51709 lineup_262_25
- + 1.96797 lineup_262_26 + 3.51653 lineup_263_23 + 3.16319 lineup_263_24
- + 3.7779 lineup_263_25 + 3.73362 lineup_263_26 + 3.06216 lineup_265_23
- + 2.4262 lineup_265_24 + 3.73555 lineup_265_25 + 2.98261 lineup_265_26
- + 2.94406 lineup_266_23 + 2.66085 lineup_266_24 + 3.15357 lineup_266_25
- + 3.11807 lineup_266_26 + 3.42144 lineup_267_23 + 3.81943 lineup_267_24
- + 3.51832 lineup_267_25 + 3.54009 lineup_267_26 + 2.25423 lineup_268_23
- + 2.42889 lineup_268_24 + 2.24726 lineup_268_25 + 2.25488 lineup_268_26
- + 3.797 lineup_26_23 + 3.72242 lineup_26_24 + 3.74167 lineup_26_25
- + 3.97628 lineup_26_26 + 2.73952 lineup_270_23 + 2.9861 lineup_270_24
- + 2.73297 lineup_270_25 + 2.76907 lineup_270_26 + 2.62663 lineup_271_23
- + 2.59172 lineup_271_24 + 2.42142 lineup_271_25 + 2.22671 lineup_271_26
+ + 1.59167 captain_93_26 + 2.02297 captain_96_23 + 2.87838 captain_96_24
+ + 4.55877 captain_96_25 + 2.60137 captain_96_26 + 1.59812 captain_98_23
+ + 1.73554 captain_98_24 + 3.50195 captain_98_25 + 1.865 captain_98_26
+ + 1.15045 captain_99_23 + 1.22987 captain_99_24 + 2.49514 captain_99_25
+ + 1.31751 captain_99_26 + 2.09181 captain_9_23 + 2.13506 captain_9_24
+ + 2.20565 captain_9_25 + 2.39078 captain_9_26 + 3.64094 lineup_101_23
+ + 3.77572 lineup_101_24 + 6.64144 lineup_101_25 + 3.39433 lineup_101_26
+ + 3.01298 lineup_105_23 + 3.13031 lineup_105_24 + 6.10903 lineup_105_25
+ + 3.21827 lineup_105_26 + 3.13939 lineup_106_23 + 3.32605 lineup_106_24
+ + 6.36551 lineup_106_25 + 3.33456 lineup_106_26 + 2.8857 lineup_107_23
+ + 2.95269 lineup_107_24 + 5.58335 lineup_107_25 + 2.93064 lineup_107_26
+ + 2.46065 lineup_109_23 + 3.49399 lineup_109_24 + 5.32629 lineup_109_25
+ + 3.03201 lineup_109_26 + 1.69429 lineup_10_23 + 1.88022 lineup_10_24
+ + 2.50792 lineup_10_25 + 2.35115 lineup_10_26 + 3.25634 lineup_110_23
+ + 3.50671 lineup_110_24 + 6.80086 lineup_110_25 + 3.60512 lineup_110_26
+ + 1.82794 lineup_111_23 + 1.93636 lineup_111_24 + 3.76407 lineup_111_25
+ + 1.95977 lineup_111_26 + 2.65791 lineup_112_23 + 3.82937 lineup_112_24
+ + 6.05184 lineup_112_25 + 3.4319 lineup_112_26 + 3.66111 lineup_113_23
+ + 3.56348 lineup_113_24 + 3.93035 lineup_113_25 + 3.65101 lineup_113_26
+ + 1.7802 lineup_114_23 + 2.44268 lineup_114_24 + 3.96653 lineup_114_25
+ + 2.2215 lineup_114_26 + 3.08208 lineup_116_23 + 3.19043 lineup_116_24
+ + 5.64928 lineup_116_25 + 2.88382 lineup_116_26 + 5.03029 lineup_117_23
+ + 5.56595 lineup_117_24 + 10.45685 lineup_117_25 + 5.67033 lineup_117_26
+ + 3.54 lineup_119_23 + 3.85054 lineup_119_24 + 7.27221 lineup_119_25
+ + 3.90777 lineup_119_26 + 1.2585 lineup_120_23 + 1.3895 lineup_120_24
+ + 2.8402 lineup_120_25 + 1.49399 lineup_120_26 + 1.71716 lineup_121_23
+ + 2.41581 lineup_121_24 + 3.66823 lineup_121_25 + 2.06001 lineup_121_26
+ + 2.94162 lineup_122_23 + 2.83554 lineup_122_24 + 2.97959 lineup_122_25
+ + 3.05822 lineup_122_26 + 1.85552 lineup_125_23 + 1.82157 lineup_125_24
+ + 1.94108 lineup_125_25 + 2.01905 lineup_125_26 + 2.85394 lineup_126_23
+ + 2.75759 lineup_126_24 + 2.63786 lineup_126_25 + 2.15607 lineup_128_23
+ + 2.08181 lineup_128_24 + 2.18265 lineup_128_25 + 2.2377 lineup_128_26
+ + 3.5094 lineup_129_23 + 2.66421 lineup_129_24 + 3.13631 lineup_129_25
+ + 3.72906 lineup_129_26 + 4.28294 lineup_12_23 + 4.33221 lineup_12_24
+ + 4.42101 lineup_12_25 + 4.79182 lineup_12_26 + 2.05215 lineup_130_25
+ + 2.11653 lineup_130_26 + 2.86894 lineup_131_23 + 2.17977 lineup_131_24
+ + 2.60736 lineup_131_25 + 3.13165 lineup_131_26 + 2.54915 lineup_132_23
+ + 2.78114 lineup_132_24 + 2.82654 lineup_132_25 + 2.889 lineup_132_26
+ + 2.56239 lineup_133_23 + 2.5441 lineup_133_24 + 2.72402 lineup_133_25
+ + 2.83965 lineup_133_26 + 4.96508 lineup_134_23 + 4.74079 lineup_134_24
+ + 5.03266 lineup_134_25 + 5.20068 lineup_134_26 + 3.85876 lineup_135_23
+ + 3.96655 lineup_135_24 + 3.94316 lineup_135_25 + 3.95946 lineup_135_26
+ + 1.62584 lineup_138_23 + 1.61553 lineup_138_24 + 1.69549 lineup_138_25
+ + 1.74754 lineup_138_26 + 1.53765 lineup_139_23 + 1.09286 lineup_139_24
+ + 1.34448 lineup_139_25 + 1.66016 lineup_139_26 + 2.55956 lineup_13_23
+ + 2.7118 lineup_13_24 + 2.62828 lineup_13_25 + 2.97009 lineup_13_26
+ + 3.15357 lineup_141_23 + 3.02911 lineup_141_24 + 3.0443 lineup_141_25
+ + 3.18427 lineup_141_26 + 1.99404 lineup_142_23 + 1.88664 lineup_142_24
+ + 1.93901 lineup_142_25 + 2.01765 lineup_142_26 + 3.93556 lineup_143_23
+ + 3.76859 lineup_143_24 + 3.99531 lineup_143_25 + 4.11907 lineup_143_26
+ + 1.25855 lineup_144_23 + 1.24415 lineup_144_24 + 1.29944 lineup_144_25
+ + 1.34786 lineup_144_26 + 3.44958 lineup_145_23 + 3.53932 lineup_145_24
+ + 3.0364 lineup_145_25 + 3.63066 lineup_148_23 + 3.48195 lineup_148_24
+ + 3.5001 lineup_148_25 + 3.66736 lineup_148_26 + 5.32708 lineup_14_23
+ + 5.34403 lineup_14_24 + 5.45931 lineup_14_25 + 5.92314 lineup_14_26
+ + 2.97796 lineup_150_23 + 2.29067 lineup_150_24 + 2.6212 lineup_150_25
+ + 3.03903 lineup_150_26 + 2.19326 lineup_151_24 + 2.52605 lineup_151_25
+ + 2.95789 lineup_151_26 + 3.59083 lineup_152_23 + 3.44076 lineup_152_24
+ + 3.45908 lineup_152_25 + 3.62785 lineup_152_26 + 2.60141 lineup_153_23
+ + 1.97403 lineup_153_24 + 2.31673 lineup_153_25 + 2.74173 lineup_153_26
+ + 2.68448 lineup_154_23 + 2.84254 lineup_154_24 + 2.84496 lineup_154_25
+ + 2.86151 lineup_154_26 + 1.27703 lineup_156_23 + 1.14376 lineup_156_24
+ + 1.18383 lineup_156_25 + 1.18015 lineup_156_26 + 2.97195 lineup_157_23
+ + 1.90097 lineup_157_24 + 2.40456 lineup_157_25 + 2.61259 lineup_157_26
+ + 2.31096 lineup_159_23 + 2.00162 lineup_159_24 + 2.09462 lineup_159_25
+ + 2.0861 lineup_159_26 + 2.19646 lineup_15_23 + 2.18668 lineup_15_24
+ + 2.20723 lineup_15_25 + 2.35484 lineup_15_26 + 2.76685 lineup_160_23
+ + 1.66127 lineup_160_24 + 2.34706 lineup_160_25 + 2.66757 lineup_160_26
+ + 3.3383 lineup_161_23 + 2.9384 lineup_161_24 + 3.10468 lineup_161_25
+ + 3.11401 lineup_161_26 + 1.78842 lineup_163_23 + 1.59259 lineup_163_24
+ + 1.69259 lineup_163_25 + 1.71794 lineup_163_26 + 2.38713 lineup_165_23
+ + 2.08837 lineup_165_24 + 2.1943 lineup_165_25 + 2.19811 lineup_165_26
+ + 1.73982 lineup_166_23 + 0.96234 lineup_166_24 + 1.41344 lineup_166_25
+ + 1.63392 lineup_166_26 + 1.87528 lineup_167_23 + 1.06963 lineup_167_24
+ + 1.56257 lineup_167_25 + 1.81174 lineup_167_26 + 3.07996 lineup_168_23
+ + 2.43485 lineup_168_24 + 2.53053 lineup_168_25 + 2.58968 lineup_168_26
+ + 3.34501 lineup_169_23 + 3.12959 lineup_169_24 + 2.85201 lineup_169_25
+ + 3.04851 lineup_169_26 + 2.83491 lineup_170_23 + 2.4598 lineup_170_24
+ + 2.60543 lineup_170_25 + 2.60256 lineup_170_26 + 3.64403 lineup_172_23
+ + 3.39576 lineup_172_24 + 3.07584 lineup_172_25 + 3.3023 lineup_172_26
+ + 2.97104 lineup_173_23 + 1.96052 lineup_173_24 + 2.62429 lineup_173_25
+ + 2.95798 lineup_173_26 + 2.05452 lineup_176_23 + 1.25397 lineup_176_24
+ + 1.84845 lineup_176_25 + 2.15482 lineup_176_26 + 3.39274 lineup_177_23
+ + 2.61882 lineup_177_24 + 2.6853 lineup_177_25 + 2.71659 lineup_177_26
+ + 2.67985 lineup_178_23 + 1.68338 lineup_178_24 + 2.31119 lineup_178_25
+ + 2.60417 lineup_178_26 + 3.34887 lineup_17_23 + 3.26737 lineup_17_24
+ + 3.57361 lineup_17_25 + 3.34044 lineup_17_26 + 3.34501 lineup_181_23
+ + 3.12959 lineup_181_24 + 2.85201 lineup_181_25 + 3.04851 lineup_181_26
+ + 3.11927 lineup_182_23 + 2.08315 lineup_182_24 + 2.77038 lineup_182_25
+ + 3.10749 lineup_182_26 + 1.73523 lineup_184_23 + 1.52748 lineup_184_24
+ + 1.6191 lineup_184_25 + 1.63517 lineup_184_26 + 1.24455 lineup_186_23
+ + 1.18808 lineup_186_24 + 1.12945 lineup_186_25 + 2.7909 lineup_191_23
+ + 2.79311 lineup_191_24 + 1.95296 lineup_191_25 + 2.90323 lineup_192_23
+ + 2.9704 lineup_192_24 + 2.59391 lineup_192_25 + 2.21125 lineup_193_23
+ + 2.06372 lineup_193_24 + 2.0459 lineup_193_25 + 2.01624 lineup_194_23
+ + 1.98216 lineup_194_24 + 1.31624 lineup_194_25 + 2.21634 lineup_195_23
+ + 2.23746 lineup_195_24 + 1.41269 lineup_195_25 + 0.98425 lineup_196_23
+ + 0.97039 lineup_196_24 + 0.95443 lineup_196_25 + 3.95436 lineup_199_23
+ + 3.71296 lineup_199_24 + 3.45995 lineup_199_25 + 5.7912 lineup_19_23
+ + 5.74168 lineup_19_24 + 5.80063 lineup_19_25 + 6.30493 lineup_19_26
+ + 1.58813 lineup_1_23 + 1.49612 lineup_1_24 + 1.57128 lineup_1_25
+ + 1.55681 lineup_1_26 + 1.5859 lineup_200_23 + 1.17707 lineup_200_24
+ + 1.22211 lineup_200_25 + 1.24814 lineup_200_26 + 3.18917 lineup_202_23
+ + 2.99349 lineup_202_24 + 2.81304 lineup_202_25 + 2.3657 lineup_203_23
+ + 2.32661 lineup_203_24 + 1.53797 lineup_203_25 + 2.14672 lineup_204_23
+ + 2.07942 lineup_204_24 + 2.06773 lineup_204_25 + 1.49654 lineup_204_26
+ + 2.02295 lineup_205_23 + 2.16769 lineup_205_24 + 2.16342 lineup_205_25
+ + 2.04925 lineup_205_26 + 3.39528 lineup_207_23 + 3.18595 lineup_207_24
+ + 2.93575 lineup_207_25 + 2.17269 lineup_208_23 + 2.06259 lineup_208_24
+ + 1.9768 lineup_208_25 + 2.30148 lineup_209_23 + 2.14181 lineup_209_24
+ + 2.2675 lineup_209_25 + 2.40751 lineup_209_26 + 3.19974 lineup_20_23
+ + 3.38571 lineup_20_24 + 4.28579 lineup_20_25 + 3.89923 lineup_20_26
+ + 3.19429 lineup_210_23 + 2.93502 lineup_210_24 + 2.71699 lineup_210_25
+ + 4.36332 lineup_211_23 + 3.97303 lineup_211_24 + 3.90011 lineup_211_25
+ + 2.85831 lineup_212_23 + 2.65268 lineup_212_24 + 2.64777 lineup_212_25
+ + 2.52837 lineup_214_23 + 2.48817 lineup_214_24 + 1.70273 lineup_214_25
+ + 4.3953 lineup_216_23 + 4.09348 lineup_216_24 + 3.77854 lineup_216_25
+ + 3.04271 lineup_217_23 + 3.12013 lineup_217_24 + 2.29839 lineup_217_25
+ + 1.04745 lineup_219_23 + 1.08341 lineup_219_24 + 1.08722 lineup_219_25
+ + 1.14159 lineup_219_26 + 2.25375 lineup_21_23 + 2.46411 lineup_21_24
+ + 2.46226 lineup_21_25 + 2.69046 lineup_220_23 + 2.88841 lineup_220_24
+ + 3.07181 lineup_220_25 + 3.87707 lineup_220_26 + 3.21828 lineup_221_23
+ + 3.37136 lineup_221_24 + 3.32403 lineup_221_25 + 3.55838 lineup_221_26
+ + 2.13504 lineup_222_23 + 2.25608 lineup_222_24 + 2.36365 lineup_222_25
+ + 2.87462 lineup_222_26 + 1.16421 lineup_224_23 + 1.19041 lineup_224_24
+ + 1.17213 lineup_224_25 + 1.2238 lineup_224_26 + 2.9275 lineup_225_23
+ + 2.88818 lineup_225_24 + 3.2774 lineup_225_25 + 3.37287 lineup_225_26
+ + 4.49016 lineup_226_23 + 4.57425 lineup_226_24 + 4.36723 lineup_226_25
+ + 4.61881 lineup_226_26 + 2.82469 lineup_228_23 + 3.03356 lineup_228_24
+ + 3.22598 lineup_228_25 + 4.03135 lineup_228_26 + 2.1059 lineup_229_23
+ + 2.21276 lineup_229_24 + 2.22323 lineup_229_25 + 2.35571 lineup_229_26
+ + 2.32424 lineup_22_23 + 2.36368 lineup_22_24 + 2.40905 lineup_22_25
+ + 2.59827 lineup_22_26 + 3.50262 lineup_230_23 + 3.49418 lineup_230_24
+ + 3.69852 lineup_230_25 + 3.41049 lineup_230_26 + 3.19258 lineup_231_23
+ + 3.39271 lineup_231_24 + 3.38086 lineup_231_25 + 3.6465 lineup_231_26
+ + 2.41987 lineup_232_23 + 2.39334 lineup_232_24 + 2.70547 lineup_232_25
+ + 2.77113 lineup_232_26 + 3.09218 lineup_233_23 + 3.08478 lineup_233_24
+ + 3.26372 lineup_233_25 + 3.0115 lineup_233_26 + 2.50449 lineup_234_23
+ + 2.68434 lineup_234_24 + 2.84941 lineup_234_25 + 3.5662 lineup_234_26
+ + 4.64596 lineup_236_23 + 4.67711 lineup_236_24 + 4.45976 lineup_236_25
+ + 4.75857 lineup_236_26 + 1.83354 lineup_238_23 + 1.96385 lineup_238_24
+ + 2.08083 lineup_238_25 + 2.58092 lineup_238_26 + 1.40682 lineup_239_23
+ + 1.4366 lineup_239_24 + 1.41582 lineup_239_25 + 1.47454 lineup_239_26
+ + 1.5487 lineup_23_23 + 1.54556 lineup_23_24 + 1.63598 lineup_23_25
+ + 1.32426 lineup_23_26 + 2.75305 lineup_240_23 + 2.97892 lineup_240_24
+ + 3.01203 lineup_240_25 + 3.24799 lineup_240_26 + 1.08264 lineup_241_23
+ + 1.14927 lineup_241_24 + 1.22315 lineup_241_25 + 1.6068 lineup_241_26
+ + 2.42418 lineup_242_23 + 2.5002 lineup_242_24 + 2.58885 lineup_242_25
+ + 3.21626 lineup_242_26 + 3.10097 lineup_243_23 + 3.09352 lineup_243_24
+ + 3.27384 lineup_243_25 + 3.01967 lineup_243_26 + 2.22724 lineup_245_23
+ + 1.81797 lineup_245_24 + 2.80477 lineup_245_25 + 2.24614 lineup_245_26
+ + 3.86868 lineup_246_23 + 3.5504 lineup_246_24 + 3.87363 lineup_246_25
+ + 3.90528 lineup_246_26 + 1.96498 lineup_247_23 + 1.57819 lineup_247_24
+ + 2.44148 lineup_247_25 + 1.9326 lineup_247_26 + 3.34786 lineup_250_23
+ + 3.07104 lineup_250_24 + 3.53555 lineup_250_25 + 3.43606 lineup_250_26
+ + 2.35579 lineup_252_23 + 1.79292 lineup_252_24 + 2.73368 lineup_252_25
+ + 2.06327 lineup_252_26 + 2.46059 lineup_254_23 + 2.23041 lineup_254_24
+ + 2.4924 lineup_254_25 + 2.4072 lineup_254_26 + 3.70665 lineup_256_23
+ + 4.10343 lineup_256_24 + 3.75786 lineup_256_25 + 3.76825 lineup_256_26
+ + 2.21873 lineup_257_23 + 1.787 lineup_257_24 + 2.72975 lineup_257_25
+ + 2.14406 lineup_257_26 + 2.83864 lineup_258_23 + 3.16858 lineup_258_24
+ + 6.07186 lineup_258_25 + 3.30008 lineup_258_26 + 3.65852 lineup_259_23
+ + 3.34382 lineup_259_24 + 3.94318 lineup_259_25 + 3.86136 lineup_259_26
+ + 1.64979 lineup_25_23 + 1.74761 lineup_25_24 + 2.25474 lineup_25_25
+ + 2.03663 lineup_25_26 + 2.59194 lineup_260_23 + 2.15411 lineup_260_24
+ + 3.1905 lineup_260_25 + 2.59532 lineup_260_26 + 3.04839 lineup_261_23
+ + 2.79956 lineup_261_24 + 3.18829 lineup_261_25 + 3.09293 lineup_261_26
+ + 1.87213 lineup_262_23 + 1.50984 lineup_262_24 + 2.41224 lineup_262_25
+ + 1.90494 lineup_262_26 + 3.52295 lineup_263_23 + 3.16979 lineup_263_24
+ + 3.78544 lineup_263_25 + 3.74096 lineup_263_26 + 3.09577 lineup_265_23
+ + 2.51337 lineup_265_24 + 3.77374 lineup_265_25 + 3.00957 lineup_265_26
+ + 2.94406 lineup_266_23 + 2.66219 lineup_266_24 + 3.15357 lineup_266_25
+ + 3.11807 lineup_266_26 + 3.43925 lineup_267_23 + 3.84665 lineup_267_24
+ + 3.54675 lineup_267_25 + 3.5741 lineup_267_26 + 2.63157 lineup_268_23
+ + 2.77782 lineup_268_24 + 2.51971 lineup_268_25 + 2.47646 lineup_268_26
+ + 3.53107 lineup_26_23 + 3.50355 lineup_26_24 + 3.56824 lineup_26_25
+ + 3.82211 lineup_26_26 + 3.0027 lineup_270_23 + 3.23246 lineup_270_24
+ + 2.92735 lineup_270_25 + 2.93019 lineup_270_26 + 2.59407 lineup_271_23
+ + 2.57787 lineup_271_24 + 2.42514 lineup_271_25 + 2.24804 lineup_271_26
  + 1.1551 lineup_272_23 + 1.22653 lineup_272_24 + 1.14971 lineup_272_25
  + 1.15187 lineup_272_26 + 1.39897 lineup_273_23 + 1.50092 lineup_273_24
  + 1.40711 lineup_273_25 + 1.38779 lineup_273_26 + 2.0795 lineup_274_23
  + 2.05894 lineup_274_24 + 1.74659 lineup_274_25 + 1.43896 lineup_274_26
- + 3.82951 lineup_275_23 + 3.77794 lineup_275_24 + 3.74046 lineup_275_25
- + 3.91018 lineup_275_26 + 1.53893 lineup_276_23 + 1.68216 lineup_276_24
- + 1.59766 lineup_276_25 + 1.62217 lineup_276_26 + 2.10765 lineup_277_23
+ + 3.82057 lineup_275_23 + 3.76936 lineup_275_24 + 3.73215 lineup_275_25
+ + 3.90067 lineup_275_26 + 1.52333 lineup_276_23 + 1.66583 lineup_276_24
+ + 1.58212 lineup_276_25 + 1.60661 lineup_276_26 + 2.10765 lineup_277_23
  + 2.08709 lineup_277_24 + 1.77474 lineup_277_25 + 1.46712 lineup_277_26
- + 1.69448 lineup_279_23 + 1.70203 lineup_279_24 + 1.74294 lineup_279_25
- + 1.69161 lineup_279_26 + 2.36673 lineup_27_23 + 2.27629 lineup_27_24
- + 2.24994 lineup_27_25 + 2.56912 lineup_27_26 + 2.89285 lineup_280_23
- + 3.19622 lineup_280_24 + 2.96797 lineup_280_25 + 2.99395 lineup_280_26
- + 2.86435 lineup_281_23 + 2.77901 lineup_281_24 + 2.54866 lineup_281_25
- + 2.3236 lineup_281_26 + 2.37872 lineup_282_23 + 2.58144 lineup_282_24
- + 2.43572 lineup_282_25 + 2.44081 lineup_282_26 + 3.37184 lineup_283_23
- + 3.31718 lineup_283_24 + 3.07685 lineup_283_25 + 2.82618 lineup_283_26
+ + 1.68327 lineup_279_23 + 1.69936 lineup_279_24 + 1.74954 lineup_279_25
+ + 1.70541 lineup_279_26 + 2.28771 lineup_27_23 + 2.17417 lineup_27_24
+ + 2.2024 lineup_27_25 + 2.54121 lineup_27_26 + 2.9257 lineup_280_23
+ + 3.23324 lineup_280_24 + 2.99555 lineup_280_25 + 3.01934 lineup_280_26
+ + 2.67192 lineup_281_23 + 2.62516 lineup_281_24 + 2.43562 lineup_281_25
+ + 2.25129 lineup_281_26 + 2.35491 lineup_282_23 + 2.5562 lineup_282_24
+ + 2.41201 lineup_282_25 + 2.41706 lineup_282_26 + 3.25126 lineup_283_23
+ + 3.22638 lineup_283_24 + 3.01686 lineup_283_25 + 2.79698 lineup_283_26
  + 3.0963 lineup_284_23 + 3.05805 lineup_284_24 + 3.03025 lineup_284_25
- + 3.15613 lineup_284_26 + 2.76736 lineup_285_23 + 2.71672 lineup_285_24
- + 2.50432 lineup_285_25 + 2.29725 lineup_285_26 + 2.96879 lineup_286_23
- + 2.93502 lineup_286_24 + 2.72134 lineup_286_25 + 2.49761 lineup_286_26
- + 2.04854 lineup_287_23 + 2.06312 lineup_287_24 + 2.09742 lineup_287_25
- + 2.01573 lineup_287_26 + 2.40209 lineup_288_23 + 2.67739 lineup_288_24
- + 2.50514 lineup_288_25 + 2.52446 lineup_288_26 + 2.97973 lineup_289_23
- + 3.05737 lineup_289_24 + 2.94966 lineup_289_25 + 3.02657 lineup_289_26
- + 3.46363 lineup_28_23 + 3.25059 lineup_28_24 + 3.65498 lineup_28_25
- + 3.2372 lineup_28_26 + 3.54107 lineup_290_23 + 5.7126 lineup_290_24
- + 4.41359 lineup_290_25 + 5.75177 lineup_290_26 + 3.72063 lineup_291_23
- + 3.82906 lineup_291_24 + 3.67864 lineup_291_25 + 3.78604 lineup_291_26
- + 1.60973 lineup_292_25 + 1.603 lineup_292_26 + 3.93589 lineup_293_23
- + 4.7319 lineup_293_24 + 3.98164 lineup_293_25 + 5.0163 lineup_293_26
- + 2.93613 lineup_294_23 + 3.42149 lineup_294_24 + 3.25903 lineup_294_25
- + 3.24221 lineup_294_26 + 2.01985 lineup_295_23 + 2.23523 lineup_295_24
- + 2.15677 lineup_295_25 + 2.14816 lineup_295_26 + 2.83925 lineup_297_23
- + 3.47224 lineup_297_24 + 3.05485 lineup_297_25 + 3.84289 lineup_297_26
- + 1.96995 lineup_298_23 + 2.98716 lineup_298_24 + 2.42194 lineup_298_25
- + 3.02765 lineup_298_26 + 3.2419 lineup_29_23 + 3.40049 lineup_29_24
- + 4.30616 lineup_29_25 + 3.97093 lineup_29_26 + 1.33646 lineup_2_23
- + 1.39215 lineup_2_24 + 1.78422 lineup_2_25 + 1.63859 lineup_2_26
- + 2.69597 lineup_300_23 + 2.92552 lineup_300_24 + 2.69418 lineup_300_25
- + 2.68764 lineup_300_26 + 3.0279 lineup_301_23 + 3.10592 lineup_301_24
- + 2.99769 lineup_301_25 + 3.07496 lineup_301_26 + 2.25658 lineup_302_23
- + 3.41664 lineup_302_24 + 2.75685 lineup_302_25 + 3.46233 lineup_302_26
- + 3.29375 lineup_303_23 + 3.8508 lineup_303_24 + 3.73558 lineup_303_25
- + 3.74909 lineup_303_26 + 3.26673 lineup_304_23 + 3.84825 lineup_304_24
- + 3.7493 lineup_304_25 + 3.76173 lineup_304_26 + 2.33128 lineup_307_23
- + 3.65951 lineup_307_24 + 2.88559 lineup_307_25 + 3.69332 lineup_307_26
- + 7.02573 lineup_308_23 + 8.05781 lineup_308_24 + 7.45938 lineup_308_25
- + 7.4159 lineup_308_26 + 3.77509 lineup_309_23 + 4.34136 lineup_309_24
- + 4.1777 lineup_309_25 + 4.15896 lineup_309_26 + 1.58358 lineup_310_25
- + 1.57707 lineup_310_26 + 1.97397 lineup_311_23 + 2.9721 lineup_311_24
- + 2.39052 lineup_311_25 + 2.99752 lineup_311_26 + 2.77426 lineup_313_23
- + 4.33224 lineup_313_24 + 3.51165 lineup_313_25 + 4.4477 lineup_313_26
- + 2.78155 lineup_314_23 + 2.88079 lineup_314_24 + 2.71956 lineup_314_25
- + 2.46978 lineup_314_26 + 1.23503 lineup_315_23 + 2.06705 lineup_315_24
- + 1.7163 lineup_315_25 + 1.1039 lineup_315_26 + 1.881 lineup_316_23
- + 2.86843 lineup_316_24 + 2.48801 lineup_316_25 + 1.79475 lineup_316_26
- + 1.62234 lineup_317_23 + 1.77391 lineup_317_24 + 1.80811 lineup_317_25
- + 1.67103 lineup_317_26 + 1.46997 lineup_318_23 + 2.36082 lineup_318_24
- + 1.97249 lineup_318_25 + 1.29447 lineup_318_26 + 2.26571 lineup_319_23
- + 2.33293 lineup_319_24 + 2.45915 lineup_319_25 + 2.21585 lineup_319_26
- + 3.25945 lineup_31_23 + 3.40984 lineup_31_24 + 4.31938 lineup_31_25
- + 3.97289 lineup_31_26 + 1.63294 lineup_320_23 + 1.74778 lineup_320_24
- + 1.75241 lineup_320_25 + 1.59619 lineup_320_26 + 2.5576 lineup_321_23
- + 3.90421 lineup_321_24 + 3.25755 lineup_321_25 + 2.2301 lineup_321_26
- + 3.08533 lineup_326_23 + 3.2799 lineup_326_24 + 3.14705 lineup_326_25
- + 2.85512 lineup_326_26 + 1.4086 lineup_327_23 + 1.49272 lineup_327_24
- + 1.57759 lineup_327_25 + 1.43172 lineup_327_26 + 3.04269 lineup_328_23
- + 3.15983 lineup_328_24 + 2.97106 lineup_328_25 + 2.64549 lineup_328_26
- + 2.82932 lineup_32_23 + 3.04811 lineup_32_24 + 2.97351 lineup_32_25
- + 3.34973 lineup_32_26 + 2.02212 lineup_330_23 + 3.08951 lineup_330_24
- + 2.65793 lineup_330_25 + 1.88263 lineup_330_26 + 1.38802 lineup_332_23
- + 1.41939 lineup_332_24 + 1.47828 lineup_332_25 + 1.36475 lineup_332_26
- + 0.95732 lineup_333_23 + 1.72063 lineup_333_24 + 1.3879 lineup_333_25
- + 0.80695 lineup_333_26 + 3.11661 lineup_335_23 + 3.41494 lineup_335_24
- + 3.46526 lineup_335_25 + 3.34989 lineup_335_26 + 1.38806 lineup_339_23
- + 1.41943 lineup_339_24 + 1.47835 lineup_339_25 + 1.36478 lineup_339_26
- + 2.82264 lineup_33_23 + 2.85442 lineup_33_24 + 2.89436 lineup_33_25
- + 2.93794 lineup_33_26 + 1.42095 lineup_340_23 + 1.50664 lineup_340_24
- + 1.45333 lineup_340_25 + 1.31026 lineup_340_26 + 3.25065 lineup_341_23
- + 4.00189 lineup_341_24 + 6.71338 lineup_341_25 + 3.56796 lineup_341_26
- + 3.63083 lineup_342_23 + 4.45931 lineup_342_24 + 7.43642 lineup_342_25
- + 3.96789 lineup_342_26 + 4.49769 lineup_343_23 + 4.75813 lineup_343_24
- + 8.56772 lineup_343_25 + 4.41588 lineup_343_26 + 3.87163 lineup_344_23
- + 4.02982 lineup_344_24 + 7.78557 lineup_344_25 + 3.86789 lineup_344_26
- + 1.76044 lineup_345_23 + 1.77963 lineup_345_24 + 3.35302 lineup_345_25
- + 1.64658 lineup_345_26 + 3.5228 lineup_346_23 + 4.47254 lineup_346_24
- + 7.23065 lineup_346_25 + 3.49178 lineup_346_26 + 2.95945 lineup_347_23
- + 3.2405 lineup_347_24 + 6.06323 lineup_347_25 + 3.11795 lineup_347_26
- + 3.7693 lineup_349_23 + 3.97212 lineup_349_24 + 7.68857 lineup_349_25
- + 3.82673 lineup_349_26 + 3.04663 lineup_34_23 + 3.13241 lineup_34_24
- + 3.01483 lineup_34_25 + 3.26213 lineup_34_26 + 3.17726 lineup_350_23
- + 3.92067 lineup_350_24 + 6.78107 lineup_350_25 + 3.59465 lineup_350_26
- + 1.59726 lineup_351_23 + 1.71204 lineup_351_24 + 1.66989 lineup_351_25
- + 1.74604 lineup_351_26 + 3.64698 lineup_352_23 + 4.03887 lineup_352_24
- + 7.49521 lineup_352_25 + 3.86798 lineup_352_26 + 4.84801 lineup_353_23
- + 4.98004 lineup_353_24 + 9.46766 lineup_353_25 + 4.70544 lineup_353_26
- + 3.72823 lineup_354_23 + 3.98796 lineup_354_24 + 7.78805 lineup_354_25
- + 3.86938 lineup_354_26 + 5.88965 lineup_355_23 + 6.54324 lineup_355_24
- + 11.89958 lineup_355_25 + 6.18785 lineup_355_26 + 2.57555 lineup_356_23
- + 2.71286 lineup_356_24 + 5.297 lineup_356_25 + 2.63784 lineup_356_26
- + 2.26316 lineup_358_23 + 2.81011 lineup_358_24 + 4.80205 lineup_358_25
- + 2.54822 lineup_358_26 + 2.67149 lineup_35_23 + 2.70947 lineup_35_24
- + 2.5809 lineup_35_25 + 2.76977 lineup_35_26 + 2.49085 lineup_360_23
- + 2.56323 lineup_360_24 + 2.52676 lineup_360_25 + 2.47641 lineup_360_26
- + 3.01598 lineup_361_23 + 3.30112 lineup_361_24 + 6.1784 lineup_361_25
- + 3.17678 lineup_361_26 + 5.51508 lineup_362_23 + 4.95016 lineup_362_24
- + 4.33551 lineup_362_25 + 4.92679 lineup_362_26 + 1.58612 lineup_364_23
- + 1.63267 lineup_364_24 + 3.18966 lineup_364_25 + 1.58846 lineup_364_26
- + 4.06006 lineup_365_23 + 4.26797 lineup_365_24 + 8.29275 lineup_365_25
- + 4.13008 lineup_365_26 + 1.45724 lineup_366_23 + 1.78617 lineup_366_24
- + 2.98137 lineup_366_25 + 1.58682 lineup_366_26 + 2.95945 lineup_367_23
- + 3.2405 lineup_367_24 + 6.06323 lineup_367_25 + 3.11795 lineup_367_26
- + 3.74177 lineup_369_23 + 4.47552 lineup_369_24 + 7.48581 lineup_369_25
- + 3.94742 lineup_369_26 + 3.1376 lineup_36_23 + 3.39087 lineup_36_24
- + 3.31622 lineup_36_25 + 3.80298 lineup_36_26 + 1.12935 lineup_371_23
- + 1.06748 lineup_371_24 + 1.1435 lineup_371_25 + 1.19147 lineup_371_26
- + 2.88195 lineup_372_23 + 2.74809 lineup_372_24 + 3.06843 lineup_372_25
- + 3.28483 lineup_372_26 + 5.51155 lineup_373_23 + 5.06402 lineup_373_24
- + 5.71706 lineup_373_25 + 6.16352 lineup_373_26 + 3.02109 lineup_376_23
- + 2.74392 lineup_376_24 + 2.99976 lineup_376_25 + 3.1852 lineup_376_26
- + 3.33255 lineup_377_23 + 2.70866 lineup_377_24 + 2.94901 lineup_377_25
- + 3.51291 lineup_377_26 + 3.4006 lineup_378_23 + 3.50889 lineup_378_24
- + 3.40849 lineup_378_25 + 3.12934 lineup_378_26 + 3.14946 lineup_379_23
- + 2.89749 lineup_379_24 + 3.16086 lineup_379_25 + 3.3726 lineup_379_26
- + 1.48243 lineup_37_23 + 1.59242 lineup_37_24 + 1.54817 lineup_37_25
- + 1.76798 lineup_37_26 + 1.97349 lineup_380_23 + 1.50089 lineup_380_24
- + 1.50445 lineup_380_25 + 1.9227 lineup_380_26 + 3.23869 lineup_382_23
- + 2.95565 lineup_382_24 + 3.23458 lineup_382_25 + 3.4356 lineup_382_26
- + 3.22616 lineup_384_23 + 2.8571 lineup_384_24 + 3.03546 lineup_384_25
- + 3.29067 lineup_384_26 + 3.15322 lineup_385_23 + 3.14974 lineup_385_24
- + 3.33274 lineup_385_25 + 3.09079 lineup_385_26 + 2.76917 lineup_386_23
- + 2.26179 lineup_386_24 + 2.44475 lineup_386_25 + 2.89536 lineup_386_26
- + 2.70904 lineup_387_23 + 2.20871 lineup_387_24 + 2.38913 lineup_387_25
- + 2.83348 lineup_387_26 + 1.86106 lineup_388_23 + 1.78383 lineup_388_24
- + 1.92362 lineup_388_25 + 2.00961 lineup_388_26 + 1.75771 lineup_389_23
- + 1.37278 lineup_389_24 + 1.51159 lineup_389_25 + 1.85344 lineup_389_26
- + 2.55815 lineup_38_23 + 2.63649 lineup_38_24 + 2.59192 lineup_38_25
- + 2.72911 lineup_38_26 + 2.46339 lineup_390_23 + 2.31144 lineup_390_24
- + 2.38533 lineup_390_25 + 2.73849 lineup_390_26 + 1.89044 lineup_391_23
- + 1.52445 lineup_391_24 + 1.69245 lineup_391_25 + 2.06746 lineup_391_26
- + 3.17226 lineup_392_23 + 2.97696 lineup_392_24 + 3.2666 lineup_392_25
- + 3.4525 lineup_392_26 + 1.84567 lineup_393_23 + 2.80987 lineup_393_24
- + 2.42042 lineup_393_25 + 1.72854 lineup_393_26 + 1.45985 lineup_394_23
- + 1.37593 lineup_394_24 + 1.45339 lineup_394_25 + 1.50955 lineup_394_26
- + 2.69972 lineup_395_23 + 2.22557 lineup_395_24 + 2.43652 lineup_395_25
- + 2.90105 lineup_395_26 + 4.53796 lineup_396_23 + 4.17245 lineup_396_24
- + 4.64758 lineup_396_25 + 4.97587 lineup_396_26 + 2.76499 lineup_398_23
- + 2.19891 lineup_398_24 + 2.40305 lineup_398_25 + 2.90578 lineup_398_26
- + 1.39761 lineup_399_23 + 1.30999 lineup_399_24 + 1.3526 lineup_399_25
+ + 3.15613 lineup_284_26 + 2.74437 lineup_285_23 + 2.69415 lineup_285_24
+ + 2.48287 lineup_285_25 + 2.2769 lineup_285_26 + 2.87147 lineup_286_23
+ + 2.86599 lineup_286_24 + 2.6819 lineup_286_25 + 2.48772 lineup_286_26
+ + 2.03119 lineup_287_23 + 2.0458 lineup_287_24 + 2.07992 lineup_287_25
+ + 1.99866 lineup_287_26 + 2.45608 lineup_288_25 + 2.47529 lineup_288_26
+ + 2.97973 lineup_289_23 + 3.03599 lineup_289_24 + 2.94966 lineup_289_25
+ + 3.46557 lineup_28_23 + 3.24023 lineup_28_24 + 3.65626 lineup_28_25
+ + 3.24725 lineup_28_26 + 3.27128 lineup_290_23 + 5.34596 lineup_290_24
+ + 4.2185 lineup_290_25 + 3.71883 lineup_291_23 + 3.79721 lineup_291_24
+ + 3.67693 lineup_291_25 + 1.60973 lineup_292_25 + 4.15456 lineup_293_23
+ + 5.02588 lineup_293_24 + 4.14016 lineup_293_25 + 3.06181 lineup_294_23
+ + 3.56512 lineup_294_24 + 3.3829 lineup_294_25 + 1.89355 lineup_295_23
+ + 2.13442 lineup_295_24 + 2.0787 lineup_295_25 + 2.6804 lineup_297_23
+ + 3.37293 lineup_297_24 + 2.93887 lineup_297_25 + 2.10004 lineup_298_23
+ + 3.0983 lineup_298_24 + 2.5389 lineup_298_25 + 3.24862 lineup_29_23
+ + 3.41234 lineup_29_24 + 4.32887 lineup_29_25 + 3.91936 lineup_29_26
+ + 1.33646 lineup_2_23 + 1.39215 lineup_2_24 + 1.78422 lineup_2_25
+ + 1.60498 lineup_2_26 + 2.68602 lineup_300_23 + 2.93727 lineup_300_24
+ + 2.71347 lineup_300_25 + 3.01763 lineup_301_23 + 3.07397 lineup_301_24
+ + 2.98752 lineup_301_25 + 2.25107 lineup_302_23 + 3.3775 lineup_302_24
+ + 2.75687 lineup_302_25 + 3.43088 lineup_303_23 + 4.00276 lineup_303_24
+ + 3.86041 lineup_303_25 + 3.19926 lineup_304_23 + 3.80848 lineup_304_24
+ + 3.71993 lineup_304_25 + 2.19392 lineup_307_23 + 3.47287 lineup_307_24
+ + 2.7925 lineup_307_25 + 7.92524 lineup_308_24 + 7.31161 lineup_308_25
+ + 3.81034 lineup_309_23 + 4.39689 lineup_309_24 + 4.22208 lineup_309_25
+ + 1.58358 lineup_310_25 + 1.9371 lineup_311_23 + 2.88287 lineup_311_24
+ + 2.34935 lineup_311_25 + 2.76866 lineup_313_23 + 4.26823 lineup_313_24
+ + 3.51396 lineup_313_25 + 3.21717 lineup_314_23 + 3.24959 lineup_314_24
+ + 3.05865 lineup_314_25 + 1.21215 lineup_315_23 + 2.00974 lineup_315_24
+ + 1.6906 lineup_315_25 + 1.87413 lineup_316_23 + 2.84865 lineup_316_24
+ + 2.50844 lineup_316_25 + 1.48133 lineup_317_23 + 1.66176 lineup_317_24
+ + 1.70938 lineup_317_25 + 1.51671 lineup_318_23 + 2.40251 lineup_318_24
+ + 2.04672 lineup_318_25 + 2.26571 lineup_319_23 + 2.33293 lineup_319_24
+ + 2.45915 lineup_319_25 + 3.65686 lineup_31_23 + 3.7538 lineup_31_24
+ + 4.66248 lineup_31_25 + 4.14731 lineup_31_26 + 1.81056 lineup_320_23
+ + 1.94443 lineup_320_24 + 1.92306 lineup_320_25 + 2.50754 lineup_321_23
+ + 3.81304 lineup_321_24 + 3.23454 lineup_321_25 + 3.22632 lineup_326_23
+ + 3.37806 lineup_326_24 + 3.26758 lineup_326_25 + 1.4086 lineup_327_23
+ + 1.49272 lineup_327_24 + 1.57759 lineup_327_25 + 3.61089 lineup_328_23
+ + 3.6444 lineup_328_24 + 3.4085 lineup_328_25 + 2.44808 lineup_32_23
+ + 2.72121 lineup_32_24 + 2.73675 lineup_32_25 + 3.13783 lineup_32_26
+ + 2.01011 lineup_330_23 + 3.05968 lineup_330_24 + 2.67399 lineup_330_25
+ + 1.38802 lineup_332_23 + 1.41939 lineup_332_24 + 1.47828 lineup_332_25
+ + 0.94893 lineup_333_23 + 1.68213 lineup_333_24 + 1.37833 lineup_333_25
+ + 3.10476 lineup_335_23 + 3.39511 lineup_335_24 + 3.45196 lineup_335_25
+ + 1.38806 lineup_339_23 + 1.41943 lineup_339_24 + 1.47835 lineup_339_25
+ + 2.64003 lineup_33_23 + 2.68712 lineup_33_24 + 2.81859 lineup_33_25
+ + 2.83112 lineup_33_26 + 1.3654 lineup_340_23 + 1.44846 lineup_340_24
+ + 1.42729 lineup_340_25 + 3.22113 lineup_341_23 + 3.90964 lineup_341_24
+ + 6.76054 lineup_341_25 + 3.53654 lineup_341_26 + 3.42171 lineup_342_23
+ + 4.2127 lineup_342_24 + 7.35888 lineup_342_25 + 3.93111 lineup_342_26
+ + 4.78153 lineup_343_23 + 4.98823 lineup_343_24 + 9.06538 lineup_343_25
+ + 4.55875 lineup_343_26 + 3.83374 lineup_344_23 + 4.03803 lineup_344_24
+ + 7.74848 lineup_344_25 + 3.82992 lineup_344_26 + 1.74471 lineup_345_23
+ + 1.77955 lineup_345_24 + 3.33465 lineup_345_25 + 1.63083 lineup_345_26
+ + 3.5228 lineup_346_23 + 4.47254 lineup_346_24 + 7.23065 lineup_346_25
+ + 3.49178 lineup_346_26 + 2.94966 lineup_347_23 + 3.18427 lineup_347_24
+ + 6.04445 lineup_347_25 + 3.10764 lineup_347_26 + 3.83757 lineup_349_23
+ + 4.10032 lineup_349_24 + 7.87918 lineup_349_25 + 3.90081 lineup_349_26
+ + 3.00347 lineup_34_23 + 3.10144 lineup_34_24 + 2.98926 lineup_34_25
+ + 3.25541 lineup_34_26 + 3.14729 lineup_350_23 + 3.8323 lineup_350_24
+ + 6.82028 lineup_350_25 + 3.56297 lineup_350_26 + 1.59726 lineup_351_23
+ + 1.72042 lineup_351_24 + 1.66404 lineup_351_25 + 1.7562 lineup_351_26
+ + 3.63166 lineup_352_23 + 3.95808 lineup_352_24 + 7.46523 lineup_352_25
+ + 3.85146 lineup_352_26 + 4.73554 lineup_353_23 + 4.95494 lineup_353_24
+ + 9.42604 lineup_353_25 + 4.69898 lineup_353_26 + 3.40955 lineup_354_23
+ + 3.76949 lineup_354_24 + 7.46562 lineup_354_25 + 3.77038 lineup_354_26
+ + 5.52725 lineup_355_23 + 6.17171 lineup_355_24 + 11.62672 lineup_355_25
+ + 6.048 lineup_355_26 + 2.33861 lineup_356_23 + 2.53556 lineup_356_24
+ + 5.0327 lineup_356_25 + 2.5523 lineup_356_26 + 2.20513 lineup_358_23
+ + 2.73586 lineup_358_24 + 4.88761 lineup_358_25 + 2.59124 lineup_358_26
+ + 2.67149 lineup_35_23 + 2.70947 lineup_35_24 + 2.57642 lineup_35_25
+ + 2.76977 lineup_35_26 + 2.54155 lineup_360_23 + 2.59883 lineup_360_24
+ + 2.58003 lineup_360_25 + 2.53759 lineup_360_26 + 3.00563 lineup_361_23
+ + 3.24363 lineup_361_24 + 6.15848 lineup_361_25 + 3.16589 lineup_361_26
+ + 5.24727 lineup_362_23 + 4.72187 lineup_362_24 + 4.18032 lineup_362_25
+ + 1.56548 lineup_364_23 + 1.5438 lineup_364_24 + 1.6114 lineup_364_25
+ + 1.61191 lineup_364_26 + 3.95872 lineup_365_23 + 4.24354 lineup_365_24
+ + 8.25932 lineup_365_25 + 4.12961 lineup_365_26 + 1.32183 lineup_366_23
+ + 1.65349 lineup_366_24 + 2.92611 lineup_366_25 + 1.58406 lineup_366_26
+ + 2.94966 lineup_367_23 + 3.18427 lineup_367_24 + 6.04445 lineup_367_25
+ + 3.10764 lineup_367_26 + 2.3507 lineup_368_23 + 2.91434 lineup_368_24
+ + 5.10434 lineup_368_25 + 2.71338 lineup_368_26 + 3.70859 lineup_369_23
+ + 4.37682 lineup_369_24 + 7.53013 lineup_369_25 + 3.91221 lineup_369_26
+ + 2.98718 lineup_36_23 + 3.27072 lineup_36_24 + 3.25024 lineup_36_25
+ + 3.74522 lineup_36_26 + 1.12935 lineup_371_23 + 1.07525 lineup_371_24
+ + 1.13541 lineup_371_25 + 1.19147 lineup_371_26 + 2.88195 lineup_372_23
+ + 2.77601 lineup_372_24 + 3.03939 lineup_372_25 + 3.28483 lineup_372_26
+ + 5.51155 lineup_373_23 + 5.12877 lineup_373_24 + 5.64971 lineup_373_25
+ + 6.16352 lineup_373_26 + 3.02109 lineup_376_23 + 2.77396 lineup_376_24
+ + 2.96851 lineup_376_25 + 3.1852 lineup_376_26 + 3.33255 lineup_377_23
+ + 2.78916 lineup_377_24 + 2.89256 lineup_377_25 + 3.51291 lineup_377_26
+ + 3.17515 lineup_378_23 + 3.29689 lineup_378_24 + 3.24956 lineup_378_25
+ + 3.04345 lineup_378_26 + 3.14946 lineup_379_23 + 2.92713 lineup_379_24
+ + 3.13003 lineup_379_25 + 3.3726 lineup_379_26 + 1.48243 lineup_37_23
+ + 1.59242 lineup_37_24 + 1.55654 lineup_37_25 + 1.76798 lineup_37_26
+ + 1.97349 lineup_380_23 + 1.50089 lineup_380_24 + 1.50445 lineup_380_25
+ + 1.9227 lineup_380_26 + 3.23869 lineup_382_23 + 2.98599 lineup_382_24
+ + 3.20302 lineup_382_25 + 3.4356 lineup_382_26 + 3.22616 lineup_384_23
+ + 2.86361 lineup_384_24 + 3.01281 lineup_384_25 + 3.29067 lineup_384_26
+ + 3.18388 lineup_385_23 + 3.17605 lineup_385_24 + 3.36554 lineup_385_25
+ + 3.09845 lineup_385_26 + 2.76917 lineup_386_23 + 2.32477 lineup_386_24
+ + 2.40058 lineup_386_25 + 2.89536 lineup_386_26 + 2.70904 lineup_387_23
+ + 2.27082 lineup_387_24 + 2.34558 lineup_387_25 + 2.83348 lineup_387_26
+ + 1.86106 lineup_388_23 + 1.79647 lineup_388_24 + 1.91047 lineup_388_25
+ + 2.00961 lineup_388_26 + 1.75771 lineup_389_23 + 1.42056 lineup_389_24
+ + 1.47808 lineup_389_25 + 1.85344 lineup_389_26 + 2.55815 lineup_38_23
+ + 2.63649 lineup_38_24 + 2.59192 lineup_38_25 + 2.72911 lineup_38_26
+ + 1.89044 lineup_391_23 + 1.57317 lineup_391_24 + 1.65828 lineup_391_25
+ + 2.06746 lineup_391_26 + 3.17226 lineup_392_23 + 3.00657 lineup_392_24
+ + 3.2358 lineup_392_25 + 3.4525 lineup_392_26 + 1.82773 lineup_393_23
+ + 2.75399 lineup_393_24 + 2.40035 lineup_393_25 + 1.45985 lineup_394_23
+ + 1.38502 lineup_394_24 + 1.44393 lineup_394_25 + 1.50955 lineup_394_26
+ + 2.69972 lineup_395_23 + 2.28927 lineup_395_24 + 2.39185 lineup_395_25
+ + 2.90105 lineup_395_26 + 4.53796 lineup_396_23 + 4.22051 lineup_396_24
+ + 4.59759 lineup_396_25 + 4.97587 lineup_396_26 + 2.76499 lineup_398_23
+ + 2.26919 lineup_398_24 + 2.35377 lineup_398_25 + 2.90578 lineup_398_26
+ + 1.39761 lineup_399_23 + 1.29475 lineup_399_24 + 1.34793 lineup_399_25
  + 1.55622 lineup_399_26 + 2.24149 lineup_39_23 + 2.20328 lineup_39_24
- + 2.35799 lineup_39_25 + 2.52396 lineup_39_26 + 1.04838 lineup_3_23
- + 1.04523 lineup_3_24 + 1.05186 lineup_3_25 + 1.10278 lineup_3_26
- + 2.80372 lineup_401_23 + 2.31291 lineup_401_24 + 2.53961 lineup_401_25
- + 3.0385 lineup_401_26 + 3.77329 lineup_402_23 + 3.95244 lineup_402_24
- + 4.24506 lineup_402_25 + 3.63413 lineup_402_26 + 3.43496 lineup_405_23
- + 3.25835 lineup_405_24 + 3.30562 lineup_405_25 + 2.41104 lineup_405_26
- + 3.7643 lineup_406_23 + 3.9281 lineup_406_24 + 4.20591 lineup_406_25
- + 3.59455 lineup_406_26 + 3.78062 lineup_407_23 + 3.57729 lineup_407_24
- + 3.61864 lineup_407_25 + 2.60988 lineup_407_26 + 3.29589 lineup_409_23
- + 3.39169 lineup_409_24 + 3.33192 lineup_409_25 + 3.24213 lineup_409_26
- + 1.98154 lineup_40_23 + 1.94 lineup_40_24 + 1.90088 lineup_40_25
- + 2.00797 lineup_40_26 + 3.02657 lineup_411_23 + 3.11003 lineup_411_24
- + 3.05795 lineup_411_25 + 2.97973 lineup_411_26 + 3.69715 lineup_412_23
- + 3.82372 lineup_412_24 + 4.09979 lineup_412_25 + 3.47188 lineup_412_26
- + 1.42506 lineup_414_23 + 1.4906 lineup_414_24 + 1.50797 lineup_414_25
- + 1.35889 lineup_414_26 + 5.7237 lineup_415_23 + 4.72629 lineup_415_24
- + 4.63811 lineup_415_25 + 4.18781 lineup_415_26 + 3.79833 lineup_416_25
- + 3.20975 lineup_416_26 + 2.7784 lineup_417_23 + 2.54397 lineup_417_24
- + 2.52709 lineup_417_25 + 1.79157 lineup_417_26 + 2.84758 lineup_419_23
- + 2.63225 lineup_419_24 + 2.63787 lineup_419_25 + 1.89083 lineup_419_26
- + 2.39527 lineup_41_23 + 2.59029 lineup_41_24 + 2.56793 lineup_41_25
- + 2.8881 lineup_41_26 + 3.13939 lineup_421_23 + 3.25965 lineup_421_24
- + 3.46639 lineup_421_25 + 3.01234 lineup_421_26 + 2.07127 lineup_423_23
- + 2.11499 lineup_423_24 + 2.23167 lineup_423_25 + 1.92604 lineup_423_26
- + 1.20118 lineup_425_23 + 1.21812 lineup_425_24 + 1.26335 lineup_425_25
- + 1.14488 lineup_425_26 + 4.01017 lineup_427_23 + 3.79913 lineup_427_24
- + 3.85815 lineup_427_25 + 2.82754 lineup_427_26 + 2.26695 lineup_428_23
- + 2.0647 lineup_428_24 + 2.05013 lineup_428_25 + 1.41553 lineup_428_26
- + 2.88454 lineup_42_23 + 3.11496 lineup_42_24 + 3.03428 lineup_42_25
- + 3.43506 lineup_42_26 + 5.29779 lineup_430_23 + 4.90836 lineup_430_24
- + 4.90698 lineup_430_25 + 3.41764 lineup_430_26 + 4.90678 lineup_433_23
- + 4.08 lineup_433_24 + 3.99189 lineup_433_25 + 3.59254 lineup_433_26
- + 1.21519 lineup_435_23 + 1.26356 lineup_435_24 + 1.2343 lineup_435_25
- + 1.16214 lineup_435_26 + 2.62883 lineup_436_23 + 2.6631 lineup_436_24
- + 2.73458 lineup_436_25 + 2.23063 lineup_436_26 + 3.05606 lineup_437_23
- + 3.33537 lineup_437_24 + 3.22585 lineup_437_25 + 3.01258 lineup_437_26
- + 2.5815 lineup_439_23 + 2.65812 lineup_439_24 + 2.77481 lineup_439_25
- + 2.23204 lineup_439_26 + 4.90012 lineup_43_23 + 4.9685 lineup_43_24
- + 4.67537 lineup_43_25 + 5.08331 lineup_43_26 + 2.52516 lineup_442_23
- + 2.6437 lineup_442_24 + 2.55311 lineup_442_25 + 2.34677 lineup_442_26
- + 2.31576 lineup_445_23 + 2.34768 lineup_445_24 + 2.41426 lineup_445_25
- + 1.94486 lineup_445_26 + 2.57056 lineup_446_23 + 2.56436 lineup_446_24
- + 2.55972 lineup_446_25 + 2.41961 lineup_446_26 + 4.29886 lineup_447_23
- + 4.59895 lineup_447_24 + 4.45945 lineup_447_25 + 4.0513 lineup_447_26
- + 3.03868 lineup_448_23 + 2.85332 lineup_448_24 + 3.20517 lineup_448_25
- + 2.84166 lineup_448_26 + 3.37045 lineup_449_23 + 3.15 lineup_449_24
- + 3.56846 lineup_449_25 + 3.13614 lineup_449_26 + 1.57322 lineup_44_23
- + 1.57422 lineup_44_24 + 1.60169 lineup_44_25 + 1.87238 lineup_44_26
- + 3.47238 lineup_450_23 + 3.61044 lineup_450_24 + 3.74037 lineup_450_25
- + 3.46552 lineup_450_26 + 1.46827 lineup_451_23 + 1.55592 lineup_451_24
- + 1.5194 lineup_451_25 + 1.42933 lineup_451_26 + 2.68812 lineup_453_23
- + 2.82849 lineup_453_24 + 2.76338 lineup_453_25 + 2.54972 lineup_453_26
- + 2.4263 lineup_455_23 + 2.45873 lineup_455_24 + 2.52638 lineup_455_25
- + 2.04942 lineup_455_26 + 1.44885 lineup_456_23 + 1.44585 lineup_456_24
- + 1.4436 lineup_456_25 + 1.37568 lineup_456_26 + 2.53164 lineup_457_23
- + 2.5675 lineup_457_24 + 2.61759 lineup_457_25 + 2.13953 lineup_457_26
+ + 2.35799 lineup_39_25 + 2.52396 lineup_39_26 + 1.03856 lineup_3_23
+ + 1.03542 lineup_3_24 + 1.04201 lineup_3_25 + 1.08935 lineup_3_26
+ + 2.80372 lineup_401_23 + 2.38026 lineup_401_24 + 2.49238 lineup_401_25
+ + 3.0385 lineup_401_26 + 3.66284 lineup_402_23 + 3.87544 lineup_402_24
+ + 4.16897 lineup_402_25 + 3.58032 lineup_402_26 + 1.71683 lineup_403_24
+ + 1.79068 lineup_403_25 + 1.58347 lineup_403_26 + 3.40814 lineup_405_23
+ + 3.30782 lineup_405_24 + 3.29943 lineup_405_25 + 2.41604 lineup_405_26
+ + 3.68418 lineup_406_23 + 3.88211 lineup_406_24 + 4.16152 lineup_406_25
+ + 3.57379 lineup_406_26 + 3.71572 lineup_407_23 + 3.60269 lineup_407_24
+ + 3.58659 lineup_407_25 + 2.59973 lineup_407_26 + 3.31205 lineup_409_23
+ + 3.42419 lineup_409_24 + 3.34822 lineup_409_25 + 3.25807 lineup_409_26
+ + 3.02657 lineup_411_23 + 3.12386 lineup_411_24 + 3.05795 lineup_411_25
+ + 2.97973 lineup_411_26 + 3.68498 lineup_412_23 + 3.83202 lineup_412_24
+ + 4.0967 lineup_412_25 + 3.46772 lineup_412_26 + 1.42506 lineup_414_23
+ + 1.4906 lineup_414_24 + 1.50797 lineup_414_25 + 1.35889 lineup_414_26
+ + 5.36714 lineup_415_23 + 4.44148 lineup_415_24 + 4.40173 lineup_415_25
+ + 4.00826 lineup_415_26 + 2.53669 lineup_417_23 + 2.39756 lineup_417_24
+ + 2.36551 lineup_417_25 + 1.69941 lineup_417_26 + 2.8249 lineup_419_23
+ + 2.66386 lineup_419_24 + 2.61648 lineup_419_25 + 1.87323 lineup_419_26
+ + 2.37391 lineup_41_23 + 2.56816 lineup_41_24 + 2.55767 lineup_41_25
+ + 2.86474 lineup_41_26 + 3.41561 lineup_421_23 + 3.51521 lineup_421_24
+ + 3.68263 lineup_421_25 + 3.16173 lineup_421_26 + 2.22885 lineup_423_23
+ + 2.26927 lineup_423_24 + 2.37038 lineup_423_25 + 2.0335 lineup_423_26
+ + 1.18986 lineup_425_23 + 1.20969 lineup_425_24 + 1.25164 lineup_425_25
+ + 1.13393 lineup_425_26 + 4.70087 lineup_427_23 + 4.43044 lineup_427_24
+ + 4.29277 lineup_427_25 + 3.06079 lineup_427_26 + 2.01911 lineup_428_25
+ + 1.38984 lineup_428_26 + 2.83336 lineup_42_23 + 3.06128 lineup_42_24
+ + 2.99668 lineup_42_25 + 3.37741 lineup_42_26 + 5.39371 lineup_430_23
+ + 5.0946 lineup_430_24 + 4.96739 lineup_430_25 + 3.45287 lineup_430_26
+ + 3.07304 lineup_432_23 + 3.15925 lineup_432_24 + 3.34165 lineup_432_25
+ + 2.82983 lineup_432_26 + 4.81841 lineup_433_23 + 4.00111 lineup_433_24
+ + 3.91866 lineup_433_25 + 3.52565 lineup_433_26 + 1.21519 lineup_435_23
+ + 1.2596 lineup_435_24 + 1.2343 lineup_435_25 + 1.16996 lineup_435_26
+ + 2.58479 lineup_436_23 + 2.57271 lineup_436_24 + 2.68947 lineup_436_25
+ + 2.2525 lineup_436_26 + 2.92951 lineup_437_23 + 3.25159 lineup_437_24
+ + 3.13091 lineup_437_25 + 2.90286 lineup_437_26 + 2.53682 lineup_439_23
+ + 2.56353 lineup_439_24 + 2.7289 lineup_439_25 + 2.25861 lineup_439_26
+ + 4.73485 lineup_43_23 + 4.83216 lineup_43_24 + 4.56149 lineup_43_25
+ + 5.00506 lineup_43_26 + 2.52171 lineup_442_23 + 2.64312 lineup_442_24
+ + 2.57441 lineup_442_25 + 2.39913 lineup_442_26 + 2.29687 lineup_445_23
+ + 2.28556 lineup_445_24 + 2.39491 lineup_445_25 + 1.98569 lineup_445_26
+ + 2.57056 lineup_446_23 + 2.56436 lineup_446_24 + 2.55972 lineup_446_25
+ + 2.41961 lineup_446_26 + 4.13842 lineup_447_23 + 4.44448 lineup_447_24
+ + 4.36182 lineup_447_25 + 4.03576 lineup_447_26 + 3.03868 lineup_448_23
+ + 2.84194 lineup_448_24 + 3.20517 lineup_448_25 + 2.84808 lineup_448_26
+ + 3.37045 lineup_449_23 + 3.13647 lineup_449_24 + 3.56846 lineup_449_25
+ + 3.14377 lineup_449_26 + 3.68295 lineup_450_23 + 3.78812 lineup_450_24
+ + 3.9066 lineup_450_25 + 1.43979 lineup_451_23 + 1.52168 lineup_451_24
+ + 1.49057 lineup_451_25 + 1.41143 lineup_451_26 + 2.64689 lineup_453_23
+ + 2.79224 lineup_453_24 + 2.75355 lineup_453_25 + 2.57682 lineup_453_26
+ + 2.4063 lineup_455_23 + 2.39482 lineup_455_24 + 2.50591 lineup_455_25
+ + 2.09013 lineup_455_26 + 1.44885 lineup_456_23 + 1.44585 lineup_456_24
+ + 1.4436 lineup_456_25 + 1.37568 lineup_456_26 + 2.48982 lineup_457_23
+ + 2.48173 lineup_457_24 + 2.57482 lineup_457_25 + 2.16008 lineup_457_26
  + 2.07264 lineup_458_23 + 2.08001 lineup_458_24 + 2.05956 lineup_458_25
  + 1.94819 lineup_458_26 + 1.46981 lineup_45_23 + 1.5798 lineup_45_24
- + 1.53556 lineup_45_25 + 1.75536 lineup_45_26 + 1.8627 lineup_460_23
+ + 1.54392 lineup_45_25 + 1.75536 lineup_45_26 + 1.8627 lineup_460_23
  + 1.81288 lineup_460_24 + 1.98863 lineup_460_25 + 1.50144 lineup_460_26
- + 2.65011 lineup_465_23 + 2.7252 lineup_465_24 + 2.83947 lineup_465_25
- + 2.30898 lineup_465_26 + 1.52664 lineup_466_23 + 1.57614 lineup_466_24
- + 1.56405 lineup_466_25 + 1.52515 lineup_466_26 + 1.97012 lineup_467_23
- + 2.08115 lineup_467_24 + 2.20141 lineup_467_25 + 1.79765 lineup_467_26
- + 3.208 lineup_468_23 + 3.38228 lineup_468_24 + 3.28736 lineup_468_25
- + 3.07316 lineup_468_26 + 2.32638 lineup_469_23 + 2.38595 lineup_469_24
- + 2.44951 lineup_469_25 + 2.00138 lineup_469_26 + 1.13376 lineup_46_23
- + 1.165 lineup_46_24 + 1.12968 lineup_46_25 + 1.18157 lineup_46_26
- + 2.36249 lineup_470_23 + 2.5369 lineup_470_24 + 2.4925 lineup_470_25
- + 2.33404 lineup_470_26 + 2.58673 lineup_471_23 + 2.46231 lineup_471_24
- + 2.44079 lineup_471_25 + 2.85803 lineup_471_26 + 3.03016 lineup_472_23
- + 3.08562 lineup_472_24 + 3.05735 lineup_472_25 + 3.14361 lineup_472_26
- + 2.04477 lineup_473_23 + 1.96656 lineup_473_24 + 1.9392 lineup_473_25
- + 2.25006 lineup_473_26 + 2.82799 lineup_475_23 + 2.46981 lineup_475_24
- + 2.62537 lineup_475_25 + 2.60743 lineup_475_26 + 2.57667 lineup_476_23
- + 2.48056 lineup_476_24 + 2.45948 lineup_476_25 + 2.87599 lineup_476_26
- + 1.41951 lineup_477_24 + 1.44915 lineup_477_25 + 1.47753 lineup_477_26
- + 1.1968 lineup_478_23 + 1.22875 lineup_478_24 + 1.21544 lineup_478_25
- + 1.19658 lineup_478_26 + 3.03016 lineup_479_23 + 3.08562 lineup_479_24
- + 3.05735 lineup_479_25 + 3.14361 lineup_479_26 + 2.74895 lineup_47_23
- + 2.79838 lineup_47_24 + 2.6935 lineup_47_25 + 2.88274 lineup_47_26
- + 1.6755 lineup_481_23 + 1.73031 lineup_481_24 + 1.70748 lineup_481_25
- + 1.67512 lineup_481_26 + 3.60861 lineup_482_23 + 3.67765 lineup_482_24
- + 3.64246 lineup_482_25 + 3.74984 lineup_482_26 + 2.11629 lineup_484_23
- + 1.98934 lineup_484_24 + 1.94276 lineup_484_25 + 2.26895 lineup_484_26
- + 2.96077 lineup_485_23 + 2.97199 lineup_485_24 + 2.95839 lineup_485_25
- + 2.97784 lineup_485_26 + 1.24202 lineup_487_23 + 1.21461 lineup_487_24
- + 1.23362 lineup_487_25 + 1.49902 lineup_487_26 + 2.42076 lineup_488_23
- + 2.59905 lineup_488_24 + 2.61334 lineup_488_25 + 2.59925 lineup_488_26
- + 1.61375 lineup_489_23 + 1.68599 lineup_489_24 + 1.68731 lineup_489_25
- + 1.65776 lineup_489_26 + 3.32761 lineup_48_23 + 3.60722 lineup_48_24
- + 3.56716 lineup_48_25 + 4.02828 lineup_48_26 + 1.7999 lineup_490_23
- + 1.84561 lineup_490_24 + 1.83975 lineup_490_25 + 1.85011 lineup_490_26
- + 3.2926 lineup_491_23 + 3.05735 lineup_491_24 + 2.97958 lineup_491_25
- + 2.85488 lineup_491_26 + 2.04663 lineup_492_23 + 2.09805 lineup_492_24
- + 2.15576 lineup_492_25 + 1.95343 lineup_492_26 + 2.36364 lineup_493_23
- + 2.41811 lineup_493_24 + 2.47926 lineup_493_25 + 2.283 lineup_493_26
- + 1.75346 lineup_494_23 + 1.81397 lineup_494_24 + 1.86252 lineup_494_25
- + 1.76924 lineup_494_26 + 2.71574 lineup_495_23 + 2.65889 lineup_495_24
- + 3.1519 lineup_495_25 + 2.33872 lineup_495_26 + 1.99625 lineup_497_23
- + 2.03696 lineup_497_24 + 2.45282 lineup_497_25 + 1.85128 lineup_497_26
- + 3.27732 lineup_498_23 + 3.04335 lineup_498_24 + 2.966 lineup_498_25
- + 2.84198 lineup_498_26 + 2.6425 lineup_499_23 + 2.73498 lineup_499_24
- + 2.82842 lineup_499_25 + 2.64497 lineup_499_26 + 3.75118 lineup_49_23
- + 3.93904 lineup_49_24 + 3.66957 lineup_49_25 + 4.0052 lineup_49_26
- + 1.78847 lineup_4_23 + 1.77995 lineup_4_24 + 1.79786 lineup_4_25
- + 1.93542 lineup_4_26 + 3.90105 lineup_501_23 + 4.01977 lineup_501_24
- + 4.12632 lineup_501_25 + 3.78434 lineup_501_26 + 3.50183 lineup_502_23
- + 3.2338 lineup_502_24 + 3.14519 lineup_502_25 + 3.00312 lineup_502_26
- + 4.16072 lineup_504_23 + 4.28 lineup_504_24 + 4.41391 lineup_504_25
- + 3.98412 lineup_504_26 + 3.96998 lineup_506_23 + 3.86651 lineup_506_24
- + 4.56471 lineup_506_25 + 3.26609 lineup_506_26 + 1.55332 lineup_508_23
- + 2.35952 lineup_508_24 + 3.58471 lineup_508_25 + 2.07672 lineup_508_26
- + 3.90554 lineup_509_23 + 3.91688 lineup_509_24 + 3.94193 lineup_509_25
- + 3.59583 lineup_509_26 + 3.9365 lineup_50_23 + 4.01324 lineup_50_24
- + 3.86348 lineup_50_25 + 4.15061 lineup_50_26 + 2.54268 lineup_511_23
- + 2.48642 lineup_511_24 + 2.93844 lineup_511_25 + 2.12989 lineup_511_26
- + 2.48902 lineup_513_23 + 2.5937 lineup_513_24 + 2.68269 lineup_513_25
- + 2.49123 lineup_513_26 + 1.53303 lineup_514_23 + 1.49685 lineup_514_24
- + 1.83316 lineup_514_25 + 1.24568 lineup_514_26 + 1.86775 lineup_515_23
- + 1.91327 lineup_515_24 + 1.96291 lineup_515_25 + 1.83858 lineup_515_26
- + 5.36149 lineup_516_23 + 5.53793 lineup_516_24 + 5.71847 lineup_516_25
- + 5.18864 lineup_516_26 + 1.68683 lineup_517_23 + 1.57693 lineup_517_24
- + 2.01576 lineup_517_25 + 1.42176 lineup_517_26 + 1.61805 lineup_518_23
- + 1.5072 lineup_518_24 + 1.93504 lineup_518_25 + 1.3626 lineup_518_26
- + 2.69079 lineup_519_23 + 2.68128 lineup_519_24 + 3.21918 lineup_519_25
- + 2.37037 lineup_519_26 + 4.03647 lineup_520_23 + 3.72982 lineup_520_24
- + 3.62845 lineup_520_25 + 3.46591 lineup_520_26 + 2.6266 lineup_522_23
- + 2.74684 lineup_522_24 + 3.17049 lineup_522_25 + 3.08054 lineup_522_26
- + 2.90669 lineup_523_23 + 2.82595 lineup_523_24 + 3.02978 lineup_523_25
- + 2.94618 lineup_523_26 + 3.69917 lineup_524_23 + 3.3297 lineup_524_24
- + 3.64157 lineup_524_25 + 3.41431 lineup_524_26 + 3.07557 lineup_525_24
- + 3.25441 lineup_525_25 + 3.24636 lineup_525_26 + 5.06702 lineup_526_23
- + 5.07846 lineup_526_24 + 5.43927 lineup_526_25 + 5.4486 lineup_526_26
- + 2.40948 lineup_527_23 + 2.37109 lineup_527_24 + 2.48091 lineup_527_25
- + 2.46743 lineup_527_26 + 2.37591 lineup_528_23 + 2.54608 lineup_528_24
- + 2.97313 lineup_528_25 + 2.92054 lineup_528_26 + 2.37206 lineup_530_23
- + 2.49865 lineup_530_24 + 2.94467 lineup_530_25 + 2.84996 lineup_530_26
- + 2.35615 lineup_532_23 + 2.54725 lineup_532_24 + 2.99774 lineup_532_25
- + 2.94137 lineup_532_26 + 3.65118 lineup_533_23 + 3.28191 lineup_533_24
- + 3.59362 lineup_533_25 + 3.36648 lineup_533_26 + 2.01946 lineup_534_23
- + 2.01752 lineup_534_24 + 2.10942 lineup_534_25 + 2.11505 lineup_534_26
- + 2.58009 lineup_535_23 + 2.46117 lineup_535_24 + 2.5965 lineup_535_25
- + 2.47503 lineup_535_26 + 1.57905 lineup_536_23 + 1.7093 lineup_536_24
- + 2.05073 lineup_536_25 + 2.01014 lineup_536_26 + 1.228 lineup_538_23
- + 1.22957 lineup_538_24 + 1.35069 lineup_538_25 + 1.33537 lineup_538_26
- + 3.89584 lineup_539_23 + 3.88813 lineup_539_24 + 4.09201 lineup_539_25
- + 4.08142 lineup_539_26 + 3.0169 lineup_53_23 + 3.14765 lineup_53_24
- + 2.96011 lineup_53_25 + 3.1937 lineup_53_26 + 3.83831 lineup_540_23
- + 3.82203 lineup_540_24 + 3.83855 lineup_540_25 + 4.11586 lineup_540_26
- + 3.74835 lineup_542_23 + 3.70692 lineup_542_24 + 3.89636 lineup_542_25
- + 3.89847 lineup_542_26 + 2.68314 lineup_544_23 + 2.83566 lineup_544_24
- + 3.29703 lineup_544_25 + 3.23559 lineup_544_26 + 2.02569 lineup_545_23
- + 2.77088 lineup_545_24 + 2.19433 lineup_545_25 + 3.22952 lineup_545_26
- + 2.93533 lineup_546_23 + 3.01003 lineup_546_24 + 3.14982 lineup_546_25
- + 3.21944 lineup_546_26 + 1.39588 lineup_547_23 + 1.83773 lineup_547_24
+ + 2.66052 lineup_465_23 + 2.69567 lineup_465_24 + 2.86903 lineup_465_25
+ + 2.40933 lineup_465_26 + 1.52664 lineup_466_23 + 1.57614 lineup_466_24
+ + 1.56405 lineup_466_25 + 1.52515 lineup_466_26 + 1.9795 lineup_467_23
+ + 2.05966 lineup_467_24 + 2.22981 lineup_467_25 + 1.88468 lineup_467_26
+ + 3.027 lineup_468_23 + 3.24865 lineup_468_24 + 3.15246 lineup_468_25
+ + 2.93455 lineup_468_26 + 2.30709 lineup_469_23 + 2.32539 lineup_469_24
+ + 2.42981 lineup_469_25 + 2.03903 lineup_469_26 + 1.12299 lineup_46_23
+ + 1.15416 lineup_46_24 + 1.11784 lineup_46_25 + 1.17063 lineup_46_26
+ + 2.19381 lineup_470_23 + 2.38243 lineup_470_24 + 2.37796 lineup_470_25
+ + 2.2724 lineup_470_26 + 2.61 lineup_471_23 + 2.43355 lineup_471_24
+ + 2.45759 lineup_471_25 + 2.88636 lineup_471_26 + 3.03016 lineup_472_23
+ + 3.0626 lineup_472_24 + 3.0384 lineup_472_25 + 3.14361 lineup_472_26
+ + 2.01059 lineup_473_23 + 1.8959 lineup_473_24 + 1.90592 lineup_473_25
+ + 2.21453 lineup_473_26 + 2.84933 lineup_475_23 + 2.48737 lineup_475_24
+ + 2.64291 lineup_475_25 + 2.6385 lineup_475_26 + 2.58104 lineup_476_23
+ + 2.44686 lineup_476_24 + 2.48255 lineup_476_25 + 2.91522 lineup_476_26
+ + 1.41402 lineup_477_24 + 1.48262 lineup_477_25 + 1.47753 lineup_477_26
+ + 1.1968 lineup_478_23 + 1.22061 lineup_478_24 + 1.21319 lineup_478_25
+ + 1.19658 lineup_478_26 + 3.03016 lineup_479_23 + 3.0626 lineup_479_24
+ + 3.0384 lineup_479_25 + 3.14361 lineup_479_26 + 2.57028 lineup_47_23
+ + 2.64893 lineup_47_24 + 2.57337 lineup_47_25 + 2.79211 lineup_47_26
+ + 1.65939 lineup_481_23 + 1.69992 lineup_481_24 + 1.68729 lineup_481_25
+ + 1.65902 lineup_481_26 + 3.58098 lineup_482_23 + 3.62087 lineup_482_24
+ + 3.59111 lineup_482_25 + 3.7205 lineup_482_26 + 1.69077 lineup_483_23
+ + 1.70974 lineup_483_24 + 1.74895 lineup_483_25 + 1.72188 lineup_483_26
+ + 2.09909 lineup_484_23 + 1.93327 lineup_484_24 + 1.9259 lineup_484_25
+ + 2.25099 lineup_484_26 + 2.90798 lineup_485_23 + 2.92388 lineup_485_24
+ + 3.01153 lineup_485_25 + 2.97594 lineup_485_26 + 1.05903 lineup_487_23
+ + 1.03096 lineup_487_24 + 1.10529 lineup_487_25 + 1.39453 lineup_487_26
+ + 2.39541 lineup_488_23 + 2.55024 lineup_488_24 + 2.58126 lineup_488_25
+ + 2.57391 lineup_488_26 + 1.59782 lineup_489_23 + 1.65702 lineup_489_24
+ + 1.66766 lineup_489_25 + 1.64183 lineup_489_26 + 3.1228 lineup_48_23
+ + 3.44151 lineup_48_24 + 3.4629 lineup_48_25 + 3.9425 lineup_48_26
+ + 1.78818 lineup_490_23 + 1.83553 lineup_490_24 + 1.88222 lineup_490_25
+ + 1.86168 lineup_490_26 + 3.2926 lineup_491_23 + 3.0384 lineup_491_24
+ + 2.97958 lineup_491_25 + 1.87327 lineup_492_23 + 1.94702 lineup_492_24
+ + 2.03841 lineup_492_25 + 2.31767 lineup_493_23 + 2.36478 lineup_493_24
+ + 2.43125 lineup_493_25 + 1.73593 lineup_494_23 + 1.79227 lineup_494_24
+ + 1.84442 lineup_494_25 + 2.69151 lineup_495_23 + 2.63448 lineup_495_24
+ + 3.12527 lineup_495_25 + 1.97777 lineup_497_23 + 2.01829 lineup_497_24
+ + 2.43285 lineup_497_25 + 3.27732 lineup_498_23 + 3.0245 lineup_498_24
+ + 2.966 lineup_498_25 + 2.45933 lineup_499_23 + 2.57716 lineup_499_24
+ + 2.70841 lineup_499_25 + 3.74637 lineup_49_23 + 3.93328 lineup_49_24
+ + 3.69331 lineup_49_25 + 3.9991 lineup_49_26 + 1.77124 lineup_4_23
+ + 1.76279 lineup_4_24 + 1.78055 lineup_4_25 + 1.90811 lineup_4_26
+ + 3.81245 lineup_501_23 + 3.936 lineup_501_24 + 4.07006 lineup_501_25
+ + 3.50183 lineup_502_23 + 3.21221 lineup_502_24 + 3.14519 lineup_502_25
+ + 4.46944 lineup_504_23 + 4.5394 lineup_504_24 + 4.65432 lineup_504_25
+ + 3.82284 lineup_506_23 + 3.75052 lineup_506_24 + 4.47016 lineup_506_25
+ + 1.53692 lineup_508_23 + 2.33949 lineup_508_24 + 3.60056 lineup_508_25
+ + 2.05869 lineup_508_26 + 3.99811 lineup_509_23 + 3.9975 lineup_509_24
+ + 4.03516 lineup_509_25 + 3.84318 lineup_50_23 + 3.93771 lineup_50_24
+ + 3.79905 lineup_50_25 + 4.11062 lineup_50_26 + 2.47475 lineup_511_23
+ + 2.44179 lineup_511_24 + 2.91475 lineup_511_25 + 2.46397 lineup_513_23
+ + 2.56189 lineup_513_24 + 2.65665 lineup_513_25 + 1.86706 lineup_515_23
+ + 1.91604 lineup_515_24 + 1.97764 lineup_515_25 + 5.25466 lineup_516_23
+ + 5.41105 lineup_516_24 + 5.60567 lineup_516_25 + 1.68683 lineup_517_23
+ + 1.57693 lineup_517_24 + 2.01576 lineup_517_25 + 1.61805 lineup_518_23
+ + 1.5072 lineup_518_24 + 1.93504 lineup_518_25 + 3.11777 lineup_519_23
+ + 3.04094 lineup_519_24 + 3.5634 lineup_519_25 + 4.03682 lineup_520_23
+ + 3.7058 lineup_520_24 + 3.62921 lineup_520_25 + 2.6266 lineup_522_23
+ + 2.747 lineup_522_24 + 3.22879 lineup_522_25 + 3.09581 lineup_522_26
+ + 2.90669 lineup_523_23 + 2.80561 lineup_523_24 + 3.02707 lineup_523_25
+ + 2.96729 lineup_523_26 + 3.69917 lineup_524_23 + 3.31856 lineup_524_24
+ + 3.65889 lineup_524_25 + 3.42107 lineup_524_26 + 3.05679 lineup_525_24
+ + 3.26709 lineup_525_25 + 3.26847 lineup_525_26 + 5.06702 lineup_526_23
+ + 5.04325 lineup_526_24 + 5.46305 lineup_526_25 + 5.49008 lineup_526_26
+ + 2.40948 lineup_527_23 + 2.35688 lineup_527_24 + 2.49051 lineup_527_25
+ + 2.48417 lineup_527_26 + 2.37591 lineup_528_23 + 2.54622 lineup_528_24
+ + 3.02757 lineup_528_25 + 2.9348 lineup_528_26 + 2.37206 lineup_530_23
+ + 2.49881 lineup_530_24 + 3.00604 lineup_530_25 + 2.86604 lineup_530_26
+ + 2.35615 lineup_532_23 + 2.5474 lineup_532_24 + 3.0527 lineup_532_25
+ + 2.95577 lineup_532_26 + 3.65118 lineup_533_23 + 3.27078 lineup_533_24
+ + 3.61093 lineup_533_25 + 3.37324 lineup_533_26 + 2.01946 lineup_534_23
+ + 2.00853 lineup_534_24 + 2.1155 lineup_534_25 + 2.12564 lineup_534_26
+ + 2.58009 lineup_535_23 + 2.44299 lineup_535_24 + 2.59407 lineup_535_25
+ + 2.49389 lineup_535_26 + 1.57905 lineup_536_23 + 1.70941 lineup_536_24
+ + 2.09131 lineup_536_25 + 2.02077 lineup_536_26 + 1.228 lineup_538_23
+ + 1.22102 lineup_538_24 + 1.34955 lineup_538_25 + 1.34424 lineup_538_26
+ + 3.89584 lineup_539_23 + 3.86342 lineup_539_24 + 4.10871 lineup_539_25
+ + 4.11053 lineup_539_26 + 3.00718 lineup_53_23 + 3.13752 lineup_53_24
+ + 2.97018 lineup_53_25 + 3.18342 lineup_53_26 + 3.75117 lineup_540_23
+ + 3.75578 lineup_540_24 + 3.79294 lineup_540_25 + 4.07231 lineup_540_26
+ + 3.74835 lineup_542_23 + 3.68553 lineup_542_24 + 3.91081 lineup_542_25
+ + 3.92367 lineup_542_26 + 2.68314 lineup_544_23 + 2.83582 lineup_544_24
+ + 3.35637 lineup_544_25 + 3.25114 lineup_544_26 + 2.02569 lineup_545_23
+ + 2.78645 lineup_545_24 + 2.17021 lineup_545_25 + 3.1834 lineup_545_26
+ + 2.93533 lineup_546_23 + 3.01551 lineup_546_24 + 3.11212 lineup_546_25
+ + 3.21351 lineup_546_26 + 1.39588 lineup_547_23 + 1.83773 lineup_547_24
  + 1.45832 lineup_547_25 + 1.99443 lineup_547_26 + 1.52524 lineup_548_23
- + 2.11448 lineup_548_24 + 1.73294 lineup_548_25 + 2.48634 lineup_548_26
+ + 2.12581 lineup_548_24 + 1.71538 lineup_548_25 + 2.45278 lineup_548_26
  + 1.31703 lineup_54_23 + 1.35034 lineup_54_24 + 1.34071 lineup_54_25
- + 1.37977 lineup_54_26 + 2.64763 lineup_551_23 + 3.41841 lineup_551_24
- + 2.73433 lineup_551_25 + 3.90775 lineup_551_26 + 1.80374 lineup_553_23
- + 2.76846 lineup_553_24 + 2.35986 lineup_553_25 + 1.64646 lineup_553_26
- + 2.82665 lineup_554_23 + 3.0674 lineup_554_24 + 2.88421 lineup_554_25
- + 2.88759 lineup_554_26 + 1.02377 lineup_555_23 + 1.07556 lineup_555_24
- + 1.04524 lineup_555_25 + 1.08754 lineup_555_26 + 3.72157 lineup_557_23
- + 3.91288 lineup_557_24 + 3.72712 lineup_557_25 + 3.97245 lineup_557_26
- + 3.04512 lineup_558_23 + 3.03444 lineup_558_24 + 3.08723 lineup_558_25
- + 2.96326 lineup_558_26 + 2.68414 lineup_559_23 + 2.8631 lineup_559_24
- + 2.77017 lineup_559_25 + 2.90864 lineup_559_26 + 3.17955 lineup_55_23
- + 3.2312 lineup_55_24 + 3.06974 lineup_55_25 + 3.29421 lineup_55_26
- + 1.60286 lineup_560_23 + 2.18354 lineup_560_24 + 1.72681 lineup_560_25
- + 2.55585 lineup_560_26 + 1.16879 lineup_561_23 + 1.22602 lineup_561_24
- + 1.19252 lineup_561_25 + 1.23926 lineup_561_26 + 2.603 lineup_563_23
- + 3.33121 lineup_563_24 + 2.73612 lineup_563_25 + 3.78945 lineup_563_26
- + 2.85488 lineup_564_23 + 2.9285 lineup_564_24 + 3.06626 lineup_564_25
- + 3.13487 lineup_564_26 + 3.2043 lineup_565_23 + 3.44783 lineup_565_24
- + 3.32442 lineup_565_25 + 3.54873 lineup_565_26 + 2.52882 lineup_566_23
- + 2.61381 lineup_566_24 + 5.09119 lineup_566_25 + 2.53412 lineup_566_26
- + 3.07006 lineup_567_23 + 3.39316 lineup_567_24 + 3.30136 lineup_567_25
- + 3.532 lineup_567_26 + 3.48038 lineup_569_23 + 3.57862 lineup_569_24
- + 3.76247 lineup_569_25 + 3.85403 lineup_569_26 + 2.99826 lineup_570_23
- + 3.242 lineup_570_24 + 3.12091 lineup_570_25 + 3.30979 lineup_570_26
- + 2.28493 lineup_572_23 + 2.99123 lineup_572_24 + 2.46993 lineup_572_25
- + 3.43903 lineup_572_26 + 2.34405 lineup_573_23 + 3.15117 lineup_573_24
- + 2.57507 lineup_573_25 + 3.67843 lineup_573_26 + 1.29045 lineup_574_23
- + 1.36805 lineup_574_24 + 1.35374 lineup_574_25 + 1.40109 lineup_574_26
- + 2.48574 lineup_576_23 + 2.4651 lineup_576_24 + 2.4646 lineup_576_25
- + 2.83764 lineup_576_26 + 1.93849 lineup_577_23 + 2.07318 lineup_577_24
- + 2.40348 lineup_577_25 + 2.33873 lineup_577_26 + 1.37759 lineup_578_23
- + 1.4082 lineup_578_24 + 1.43856 lineup_578_25 + 1.51277 lineup_578_26
- + 2.94406 lineup_579_23 + 2.66085 lineup_579_24 + 3.15357 lineup_579_25
- + 3.11807 lineup_579_26 + 3.02657 lineup_580_23 + 3.11003 lineup_580_24
- + 3.05795 lineup_580_25 + 2.97973 lineup_580_26 + 1.84444 lineup_581_23
- + 1.67853 lineup_581_24 + 1.66658 lineup_581_25 + 1.14602 lineup_581_26
- + 2.15445 lineup_582_23 + 2.33913 lineup_582_24 + 2.3484 lineup_582_25
- + 2.14372 lineup_582_26 + 2.09573 lineup_583_23 + 2.14716 lineup_583_24
- + 2.20489 lineup_583_25 + 2.01959 lineup_583_26 + 2.95837 lineup_584_23
- + 3.19217 lineup_584_24 + 3.16546 lineup_584_25 + 3.53671 lineup_584_26
- + 1.88441 lineup_586_23 + 2.08052 lineup_586_24 + 2.13231 lineup_586_25
- + 1.95796 lineup_586_26 + 1.8064 lineup_587_23 + 1.92922 lineup_587_24
- + 1.91514 lineup_587_25 + 1.88001 lineup_587_26 + 2.46766 lineup_588_23
- + 1.85239 lineup_588_24 + 2.96199 lineup_588_25 + 2.2865 lineup_588_26
- + 2.38461 lineup_58_23 + 2.44422 lineup_58_24 + 2.37166 lineup_58_25
- + 2.55101 lineup_58_26 + 4.1753 lineup_590_23 + 4.17068 lineup_590_24
- + 4.29704 lineup_590_25 + 4.44317 lineup_590_26 + 4.11242 lineup_591_23
- + 4.53605 lineup_591_24 + 4.11846 lineup_591_25 + 4.12506 lineup_591_26
- + 2.10236 lineup_592_23 + 1.99533 lineup_592_24 + 1.95014 lineup_592_25
- + 2.26666 lineup_592_26 + 3.74731 lineup_594_23 + 2.97689 lineup_594_24
- + 3.05469 lineup_594_25 + 3.09092 lineup_594_26 + 2.82308 lineup_595_23
- + 2.54821 lineup_595_24 + 2.03565 lineup_595_25 + 2.02173 lineup_595_26
- + 4.1259 lineup_596_23 + 3.7689 lineup_596_24 + 3.477 lineup_596_25
- + 3.77966 lineup_596_26 + 3.97956 lineup_597_23 + 3.49847 lineup_597_24
- + 3.73097 lineup_597_25 + 4.06365 lineup_597_26 + 1.61513 lineup_598_23
- + 2.24439 lineup_598_24 + 1.85244 lineup_598_25 + 2.65548 lineup_598_26
- + 4.32869 lineup_599_23 + 4.38045 lineup_599_24 + 4.11363 lineup_599_25
- + 4.45841 lineup_599_26 + 1.57322 lineup_59_23 + 1.5904 lineup_59_24
- + 1.53223 lineup_59_25 + 1.61769 lineup_59_26 + 4.03645 lineup_5_23
- + 4.05605 lineup_5_24 + 4.90527 lineup_5_25 + 4.39861 lineup_5_26
- + 1.60301 lineup_600_23 + 1.45964 lineup_600_24 + 1.51321 lineup_600_25
- + 1.50565 lineup_600_26 + 2.63733 lineup_601_23 + 2.42705 lineup_601_24
- + 2.78596 lineup_601_25 + 2.68303 lineup_601_26 + 1.59715 lineup_602_23
- + 2.53054 lineup_602_24 + 2.15966 lineup_602_25 + 1.46834 lineup_602_26
- + 2.74157 lineup_604_23 + 2.7908 lineup_604_24 + 2.85888 lineup_604_25
- + 2.3507 lineup_604_26 + 2.71775 lineup_606_23 + 2.10319 lineup_606_24
- + 2.38043 lineup_606_25 + 2.80547 lineup_606_26 + 3.55678 lineup_607_23
- + 3.27934 lineup_607_24 + 3.1531 lineup_607_25 + 3.33942 lineup_607_26
- + 2.09837 lineup_608_23 + 1.89249 lineup_608_24 + 2.00403 lineup_608_25
- + 2.01946 lineup_608_26 + 5.16863 lineup_60_23 + 5.10114 lineup_60_24
- + 5.15206 lineup_60_25 + 6.09567 lineup_60_26 + 2.8506 lineup_610_23
- + 2.79868 lineup_610_24 + 2.57399 lineup_610_25 + 2.33816 lineup_610_26
- + 3.39807 lineup_611_23 + 3.46065 lineup_611_24 + 2.3894 lineup_611_25
- + 3.12647 lineup_611_26 + 3.38149 lineup_614_23 + 3.69651 lineup_614_24
- + 3.74965 lineup_614_25 + 3.62782 lineup_614_26 + 1.48892 lineup_615_23
- + 1.60102 lineup_615_24 + 1.62406 lineup_615_25 + 1.7227 lineup_615_26
- + 3.24042 lineup_616_23 + 3.94868 lineup_616_24 + 6.67024 lineup_616_25
- + 3.53238 lineup_616_26 + 3.33885 lineup_617_23 + 3.15475 lineup_617_24
- + 3.26469 lineup_617_25 + 3.75372 lineup_617_26 + 1.2321 lineup_618_23
- + 1.24369 lineup_618_24 + 1.20446 lineup_618_25 + 1.26209 lineup_618_26
- + 1.76752 lineup_619_23 + 1.54702 lineup_619_24 + 1.13586 lineup_619_25
- + 1.12469 lineup_619_26 + 1.09202 lineup_620_23 + 1.15193 lineup_620_24
- + 2.288 lineup_620_25 + 1.16781 lineup_620_26 + 2.6728 lineup_621_23
- + 2.56249 lineup_621_24 + 2.66104 lineup_621_25 + 2.71895 lineup_621_26
- + 1.12794 lineup_622_23 + 1.7441 lineup_622_24 + 1.86842 lineup_622_25
- + 2.11724 lineup_622_26 + 1.49733 lineup_623_23 + 1.41911 lineup_623_24
- + 1.32563 lineup_623_25 + 1.40345 lineup_623_26 + 1.34555 lineup_624_23
- + 1.25743 lineup_624_24 + 1.35782 lineup_624_25 + 1.32497 lineup_624_26
+ + 1.37977 lineup_54_26 + 2.64763 lineup_551_23 + 3.4359 lineup_551_24
+ + 2.70724 lineup_551_25 + 3.85596 lineup_551_26 + 1.78661 lineup_553_23
+ + 2.71314 lineup_553_24 + 2.34058 lineup_553_25 + 2.82665 lineup_554_23
+ + 3.0674 lineup_554_24 + 2.88421 lineup_554_25 + 2.88759 lineup_554_26
+ + 1.02377 lineup_555_23 + 1.08066 lineup_555_24 + 1.04169 lineup_555_25
+ + 1.09372 lineup_555_26 + 3.72157 lineup_557_23 + 3.94246 lineup_557_24
+ + 3.70648 lineup_557_25 + 4.0083 lineup_557_26 + 2.96424 lineup_558_23
+ + 2.96824 lineup_558_24 + 3.03544 lineup_558_25 + 2.92665 lineup_558_26
+ + 2.68414 lineup_559_23 + 2.87979 lineup_559_24 + 2.75853 lineup_559_25
+ + 2.92888 lineup_559_26 + 2.9372 lineup_55_23 + 3.03061 lineup_55_24
+ + 2.91174 lineup_55_25 + 3.17768 lineup_55_26 + 1.60286 lineup_560_23
+ + 2.18354 lineup_560_24 + 1.72681 lineup_560_25 + 2.55585 lineup_560_26
+ + 1.16879 lineup_561_23 + 1.23166 lineup_561_24 + 1.18859 lineup_561_25
+ + 1.24609 lineup_561_26 + 2.603 lineup_563_23 + 3.34682 lineup_563_24
+ + 2.71193 lineup_563_25 + 3.74321 lineup_563_26 + 2.85488 lineup_564_23
+ + 2.9339 lineup_564_24 + 3.02911 lineup_564_25 + 3.12903 lineup_564_26
+ + 3.2043 lineup_565_23 + 3.47225 lineup_565_24 + 3.30739 lineup_565_25
+ + 3.57833 lineup_565_26 + 2.96775 lineup_566_23 + 3.033 lineup_566_24
+ + 5.69698 lineup_566_25 + 2.73379 lineup_566_26 + 3.07006 lineup_567_23
+ + 3.41893 lineup_567_24 + 3.28339 lineup_567_25 + 3.56324 lineup_567_26
+ + 3.48038 lineup_569_23 + 3.58583 lineup_569_24 + 3.71289 lineup_569_25
+ + 3.84624 lineup_569_26 + 2.99826 lineup_570_23 + 3.26395 lineup_570_24
+ + 3.1056 lineup_570_25 + 3.33639 lineup_570_26 + 2.28493 lineup_572_23
+ + 3.00561 lineup_572_24 + 2.44765 lineup_572_25 + 3.39644 lineup_572_26
+ + 2.34405 lineup_573_23 + 3.16752 lineup_573_24 + 2.54975 lineup_573_25
+ + 3.63001 lineup_573_26 + 1.29045 lineup_574_23 + 1.37376 lineup_574_24
+ + 1.34975 lineup_574_25 + 1.40801 lineup_574_26 + 2.38522 lineup_576_23
+ + 2.34155 lineup_576_24 + 2.40107 lineup_576_25 + 2.79437 lineup_576_26
+ + 1.93849 lineup_577_23 + 2.07329 lineup_577_24 + 2.44544 lineup_577_25
+ + 2.34972 lineup_577_26 + 1.36391 lineup_578_23 + 1.39455 lineup_578_24
+ + 1.42484 lineup_578_25 + 1.49375 lineup_578_26 + 2.94406 lineup_579_23
+ + 2.66219 lineup_579_24 + 3.15357 lineup_579_25 + 3.11807 lineup_579_26
+ + 3.02657 lineup_580_23 + 3.12386 lineup_580_24 + 3.05795 lineup_580_25
+ + 2.97973 lineup_580_26 + 1.83225 lineup_581_23 + 1.70389 lineup_581_24
+ + 1.65491 lineup_581_25 + 1.13586 lineup_581_26 + 1.99172 lineup_582_23
+ + 2.21189 lineup_582_24 + 2.23472 lineup_582_25 + 1.75223 lineup_586_23
+ + 1.98219 lineup_586_24 + 2.04455 lineup_586_25 + 1.66473 lineup_587_23
+ + 1.79553 lineup_587_24 + 1.81801 lineup_587_25 + 1.81338 lineup_587_26
+ + 2.44389 lineup_588_23 + 1.89557 lineup_588_24 + 2.96676 lineup_588_25
+ + 2.30262 lineup_588_26 + 2.36314 lineup_58_23 + 2.43704 lineup_58_24
+ + 2.37437 lineup_58_25 + 2.57235 lineup_58_26 + 4.1753 lineup_590_23
+ + 4.2017 lineup_590_24 + 4.36695 lineup_590_25 + 4.38973 lineup_590_26
+ + 4.00243 lineup_591_23 + 4.44768 lineup_591_24 + 4.06002 lineup_591_25
+ + 4.09212 lineup_591_26 + 1.95496 lineup_592_23 + 1.8408 lineup_592_24
+ + 1.86247 lineup_592_25 + 2.20268 lineup_592_26 + 3.67895 lineup_594_23
+ + 2.90484 lineup_594_24 + 2.98483 lineup_594_25 + 3.03474 lineup_594_26
+ + 2.82308 lineup_595_23 + 2.55867 lineup_595_24 + 2.03565 lineup_595_25
+ + 2.02173 lineup_595_26 + 4.11451 lineup_596_23 + 3.82808 lineup_596_24
+ + 3.45898 lineup_596_25 + 3.72025 lineup_596_26 + 3.97956 lineup_597_23
+ + 3.50696 lineup_597_24 + 3.70145 lineup_597_25 + 4.06365 lineup_597_26
+ + 1.61513 lineup_598_23 + 2.25631 lineup_598_24 + 1.83397 lineup_598_25
+ + 2.62018 lineup_598_26 + 4.23981 lineup_599_23 + 4.31406 lineup_599_24
+ + 4.06366 lineup_599_25 + 4.43709 lineup_599_26 + 1.54329 lineup_59_23
+ + 1.56021 lineup_59_24 + 1.50094 lineup_59_25 + 1.58708 lineup_59_26
+ + 3.98708 lineup_5_23 + 4.02074 lineup_5_24 + 4.88448 lineup_5_25
+ + 4.30693 lineup_5_26 + 2.66914 lineup_601_23 + 2.46069 lineup_601_24
+ + 2.83458 lineup_601_25 + 2.73814 lineup_601_26 + 1.56656 lineup_602_23
+ + 2.45971 lineup_602_24 + 2.12509 lineup_602_25 + 2.74698 lineup_603_23
+ + 2.82355 lineup_603_24 + 2.98556 lineup_603_25 + 2.53095 lineup_603_26
+ + 2.69506 lineup_604_23 + 2.69756 lineup_604_24 + 2.81129 lineup_604_25
+ + 2.37069 lineup_604_26 + 2.53303 lineup_606_23 + 1.94479 lineup_606_24
+ + 2.26558 lineup_606_25 + 2.67286 lineup_606_26 + 3.55678 lineup_607_23
+ + 3.30272 lineup_607_24 + 3.1531 lineup_607_25 + 3.33942 lineup_607_26
+ + 2.07724 lineup_608_23 + 1.86932 lineup_608_24 + 1.97499 lineup_608_25
+ + 1.99513 lineup_608_26 + 5.13138 lineup_60_23 + 5.07543 lineup_60_24
+ + 5.15489 lineup_60_25 + 6.09387 lineup_60_26 + 2.80338 lineup_610_23
+ + 2.75237 lineup_610_24 + 2.5301 lineup_610_25 + 2.29665 lineup_610_26
+ + 3.20849 lineup_611_23 + 3.26772 lineup_611_24 + 2.34202 lineup_611_25
+ + 3.37972 lineup_614_23 + 3.6861 lineup_614_24 + 3.74609 lineup_614_25
+ + 1.4732 lineup_615_23 + 1.58839 lineup_615_24 + 1.60825 lineup_615_25
+ + 1.70925 lineup_615_26 + 3.2052 lineup_616_23 + 3.87929 lineup_616_24
+ + 6.784 lineup_616_25 + 3.5641 lineup_616_26 + 3.33885 lineup_617_23
+ + 3.11886 lineup_617_24 + 3.25371 lineup_617_25 + 3.75372 lineup_617_26
+ + 1.2321 lineup_618_23 + 1.24369 lineup_618_24 + 1.2031 lineup_618_25
+ + 1.26209 lineup_618_26 + 1.76752 lineup_619_23 + 1.55541 lineup_619_24
+ + 1.13586 lineup_619_25 + 1.12469 lineup_619_26 + 1.0811 lineup_620_23
+ + 1.14088 lineup_620_24 + 2.26577 lineup_620_25 + 1.15677 lineup_620_26
+ + 2.62541 lineup_621_23 + 2.52395 lineup_621_24 + 2.6524 lineup_621_25
+ + 2.75737 lineup_621_26 + 1.12794 lineup_622_23 + 1.7441 lineup_622_24
+ + 1.86842 lineup_622_25 + 2.11724 lineup_622_26 + 1.49733 lineup_623_23
+ + 1.41911 lineup_623_24 + 1.32563 lineup_623_25 + 1.2347 lineup_624_23
+ + 1.17305 lineup_624_24 + 1.29071 lineup_624_25 + 1.28188 lineup_624_26
  + 1.74308 lineup_625_23 + 1.67861 lineup_625_24 + 1.50459 lineup_625_25
- + 1.33457 lineup_625_26 + 1.3942 lineup_626_23 + 2.14307 lineup_626_24
- + 1.71041 lineup_626_25 + 2.16198 lineup_626_26 + 1.09473 lineup_627_23
- + 1.20879 lineup_627_24 + 1.19553 lineup_627_25 + 1.21184 lineup_627_26
- + 1.12126 lineup_629_23 + 1.2092 lineup_629_24 + 1.17834 lineup_629_25
- + 1.17507 lineup_629_26 + 1.94176 lineup_62_23 + 2.10404 lineup_62_24
- + 2.02574 lineup_62_25 + 1.90016 lineup_62_26 + 3.07537 lineup_630_23
- + 3.33554 lineup_630_24 + 3.32732 lineup_630_25 + 2.97536 lineup_630_26
- + 2.57933 lineup_631_23 + 2.72741 lineup_631_24 + 2.61177 lineup_631_25
- + 2.35252 lineup_631_26 + 1.2343 lineup_632_23 + 1.16214 lineup_632_24
- + 1.22875 lineup_632_25 + 1.27703 lineup_632_26 + 2.74956 lineup_633_23
- + 2.61798 lineup_633_24 + 2.65458 lineup_633_25 + 1.95059 lineup_633_26
- + 1.83673 lineup_634_23 + 1.67176 lineup_634_24 + 1.65988 lineup_634_25
- + 1.14226 lineup_634_26 + 2.35201 lineup_635_23 + 2.41565 lineup_635_24
- + 2.57303 lineup_635_25 + 2.2549 lineup_635_26 + 3.10764 lineup_636_23
- + 2.91635 lineup_636_24 + 3.27944 lineup_636_25 + 2.90433 lineup_636_26
- + 1.57265 lineup_637_23 + 1.59744 lineup_637_24 + 1.64915 lineup_637_25
- + 1.28458 lineup_637_26 + 2.60267 lineup_638_23 + 2.71485 lineup_638_24
- + 2.70727 lineup_638_25 + 2.675 lineup_638_26 + 2.67157 lineup_639_23
- + 2.59912 lineup_639_24 + 3.02022 lineup_639_25 + 2.21728 lineup_639_26
- + 3.25808 lineup_63_23 + 3.15939 lineup_63_24 + 3.08693 lineup_63_25
- + 3.11233 lineup_63_26 + 1.74536 lineup_641_26 + 2.55331 lineup_642_23
- + 2.55517 lineup_642_24 + 2.67302 lineup_642_25 + 2.66771 lineup_642_26
- + 2.96672 lineup_643_23 + 2.69674 lineup_643_24 + 2.15527 lineup_643_25
- + 2.15223 lineup_643_26 + 2.14499 lineup_644_23 + 1.99613 lineup_644_24
- + 1.94591 lineup_644_25 + 1.96471 lineup_644_26 + 1.6398 lineup_645_23
- + 1.50194 lineup_645_24 + 1.60603 lineup_645_25 + 1.61292 lineup_645_26
- + 2.91154 lineup_646_23 + 2.84458 lineup_646_24 + 3.0962 lineup_646_25
- + 2.91635 lineup_646_26 + 3.15603 lineup_647_23 + 2.86091 lineup_647_24
- + 3.11003 lineup_647_25 + 2.9285 lineup_647_26 + 1.40395 lineup_649_23
- + 1.32471 lineup_649_24 + 1.44539 lineup_649_25 + 1.38516 lineup_649_26
- + 2.2992 lineup_64_23 + 2.1983 lineup_64_24 + 2.1105 lineup_64_25
- + 2.09013 lineup_64_26 + 1.10602 lineup_650_23 + 1.04015 lineup_650_24
- + 1.11518 lineup_650_25 + 1.09064 lineup_650_26 + 1.20241 lineup_652_23
- + 1.27665 lineup_652_24 + 1.1968 lineup_652_25 + 1.19905 lineup_652_26
- + 1.50459 lineup_653_23 + 1.41605 lineup_653_24 + 1.37866 lineup_653_25
- + 1.64052 lineup_653_26 + 1.53287 lineup_654_23 + 1.42288 lineup_654_24
- + 1.5892 lineup_654_25 + 1.47666 lineup_654_26 + 1.7768 lineup_655_23
- + 1.83904 lineup_655_24 + 1.81338 lineup_655_25 + 1.77387 lineup_655_26
- + 1.28477 lineup_656_23 + 1.30172 lineup_656_24 + 1.29781 lineup_656_25
- + 1.30559 lineup_656_26 + 1.2452 lineup_657_23 + 1.27092 lineup_657_24
- + 1.25369 lineup_657_25 + 1.307 lineup_657_26 + 1.44636 lineup_658_23
- + 1.46622 lineup_658_24 + 1.57687 lineup_658_25 + 1.54499 lineup_658_26
- + 2.97958 lineup_659_23 + 3.0867 lineup_659_24 + 2.66085 lineup_659_25
- + 2.94406 lineup_659_26 + 3.4111 lineup_65_23 + 3.24099 lineup_65_24
- + 3.12341 lineup_65_25 + 3.11598 lineup_65_26 + 2.70494 lineup_660_23
- + 2.36625 lineup_660_24 + 2.48608 lineup_660_25 + 2.47384 lineup_660_26
- + 3.88136 lineup_661_23 + 3.46817 lineup_661_24 + 3.98379 lineup_661_25
- + 3.86048 lineup_661_26 + 1.61346 lineup_662_23 + 1.73704 lineup_662_24
- + 1.60413 lineup_662_25 + 1.60788 lineup_662_26 + 3.17244 lineup_663_23
- + 3.29886 lineup_663_24 + 3.25637 lineup_663_25 + 3.19301 lineup_663_26
- + 5.06751 lineup_664_23 + 4.99614 lineup_664_24 + 5.24092 lineup_664_25
- + 5.1595 lineup_664_26 + 3.12858 lineup_665_23 + 3.42817 lineup_665_24
- + 3.4787 lineup_665_25 + 3.36285 lineup_665_26 + 1.1633 lineup_666_23
- + 1.20073 lineup_666_24 + 1.18514 lineup_666_25 + 1.16304 lineup_666_26
- + 2.12961 lineup_668_23 + 2.37416 lineup_668_24 + 2.27974 lineup_668_25
- + 2.27064 lineup_668_26 + 3.29032 lineup_669_23 + 2.91397 lineup_669_24
- + 3.09585 lineup_669_25 + 3.3561 lineup_669_26 + 2.6632 lineup_66_23
- + 2.5211 lineup_66_24 + 2.42896 lineup_66_25 + 2.43167 lineup_66_26
- + 1.97156 lineup_671_23 + 1.82682 lineup_671_24 + 1.13358 lineup_671_25
- + 1.57288 lineup_671_26 + 2.095 lineup_672_23 + 2.19531 lineup_672_24
- + 2.13189 lineup_672_25 + 2.31848 lineup_672_26 + 1.62303 lineup_673_26
- + 1.9658 lineup_674_23 + 1.22764 lineup_674_24 + 1.69138 lineup_674_25
- + 1.92473 lineup_674_26 + 1.99056 lineup_675_23 + 1.81033 lineup_675_24
- + 1.91292 lineup_675_25 + 1.90195 lineup_675_26 + 2.12075 lineup_676_23
- + 2.27375 lineup_676_24 + 2.66002 lineup_676_25 + 2.60993 lineup_676_26
- + 1.51036 lineup_677_23 + 1.39289 lineup_677_24 + 1.36433 lineup_677_25
- + 1.49654 lineup_677_26 + 3.80235 lineup_678_23 + 3.97668 lineup_678_24
- + 7.69315 lineup_678_25 + 3.82592 lineup_678_26 + 2.64402 lineup_679_23
- + 2.62551 lineup_679_24 + 2.642 lineup_679_25 + 2.08833 lineup_679_26
- + 1.45946 lineup_681_23 + 1.41859 lineup_681_24 + 1.3414 lineup_681_25
- + 1.45278 lineup_681_26 + 1.14614 lineup_682_23 + 1.95626 lineup_682_24
- + 1.60312 lineup_682_25 + 0.98654 lineup_682_26 + 1.19487 lineup_684_23
- + 1.23122 lineup_684_24 + 2.38822 lineup_684_25 + 1.22904 lineup_684_26
+ + 1.33457 lineup_625_26 + 1.3815 lineup_626_23 + 2.09627 lineup_626_24
+ + 1.69663 lineup_626_25 + 1.01618 lineup_627_23 + 1.14773 lineup_627_24
+ + 1.15339 lineup_627_25 + 1.11054 lineup_629_23 + 1.1997 lineup_629_24
+ + 1.16727 lineup_629_25 + 1.94176 lineup_62_23 + 2.10404 lineup_62_24
+ + 2.02574 lineup_62_25 + 1.90016 lineup_62_26 + 3.27083 lineup_630_23
+ + 3.55714 lineup_630_24 + 3.50556 lineup_630_25 + 2.5341 lineup_631_23
+ + 2.65025 lineup_631_24 + 2.56669 lineup_631_25 + 1.2343 lineup_632_23
+ + 1.16996 lineup_632_24 + 1.22061 lineup_632_25 + 1.27703 lineup_632_26
+ + 2.57845 lineup_633_23 + 2.52833 lineup_633_24 + 2.54336 lineup_633_25
+ + 1.88279 lineup_633_26 + 1.82462 lineup_634_23 + 1.69698 lineup_634_24
+ + 1.64827 lineup_634_25 + 1.13214 lineup_634_26 + 2.34903 lineup_635_23
+ + 2.43404 lineup_635_24 + 2.59626 lineup_635_25 + 2.29022 lineup_635_26
+ + 3.10764 lineup_636_23 + 2.90462 lineup_636_24 + 3.27944 lineup_636_25
+ + 2.91095 lineup_636_26 + 1.57265 lineup_637_23 + 1.56383 lineup_637_24
+ + 1.64915 lineup_637_25 + 1.32984 lineup_637_26 + 2.70382 lineup_638_23
+ + 2.7934 lineup_638_24 + 2.79324 lineup_638_25 + 2.75837 lineup_638_26
+ + 2.59686 lineup_639_23 + 2.54831 lineup_639_24 + 2.99043 lineup_639_25
+ + 3.25808 lineup_63_23 + 3.15412 lineup_63_24 + 3.08693 lineup_63_25
+ + 3.11233 lineup_63_26 + 1.61332 lineup_640_23 + 1.53919 lineup_640_24
+ + 1.5225 lineup_640_25 + 2.55331 lineup_642_23 + 2.54279 lineup_642_24
+ + 2.68138 lineup_642_25 + 2.68229 lineup_642_26 + 2.14499 lineup_644_23
+ + 1.9928 lineup_644_24 + 1.94591 lineup_644_25 + 1.96471 lineup_644_26
+ + 1.62698 lineup_645_23 + 1.48311 lineup_645_24 + 1.59333 lineup_645_25
+ + 1.60019 lineup_645_26 + 2.91154 lineup_646_23 + 2.84458 lineup_646_24
+ + 3.0962 lineup_646_25 + 2.90462 lineup_646_26 + 3.15603 lineup_647_23
+ + 2.85201 lineup_647_24 + 3.12386 lineup_647_25 + 2.9339 lineup_647_26
+ + 1.40395 lineup_649_23 + 1.32471 lineup_649_24 + 1.44539 lineup_649_25
+ + 1.38516 lineup_649_26 + 2.2992 lineup_64_23 + 2.19467 lineup_64_24
+ + 2.1105 lineup_64_25 + 2.09013 lineup_64_26 + 1.09565 lineup_650_23
+ + 1.02971 lineup_650_24 + 1.10476 lineup_650_25 + 1.08035 lineup_650_26
+ + 1.20241 lineup_652_23 + 1.27665 lineup_652_24 + 1.1968 lineup_652_25
+ + 1.19905 lineup_652_26 + 1.50459 lineup_653_23 + 1.38431 lineup_653_24
+ + 1.37836 lineup_653_25 + 1.64052 lineup_653_26 + 1.53287 lineup_654_23
+ + 1.42288 lineup_654_24 + 1.5892 lineup_654_25 + 1.47666 lineup_654_26
+ + 1.69525 lineup_655_23 + 1.76112 lineup_655_24 + 1.76214 lineup_655_25
+ + 1.74359 lineup_655_26 + 1.27539 lineup_656_23 + 1.28807 lineup_656_24
+ + 1.31425 lineup_656_25 + 1.29617 lineup_656_26 + 1.23337 lineup_657_23
+ + 1.26127 lineup_657_24 + 1.2418 lineup_657_25 + 1.2968 lineup_657_26
+ + 1.44636 lineup_658_23 + 1.46622 lineup_658_24 + 1.57687 lineup_658_25
+ + 1.54499 lineup_658_26 + 2.97958 lineup_659_23 + 3.04851 lineup_659_24
+ + 2.66219 lineup_659_25 + 3.4111 lineup_65_23 + 3.236 lineup_65_24
+ + 3.12341 lineup_65_25 + 3.11598 lineup_65_26 + 2.71559 lineup_660_23
+ + 2.37785 lineup_660_24 + 2.50086 lineup_660_25 + 2.50407 lineup_660_26
+ + 3.82935 lineup_661_23 + 3.42827 lineup_661_24 + 3.96121 lineup_661_25
+ + 3.85269 lineup_661_26 + 1.58253 lineup_662_23 + 1.70414 lineup_662_24
+ + 1.57335 lineup_662_25 + 1.57704 lineup_662_26 + 3.10802 lineup_663_23
+ + 3.22152 lineup_663_24 + 3.21981 lineup_663_25 + 3.18382 lineup_663_26
+ + 5.06751 lineup_664_23 + 4.96289 lineup_664_24 + 5.26339 lineup_664_25
+ + 5.19867 lineup_664_26 + 3.11661 lineup_665_23 + 3.40818 lineup_665_24
+ + 3.46526 lineup_665_25 + 1.15231 lineup_666_23 + 1.18002 lineup_666_24
+ + 1.17138 lineup_666_25 + 1.15206 lineup_666_26 + 2.08817 lineup_668_23
+ + 2.33336 lineup_668_24 + 2.23556 lineup_668_25 + 3.29032 lineup_669_23
+ + 2.91397 lineup_669_24 + 3.09585 lineup_669_25 + 3.3561 lineup_669_26
+ + 2.6632 lineup_66_23 + 2.51729 lineup_66_24 + 2.42896 lineup_66_25
+ + 2.43167 lineup_66_26 + 1.97156 lineup_671_23 + 1.82682 lineup_671_24
+ + 1.13358 lineup_671_25 + 1.85664 lineup_672_23 + 1.98831 lineup_672_24
+ + 1.95823 lineup_672_25 + 2.17469 lineup_672_26 + 1.62303 lineup_673_26
+ + 1.95108 lineup_674_23 + 1.21056 lineup_674_24 + 1.67774 lineup_674_25
+ + 1.89447 lineup_674_26 + 1.84718 lineup_675_23 + 1.69639 lineup_675_24
+ + 1.81423 lineup_675_25 + 1.83097 lineup_675_26 + 2.12075 lineup_676_23
+ + 2.27387 lineup_676_24 + 2.7076 lineup_676_25 + 2.62239 lineup_676_26
+ + 1.49892 lineup_677_23 + 1.37374 lineup_677_24 + 1.34713 lineup_677_25
+ + 3.59803 lineup_678_23 + 3.84969 lineup_678_24 + 7.48423 lineup_678_25
+ + 3.75013 lineup_678_26 + 2.67136 lineup_679_23 + 2.61055 lineup_679_24
+ + 2.69104 lineup_679_25 + 2.21614 lineup_679_26 + 1.45946 lineup_681_23
+ + 1.41859 lineup_681_24 + 1.3414 lineup_681_25 + 1.13586 lineup_682_23
+ + 1.9137 lineup_682_24 + 1.5914 lineup_682_25 + 1.18345 lineup_684_23
+ + 1.21956 lineup_684_24 + 2.3648 lineup_684_25 + 1.21739 lineup_684_26
  + 1.19679 lineup_685_23 + 1.15786 lineup_685_24 + 1.2177 lineup_685_25
- + 1.26107 lineup_685_26 + 3.37762 lineup_687_23 + 3.50573 lineup_687_24
- + 2.99642 lineup_687_25 + 3.33514 lineup_687_26 + 3.48593 lineup_688_23
- + 3.46851 lineup_688_24 + 3.22514 lineup_688_25 + 2.96671 lineup_688_26
- + 3.30301 lineup_689_23 + 3.2808 lineup_689_24 + 3.44448 lineup_689_25
- + 3.43598 lineup_689_26 + 1.71554 lineup_690_23 + 1.69363 lineup_690_24
- + 1.76013 lineup_690_25 + 1.78388 lineup_690_26 + 2.40528 lineup_691_23
- + 2.2548 lineup_691_24 + 2.46198 lineup_691_25 + 2.49608 lineup_691_26
- + 3.12732 lineup_692_23 + 3.08869 lineup_692_24 + 3.06062 lineup_692_25
- + 3.18775 lineup_692_26 + 2.1742 lineup_694_23 + 1.89736 lineup_694_24
- + 1.98753 lineup_694_25 + 1.9748 lineup_694_26 + 3.3124 lineup_695_23
- + 2.93354 lineup_695_24 + 3.11664 lineup_695_25 + 3.37862 lineup_695_26
- + 3.11839 lineup_696_23 + 3.20759 lineup_696_24 + 3.32299 lineup_696_25
- + 2.75247 lineup_696_26 + 1.91702 lineup_697_23 + 2.53185 lineup_697_24
- + 2.06727 lineup_697_25 + 2.91056 lineup_697_26 + 1.96479 lineup_698_23
- + 2.08663 lineup_698_24 + 2.01531 lineup_698_25 + 2.11482 lineup_698_26
- + 2.77834 lineup_699_23 + 2.99216 lineup_699_24 + 2.98168 lineup_699_25
- + 3.37367 lineup_699_26 + 1.87194 lineup_69_23 + 1.67293 lineup_69_24
- + 1.28379 lineup_69_25 + 1.29352 lineup_69_26 + 3.53861 lineup_6_23
- + 3.57196 lineup_6_24 + 3.66333 lineup_6_25 + 3.98554 lineup_6_26
- + 2.89185 lineup_700_25 + 2.94474 lineup_700_26 + 1.80414 lineup_701_23
- + 1.86787 lineup_701_24 + 3.60396 lineup_701_25 + 1.86597 lineup_701_26
- + 2.25879 lineup_703_23 + 1.90449 lineup_703_24 + 2.08194 lineup_703_25
- + 2.45916 lineup_703_26 + 1.2847 lineup_704_23 + 1.30871 lineup_704_24
- + 1.37534 lineup_704_25 + 1.42997 lineup_704_26 + 2.34567 lineup_705_23
- + 2.27537 lineup_705_24 + 2.22188 lineup_705_25 + 2.2389 lineup_705_26
- + 2.16522 lineup_706_23 + 1.98475 lineup_706_24 + 2.12407 lineup_706_25
- + 2.13957 lineup_706_26 + 2.30799 lineup_707_23 + 2.26256 lineup_707_24
- + 2.0528 lineup_707_25 + 1.84786 lineup_707_26 + 2.07056 lineup_708_23
- + 2.36206 lineup_708_24 + 2.3392 lineup_708_25 + 2.35928 lineup_708_26
- + 2.16517 lineup_709_23 + 2.01963 lineup_709_24 + 2.15397 lineup_709_25
- + 2.25135 lineup_709_26 + 2.68652 lineup_70_23 + 2.42678 lineup_70_24
- + 1.91826 lineup_70_25 + 1.93164 lineup_70_26 + 3.50983 lineup_710_23
- + 3.28469 lineup_710_24 + 3.71205 lineup_710_25 + 3.27054 lineup_710_26
- + 2.5279 lineup_711_23 + 2.57858 lineup_711_24 + 2.66687 lineup_711_25
- + 2.17381 lineup_711_26 + 2.73805 lineup_712_23 + 2.89144 lineup_712_24
- + 2.79907 lineup_712_25 + 2.60288 lineup_712_26 + 2.42462 lineup_713_23
- + 2.56355 lineup_713_24 + 2.48804 lineup_713_25 + 2.30179 lineup_713_26
- + 1.68532 lineup_714_23 + 1.82605 lineup_714_24 + 1.77087 lineup_714_25
- + 1.66341 lineup_714_26 + 1.93095 lineup_715_23 + 2.11259 lineup_715_24
- + 2.09268 lineup_715_25 + 2.21908 lineup_715_26 + 1.42952 lineup_716_23
- + 1.51986 lineup_716_24 + 1.02424 lineup_716_25 + 1.41659 lineup_716_26
- + 1.40159 lineup_717_23 + 1.29663 lineup_717_24 + 1.2711 lineup_717_25
- + 1.38924 lineup_717_26 + 1.26733 lineup_719_23 + 1.17797 lineup_719_24
- + 1.27977 lineup_719_25 + 1.24646 lineup_719_26 + 1.27396 lineup_71_23
- + 1.21595 lineup_71_24 + 1.176 lineup_71_25 + 1.17215 lineup_71_26
- + 1.38702 lineup_720_23 + 1.333 lineup_720_24 + 1.51106 lineup_720_25
- + 1.51626 lineup_720_26 + 1.11714 lineup_721_23 + 1.1565 lineup_721_24
- + 1.16033 lineup_721_25 + 1.22252 lineup_721_26 + 1.45481 lineup_722_23
- + 1.36298 lineup_722_24 + 1.37452 lineup_722_25 + 1.2954 lineup_722_26
- + 1.73643 lineup_723_23 + 1.72274 lineup_723_24 + 1.08203 lineup_723_25
- + 1.48902 lineup_723_26 + 1.27051 lineup_724_23 + 1.29659 lineup_724_24
- + 1.27911 lineup_724_25 + 1.33318 lineup_724_26 + 1.18762 lineup_725_23
- + 1.72548 lineup_725_24 + 2.46486 lineup_725_25 + 1.42941 lineup_725_26
- + 1.24516 lineup_726_23 + 1.94653 lineup_726_24 + 1.53948 lineup_726_25
- + 1.96481 lineup_726_26 + 2.80568 lineup_727_23 + 3.07802 lineup_727_24
- + 3.12806 lineup_727_25 + 2.83718 lineup_727_26 + 1.22862 lineup_728_23
- + 1.94653 lineup_728_24 + 1.52823 lineup_728_25 + 1.96481 lineup_728_26
- + 1.26992 lineup_729_23 + 1.34906 lineup_729_24 + 1.35377 lineup_729_25
- + 1.24985 lineup_729_26 + 2.89136 lineup_72_23 + 2.71902 lineup_72_24
- + 2.61529 lineup_72_25 + 2.60044 lineup_72_26 + 1.25264 lineup_730_23
- + 1.28292 lineup_730_24 + 1.2703 lineup_730_25 + 1.25243 lineup_730_26
- + 1.59879 lineup_731_23 + 1.50794 lineup_731_24 + 1.46958 lineup_731_25
- + 1.73825 lineup_731_26 + 1.8566 lineup_732_23 + 1.79023 lineup_732_24
- + 1.6111 lineup_732_25 + 1.43608 lineup_732_26 + 1.23191 lineup_733_23
- + 1.77698 lineup_733_24 + 2.55465 lineup_733_25 + 1.47695 lineup_733_26
- + 1.2946 lineup_734_23 + 1.37484 lineup_734_24 + 1.37961 lineup_734_25
- + 1.27425 lineup_734_26 + 1.33063 lineup_735_23 + 1.32655 lineup_735_24
- + 1.33513 lineup_735_25 + 1.40102 lineup_735_26 + 1.41924 lineup_736_23
- + 1.47695 lineup_736_24 + 1.88325 lineup_736_25 + 1.73233 lineup_736_26
- + 1.33063 lineup_737_23 + 1.32655 lineup_737_24 + 1.33513 lineup_737_25
- + 1.40102 lineup_737_26 + 1.22825 lineup_738_23 + 1.24303 lineup_738_24
- + 1.28246 lineup_738_25 + 1.17917 lineup_738_26 + 1.66454 lineup_739_23
- + 1.42492 lineup_739_24 + 1.40055 lineup_739_25 + 1.29006 lineup_739_26
+ + 1.26107 lineup_685_26 + 3.42205 lineup_687_23 + 3.50707 lineup_687_24
+ + 3.03055 lineup_687_25 + 3.42791 lineup_688_23 + 3.42815 lineup_688_24
+ + 3.20184 lineup_688_25 + 2.96049 lineup_688_26 + 3.30301 lineup_689_23
+ + 3.26096 lineup_689_24 + 3.45789 lineup_689_25 + 3.45935 lineup_689_26
+ + 1.52915 lineup_690_23 + 1.52733 lineup_690_24 + 1.62237 lineup_690_25
+ + 1.68546 lineup_690_26 + 2.44729 lineup_691_23 + 2.27874 lineup_691_24
+ + 2.50063 lineup_691_25 + 2.53423 lineup_691_26 + 3.11684 lineup_692_23
+ + 3.07834 lineup_692_24 + 3.05036 lineup_692_25 + 3.17707 lineup_692_26
+ + 1.9684 lineup_694_23 + 1.73577 lineup_694_24 + 1.84001 lineup_694_25
+ + 1.85924 lineup_694_26 + 3.3124 lineup_695_23 + 2.94022 lineup_695_24
+ + 3.09339 lineup_695_25 + 3.37862 lineup_695_26 + 3.04409 lineup_696_23
+ + 3.09782 lineup_696_24 + 3.28538 lineup_696_25 + 2.81085 lineup_696_26
+ + 1.91702 lineup_697_23 + 2.54453 lineup_697_24 + 2.04762 lineup_697_25
+ + 2.87299 lineup_697_26 + 1.96479 lineup_698_23 + 2.09863 lineup_698_24
+ + 2.00694 lineup_698_25 + 2.12936 lineup_698_26 + 2.81866 lineup_699_23
+ + 3.0432 lineup_699_24 + 3.05317 lineup_699_25 + 3.44479 lineup_699_26
+ + 3.22803 lineup_6_23 + 3.31092 lineup_6_24 + 3.44943 lineup_6_25
+ + 3.78918 lineup_6_26 + 2.79343 lineup_700_23 + 2.67573 lineup_700_24
+ + 2.83556 lineup_700_25 + 2.9228 lineup_700_26 + 1.76913 lineup_701_23
+ + 1.83177 lineup_701_24 + 3.53292 lineup_701_25 + 1.82994 lineup_701_26
+ + 2.25879 lineup_703_23 + 1.95428 lineup_703_24 + 2.04702 lineup_703_25
+ + 2.45916 lineup_703_26 + 1.2847 lineup_704_23 + 1.31826 lineup_704_24
+ + 1.39687 lineup_704_25 + 1.41352 lineup_704_26 + 2.34567 lineup_705_23
+ + 2.27169 lineup_705_24 + 2.22188 lineup_705_25 + 2.2389 lineup_705_26
+ + 2.14286 lineup_706_23 + 1.96034 lineup_706_24 + 2.09371 lineup_706_25
+ + 2.11399 lineup_706_26 + 2.27206 lineup_707_23 + 2.2273 lineup_707_24
+ + 2.01933 lineup_707_25 + 1.81614 lineup_707_26 + 2.04887 lineup_708_23
+ + 2.34302 lineup_708_24 + 2.31623 lineup_708_25 + 2.16517 lineup_709_23
+ + 2.0354 lineup_709_24 + 2.13756 lineup_709_25 + 2.25135 lineup_709_26
+ + 2.68652 lineup_70_23 + 2.43773 lineup_70_24 + 1.91826 lineup_70_25
+ + 1.93164 lineup_70_26 + 3.49561 lineup_710_23 + 3.25767 lineup_710_24
+ + 3.69696 lineup_710_25 + 3.26509 lineup_710_26 + 2.52333 lineup_711_23
+ + 2.54274 lineup_711_24 + 2.6935 lineup_711_25 + 2.27967 lineup_711_26
+ + 2.64383 lineup_712_23 + 2.80652 lineup_712_24 + 2.75017 lineup_712_25
+ + 2.60337 lineup_712_26 + 2.37727 lineup_713_23 + 2.50399 lineup_713_24
+ + 2.43984 lineup_713_25 + 2.27666 lineup_713_26 + 1.93095 lineup_715_23
+ + 2.1245 lineup_715_24 + 2.08437 lineup_715_25 + 2.23351 lineup_715_26
+ + 1.41807 lineup_716_23 + 1.49409 lineup_716_24 + 1.04611 lineup_716_25
+ + 1.39124 lineup_717_23 + 1.2793 lineup_717_24 + 1.25551 lineup_717_25
+ + 1.25535 lineup_719_23 + 1.16599 lineup_719_24 + 1.2677 lineup_719_25
+ + 1.23462 lineup_719_26 + 1.27396 lineup_71_23 + 1.21457 lineup_71_24
+ + 1.176 lineup_71_25 + 1.17215 lineup_71_26 + 1.04048 lineup_721_23
+ + 1.10019 lineup_721_24 + 1.12156 lineup_721_25 + 1.20321 lineup_721_26
+ + 1.27091 lineup_722_23 + 1.22695 lineup_722_24 + 1.23153 lineup_722_25
+ + 1.72396 lineup_723_23 + 1.69398 lineup_723_24 + 1.10809 lineup_723_25
+ + 1.25843 lineup_724_23 + 1.28671 lineup_724_24 + 1.26697 lineup_724_25
+ + 1.32276 lineup_724_26 + 1.16607 lineup_725_23 + 1.70043 lineup_725_24
+ + 2.4576 lineup_725_25 + 1.40629 lineup_725_26 + 1.24516 lineup_726_23
+ + 1.94653 lineup_726_24 + 1.53948 lineup_726_25 + 2.5667 lineup_727_23
+ + 2.88418 lineup_727_24 + 2.94835 lineup_727_25 + 1.21764 lineup_728_23
+ + 1.90273 lineup_728_24 + 1.51626 lineup_728_25 + 2.89136 lineup_72_23
+ + 2.71506 lineup_72_24 + 2.61529 lineup_72_25 + 2.60044 lineup_72_26
+ + 1.24077 lineup_730_23 + 1.26319 lineup_730_24 + 1.2562 lineup_730_25
+ + 1.24056 lineup_730_26 + 1.58659 lineup_731_23 + 1.46359 lineup_731_24
+ + 1.45751 lineup_731_25 + 1.7256 lineup_731_26 + 1.84347 lineup_732_23
+ + 1.77733 lineup_732_24 + 1.59879 lineup_732_25 + 1.42435 lineup_732_26
+ + 1.2207 lineup_733_23 + 1.76394 lineup_733_24 + 2.56894 lineup_733_25
+ + 1.46491 lineup_733_26 + 1.28219 lineup_734_23 + 1.36919 lineup_734_24
+ + 1.36662 lineup_734_25 + 1.31798 lineup_735_23 + 1.31393 lineup_735_24
+ + 1.32245 lineup_735_25 + 1.38365 lineup_735_26 + 1.4074 lineup_736_23
+ + 1.46491 lineup_736_24 + 1.86985 lineup_736_25 + 1.68473 lineup_736_26
+ + 1.31798 lineup_737_23 + 1.31393 lineup_737_24 + 1.32245 lineup_737_25
+ + 1.38365 lineup_737_26 + 1.21667 lineup_738_23 + 1.23396 lineup_738_24
+ + 1.27056 lineup_738_25 + 1.16787 lineup_738_26 + 1.65317 lineup_739_23
+ + 1.41297 lineup_739_24 + 1.38985 lineup_739_25 + 1.27964 lineup_739_26
  + 2.28939 lineup_73_23 + 2.50781 lineup_73_24 + 2.40076 lineup_73_25
- + 2.23534 lineup_73_26 + 1.53735 lineup_740_23 + 1.50561 lineup_740_24
- + 1.80072 lineup_740_25 + 1.2852 lineup_740_26 + 1.43492 lineup_741_23
- + 1.4819 lineup_741_24 + 1.49407 lineup_741_25 + 1.50777 lineup_741_26
- + 1.22817 lineup_742_23 + 1.2288 lineup_742_24 + 1.29042 lineup_742_25
- + 1.32911 lineup_742_26 + 1.27803 lineup_743_23 + 1.38449 lineup_743_24
- + 1.34714 lineup_743_25 + 1.34317 lineup_743_26 + 1.22588 lineup_744_23
- + 1.2774 lineup_744_24 + 2.49159 lineup_744_25 + 1.27554 lineup_744_26
- + 1.57818 lineup_745_23 + 1.35954 lineup_745_24 + 1.3373 lineup_745_25
- + 1.23648 lineup_745_26 + 1.89514 lineup_746_23 + 1.40013 lineup_746_24
- + 1.61264 lineup_746_25 + 1.93845 lineup_746_26 + 1.36771 lineup_747_23
- + 1.33722 lineup_747_24 + 1.38016 lineup_747_25 + 1.39549 lineup_747_26
- + 1.32416 lineup_749_23 + 1.38668 lineup_749_24 + 1.35008 lineup_749_25
- + 1.40114 lineup_749_26 + 1.15187 lineup_74_23 + 1.09794 lineup_74_24
- + 1.06079 lineup_74_25 + 1.05721 lineup_74_26 + 1.22102 lineup_750_23
- + 1.30228 lineup_750_24 + 1.29385 lineup_750_25 + 1.36474 lineup_750_26
- + 1.29659 lineup_751_23 + 1.7811 lineup_751_24 + 1.40001 lineup_751_25
- + 2.09175 lineup_751_26 + 3.18869 lineup_752_23 + 3.29957 lineup_752_24
- + 5.84908 lineup_752_25 + 2.9858 lineup_752_26 + 1.9088 lineup_753_23
- + 1.41211 lineup_753_24 + 1.62534 lineup_753_25 + 1.95225 lineup_753_26
- + 1.35457 lineup_754_23 + 1.37512 lineup_754_24 + 1.39818 lineup_754_25
- + 1.32416 lineup_754_26 + 1.394 lineup_755_23 + 1.36308 lineup_755_24
- + 1.40661 lineup_755_25 + 1.42216 lineup_755_26 + 1.61653 lineup_757_23
- + 2.49469 lineup_757_24 + 1.91969 lineup_757_25 + 2.43805 lineup_757_26
- + 1.41151 lineup_758_23 + 1.35214 lineup_758_24 + 1.28571 lineup_758_25
- + 1.38077 lineup_758_26 + 1.32439 lineup_759_23 + 1.3552 lineup_759_24
- + 1.34236 lineup_759_25 + 1.32418 lineup_759_26 + 2.37087 lineup_75_23
- + 2.12829 lineup_75_24 + 1.66677 lineup_75_25 + 1.66455 lineup_75_26
- + 1.4074 lineup_760_23 + 1.311 lineup_760_24 + 1.42082 lineup_760_25
- + 1.38489 lineup_760_26 + 1.61244 lineup_761_23 + 1.19154 lineup_761_24
- + 1.95061 lineup_761_25 + 1.48851 lineup_761_26 + 1.42647 lineup_762_23
- + 1.46319 lineup_762_24 + 2.86668 lineup_762_25 + 1.42832 lineup_762_26
- + 1.48851 lineup_763_23 + 1.49607 lineup_763_24 + 1.60041 lineup_763_25
- + 2.05816 lineup_763_26 + 1.39583 lineup_764_23 + 1.3916 lineup_764_24
- + 1.40049 lineup_764_25 + 1.4687 lineup_764_26 + 3.21874 lineup_765_23
- + 3.36042 lineup_765_24 + 3.15719 lineup_765_25 + 3.41032 lineup_765_26
- + 1.95683 lineup_766_23 + 1.61912 lineup_766_24 + 1.75358 lineup_766_25
- + 2.08473 lineup_766_26 + 1.44731 lineup_767_23 + 1.46033 lineup_767_24
- + 1.41627 lineup_767_25 + 1.481 lineup_767_26 + 1.86714 lineup_768_23
- + 1.48149 lineup_768_24 + 1.62055 lineup_768_25 + 1.96305 lineup_768_26
- + 2.41693 lineup_76_23 + 2.07913 lineup_76_24 + 2.08019 lineup_76_25
- + 1.91001 lineup_76_26 + 1.3762 lineup_770_23 + 1.44048 lineup_770_24
- + 1.40285 lineup_770_25 + 1.45536 lineup_770_26 + 1.44016 lineup_771_23
- + 1.47715 lineup_771_24 + 2.89417 lineup_771_25 + 1.44202 lineup_771_26
- + 1.42284 lineup_772_23 + 1.41855 lineup_772_24 + 1.42756 lineup_772_25
- + 1.49674 lineup_772_26 + 1.43748 lineup_773_23 + 1.42558 lineup_773_24
- + 1.47054 lineup_773_25 + 1.46821 lineup_773_26 + 1.56019 lineup_774_23
- + 1.64411 lineup_774_24 + 1.93978 lineup_774_25 + 1.877 lineup_774_26
- + 3.31874 lineup_775_23 + 3.41742 lineup_775_24 + 3.33931 lineup_775_25
- + 3.23954 lineup_775_26 + 3.9474 lineup_776_23 + 3.67981 lineup_776_24
- + 3.71508 lineup_776_25 + 3.48474 lineup_776_26 + 2.22271 lineup_777_23
- + 2.2122 lineup_777_24 + 2.62023 lineup_777_25 + 1.99025 lineup_777_26
- + 3.26691 lineup_778_23 + 3.4107 lineup_778_24 + 3.20445 lineup_778_25
- + 3.46133 lineup_778_26 + 1.46986 lineup_779_23 + 1.52535 lineup_779_24
- + 1.49178 lineup_779_25 + 1.40899 lineup_779_26 + 3.81352 lineup_77_23
- + 3.51231 lineup_77_24 + 3.37526 lineup_77_25 + 3.57754 lineup_77_26
- + 1.54729 lineup_780_23 + 1.66894 lineup_780_24 + 1.62124 lineup_780_25
- + 1.52836 lineup_780_26 + 1.54729 lineup_781_23 + 1.66894 lineup_781_24
- + 1.62124 lineup_781_25 + 1.52836 lineup_781_26 + 1.85248 lineup_782_23
- + 2.8169 lineup_782_24 + 2.31205 lineup_782_25 + 2.91268 lineup_782_26
- + 1.17614 lineup_783_23 + 1.28148 lineup_783_24 + 1.28108 lineup_783_25
- + 1.30524 lineup_783_26 + 1.5733 lineup_784_23 + 1.65752 lineup_784_24
- + 1.95424 lineup_784_25 + 1.89124 lineup_784_26 + 1.49784 lineup_785_23
- + 1.45921 lineup_785_24 + 1.55673 lineup_785_25 + 1.51673 lineup_785_26
- + 1.4761 lineup_786_23 + 1.44384 lineup_786_24 + 1.48926 lineup_786_25
- + 1.50548 lineup_786_26 + 1.41662 lineup_787_23 + 1.48228 lineup_787_24
- + 1.44384 lineup_787_25 + 1.49747 lineup_787_26 + 1.39305 lineup_788_23
- + 1.89124 lineup_788_24 + 1.49939 lineup_788_25 + 2.21066 lineup_788_26
- + 2.3622 lineup_78_23 + 2.23168 lineup_78_24 + 2.15159 lineup_78_25
- + 2.14207 lineup_78_26 + 1.67341 lineup_7_23 + 1.68162 lineup_7_24
- + 1.79492 lineup_7_25 + 2.29197 lineup_7_26 + 3.23627 lineup_80_23
- + 2.99598 lineup_80_24 + 2.88665 lineup_80_25 + 3.04801 lineup_80_26
- + 2.75257 lineup_82_23 + 2.4055 lineup_82_24 + 2.42288 lineup_82_25
- + 2.231 lineup_82_26 + 3.14857 lineup_83_23 + 2.80593 lineup_83_24
+ + 2.23534 lineup_73_26 + 1.52511 lineup_740_23 + 1.49318 lineup_740_24
+ + 1.7876 lineup_740_25 + 1.42394 lineup_741_23 + 1.49286 lineup_741_24
+ + 1.48291 lineup_741_25 + 1.48714 lineup_741_26 + 1.21584 lineup_742_23
+ + 1.21311 lineup_742_24 + 1.27802 lineup_742_25 + 1.32524 lineup_742_26
+ + 1.26574 lineup_743_23 + 1.3736 lineup_743_24 + 1.33437 lineup_743_25
+ + 1.56768 lineup_745_23 + 1.34834 lineup_745_24 + 1.32723 lineup_745_25
+ + 1.2266 lineup_745_26 + 1.88162 lineup_746_23 + 1.37221 lineup_746_24
+ + 1.60007 lineup_746_25 + 1.89575 lineup_746_26 + 1.35477 lineup_747_23
+ + 1.32025 lineup_747_24 + 1.36712 lineup_747_25 + 1.39271 lineup_747_26
+ + 1.32416 lineup_749_23 + 1.39283 lineup_749_24 + 1.34579 lineup_749_25
+ + 1.4086 lineup_749_26 + 1.22102 lineup_750_23 + 1.30785 lineup_750_24
+ + 1.28996 lineup_750_25 + 1.3715 lineup_750_26 + 1.29659 lineup_751_23
+ + 1.7915 lineup_751_24 + 1.38389 lineup_751_25 + 2.06094 lineup_751_26
+ + 3.1772 lineup_752_23 + 3.28768 lineup_752_24 + 5.82941 lineup_752_25
+ + 2.97504 lineup_752_26 + 1.89514 lineup_753_23 + 1.38401 lineup_753_24
+ + 1.61264 lineup_753_25 + 1.90932 lineup_753_26 + 1.34168 lineup_754_23
+ + 1.35964 lineup_754_24 + 1.38498 lineup_754_25 + 1.38079 lineup_755_23
+ + 1.34579 lineup_755_24 + 1.39332 lineup_755_25 + 1.41926 lineup_755_26
+ + 2.34079 lineup_757_23 + 3.33594 lineup_757_24 + 2.56572 lineup_757_25
+ + 1.39818 lineup_758_23 + 1.33657 lineup_758_24 + 1.27261 lineup_758_25
+ + 1.3118 lineup_759_23 + 1.33461 lineup_759_24 + 1.3275 lineup_759_25
+ + 1.31159 lineup_759_26 + 2.37087 lineup_75_23 + 2.13792 lineup_75_24
+ + 1.66677 lineup_75_25 + 1.66455 lineup_75_26 + 1.39402 lineup_760_23
+ + 1.29764 lineup_760_24 + 1.40734 lineup_760_25 + 1.37167 lineup_760_26
+ + 1.59953 lineup_761_23 + 1.21774 lineup_761_24 + 1.93653 lineup_761_25
+ + 1.47603 lineup_761_26 + 1.41291 lineup_762_23 + 1.4601 lineup_762_24
+ + 2.84831 lineup_762_25 + 1.41475 lineup_762_26 + 1.48851 lineup_763_23
+ + 1.49607 lineup_763_24 + 1.60041 lineup_763_25 + 2.05816 lineup_763_26
+ + 1.38253 lineup_764_23 + 1.37833 lineup_764_24 + 1.38715 lineup_764_25
+ + 1.4505 lineup_764_26 + 3.207 lineup_765_23 + 3.34816 lineup_765_24
+ + 3.16692 lineup_765_25 + 3.39788 lineup_765_26 + 1.95683 lineup_766_23
+ + 1.66541 lineup_766_24 + 1.72112 lineup_766_25 + 2.08473 lineup_766_26
+ + 1.43361 lineup_767_23 + 1.44654 lineup_767_24 + 1.40125 lineup_767_25
+ + 1.46706 lineup_767_26 + 1.86714 lineup_768_23 + 1.52936 lineup_768_24
+ + 1.58698 lineup_768_25 + 1.96305 lineup_768_26 + 2.41693 lineup_76_23
+ + 2.0854 lineup_76_24 + 2.08019 lineup_76_25 + 1.91001 lineup_76_26
+ + 1.3762 lineup_770_23 + 1.44681 lineup_770_24 + 1.39843 lineup_770_25
+ + 1.46303 lineup_770_26 + 1.42647 lineup_771_23 + 1.47399 lineup_771_24
+ + 2.87558 lineup_771_25 + 1.42832 lineup_771_26 + 1.40927 lineup_772_23
+ + 1.40501 lineup_772_24 + 1.41396 lineup_772_25 + 1.4782 lineup_772_26
+ + 1.43748 lineup_773_23 + 1.42014 lineup_773_24 + 1.47423 lineup_773_25
+ + 1.47463 lineup_773_26 + 1.56019 lineup_774_23 + 1.64422 lineup_774_24
+ + 1.98046 lineup_774_25 + 1.88766 lineup_774_26 + 2.72669 lineup_775_23
+ + 2.8113 lineup_775_24 + 2.79668 lineup_775_25 + 2.75287 lineup_775_26
+ + 4.56301 lineup_776_23 + 4.31329 lineup_776_24 + 4.2391 lineup_776_25
+ + 1.92965 lineup_777_23 + 1.96064 lineup_777_24 + 2.37946 lineup_777_25
+ + 3.25468 lineup_778_23 + 3.39794 lineup_778_24 + 3.21402 lineup_778_25
+ + 3.44839 lineup_778_26 + 1.45587 lineup_779_23 + 1.50646 lineup_779_24
+ + 1.47764 lineup_779_25 + 1.40434 lineup_779_26 + 3.81352 lineup_77_23
+ + 3.53769 lineup_77_24 + 3.37526 lineup_77_25 + 3.57754 lineup_77_26
+ + 1.53524 lineup_780_23 + 1.67013 lineup_780_24 + 1.60896 lineup_780_25
+ + 1.50025 lineup_780_26 + 1.53524 lineup_781_23 + 1.67013 lineup_781_24
+ + 1.60896 lineup_781_25 + 1.50025 lineup_781_26 + 1.16405 lineup_783_23
+ + 1.27052 lineup_783_24 + 1.26871 lineup_783_25 + 1.5733 lineup_784_23
+ + 1.65763 lineup_784_24 + 1.99507 lineup_784_25 + 1.90194 lineup_784_26
+ + 1.46207 lineup_786_23 + 1.42556 lineup_786_24 + 1.47513 lineup_786_25
+ + 1.50219 lineup_786_26 + 1.41662 lineup_787_23 + 1.48875 lineup_787_24
+ + 1.43933 lineup_787_25 + 1.50531 lineup_787_26 + 3.26008 lineup_789_23
+ + 3.37342 lineup_789_24 + 5.98156 lineup_789_25 + 3.05268 lineup_789_26
+ + 2.3622 lineup_78_23 + 2.22828 lineup_78_24 + 2.15159 lineup_78_25
+ + 2.14207 lineup_78_26 + 3.43869 lineup_790_23 + 3.47718 lineup_790_24
+ + 3.44847 lineup_790_25 + 3.5733 lineup_790_26 + 1.3501 lineup_791_23
+ + 1.3136 lineup_791_24 + 1.27495 lineup_791_25 + 2.43771 lineup_792_23
+ + 2.51178 lineup_792_24 + 2.59818 lineup_792_25 + 3.2096 lineup_792_26
+ + 1.71789 lineup_793_23 + 1.83548 lineup_793_24 + 1.79712 lineup_793_25
+ + 2.02317 lineup_793_26 + 1.46375 lineup_794_23 + 1.48834 lineup_794_24
+ + 1.54037 lineup_794_25 + 1.39438 lineup_794_26 + 1.46375 lineup_795_23
+ + 1.48834 lineup_795_24 + 1.54037 lineup_795_25 + 1.39438 lineup_795_26
+ + 1.45519 lineup_796_23 + 1.54037 lineup_796_24 + 1.44875 lineup_796_25
+ + 1.45133 lineup_796_26 + 1.33808 lineup_797_23 + 1.9004 lineup_797_24
+ + 2.80818 lineup_797_25 + 1.59087 lineup_797_26 + 3.23627 lineup_80_23
+ + 3.01623 lineup_80_24 + 2.88665 lineup_80_25 + 3.04801 lineup_80_26
+ + 2.75257 lineup_82_23 + 2.41244 lineup_82_24 + 2.42288 lineup_82_25
+ + 2.231 lineup_82_26 + 3.14857 lineup_83_23 + 2.81892 lineup_83_24
  + 2.18584 lineup_83_25 + 2.16856 lineup_83_26 + 2.94383 lineup_84_23
- + 2.63619 lineup_84_24 + 2.08866 lineup_84_25 + 2.07341 lineup_84_26
- + 5.68821 lineup_85_23 + 4.85764 lineup_85_24 + 4.87908 lineup_85_25
- + 4.48505 lineup_85_26 + 4.55451 lineup_86_23 + 4.19341 lineup_86_24
+ + 2.64765 lineup_84_24 + 2.08866 lineup_84_25 + 2.07341 lineup_84_26
+ + 5.68821 lineup_85_23 + 4.87294 lineup_85_24 + 4.87908 lineup_85_25
+ + 4.48505 lineup_85_26 + 4.55451 lineup_86_23 + 4.18591 lineup_86_24
  + 3.92366 lineup_86_25 + 3.89914 lineup_86_26 + 2.934 lineup_88_23
- + 2.7157 lineup_88_24 + 2.61636 lineup_88_25 + 2.76297 lineup_88_26
- + 3.27938 lineup_89_23 + 2.9706 lineup_89_24 + 2.40755 lineup_89_25
- + 2.40575 lineup_89_26 + 4.15547 lineup_8_23 + 4.31203 lineup_8_24
- + 4.11187 lineup_8_25 + 4.53869 lineup_8_26 + 1.78625 lineup_90_23
- + 2.67941 lineup_90_24 + 3.96346 lineup_90_25 + 2.31554 lineup_90_26
- + 3.04801 lineup_91_23 + 3.15403 lineup_91_24 + 5.59089 lineup_91_25
- + 2.85402 lineup_91_26 + 1.43371 lineup_92_23 + 1.51269 lineup_92_24
- + 2.99099 lineup_92_25 + 1.55978 lineup_92_26 + 1.29356 lineup_93_23
+ + 2.73409 lineup_88_24 + 2.61636 lineup_88_25 + 2.76297 lineup_88_26
+ + 3.27938 lineup_89_23 + 2.98293 lineup_89_24 + 2.40755 lineup_89_25
+ + 2.40575 lineup_89_26 + 4.13787 lineup_8_23 + 4.29913 lineup_8_24
+ + 4.10134 lineup_8_25 + 4.58032 lineup_8_26 + 1.6225 lineup_90_23
+ + 2.52087 lineup_90_24 + 3.83878 lineup_90_25 + 2.26154 lineup_90_26
+ + 3.03794 lineup_91_23 + 3.14361 lineup_91_24 + 5.57373 lineup_91_25
+ + 2.84458 lineup_91_26 + 1.39321 lineup_92_23 + 1.48621 lineup_92_24
+ + 2.97565 lineup_92_25 + 1.57322 lineup_92_26 + 1.29356 lineup_93_23
  + 1.88723 lineup_93_24 + 3.02685 lineup_93_25 + 1.59167 lineup_93_26
- + 2.14366 lineup_96_23 + 2.99083 lineup_96_24 + 4.60185 lineup_96_25
- + 2.61359 lineup_96_26 + 1.78224 lineup_98_23 + 1.89358 lineup_98_24
- + 3.71755 lineup_98_25 + 1.93065 lineup_98_26 + 1.18185 lineup_99_23
- + 1.24908 lineup_99_24 + 2.50155 lineup_99_25 + 1.30251 lineup_99_26
- + 2.29367 lineup_9_23 + 2.29993 lineup_9_24 + 2.33468 lineup_9_25
- + 2.49834 lineup_9_26 - 4 penalised_transfers_23 - 4 penalised_transfers_24
+ + 2.02297 lineup_96_23 + 2.87838 lineup_96_24 + 4.55877 lineup_96_25
+ + 2.60137 lineup_96_26 + 1.59812 lineup_98_23 + 1.73554 lineup_98_24
+ + 3.50195 lineup_98_25 + 1.865 lineup_98_26 + 1.15045 lineup_99_23
+ + 1.22987 lineup_99_24 + 2.49514 lineup_99_25 + 1.31751 lineup_99_26
+ + 2.09181 lineup_9_23 + 2.13506 lineup_9_24 + 2.20565 lineup_9_25
+ + 2.39078 lineup_9_26 - 4 penalised_transfers_23 - 4 penalised_transfers_24
  - 4 penalised_transfers_25 - 4 penalised_transfers_26
- + 0.365488 vice_captain_101_23 + 0.379145 vice_captain_101_24
- + 0.665908 vice_captain_101_25 + 0.340499 vice_captain_101_26
- + 0.112469 vice_captain_102_23 + 0.165232 vice_captain_102_24
- + 0.233729 vice_captain_102_25 + 0.136188 vice_captain_102_26
- + 0.309937 vice_captain_105_23 + 0.319657 vice_captain_105_24
- + 0.617758 vice_captain_105_25 + 0.322072 vice_captain_105_26
- + 0.328572 vice_captain_106_23 + 0.34487 vice_captain_106_24
- + 0.653256 vice_captain_106_25 + 0.33804 vice_captain_106_26
- + 0.293393 vice_captain_107_23 + 0.298374 vice_captain_107_24
- + 0.559091 vice_captain_107_25 + 0.290707 vice_captain_107_26
- + 0.254056 vice_captain_109_23 + 0.356471 vice_captain_109_24
- + 0.532025 vice_captain_109_25 + 0.30371 vice_captain_109_26
- + 0.192571 vice_captain_10_23 + 0.207239 vice_captain_10_24
- + 0.267898 vice_captain_10_25 + 0.251624 vice_captain_10_26
- + 0.342627 vice_captain_110_23 + 0.365282 vice_captain_110_24
- + 0.700868 vice_captain_110_25 + 0.367021 vice_captain_110_26
- + 0.186531 vice_captain_111_23 + 0.197513 vice_captain_111_24
- + 0.384008 vice_captain_111_25 + 0.199845 vice_captain_111_26
- + 0.278347 vice_captain_112_23 + 0.394493 vice_captain_112_24
- + 0.610096 vice_captain_112_25 + 0.345841 vice_captain_112_26
- + 0.365883 vice_captain_113_23 + 0.356125 vice_captain_113_24
- + 0.392794 vice_captain_113_25 + 0.366584 vice_captain_113_26
- + 0.185464 vice_captain_114_23 + 0.250274 vice_captain_114_24
- + 0.396354 vice_captain_114_25 + 0.220947 vice_captain_114_26
- + 0.30926 vice_captain_116_23 + 0.320133 vice_captain_116_24
- + 0.566716 vice_captain_116_25 + 0.289366 vice_captain_116_26
- + 0.492528 vice_captain_117_23 + 0.546427 vice_captain_117_24
- + 1.03209 vice_captain_117_25 + 0.559916 vice_captain_117_26
- + 0.360619 vice_captain_119_23 + 0.39216 vice_captain_119_24
- + 0.742409 vice_captain_119_25 + 0.397978 vice_captain_119_26
- + 0.132941 vice_captain_120_23 + 0.144981 vice_captain_120_24
- + 0.293912 vice_captain_120_25 + 0.152815 vice_captain_120_26
- + 0.173377 vice_captain_121_23 + 0.243561 vice_captain_121_24
- + 0.365563 vice_captain_121_25 + 0.207806 vice_captain_121_26
- + 0.300016 vice_captain_122_23 + 0.290539 vice_captain_122_24
- + 0.303883 vice_captain_122_25 + 0.308648 vice_captain_122_26
- + 0.199994 vice_captain_125_23 + 0.194552 vice_captain_125_24
- + 0.203312 vice_captain_125_25 + 0.206531 vice_captain_125_26
- + 0.296665 vice_captain_126_23 + 0.285682 vice_captain_126_24
- + 0.271043 vice_captain_126_25 + 0.299687 vice_captain_126_26
- + 0.217711 vice_captain_128_23 + 0.211139 vice_captain_128_24
- + 0.220392 vice_captain_128_25 + 0.223697 vice_captain_128_26
- + 0.369607 vice_captain_129_23 + 0.28241 vice_captain_129_24
- + 0.323797 vice_captain_129_25 + 0.385682 vice_captain_129_26
- + 0.439054 vice_captain_12_23 + 0.441479 vice_captain_12_24
- + 0.447903 vice_captain_12_25 + 0.485135 vice_captain_12_26
- + 0.209246 vice_captain_130_25 + 0.213146 vice_captain_130_26
- + 0.309897 vice_captain_131_23 + 0.237463 vice_captain_131_24
- + 0.274496 vice_captain_131_25 + 0.328707 vice_captain_131_26
- + 0.272685 vice_captain_132_23 + 0.288947 vice_captain_132_24
- + 0.295393 vice_captain_132_25 + 0.30096 vice_captain_132_26
- + 0.271432 vice_captain_133_23 + 0.267186 vice_captain_133_24
- + 0.281226 vice_captain_133_25 + 0.286975 vice_captain_133_26
- + 0.513073 vice_captain_134_23 + 0.489705 vice_captain_134_24
- + 0.513138 vice_captain_134_25 + 0.520109 vice_captain_134_26
- + 0.392712 vice_captain_135_23 + 0.395164 vice_captain_135_24
- + 0.397842 vice_captain_135_25 + 0.400641 vice_captain_135_26
- + 0.164219 vice_captain_138_23 + 0.163777 vice_captain_138_24
- + 0.171198 vice_captain_138_25 + 0.174893 vice_captain_138_26
- + 0.151399 vice_captain_139_23 + 0.108995 vice_captain_139_24
- + 0.131111 vice_captain_139_25 + 0.16356 vice_captain_139_26
- + 0.270598 vice_captain_13_23 + 0.283442 vice_captain_13_24
- + 0.272273 vice_captain_13_25 + 0.30171 vice_captain_13_26
- + 0.315357 vice_captain_141_23 + 0.306626 vice_captain_141_24
- + 0.30443 vice_captain_141_25 + 0.322979 vice_captain_141_26
- + 0.209176 vice_captain_142_23 + 0.197051 vice_captain_142_24
- + 0.199498 vice_captain_142_25 + 0.203388 vice_captain_142_26
- + 0.401438 vice_captain_143_23 + 0.386511 vice_captain_143_24
- + 0.407528 vice_captain_143_25 + 0.415034 vice_captain_143_26
- + 0.134971 vice_captain_144_23 + 0.131786 vice_captain_144_24
- + 0.134945 vice_captain_144_25 + 0.136648 vice_captain_144_26
- + 0.347915 vice_captain_145_23 + 0.361998 vice_captain_145_24
- + 0.306013 vice_captain_145_25 + 0.343246 vice_captain_145_26
- + 0.36325 vice_captain_148_23 + 0.352757 vice_captain_148_24
- + 0.350118 vice_captain_148_25 + 0.372411 vice_captain_148_26
- + 0.518529 vice_captain_14_23 + 0.522002 vice_captain_14_24
- + 0.535133 vice_captain_14_25 + 0.58541 vice_captain_14_26
- + 0.31241 vice_captain_150_23 + 0.241042 vice_captain_150_24
- + 0.269426 vice_captain_150_25 + 0.313223 vice_captain_150_26
- + 0.225759 vice_captain_151_24 + 0.257035 vice_captain_151_25
- + 0.304985 vice_captain_151_26 + 0.36057 vice_captain_152_23
- + 0.349996 vice_captain_152_24 + 0.347337 vice_captain_152_25
- + 0.369802 vice_captain_152_26 + 0.262343 vice_captain_153_23
- + 0.201395 vice_captain_153_24 + 0.233691 vice_captain_153_25
- + 0.280223 vice_captain_153_26 + 0.260413 vice_captain_154_23
- + 0.271814 vice_captain_154_24 + 0.276828 vice_captain_154_25
- + 0.280666 vice_captain_154_26 + 0.127703 vice_captain_156_23
- + 0.11459 vice_captain_156_24 + 0.118861 vice_captain_156_25
- + 0.118258 vice_captain_156_26 + 0.234436 vice_captain_157_23
- + 0.152262 vice_captain_157_24 + 0.200445 vice_captain_157_25
- + 0.226213 vice_captain_157_26 + 0.233337 vice_captain_159_23
- + 0.202637 vice_captain_159_24 + 0.212637 vice_captain_159_25
- + 0.211224 vice_captain_159_26 + 0.278988 vice_captain_160_23
- + 0.168522 vice_captain_160_24 + 0.236742 vice_captain_160_25
- + 0.271328 vice_captain_160_26 + 0.330335 vice_captain_161_23
- + 0.291509 vice_captain_161_24 + 0.308557 vice_captain_161_25
- + 0.30848 vice_captain_161_26 + 0.121839 vice_captain_162_23
- + 0.109155 vice_captain_162_24 + 0.113287 vice_captain_162_25
- + 0.112703 vice_captain_162_26 + 0.180651 vice_captain_163_23
- + 0.161252 vice_captain_163_24 + 0.171763 vice_captain_163_25
- + 0.173887 vice_captain_163_26 + 0.241069 vice_captain_165_23
- + 0.211428 vice_captain_165_24 + 0.222724 vice_captain_165_25
- + 0.222542 vice_captain_165_26 + 0.173982 vice_captain_166_23
- + 0.096708 vice_captain_166_24 + 0.141334 vice_captain_166_25
- + 0.165001 vice_captain_166_26 + 0.185146 vice_captain_167_23
- + 0.106648 vice_captain_167_24 + 0.153821 vice_captain_167_25
- + 0.179385 vice_captain_167_26 + 0.318263 vice_captain_168_23
- + 0.252766 vice_captain_168_24 + 0.261614 vice_captain_168_25
- + 0.265766 vice_captain_168_26 + 0.334501 vice_captain_169_23
- + 0.307867 vice_captain_169_24 + 0.286091 vice_captain_169_25
- + 0.30867 vice_captain_169_26 + 0.292043 vice_captain_170_23
- + 0.253492 vice_captain_170_24 + 0.26755 vice_captain_170_25
- + 0.265089 vice_captain_170_26 + 0.364403 vice_captain_172_23
- + 0.333707 vice_captain_172_24 + 0.30861 vice_captain_172_25
- + 0.334632 vice_captain_172_26 + 0.299426 vice_captain_173_23
- + 0.197839 vice_captain_173_24 + 0.262795 vice_captain_173_25
- + 0.297555 vice_captain_173_26 + 0.200842 vice_captain_174_23
- + 0.155199 vice_captain_174_24 + 0.159592 vice_captain_174_25
- + 0.161209 vice_captain_174_26 + 0.223092 vice_captain_176_23
- + 0.139891 vice_captain_176_24 + 0.197715 vice_captain_176_25
- + 0.228668 vice_captain_176_26 + 0.342187 vice_captain_177_23
- + 0.265636 vice_captain_177_24 + 0.273004 vice_captain_177_25
- + 0.275715 vice_captain_177_26 + 0.270211 vice_captain_178_23
- + 0.170694 vice_captain_178_24 + 0.233119 vice_captain_178_25
- + 0.264721 vice_captain_178_26 + 0.336295 vice_captain_17_23
- + 0.328108 vice_captain_17_24 + 0.35887 vice_captain_17_25
- + 0.336883 vice_captain_17_26 + 0.334501 vice_captain_181_23
- + 0.307867 vice_captain_181_24 + 0.286091 vice_captain_181_25
- + 0.30867 vice_captain_181_26 + 0.315178 vice_captain_182_23
- + 0.210823 vice_captain_182_24 + 0.278177 vice_captain_182_25
- + 0.313368 vice_captain_182_26 + 0.186768 vice_captain_184_23
- + 0.163012 vice_captain_184_24 + 0.17075 vice_captain_184_25
- + 0.169657 vice_captain_184_26 + 0.125633 vice_captain_186_23
- + 0.120192 vice_captain_186_24 + 0.114104 vice_captain_186_25
- + 0.122816 vice_captain_186_26 + 0.290057 vice_captain_191_23
- + 0.29039 vice_captain_191_24 + 0.193008 vice_captain_191_25
- + 0.254866 vice_captain_191_26 + 0.290323 vice_captain_192_23
- + 0.300762 vice_captain_192_24 + 0.25926 vice_captain_192_25
- + 0.286862 vice_captain_192_26 + 0.223044 vice_captain_193_23
- + 0.209365 vice_captain_193_24 + 0.207294 vice_captain_193_25
- + 0.226561 vice_captain_193_26 + 0.201624 vice_captain_194_23
- + 0.200073 vice_captain_194_24 + 0.127484 vice_captain_194_25
- + 0.173593 vice_captain_194_26 + 0.246437 vice_captain_195_23
- + 0.24831 vice_captain_195_24 + 0.151082 vice_captain_195_25
- + 0.219443 vice_captain_195_26 + 0.099812 vice_captain_196_23
- + 0.097516 vice_captain_196_24 + 0.09461 vice_captain_196_25
- + 0.105684 vice_captain_196_26 + 0.319051 vice_captain_197_23
- + 0.325009 vice_captain_197_24 + 0.226118 vice_captain_197_25
- + 0.293293 vice_captain_197_26 + 0.415552 vice_captain_199_23
- + 0.389199 vice_captain_199_24 + 0.359307 vice_captain_199_25
- + 0.405108 vice_captain_199_26 + 0.568085 vice_captain_19_23
- + 0.564369 vice_captain_19_24 + 0.571356 vice_captain_19_25
- + 0.625639 vice_captain_19_26 + 0.158813 vice_captain_1_23
+ + 0.364094 vice_captain_101_23 + 0.377572 vice_captain_101_24
+ + 0.664144 vice_captain_101_25 + 0.339433 vice_captain_101_26
+ + 0.301298 vice_captain_105_23 + 0.313031 vice_captain_105_24
+ + 0.610903 vice_captain_105_25 + 0.321827 vice_captain_105_26
+ + 0.313939 vice_captain_106_23 + 0.332605 vice_captain_106_24
+ + 0.636551 vice_captain_106_25 + 0.333456 vice_captain_106_26
+ + 0.28857 vice_captain_107_23 + 0.295269 vice_captain_107_24
+ + 0.558335 vice_captain_107_25 + 0.293064 vice_captain_107_26
+ + 0.246065 vice_captain_109_23 + 0.349399 vice_captain_109_24
+ + 0.532629 vice_captain_109_25 + 0.303201 vice_captain_109_26
+ + 0.169429 vice_captain_10_23 + 0.188022 vice_captain_10_24
+ + 0.250792 vice_captain_10_25 + 0.235115 vice_captain_10_26
+ + 0.325634 vice_captain_110_23 + 0.350671 vice_captain_110_24
+ + 0.680086 vice_captain_110_25 + 0.360512 vice_captain_110_26
+ + 0.182794 vice_captain_111_23 + 0.193636 vice_captain_111_24
+ + 0.376407 vice_captain_111_25 + 0.195977 vice_captain_111_26
+ + 0.265791 vice_captain_112_23 + 0.382937 vice_captain_112_24
+ + 0.605184 vice_captain_112_25 + 0.34319 vice_captain_112_26
+ + 0.366111 vice_captain_113_23 + 0.356348 vice_captain_113_24
+ + 0.393035 vice_captain_113_25 + 0.365101 vice_captain_113_26
+ + 0.17802 vice_captain_114_23 + 0.244268 vice_captain_114_24
+ + 0.396653 vice_captain_114_25 + 0.22215 vice_captain_114_26
+ + 0.308208 vice_captain_116_23 + 0.319043 vice_captain_116_24
+ + 0.564928 vice_captain_116_25 + 0.288382 vice_captain_116_26
+ + 0.503029 vice_captain_117_23 + 0.556595 vice_captain_117_24
+ + 1.045685 vice_captain_117_25 + 0.567033 vice_captain_117_26
+ + 0.354 vice_captain_119_23 + 0.385054 vice_captain_119_24
+ + 0.727221 vice_captain_119_25 + 0.390777 vice_captain_119_26
+ + 0.12585 vice_captain_120_23 + 0.13895 vice_captain_120_24
+ + 0.28402 vice_captain_120_25 + 0.149399 vice_captain_120_26
+ + 0.171716 vice_captain_121_23 + 0.241581 vice_captain_121_24
+ + 0.366823 vice_captain_121_25 + 0.206001 vice_captain_121_26
+ + 0.294162 vice_captain_122_23 + 0.283554 vice_captain_122_24
+ + 0.297959 vice_captain_122_25 + 0.305822 vice_captain_122_26
+ + 0.185552 vice_captain_125_23 + 0.182157 vice_captain_125_24
+ + 0.194108 vice_captain_125_25 + 0.201905 vice_captain_125_26
+ + 0.285394 vice_captain_126_23 + 0.275759 vice_captain_126_24
+ + 0.263786 vice_captain_126_25 + 0.215607 vice_captain_128_23
+ + 0.208181 vice_captain_128_24 + 0.218265 vice_captain_128_25
+ + 0.22377 vice_captain_128_26 + 0.35094 vice_captain_129_23
+ + 0.266421 vice_captain_129_24 + 0.313631 vice_captain_129_25
+ + 0.372906 vice_captain_129_26 + 0.428294 vice_captain_12_23
+ + 0.433221 vice_captain_12_24 + 0.442101 vice_captain_12_25
+ + 0.479182 vice_captain_12_26 + 0.205215 vice_captain_130_25
+ + 0.211653 vice_captain_130_26 + 0.286894 vice_captain_131_23
+ + 0.217977 vice_captain_131_24 + 0.260736 vice_captain_131_25
+ + 0.313165 vice_captain_131_26 + 0.254915 vice_captain_132_23
+ + 0.278114 vice_captain_132_24 + 0.282654 vice_captain_132_25
+ + 0.2889 vice_captain_132_26 + 0.256239 vice_captain_133_23
+ + 0.25441 vice_captain_133_24 + 0.272402 vice_captain_133_25
+ + 0.283965 vice_captain_133_26 + 0.496508 vice_captain_134_23
+ + 0.474079 vice_captain_134_24 + 0.503266 vice_captain_134_25
+ + 0.520068 vice_captain_134_26 + 0.385876 vice_captain_135_23
+ + 0.396655 vice_captain_135_24 + 0.394316 vice_captain_135_25
+ + 0.395946 vice_captain_135_26 + 0.162584 vice_captain_138_23
+ + 0.161553 vice_captain_138_24 + 0.169549 vice_captain_138_25
+ + 0.174754 vice_captain_138_26 + 0.153765 vice_captain_139_23
+ + 0.109286 vice_captain_139_24 + 0.134448 vice_captain_139_25
+ + 0.166016 vice_captain_139_26 + 0.255956 vice_captain_13_23
+ + 0.27118 vice_captain_13_24 + 0.262828 vice_captain_13_25
+ + 0.297009 vice_captain_13_26 + 0.315357 vice_captain_141_23
+ + 0.302911 vice_captain_141_24 + 0.30443 vice_captain_141_25
+ + 0.318427 vice_captain_141_26 + 0.199404 vice_captain_142_23
+ + 0.188664 vice_captain_142_24 + 0.193901 vice_captain_142_25
+ + 0.201765 vice_captain_142_26 + 0.393556 vice_captain_143_23
+ + 0.376859 vice_captain_143_24 + 0.399531 vice_captain_143_25
+ + 0.411907 vice_captain_143_26 + 0.125855 vice_captain_144_23
+ + 0.124415 vice_captain_144_24 + 0.129944 vice_captain_144_25
+ + 0.134786 vice_captain_144_26 + 0.344958 vice_captain_145_23
+ + 0.353932 vice_captain_145_24 + 0.30364 vice_captain_145_25
+ + 0.363066 vice_captain_148_23 + 0.348195 vice_captain_148_24
+ + 0.35001 vice_captain_148_25 + 0.366736 vice_captain_148_26
+ + 0.532708 vice_captain_14_23 + 0.534403 vice_captain_14_24
+ + 0.545931 vice_captain_14_25 + 0.592314 vice_captain_14_26
+ + 0.297796 vice_captain_150_23 + 0.229067 vice_captain_150_24
+ + 0.26212 vice_captain_150_25 + 0.303903 vice_captain_150_26
+ + 0.219326 vice_captain_151_24 + 0.252605 vice_captain_151_25
+ + 0.295789 vice_captain_151_26 + 0.359083 vice_captain_152_23
+ + 0.344076 vice_captain_152_24 + 0.345908 vice_captain_152_25
+ + 0.362785 vice_captain_152_26 + 0.260141 vice_captain_153_23
+ + 0.197403 vice_captain_153_24 + 0.231673 vice_captain_153_25
+ + 0.274173 vice_captain_153_26 + 0.268448 vice_captain_154_23
+ + 0.284254 vice_captain_154_24 + 0.284496 vice_captain_154_25
+ + 0.286151 vice_captain_154_26 + 0.127703 vice_captain_156_23
+ + 0.114376 vice_captain_156_24 + 0.118383 vice_captain_156_25
+ + 0.118015 vice_captain_156_26 + 0.297195 vice_captain_157_23
+ + 0.190097 vice_captain_157_24 + 0.240456 vice_captain_157_25
+ + 0.261259 vice_captain_157_26 + 0.231096 vice_captain_159_23
+ + 0.200162 vice_captain_159_24 + 0.209462 vice_captain_159_25
+ + 0.20861 vice_captain_159_26 + 0.219646 vice_captain_15_23
+ + 0.218668 vice_captain_15_24 + 0.220723 vice_captain_15_25
+ + 0.235484 vice_captain_15_26 + 0.276685 vice_captain_160_23
+ + 0.166127 vice_captain_160_24 + 0.234706 vice_captain_160_25
+ + 0.266757 vice_captain_160_26 + 0.33383 vice_captain_161_23
+ + 0.29384 vice_captain_161_24 + 0.310468 vice_captain_161_25
+ + 0.311401 vice_captain_161_26 + 0.178842 vice_captain_163_23
+ + 0.159259 vice_captain_163_24 + 0.169259 vice_captain_163_25
+ + 0.171794 vice_captain_163_26 + 0.238713 vice_captain_165_23
+ + 0.208837 vice_captain_165_24 + 0.21943 vice_captain_165_25
+ + 0.219811 vice_captain_165_26 + 0.173982 vice_captain_166_23
+ + 0.096234 vice_captain_166_24 + 0.141344 vice_captain_166_25
+ + 0.163392 vice_captain_166_26 + 0.187528 vice_captain_167_23
+ + 0.106963 vice_captain_167_24 + 0.156257 vice_captain_167_25
+ + 0.181174 vice_captain_167_26 + 0.307996 vice_captain_168_23
+ + 0.243485 vice_captain_168_24 + 0.253053 vice_captain_168_25
+ + 0.258968 vice_captain_168_26 + 0.334501 vice_captain_169_23
+ + 0.312959 vice_captain_169_24 + 0.285201 vice_captain_169_25
+ + 0.304851 vice_captain_169_26 + 0.283491 vice_captain_170_23
+ + 0.24598 vice_captain_170_24 + 0.260543 vice_captain_170_25
+ + 0.260256 vice_captain_170_26 + 0.364403 vice_captain_172_23
+ + 0.339576 vice_captain_172_24 + 0.307584 vice_captain_172_25
+ + 0.33023 vice_captain_172_26 + 0.297104 vice_captain_173_23
+ + 0.196052 vice_captain_173_24 + 0.262429 vice_captain_173_25
+ + 0.295798 vice_captain_173_26 + 0.205452 vice_captain_176_23
+ + 0.125397 vice_captain_176_24 + 0.184845 vice_captain_176_25
+ + 0.215482 vice_captain_176_26 + 0.339274 vice_captain_177_23
+ + 0.261882 vice_captain_177_24 + 0.26853 vice_captain_177_25
+ + 0.271659 vice_captain_177_26 + 0.267985 vice_captain_178_23
+ + 0.168338 vice_captain_178_24 + 0.231119 vice_captain_178_25
+ + 0.260417 vice_captain_178_26 + 0.334887 vice_captain_17_23
+ + 0.326737 vice_captain_17_24 + 0.357361 vice_captain_17_25
+ + 0.334044 vice_captain_17_26 + 0.334501 vice_captain_181_23
+ + 0.312959 vice_captain_181_24 + 0.285201 vice_captain_181_25
+ + 0.304851 vice_captain_181_26 + 0.311927 vice_captain_182_23
+ + 0.208315 vice_captain_182_24 + 0.277038 vice_captain_182_25
+ + 0.310749 vice_captain_182_26 + 0.173523 vice_captain_184_23
+ + 0.152748 vice_captain_184_24 + 0.16191 vice_captain_184_25
+ + 0.163517 vice_captain_184_26 + 0.124455 vice_captain_186_23
+ + 0.118808 vice_captain_186_24 + 0.112945 vice_captain_186_25
+ + 0.27909 vice_captain_191_23 + 0.279311 vice_captain_191_24
+ + 0.195296 vice_captain_191_25 + 0.290323 vice_captain_192_23
+ + 0.29704 vice_captain_192_24 + 0.259391 vice_captain_192_25
+ + 0.221125 vice_captain_193_23 + 0.206372 vice_captain_193_24
+ + 0.20459 vice_captain_193_25 + 0.201624 vice_captain_194_23
+ + 0.198216 vice_captain_194_24 + 0.131624 vice_captain_194_25
+ + 0.221634 vice_captain_195_23 + 0.223746 vice_captain_195_24
+ + 0.141269 vice_captain_195_25 + 0.098425 vice_captain_196_23
+ + 0.097039 vice_captain_196_24 + 0.095443 vice_captain_196_25
+ + 0.395436 vice_captain_199_23 + 0.371296 vice_captain_199_24
+ + 0.345995 vice_captain_199_25 + 0.57912 vice_captain_19_23
+ + 0.574168 vice_captain_19_24 + 0.580063 vice_captain_19_25
+ + 0.630493 vice_captain_19_26 + 0.158813 vice_captain_1_23
  + 0.149612 vice_captain_1_24 + 0.157128 vice_captain_1_25
- + 0.155681 vice_captain_1_26 + 0.156141 vice_captain_200_23
- + 0.115811 vice_captain_200_24 + 0.119693 vice_captain_200_25
- + 0.121121 vice_captain_200_26 + 0.342114 vice_captain_202_23
- + 0.318976 vice_captain_202_24 + 0.295505 vice_captain_202_25
- + 0.333883 vice_captain_202_26 + 0.240594 vice_captain_203_23
- + 0.238235 vice_captain_203_24 + 0.150608 vice_captain_203_25
- + 0.210283 vice_captain_203_26 + 0.216359 vice_captain_204_23
- + 0.205306 vice_captain_204_24 + 0.208381 vice_captain_204_25
- + 0.151034 vice_captain_204_26 + 0.218891 vice_captain_205_23
- + 0.231925 vice_captain_205_24 + 0.227707 vice_captain_205_25
- + 0.211305 vice_captain_205_26 + 0.339528 vice_captain_207_23
+ + 0.155681 vice_captain_1_26 + 0.15859 vice_captain_200_23
+ + 0.117707 vice_captain_200_24 + 0.122211 vice_captain_200_25
+ + 0.124814 vice_captain_200_26 + 0.318917 vice_captain_202_23
+ + 0.299349 vice_captain_202_24 + 0.281304 vice_captain_202_25
+ + 0.23657 vice_captain_203_23 + 0.232661 vice_captain_203_24
+ + 0.153797 vice_captain_203_25 + 0.214672 vice_captain_204_23
+ + 0.207942 vice_captain_204_24 + 0.206773 vice_captain_204_25
+ + 0.149654 vice_captain_204_26 + 0.202295 vice_captain_205_23
+ + 0.216769 vice_captain_205_24 + 0.216342 vice_captain_205_25
+ + 0.204925 vice_captain_205_26 + 0.339528 vice_captain_207_23
  + 0.318595 vice_captain_207_24 + 0.293575 vice_captain_207_25
- + 0.313732 vice_captain_207_26 + 0.23609 vice_captain_208_23
- + 0.22214 vice_captain_208_24 + 0.209473 vice_captain_208_25
- + 0.23509 vice_captain_208_26 + 0.230148 vice_captain_209_23
- + 0.21224 vice_captain_209_24 + 0.228769 vice_captain_209_25
- + 0.240751 vice_captain_209_26 + 0.320586 vice_captain_20_23
- + 0.33831 vice_captain_20_24 + 0.426862 vice_captain_20_25
- + 0.395069 vice_captain_20_26 + 0.322911 vice_captain_210_23
- + 0.297279 vice_captain_210_24 + 0.274145 vice_captain_210_25
- + 0.307252 vice_captain_210_26 + 0.440404 vice_captain_211_23
- + 0.403727 vice_captain_211_24 + 0.395751 vice_captain_211_25
- + 0.439277 vice_captain_211_26 + 0.252837 vice_captain_214_23
- + 0.251007 vice_captain_214_24 + 0.16539 vice_captain_214_25
- + 0.219775 vice_captain_214_26 + 0.457003 vice_captain_216_23
- + 0.424352 vice_captain_216_24 + 0.387719 vice_captain_216_25
- + 0.442212 vice_captain_216_26 + 0.316982 vice_captain_217_23
- + 0.324892 vice_captain_217_24 + 0.229757 vice_captain_217_25
- + 0.296536 vice_captain_217_26 + 0.105791 vice_captain_219_23
- + 0.109237 vice_captain_219_24 + 0.109771 vice_captain_219_25
- + 0.115089 vice_captain_219_26 + 0.214967 vice_captain_21_23
- + 0.233548 vice_captain_21_24 + 0.235758 vice_captain_21_25
- + 0.213698 vice_captain_21_26 + 0.281441 vice_captain_220_23
- + 0.290388 vice_captain_220_24 + 0.313355 vice_captain_220_25
- + 0.396592 vice_captain_220_26 + 0.32783 vice_captain_221_23
- + 0.340411 vice_captain_221_24 + 0.334772 vice_captain_221_25
- + 0.355615 vice_captain_221_26 + 0.21554 vice_captain_222_23
- + 0.222585 vice_captain_222_24 + 0.238457 vice_captain_222_25
- + 0.293389 vice_captain_222_26 + 0.116421 vice_captain_224_23
- + 0.118821 vice_captain_224_24 + 0.117213 vice_captain_224_25
- + 0.122188 vice_captain_224_26 + 0.313871 vice_captain_225_23
- + 0.30132 vice_captain_225_24 + 0.342687 vice_captain_225_25
- + 0.343894 vice_captain_225_26 + 0.390765 vice_captain_226_23
- + 0.405376 vice_captain_226_24 + 0.395587 vice_captain_226_25
- + 0.425858 vice_captain_226_26 + 0.296001 vice_captain_228_23
- + 0.305939 vice_captain_228_24 + 0.329698 vice_captain_228_25
- + 0.412887 vice_captain_228_26 + 0.20953 vice_captain_229_23
- + 0.218564 vice_captain_229_24 + 0.219082 vice_captain_229_25
- + 0.230631 vice_captain_229_26 + 0.211479 vice_captain_22_23
- + 0.216496 vice_captain_22_24 + 0.221836 vice_captain_22_25
- + 0.241491 vice_captain_22_26 + 0.351685 vice_captain_230_23
- + 0.351304 vice_captain_230_24 + 0.371354 vice_captain_230_25
- + 0.344845 vice_captain_230_26 + 0.334477 vice_captain_231_23
- + 0.350967 vice_captain_231_24 + 0.347927 vice_captain_231_25
- + 0.371211 vice_captain_231_26 + 0.240563 vice_captain_232_23
- + 0.233437 vice_captain_232_24 + 0.267413 vice_captain_232_25
- + 0.269307 vice_captain_232_26 + 0.310226 vice_captain_233_23
- + 0.309893 vice_captain_233_24 + 0.327435 vice_captain_233_25
- + 0.304241 vice_captain_233_26 + 0.260998 vice_captain_234_23
- + 0.269328 vice_captain_234_24 + 0.289866 vice_captain_234_25
- + 0.363734 vice_captain_234_26 + 0.43472 vice_captain_236_23
- + 0.439703 vice_captain_236_24 + 0.423843 vice_captain_236_25
- + 0.455059 vice_captain_236_26 + 0.184586 vice_captain_238_23
- + 0.19106 vice_captain_238_24 + 0.205601 vice_captain_238_25
- + 0.256343 vice_captain_238_26 + 0.14204 vice_captain_239_23
- + 0.144786 vice_captain_239_24 + 0.142946 vice_captain_239_25
- + 0.148639 vice_captain_239_26 + 0.15602 vice_captain_23_23
- + 0.159054 vice_captain_23_24 + 0.164772 vice_captain_23_25
- + 0.128991 vice_captain_23_26 + 0.297754 vice_captain_240_23
- + 0.315888 vice_captain_240_24 + 0.315886 vice_captain_240_25
- + 0.335402 vice_captain_240_26 + 0.109184 vice_captain_241_23
- + 0.112117 vice_captain_241_24 + 0.123257 vice_captain_241_25
- + 0.164368 vice_captain_241_26 + 0.310097 vice_captain_243_23
- + 0.309763 vice_captain_243_24 + 0.327384 vice_captain_243_25
- + 0.304086 vice_captain_243_26 + 0.13106 vice_captain_244_23
- + 0.122879 vice_captain_244_24 + 0.137617 vice_captain_244_25
- + 0.133452 vice_captain_244_26 + 0.232817 vice_captain_245_23
- + 0.185048 vice_captain_245_24 + 0.286812 vice_captain_245_25
- + 0.228958 vice_captain_245_26 + 0.388785 vice_captain_246_23
- + 0.357666 vice_captain_246_24 + 0.387257 vice_captain_246_25
- + 0.389407 vice_captain_246_26 + 0.198267 vice_captain_247_23
- + 0.155108 vice_captain_247_24 + 0.24608 vice_captain_247_25
- + 0.194969 vice_captain_247_26 + 0.386902 vice_captain_249_23
- + 0.343849 vice_captain_249_24 + 0.399612 vice_captain_249_25
- + 0.385538 vice_captain_249_26 + 0.342444 vice_captain_250_23
- + 0.312756 vice_captain_250_24 + 0.357308 vice_captain_250_25
- + 0.345284 vice_captain_250_26 + 0.200187 vice_captain_252_23
- + 0.151238 vice_captain_252_24 + 0.239515 vice_captain_252_25
- + 0.185775 vice_captain_252_26 + 0.250939 vice_captain_254_23
- + 0.22767 vice_captain_254_24 + 0.254177 vice_captain_254_25
- + 0.245505 vice_captain_254_26 + 0.37825 vice_captain_256_23
- + 0.418576 vice_captain_256_24 + 0.383323 vice_captain_256_25
- + 0.384381 vice_captain_256_26 + 0.223872 vice_captain_257_23
- + 0.175649 vice_captain_257_24 + 0.275184 vice_captain_257_25
- + 0.216329 vice_captain_257_26 + 0.285767 vice_captain_258_23
- + 0.317892 vice_captain_258_24 + 0.609202 vice_captain_258_25
- + 0.329165 vice_captain_258_26 + 0.380649 vice_captain_259_23
- + 0.345726 vice_captain_259_24 + 0.403018 vice_captain_259_25
- + 0.3915 vice_captain_259_26 + 0.167989 vice_captain_25_23
- + 0.17783 vice_captain_25_24 + 0.228966 vice_captain_25_25
- + 0.211088 vice_captain_25_26 + 0.264719 vice_captain_260_23
- + 0.214197 vice_captain_260_24 + 0.321188 vice_captain_260_25
- + 0.260055 vice_captain_260_26 + 0.307965 vice_captain_261_23
- + 0.28301 vice_captain_261_24 + 0.321994 vice_captain_261_25
- + 0.312354 vice_captain_261_26 + 0.203134 vice_captain_262_23
- + 0.158414 vice_captain_262_24 + 0.251709 vice_captain_262_25
- + 0.196797 vice_captain_262_26 + 0.351653 vice_captain_263_23
- + 0.316319 vice_captain_263_24 + 0.37779 vice_captain_263_25
- + 0.373362 vice_captain_263_26 + 0.306216 vice_captain_265_23
- + 0.24262 vice_captain_265_24 + 0.373555 vice_captain_265_25
- + 0.298261 vice_captain_265_26 + 0.294406 vice_captain_266_23
- + 0.266085 vice_captain_266_24 + 0.315357 vice_captain_266_25
- + 0.311807 vice_captain_266_26 + 0.342144 vice_captain_267_23
- + 0.381943 vice_captain_267_24 + 0.351832 vice_captain_267_25
- + 0.354009 vice_captain_267_26 + 0.225423 vice_captain_268_23
- + 0.242889 vice_captain_268_24 + 0.224726 vice_captain_268_25
- + 0.225488 vice_captain_268_26 + 0.3797 vice_captain_26_23
- + 0.372242 vice_captain_26_24 + 0.374167 vice_captain_26_25
- + 0.397628 vice_captain_26_26 + 0.273952 vice_captain_270_23
- + 0.29861 vice_captain_270_24 + 0.273297 vice_captain_270_25
- + 0.276907 vice_captain_270_26 + 0.262663 vice_captain_271_23
- + 0.259172 vice_captain_271_24 + 0.242142 vice_captain_271_25
- + 0.222671 vice_captain_271_26 + 0.11551 vice_captain_272_23
- + 0.122653 vice_captain_272_24 + 0.114971 vice_captain_272_25
- + 0.115187 vice_captain_272_26 + 0.139897 vice_captain_273_23
- + 0.150092 vice_captain_273_24 + 0.140711 vice_captain_273_25
- + 0.138779 vice_captain_273_26 + 0.20795 vice_captain_274_23
- + 0.205894 vice_captain_274_24 + 0.174659 vice_captain_274_25
- + 0.143896 vice_captain_274_26 + 0.382951 vice_captain_275_23
- + 0.377794 vice_captain_275_24 + 0.374046 vice_captain_275_25
- + 0.391018 vice_captain_275_26 + 0.153893 vice_captain_276_23
- + 0.168216 vice_captain_276_24 + 0.159766 vice_captain_276_25
- + 0.162217 vice_captain_276_26 + 0.210765 vice_captain_277_23
- + 0.208709 vice_captain_277_24 + 0.177474 vice_captain_277_25
- + 0.146712 vice_captain_277_26 + 0.169448 vice_captain_279_23
- + 0.170203 vice_captain_279_24 + 0.174294 vice_captain_279_25
- + 0.169161 vice_captain_279_26 + 0.236673 vice_captain_27_23
- + 0.227629 vice_captain_27_24 + 0.224994 vice_captain_27_25
- + 0.256912 vice_captain_27_26 + 0.289285 vice_captain_280_23
- + 0.319622 vice_captain_280_24 + 0.296797 vice_captain_280_25
- + 0.299395 vice_captain_280_26 + 0.286435 vice_captain_281_23
- + 0.277901 vice_captain_281_24 + 0.254866 vice_captain_281_25
- + 0.23236 vice_captain_281_26 + 0.237872 vice_captain_282_23
- + 0.258144 vice_captain_282_24 + 0.243572 vice_captain_282_25
- + 0.244081 vice_captain_282_26 + 0.337184 vice_captain_283_23
- + 0.331718 vice_captain_283_24 + 0.307685 vice_captain_283_25
- + 0.282618 vice_captain_283_26 + 0.30963 vice_captain_284_23
- + 0.305805 vice_captain_284_24 + 0.303025 vice_captain_284_25
- + 0.315613 vice_captain_284_26 + 0.276736 vice_captain_285_23
- + 0.271672 vice_captain_285_24 + 0.250432 vice_captain_285_25
- + 0.229725 vice_captain_285_26 + 0.296879 vice_captain_286_23
- + 0.293502 vice_captain_286_24 + 0.272134 vice_captain_286_25
- + 0.249761 vice_captain_286_26 + 0.204854 vice_captain_287_23
- + 0.206312 vice_captain_287_24 + 0.209742 vice_captain_287_25
- + 0.201573 vice_captain_287_26 + 0.240209 vice_captain_288_23
- + 0.267739 vice_captain_288_24 + 0.250514 vice_captain_288_25
- + 0.252446 vice_captain_288_26 + 0.297973 vice_captain_289_23
- + 0.305737 vice_captain_289_24 + 0.294966 vice_captain_289_25
- + 0.302657 vice_captain_289_26 + 0.346363 vice_captain_28_23
- + 0.325059 vice_captain_28_24 + 0.365498 vice_captain_28_25
- + 0.32372 vice_captain_28_26 + 0.354107 vice_captain_290_23
- + 0.57126 vice_captain_290_24 + 0.441359 vice_captain_290_25
- + 0.575177 vice_captain_290_26 + 0.372063 vice_captain_291_23
- + 0.382906 vice_captain_291_24 + 0.367864 vice_captain_291_25
- + 0.378604 vice_captain_291_26 + 0.160973 vice_captain_292_25
- + 0.1603 vice_captain_292_26 + 0.393589 vice_captain_293_23
- + 0.47319 vice_captain_293_24 + 0.398164 vice_captain_293_25
- + 0.50163 vice_captain_293_26 + 0.293613 vice_captain_294_23
- + 0.342149 vice_captain_294_24 + 0.325903 vice_captain_294_25
- + 0.324221 vice_captain_294_26 + 0.201985 vice_captain_295_23
- + 0.223523 vice_captain_295_24 + 0.215677 vice_captain_295_25
- + 0.214816 vice_captain_295_26 + 0.283925 vice_captain_297_23
- + 0.347224 vice_captain_297_24 + 0.305485 vice_captain_297_25
- + 0.384289 vice_captain_297_26 + 0.196995 vice_captain_298_23
- + 0.298716 vice_captain_298_24 + 0.242194 vice_captain_298_25
- + 0.302765 vice_captain_298_26 + 0.32419 vice_captain_29_23
- + 0.340049 vice_captain_29_24 + 0.430616 vice_captain_29_25
- + 0.397093 vice_captain_29_26 + 0.133646 vice_captain_2_23
+ + 0.217269 vice_captain_208_23 + 0.206259 vice_captain_208_24
+ + 0.19768 vice_captain_208_25 + 0.230148 vice_captain_209_23
+ + 0.214181 vice_captain_209_24 + 0.22675 vice_captain_209_25
+ + 0.240751 vice_captain_209_26 + 0.319974 vice_captain_20_23
+ + 0.338571 vice_captain_20_24 + 0.428579 vice_captain_20_25
+ + 0.389923 vice_captain_20_26 + 0.319429 vice_captain_210_23
+ + 0.293502 vice_captain_210_24 + 0.271699 vice_captain_210_25
+ + 0.436332 vice_captain_211_23 + 0.397303 vice_captain_211_24
+ + 0.390011 vice_captain_211_25 + 0.285831 vice_captain_212_23
+ + 0.265268 vice_captain_212_24 + 0.264777 vice_captain_212_25
+ + 0.252837 vice_captain_214_23 + 0.248817 vice_captain_214_24
+ + 0.170273 vice_captain_214_25 + 0.43953 vice_captain_216_23
+ + 0.409348 vice_captain_216_24 + 0.377854 vice_captain_216_25
+ + 0.304271 vice_captain_217_23 + 0.312013 vice_captain_217_24
+ + 0.229839 vice_captain_217_25 + 0.104745 vice_captain_219_23
+ + 0.108341 vice_captain_219_24 + 0.108722 vice_captain_219_25
+ + 0.114159 vice_captain_219_26 + 0.225375 vice_captain_21_23
+ + 0.246411 vice_captain_21_24 + 0.246226 vice_captain_21_25
+ + 0.269046 vice_captain_220_23 + 0.288841 vice_captain_220_24
+ + 0.307181 vice_captain_220_25 + 0.387707 vice_captain_220_26
+ + 0.321828 vice_captain_221_23 + 0.337136 vice_captain_221_24
+ + 0.332403 vice_captain_221_25 + 0.355838 vice_captain_221_26
+ + 0.213504 vice_captain_222_23 + 0.225608 vice_captain_222_24
+ + 0.236365 vice_captain_222_25 + 0.287462 vice_captain_222_26
+ + 0.116421 vice_captain_224_23 + 0.119041 vice_captain_224_24
+ + 0.117213 vice_captain_224_25 + 0.12238 vice_captain_224_26
+ + 0.29275 vice_captain_225_23 + 0.288818 vice_captain_225_24
+ + 0.32774 vice_captain_225_25 + 0.337287 vice_captain_225_26
+ + 0.449016 vice_captain_226_23 + 0.457425 vice_captain_226_24
+ + 0.436723 vice_captain_226_25 + 0.461881 vice_captain_226_26
+ + 0.282469 vice_captain_228_23 + 0.303356 vice_captain_228_24
+ + 0.322598 vice_captain_228_25 + 0.403135 vice_captain_228_26
+ + 0.21059 vice_captain_229_23 + 0.221276 vice_captain_229_24
+ + 0.222323 vice_captain_229_25 + 0.235571 vice_captain_229_26
+ + 0.232424 vice_captain_22_23 + 0.236368 vice_captain_22_24
+ + 0.240905 vice_captain_22_25 + 0.259827 vice_captain_22_26
+ + 0.350262 vice_captain_230_23 + 0.349418 vice_captain_230_24
+ + 0.369852 vice_captain_230_25 + 0.341049 vice_captain_230_26
+ + 0.319258 vice_captain_231_23 + 0.339271 vice_captain_231_24
+ + 0.338086 vice_captain_231_25 + 0.36465 vice_captain_231_26
+ + 0.241987 vice_captain_232_23 + 0.239334 vice_captain_232_24
+ + 0.270547 vice_captain_232_25 + 0.277113 vice_captain_232_26
+ + 0.309218 vice_captain_233_23 + 0.308478 vice_captain_233_24
+ + 0.326372 vice_captain_233_25 + 0.30115 vice_captain_233_26
+ + 0.250449 vice_captain_234_23 + 0.268434 vice_captain_234_24
+ + 0.284941 vice_captain_234_25 + 0.35662 vice_captain_234_26
+ + 0.464596 vice_captain_236_23 + 0.467711 vice_captain_236_24
+ + 0.445976 vice_captain_236_25 + 0.475857 vice_captain_236_26
+ + 0.183354 vice_captain_238_23 + 0.196385 vice_captain_238_24
+ + 0.208083 vice_captain_238_25 + 0.258092 vice_captain_238_26
+ + 0.140682 vice_captain_239_23 + 0.14366 vice_captain_239_24
+ + 0.141582 vice_captain_239_25 + 0.147454 vice_captain_239_26
+ + 0.15487 vice_captain_23_23 + 0.154556 vice_captain_23_24
+ + 0.163598 vice_captain_23_25 + 0.132426 vice_captain_23_26
+ + 0.275305 vice_captain_240_23 + 0.297892 vice_captain_240_24
+ + 0.301203 vice_captain_240_25 + 0.324799 vice_captain_240_26
+ + 0.108264 vice_captain_241_23 + 0.114927 vice_captain_241_24
+ + 0.122315 vice_captain_241_25 + 0.16068 vice_captain_241_26
+ + 0.242418 vice_captain_242_23 + 0.25002 vice_captain_242_24
+ + 0.258885 vice_captain_242_25 + 0.321626 vice_captain_242_26
+ + 0.310097 vice_captain_243_23 + 0.309352 vice_captain_243_24
+ + 0.327384 vice_captain_243_25 + 0.301967 vice_captain_243_26
+ + 0.222724 vice_captain_245_23 + 0.181797 vice_captain_245_24
+ + 0.280477 vice_captain_245_25 + 0.224614 vice_captain_245_26
+ + 0.386868 vice_captain_246_23 + 0.35504 vice_captain_246_24
+ + 0.387363 vice_captain_246_25 + 0.390528 vice_captain_246_26
+ + 0.196498 vice_captain_247_23 + 0.157819 vice_captain_247_24
+ + 0.244148 vice_captain_247_25 + 0.19326 vice_captain_247_26
+ + 0.334786 vice_captain_250_23 + 0.307104 vice_captain_250_24
+ + 0.353555 vice_captain_250_25 + 0.343606 vice_captain_250_26
+ + 0.235579 vice_captain_252_23 + 0.179292 vice_captain_252_24
+ + 0.273368 vice_captain_252_25 + 0.206327 vice_captain_252_26
+ + 0.246059 vice_captain_254_23 + 0.223041 vice_captain_254_24
+ + 0.24924 vice_captain_254_25 + 0.24072 vice_captain_254_26
+ + 0.370665 vice_captain_256_23 + 0.410343 vice_captain_256_24
+ + 0.375786 vice_captain_256_25 + 0.376825 vice_captain_256_26
+ + 0.221873 vice_captain_257_23 + 0.1787 vice_captain_257_24
+ + 0.272975 vice_captain_257_25 + 0.214406 vice_captain_257_26
+ + 0.283864 vice_captain_258_23 + 0.316858 vice_captain_258_24
+ + 0.607186 vice_captain_258_25 + 0.330008 vice_captain_258_26
+ + 0.365852 vice_captain_259_23 + 0.334382 vice_captain_259_24
+ + 0.394318 vice_captain_259_25 + 0.386136 vice_captain_259_26
+ + 0.164979 vice_captain_25_23 + 0.174761 vice_captain_25_24
+ + 0.225474 vice_captain_25_25 + 0.203663 vice_captain_25_26
+ + 0.259194 vice_captain_260_23 + 0.215411 vice_captain_260_24
+ + 0.31905 vice_captain_260_25 + 0.259532 vice_captain_260_26
+ + 0.304839 vice_captain_261_23 + 0.279956 vice_captain_261_24
+ + 0.318829 vice_captain_261_25 + 0.309293 vice_captain_261_26
+ + 0.187213 vice_captain_262_23 + 0.150984 vice_captain_262_24
+ + 0.241224 vice_captain_262_25 + 0.190494 vice_captain_262_26
+ + 0.352295 vice_captain_263_23 + 0.316979 vice_captain_263_24
+ + 0.378544 vice_captain_263_25 + 0.374096 vice_captain_263_26
+ + 0.309577 vice_captain_265_23 + 0.251337 vice_captain_265_24
+ + 0.377374 vice_captain_265_25 + 0.300957 vice_captain_265_26
+ + 0.294406 vice_captain_266_23 + 0.266219 vice_captain_266_24
+ + 0.315357 vice_captain_266_25 + 0.311807 vice_captain_266_26
+ + 0.343925 vice_captain_267_23 + 0.384665 vice_captain_267_24
+ + 0.354675 vice_captain_267_25 + 0.35741 vice_captain_267_26
+ + 0.263157 vice_captain_268_23 + 0.277782 vice_captain_268_24
+ + 0.251971 vice_captain_268_25 + 0.247646 vice_captain_268_26
+ + 0.353107 vice_captain_26_23 + 0.350355 vice_captain_26_24
+ + 0.356824 vice_captain_26_25 + 0.382211 vice_captain_26_26
+ + 0.30027 vice_captain_270_23 + 0.323246 vice_captain_270_24
+ + 0.292735 vice_captain_270_25 + 0.293019 vice_captain_270_26
+ + 0.259407 vice_captain_271_23 + 0.257787 vice_captain_271_24
+ + 0.242514 vice_captain_271_25 + 0.224804 vice_captain_271_26
+ + 0.11551 vice_captain_272_23 + 0.122653 vice_captain_272_24
+ + 0.114971 vice_captain_272_25 + 0.115187 vice_captain_272_26
+ + 0.139897 vice_captain_273_23 + 0.150092 vice_captain_273_24
+ + 0.140711 vice_captain_273_25 + 0.138779 vice_captain_273_26
+ + 0.20795 vice_captain_274_23 + 0.205894 vice_captain_274_24
+ + 0.174659 vice_captain_274_25 + 0.143896 vice_captain_274_26
+ + 0.382057 vice_captain_275_23 + 0.376936 vice_captain_275_24
+ + 0.373215 vice_captain_275_25 + 0.390067 vice_captain_275_26
+ + 0.152333 vice_captain_276_23 + 0.166583 vice_captain_276_24
+ + 0.158212 vice_captain_276_25 + 0.160661 vice_captain_276_26
+ + 0.210765 vice_captain_277_23 + 0.208709 vice_captain_277_24
+ + 0.177474 vice_captain_277_25 + 0.146712 vice_captain_277_26
+ + 0.168327 vice_captain_279_23 + 0.169936 vice_captain_279_24
+ + 0.174954 vice_captain_279_25 + 0.170541 vice_captain_279_26
+ + 0.228771 vice_captain_27_23 + 0.217417 vice_captain_27_24
+ + 0.22024 vice_captain_27_25 + 0.254121 vice_captain_27_26
+ + 0.29257 vice_captain_280_23 + 0.323324 vice_captain_280_24
+ + 0.299555 vice_captain_280_25 + 0.301934 vice_captain_280_26
+ + 0.267192 vice_captain_281_23 + 0.262516 vice_captain_281_24
+ + 0.243562 vice_captain_281_25 + 0.225129 vice_captain_281_26
+ + 0.235491 vice_captain_282_23 + 0.25562 vice_captain_282_24
+ + 0.241201 vice_captain_282_25 + 0.241706 vice_captain_282_26
+ + 0.325126 vice_captain_283_23 + 0.322638 vice_captain_283_24
+ + 0.301686 vice_captain_283_25 + 0.279698 vice_captain_283_26
+ + 0.30963 vice_captain_284_23 + 0.305805 vice_captain_284_24
+ + 0.303025 vice_captain_284_25 + 0.315613 vice_captain_284_26
+ + 0.274437 vice_captain_285_23 + 0.269415 vice_captain_285_24
+ + 0.248287 vice_captain_285_25 + 0.22769 vice_captain_285_26
+ + 0.287147 vice_captain_286_23 + 0.286599 vice_captain_286_24
+ + 0.26819 vice_captain_286_25 + 0.248772 vice_captain_286_26
+ + 0.203119 vice_captain_287_23 + 0.20458 vice_captain_287_24
+ + 0.207992 vice_captain_287_25 + 0.199866 vice_captain_287_26
+ + 0.245608 vice_captain_288_25 + 0.247529 vice_captain_288_26
+ + 0.297973 vice_captain_289_23 + 0.303599 vice_captain_289_24
+ + 0.294966 vice_captain_289_25 + 0.346557 vice_captain_28_23
+ + 0.324023 vice_captain_28_24 + 0.365626 vice_captain_28_25
+ + 0.324725 vice_captain_28_26 + 0.327128 vice_captain_290_23
+ + 0.534596 vice_captain_290_24 + 0.42185 vice_captain_290_25
+ + 0.371883 vice_captain_291_23 + 0.379721 vice_captain_291_24
+ + 0.367693 vice_captain_291_25 + 0.160973 vice_captain_292_25
+ + 0.415456 vice_captain_293_23 + 0.502588 vice_captain_293_24
+ + 0.414016 vice_captain_293_25 + 0.306181 vice_captain_294_23
+ + 0.356512 vice_captain_294_24 + 0.33829 vice_captain_294_25
+ + 0.189355 vice_captain_295_23 + 0.213442 vice_captain_295_24
+ + 0.20787 vice_captain_295_25 + 0.26804 vice_captain_297_23
+ + 0.337293 vice_captain_297_24 + 0.293887 vice_captain_297_25
+ + 0.210004 vice_captain_298_23 + 0.30983 vice_captain_298_24
+ + 0.25389 vice_captain_298_25 + 0.324862 vice_captain_29_23
+ + 0.341234 vice_captain_29_24 + 0.432887 vice_captain_29_25
+ + 0.391936 vice_captain_29_26 + 0.133646 vice_captain_2_23
  + 0.139215 vice_captain_2_24 + 0.178422 vice_captain_2_25
- + 0.163859 vice_captain_2_26 + 0.269597 vice_captain_300_23
- + 0.292552 vice_captain_300_24 + 0.269418 vice_captain_300_25
- + 0.268764 vice_captain_300_26 + 0.30279 vice_captain_301_23
- + 0.310592 vice_captain_301_24 + 0.299769 vice_captain_301_25
- + 0.307496 vice_captain_301_26 + 0.225658 vice_captain_302_23
- + 0.341664 vice_captain_302_24 + 0.275685 vice_captain_302_25
- + 0.346233 vice_captain_302_26 + 0.329375 vice_captain_303_23
- + 0.38508 vice_captain_303_24 + 0.373558 vice_captain_303_25
- + 0.374909 vice_captain_303_26 + 0.326673 vice_captain_304_23
- + 0.384825 vice_captain_304_24 + 0.37493 vice_captain_304_25
- + 0.376173 vice_captain_304_26 + 0.233128 vice_captain_307_23
- + 0.365951 vice_captain_307_24 + 0.288559 vice_captain_307_25
- + 0.369332 vice_captain_307_26 + 0.702573 vice_captain_308_23
- + 0.805781 vice_captain_308_24 + 0.745938 vice_captain_308_25
- + 0.74159 vice_captain_308_26 + 0.377509 vice_captain_309_23
- + 0.434136 vice_captain_309_24 + 0.41777 vice_captain_309_25
- + 0.415896 vice_captain_309_26 + 0.158358 vice_captain_310_25
- + 0.157707 vice_captain_310_26 + 0.197397 vice_captain_311_23
- + 0.29721 vice_captain_311_24 + 0.239052 vice_captain_311_25
- + 0.299752 vice_captain_311_26 + 0.277426 vice_captain_313_23
- + 0.433224 vice_captain_313_24 + 0.351165 vice_captain_313_25
- + 0.44477 vice_captain_313_26 + 0.278155 vice_captain_314_23
- + 0.288079 vice_captain_314_24 + 0.271956 vice_captain_314_25
- + 0.246978 vice_captain_314_26 + 0.123503 vice_captain_315_23
- + 0.206705 vice_captain_315_24 + 0.17163 vice_captain_315_25
- + 0.11039 vice_captain_315_26 + 0.1881 vice_captain_316_23
- + 0.286843 vice_captain_316_24 + 0.248801 vice_captain_316_25
- + 0.179475 vice_captain_316_26 + 0.162234 vice_captain_317_23
- + 0.177391 vice_captain_317_24 + 0.180811 vice_captain_317_25
- + 0.167103 vice_captain_317_26 + 0.146997 vice_captain_318_23
- + 0.236082 vice_captain_318_24 + 0.197249 vice_captain_318_25
- + 0.129447 vice_captain_318_26 + 0.226571 vice_captain_319_23
- + 0.233293 vice_captain_319_24 + 0.245915 vice_captain_319_25
- + 0.221585 vice_captain_319_26 + 0.325945 vice_captain_31_23
- + 0.340984 vice_captain_31_24 + 0.431938 vice_captain_31_25
- + 0.397289 vice_captain_31_26 + 0.163294 vice_captain_320_23
- + 0.174778 vice_captain_320_24 + 0.175241 vice_captain_320_25
- + 0.159619 vice_captain_320_26 + 0.25576 vice_captain_321_23
- + 0.390421 vice_captain_321_24 + 0.325755 vice_captain_321_25
- + 0.22301 vice_captain_321_26 + 0.308533 vice_captain_326_23
- + 0.32799 vice_captain_326_24 + 0.314705 vice_captain_326_25
- + 0.285512 vice_captain_326_26 + 0.14086 vice_captain_327_23
- + 0.149272 vice_captain_327_24 + 0.157759 vice_captain_327_25
- + 0.143172 vice_captain_327_26 + 0.304269 vice_captain_328_23
- + 0.315983 vice_captain_328_24 + 0.297106 vice_captain_328_25
- + 0.264549 vice_captain_328_26 + 0.282932 vice_captain_32_23
- + 0.304811 vice_captain_32_24 + 0.297351 vice_captain_32_25
- + 0.334973 vice_captain_32_26 + 0.202212 vice_captain_330_23
- + 0.308951 vice_captain_330_24 + 0.265793 vice_captain_330_25
- + 0.188263 vice_captain_330_26 + 0.138802 vice_captain_332_23
+ + 0.160498 vice_captain_2_26 + 0.268602 vice_captain_300_23
+ + 0.293727 vice_captain_300_24 + 0.271347 vice_captain_300_25
+ + 0.301763 vice_captain_301_23 + 0.307397 vice_captain_301_24
+ + 0.298752 vice_captain_301_25 + 0.225107 vice_captain_302_23
+ + 0.33775 vice_captain_302_24 + 0.275687 vice_captain_302_25
+ + 0.343088 vice_captain_303_23 + 0.400276 vice_captain_303_24
+ + 0.386041 vice_captain_303_25 + 0.319926 vice_captain_304_23
+ + 0.380848 vice_captain_304_24 + 0.371993 vice_captain_304_25
+ + 0.219392 vice_captain_307_23 + 0.347287 vice_captain_307_24
+ + 0.27925 vice_captain_307_25 + 0.792524 vice_captain_308_24
+ + 0.731161 vice_captain_308_25 + 0.381034 vice_captain_309_23
+ + 0.439689 vice_captain_309_24 + 0.422208 vice_captain_309_25
+ + 0.158358 vice_captain_310_25 + 0.19371 vice_captain_311_23
+ + 0.288287 vice_captain_311_24 + 0.234935 vice_captain_311_25
+ + 0.276866 vice_captain_313_23 + 0.426823 vice_captain_313_24
+ + 0.351396 vice_captain_313_25 + 0.321717 vice_captain_314_23
+ + 0.324959 vice_captain_314_24 + 0.305865 vice_captain_314_25
+ + 0.121215 vice_captain_315_23 + 0.200974 vice_captain_315_24
+ + 0.16906 vice_captain_315_25 + 0.187413 vice_captain_316_23
+ + 0.284865 vice_captain_316_24 + 0.250844 vice_captain_316_25
+ + 0.148133 vice_captain_317_23 + 0.166176 vice_captain_317_24
+ + 0.170938 vice_captain_317_25 + 0.151671 vice_captain_318_23
+ + 0.240251 vice_captain_318_24 + 0.204672 vice_captain_318_25
+ + 0.226571 vice_captain_319_23 + 0.233293 vice_captain_319_24
+ + 0.245915 vice_captain_319_25 + 0.365686 vice_captain_31_23
+ + 0.37538 vice_captain_31_24 + 0.466248 vice_captain_31_25
+ + 0.414731 vice_captain_31_26 + 0.181056 vice_captain_320_23
+ + 0.194443 vice_captain_320_24 + 0.192306 vice_captain_320_25
+ + 0.250754 vice_captain_321_23 + 0.381304 vice_captain_321_24
+ + 0.323454 vice_captain_321_25 + 0.322632 vice_captain_326_23
+ + 0.337806 vice_captain_326_24 + 0.326758 vice_captain_326_25
+ + 0.14086 vice_captain_327_23 + 0.149272 vice_captain_327_24
+ + 0.157759 vice_captain_327_25 + 0.361089 vice_captain_328_23
+ + 0.36444 vice_captain_328_24 + 0.34085 vice_captain_328_25
+ + 0.244808 vice_captain_32_23 + 0.272121 vice_captain_32_24
+ + 0.273675 vice_captain_32_25 + 0.313783 vice_captain_32_26
+ + 0.201011 vice_captain_330_23 + 0.305968 vice_captain_330_24
+ + 0.267399 vice_captain_330_25 + 0.138802 vice_captain_332_23
  + 0.141939 vice_captain_332_24 + 0.147828 vice_captain_332_25
- + 0.136475 vice_captain_332_26 + 0.095732 vice_captain_333_23
- + 0.172063 vice_captain_333_24 + 0.13879 vice_captain_333_25
- + 0.080695 vice_captain_333_26 + 0.311661 vice_captain_335_23
- + 0.341494 vice_captain_335_24 + 0.346526 vice_captain_335_25
- + 0.334989 vice_captain_335_26 + 0.138806 vice_captain_339_23
- + 0.141943 vice_captain_339_24 + 0.147835 vice_captain_339_25
- + 0.136478 vice_captain_339_26 + 0.282264 vice_captain_33_23
- + 0.285442 vice_captain_33_24 + 0.289436 vice_captain_33_25
- + 0.293794 vice_captain_33_26 + 0.142095 vice_captain_340_23
- + 0.150664 vice_captain_340_24 + 0.145333 vice_captain_340_25
- + 0.131026 vice_captain_340_26 + 0.325065 vice_captain_341_23
- + 0.400189 vice_captain_341_24 + 0.671338 vice_captain_341_25
- + 0.356796 vice_captain_341_26 + 0.363083 vice_captain_342_23
- + 0.445931 vice_captain_342_24 + 0.743642 vice_captain_342_25
- + 0.396789 vice_captain_342_26 + 0.449769 vice_captain_343_23
- + 0.475813 vice_captain_343_24 + 0.856772 vice_captain_343_25
- + 0.441588 vice_captain_343_26 + 0.387163 vice_captain_344_23
- + 0.402982 vice_captain_344_24 + 0.778557 vice_captain_344_25
- + 0.386789 vice_captain_344_26 + 0.176044 vice_captain_345_23
- + 0.177963 vice_captain_345_24 + 0.335302 vice_captain_345_25
- + 0.164658 vice_captain_345_26 + 0.35228 vice_captain_346_23
- + 0.447254 vice_captain_346_24 + 0.723065 vice_captain_346_25
- + 0.349178 vice_captain_346_26 + 0.295945 vice_captain_347_23
- + 0.32405 vice_captain_347_24 + 0.606323 vice_captain_347_25
- + 0.311795 vice_captain_347_26 + 0.37693 vice_captain_349_23
- + 0.397212 vice_captain_349_24 + 0.768857 vice_captain_349_25
- + 0.382673 vice_captain_349_26 + 0.304663 vice_captain_34_23
- + 0.313241 vice_captain_34_24 + 0.301483 vice_captain_34_25
- + 0.326213 vice_captain_34_26 + 0.317726 vice_captain_350_23
- + 0.392067 vice_captain_350_24 + 0.678107 vice_captain_350_25
- + 0.359465 vice_captain_350_26 + 0.159726 vice_captain_351_23
- + 0.171204 vice_captain_351_24 + 0.166989 vice_captain_351_25
- + 0.174604 vice_captain_351_26 + 0.364698 vice_captain_352_23
- + 0.403887 vice_captain_352_24 + 0.749521 vice_captain_352_25
- + 0.386798 vice_captain_352_26 + 0.484801 vice_captain_353_23
- + 0.498004 vice_captain_353_24 + 0.946766 vice_captain_353_25
- + 0.470544 vice_captain_353_26 + 0.372823 vice_captain_354_23
- + 0.398796 vice_captain_354_24 + 0.778805 vice_captain_354_25
- + 0.386938 vice_captain_354_26 + 0.588965 vice_captain_355_23
- + 0.654324 vice_captain_355_24 + 1.189958 vice_captain_355_25
- + 0.618785 vice_captain_355_26 + 0.257555 vice_captain_356_23
- + 0.271286 vice_captain_356_24 + 0.5297 vice_captain_356_25
- + 0.263784 vice_captain_356_26 + 0.226316 vice_captain_358_23
- + 0.281011 vice_captain_358_24 + 0.480205 vice_captain_358_25
- + 0.254822 vice_captain_358_26 + 0.267149 vice_captain_35_23
- + 0.270947 vice_captain_35_24 + 0.25809 vice_captain_35_25
- + 0.276977 vice_captain_35_26 + 0.249085 vice_captain_360_23
- + 0.256323 vice_captain_360_24 + 0.252676 vice_captain_360_25
- + 0.247641 vice_captain_360_26 + 0.301598 vice_captain_361_23
- + 0.330112 vice_captain_361_24 + 0.61784 vice_captain_361_25
- + 0.317678 vice_captain_361_26 + 0.551508 vice_captain_362_23
- + 0.495016 vice_captain_362_24 + 0.433551 vice_captain_362_25
- + 0.492679 vice_captain_362_26 + 0.158612 vice_captain_364_23
- + 0.163267 vice_captain_364_24 + 0.318966 vice_captain_364_25
- + 0.158846 vice_captain_364_26 + 0.406006 vice_captain_365_23
- + 0.426797 vice_captain_365_24 + 0.829275 vice_captain_365_25
- + 0.413008 vice_captain_365_26 + 0.145724 vice_captain_366_23
- + 0.178617 vice_captain_366_24 + 0.298137 vice_captain_366_25
- + 0.158682 vice_captain_366_26 + 0.295945 vice_captain_367_23
- + 0.32405 vice_captain_367_24 + 0.606323 vice_captain_367_25
- + 0.311795 vice_captain_367_26 + 0.374177 vice_captain_369_23
- + 0.447552 vice_captain_369_24 + 0.748581 vice_captain_369_25
- + 0.394742 vice_captain_369_26 + 0.31376 vice_captain_36_23
- + 0.339087 vice_captain_36_24 + 0.331622 vice_captain_36_25
- + 0.380298 vice_captain_36_26 + 0.112935 vice_captain_371_23
- + 0.106748 vice_captain_371_24 + 0.11435 vice_captain_371_25
+ + 0.094893 vice_captain_333_23 + 0.168213 vice_captain_333_24
+ + 0.137833 vice_captain_333_25 + 0.310476 vice_captain_335_23
+ + 0.339511 vice_captain_335_24 + 0.345196 vice_captain_335_25
+ + 0.138806 vice_captain_339_23 + 0.141943 vice_captain_339_24
+ + 0.147835 vice_captain_339_25 + 0.264003 vice_captain_33_23
+ + 0.268712 vice_captain_33_24 + 0.281859 vice_captain_33_25
+ + 0.283112 vice_captain_33_26 + 0.13654 vice_captain_340_23
+ + 0.144846 vice_captain_340_24 + 0.142729 vice_captain_340_25
+ + 0.322113 vice_captain_341_23 + 0.390964 vice_captain_341_24
+ + 0.676054 vice_captain_341_25 + 0.353654 vice_captain_341_26
+ + 0.342171 vice_captain_342_23 + 0.42127 vice_captain_342_24
+ + 0.735888 vice_captain_342_25 + 0.393111 vice_captain_342_26
+ + 0.478153 vice_captain_343_23 + 0.498823 vice_captain_343_24
+ + 0.906538 vice_captain_343_25 + 0.455875 vice_captain_343_26
+ + 0.383374 vice_captain_344_23 + 0.403803 vice_captain_344_24
+ + 0.774848 vice_captain_344_25 + 0.382992 vice_captain_344_26
+ + 0.174471 vice_captain_345_23 + 0.177955 vice_captain_345_24
+ + 0.333465 vice_captain_345_25 + 0.163083 vice_captain_345_26
+ + 0.35228 vice_captain_346_23 + 0.447254 vice_captain_346_24
+ + 0.723065 vice_captain_346_25 + 0.349178 vice_captain_346_26
+ + 0.294966 vice_captain_347_23 + 0.318427 vice_captain_347_24
+ + 0.604445 vice_captain_347_25 + 0.310764 vice_captain_347_26
+ + 0.383757 vice_captain_349_23 + 0.410032 vice_captain_349_24
+ + 0.787918 vice_captain_349_25 + 0.390081 vice_captain_349_26
+ + 0.300347 vice_captain_34_23 + 0.310144 vice_captain_34_24
+ + 0.298926 vice_captain_34_25 + 0.325541 vice_captain_34_26
+ + 0.314729 vice_captain_350_23 + 0.38323 vice_captain_350_24
+ + 0.682028 vice_captain_350_25 + 0.356297 vice_captain_350_26
+ + 0.159726 vice_captain_351_23 + 0.172042 vice_captain_351_24
+ + 0.166404 vice_captain_351_25 + 0.17562 vice_captain_351_26
+ + 0.363166 vice_captain_352_23 + 0.395808 vice_captain_352_24
+ + 0.746523 vice_captain_352_25 + 0.385146 vice_captain_352_26
+ + 0.473554 vice_captain_353_23 + 0.495494 vice_captain_353_24
+ + 0.942604 vice_captain_353_25 + 0.469898 vice_captain_353_26
+ + 0.340955 vice_captain_354_23 + 0.376949 vice_captain_354_24
+ + 0.746562 vice_captain_354_25 + 0.377038 vice_captain_354_26
+ + 0.552725 vice_captain_355_23 + 0.617171 vice_captain_355_24
+ + 1.162672 vice_captain_355_25 + 0.6048 vice_captain_355_26
+ + 0.233861 vice_captain_356_23 + 0.253556 vice_captain_356_24
+ + 0.50327 vice_captain_356_25 + 0.25523 vice_captain_356_26
+ + 0.220513 vice_captain_358_23 + 0.273586 vice_captain_358_24
+ + 0.488761 vice_captain_358_25 + 0.259124 vice_captain_358_26
+ + 0.267149 vice_captain_35_23 + 0.270947 vice_captain_35_24
+ + 0.257642 vice_captain_35_25 + 0.276977 vice_captain_35_26
+ + 0.254155 vice_captain_360_23 + 0.259883 vice_captain_360_24
+ + 0.258003 vice_captain_360_25 + 0.253759 vice_captain_360_26
+ + 0.300563 vice_captain_361_23 + 0.324363 vice_captain_361_24
+ + 0.615848 vice_captain_361_25 + 0.316589 vice_captain_361_26
+ + 0.524727 vice_captain_362_23 + 0.472187 vice_captain_362_24
+ + 0.418032 vice_captain_362_25 + 0.156548 vice_captain_364_23
+ + 0.15438 vice_captain_364_24 + 0.16114 vice_captain_364_25
+ + 0.161191 vice_captain_364_26 + 0.395872 vice_captain_365_23
+ + 0.424354 vice_captain_365_24 + 0.825932 vice_captain_365_25
+ + 0.412961 vice_captain_365_26 + 0.132183 vice_captain_366_23
+ + 0.165349 vice_captain_366_24 + 0.292611 vice_captain_366_25
+ + 0.158406 vice_captain_366_26 + 0.294966 vice_captain_367_23
+ + 0.318427 vice_captain_367_24 + 0.604445 vice_captain_367_25
+ + 0.310764 vice_captain_367_26 + 0.23507 vice_captain_368_23
+ + 0.291434 vice_captain_368_24 + 0.510434 vice_captain_368_25
+ + 0.271338 vice_captain_368_26 + 0.370859 vice_captain_369_23
+ + 0.437682 vice_captain_369_24 + 0.753013 vice_captain_369_25
+ + 0.391221 vice_captain_369_26 + 0.298718 vice_captain_36_23
+ + 0.327072 vice_captain_36_24 + 0.325024 vice_captain_36_25
+ + 0.374522 vice_captain_36_26 + 0.112935 vice_captain_371_23
+ + 0.107525 vice_captain_371_24 + 0.113541 vice_captain_371_25
  + 0.119147 vice_captain_371_26 + 0.288195 vice_captain_372_23
- + 0.274809 vice_captain_372_24 + 0.306843 vice_captain_372_25
+ + 0.277601 vice_captain_372_24 + 0.303939 vice_captain_372_25
  + 0.328483 vice_captain_372_26 + 0.551155 vice_captain_373_23
- + 0.506402 vice_captain_373_24 + 0.571706 vice_captain_373_25
+ + 0.512877 vice_captain_373_24 + 0.564971 vice_captain_373_25
  + 0.616352 vice_captain_373_26 + 0.302109 vice_captain_376_23
- + 0.274392 vice_captain_376_24 + 0.299976 vice_captain_376_25
+ + 0.277396 vice_captain_376_24 + 0.296851 vice_captain_376_25
  + 0.31852 vice_captain_376_26 + 0.333255 vice_captain_377_23
- + 0.270866 vice_captain_377_24 + 0.294901 vice_captain_377_25
- + 0.351291 vice_captain_377_26 + 0.34006 vice_captain_378_23
- + 0.350889 vice_captain_378_24 + 0.340849 vice_captain_378_25
- + 0.312934 vice_captain_378_26 + 0.314946 vice_captain_379_23
- + 0.289749 vice_captain_379_24 + 0.316086 vice_captain_379_25
+ + 0.278916 vice_captain_377_24 + 0.289256 vice_captain_377_25
+ + 0.351291 vice_captain_377_26 + 0.317515 vice_captain_378_23
+ + 0.329689 vice_captain_378_24 + 0.324956 vice_captain_378_25
+ + 0.304345 vice_captain_378_26 + 0.314946 vice_captain_379_23
+ + 0.292713 vice_captain_379_24 + 0.313003 vice_captain_379_25
  + 0.33726 vice_captain_379_26 + 0.148243 vice_captain_37_23
- + 0.159242 vice_captain_37_24 + 0.154817 vice_captain_37_25
+ + 0.159242 vice_captain_37_24 + 0.155654 vice_captain_37_25
  + 0.176798 vice_captain_37_26 + 0.197349 vice_captain_380_23
  + 0.150089 vice_captain_380_24 + 0.150445 vice_captain_380_25
  + 0.19227 vice_captain_380_26 + 0.323869 vice_captain_382_23
- + 0.295565 vice_captain_382_24 + 0.323458 vice_captain_382_25
+ + 0.298599 vice_captain_382_24 + 0.320302 vice_captain_382_25
  + 0.34356 vice_captain_382_26 + 0.322616 vice_captain_384_23
- + 0.28571 vice_captain_384_24 + 0.303546 vice_captain_384_25
- + 0.329067 vice_captain_384_26 + 0.315322 vice_captain_385_23
- + 0.314974 vice_captain_385_24 + 0.333274 vice_captain_385_25
- + 0.309079 vice_captain_385_26 + 0.276917 vice_captain_386_23
- + 0.226179 vice_captain_386_24 + 0.244475 vice_captain_386_25
+ + 0.286361 vice_captain_384_24 + 0.301281 vice_captain_384_25
+ + 0.329067 vice_captain_384_26 + 0.318388 vice_captain_385_23
+ + 0.317605 vice_captain_385_24 + 0.336554 vice_captain_385_25
+ + 0.309845 vice_captain_385_26 + 0.276917 vice_captain_386_23
+ + 0.232477 vice_captain_386_24 + 0.240058 vice_captain_386_25
  + 0.289536 vice_captain_386_26 + 0.270904 vice_captain_387_23
- + 0.220871 vice_captain_387_24 + 0.238913 vice_captain_387_25
+ + 0.227082 vice_captain_387_24 + 0.234558 vice_captain_387_25
  + 0.283348 vice_captain_387_26 + 0.186106 vice_captain_388_23
- + 0.178383 vice_captain_388_24 + 0.192362 vice_captain_388_25
+ + 0.179647 vice_captain_388_24 + 0.191047 vice_captain_388_25
  + 0.200961 vice_captain_388_26 + 0.175771 vice_captain_389_23
- + 0.137278 vice_captain_389_24 + 0.151159 vice_captain_389_25
+ + 0.142056 vice_captain_389_24 + 0.147808 vice_captain_389_25
  + 0.185344 vice_captain_389_26 + 0.255815 vice_captain_38_23
  + 0.263649 vice_captain_38_24 + 0.259192 vice_captain_38_25
- + 0.272911 vice_captain_38_26 + 0.246339 vice_captain_390_23
- + 0.231144 vice_captain_390_24 + 0.238533 vice_captain_390_25
- + 0.273849 vice_captain_390_26 + 0.189044 vice_captain_391_23
- + 0.152445 vice_captain_391_24 + 0.169245 vice_captain_391_25
+ + 0.272911 vice_captain_38_26 + 0.189044 vice_captain_391_23
+ + 0.157317 vice_captain_391_24 + 0.165828 vice_captain_391_25
  + 0.206746 vice_captain_391_26 + 0.317226 vice_captain_392_23
- + 0.297696 vice_captain_392_24 + 0.32666 vice_captain_392_25
- + 0.34525 vice_captain_392_26 + 0.184567 vice_captain_393_23
- + 0.280987 vice_captain_393_24 + 0.242042 vice_captain_393_25
- + 0.172854 vice_captain_393_26 + 0.145985 vice_captain_394_23
- + 0.137593 vice_captain_394_24 + 0.145339 vice_captain_394_25
- + 0.150955 vice_captain_394_26 + 0.269972 vice_captain_395_23
- + 0.222557 vice_captain_395_24 + 0.243652 vice_captain_395_25
- + 0.290105 vice_captain_395_26 + 0.453796 vice_captain_396_23
- + 0.417245 vice_captain_396_24 + 0.464758 vice_captain_396_25
- + 0.497587 vice_captain_396_26 + 0.276499 vice_captain_398_23
- + 0.219891 vice_captain_398_24 + 0.240305 vice_captain_398_25
- + 0.290578 vice_captain_398_26 + 0.139761 vice_captain_399_23
- + 0.130999 vice_captain_399_24 + 0.13526 vice_captain_399_25
- + 0.155622 vice_captain_399_26 + 0.224149 vice_captain_39_23
- + 0.220328 vice_captain_39_24 + 0.235799 vice_captain_39_25
- + 0.252396 vice_captain_39_26 + 0.104838 vice_captain_3_23
- + 0.104523 vice_captain_3_24 + 0.105186 vice_captain_3_25
- + 0.110278 vice_captain_3_26 + 0.280372 vice_captain_401_23
- + 0.231291 vice_captain_401_24 + 0.253961 vice_captain_401_25
- + 0.30385 vice_captain_401_26 + 0.377329 vice_captain_402_23
- + 0.395244 vice_captain_402_24 + 0.424506 vice_captain_402_25
- + 0.363413 vice_captain_402_26 + 0.343496 vice_captain_405_23
- + 0.325835 vice_captain_405_24 + 0.330562 vice_captain_405_25
- + 0.241104 vice_captain_405_26 + 0.37643 vice_captain_406_23
- + 0.39281 vice_captain_406_24 + 0.420591 vice_captain_406_25
- + 0.359455 vice_captain_406_26 + 0.378062 vice_captain_407_23
- + 0.357729 vice_captain_407_24 + 0.361864 vice_captain_407_25
- + 0.260988 vice_captain_407_26 + 0.329589 vice_captain_409_23
- + 0.339169 vice_captain_409_24 + 0.333192 vice_captain_409_25
- + 0.324213 vice_captain_409_26 + 0.198154 vice_captain_40_23
- + 0.194 vice_captain_40_24 + 0.190088 vice_captain_40_25
- + 0.200797 vice_captain_40_26 + 0.302657 vice_captain_411_23
- + 0.311003 vice_captain_411_24 + 0.305795 vice_captain_411_25
- + 0.297973 vice_captain_411_26 + 0.369715 vice_captain_412_23
- + 0.382372 vice_captain_412_24 + 0.409979 vice_captain_412_25
- + 0.347188 vice_captain_412_26 + 0.142506 vice_captain_414_23
+ + 0.300657 vice_captain_392_24 + 0.32358 vice_captain_392_25
+ + 0.34525 vice_captain_392_26 + 0.182773 vice_captain_393_23
+ + 0.275399 vice_captain_393_24 + 0.240035 vice_captain_393_25
+ + 0.145985 vice_captain_394_23 + 0.138502 vice_captain_394_24
+ + 0.144393 vice_captain_394_25 + 0.150955 vice_captain_394_26
+ + 0.269972 vice_captain_395_23 + 0.228927 vice_captain_395_24
+ + 0.239185 vice_captain_395_25 + 0.290105 vice_captain_395_26
+ + 0.453796 vice_captain_396_23 + 0.422051 vice_captain_396_24
+ + 0.459759 vice_captain_396_25 + 0.497587 vice_captain_396_26
+ + 0.276499 vice_captain_398_23 + 0.226919 vice_captain_398_24
+ + 0.235377 vice_captain_398_25 + 0.290578 vice_captain_398_26
+ + 0.139761 vice_captain_399_23 + 0.129475 vice_captain_399_24
+ + 0.134793 vice_captain_399_25 + 0.155622 vice_captain_399_26
+ + 0.224149 vice_captain_39_23 + 0.220328 vice_captain_39_24
+ + 0.235799 vice_captain_39_25 + 0.252396 vice_captain_39_26
+ + 0.103856 vice_captain_3_23 + 0.103542 vice_captain_3_24
+ + 0.104201 vice_captain_3_25 + 0.108935 vice_captain_3_26
+ + 0.280372 vice_captain_401_23 + 0.238026 vice_captain_401_24
+ + 0.249238 vice_captain_401_25 + 0.30385 vice_captain_401_26
+ + 0.366284 vice_captain_402_23 + 0.387544 vice_captain_402_24
+ + 0.416897 vice_captain_402_25 + 0.358032 vice_captain_402_26
+ + 0.171683 vice_captain_403_24 + 0.179068 vice_captain_403_25
+ + 0.158347 vice_captain_403_26 + 0.340814 vice_captain_405_23
+ + 0.330782 vice_captain_405_24 + 0.329943 vice_captain_405_25
+ + 0.241604 vice_captain_405_26 + 0.368418 vice_captain_406_23
+ + 0.388211 vice_captain_406_24 + 0.416152 vice_captain_406_25
+ + 0.357379 vice_captain_406_26 + 0.371572 vice_captain_407_23
+ + 0.360269 vice_captain_407_24 + 0.358659 vice_captain_407_25
+ + 0.259973 vice_captain_407_26 + 0.331205 vice_captain_409_23
+ + 0.342419 vice_captain_409_24 + 0.334822 vice_captain_409_25
+ + 0.325807 vice_captain_409_26 + 0.302657 vice_captain_411_23
+ + 0.312386 vice_captain_411_24 + 0.305795 vice_captain_411_25
+ + 0.297973 vice_captain_411_26 + 0.368498 vice_captain_412_23
+ + 0.383202 vice_captain_412_24 + 0.40967 vice_captain_412_25
+ + 0.346772 vice_captain_412_26 + 0.142506 vice_captain_414_23
  + 0.14906 vice_captain_414_24 + 0.150797 vice_captain_414_25
- + 0.135889 vice_captain_414_26 + 0.57237 vice_captain_415_23
- + 0.472629 vice_captain_415_24 + 0.463811 vice_captain_415_25
- + 0.418781 vice_captain_415_26 + 0.379833 vice_captain_416_25
- + 0.320975 vice_captain_416_26 + 0.27784 vice_captain_417_23
- + 0.254397 vice_captain_417_24 + 0.252709 vice_captain_417_25
- + 0.179157 vice_captain_417_26 + 0.284758 vice_captain_419_23
- + 0.263225 vice_captain_419_24 + 0.263787 vice_captain_419_25
- + 0.189083 vice_captain_419_26 + 0.239527 vice_captain_41_23
- + 0.259029 vice_captain_41_24 + 0.256793 vice_captain_41_25
- + 0.28881 vice_captain_41_26 + 0.313939 vice_captain_421_23
- + 0.325965 vice_captain_421_24 + 0.346639 vice_captain_421_25
- + 0.301234 vice_captain_421_26 + 0.207127 vice_captain_423_23
- + 0.211499 vice_captain_423_24 + 0.223167 vice_captain_423_25
- + 0.192604 vice_captain_423_26 + 0.120118 vice_captain_425_23
- + 0.121812 vice_captain_425_24 + 0.126335 vice_captain_425_25
- + 0.114488 vice_captain_425_26 + 0.401017 vice_captain_427_23
- + 0.379913 vice_captain_427_24 + 0.385815 vice_captain_427_25
- + 0.282754 vice_captain_427_26 + 0.226695 vice_captain_428_23
- + 0.20647 vice_captain_428_24 + 0.205013 vice_captain_428_25
- + 0.141553 vice_captain_428_26 + 0.288454 vice_captain_42_23
- + 0.311496 vice_captain_42_24 + 0.303428 vice_captain_42_25
- + 0.343506 vice_captain_42_26 + 0.529779 vice_captain_430_23
- + 0.490836 vice_captain_430_24 + 0.490698 vice_captain_430_25
- + 0.341764 vice_captain_430_26 + 0.490678 vice_captain_433_23
- + 0.408 vice_captain_433_24 + 0.399189 vice_captain_433_25
- + 0.359254 vice_captain_433_26 + 0.121519 vice_captain_435_23
- + 0.126356 vice_captain_435_24 + 0.12343 vice_captain_435_25
- + 0.116214 vice_captain_435_26 + 0.262883 vice_captain_436_23
- + 0.26631 vice_captain_436_24 + 0.273458 vice_captain_436_25
- + 0.223063 vice_captain_436_26 + 0.305606 vice_captain_437_23
- + 0.333537 vice_captain_437_24 + 0.322585 vice_captain_437_25
- + 0.301258 vice_captain_437_26 + 0.25815 vice_captain_439_23
- + 0.265812 vice_captain_439_24 + 0.277481 vice_captain_439_25
- + 0.223204 vice_captain_439_26 + 0.490012 vice_captain_43_23
- + 0.49685 vice_captain_43_24 + 0.467537 vice_captain_43_25
- + 0.508331 vice_captain_43_26 + 0.252516 vice_captain_442_23
- + 0.26437 vice_captain_442_24 + 0.255311 vice_captain_442_25
- + 0.234677 vice_captain_442_26 + 0.231576 vice_captain_445_23
- + 0.234768 vice_captain_445_24 + 0.241426 vice_captain_445_25
- + 0.194486 vice_captain_445_26 + 0.257056 vice_captain_446_23
+ + 0.135889 vice_captain_414_26 + 0.536714 vice_captain_415_23
+ + 0.444148 vice_captain_415_24 + 0.440173 vice_captain_415_25
+ + 0.400826 vice_captain_415_26 + 0.253669 vice_captain_417_23
+ + 0.239756 vice_captain_417_24 + 0.236551 vice_captain_417_25
+ + 0.169941 vice_captain_417_26 + 0.28249 vice_captain_419_23
+ + 0.266386 vice_captain_419_24 + 0.261648 vice_captain_419_25
+ + 0.187323 vice_captain_419_26 + 0.237391 vice_captain_41_23
+ + 0.256816 vice_captain_41_24 + 0.255767 vice_captain_41_25
+ + 0.286474 vice_captain_41_26 + 0.341561 vice_captain_421_23
+ + 0.351521 vice_captain_421_24 + 0.368263 vice_captain_421_25
+ + 0.316173 vice_captain_421_26 + 0.222885 vice_captain_423_23
+ + 0.226927 vice_captain_423_24 + 0.237038 vice_captain_423_25
+ + 0.20335 vice_captain_423_26 + 0.118986 vice_captain_425_23
+ + 0.120969 vice_captain_425_24 + 0.125164 vice_captain_425_25
+ + 0.113393 vice_captain_425_26 + 0.470087 vice_captain_427_23
+ + 0.443044 vice_captain_427_24 + 0.429277 vice_captain_427_25
+ + 0.306079 vice_captain_427_26 + 0.201911 vice_captain_428_25
+ + 0.138984 vice_captain_428_26 + 0.283336 vice_captain_42_23
+ + 0.306128 vice_captain_42_24 + 0.299668 vice_captain_42_25
+ + 0.337741 vice_captain_42_26 + 0.539371 vice_captain_430_23
+ + 0.50946 vice_captain_430_24 + 0.496739 vice_captain_430_25
+ + 0.345287 vice_captain_430_26 + 0.307304 vice_captain_432_23
+ + 0.315925 vice_captain_432_24 + 0.334165 vice_captain_432_25
+ + 0.282983 vice_captain_432_26 + 0.481841 vice_captain_433_23
+ + 0.400111 vice_captain_433_24 + 0.391866 vice_captain_433_25
+ + 0.352565 vice_captain_433_26 + 0.121519 vice_captain_435_23
+ + 0.12596 vice_captain_435_24 + 0.12343 vice_captain_435_25
+ + 0.116996 vice_captain_435_26 + 0.258479 vice_captain_436_23
+ + 0.257271 vice_captain_436_24 + 0.268947 vice_captain_436_25
+ + 0.22525 vice_captain_436_26 + 0.292951 vice_captain_437_23
+ + 0.325159 vice_captain_437_24 + 0.313091 vice_captain_437_25
+ + 0.290286 vice_captain_437_26 + 0.253682 vice_captain_439_23
+ + 0.256353 vice_captain_439_24 + 0.27289 vice_captain_439_25
+ + 0.225861 vice_captain_439_26 + 0.473485 vice_captain_43_23
+ + 0.483216 vice_captain_43_24 + 0.456149 vice_captain_43_25
+ + 0.500506 vice_captain_43_26 + 0.252171 vice_captain_442_23
+ + 0.264312 vice_captain_442_24 + 0.257441 vice_captain_442_25
+ + 0.239913 vice_captain_442_26 + 0.229687 vice_captain_445_23
+ + 0.228556 vice_captain_445_24 + 0.239491 vice_captain_445_25
+ + 0.198569 vice_captain_445_26 + 0.257056 vice_captain_446_23
  + 0.256436 vice_captain_446_24 + 0.255972 vice_captain_446_25
- + 0.241961 vice_captain_446_26 + 0.429886 vice_captain_447_23
- + 0.459895 vice_captain_447_24 + 0.445945 vice_captain_447_25
- + 0.40513 vice_captain_447_26 + 0.303868 vice_captain_448_23
- + 0.285332 vice_captain_448_24 + 0.320517 vice_captain_448_25
- + 0.284166 vice_captain_448_26 + 0.337045 vice_captain_449_23
- + 0.315 vice_captain_449_24 + 0.356846 vice_captain_449_25
- + 0.313614 vice_captain_449_26 + 0.157322 vice_captain_44_23
- + 0.157422 vice_captain_44_24 + 0.160169 vice_captain_44_25
- + 0.187238 vice_captain_44_26 + 0.347238 vice_captain_450_23
- + 0.361044 vice_captain_450_24 + 0.374037 vice_captain_450_25
- + 0.346552 vice_captain_450_26 + 0.146827 vice_captain_451_23
- + 0.155592 vice_captain_451_24 + 0.15194 vice_captain_451_25
- + 0.142933 vice_captain_451_26 + 0.268812 vice_captain_453_23
- + 0.282849 vice_captain_453_24 + 0.276338 vice_captain_453_25
- + 0.254972 vice_captain_453_26 + 0.24263 vice_captain_455_23
- + 0.245873 vice_captain_455_24 + 0.252638 vice_captain_455_25
- + 0.204942 vice_captain_455_26 + 0.144885 vice_captain_456_23
- + 0.144585 vice_captain_456_24 + 0.14436 vice_captain_456_25
- + 0.137568 vice_captain_456_26 + 0.253164 vice_captain_457_23
- + 0.25675 vice_captain_457_24 + 0.261759 vice_captain_457_25
- + 0.213953 vice_captain_457_26 + 0.207264 vice_captain_458_23
- + 0.208001 vice_captain_458_24 + 0.205956 vice_captain_458_25
- + 0.194819 vice_captain_458_26 + 0.146981 vice_captain_45_23
- + 0.15798 vice_captain_45_24 + 0.153556 vice_captain_45_25
- + 0.175536 vice_captain_45_26 + 0.18627 vice_captain_460_23
- + 0.181288 vice_captain_460_24 + 0.198863 vice_captain_460_25
- + 0.150144 vice_captain_460_26 + 0.265011 vice_captain_465_23
- + 0.27252 vice_captain_465_24 + 0.283947 vice_captain_465_25
- + 0.230898 vice_captain_465_26 + 0.152664 vice_captain_466_23
- + 0.157614 vice_captain_466_24 + 0.156405 vice_captain_466_25
- + 0.152515 vice_captain_466_26 + 0.197012 vice_captain_467_23
- + 0.208115 vice_captain_467_24 + 0.220141 vice_captain_467_25
- + 0.179765 vice_captain_467_26 + 0.3208 vice_captain_468_23
- + 0.338228 vice_captain_468_24 + 0.328736 vice_captain_468_25
- + 0.307316 vice_captain_468_26 + 0.232638 vice_captain_469_23
- + 0.238595 vice_captain_469_24 + 0.244951 vice_captain_469_25
- + 0.200138 vice_captain_469_26 + 0.113376 vice_captain_46_23
- + 0.1165 vice_captain_46_24 + 0.112968 vice_captain_46_25
- + 0.118157 vice_captain_46_26 + 0.236249 vice_captain_470_23
- + 0.25369 vice_captain_470_24 + 0.24925 vice_captain_470_25
- + 0.233404 vice_captain_470_26 + 0.258673 vice_captain_471_23
- + 0.246231 vice_captain_471_24 + 0.244079 vice_captain_471_25
- + 0.285803 vice_captain_471_26 + 0.303016 vice_captain_472_23
- + 0.308562 vice_captain_472_24 + 0.305735 vice_captain_472_25
- + 0.314361 vice_captain_472_26 + 0.204477 vice_captain_473_23
- + 0.196656 vice_captain_473_24 + 0.19392 vice_captain_473_25
- + 0.225006 vice_captain_473_26 + 0.282799 vice_captain_475_23
- + 0.246981 vice_captain_475_24 + 0.262537 vice_captain_475_25
- + 0.260743 vice_captain_475_26 + 0.257667 vice_captain_476_23
- + 0.248056 vice_captain_476_24 + 0.245948 vice_captain_476_25
- + 0.287599 vice_captain_476_26 + 0.141951 vice_captain_477_24
- + 0.144915 vice_captain_477_25 + 0.147753 vice_captain_477_26
- + 0.11968 vice_captain_478_23 + 0.122875 vice_captain_478_24
- + 0.121544 vice_captain_478_25 + 0.119658 vice_captain_478_26
- + 0.303016 vice_captain_479_23 + 0.308562 vice_captain_479_24
- + 0.305735 vice_captain_479_25 + 0.314361 vice_captain_479_26
- + 0.274895 vice_captain_47_23 + 0.279838 vice_captain_47_24
- + 0.26935 vice_captain_47_25 + 0.288274 vice_captain_47_26
- + 0.16755 vice_captain_481_23 + 0.173031 vice_captain_481_24
- + 0.170748 vice_captain_481_25 + 0.167512 vice_captain_481_26
- + 0.360861 vice_captain_482_23 + 0.367765 vice_captain_482_24
- + 0.364246 vice_captain_482_25 + 0.374984 vice_captain_482_26
- + 0.211629 vice_captain_484_23 + 0.198934 vice_captain_484_24
- + 0.194276 vice_captain_484_25 + 0.226895 vice_captain_484_26
- + 0.296077 vice_captain_485_23 + 0.297199 vice_captain_485_24
- + 0.295839 vice_captain_485_25 + 0.297784 vice_captain_485_26
- + 0.124202 vice_captain_487_23 + 0.121461 vice_captain_487_24
- + 0.123362 vice_captain_487_25 + 0.149902 vice_captain_487_26
- + 0.242076 vice_captain_488_23 + 0.259905 vice_captain_488_24
- + 0.261334 vice_captain_488_25 + 0.259925 vice_captain_488_26
- + 0.161375 vice_captain_489_23 + 0.168599 vice_captain_489_24
- + 0.168731 vice_captain_489_25 + 0.165776 vice_captain_489_26
- + 0.332761 vice_captain_48_23 + 0.360722 vice_captain_48_24
- + 0.356716 vice_captain_48_25 + 0.402828 vice_captain_48_26
- + 0.17999 vice_captain_490_23 + 0.184561 vice_captain_490_24
- + 0.183975 vice_captain_490_25 + 0.185011 vice_captain_490_26
- + 0.32926 vice_captain_491_23 + 0.305735 vice_captain_491_24
- + 0.297958 vice_captain_491_25 + 0.285488 vice_captain_491_26
- + 0.204663 vice_captain_492_23 + 0.209805 vice_captain_492_24
- + 0.215576 vice_captain_492_25 + 0.195343 vice_captain_492_26
- + 0.236364 vice_captain_493_23 + 0.241811 vice_captain_493_24
- + 0.247926 vice_captain_493_25 + 0.2283 vice_captain_493_26
- + 0.175346 vice_captain_494_23 + 0.181397 vice_captain_494_24
- + 0.186252 vice_captain_494_25 + 0.176924 vice_captain_494_26
- + 0.271574 vice_captain_495_23 + 0.265889 vice_captain_495_24
- + 0.31519 vice_captain_495_25 + 0.233872 vice_captain_495_26
- + 0.199625 vice_captain_497_23 + 0.203696 vice_captain_497_24
- + 0.245282 vice_captain_497_25 + 0.185128 vice_captain_497_26
- + 0.327732 vice_captain_498_23 + 0.304335 vice_captain_498_24
- + 0.2966 vice_captain_498_25 + 0.284198 vice_captain_498_26
- + 0.26425 vice_captain_499_23 + 0.273498 vice_captain_499_24
- + 0.282842 vice_captain_499_25 + 0.264497 vice_captain_499_26
- + 0.375118 vice_captain_49_23 + 0.393904 vice_captain_49_24
- + 0.366957 vice_captain_49_25 + 0.40052 vice_captain_49_26
- + 0.178847 vice_captain_4_23 + 0.177995 vice_captain_4_24
- + 0.179786 vice_captain_4_25 + 0.193542 vice_captain_4_26
- + 0.390105 vice_captain_501_23 + 0.401977 vice_captain_501_24
- + 0.412632 vice_captain_501_25 + 0.378434 vice_captain_501_26
- + 0.350183 vice_captain_502_23 + 0.32338 vice_captain_502_24
- + 0.314519 vice_captain_502_25 + 0.300312 vice_captain_502_26
- + 0.416072 vice_captain_504_23 + 0.428 vice_captain_504_24
- + 0.441391 vice_captain_504_25 + 0.398412 vice_captain_504_26
- + 0.396998 vice_captain_506_23 + 0.386651 vice_captain_506_24
- + 0.456471 vice_captain_506_25 + 0.326609 vice_captain_506_26
- + 0.155332 vice_captain_508_23 + 0.235952 vice_captain_508_24
- + 0.358471 vice_captain_508_25 + 0.207672 vice_captain_508_26
- + 0.390554 vice_captain_509_23 + 0.391688 vice_captain_509_24
- + 0.394193 vice_captain_509_25 + 0.359583 vice_captain_509_26
- + 0.39365 vice_captain_50_23 + 0.401324 vice_captain_50_24
- + 0.386348 vice_captain_50_25 + 0.415061 vice_captain_50_26
- + 0.254268 vice_captain_511_23 + 0.248642 vice_captain_511_24
- + 0.293844 vice_captain_511_25 + 0.212989 vice_captain_511_26
- + 0.248902 vice_captain_513_23 + 0.25937 vice_captain_513_24
- + 0.268269 vice_captain_513_25 + 0.249123 vice_captain_513_26
- + 0.153303 vice_captain_514_23 + 0.149685 vice_captain_514_24
- + 0.183316 vice_captain_514_25 + 0.124568 vice_captain_514_26
- + 0.186775 vice_captain_515_23 + 0.191327 vice_captain_515_24
- + 0.196291 vice_captain_515_25 + 0.183858 vice_captain_515_26
- + 0.536149 vice_captain_516_23 + 0.553793 vice_captain_516_24
- + 0.571847 vice_captain_516_25 + 0.518864 vice_captain_516_26
+ + 0.241961 vice_captain_446_26 + 0.413842 vice_captain_447_23
+ + 0.444448 vice_captain_447_24 + 0.436182 vice_captain_447_25
+ + 0.403576 vice_captain_447_26 + 0.303868 vice_captain_448_23
+ + 0.284194 vice_captain_448_24 + 0.320517 vice_captain_448_25
+ + 0.284808 vice_captain_448_26 + 0.337045 vice_captain_449_23
+ + 0.313647 vice_captain_449_24 + 0.356846 vice_captain_449_25
+ + 0.314377 vice_captain_449_26 + 0.368295 vice_captain_450_23
+ + 0.378812 vice_captain_450_24 + 0.39066 vice_captain_450_25
+ + 0.143979 vice_captain_451_23 + 0.152168 vice_captain_451_24
+ + 0.149057 vice_captain_451_25 + 0.141143 vice_captain_451_26
+ + 0.264689 vice_captain_453_23 + 0.279224 vice_captain_453_24
+ + 0.275355 vice_captain_453_25 + 0.257682 vice_captain_453_26
+ + 0.24063 vice_captain_455_23 + 0.239482 vice_captain_455_24
+ + 0.250591 vice_captain_455_25 + 0.209013 vice_captain_455_26
+ + 0.144885 vice_captain_456_23 + 0.144585 vice_captain_456_24
+ + 0.14436 vice_captain_456_25 + 0.137568 vice_captain_456_26
+ + 0.248982 vice_captain_457_23 + 0.248173 vice_captain_457_24
+ + 0.257482 vice_captain_457_25 + 0.216008 vice_captain_457_26
+ + 0.207264 vice_captain_458_23 + 0.208001 vice_captain_458_24
+ + 0.205956 vice_captain_458_25 + 0.194819 vice_captain_458_26
+ + 0.146981 vice_captain_45_23 + 0.15798 vice_captain_45_24
+ + 0.154392 vice_captain_45_25 + 0.175536 vice_captain_45_26
+ + 0.18627 vice_captain_460_23 + 0.181288 vice_captain_460_24
+ + 0.198863 vice_captain_460_25 + 0.150144 vice_captain_460_26
+ + 0.266052 vice_captain_465_23 + 0.269567 vice_captain_465_24
+ + 0.286903 vice_captain_465_25 + 0.240933 vice_captain_465_26
+ + 0.152664 vice_captain_466_23 + 0.157614 vice_captain_466_24
+ + 0.156405 vice_captain_466_25 + 0.152515 vice_captain_466_26
+ + 0.19795 vice_captain_467_23 + 0.205966 vice_captain_467_24
+ + 0.222981 vice_captain_467_25 + 0.188468 vice_captain_467_26
+ + 0.3027 vice_captain_468_23 + 0.324865 vice_captain_468_24
+ + 0.315246 vice_captain_468_25 + 0.293455 vice_captain_468_26
+ + 0.230709 vice_captain_469_23 + 0.232539 vice_captain_469_24
+ + 0.242981 vice_captain_469_25 + 0.203903 vice_captain_469_26
+ + 0.112299 vice_captain_46_23 + 0.115416 vice_captain_46_24
+ + 0.111784 vice_captain_46_25 + 0.117063 vice_captain_46_26
+ + 0.219381 vice_captain_470_23 + 0.238243 vice_captain_470_24
+ + 0.237796 vice_captain_470_25 + 0.22724 vice_captain_470_26
+ + 0.261 vice_captain_471_23 + 0.243355 vice_captain_471_24
+ + 0.245759 vice_captain_471_25 + 0.288636 vice_captain_471_26
+ + 0.303016 vice_captain_472_23 + 0.30626 vice_captain_472_24
+ + 0.30384 vice_captain_472_25 + 0.314361 vice_captain_472_26
+ + 0.201059 vice_captain_473_23 + 0.18959 vice_captain_473_24
+ + 0.190592 vice_captain_473_25 + 0.221453 vice_captain_473_26
+ + 0.284933 vice_captain_475_23 + 0.248737 vice_captain_475_24
+ + 0.264291 vice_captain_475_25 + 0.26385 vice_captain_475_26
+ + 0.258104 vice_captain_476_23 + 0.244686 vice_captain_476_24
+ + 0.248255 vice_captain_476_25 + 0.291522 vice_captain_476_26
+ + 0.141402 vice_captain_477_24 + 0.148262 vice_captain_477_25
+ + 0.147753 vice_captain_477_26 + 0.11968 vice_captain_478_23
+ + 0.122061 vice_captain_478_24 + 0.121319 vice_captain_478_25
+ + 0.119658 vice_captain_478_26 + 0.303016 vice_captain_479_23
+ + 0.30626 vice_captain_479_24 + 0.30384 vice_captain_479_25
+ + 0.314361 vice_captain_479_26 + 0.257028 vice_captain_47_23
+ + 0.264893 vice_captain_47_24 + 0.257337 vice_captain_47_25
+ + 0.279211 vice_captain_47_26 + 0.165939 vice_captain_481_23
+ + 0.169992 vice_captain_481_24 + 0.168729 vice_captain_481_25
+ + 0.165902 vice_captain_481_26 + 0.358098 vice_captain_482_23
+ + 0.362087 vice_captain_482_24 + 0.359111 vice_captain_482_25
+ + 0.37205 vice_captain_482_26 + 0.169077 vice_captain_483_23
+ + 0.170974 vice_captain_483_24 + 0.174895 vice_captain_483_25
+ + 0.172188 vice_captain_483_26 + 0.209909 vice_captain_484_23
+ + 0.193327 vice_captain_484_24 + 0.19259 vice_captain_484_25
+ + 0.225099 vice_captain_484_26 + 0.290798 vice_captain_485_23
+ + 0.292388 vice_captain_485_24 + 0.301153 vice_captain_485_25
+ + 0.297594 vice_captain_485_26 + 0.105903 vice_captain_487_23
+ + 0.103096 vice_captain_487_24 + 0.110529 vice_captain_487_25
+ + 0.139453 vice_captain_487_26 + 0.239541 vice_captain_488_23
+ + 0.255024 vice_captain_488_24 + 0.258126 vice_captain_488_25
+ + 0.257391 vice_captain_488_26 + 0.159782 vice_captain_489_23
+ + 0.165702 vice_captain_489_24 + 0.166766 vice_captain_489_25
+ + 0.164183 vice_captain_489_26 + 0.31228 vice_captain_48_23
+ + 0.344151 vice_captain_48_24 + 0.34629 vice_captain_48_25
+ + 0.39425 vice_captain_48_26 + 0.178818 vice_captain_490_23
+ + 0.183553 vice_captain_490_24 + 0.188222 vice_captain_490_25
+ + 0.186168 vice_captain_490_26 + 0.32926 vice_captain_491_23
+ + 0.30384 vice_captain_491_24 + 0.297958 vice_captain_491_25
+ + 0.187327 vice_captain_492_23 + 0.194702 vice_captain_492_24
+ + 0.203841 vice_captain_492_25 + 0.231767 vice_captain_493_23
+ + 0.236478 vice_captain_493_24 + 0.243125 vice_captain_493_25
+ + 0.173593 vice_captain_494_23 + 0.179227 vice_captain_494_24
+ + 0.184442 vice_captain_494_25 + 0.269151 vice_captain_495_23
+ + 0.263448 vice_captain_495_24 + 0.312527 vice_captain_495_25
+ + 0.197777 vice_captain_497_23 + 0.201829 vice_captain_497_24
+ + 0.243285 vice_captain_497_25 + 0.327732 vice_captain_498_23
+ + 0.30245 vice_captain_498_24 + 0.2966 vice_captain_498_25
+ + 0.245933 vice_captain_499_23 + 0.257716 vice_captain_499_24
+ + 0.270841 vice_captain_499_25 + 0.374637 vice_captain_49_23
+ + 0.393328 vice_captain_49_24 + 0.369331 vice_captain_49_25
+ + 0.39991 vice_captain_49_26 + 0.177124 vice_captain_4_23
+ + 0.176279 vice_captain_4_24 + 0.178055 vice_captain_4_25
+ + 0.190811 vice_captain_4_26 + 0.381245 vice_captain_501_23
+ + 0.3936 vice_captain_501_24 + 0.407006 vice_captain_501_25
+ + 0.350183 vice_captain_502_23 + 0.321221 vice_captain_502_24
+ + 0.314519 vice_captain_502_25 + 0.446944 vice_captain_504_23
+ + 0.45394 vice_captain_504_24 + 0.465432 vice_captain_504_25
+ + 0.382284 vice_captain_506_23 + 0.375052 vice_captain_506_24
+ + 0.447016 vice_captain_506_25 + 0.153692 vice_captain_508_23
+ + 0.233949 vice_captain_508_24 + 0.360056 vice_captain_508_25
+ + 0.205869 vice_captain_508_26 + 0.399811 vice_captain_509_23
+ + 0.39975 vice_captain_509_24 + 0.403516 vice_captain_509_25
+ + 0.384318 vice_captain_50_23 + 0.393771 vice_captain_50_24
+ + 0.379905 vice_captain_50_25 + 0.411062 vice_captain_50_26
+ + 0.247475 vice_captain_511_23 + 0.244179 vice_captain_511_24
+ + 0.291475 vice_captain_511_25 + 0.246397 vice_captain_513_23
+ + 0.256189 vice_captain_513_24 + 0.265665 vice_captain_513_25
+ + 0.186706 vice_captain_515_23 + 0.191604 vice_captain_515_24
+ + 0.197764 vice_captain_515_25 + 0.525466 vice_captain_516_23
+ + 0.541105 vice_captain_516_24 + 0.560567 vice_captain_516_25
  + 0.168683 vice_captain_517_23 + 0.157693 vice_captain_517_24
- + 0.201576 vice_captain_517_25 + 0.142176 vice_captain_517_26
- + 0.161805 vice_captain_518_23 + 0.15072 vice_captain_518_24
- + 0.193504 vice_captain_518_25 + 0.13626 vice_captain_518_26
- + 0.269079 vice_captain_519_23 + 0.268128 vice_captain_519_24
- + 0.321918 vice_captain_519_25 + 0.237037 vice_captain_519_26
- + 0.403647 vice_captain_520_23 + 0.372982 vice_captain_520_24
- + 0.362845 vice_captain_520_25 + 0.346591 vice_captain_520_26
- + 0.26266 vice_captain_522_23 + 0.274684 vice_captain_522_24
- + 0.317049 vice_captain_522_25 + 0.308054 vice_captain_522_26
- + 0.290669 vice_captain_523_23 + 0.282595 vice_captain_523_24
- + 0.302978 vice_captain_523_25 + 0.294618 vice_captain_523_26
- + 0.369917 vice_captain_524_23 + 0.33297 vice_captain_524_24
- + 0.364157 vice_captain_524_25 + 0.341431 vice_captain_524_26
- + 0.307557 vice_captain_525_24 + 0.325441 vice_captain_525_25
- + 0.324636 vice_captain_525_26 + 0.506702 vice_captain_526_23
- + 0.507846 vice_captain_526_24 + 0.543927 vice_captain_526_25
- + 0.54486 vice_captain_526_26 + 0.240948 vice_captain_527_23
- + 0.237109 vice_captain_527_24 + 0.248091 vice_captain_527_25
- + 0.246743 vice_captain_527_26 + 0.237591 vice_captain_528_23
- + 0.254608 vice_captain_528_24 + 0.297313 vice_captain_528_25
- + 0.292054 vice_captain_528_26 + 0.237206 vice_captain_530_23
- + 0.249865 vice_captain_530_24 + 0.294467 vice_captain_530_25
- + 0.284996 vice_captain_530_26 + 0.235615 vice_captain_532_23
- + 0.254725 vice_captain_532_24 + 0.299774 vice_captain_532_25
- + 0.294137 vice_captain_532_26 + 0.365118 vice_captain_533_23
- + 0.328191 vice_captain_533_24 + 0.359362 vice_captain_533_25
- + 0.336648 vice_captain_533_26 + 0.201946 vice_captain_534_23
- + 0.201752 vice_captain_534_24 + 0.210942 vice_captain_534_25
- + 0.211505 vice_captain_534_26 + 0.258009 vice_captain_535_23
- + 0.246117 vice_captain_535_24 + 0.25965 vice_captain_535_25
- + 0.247503 vice_captain_535_26 + 0.157905 vice_captain_536_23
- + 0.17093 vice_captain_536_24 + 0.205073 vice_captain_536_25
- + 0.201014 vice_captain_536_26 + 0.1228 vice_captain_538_23
- + 0.122957 vice_captain_538_24 + 0.135069 vice_captain_538_25
- + 0.133537 vice_captain_538_26 + 0.389584 vice_captain_539_23
- + 0.388813 vice_captain_539_24 + 0.409201 vice_captain_539_25
- + 0.408142 vice_captain_539_26 + 0.30169 vice_captain_53_23
- + 0.314765 vice_captain_53_24 + 0.296011 vice_captain_53_25
- + 0.31937 vice_captain_53_26 + 0.383831 vice_captain_540_23
- + 0.382203 vice_captain_540_24 + 0.383855 vice_captain_540_25
- + 0.411586 vice_captain_540_26 + 0.374835 vice_captain_542_23
- + 0.370692 vice_captain_542_24 + 0.389636 vice_captain_542_25
- + 0.389847 vice_captain_542_26 + 0.268314 vice_captain_544_23
- + 0.283566 vice_captain_544_24 + 0.329703 vice_captain_544_25
- + 0.323559 vice_captain_544_26 + 0.202569 vice_captain_545_23
- + 0.277088 vice_captain_545_24 + 0.219433 vice_captain_545_25
- + 0.322952 vice_captain_545_26 + 0.293533 vice_captain_546_23
- + 0.301003 vice_captain_546_24 + 0.314982 vice_captain_546_25
- + 0.321944 vice_captain_546_26 + 0.139588 vice_captain_547_23
+ + 0.201576 vice_captain_517_25 + 0.161805 vice_captain_518_23
+ + 0.15072 vice_captain_518_24 + 0.193504 vice_captain_518_25
+ + 0.311777 vice_captain_519_23 + 0.304094 vice_captain_519_24
+ + 0.35634 vice_captain_519_25 + 0.403682 vice_captain_520_23
+ + 0.37058 vice_captain_520_24 + 0.362921 vice_captain_520_25
+ + 0.26266 vice_captain_522_23 + 0.2747 vice_captain_522_24
+ + 0.322879 vice_captain_522_25 + 0.309581 vice_captain_522_26
+ + 0.290669 vice_captain_523_23 + 0.280561 vice_captain_523_24
+ + 0.302707 vice_captain_523_25 + 0.296729 vice_captain_523_26
+ + 0.369917 vice_captain_524_23 + 0.331856 vice_captain_524_24
+ + 0.365889 vice_captain_524_25 + 0.342107 vice_captain_524_26
+ + 0.305679 vice_captain_525_24 + 0.326709 vice_captain_525_25
+ + 0.326847 vice_captain_525_26 + 0.506702 vice_captain_526_23
+ + 0.504325 vice_captain_526_24 + 0.546305 vice_captain_526_25
+ + 0.549008 vice_captain_526_26 + 0.240948 vice_captain_527_23
+ + 0.235688 vice_captain_527_24 + 0.249051 vice_captain_527_25
+ + 0.248417 vice_captain_527_26 + 0.237591 vice_captain_528_23
+ + 0.254622 vice_captain_528_24 + 0.302757 vice_captain_528_25
+ + 0.29348 vice_captain_528_26 + 0.237206 vice_captain_530_23
+ + 0.249881 vice_captain_530_24 + 0.300604 vice_captain_530_25
+ + 0.286604 vice_captain_530_26 + 0.235615 vice_captain_532_23
+ + 0.25474 vice_captain_532_24 + 0.30527 vice_captain_532_25
+ + 0.295577 vice_captain_532_26 + 0.365118 vice_captain_533_23
+ + 0.327078 vice_captain_533_24 + 0.361093 vice_captain_533_25
+ + 0.337324 vice_captain_533_26 + 0.201946 vice_captain_534_23
+ + 0.200853 vice_captain_534_24 + 0.21155 vice_captain_534_25
+ + 0.212564 vice_captain_534_26 + 0.258009 vice_captain_535_23
+ + 0.244299 vice_captain_535_24 + 0.259407 vice_captain_535_25
+ + 0.249389 vice_captain_535_26 + 0.157905 vice_captain_536_23
+ + 0.170941 vice_captain_536_24 + 0.209131 vice_captain_536_25
+ + 0.202077 vice_captain_536_26 + 0.1228 vice_captain_538_23
+ + 0.122102 vice_captain_538_24 + 0.134955 vice_captain_538_25
+ + 0.134424 vice_captain_538_26 + 0.389584 vice_captain_539_23
+ + 0.386342 vice_captain_539_24 + 0.410871 vice_captain_539_25
+ + 0.411053 vice_captain_539_26 + 0.300718 vice_captain_53_23
+ + 0.313752 vice_captain_53_24 + 0.297018 vice_captain_53_25
+ + 0.318342 vice_captain_53_26 + 0.375117 vice_captain_540_23
+ + 0.375578 vice_captain_540_24 + 0.379294 vice_captain_540_25
+ + 0.407231 vice_captain_540_26 + 0.374835 vice_captain_542_23
+ + 0.368553 vice_captain_542_24 + 0.391081 vice_captain_542_25
+ + 0.392367 vice_captain_542_26 + 0.268314 vice_captain_544_23
+ + 0.283582 vice_captain_544_24 + 0.335637 vice_captain_544_25
+ + 0.325114 vice_captain_544_26 + 0.202569 vice_captain_545_23
+ + 0.278645 vice_captain_545_24 + 0.217021 vice_captain_545_25
+ + 0.31834 vice_captain_545_26 + 0.293533 vice_captain_546_23
+ + 0.301551 vice_captain_546_24 + 0.311212 vice_captain_546_25
+ + 0.321351 vice_captain_546_26 + 0.139588 vice_captain_547_23
  + 0.183773 vice_captain_547_24 + 0.145832 vice_captain_547_25
  + 0.199443 vice_captain_547_26 + 0.152524 vice_captain_548_23
- + 0.211448 vice_captain_548_24 + 0.173294 vice_captain_548_25
- + 0.248634 vice_captain_548_26 + 0.131703 vice_captain_54_23
+ + 0.212581 vice_captain_548_24 + 0.171538 vice_captain_548_25
+ + 0.245278 vice_captain_548_26 + 0.131703 vice_captain_54_23
  + 0.135034 vice_captain_54_24 + 0.134071 vice_captain_54_25
  + 0.137977 vice_captain_54_26 + 0.264763 vice_captain_551_23
- + 0.341841 vice_captain_551_24 + 0.273433 vice_captain_551_25
- + 0.390775 vice_captain_551_26 + 0.180374 vice_captain_553_23
- + 0.276846 vice_captain_553_24 + 0.235986 vice_captain_553_25
- + 0.164646 vice_captain_553_26 + 0.282665 vice_captain_554_23
- + 0.30674 vice_captain_554_24 + 0.288421 vice_captain_554_25
- + 0.288759 vice_captain_554_26 + 0.102377 vice_captain_555_23
- + 0.107556 vice_captain_555_24 + 0.104524 vice_captain_555_25
- + 0.108754 vice_captain_555_26 + 0.372157 vice_captain_557_23
- + 0.391288 vice_captain_557_24 + 0.372712 vice_captain_557_25
- + 0.397245 vice_captain_557_26 + 0.304512 vice_captain_558_23
- + 0.303444 vice_captain_558_24 + 0.308723 vice_captain_558_25
- + 0.296326 vice_captain_558_26 + 0.268414 vice_captain_559_23
- + 0.28631 vice_captain_559_24 + 0.277017 vice_captain_559_25
- + 0.290864 vice_captain_559_26 + 0.317955 vice_captain_55_23
- + 0.32312 vice_captain_55_24 + 0.306974 vice_captain_55_25
- + 0.329421 vice_captain_55_26 + 0.160286 vice_captain_560_23
- + 0.218354 vice_captain_560_24 + 0.172681 vice_captain_560_25
- + 0.255585 vice_captain_560_26 + 0.116879 vice_captain_561_23
- + 0.122602 vice_captain_561_24 + 0.119252 vice_captain_561_25
- + 0.123926 vice_captain_561_26 + 0.2603 vice_captain_563_23
- + 0.333121 vice_captain_563_24 + 0.273612 vice_captain_563_25
- + 0.378945 vice_captain_563_26 + 0.285488 vice_captain_564_23
- + 0.29285 vice_captain_564_24 + 0.306626 vice_captain_564_25
- + 0.313487 vice_captain_564_26 + 0.32043 vice_captain_565_23
- + 0.344783 vice_captain_565_24 + 0.332442 vice_captain_565_25
- + 0.354873 vice_captain_565_26 + 0.252882 vice_captain_566_23
- + 0.261381 vice_captain_566_24 + 0.509119 vice_captain_566_25
- + 0.253412 vice_captain_566_26 + 0.307006 vice_captain_567_23
- + 0.339316 vice_captain_567_24 + 0.330136 vice_captain_567_25
- + 0.3532 vice_captain_567_26 + 0.348038 vice_captain_569_23
- + 0.357862 vice_captain_569_24 + 0.376247 vice_captain_569_25
- + 0.385403 vice_captain_569_26 + 0.299826 vice_captain_570_23
- + 0.3242 vice_captain_570_24 + 0.312091 vice_captain_570_25
- + 0.330979 vice_captain_570_26 + 0.228493 vice_captain_572_23
- + 0.299123 vice_captain_572_24 + 0.246993 vice_captain_572_25
- + 0.343903 vice_captain_572_26 + 0.234405 vice_captain_573_23
- + 0.315117 vice_captain_573_24 + 0.257507 vice_captain_573_25
- + 0.367843 vice_captain_573_26 + 0.129045 vice_captain_574_23
- + 0.136805 vice_captain_574_24 + 0.135374 vice_captain_574_25
- + 0.140109 vice_captain_574_26 + 0.248574 vice_captain_576_23
- + 0.24651 vice_captain_576_24 + 0.24646 vice_captain_576_25
- + 0.283764 vice_captain_576_26 + 0.193849 vice_captain_577_23
- + 0.207318 vice_captain_577_24 + 0.240348 vice_captain_577_25
- + 0.233873 vice_captain_577_26 + 0.137759 vice_captain_578_23
- + 0.14082 vice_captain_578_24 + 0.143856 vice_captain_578_25
- + 0.151277 vice_captain_578_26 + 0.294406 vice_captain_579_23
- + 0.266085 vice_captain_579_24 + 0.315357 vice_captain_579_25
- + 0.311807 vice_captain_579_26 + 0.302657 vice_captain_580_23
- + 0.311003 vice_captain_580_24 + 0.305795 vice_captain_580_25
- + 0.297973 vice_captain_580_26 + 0.184444 vice_captain_581_23
- + 0.167853 vice_captain_581_24 + 0.166658 vice_captain_581_25
- + 0.114602 vice_captain_581_26 + 0.215445 vice_captain_582_23
- + 0.233913 vice_captain_582_24 + 0.23484 vice_captain_582_25
- + 0.214372 vice_captain_582_26 + 0.209573 vice_captain_583_23
- + 0.214716 vice_captain_583_24 + 0.220489 vice_captain_583_25
- + 0.201959 vice_captain_583_26 + 0.295837 vice_captain_584_23
- + 0.319217 vice_captain_584_24 + 0.316546 vice_captain_584_25
- + 0.353671 vice_captain_584_26 + 0.188441 vice_captain_586_23
- + 0.208052 vice_captain_586_24 + 0.213231 vice_captain_586_25
- + 0.195796 vice_captain_586_26 + 0.18064 vice_captain_587_23
- + 0.192922 vice_captain_587_24 + 0.191514 vice_captain_587_25
- + 0.188001 vice_captain_587_26 + 0.246766 vice_captain_588_23
- + 0.185239 vice_captain_588_24 + 0.296199 vice_captain_588_25
- + 0.22865 vice_captain_588_26 + 0.238461 vice_captain_58_23
- + 0.244422 vice_captain_58_24 + 0.237166 vice_captain_58_25
- + 0.255101 vice_captain_58_26 + 0.41753 vice_captain_590_23
- + 0.417068 vice_captain_590_24 + 0.429704 vice_captain_590_25
- + 0.444317 vice_captain_590_26 + 0.411242 vice_captain_591_23
- + 0.453605 vice_captain_591_24 + 0.411846 vice_captain_591_25
- + 0.412506 vice_captain_591_26 + 0.210236 vice_captain_592_23
- + 0.199533 vice_captain_592_24 + 0.195014 vice_captain_592_25
- + 0.226666 vice_captain_592_26 + 0.374731 vice_captain_594_23
- + 0.297689 vice_captain_594_24 + 0.305469 vice_captain_594_25
- + 0.309092 vice_captain_594_26 + 0.282308 vice_captain_595_23
- + 0.254821 vice_captain_595_24 + 0.203565 vice_captain_595_25
- + 0.202173 vice_captain_595_26 + 0.41259 vice_captain_596_23
- + 0.37689 vice_captain_596_24 + 0.3477 vice_captain_596_25
- + 0.377966 vice_captain_596_26 + 0.397956 vice_captain_597_23
- + 0.349847 vice_captain_597_24 + 0.373097 vice_captain_597_25
- + 0.406365 vice_captain_597_26 + 0.161513 vice_captain_598_23
- + 0.224439 vice_captain_598_24 + 0.185244 vice_captain_598_25
- + 0.265548 vice_captain_598_26 + 0.432869 vice_captain_599_23
- + 0.438045 vice_captain_599_24 + 0.411363 vice_captain_599_25
- + 0.445841 vice_captain_599_26 + 0.157322 vice_captain_59_23
- + 0.15904 vice_captain_59_24 + 0.153223 vice_captain_59_25
- + 0.161769 vice_captain_59_26 + 0.403645 vice_captain_5_23
- + 0.405605 vice_captain_5_24 + 0.490527 vice_captain_5_25
- + 0.439861 vice_captain_5_26 + 0.160301 vice_captain_600_23
- + 0.145964 vice_captain_600_24 + 0.151321 vice_captain_600_25
- + 0.150565 vice_captain_600_26 + 0.263733 vice_captain_601_23
- + 0.242705 vice_captain_601_24 + 0.278596 vice_captain_601_25
- + 0.268303 vice_captain_601_26 + 0.159715 vice_captain_602_23
- + 0.253054 vice_captain_602_24 + 0.215966 vice_captain_602_25
- + 0.146834 vice_captain_602_26 + 0.274157 vice_captain_604_23
- + 0.27908 vice_captain_604_24 + 0.285888 vice_captain_604_25
- + 0.23507 vice_captain_604_26 + 0.271775 vice_captain_606_23
- + 0.210319 vice_captain_606_24 + 0.238043 vice_captain_606_25
- + 0.280547 vice_captain_606_26 + 0.355678 vice_captain_607_23
- + 0.327934 vice_captain_607_24 + 0.31531 vice_captain_607_25
- + 0.333942 vice_captain_607_26 + 0.209837 vice_captain_608_23
- + 0.189249 vice_captain_608_24 + 0.200403 vice_captain_608_25
- + 0.201946 vice_captain_608_26 + 0.516863 vice_captain_60_23
- + 0.510114 vice_captain_60_24 + 0.515206 vice_captain_60_25
- + 0.609567 vice_captain_60_26 + 0.28506 vice_captain_610_23
- + 0.279868 vice_captain_610_24 + 0.257399 vice_captain_610_25
- + 0.233816 vice_captain_610_26 + 0.339807 vice_captain_611_23
- + 0.346065 vice_captain_611_24 + 0.23894 vice_captain_611_25
- + 0.312647 vice_captain_611_26 + 0.338149 vice_captain_614_23
- + 0.369651 vice_captain_614_24 + 0.374965 vice_captain_614_25
- + 0.362782 vice_captain_614_26 + 0.148892 vice_captain_615_23
- + 0.160102 vice_captain_615_24 + 0.162406 vice_captain_615_25
- + 0.17227 vice_captain_615_26 + 0.324042 vice_captain_616_23
- + 0.394868 vice_captain_616_24 + 0.667024 vice_captain_616_25
- + 0.353238 vice_captain_616_26 + 0.333885 vice_captain_617_23
- + 0.315475 vice_captain_617_24 + 0.326469 vice_captain_617_25
+ + 0.34359 vice_captain_551_24 + 0.270724 vice_captain_551_25
+ + 0.385596 vice_captain_551_26 + 0.178661 vice_captain_553_23
+ + 0.271314 vice_captain_553_24 + 0.234058 vice_captain_553_25
+ + 0.282665 vice_captain_554_23 + 0.30674 vice_captain_554_24
+ + 0.288421 vice_captain_554_25 + 0.288759 vice_captain_554_26
+ + 0.102377 vice_captain_555_23 + 0.108066 vice_captain_555_24
+ + 0.104169 vice_captain_555_25 + 0.109372 vice_captain_555_26
+ + 0.372157 vice_captain_557_23 + 0.394246 vice_captain_557_24
+ + 0.370648 vice_captain_557_25 + 0.40083 vice_captain_557_26
+ + 0.296424 vice_captain_558_23 + 0.296824 vice_captain_558_24
+ + 0.303544 vice_captain_558_25 + 0.292665 vice_captain_558_26
+ + 0.268414 vice_captain_559_23 + 0.287979 vice_captain_559_24
+ + 0.275853 vice_captain_559_25 + 0.292888 vice_captain_559_26
+ + 0.29372 vice_captain_55_23 + 0.303061 vice_captain_55_24
+ + 0.291174 vice_captain_55_25 + 0.317768 vice_captain_55_26
+ + 0.160286 vice_captain_560_23 + 0.218354 vice_captain_560_24
+ + 0.172681 vice_captain_560_25 + 0.255585 vice_captain_560_26
+ + 0.116879 vice_captain_561_23 + 0.123166 vice_captain_561_24
+ + 0.118859 vice_captain_561_25 + 0.124609 vice_captain_561_26
+ + 0.2603 vice_captain_563_23 + 0.334682 vice_captain_563_24
+ + 0.271193 vice_captain_563_25 + 0.374321 vice_captain_563_26
+ + 0.285488 vice_captain_564_23 + 0.29339 vice_captain_564_24
+ + 0.302911 vice_captain_564_25 + 0.312903 vice_captain_564_26
+ + 0.32043 vice_captain_565_23 + 0.347225 vice_captain_565_24
+ + 0.330739 vice_captain_565_25 + 0.357833 vice_captain_565_26
+ + 0.296775 vice_captain_566_23 + 0.3033 vice_captain_566_24
+ + 0.569698 vice_captain_566_25 + 0.273379 vice_captain_566_26
+ + 0.307006 vice_captain_567_23 + 0.341893 vice_captain_567_24
+ + 0.328339 vice_captain_567_25 + 0.356324 vice_captain_567_26
+ + 0.348038 vice_captain_569_23 + 0.358583 vice_captain_569_24
+ + 0.371289 vice_captain_569_25 + 0.384624 vice_captain_569_26
+ + 0.299826 vice_captain_570_23 + 0.326395 vice_captain_570_24
+ + 0.31056 vice_captain_570_25 + 0.333639 vice_captain_570_26
+ + 0.228493 vice_captain_572_23 + 0.300561 vice_captain_572_24
+ + 0.244765 vice_captain_572_25 + 0.339644 vice_captain_572_26
+ + 0.234405 vice_captain_573_23 + 0.316752 vice_captain_573_24
+ + 0.254975 vice_captain_573_25 + 0.363001 vice_captain_573_26
+ + 0.129045 vice_captain_574_23 + 0.137376 vice_captain_574_24
+ + 0.134975 vice_captain_574_25 + 0.140801 vice_captain_574_26
+ + 0.238522 vice_captain_576_23 + 0.234155 vice_captain_576_24
+ + 0.240107 vice_captain_576_25 + 0.279437 vice_captain_576_26
+ + 0.193849 vice_captain_577_23 + 0.207329 vice_captain_577_24
+ + 0.244544 vice_captain_577_25 + 0.234972 vice_captain_577_26
+ + 0.136391 vice_captain_578_23 + 0.139455 vice_captain_578_24
+ + 0.142484 vice_captain_578_25 + 0.149375 vice_captain_578_26
+ + 0.294406 vice_captain_579_23 + 0.266219 vice_captain_579_24
+ + 0.315357 vice_captain_579_25 + 0.311807 vice_captain_579_26
+ + 0.302657 vice_captain_580_23 + 0.312386 vice_captain_580_24
+ + 0.305795 vice_captain_580_25 + 0.297973 vice_captain_580_26
+ + 0.183225 vice_captain_581_23 + 0.170389 vice_captain_581_24
+ + 0.165491 vice_captain_581_25 + 0.113586 vice_captain_581_26
+ + 0.199172 vice_captain_582_23 + 0.221189 vice_captain_582_24
+ + 0.223472 vice_captain_582_25 + 0.175223 vice_captain_586_23
+ + 0.198219 vice_captain_586_24 + 0.204455 vice_captain_586_25
+ + 0.166473 vice_captain_587_23 + 0.179553 vice_captain_587_24
+ + 0.181801 vice_captain_587_25 + 0.181338 vice_captain_587_26
+ + 0.244389 vice_captain_588_23 + 0.189557 vice_captain_588_24
+ + 0.296676 vice_captain_588_25 + 0.230262 vice_captain_588_26
+ + 0.236314 vice_captain_58_23 + 0.243704 vice_captain_58_24
+ + 0.237437 vice_captain_58_25 + 0.257235 vice_captain_58_26
+ + 0.41753 vice_captain_590_23 + 0.42017 vice_captain_590_24
+ + 0.436695 vice_captain_590_25 + 0.438973 vice_captain_590_26
+ + 0.400243 vice_captain_591_23 + 0.444768 vice_captain_591_24
+ + 0.406002 vice_captain_591_25 + 0.409212 vice_captain_591_26
+ + 0.195496 vice_captain_592_23 + 0.18408 vice_captain_592_24
+ + 0.186247 vice_captain_592_25 + 0.220268 vice_captain_592_26
+ + 0.367895 vice_captain_594_23 + 0.290484 vice_captain_594_24
+ + 0.298483 vice_captain_594_25 + 0.303474 vice_captain_594_26
+ + 0.282308 vice_captain_595_23 + 0.255867 vice_captain_595_24
+ + 0.203565 vice_captain_595_25 + 0.202173 vice_captain_595_26
+ + 0.411451 vice_captain_596_23 + 0.382808 vice_captain_596_24
+ + 0.345898 vice_captain_596_25 + 0.372025 vice_captain_596_26
+ + 0.397956 vice_captain_597_23 + 0.350696 vice_captain_597_24
+ + 0.370145 vice_captain_597_25 + 0.406365 vice_captain_597_26
+ + 0.161513 vice_captain_598_23 + 0.225631 vice_captain_598_24
+ + 0.183397 vice_captain_598_25 + 0.262018 vice_captain_598_26
+ + 0.423981 vice_captain_599_23 + 0.431406 vice_captain_599_24
+ + 0.406366 vice_captain_599_25 + 0.443709 vice_captain_599_26
+ + 0.154329 vice_captain_59_23 + 0.156021 vice_captain_59_24
+ + 0.150094 vice_captain_59_25 + 0.158708 vice_captain_59_26
+ + 0.398708 vice_captain_5_23 + 0.402074 vice_captain_5_24
+ + 0.488448 vice_captain_5_25 + 0.430693 vice_captain_5_26
+ + 0.266914 vice_captain_601_23 + 0.246069 vice_captain_601_24
+ + 0.283458 vice_captain_601_25 + 0.273814 vice_captain_601_26
+ + 0.156656 vice_captain_602_23 + 0.245971 vice_captain_602_24
+ + 0.212509 vice_captain_602_25 + 0.274698 vice_captain_603_23
+ + 0.282355 vice_captain_603_24 + 0.298556 vice_captain_603_25
+ + 0.253095 vice_captain_603_26 + 0.269506 vice_captain_604_23
+ + 0.269756 vice_captain_604_24 + 0.281129 vice_captain_604_25
+ + 0.237069 vice_captain_604_26 + 0.253303 vice_captain_606_23
+ + 0.194479 vice_captain_606_24 + 0.226558 vice_captain_606_25
+ + 0.267286 vice_captain_606_26 + 0.355678 vice_captain_607_23
+ + 0.330272 vice_captain_607_24 + 0.31531 vice_captain_607_25
+ + 0.333942 vice_captain_607_26 + 0.207724 vice_captain_608_23
+ + 0.186932 vice_captain_608_24 + 0.197499 vice_captain_608_25
+ + 0.199513 vice_captain_608_26 + 0.513138 vice_captain_60_23
+ + 0.507543 vice_captain_60_24 + 0.515489 vice_captain_60_25
+ + 0.609387 vice_captain_60_26 + 0.280338 vice_captain_610_23
+ + 0.275237 vice_captain_610_24 + 0.25301 vice_captain_610_25
+ + 0.229665 vice_captain_610_26 + 0.320849 vice_captain_611_23
+ + 0.326772 vice_captain_611_24 + 0.234202 vice_captain_611_25
+ + 0.337972 vice_captain_614_23 + 0.36861 vice_captain_614_24
+ + 0.374609 vice_captain_614_25 + 0.14732 vice_captain_615_23
+ + 0.158839 vice_captain_615_24 + 0.160825 vice_captain_615_25
+ + 0.170925 vice_captain_615_26 + 0.32052 vice_captain_616_23
+ + 0.387929 vice_captain_616_24 + 0.6784 vice_captain_616_25
+ + 0.35641 vice_captain_616_26 + 0.333885 vice_captain_617_23
+ + 0.311886 vice_captain_617_24 + 0.325371 vice_captain_617_25
  + 0.375372 vice_captain_617_26 + 0.12321 vice_captain_618_23
- + 0.124369 vice_captain_618_24 + 0.120446 vice_captain_618_25
+ + 0.124369 vice_captain_618_24 + 0.12031 vice_captain_618_25
  + 0.126209 vice_captain_618_26 + 0.176752 vice_captain_619_23
- + 0.154702 vice_captain_619_24 + 0.113586 vice_captain_619_25
- + 0.112469 vice_captain_619_26 + 0.109202 vice_captain_620_23
- + 0.115193 vice_captain_620_24 + 0.2288 vice_captain_620_25
- + 0.116781 vice_captain_620_26 + 0.26728 vice_captain_621_23
- + 0.256249 vice_captain_621_24 + 0.266104 vice_captain_621_25
- + 0.271895 vice_captain_621_26 + 0.112794 vice_captain_622_23
+ + 0.155541 vice_captain_619_24 + 0.113586 vice_captain_619_25
+ + 0.112469 vice_captain_619_26 + 0.10811 vice_captain_620_23
+ + 0.114088 vice_captain_620_24 + 0.226577 vice_captain_620_25
+ + 0.115677 vice_captain_620_26 + 0.262541 vice_captain_621_23
+ + 0.252395 vice_captain_621_24 + 0.26524 vice_captain_621_25
+ + 0.275737 vice_captain_621_26 + 0.112794 vice_captain_622_23
  + 0.17441 vice_captain_622_24 + 0.186842 vice_captain_622_25
  + 0.211724 vice_captain_622_26 + 0.149733 vice_captain_623_23
  + 0.141911 vice_captain_623_24 + 0.132563 vice_captain_623_25
- + 0.140345 vice_captain_623_26 + 0.134555 vice_captain_624_23
- + 0.125743 vice_captain_624_24 + 0.135782 vice_captain_624_25
- + 0.132497 vice_captain_624_26 + 0.174308 vice_captain_625_23
- + 0.167861 vice_captain_625_24 + 0.150459 vice_captain_625_25
- + 0.133457 vice_captain_625_26 + 0.13942 vice_captain_626_23
- + 0.214307 vice_captain_626_24 + 0.171041 vice_captain_626_25
- + 0.216198 vice_captain_626_26 + 0.109473 vice_captain_627_23
- + 0.120879 vice_captain_627_24 + 0.119553 vice_captain_627_25
- + 0.121184 vice_captain_627_26 + 0.112126 vice_captain_629_23
- + 0.12092 vice_captain_629_24 + 0.117834 vice_captain_629_25
- + 0.117507 vice_captain_629_26 + 0.194176 vice_captain_62_23
+ + 0.12347 vice_captain_624_23 + 0.117305 vice_captain_624_24
+ + 0.129071 vice_captain_624_25 + 0.128188 vice_captain_624_26
+ + 0.174308 vice_captain_625_23 + 0.167861 vice_captain_625_24
+ + 0.150459 vice_captain_625_25 + 0.133457 vice_captain_625_26
+ + 0.13815 vice_captain_626_23 + 0.209627 vice_captain_626_24
+ + 0.169663 vice_captain_626_25 + 0.101618 vice_captain_627_23
+ + 0.114773 vice_captain_627_24 + 0.115339 vice_captain_627_25
+ + 0.111054 vice_captain_629_23 + 0.11997 vice_captain_629_24
+ + 0.116727 vice_captain_629_25 + 0.194176 vice_captain_62_23
  + 0.210404 vice_captain_62_24 + 0.202574 vice_captain_62_25
- + 0.190016 vice_captain_62_26 + 0.307537 vice_captain_630_23
- + 0.333554 vice_captain_630_24 + 0.332732 vice_captain_630_25
- + 0.297536 vice_captain_630_26 + 0.257933 vice_captain_631_23
- + 0.272741 vice_captain_631_24 + 0.261177 vice_captain_631_25
- + 0.235252 vice_captain_631_26 + 0.12343 vice_captain_632_23
- + 0.116214 vice_captain_632_24 + 0.122875 vice_captain_632_25
- + 0.127703 vice_captain_632_26 + 0.274956 vice_captain_633_23
- + 0.261798 vice_captain_633_24 + 0.265458 vice_captain_633_25
- + 0.195059 vice_captain_633_26 + 0.183673 vice_captain_634_23
- + 0.167176 vice_captain_634_24 + 0.165988 vice_captain_634_25
- + 0.114226 vice_captain_634_26 + 0.235201 vice_captain_635_23
- + 0.241565 vice_captain_635_24 + 0.257303 vice_captain_635_25
- + 0.22549 vice_captain_635_26 + 0.310764 vice_captain_636_23
- + 0.291635 vice_captain_636_24 + 0.327944 vice_captain_636_25
- + 0.290433 vice_captain_636_26 + 0.157265 vice_captain_637_23
- + 0.159744 vice_captain_637_24 + 0.164915 vice_captain_637_25
- + 0.128458 vice_captain_637_26 + 0.260267 vice_captain_638_23
- + 0.271485 vice_captain_638_24 + 0.270727 vice_captain_638_25
- + 0.2675 vice_captain_638_26 + 0.267157 vice_captain_639_23
- + 0.259912 vice_captain_639_24 + 0.302022 vice_captain_639_25
- + 0.221728 vice_captain_639_26 + 0.325808 vice_captain_63_23
- + 0.315939 vice_captain_63_24 + 0.308693 vice_captain_63_25
- + 0.311233 vice_captain_63_26 + 0.174536 vice_captain_641_26
- + 0.255331 vice_captain_642_23 + 0.255517 vice_captain_642_24
- + 0.267302 vice_captain_642_25 + 0.266771 vice_captain_642_26
- + 0.296672 vice_captain_643_23 + 0.269674 vice_captain_643_24
- + 0.215527 vice_captain_643_25 + 0.215223 vice_captain_643_26
- + 0.214499 vice_captain_644_23 + 0.199613 vice_captain_644_24
- + 0.194591 vice_captain_644_25 + 0.196471 vice_captain_644_26
- + 0.16398 vice_captain_645_23 + 0.150194 vice_captain_645_24
- + 0.160603 vice_captain_645_25 + 0.161292 vice_captain_645_26
- + 0.291154 vice_captain_646_23 + 0.284458 vice_captain_646_24
- + 0.30962 vice_captain_646_25 + 0.291635 vice_captain_646_26
- + 0.315603 vice_captain_647_23 + 0.286091 vice_captain_647_24
- + 0.311003 vice_captain_647_25 + 0.29285 vice_captain_647_26
- + 0.140395 vice_captain_649_23 + 0.132471 vice_captain_649_24
- + 0.144539 vice_captain_649_25 + 0.138516 vice_captain_649_26
- + 0.22992 vice_captain_64_23 + 0.21983 vice_captain_64_24
- + 0.21105 vice_captain_64_25 + 0.209013 vice_captain_64_26
- + 0.110602 vice_captain_650_23 + 0.104015 vice_captain_650_24
- + 0.111518 vice_captain_650_25 + 0.109064 vice_captain_650_26
- + 0.120241 vice_captain_652_23 + 0.127665 vice_captain_652_24
- + 0.11968 vice_captain_652_25 + 0.119905 vice_captain_652_26
- + 0.150459 vice_captain_653_23 + 0.141605 vice_captain_653_24
- + 0.137866 vice_captain_653_25 + 0.164052 vice_captain_653_26
- + 0.153287 vice_captain_654_23 + 0.142288 vice_captain_654_24
- + 0.15892 vice_captain_654_25 + 0.147666 vice_captain_654_26
- + 0.17768 vice_captain_655_23 + 0.183904 vice_captain_655_24
- + 0.181338 vice_captain_655_25 + 0.177387 vice_captain_655_26
- + 0.128477 vice_captain_656_23 + 0.130172 vice_captain_656_24
- + 0.129781 vice_captain_656_25 + 0.130559 vice_captain_656_26
- + 0.12452 vice_captain_657_23 + 0.127092 vice_captain_657_24
- + 0.125369 vice_captain_657_25 + 0.1307 vice_captain_657_26
- + 0.144636 vice_captain_658_23 + 0.146622 vice_captain_658_24
- + 0.157687 vice_captain_658_25 + 0.154499 vice_captain_658_26
- + 0.297958 vice_captain_659_23 + 0.30867 vice_captain_659_24
- + 0.266085 vice_captain_659_25 + 0.294406 vice_captain_659_26
- + 0.34111 vice_captain_65_23 + 0.324099 vice_captain_65_24
+ + 0.190016 vice_captain_62_26 + 0.327083 vice_captain_630_23
+ + 0.355714 vice_captain_630_24 + 0.350556 vice_captain_630_25
+ + 0.25341 vice_captain_631_23 + 0.265025 vice_captain_631_24
+ + 0.256669 vice_captain_631_25 + 0.12343 vice_captain_632_23
+ + 0.116996 vice_captain_632_24 + 0.122061 vice_captain_632_25
+ + 0.127703 vice_captain_632_26 + 0.257845 vice_captain_633_23
+ + 0.252833 vice_captain_633_24 + 0.254336 vice_captain_633_25
+ + 0.188279 vice_captain_633_26 + 0.182462 vice_captain_634_23
+ + 0.169698 vice_captain_634_24 + 0.164827 vice_captain_634_25
+ + 0.113214 vice_captain_634_26 + 0.234903 vice_captain_635_23
+ + 0.243404 vice_captain_635_24 + 0.259626 vice_captain_635_25
+ + 0.229022 vice_captain_635_26 + 0.310764 vice_captain_636_23
+ + 0.290462 vice_captain_636_24 + 0.327944 vice_captain_636_25
+ + 0.291095 vice_captain_636_26 + 0.157265 vice_captain_637_23
+ + 0.156383 vice_captain_637_24 + 0.164915 vice_captain_637_25
+ + 0.132984 vice_captain_637_26 + 0.270382 vice_captain_638_23
+ + 0.27934 vice_captain_638_24 + 0.279324 vice_captain_638_25
+ + 0.275837 vice_captain_638_26 + 0.259686 vice_captain_639_23
+ + 0.254831 vice_captain_639_24 + 0.299043 vice_captain_639_25
+ + 0.325808 vice_captain_63_23 + 0.315412 vice_captain_63_24
+ + 0.308693 vice_captain_63_25 + 0.311233 vice_captain_63_26
+ + 0.161332 vice_captain_640_23 + 0.153919 vice_captain_640_24
+ + 0.15225 vice_captain_640_25 + 0.255331 vice_captain_642_23
+ + 0.254279 vice_captain_642_24 + 0.268138 vice_captain_642_25
+ + 0.268229 vice_captain_642_26 + 0.214499 vice_captain_644_23
+ + 0.19928 vice_captain_644_24 + 0.194591 vice_captain_644_25
+ + 0.196471 vice_captain_644_26 + 0.162698 vice_captain_645_23
+ + 0.148311 vice_captain_645_24 + 0.159333 vice_captain_645_25
+ + 0.160019 vice_captain_645_26 + 0.291154 vice_captain_646_23
+ + 0.284458 vice_captain_646_24 + 0.30962 vice_captain_646_25
+ + 0.290462 vice_captain_646_26 + 0.315603 vice_captain_647_23
+ + 0.285201 vice_captain_647_24 + 0.312386 vice_captain_647_25
+ + 0.29339 vice_captain_647_26 + 0.140395 vice_captain_649_23
+ + 0.132471 vice_captain_649_24 + 0.144539 vice_captain_649_25
+ + 0.138516 vice_captain_649_26 + 0.22992 vice_captain_64_23
+ + 0.219467 vice_captain_64_24 + 0.21105 vice_captain_64_25
+ + 0.209013 vice_captain_64_26 + 0.109565 vice_captain_650_23
+ + 0.102971 vice_captain_650_24 + 0.110476 vice_captain_650_25
+ + 0.108035 vice_captain_650_26 + 0.120241 vice_captain_652_23
+ + 0.127665 vice_captain_652_24 + 0.11968 vice_captain_652_25
+ + 0.119905 vice_captain_652_26 + 0.150459 vice_captain_653_23
+ + 0.138431 vice_captain_653_24 + 0.137836 vice_captain_653_25
+ + 0.164052 vice_captain_653_26 + 0.153287 vice_captain_654_23
+ + 0.142288 vice_captain_654_24 + 0.15892 vice_captain_654_25
+ + 0.147666 vice_captain_654_26 + 0.169525 vice_captain_655_23
+ + 0.176112 vice_captain_655_24 + 0.176214 vice_captain_655_25
+ + 0.174359 vice_captain_655_26 + 0.127539 vice_captain_656_23
+ + 0.128807 vice_captain_656_24 + 0.131425 vice_captain_656_25
+ + 0.129617 vice_captain_656_26 + 0.123337 vice_captain_657_23
+ + 0.126127 vice_captain_657_24 + 0.12418 vice_captain_657_25
+ + 0.12968 vice_captain_657_26 + 0.144636 vice_captain_658_23
+ + 0.146622 vice_captain_658_24 + 0.157687 vice_captain_658_25
+ + 0.154499 vice_captain_658_26 + 0.297958 vice_captain_659_23
+ + 0.304851 vice_captain_659_24 + 0.266219 vice_captain_659_25
+ + 0.34111 vice_captain_65_23 + 0.3236 vice_captain_65_24
  + 0.312341 vice_captain_65_25 + 0.311598 vice_captain_65_26
- + 0.270494 vice_captain_660_23 + 0.236625 vice_captain_660_24
- + 0.248608 vice_captain_660_25 + 0.247384 vice_captain_660_26
- + 0.388136 vice_captain_661_23 + 0.346817 vice_captain_661_24
- + 0.398379 vice_captain_661_25 + 0.386048 vice_captain_661_26
- + 0.161346 vice_captain_662_23 + 0.173704 vice_captain_662_24
- + 0.160413 vice_captain_662_25 + 0.160788 vice_captain_662_26
- + 0.317244 vice_captain_663_23 + 0.329886 vice_captain_663_24
- + 0.325637 vice_captain_663_25 + 0.319301 vice_captain_663_26
- + 0.506751 vice_captain_664_23 + 0.499614 vice_captain_664_24
- + 0.524092 vice_captain_664_25 + 0.51595 vice_captain_664_26
- + 0.312858 vice_captain_665_23 + 0.342817 vice_captain_665_24
- + 0.34787 vice_captain_665_25 + 0.336285 vice_captain_665_26
- + 0.11633 vice_captain_666_23 + 0.120073 vice_captain_666_24
- + 0.118514 vice_captain_666_25 + 0.116304 vice_captain_666_26
- + 0.212961 vice_captain_668_23 + 0.237416 vice_captain_668_24
- + 0.227974 vice_captain_668_25 + 0.227064 vice_captain_668_26
+ + 0.271559 vice_captain_660_23 + 0.237785 vice_captain_660_24
+ + 0.250086 vice_captain_660_25 + 0.250407 vice_captain_660_26
+ + 0.382935 vice_captain_661_23 + 0.342827 vice_captain_661_24
+ + 0.396121 vice_captain_661_25 + 0.385269 vice_captain_661_26
+ + 0.158253 vice_captain_662_23 + 0.170414 vice_captain_662_24
+ + 0.157335 vice_captain_662_25 + 0.157704 vice_captain_662_26
+ + 0.310802 vice_captain_663_23 + 0.322152 vice_captain_663_24
+ + 0.321981 vice_captain_663_25 + 0.318382 vice_captain_663_26
+ + 0.506751 vice_captain_664_23 + 0.496289 vice_captain_664_24
+ + 0.526339 vice_captain_664_25 + 0.519867 vice_captain_664_26
+ + 0.311661 vice_captain_665_23 + 0.340818 vice_captain_665_24
+ + 0.346526 vice_captain_665_25 + 0.115231 vice_captain_666_23
+ + 0.118002 vice_captain_666_24 + 0.117138 vice_captain_666_25
+ + 0.115206 vice_captain_666_26 + 0.208817 vice_captain_668_23
+ + 0.233336 vice_captain_668_24 + 0.223556 vice_captain_668_25
  + 0.329032 vice_captain_669_23 + 0.291397 vice_captain_669_24
  + 0.309585 vice_captain_669_25 + 0.33561 vice_captain_669_26
- + 0.26632 vice_captain_66_23 + 0.25211 vice_captain_66_24
+ + 0.26632 vice_captain_66_23 + 0.251729 vice_captain_66_24
  + 0.242896 vice_captain_66_25 + 0.243167 vice_captain_66_26
  + 0.197156 vice_captain_671_23 + 0.182682 vice_captain_671_24
- + 0.113358 vice_captain_671_25 + 0.157288 vice_captain_671_26
- + 0.2095 vice_captain_672_23 + 0.219531 vice_captain_672_24
- + 0.213189 vice_captain_672_25 + 0.231848 vice_captain_672_26
- + 0.162303 vice_captain_673_26 + 0.19658 vice_captain_674_23
- + 0.122764 vice_captain_674_24 + 0.169138 vice_captain_674_25
- + 0.192473 vice_captain_674_26 + 0.199056 vice_captain_675_23
- + 0.181033 vice_captain_675_24 + 0.191292 vice_captain_675_25
- + 0.190195 vice_captain_675_26 + 0.212075 vice_captain_676_23
- + 0.227375 vice_captain_676_24 + 0.266002 vice_captain_676_25
- + 0.260993 vice_captain_676_26 + 0.151036 vice_captain_677_23
- + 0.139289 vice_captain_677_24 + 0.136433 vice_captain_677_25
- + 0.149654 vice_captain_677_26 + 0.380235 vice_captain_678_23
- + 0.397668 vice_captain_678_24 + 0.769315 vice_captain_678_25
- + 0.382592 vice_captain_678_26 + 0.264402 vice_captain_679_23
- + 0.262551 vice_captain_679_24 + 0.2642 vice_captain_679_25
- + 0.208833 vice_captain_679_26 + 0.145946 vice_captain_681_23
+ + 0.113358 vice_captain_671_25 + 0.185664 vice_captain_672_23
+ + 0.198831 vice_captain_672_24 + 0.195823 vice_captain_672_25
+ + 0.217469 vice_captain_672_26 + 0.162303 vice_captain_673_26
+ + 0.195108 vice_captain_674_23 + 0.121056 vice_captain_674_24
+ + 0.167774 vice_captain_674_25 + 0.189447 vice_captain_674_26
+ + 0.184718 vice_captain_675_23 + 0.169639 vice_captain_675_24
+ + 0.181423 vice_captain_675_25 + 0.183097 vice_captain_675_26
+ + 0.212075 vice_captain_676_23 + 0.227387 vice_captain_676_24
+ + 0.27076 vice_captain_676_25 + 0.262239 vice_captain_676_26
+ + 0.149892 vice_captain_677_23 + 0.137374 vice_captain_677_24
+ + 0.134713 vice_captain_677_25 + 0.359803 vice_captain_678_23
+ + 0.384969 vice_captain_678_24 + 0.748423 vice_captain_678_25
+ + 0.375013 vice_captain_678_26 + 0.267136 vice_captain_679_23
+ + 0.261055 vice_captain_679_24 + 0.269104 vice_captain_679_25
+ + 0.221614 vice_captain_679_26 + 0.145946 vice_captain_681_23
  + 0.141859 vice_captain_681_24 + 0.13414 vice_captain_681_25
- + 0.145278 vice_captain_681_26 + 0.114614 vice_captain_682_23
- + 0.195626 vice_captain_682_24 + 0.160312 vice_captain_682_25
- + 0.098654 vice_captain_682_26 + 0.119487 vice_captain_684_23
- + 0.123122 vice_captain_684_24 + 0.238822 vice_captain_684_25
- + 0.122904 vice_captain_684_26 + 0.119679 vice_captain_685_23
+ + 0.113586 vice_captain_682_23 + 0.19137 vice_captain_682_24
+ + 0.15914 vice_captain_682_25 + 0.118345 vice_captain_684_23
+ + 0.121956 vice_captain_684_24 + 0.23648 vice_captain_684_25
+ + 0.121739 vice_captain_684_26 + 0.119679 vice_captain_685_23
  + 0.115786 vice_captain_685_24 + 0.12177 vice_captain_685_25
- + 0.126107 vice_captain_685_26 + 0.337762 vice_captain_687_23
- + 0.350573 vice_captain_687_24 + 0.299642 vice_captain_687_25
- + 0.333514 vice_captain_687_26 + 0.348593 vice_captain_688_23
- + 0.346851 vice_captain_688_24 + 0.322514 vice_captain_688_25
- + 0.296671 vice_captain_688_26 + 0.330301 vice_captain_689_23
- + 0.32808 vice_captain_689_24 + 0.344448 vice_captain_689_25
- + 0.343598 vice_captain_689_26 + 0.171554 vice_captain_690_23
- + 0.169363 vice_captain_690_24 + 0.176013 vice_captain_690_25
- + 0.178388 vice_captain_690_26 + 0.240528 vice_captain_691_23
- + 0.22548 vice_captain_691_24 + 0.246198 vice_captain_691_25
- + 0.249608 vice_captain_691_26 + 0.312732 vice_captain_692_23
- + 0.308869 vice_captain_692_24 + 0.306062 vice_captain_692_25
- + 0.318775 vice_captain_692_26 + 0.21742 vice_captain_694_23
- + 0.189736 vice_captain_694_24 + 0.198753 vice_captain_694_25
- + 0.19748 vice_captain_694_26 + 0.33124 vice_captain_695_23
- + 0.293354 vice_captain_695_24 + 0.311664 vice_captain_695_25
- + 0.337862 vice_captain_695_26 + 0.311839 vice_captain_696_23
- + 0.320759 vice_captain_696_24 + 0.332299 vice_captain_696_25
- + 0.275247 vice_captain_696_26 + 0.191702 vice_captain_697_23
- + 0.253185 vice_captain_697_24 + 0.206727 vice_captain_697_25
- + 0.291056 vice_captain_697_26 + 0.196479 vice_captain_698_23
- + 0.208663 vice_captain_698_24 + 0.201531 vice_captain_698_25
- + 0.211482 vice_captain_698_26 + 0.277834 vice_captain_699_23
- + 0.299216 vice_captain_699_24 + 0.298168 vice_captain_699_25
- + 0.337367 vice_captain_699_26 + 0.187194 vice_captain_69_23
- + 0.167293 vice_captain_69_24 + 0.128379 vice_captain_69_25
- + 0.129352 vice_captain_69_26 + 0.353861 vice_captain_6_23
- + 0.357196 vice_captain_6_24 + 0.366333 vice_captain_6_25
- + 0.398554 vice_captain_6_26 + 0.289185 vice_captain_700_25
- + 0.294474 vice_captain_700_26 + 0.180414 vice_captain_701_23
- + 0.186787 vice_captain_701_24 + 0.360396 vice_captain_701_25
- + 0.186597 vice_captain_701_26 + 0.225879 vice_captain_703_23
- + 0.190449 vice_captain_703_24 + 0.208194 vice_captain_703_25
- + 0.245916 vice_captain_703_26 + 0.12847 vice_captain_704_23
- + 0.130871 vice_captain_704_24 + 0.137534 vice_captain_704_25
- + 0.142997 vice_captain_704_26 + 0.234567 vice_captain_705_23
- + 0.227537 vice_captain_705_24 + 0.222188 vice_captain_705_25
- + 0.22389 vice_captain_705_26 + 0.216522 vice_captain_706_23
- + 0.198475 vice_captain_706_24 + 0.212407 vice_captain_706_25
- + 0.213957 vice_captain_706_26 + 0.230799 vice_captain_707_23
- + 0.226256 vice_captain_707_24 + 0.20528 vice_captain_707_25
- + 0.184786 vice_captain_707_26 + 0.207056 vice_captain_708_23
- + 0.236206 vice_captain_708_24 + 0.23392 vice_captain_708_25
- + 0.235928 vice_captain_708_26 + 0.216517 vice_captain_709_23
- + 0.201963 vice_captain_709_24 + 0.215397 vice_captain_709_25
+ + 0.126107 vice_captain_685_26 + 0.342205 vice_captain_687_23
+ + 0.350707 vice_captain_687_24 + 0.303055 vice_captain_687_25
+ + 0.342791 vice_captain_688_23 + 0.342815 vice_captain_688_24
+ + 0.320184 vice_captain_688_25 + 0.296049 vice_captain_688_26
+ + 0.330301 vice_captain_689_23 + 0.326096 vice_captain_689_24
+ + 0.345789 vice_captain_689_25 + 0.345935 vice_captain_689_26
+ + 0.152915 vice_captain_690_23 + 0.152733 vice_captain_690_24
+ + 0.162237 vice_captain_690_25 + 0.168546 vice_captain_690_26
+ + 0.244729 vice_captain_691_23 + 0.227874 vice_captain_691_24
+ + 0.250063 vice_captain_691_25 + 0.253423 vice_captain_691_26
+ + 0.311684 vice_captain_692_23 + 0.307834 vice_captain_692_24
+ + 0.305036 vice_captain_692_25 + 0.317707 vice_captain_692_26
+ + 0.19684 vice_captain_694_23 + 0.173577 vice_captain_694_24
+ + 0.184001 vice_captain_694_25 + 0.185924 vice_captain_694_26
+ + 0.33124 vice_captain_695_23 + 0.294022 vice_captain_695_24
+ + 0.309339 vice_captain_695_25 + 0.337862 vice_captain_695_26
+ + 0.304409 vice_captain_696_23 + 0.309782 vice_captain_696_24
+ + 0.328538 vice_captain_696_25 + 0.281085 vice_captain_696_26
+ + 0.191702 vice_captain_697_23 + 0.254453 vice_captain_697_24
+ + 0.204762 vice_captain_697_25 + 0.287299 vice_captain_697_26
+ + 0.196479 vice_captain_698_23 + 0.209863 vice_captain_698_24
+ + 0.200694 vice_captain_698_25 + 0.212936 vice_captain_698_26
+ + 0.281866 vice_captain_699_23 + 0.30432 vice_captain_699_24
+ + 0.305317 vice_captain_699_25 + 0.344479 vice_captain_699_26
+ + 0.322803 vice_captain_6_23 + 0.331092 vice_captain_6_24
+ + 0.344943 vice_captain_6_25 + 0.378918 vice_captain_6_26
+ + 0.279343 vice_captain_700_23 + 0.267573 vice_captain_700_24
+ + 0.283556 vice_captain_700_25 + 0.29228 vice_captain_700_26
+ + 0.176913 vice_captain_701_23 + 0.183177 vice_captain_701_24
+ + 0.353292 vice_captain_701_25 + 0.182994 vice_captain_701_26
+ + 0.225879 vice_captain_703_23 + 0.195428 vice_captain_703_24
+ + 0.204702 vice_captain_703_25 + 0.245916 vice_captain_703_26
+ + 0.12847 vice_captain_704_23 + 0.131826 vice_captain_704_24
+ + 0.139687 vice_captain_704_25 + 0.141352 vice_captain_704_26
+ + 0.234567 vice_captain_705_23 + 0.227169 vice_captain_705_24
+ + 0.222188 vice_captain_705_25 + 0.22389 vice_captain_705_26
+ + 0.214286 vice_captain_706_23 + 0.196034 vice_captain_706_24
+ + 0.209371 vice_captain_706_25 + 0.211399 vice_captain_706_26
+ + 0.227206 vice_captain_707_23 + 0.22273 vice_captain_707_24
+ + 0.201933 vice_captain_707_25 + 0.181614 vice_captain_707_26
+ + 0.204887 vice_captain_708_23 + 0.234302 vice_captain_708_24
+ + 0.231623 vice_captain_708_25 + 0.216517 vice_captain_709_23
+ + 0.20354 vice_captain_709_24 + 0.213756 vice_captain_709_25
  + 0.225135 vice_captain_709_26 + 0.268652 vice_captain_70_23
- + 0.242678 vice_captain_70_24 + 0.191826 vice_captain_70_25
- + 0.193164 vice_captain_70_26 + 0.350983 vice_captain_710_23
- + 0.328469 vice_captain_710_24 + 0.371205 vice_captain_710_25
- + 0.327054 vice_captain_710_26 + 0.25279 vice_captain_711_23
- + 0.257858 vice_captain_711_24 + 0.266687 vice_captain_711_25
- + 0.217381 vice_captain_711_26 + 0.273805 vice_captain_712_23
- + 0.289144 vice_captain_712_24 + 0.279907 vice_captain_712_25
- + 0.260288 vice_captain_712_26 + 0.242462 vice_captain_713_23
- + 0.256355 vice_captain_713_24 + 0.248804 vice_captain_713_25
- + 0.230179 vice_captain_713_26 + 0.168532 vice_captain_714_23
- + 0.182605 vice_captain_714_24 + 0.177087 vice_captain_714_25
- + 0.166341 vice_captain_714_26 + 0.193095 vice_captain_715_23
- + 0.211259 vice_captain_715_24 + 0.209268 vice_captain_715_25
- + 0.221908 vice_captain_715_26 + 0.142952 vice_captain_716_23
- + 0.151986 vice_captain_716_24 + 0.102424 vice_captain_716_25
- + 0.141659 vice_captain_716_26 + 0.140159 vice_captain_717_23
- + 0.129663 vice_captain_717_24 + 0.12711 vice_captain_717_25
- + 0.138924 vice_captain_717_26 + 0.126733 vice_captain_719_23
- + 0.117797 vice_captain_719_24 + 0.127977 vice_captain_719_25
- + 0.124646 vice_captain_719_26 + 0.127396 vice_captain_71_23
- + 0.121595 vice_captain_71_24 + 0.1176 vice_captain_71_25
- + 0.117215 vice_captain_71_26 + 0.138702 vice_captain_720_23
- + 0.1333 vice_captain_720_24 + 0.151106 vice_captain_720_25
- + 0.151626 vice_captain_720_26 + 0.111714 vice_captain_721_23
- + 0.11565 vice_captain_721_24 + 0.116033 vice_captain_721_25
- + 0.122252 vice_captain_721_26 + 0.145481 vice_captain_722_23
- + 0.136298 vice_captain_722_24 + 0.137452 vice_captain_722_25
- + 0.12954 vice_captain_722_26 + 0.173643 vice_captain_723_23
- + 0.172274 vice_captain_723_24 + 0.108203 vice_captain_723_25
- + 0.148902 vice_captain_723_26 + 0.127051 vice_captain_724_23
- + 0.129659 vice_captain_724_24 + 0.127911 vice_captain_724_25
- + 0.133318 vice_captain_724_26 + 0.118762 vice_captain_725_23
- + 0.172548 vice_captain_725_24 + 0.246486 vice_captain_725_25
- + 0.142941 vice_captain_725_26 + 0.124516 vice_captain_726_23
+ + 0.243773 vice_captain_70_24 + 0.191826 vice_captain_70_25
+ + 0.193164 vice_captain_70_26 + 0.349561 vice_captain_710_23
+ + 0.325767 vice_captain_710_24 + 0.369696 vice_captain_710_25
+ + 0.326509 vice_captain_710_26 + 0.252333 vice_captain_711_23
+ + 0.254274 vice_captain_711_24 + 0.26935 vice_captain_711_25
+ + 0.227967 vice_captain_711_26 + 0.264383 vice_captain_712_23
+ + 0.280652 vice_captain_712_24 + 0.275017 vice_captain_712_25
+ + 0.260337 vice_captain_712_26 + 0.237727 vice_captain_713_23
+ + 0.250399 vice_captain_713_24 + 0.243984 vice_captain_713_25
+ + 0.227666 vice_captain_713_26 + 0.193095 vice_captain_715_23
+ + 0.21245 vice_captain_715_24 + 0.208437 vice_captain_715_25
+ + 0.223351 vice_captain_715_26 + 0.141807 vice_captain_716_23
+ + 0.149409 vice_captain_716_24 + 0.104611 vice_captain_716_25
+ + 0.139124 vice_captain_717_23 + 0.12793 vice_captain_717_24
+ + 0.125551 vice_captain_717_25 + 0.125535 vice_captain_719_23
+ + 0.116599 vice_captain_719_24 + 0.12677 vice_captain_719_25
+ + 0.123462 vice_captain_719_26 + 0.127396 vice_captain_71_23
+ + 0.121457 vice_captain_71_24 + 0.1176 vice_captain_71_25
+ + 0.117215 vice_captain_71_26 + 0.104048 vice_captain_721_23
+ + 0.110019 vice_captain_721_24 + 0.112156 vice_captain_721_25
+ + 0.120321 vice_captain_721_26 + 0.127091 vice_captain_722_23
+ + 0.122695 vice_captain_722_24 + 0.123153 vice_captain_722_25
+ + 0.172396 vice_captain_723_23 + 0.169398 vice_captain_723_24
+ + 0.110809 vice_captain_723_25 + 0.125843 vice_captain_724_23
+ + 0.128671 vice_captain_724_24 + 0.126697 vice_captain_724_25
+ + 0.132276 vice_captain_724_26 + 0.116607 vice_captain_725_23
+ + 0.170043 vice_captain_725_24 + 0.24576 vice_captain_725_25
+ + 0.140629 vice_captain_725_26 + 0.124516 vice_captain_726_23
  + 0.194653 vice_captain_726_24 + 0.153948 vice_captain_726_25
- + 0.196481 vice_captain_726_26 + 0.280568 vice_captain_727_23
- + 0.307802 vice_captain_727_24 + 0.312806 vice_captain_727_25
- + 0.283718 vice_captain_727_26 + 0.122862 vice_captain_728_23
- + 0.194653 vice_captain_728_24 + 0.152823 vice_captain_728_25
- + 0.196481 vice_captain_728_26 + 0.126992 vice_captain_729_23
- + 0.134906 vice_captain_729_24 + 0.135377 vice_captain_729_25
- + 0.124985 vice_captain_729_26 + 0.289136 vice_captain_72_23
- + 0.271902 vice_captain_72_24 + 0.261529 vice_captain_72_25
- + 0.260044 vice_captain_72_26 + 0.125264 vice_captain_730_23
- + 0.128292 vice_captain_730_24 + 0.12703 vice_captain_730_25
- + 0.125243 vice_captain_730_26 + 0.159879 vice_captain_731_23
- + 0.150794 vice_captain_731_24 + 0.146958 vice_captain_731_25
- + 0.173825 vice_captain_731_26 + 0.18566 vice_captain_732_23
- + 0.179023 vice_captain_732_24 + 0.16111 vice_captain_732_25
- + 0.143608 vice_captain_732_26 + 0.123191 vice_captain_733_23
- + 0.177698 vice_captain_733_24 + 0.255465 vice_captain_733_25
- + 0.147695 vice_captain_733_26 + 0.12946 vice_captain_734_23
- + 0.137484 vice_captain_734_24 + 0.137961 vice_captain_734_25
- + 0.127425 vice_captain_734_26 + 0.133063 vice_captain_735_23
- + 0.132655 vice_captain_735_24 + 0.133513 vice_captain_735_25
- + 0.140102 vice_captain_735_26 + 0.141924 vice_captain_736_23
- + 0.147695 vice_captain_736_24 + 0.188325 vice_captain_736_25
- + 0.173233 vice_captain_736_26 + 0.133063 vice_captain_737_23
- + 0.132655 vice_captain_737_24 + 0.133513 vice_captain_737_25
- + 0.140102 vice_captain_737_26 + 0.122825 vice_captain_738_23
- + 0.124303 vice_captain_738_24 + 0.128246 vice_captain_738_25
- + 0.117917 vice_captain_738_26 + 0.166454 vice_captain_739_23
- + 0.142492 vice_captain_739_24 + 0.140055 vice_captain_739_25
- + 0.129006 vice_captain_739_26 + 0.228939 vice_captain_73_23
+ + 0.25667 vice_captain_727_23 + 0.288418 vice_captain_727_24
+ + 0.294835 vice_captain_727_25 + 0.121764 vice_captain_728_23
+ + 0.190273 vice_captain_728_24 + 0.151626 vice_captain_728_25
+ + 0.289136 vice_captain_72_23 + 0.271506 vice_captain_72_24
+ + 0.261529 vice_captain_72_25 + 0.260044 vice_captain_72_26
+ + 0.124077 vice_captain_730_23 + 0.126319 vice_captain_730_24
+ + 0.12562 vice_captain_730_25 + 0.124056 vice_captain_730_26
+ + 0.158659 vice_captain_731_23 + 0.146359 vice_captain_731_24
+ + 0.145751 vice_captain_731_25 + 0.17256 vice_captain_731_26
+ + 0.184347 vice_captain_732_23 + 0.177733 vice_captain_732_24
+ + 0.159879 vice_captain_732_25 + 0.142435 vice_captain_732_26
+ + 0.12207 vice_captain_733_23 + 0.176394 vice_captain_733_24
+ + 0.256894 vice_captain_733_25 + 0.146491 vice_captain_733_26
+ + 0.128219 vice_captain_734_23 + 0.136919 vice_captain_734_24
+ + 0.136662 vice_captain_734_25 + 0.131798 vice_captain_735_23
+ + 0.131393 vice_captain_735_24 + 0.132245 vice_captain_735_25
+ + 0.138365 vice_captain_735_26 + 0.14074 vice_captain_736_23
+ + 0.146491 vice_captain_736_24 + 0.186985 vice_captain_736_25
+ + 0.168473 vice_captain_736_26 + 0.131798 vice_captain_737_23
+ + 0.131393 vice_captain_737_24 + 0.132245 vice_captain_737_25
+ + 0.138365 vice_captain_737_26 + 0.121667 vice_captain_738_23
+ + 0.123396 vice_captain_738_24 + 0.127056 vice_captain_738_25
+ + 0.116787 vice_captain_738_26 + 0.165317 vice_captain_739_23
+ + 0.141297 vice_captain_739_24 + 0.138985 vice_captain_739_25
+ + 0.127964 vice_captain_739_26 + 0.228939 vice_captain_73_23
  + 0.250781 vice_captain_73_24 + 0.240076 vice_captain_73_25
- + 0.223534 vice_captain_73_26 + 0.153735 vice_captain_740_23
- + 0.150561 vice_captain_740_24 + 0.180072 vice_captain_740_25
- + 0.12852 vice_captain_740_26 + 0.143492 vice_captain_741_23
- + 0.14819 vice_captain_741_24 + 0.149407 vice_captain_741_25
- + 0.150777 vice_captain_741_26 + 0.122817 vice_captain_742_23
- + 0.12288 vice_captain_742_24 + 0.129042 vice_captain_742_25
- + 0.132911 vice_captain_742_26 + 0.127803 vice_captain_743_23
- + 0.138449 vice_captain_743_24 + 0.134714 vice_captain_743_25
- + 0.134317 vice_captain_743_26 + 0.122588 vice_captain_744_23
- + 0.12774 vice_captain_744_24 + 0.249159 vice_captain_744_25
- + 0.127554 vice_captain_744_26 + 0.157818 vice_captain_745_23
- + 0.135954 vice_captain_745_24 + 0.13373 vice_captain_745_25
- + 0.123648 vice_captain_745_26 + 0.189514 vice_captain_746_23
- + 0.140013 vice_captain_746_24 + 0.161264 vice_captain_746_25
- + 0.193845 vice_captain_746_26 + 0.136771 vice_captain_747_23
- + 0.133722 vice_captain_747_24 + 0.138016 vice_captain_747_25
- + 0.139549 vice_captain_747_26 + 0.132416 vice_captain_749_23
- + 0.138668 vice_captain_749_24 + 0.135008 vice_captain_749_25
- + 0.140114 vice_captain_749_26 + 0.115187 vice_captain_74_23
- + 0.109794 vice_captain_74_24 + 0.106079 vice_captain_74_25
- + 0.105721 vice_captain_74_26 + 0.122102 vice_captain_750_23
- + 0.130228 vice_captain_750_24 + 0.129385 vice_captain_750_25
- + 0.136474 vice_captain_750_26 + 0.129659 vice_captain_751_23
- + 0.17811 vice_captain_751_24 + 0.140001 vice_captain_751_25
- + 0.209175 vice_captain_751_26 + 0.318869 vice_captain_752_23
- + 0.329957 vice_captain_752_24 + 0.584908 vice_captain_752_25
- + 0.29858 vice_captain_752_26 + 0.19088 vice_captain_753_23
- + 0.141211 vice_captain_753_24 + 0.162534 vice_captain_753_25
- + 0.195225 vice_captain_753_26 + 0.135457 vice_captain_754_23
- + 0.137512 vice_captain_754_24 + 0.139818 vice_captain_754_25
- + 0.132416 vice_captain_754_26 + 0.1394 vice_captain_755_23
- + 0.136308 vice_captain_755_24 + 0.140661 vice_captain_755_25
- + 0.142216 vice_captain_755_26 + 0.161653 vice_captain_757_23
- + 0.249469 vice_captain_757_24 + 0.191969 vice_captain_757_25
- + 0.243805 vice_captain_757_26 + 0.141151 vice_captain_758_23
- + 0.135214 vice_captain_758_24 + 0.128571 vice_captain_758_25
- + 0.138077 vice_captain_758_26 + 0.132439 vice_captain_759_23
- + 0.13552 vice_captain_759_24 + 0.134236 vice_captain_759_25
- + 0.132418 vice_captain_759_26 + 0.237087 vice_captain_75_23
- + 0.212829 vice_captain_75_24 + 0.166677 vice_captain_75_25
- + 0.166455 vice_captain_75_26 + 0.14074 vice_captain_760_23
- + 0.1311 vice_captain_760_24 + 0.142082 vice_captain_760_25
- + 0.138489 vice_captain_760_26 + 0.161244 vice_captain_761_23
- + 0.119154 vice_captain_761_24 + 0.195061 vice_captain_761_25
- + 0.148851 vice_captain_761_26 + 0.142647 vice_captain_762_23
- + 0.146319 vice_captain_762_24 + 0.286668 vice_captain_762_25
- + 0.142832 vice_captain_762_26 + 0.148851 vice_captain_763_23
- + 0.149607 vice_captain_763_24 + 0.160041 vice_captain_763_25
- + 0.205816 vice_captain_763_26 + 0.139583 vice_captain_764_23
- + 0.13916 vice_captain_764_24 + 0.140049 vice_captain_764_25
- + 0.14687 vice_captain_764_26 + 0.321874 vice_captain_765_23
- + 0.336042 vice_captain_765_24 + 0.315719 vice_captain_765_25
- + 0.341032 vice_captain_765_26 + 0.195683 vice_captain_766_23
- + 0.161912 vice_captain_766_24 + 0.175358 vice_captain_766_25
- + 0.208473 vice_captain_766_26 + 0.144731 vice_captain_767_23
- + 0.146033 vice_captain_767_24 + 0.141627 vice_captain_767_25
- + 0.1481 vice_captain_767_26 + 0.186714 vice_captain_768_23
- + 0.148149 vice_captain_768_24 + 0.162055 vice_captain_768_25
- + 0.196305 vice_captain_768_26 + 0.241693 vice_captain_76_23
- + 0.207913 vice_captain_76_24 + 0.208019 vice_captain_76_25
- + 0.191001 vice_captain_76_26 + 0.13762 vice_captain_770_23
- + 0.144048 vice_captain_770_24 + 0.140285 vice_captain_770_25
- + 0.145536 vice_captain_770_26 + 0.144016 vice_captain_771_23
- + 0.147715 vice_captain_771_24 + 0.289417 vice_captain_771_25
- + 0.144202 vice_captain_771_26 + 0.142284 vice_captain_772_23
- + 0.141855 vice_captain_772_24 + 0.142756 vice_captain_772_25
- + 0.149674 vice_captain_772_26 + 0.143748 vice_captain_773_23
- + 0.142558 vice_captain_773_24 + 0.147054 vice_captain_773_25
- + 0.146821 vice_captain_773_26 + 0.156019 vice_captain_774_23
- + 0.164411 vice_captain_774_24 + 0.193978 vice_captain_774_25
- + 0.1877 vice_captain_774_26 + 0.331874 vice_captain_775_23
- + 0.341742 vice_captain_775_24 + 0.333931 vice_captain_775_25
- + 0.323954 vice_captain_775_26 + 0.39474 vice_captain_776_23
- + 0.367981 vice_captain_776_24 + 0.371508 vice_captain_776_25
- + 0.348474 vice_captain_776_26 + 0.222271 vice_captain_777_23
- + 0.22122 vice_captain_777_24 + 0.262023 vice_captain_777_25
- + 0.199025 vice_captain_777_26 + 0.326691 vice_captain_778_23
- + 0.34107 vice_captain_778_24 + 0.320445 vice_captain_778_25
- + 0.346133 vice_captain_778_26 + 0.146986 vice_captain_779_23
- + 0.152535 vice_captain_779_24 + 0.149178 vice_captain_779_25
- + 0.140899 vice_captain_779_26 + 0.381352 vice_captain_77_23
- + 0.351231 vice_captain_77_24 + 0.337526 vice_captain_77_25
- + 0.357754 vice_captain_77_26 + 0.154729 vice_captain_780_23
- + 0.166894 vice_captain_780_24 + 0.162124 vice_captain_780_25
- + 0.152836 vice_captain_780_26 + 0.154729 vice_captain_781_23
- + 0.166894 vice_captain_781_24 + 0.162124 vice_captain_781_25
- + 0.152836 vice_captain_781_26 + 0.185248 vice_captain_782_23
- + 0.28169 vice_captain_782_24 + 0.231205 vice_captain_782_25
- + 0.291268 vice_captain_782_26 + 0.117614 vice_captain_783_23
- + 0.128148 vice_captain_783_24 + 0.128108 vice_captain_783_25
- + 0.130524 vice_captain_783_26 + 0.15733 vice_captain_784_23
- + 0.165752 vice_captain_784_24 + 0.195424 vice_captain_784_25
- + 0.189124 vice_captain_784_26 + 0.149784 vice_captain_785_23
- + 0.145921 vice_captain_785_24 + 0.155673 vice_captain_785_25
- + 0.151673 vice_captain_785_26 + 0.14761 vice_captain_786_23
- + 0.144384 vice_captain_786_24 + 0.148926 vice_captain_786_25
- + 0.150548 vice_captain_786_26 + 0.141662 vice_captain_787_23
- + 0.148228 vice_captain_787_24 + 0.144384 vice_captain_787_25
- + 0.149747 vice_captain_787_26 + 0.139305 vice_captain_788_23
- + 0.189124 vice_captain_788_24 + 0.149939 vice_captain_788_25
- + 0.221066 vice_captain_788_26 + 0.23622 vice_captain_78_23
- + 0.223168 vice_captain_78_24 + 0.215159 vice_captain_78_25
- + 0.214207 vice_captain_78_26 + 0.167341 vice_captain_7_23
- + 0.168162 vice_captain_7_24 + 0.179492 vice_captain_7_25
- + 0.229197 vice_captain_7_26 + 0.323627 vice_captain_80_23
- + 0.299598 vice_captain_80_24 + 0.288665 vice_captain_80_25
- + 0.304801 vice_captain_80_26 + 0.275257 vice_captain_82_23
- + 0.24055 vice_captain_82_24 + 0.242288 vice_captain_82_25
- + 0.2231 vice_captain_82_26 + 0.314857 vice_captain_83_23
- + 0.280593 vice_captain_83_24 + 0.218584 vice_captain_83_25
- + 0.216856 vice_captain_83_26 + 0.294383 vice_captain_84_23
- + 0.263619 vice_captain_84_24 + 0.208866 vice_captain_84_25
- + 0.207341 vice_captain_84_26 + 0.568821 vice_captain_85_23
- + 0.485764 vice_captain_85_24 + 0.487908 vice_captain_85_25
- + 0.448505 vice_captain_85_26 + 0.455451 vice_captain_86_23
- + 0.419341 vice_captain_86_24 + 0.392366 vice_captain_86_25
- + 0.389914 vice_captain_86_26 + 0.2934 vice_captain_88_23
- + 0.27157 vice_captain_88_24 + 0.261636 vice_captain_88_25
- + 0.276297 vice_captain_88_26 + 0.327938 vice_captain_89_23
- + 0.29706 vice_captain_89_24 + 0.240755 vice_captain_89_25
- + 0.240575 vice_captain_89_26 + 0.415547 vice_captain_8_23
- + 0.431203 vice_captain_8_24 + 0.411187 vice_captain_8_25
- + 0.453869 vice_captain_8_26 + 0.178625 vice_captain_90_23
- + 0.267941 vice_captain_90_24 + 0.396346 vice_captain_90_25
- + 0.231554 vice_captain_90_26 + 0.304801 vice_captain_91_23
- + 0.315403 vice_captain_91_24 + 0.559089 vice_captain_91_25
- + 0.285402 vice_captain_91_26 + 0.143371 vice_captain_92_23
- + 0.151269 vice_captain_92_24 + 0.299099 vice_captain_92_25
- + 0.155978 vice_captain_92_26 + 0.129356 vice_captain_93_23
- + 0.188723 vice_captain_93_24 + 0.302685 vice_captain_93_25
- + 0.159167 vice_captain_93_26 + 0.214366 vice_captain_96_23
- + 0.299083 vice_captain_96_24 + 0.460185 vice_captain_96_25
- + 0.261359 vice_captain_96_26 + 0.178224 vice_captain_98_23
- + 0.189358 vice_captain_98_24 + 0.371755 vice_captain_98_25
- + 0.193065 vice_captain_98_26 + 0.118185 vice_captain_99_23
- + 0.124908 vice_captain_99_24 + 0.250155 vice_captain_99_25
- + 0.130251 vice_captain_99_26 + 0.229367 vice_captain_9_23
- + 0.229993 vice_captain_9_24 + 0.233468 vice_captain_9_25
- + 0.249834 vice_captain_9_26
+ + 0.223534 vice_captain_73_26 + 0.152511 vice_captain_740_23
+ + 0.149318 vice_captain_740_24 + 0.17876 vice_captain_740_25
+ + 0.142394 vice_captain_741_23 + 0.149286 vice_captain_741_24
+ + 0.148291 vice_captain_741_25 + 0.148714 vice_captain_741_26
+ + 0.121584 vice_captain_742_23 + 0.121311 vice_captain_742_24
+ + 0.127802 vice_captain_742_25 + 0.132524 vice_captain_742_26
+ + 0.126574 vice_captain_743_23 + 0.13736 vice_captain_743_24
+ + 0.133437 vice_captain_743_25 + 0.156768 vice_captain_745_23
+ + 0.134834 vice_captain_745_24 + 0.132723 vice_captain_745_25
+ + 0.12266 vice_captain_745_26 + 0.188162 vice_captain_746_23
+ + 0.137221 vice_captain_746_24 + 0.160007 vice_captain_746_25
+ + 0.189575 vice_captain_746_26 + 0.135477 vice_captain_747_23
+ + 0.132025 vice_captain_747_24 + 0.136712 vice_captain_747_25
+ + 0.139271 vice_captain_747_26 + 0.132416 vice_captain_749_23
+ + 0.139283 vice_captain_749_24 + 0.134579 vice_captain_749_25
+ + 0.14086 vice_captain_749_26 + 0.122102 vice_captain_750_23
+ + 0.130785 vice_captain_750_24 + 0.128996 vice_captain_750_25
+ + 0.13715 vice_captain_750_26 + 0.129659 vice_captain_751_23
+ + 0.17915 vice_captain_751_24 + 0.138389 vice_captain_751_25
+ + 0.206094 vice_captain_751_26 + 0.31772 vice_captain_752_23
+ + 0.328768 vice_captain_752_24 + 0.582941 vice_captain_752_25
+ + 0.297504 vice_captain_752_26 + 0.189514 vice_captain_753_23
+ + 0.138401 vice_captain_753_24 + 0.161264 vice_captain_753_25
+ + 0.190932 vice_captain_753_26 + 0.134168 vice_captain_754_23
+ + 0.135964 vice_captain_754_24 + 0.138498 vice_captain_754_25
+ + 0.138079 vice_captain_755_23 + 0.134579 vice_captain_755_24
+ + 0.139332 vice_captain_755_25 + 0.141926 vice_captain_755_26
+ + 0.234079 vice_captain_757_23 + 0.333594 vice_captain_757_24
+ + 0.256572 vice_captain_757_25 + 0.139818 vice_captain_758_23
+ + 0.133657 vice_captain_758_24 + 0.127261 vice_captain_758_25
+ + 0.13118 vice_captain_759_23 + 0.133461 vice_captain_759_24
+ + 0.13275 vice_captain_759_25 + 0.131159 vice_captain_759_26
+ + 0.237087 vice_captain_75_23 + 0.213792 vice_captain_75_24
+ + 0.166677 vice_captain_75_25 + 0.166455 vice_captain_75_26
+ + 0.139402 vice_captain_760_23 + 0.129764 vice_captain_760_24
+ + 0.140734 vice_captain_760_25 + 0.137167 vice_captain_760_26
+ + 0.159953 vice_captain_761_23 + 0.121774 vice_captain_761_24
+ + 0.193653 vice_captain_761_25 + 0.147603 vice_captain_761_26
+ + 0.141291 vice_captain_762_23 + 0.14601 vice_captain_762_24
+ + 0.284831 vice_captain_762_25 + 0.141475 vice_captain_762_26
+ + 0.148851 vice_captain_763_23 + 0.149607 vice_captain_763_24
+ + 0.160041 vice_captain_763_25 + 0.205816 vice_captain_763_26
+ + 0.138253 vice_captain_764_23 + 0.137833 vice_captain_764_24
+ + 0.138715 vice_captain_764_25 + 0.14505 vice_captain_764_26
+ + 0.3207 vice_captain_765_23 + 0.334816 vice_captain_765_24
+ + 0.316692 vice_captain_765_25 + 0.339788 vice_captain_765_26
+ + 0.195683 vice_captain_766_23 + 0.166541 vice_captain_766_24
+ + 0.172112 vice_captain_766_25 + 0.208473 vice_captain_766_26
+ + 0.143361 vice_captain_767_23 + 0.144654 vice_captain_767_24
+ + 0.140125 vice_captain_767_25 + 0.146706 vice_captain_767_26
+ + 0.186714 vice_captain_768_23 + 0.152936 vice_captain_768_24
+ + 0.158698 vice_captain_768_25 + 0.196305 vice_captain_768_26
+ + 0.241693 vice_captain_76_23 + 0.20854 vice_captain_76_24
+ + 0.208019 vice_captain_76_25 + 0.191001 vice_captain_76_26
+ + 0.13762 vice_captain_770_23 + 0.144681 vice_captain_770_24
+ + 0.139843 vice_captain_770_25 + 0.146303 vice_captain_770_26
+ + 0.142647 vice_captain_771_23 + 0.147399 vice_captain_771_24
+ + 0.287558 vice_captain_771_25 + 0.142832 vice_captain_771_26
+ + 0.140927 vice_captain_772_23 + 0.140501 vice_captain_772_24
+ + 0.141396 vice_captain_772_25 + 0.14782 vice_captain_772_26
+ + 0.143748 vice_captain_773_23 + 0.142014 vice_captain_773_24
+ + 0.147423 vice_captain_773_25 + 0.147463 vice_captain_773_26
+ + 0.156019 vice_captain_774_23 + 0.164422 vice_captain_774_24
+ + 0.198046 vice_captain_774_25 + 0.188766 vice_captain_774_26
+ + 0.272669 vice_captain_775_23 + 0.28113 vice_captain_775_24
+ + 0.279668 vice_captain_775_25 + 0.275287 vice_captain_775_26
+ + 0.456301 vice_captain_776_23 + 0.431329 vice_captain_776_24
+ + 0.42391 vice_captain_776_25 + 0.192965 vice_captain_777_23
+ + 0.196064 vice_captain_777_24 + 0.237946 vice_captain_777_25
+ + 0.325468 vice_captain_778_23 + 0.339794 vice_captain_778_24
+ + 0.321402 vice_captain_778_25 + 0.344839 vice_captain_778_26
+ + 0.145587 vice_captain_779_23 + 0.150646 vice_captain_779_24
+ + 0.147764 vice_captain_779_25 + 0.140434 vice_captain_779_26
+ + 0.381352 vice_captain_77_23 + 0.353769 vice_captain_77_24
+ + 0.337526 vice_captain_77_25 + 0.357754 vice_captain_77_26
+ + 0.153524 vice_captain_780_23 + 0.167013 vice_captain_780_24
+ + 0.160896 vice_captain_780_25 + 0.150025 vice_captain_780_26
+ + 0.153524 vice_captain_781_23 + 0.167013 vice_captain_781_24
+ + 0.160896 vice_captain_781_25 + 0.150025 vice_captain_781_26
+ + 0.116405 vice_captain_783_23 + 0.127052 vice_captain_783_24
+ + 0.126871 vice_captain_783_25 + 0.15733 vice_captain_784_23
+ + 0.165763 vice_captain_784_24 + 0.199507 vice_captain_784_25
+ + 0.190194 vice_captain_784_26 + 0.146207 vice_captain_786_23
+ + 0.142556 vice_captain_786_24 + 0.147513 vice_captain_786_25
+ + 0.150219 vice_captain_786_26 + 0.141662 vice_captain_787_23
+ + 0.148875 vice_captain_787_24 + 0.143933 vice_captain_787_25
+ + 0.150531 vice_captain_787_26 + 0.326008 vice_captain_789_23
+ + 0.337342 vice_captain_789_24 + 0.598156 vice_captain_789_25
+ + 0.305268 vice_captain_789_26 + 0.23622 vice_captain_78_23
+ + 0.222828 vice_captain_78_24 + 0.215159 vice_captain_78_25
+ + 0.214207 vice_captain_78_26 + 0.343869 vice_captain_790_23
+ + 0.347718 vice_captain_790_24 + 0.344847 vice_captain_790_25
+ + 0.35733 vice_captain_790_26 + 0.13501 vice_captain_791_23
+ + 0.13136 vice_captain_791_24 + 0.127495 vice_captain_791_25
+ + 0.243771 vice_captain_792_23 + 0.251178 vice_captain_792_24
+ + 0.259818 vice_captain_792_25 + 0.32096 vice_captain_792_26
+ + 0.171789 vice_captain_793_23 + 0.183548 vice_captain_793_24
+ + 0.179712 vice_captain_793_25 + 0.202317 vice_captain_793_26
+ + 0.146375 vice_captain_794_23 + 0.148834 vice_captain_794_24
+ + 0.154037 vice_captain_794_25 + 0.139438 vice_captain_794_26
+ + 0.146375 vice_captain_795_23 + 0.148834 vice_captain_795_24
+ + 0.154037 vice_captain_795_25 + 0.139438 vice_captain_795_26
+ + 0.145519 vice_captain_796_23 + 0.154037 vice_captain_796_24
+ + 0.144875 vice_captain_796_25 + 0.145133 vice_captain_796_26
+ + 0.133808 vice_captain_797_23 + 0.19004 vice_captain_797_24
+ + 0.280818 vice_captain_797_25 + 0.159087 vice_captain_797_26
+ + 0.323627 vice_captain_80_23 + 0.301623 vice_captain_80_24
+ + 0.288665 vice_captain_80_25 + 0.304801 vice_captain_80_26
+ + 0.275257 vice_captain_82_23 + 0.241244 vice_captain_82_24
+ + 0.242288 vice_captain_82_25 + 0.2231 vice_captain_82_26
+ + 0.314857 vice_captain_83_23 + 0.281892 vice_captain_83_24
+ + 0.218584 vice_captain_83_25 + 0.216856 vice_captain_83_26
+ + 0.294383 vice_captain_84_23 + 0.264765 vice_captain_84_24
+ + 0.208866 vice_captain_84_25 + 0.207341 vice_captain_84_26
+ + 0.568821 vice_captain_85_23 + 0.487294 vice_captain_85_24
+ + 0.487908 vice_captain_85_25 + 0.448505 vice_captain_85_26
+ + 0.455451 vice_captain_86_23 + 0.418591 vice_captain_86_24
+ + 0.392366 vice_captain_86_25 + 0.389914 vice_captain_86_26
+ + 0.2934 vice_captain_88_23 + 0.273409 vice_captain_88_24
+ + 0.261636 vice_captain_88_25 + 0.276297 vice_captain_88_26
+ + 0.327938 vice_captain_89_23 + 0.298293 vice_captain_89_24
+ + 0.240755 vice_captain_89_25 + 0.240575 vice_captain_89_26
+ + 0.413787 vice_captain_8_23 + 0.429913 vice_captain_8_24
+ + 0.410134 vice_captain_8_25 + 0.458032 vice_captain_8_26
+ + 0.16225 vice_captain_90_23 + 0.252087 vice_captain_90_24
+ + 0.383878 vice_captain_90_25 + 0.226154 vice_captain_90_26
+ + 0.303794 vice_captain_91_23 + 0.314361 vice_captain_91_24
+ + 0.557373 vice_captain_91_25 + 0.284458 vice_captain_91_26
+ + 0.139321 vice_captain_92_23 + 0.148621 vice_captain_92_24
+ + 0.297565 vice_captain_92_25 + 0.157322 vice_captain_92_26
+ + 0.129356 vice_captain_93_23 + 0.188723 vice_captain_93_24
+ + 0.302685 vice_captain_93_25 + 0.159167 vice_captain_93_26
+ + 0.202297 vice_captain_96_23 + 0.287838 vice_captain_96_24
+ + 0.455877 vice_captain_96_25 + 0.260137 vice_captain_96_26
+ + 0.159812 vice_captain_98_23 + 0.173554 vice_captain_98_24
+ + 0.350195 vice_captain_98_25 + 0.1865 vice_captain_98_26
+ + 0.115045 vice_captain_99_23 + 0.122987 vice_captain_99_24
+ + 0.249514 vice_captain_99_25 + 0.131751 vice_captain_99_26
+ + 0.209181 vice_captain_9_23 + 0.213506 vice_captain_9_24
+ + 0.220565 vice_captain_9_25 + 0.239078 vice_captain_9_26
 Subject To
 Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_100_in_gameweek_23:
  captain_100_23 + vice_captain_100_23 <= 1
@@ -8975,6 +8796,14 @@ Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_788_in
  captain_788_25 + vice_captain_788_25 <= 1
 Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_788_in_gameweek_26:
  captain_788_26 + vice_captain_788_26 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_789_in_gameweek_23:
+ captain_789_23 + vice_captain_789_23 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_789_in_gameweek_24:
+ captain_789_24 + vice_captain_789_24 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_789_in_gameweek_25:
+ captain_789_25 + vice_captain_789_25 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_789_in_gameweek_26:
+ captain_789_26 + vice_captain_789_26 <= 1
 Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_78_in_gameweek_23:
  captain_78_23 + vice_captain_78_23 <= 1
 Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_78_in_gameweek_24:
@@ -8983,6 +8812,70 @@ Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_78_in_
  captain_78_25 + vice_captain_78_25 <= 1
 Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_78_in_gameweek_26:
  captain_78_26 + vice_captain_78_26 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_790_in_gameweek_23:
+ captain_790_23 + vice_captain_790_23 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_790_in_gameweek_24:
+ captain_790_24 + vice_captain_790_24 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_790_in_gameweek_25:
+ captain_790_25 + vice_captain_790_25 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_790_in_gameweek_26:
+ captain_790_26 + vice_captain_790_26 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_791_in_gameweek_23:
+ captain_791_23 + vice_captain_791_23 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_791_in_gameweek_24:
+ captain_791_24 + vice_captain_791_24 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_791_in_gameweek_25:
+ captain_791_25 + vice_captain_791_25 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_791_in_gameweek_26:
+ captain_791_26 + vice_captain_791_26 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_792_in_gameweek_23:
+ captain_792_23 + vice_captain_792_23 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_792_in_gameweek_24:
+ captain_792_24 + vice_captain_792_24 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_792_in_gameweek_25:
+ captain_792_25 + vice_captain_792_25 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_792_in_gameweek_26:
+ captain_792_26 + vice_captain_792_26 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_793_in_gameweek_23:
+ captain_793_23 + vice_captain_793_23 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_793_in_gameweek_24:
+ captain_793_24 + vice_captain_793_24 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_793_in_gameweek_25:
+ captain_793_25 + vice_captain_793_25 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_793_in_gameweek_26:
+ captain_793_26 + vice_captain_793_26 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_794_in_gameweek_23:
+ captain_794_23 + vice_captain_794_23 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_794_in_gameweek_24:
+ captain_794_24 + vice_captain_794_24 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_794_in_gameweek_25:
+ captain_794_25 + vice_captain_794_25 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_794_in_gameweek_26:
+ captain_794_26 + vice_captain_794_26 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_795_in_gameweek_23:
+ captain_795_23 + vice_captain_795_23 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_795_in_gameweek_24:
+ captain_795_24 + vice_captain_795_24 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_795_in_gameweek_25:
+ captain_795_25 + vice_captain_795_25 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_795_in_gameweek_26:
+ captain_795_26 + vice_captain_795_26 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_796_in_gameweek_23:
+ captain_796_23 + vice_captain_796_23 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_796_in_gameweek_24:
+ captain_796_24 + vice_captain_796_24 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_796_in_gameweek_25:
+ captain_796_25 + vice_captain_796_25 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_796_in_gameweek_26:
+ captain_796_26 + vice_captain_796_26 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_797_in_gameweek_23:
+ captain_797_23 + vice_captain_797_23 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_797_in_gameweek_24:
+ captain_797_24 + vice_captain_797_24 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_797_in_gameweek_25:
+ captain_797_25 + vice_captain_797_25 <= 1
+Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_797_in_gameweek_26:
+ captain_797_26 + vice_captain_797_26 <= 1
 Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_79_in_gameweek_23:
  captain_79_23 + vice_captain_79_23 <= 1
 Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_79_in_gameweek_24:
@@ -9366,13 +9259,15 @@ Captain_count_constraint_for_gameweek_23: captain_100_23 + captain_101_23
  + captain_778_23 + captain_779_23 + captain_77_23 + captain_780_23
  + captain_781_23 + captain_782_23 + captain_783_23 + captain_784_23
  + captain_785_23 + captain_786_23 + captain_787_23 + captain_788_23
- + captain_78_23 + captain_79_23 + captain_7_23 + captain_80_23
- + captain_81_23 + captain_82_23 + captain_83_23 + captain_84_23
- + captain_85_23 + captain_86_23 + captain_87_23 + captain_88_23
- + captain_89_23 + captain_8_23 + captain_90_23 + captain_91_23
- + captain_92_23 + captain_93_23 + captain_94_23 + captain_95_23
- + captain_96_23 + captain_97_23 + captain_98_23 + captain_99_23
- + captain_9_23 = 1
+ + captain_789_23 + captain_78_23 + captain_790_23 + captain_791_23
+ + captain_792_23 + captain_793_23 + captain_794_23 + captain_795_23
+ + captain_796_23 + captain_797_23 + captain_79_23 + captain_7_23
+ + captain_80_23 + captain_81_23 + captain_82_23 + captain_83_23
+ + captain_84_23 + captain_85_23 + captain_86_23 + captain_87_23
+ + captain_88_23 + captain_89_23 + captain_8_23 + captain_90_23
+ + captain_91_23 + captain_92_23 + captain_93_23 + captain_94_23
+ + captain_95_23 + captain_96_23 + captain_97_23 + captain_98_23
+ + captain_99_23 + captain_9_23 = 1
 Captain_count_constraint_for_gameweek_24: captain_100_24 + captain_101_24
  + captain_102_24 + captain_103_24 + captain_104_24 + captain_105_24
  + captain_106_24 + captain_107_24 + captain_108_24 + captain_109_24
@@ -9564,13 +9459,15 @@ Captain_count_constraint_for_gameweek_24: captain_100_24 + captain_101_24
  + captain_778_24 + captain_779_24 + captain_77_24 + captain_780_24
  + captain_781_24 + captain_782_24 + captain_783_24 + captain_784_24
  + captain_785_24 + captain_786_24 + captain_787_24 + captain_788_24
- + captain_78_24 + captain_79_24 + captain_7_24 + captain_80_24
- + captain_81_24 + captain_82_24 + captain_83_24 + captain_84_24
- + captain_85_24 + captain_86_24 + captain_87_24 + captain_88_24
- + captain_89_24 + captain_8_24 + captain_90_24 + captain_91_24
- + captain_92_24 + captain_93_24 + captain_94_24 + captain_95_24
- + captain_96_24 + captain_97_24 + captain_98_24 + captain_99_24
- + captain_9_24 = 1
+ + captain_789_24 + captain_78_24 + captain_790_24 + captain_791_24
+ + captain_792_24 + captain_793_24 + captain_794_24 + captain_795_24
+ + captain_796_24 + captain_797_24 + captain_79_24 + captain_7_24
+ + captain_80_24 + captain_81_24 + captain_82_24 + captain_83_24
+ + captain_84_24 + captain_85_24 + captain_86_24 + captain_87_24
+ + captain_88_24 + captain_89_24 + captain_8_24 + captain_90_24
+ + captain_91_24 + captain_92_24 + captain_93_24 + captain_94_24
+ + captain_95_24 + captain_96_24 + captain_97_24 + captain_98_24
+ + captain_99_24 + captain_9_24 = 1
 Captain_count_constraint_for_gameweek_25: captain_100_25 + captain_101_25
  + captain_102_25 + captain_103_25 + captain_104_25 + captain_105_25
  + captain_106_25 + captain_107_25 + captain_108_25 + captain_109_25
@@ -9762,13 +9659,15 @@ Captain_count_constraint_for_gameweek_25: captain_100_25 + captain_101_25
  + captain_778_25 + captain_779_25 + captain_77_25 + captain_780_25
  + captain_781_25 + captain_782_25 + captain_783_25 + captain_784_25
  + captain_785_25 + captain_786_25 + captain_787_25 + captain_788_25
- + captain_78_25 + captain_79_25 + captain_7_25 + captain_80_25
- + captain_81_25 + captain_82_25 + captain_83_25 + captain_84_25
- + captain_85_25 + captain_86_25 + captain_87_25 + captain_88_25
- + captain_89_25 + captain_8_25 + captain_90_25 + captain_91_25
- + captain_92_25 + captain_93_25 + captain_94_25 + captain_95_25
- + captain_96_25 + captain_97_25 + captain_98_25 + captain_99_25
- + captain_9_25 = 1
+ + captain_789_25 + captain_78_25 + captain_790_25 + captain_791_25
+ + captain_792_25 + captain_793_25 + captain_794_25 + captain_795_25
+ + captain_796_25 + captain_797_25 + captain_79_25 + captain_7_25
+ + captain_80_25 + captain_81_25 + captain_82_25 + captain_83_25
+ + captain_84_25 + captain_85_25 + captain_86_25 + captain_87_25
+ + captain_88_25 + captain_89_25 + captain_8_25 + captain_90_25
+ + captain_91_25 + captain_92_25 + captain_93_25 + captain_94_25
+ + captain_95_25 + captain_96_25 + captain_97_25 + captain_98_25
+ + captain_99_25 + captain_9_25 = 1
 Captain_count_constraint_for_gameweek_26: captain_100_26 + captain_101_26
  + captain_102_26 + captain_103_26 + captain_104_26 + captain_105_26
  + captain_106_26 + captain_107_26 + captain_108_26 + captain_109_26
@@ -9960,13 +9859,15 @@ Captain_count_constraint_for_gameweek_26: captain_100_26 + captain_101_26
  + captain_778_26 + captain_779_26 + captain_77_26 + captain_780_26
  + captain_781_26 + captain_782_26 + captain_783_26 + captain_784_26
  + captain_785_26 + captain_786_26 + captain_787_26 + captain_788_26
- + captain_78_26 + captain_79_26 + captain_7_26 + captain_80_26
- + captain_81_26 + captain_82_26 + captain_83_26 + captain_84_26
- + captain_85_26 + captain_86_26 + captain_87_26 + captain_88_26
- + captain_89_26 + captain_8_26 + captain_90_26 + captain_91_26
- + captain_92_26 + captain_93_26 + captain_94_26 + captain_95_26
- + captain_96_26 + captain_97_26 + captain_98_26 + captain_99_26
- + captain_9_26 = 1
+ + captain_789_26 + captain_78_26 + captain_790_26 + captain_791_26
+ + captain_792_26 + captain_793_26 + captain_794_26 + captain_795_26
+ + captain_796_26 + captain_797_26 + captain_79_26 + captain_7_26
+ + captain_80_26 + captain_81_26 + captain_82_26 + captain_83_26
+ + captain_84_26 + captain_85_26 + captain_86_26 + captain_87_26
+ + captain_88_26 + captain_89_26 + captain_8_26 + captain_90_26
+ + captain_91_26 + captain_92_26 + captain_93_26 + captain_94_26
+ + captain_95_26 + captain_96_26 + captain_97_26 + captain_98_26
+ + captain_99_26 + captain_9_26 = 1
 Captain_must_be_in_lineup_constraint_for_player_100_in_gameweek_23:
  captain_100_23 - lineup_100_23 <= 0
 Captain_must_be_in_lineup_constraint_for_player_100_in_gameweek_24:
@@ -16063,6 +15964,14 @@ Captain_must_be_in_lineup_constraint_for_player_788_in_gameweek_25:
  captain_788_25 - lineup_788_25 <= 0
 Captain_must_be_in_lineup_constraint_for_player_788_in_gameweek_26:
  captain_788_26 - lineup_788_26 <= 0
+Captain_must_be_in_lineup_constraint_for_player_789_in_gameweek_23:
+ captain_789_23 - lineup_789_23 <= 0
+Captain_must_be_in_lineup_constraint_for_player_789_in_gameweek_24:
+ captain_789_24 - lineup_789_24 <= 0
+Captain_must_be_in_lineup_constraint_for_player_789_in_gameweek_25:
+ captain_789_25 - lineup_789_25 <= 0
+Captain_must_be_in_lineup_constraint_for_player_789_in_gameweek_26:
+ captain_789_26 - lineup_789_26 <= 0
 Captain_must_be_in_lineup_constraint_for_player_78_in_gameweek_23:
  captain_78_23 - lineup_78_23 <= 0
 Captain_must_be_in_lineup_constraint_for_player_78_in_gameweek_24:
@@ -16071,6 +15980,70 @@ Captain_must_be_in_lineup_constraint_for_player_78_in_gameweek_25:
  captain_78_25 - lineup_78_25 <= 0
 Captain_must_be_in_lineup_constraint_for_player_78_in_gameweek_26:
  captain_78_26 - lineup_78_26 <= 0
+Captain_must_be_in_lineup_constraint_for_player_790_in_gameweek_23:
+ captain_790_23 - lineup_790_23 <= 0
+Captain_must_be_in_lineup_constraint_for_player_790_in_gameweek_24:
+ captain_790_24 - lineup_790_24 <= 0
+Captain_must_be_in_lineup_constraint_for_player_790_in_gameweek_25:
+ captain_790_25 - lineup_790_25 <= 0
+Captain_must_be_in_lineup_constraint_for_player_790_in_gameweek_26:
+ captain_790_26 - lineup_790_26 <= 0
+Captain_must_be_in_lineup_constraint_for_player_791_in_gameweek_23:
+ captain_791_23 - lineup_791_23 <= 0
+Captain_must_be_in_lineup_constraint_for_player_791_in_gameweek_24:
+ captain_791_24 - lineup_791_24 <= 0
+Captain_must_be_in_lineup_constraint_for_player_791_in_gameweek_25:
+ captain_791_25 - lineup_791_25 <= 0
+Captain_must_be_in_lineup_constraint_for_player_791_in_gameweek_26:
+ captain_791_26 - lineup_791_26 <= 0
+Captain_must_be_in_lineup_constraint_for_player_792_in_gameweek_23:
+ captain_792_23 - lineup_792_23 <= 0
+Captain_must_be_in_lineup_constraint_for_player_792_in_gameweek_24:
+ captain_792_24 - lineup_792_24 <= 0
+Captain_must_be_in_lineup_constraint_for_player_792_in_gameweek_25:
+ captain_792_25 - lineup_792_25 <= 0
+Captain_must_be_in_lineup_constraint_for_player_792_in_gameweek_26:
+ captain_792_26 - lineup_792_26 <= 0
+Captain_must_be_in_lineup_constraint_for_player_793_in_gameweek_23:
+ captain_793_23 - lineup_793_23 <= 0
+Captain_must_be_in_lineup_constraint_for_player_793_in_gameweek_24:
+ captain_793_24 - lineup_793_24 <= 0
+Captain_must_be_in_lineup_constraint_for_player_793_in_gameweek_25:
+ captain_793_25 - lineup_793_25 <= 0
+Captain_must_be_in_lineup_constraint_for_player_793_in_gameweek_26:
+ captain_793_26 - lineup_793_26 <= 0
+Captain_must_be_in_lineup_constraint_for_player_794_in_gameweek_23:
+ captain_794_23 - lineup_794_23 <= 0
+Captain_must_be_in_lineup_constraint_for_player_794_in_gameweek_24:
+ captain_794_24 - lineup_794_24 <= 0
+Captain_must_be_in_lineup_constraint_for_player_794_in_gameweek_25:
+ captain_794_25 - lineup_794_25 <= 0
+Captain_must_be_in_lineup_constraint_for_player_794_in_gameweek_26:
+ captain_794_26 - lineup_794_26 <= 0
+Captain_must_be_in_lineup_constraint_for_player_795_in_gameweek_23:
+ captain_795_23 - lineup_795_23 <= 0
+Captain_must_be_in_lineup_constraint_for_player_795_in_gameweek_24:
+ captain_795_24 - lineup_795_24 <= 0
+Captain_must_be_in_lineup_constraint_for_player_795_in_gameweek_25:
+ captain_795_25 - lineup_795_25 <= 0
+Captain_must_be_in_lineup_constraint_for_player_795_in_gameweek_26:
+ captain_795_26 - lineup_795_26 <= 0
+Captain_must_be_in_lineup_constraint_for_player_796_in_gameweek_23:
+ captain_796_23 - lineup_796_23 <= 0
+Captain_must_be_in_lineup_constraint_for_player_796_in_gameweek_24:
+ captain_796_24 - lineup_796_24 <= 0
+Captain_must_be_in_lineup_constraint_for_player_796_in_gameweek_25:
+ captain_796_25 - lineup_796_25 <= 0
+Captain_must_be_in_lineup_constraint_for_player_796_in_gameweek_26:
+ captain_796_26 - lineup_796_26 <= 0
+Captain_must_be_in_lineup_constraint_for_player_797_in_gameweek_23:
+ captain_797_23 - lineup_797_23 <= 0
+Captain_must_be_in_lineup_constraint_for_player_797_in_gameweek_24:
+ captain_797_24 - lineup_797_24 <= 0
+Captain_must_be_in_lineup_constraint_for_player_797_in_gameweek_25:
+ captain_797_25 - lineup_797_25 <= 0
+Captain_must_be_in_lineup_constraint_for_player_797_in_gameweek_26:
+ captain_797_26 - lineup_797_26 <= 0
 Captain_must_be_in_lineup_constraint_for_player_79_in_gameweek_23:
  captain_79_23 - lineup_79_23 <= 0
 Captain_must_be_in_lineup_constraint_for_player_79_in_gameweek_24:
@@ -16528,7 +16501,10 @@ FTA_and_TM_Equality_1_constraint_for_gameweek_24: - 2 auxiliary_variable_24
  - transfer_in_77_23 - transfer_in_780_23 - transfer_in_781_23
  - transfer_in_782_23 - transfer_in_783_23 - transfer_in_784_23
  - transfer_in_785_23 - transfer_in_786_23 - transfer_in_787_23
- - transfer_in_788_23 - transfer_in_78_23 - transfer_in_79_23
+ - transfer_in_788_23 - transfer_in_789_23 - transfer_in_78_23
+ - transfer_in_790_23 - transfer_in_791_23 - transfer_in_792_23
+ - transfer_in_793_23 - transfer_in_794_23 - transfer_in_795_23
+ - transfer_in_796_23 - transfer_in_797_23 - transfer_in_79_23
  - transfer_in_7_23 - transfer_in_80_23 - transfer_in_81_23
  - transfer_in_82_23 - transfer_in_83_23 - transfer_in_84_23
  - transfer_in_85_23 - transfer_in_86_23 - transfer_in_87_23
@@ -16792,7 +16768,10 @@ FTA_and_TM_Equality_1_constraint_for_gameweek_25: - 2 auxiliary_variable_25
  - transfer_in_77_24 - transfer_in_780_24 - transfer_in_781_24
  - transfer_in_782_24 - transfer_in_783_24 - transfer_in_784_24
  - transfer_in_785_24 - transfer_in_786_24 - transfer_in_787_24
- - transfer_in_788_24 - transfer_in_78_24 - transfer_in_79_24
+ - transfer_in_788_24 - transfer_in_789_24 - transfer_in_78_24
+ - transfer_in_790_24 - transfer_in_791_24 - transfer_in_792_24
+ - transfer_in_793_24 - transfer_in_794_24 - transfer_in_795_24
+ - transfer_in_796_24 - transfer_in_797_24 - transfer_in_79_24
  - transfer_in_7_24 - transfer_in_80_24 - transfer_in_81_24
  - transfer_in_82_24 - transfer_in_83_24 - transfer_in_84_24
  - transfer_in_85_24 - transfer_in_86_24 - transfer_in_87_24
@@ -17056,7 +17035,10 @@ FTA_and_TM_Equality_1_constraint_for_gameweek_26: - 2 auxiliary_variable_26
  - transfer_in_77_25 - transfer_in_780_25 - transfer_in_781_25
  - transfer_in_782_25 - transfer_in_783_25 - transfer_in_784_25
  - transfer_in_785_25 - transfer_in_786_25 - transfer_in_787_25
- - transfer_in_788_25 - transfer_in_78_25 - transfer_in_79_25
+ - transfer_in_788_25 - transfer_in_789_25 - transfer_in_78_25
+ - transfer_in_790_25 - transfer_in_791_25 - transfer_in_792_25
+ - transfer_in_793_25 - transfer_in_794_25 - transfer_in_795_25
+ - transfer_in_796_25 - transfer_in_797_25 - transfer_in_79_25
  - transfer_in_7_25 - transfer_in_80_25 - transfer_in_81_25
  - transfer_in_82_25 - transfer_in_83_25 - transfer_in_84_25
  - transfer_in_85_25 - transfer_in_86_25 - transfer_in_87_25
@@ -17322,7 +17304,10 @@ FTA_and_TM_Equality_2_constraint_for_gameweek_24: - 15 auxiliary_variable_24
  - transfer_in_77_23 - transfer_in_780_23 - transfer_in_781_23
  - transfer_in_782_23 - transfer_in_783_23 - transfer_in_784_23
  - transfer_in_785_23 - transfer_in_786_23 - transfer_in_787_23
- - transfer_in_788_23 - transfer_in_78_23 - transfer_in_79_23
+ - transfer_in_788_23 - transfer_in_789_23 - transfer_in_78_23
+ - transfer_in_790_23 - transfer_in_791_23 - transfer_in_792_23
+ - transfer_in_793_23 - transfer_in_794_23 - transfer_in_795_23
+ - transfer_in_796_23 - transfer_in_797_23 - transfer_in_79_23
  - transfer_in_7_23 - transfer_in_80_23 - transfer_in_81_23
  - transfer_in_82_23 - transfer_in_83_23 - transfer_in_84_23
  - transfer_in_85_23 - transfer_in_86_23 - transfer_in_87_23
@@ -17586,7 +17571,10 @@ FTA_and_TM_Equality_2_constraint_for_gameweek_25: - 15 auxiliary_variable_25
  - transfer_in_77_24 - transfer_in_780_24 - transfer_in_781_24
  - transfer_in_782_24 - transfer_in_783_24 - transfer_in_784_24
  - transfer_in_785_24 - transfer_in_786_24 - transfer_in_787_24
- - transfer_in_788_24 - transfer_in_78_24 - transfer_in_79_24
+ - transfer_in_788_24 - transfer_in_789_24 - transfer_in_78_24
+ - transfer_in_790_24 - transfer_in_791_24 - transfer_in_792_24
+ - transfer_in_793_24 - transfer_in_794_24 - transfer_in_795_24
+ - transfer_in_796_24 - transfer_in_797_24 - transfer_in_79_24
  - transfer_in_7_24 - transfer_in_80_24 - transfer_in_81_24
  - transfer_in_82_24 - transfer_in_83_24 - transfer_in_84_24
  - transfer_in_85_24 - transfer_in_86_24 - transfer_in_87_24
@@ -17850,7 +17838,10 @@ FTA_and_TM_Equality_2_constraint_for_gameweek_26: - 15 auxiliary_variable_26
  - transfer_in_77_25 - transfer_in_780_25 - transfer_in_781_25
  - transfer_in_782_25 - transfer_in_783_25 - transfer_in_784_25
  - transfer_in_785_25 - transfer_in_786_25 - transfer_in_787_25
- - transfer_in_788_25 - transfer_in_78_25 - transfer_in_79_25
+ - transfer_in_788_25 - transfer_in_789_25 - transfer_in_78_25
+ - transfer_in_790_25 - transfer_in_791_25 - transfer_in_792_25
+ - transfer_in_793_25 - transfer_in_794_25 - transfer_in_795_25
+ - transfer_in_796_25 - transfer_in_797_25 - transfer_in_79_25
  - transfer_in_7_25 - transfer_in_80_25 - transfer_in_81_25
  - transfer_in_82_25 - transfer_in_83_25 - transfer_in_84_25
  - transfer_in_85_25 - transfer_in_86_25 - transfer_in_87_25
@@ -18065,12 +18056,14 @@ Lineup_count_constraint_for_gameweek_23: lineup_100_23 + lineup_101_23
  + lineup_776_23 + lineup_777_23 + lineup_778_23 + lineup_779_23
  + lineup_77_23 + lineup_780_23 + lineup_781_23 + lineup_782_23
  + lineup_783_23 + lineup_784_23 + lineup_785_23 + lineup_786_23
- + lineup_787_23 + lineup_788_23 + lineup_78_23 + lineup_79_23 + lineup_7_23
- + lineup_80_23 + lineup_81_23 + lineup_82_23 + lineup_83_23 + lineup_84_23
- + lineup_85_23 + lineup_86_23 + lineup_87_23 + lineup_88_23 + lineup_89_23
- + lineup_8_23 + lineup_90_23 + lineup_91_23 + lineup_92_23 + lineup_93_23
- + lineup_94_23 + lineup_95_23 + lineup_96_23 + lineup_97_23 + lineup_98_23
- + lineup_99_23 + lineup_9_23 = 11
+ + lineup_787_23 + lineup_788_23 + lineup_789_23 + lineup_78_23
+ + lineup_790_23 + lineup_791_23 + lineup_792_23 + lineup_793_23
+ + lineup_794_23 + lineup_795_23 + lineup_796_23 + lineup_797_23
+ + lineup_79_23 + lineup_7_23 + lineup_80_23 + lineup_81_23 + lineup_82_23
+ + lineup_83_23 + lineup_84_23 + lineup_85_23 + lineup_86_23 + lineup_87_23
+ + lineup_88_23 + lineup_89_23 + lineup_8_23 + lineup_90_23 + lineup_91_23
+ + lineup_92_23 + lineup_93_23 + lineup_94_23 + lineup_95_23 + lineup_96_23
+ + lineup_97_23 + lineup_98_23 + lineup_99_23 + lineup_9_23 = 11
 Lineup_count_constraint_for_gameweek_24: lineup_100_24 + lineup_101_24
  + lineup_102_24 + lineup_103_24 + lineup_104_24 + lineup_105_24
  + lineup_106_24 + lineup_107_24 + lineup_108_24 + lineup_109_24
@@ -18260,12 +18253,14 @@ Lineup_count_constraint_for_gameweek_24: lineup_100_24 + lineup_101_24
  + lineup_776_24 + lineup_777_24 + lineup_778_24 + lineup_779_24
  + lineup_77_24 + lineup_780_24 + lineup_781_24 + lineup_782_24
  + lineup_783_24 + lineup_784_24 + lineup_785_24 + lineup_786_24
- + lineup_787_24 + lineup_788_24 + lineup_78_24 + lineup_79_24 + lineup_7_24
- + lineup_80_24 + lineup_81_24 + lineup_82_24 + lineup_83_24 + lineup_84_24
- + lineup_85_24 + lineup_86_24 + lineup_87_24 + lineup_88_24 + lineup_89_24
- + lineup_8_24 + lineup_90_24 + lineup_91_24 + lineup_92_24 + lineup_93_24
- + lineup_94_24 + lineup_95_24 + lineup_96_24 + lineup_97_24 + lineup_98_24
- + lineup_99_24 + lineup_9_24 = 11
+ + lineup_787_24 + lineup_788_24 + lineup_789_24 + lineup_78_24
+ + lineup_790_24 + lineup_791_24 + lineup_792_24 + lineup_793_24
+ + lineup_794_24 + lineup_795_24 + lineup_796_24 + lineup_797_24
+ + lineup_79_24 + lineup_7_24 + lineup_80_24 + lineup_81_24 + lineup_82_24
+ + lineup_83_24 + lineup_84_24 + lineup_85_24 + lineup_86_24 + lineup_87_24
+ + lineup_88_24 + lineup_89_24 + lineup_8_24 + lineup_90_24 + lineup_91_24
+ + lineup_92_24 + lineup_93_24 + lineup_94_24 + lineup_95_24 + lineup_96_24
+ + lineup_97_24 + lineup_98_24 + lineup_99_24 + lineup_9_24 = 11
 Lineup_count_constraint_for_gameweek_25: lineup_100_25 + lineup_101_25
  + lineup_102_25 + lineup_103_25 + lineup_104_25 + lineup_105_25
  + lineup_106_25 + lineup_107_25 + lineup_108_25 + lineup_109_25
@@ -18455,12 +18450,14 @@ Lineup_count_constraint_for_gameweek_25: lineup_100_25 + lineup_101_25
  + lineup_776_25 + lineup_777_25 + lineup_778_25 + lineup_779_25
  + lineup_77_25 + lineup_780_25 + lineup_781_25 + lineup_782_25
  + lineup_783_25 + lineup_784_25 + lineup_785_25 + lineup_786_25
- + lineup_787_25 + lineup_788_25 + lineup_78_25 + lineup_79_25 + lineup_7_25
- + lineup_80_25 + lineup_81_25 + lineup_82_25 + lineup_83_25 + lineup_84_25
- + lineup_85_25 + lineup_86_25 + lineup_87_25 + lineup_88_25 + lineup_89_25
- + lineup_8_25 + lineup_90_25 + lineup_91_25 + lineup_92_25 + lineup_93_25
- + lineup_94_25 + lineup_95_25 + lineup_96_25 + lineup_97_25 + lineup_98_25
- + lineup_99_25 + lineup_9_25 = 11
+ + lineup_787_25 + lineup_788_25 + lineup_789_25 + lineup_78_25
+ + lineup_790_25 + lineup_791_25 + lineup_792_25 + lineup_793_25
+ + lineup_794_25 + lineup_795_25 + lineup_796_25 + lineup_797_25
+ + lineup_79_25 + lineup_7_25 + lineup_80_25 + lineup_81_25 + lineup_82_25
+ + lineup_83_25 + lineup_84_25 + lineup_85_25 + lineup_86_25 + lineup_87_25
+ + lineup_88_25 + lineup_89_25 + lineup_8_25 + lineup_90_25 + lineup_91_25
+ + lineup_92_25 + lineup_93_25 + lineup_94_25 + lineup_95_25 + lineup_96_25
+ + lineup_97_25 + lineup_98_25 + lineup_99_25 + lineup_9_25 = 11
 Lineup_count_constraint_for_gameweek_26: lineup_100_26 + lineup_101_26
  + lineup_102_26 + lineup_103_26 + lineup_104_26 + lineup_105_26
  + lineup_106_26 + lineup_107_26 + lineup_108_26 + lineup_109_26
@@ -18650,12 +18647,14 @@ Lineup_count_constraint_for_gameweek_26: lineup_100_26 + lineup_101_26
  + lineup_776_26 + lineup_777_26 + lineup_778_26 + lineup_779_26
  + lineup_77_26 + lineup_780_26 + lineup_781_26 + lineup_782_26
  + lineup_783_26 + lineup_784_26 + lineup_785_26 + lineup_786_26
- + lineup_787_26 + lineup_788_26 + lineup_78_26 + lineup_79_26 + lineup_7_26
- + lineup_80_26 + lineup_81_26 + lineup_82_26 + lineup_83_26 + lineup_84_26
- + lineup_85_26 + lineup_86_26 + lineup_87_26 + lineup_88_26 + lineup_89_26
- + lineup_8_26 + lineup_90_26 + lineup_91_26 + lineup_92_26 + lineup_93_26
- + lineup_94_26 + lineup_95_26 + lineup_96_26 + lineup_97_26 + lineup_98_26
- + lineup_99_26 + lineup_9_26 = 11
+ + lineup_787_26 + lineup_788_26 + lineup_789_26 + lineup_78_26
+ + lineup_790_26 + lineup_791_26 + lineup_792_26 + lineup_793_26
+ + lineup_794_26 + lineup_795_26 + lineup_796_26 + lineup_797_26
+ + lineup_79_26 + lineup_7_26 + lineup_80_26 + lineup_81_26 + lineup_82_26
+ + lineup_83_26 + lineup_84_26 + lineup_85_26 + lineup_86_26 + lineup_87_26
+ + lineup_88_26 + lineup_89_26 + lineup_8_26 + lineup_90_26 + lineup_91_26
+ + lineup_92_26 + lineup_93_26 + lineup_94_26 + lineup_95_26 + lineup_96_26
+ + lineup_97_26 + lineup_98_26 + lineup_99_26 + lineup_9_26 = 11
 Lineup_player_must_be_in_squad_constraint_for_player_100_in_gameweek_23:
  lineup_100_23 - squad_100_23 <= 0
 Lineup_player_must_be_in_squad_constraint_for_player_100_in_gameweek_24:
@@ -24752,6 +24751,14 @@ Lineup_player_must_be_in_squad_constraint_for_player_788_in_gameweek_25:
  lineup_788_25 - squad_788_25 <= 0
 Lineup_player_must_be_in_squad_constraint_for_player_788_in_gameweek_26:
  lineup_788_26 - squad_788_26 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_789_in_gameweek_23:
+ lineup_789_23 - squad_789_23 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_789_in_gameweek_24:
+ lineup_789_24 - squad_789_24 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_789_in_gameweek_25:
+ lineup_789_25 - squad_789_25 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_789_in_gameweek_26:
+ lineup_789_26 - squad_789_26 <= 0
 Lineup_player_must_be_in_squad_constraint_for_player_78_in_gameweek_23:
  lineup_78_23 - squad_78_23 <= 0
 Lineup_player_must_be_in_squad_constraint_for_player_78_in_gameweek_24:
@@ -24760,6 +24767,70 @@ Lineup_player_must_be_in_squad_constraint_for_player_78_in_gameweek_25:
  lineup_78_25 - squad_78_25 <= 0
 Lineup_player_must_be_in_squad_constraint_for_player_78_in_gameweek_26:
  lineup_78_26 - squad_78_26 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_790_in_gameweek_23:
+ lineup_790_23 - squad_790_23 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_790_in_gameweek_24:
+ lineup_790_24 - squad_790_24 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_790_in_gameweek_25:
+ lineup_790_25 - squad_790_25 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_790_in_gameweek_26:
+ lineup_790_26 - squad_790_26 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_791_in_gameweek_23:
+ lineup_791_23 - squad_791_23 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_791_in_gameweek_24:
+ lineup_791_24 - squad_791_24 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_791_in_gameweek_25:
+ lineup_791_25 - squad_791_25 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_791_in_gameweek_26:
+ lineup_791_26 - squad_791_26 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_792_in_gameweek_23:
+ lineup_792_23 - squad_792_23 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_792_in_gameweek_24:
+ lineup_792_24 - squad_792_24 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_792_in_gameweek_25:
+ lineup_792_25 - squad_792_25 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_792_in_gameweek_26:
+ lineup_792_26 - squad_792_26 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_793_in_gameweek_23:
+ lineup_793_23 - squad_793_23 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_793_in_gameweek_24:
+ lineup_793_24 - squad_793_24 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_793_in_gameweek_25:
+ lineup_793_25 - squad_793_25 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_793_in_gameweek_26:
+ lineup_793_26 - squad_793_26 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_794_in_gameweek_23:
+ lineup_794_23 - squad_794_23 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_794_in_gameweek_24:
+ lineup_794_24 - squad_794_24 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_794_in_gameweek_25:
+ lineup_794_25 - squad_794_25 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_794_in_gameweek_26:
+ lineup_794_26 - squad_794_26 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_795_in_gameweek_23:
+ lineup_795_23 - squad_795_23 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_795_in_gameweek_24:
+ lineup_795_24 - squad_795_24 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_795_in_gameweek_25:
+ lineup_795_25 - squad_795_25 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_795_in_gameweek_26:
+ lineup_795_26 - squad_795_26 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_796_in_gameweek_23:
+ lineup_796_23 - squad_796_23 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_796_in_gameweek_24:
+ lineup_796_24 - squad_796_24 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_796_in_gameweek_25:
+ lineup_796_25 - squad_796_25 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_796_in_gameweek_26:
+ lineup_796_26 - squad_796_26 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_797_in_gameweek_23:
+ lineup_797_23 - squad_797_23 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_797_in_gameweek_24:
+ lineup_797_24 - squad_797_24 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_797_in_gameweek_25:
+ lineup_797_25 - squad_797_25 <= 0
+Lineup_player_must_be_in_squad_constraint_for_player_797_in_gameweek_26:
+ lineup_797_26 - squad_797_26 <= 0
 Lineup_player_must_be_in_squad_constraint_for_player_79_in_gameweek_23:
  lineup_79_23 - squad_79_23 <= 0
 Lineup_player_must_be_in_squad_constraint_for_player_79_in_gameweek_24:
@@ -24973,8 +25044,8 @@ Max_lineup_players_in_position_1_in_gameweek_23: lineup_101_23 + lineup_113_23
  + lineup_665_23 + lineup_669_23 + lineup_670_23 + lineup_680_23
  + lineup_686_23 + lineup_687_23 + lineup_692_23 + lineup_695_23
  + lineup_710_23 + lineup_752_23 + lineup_756_23 + lineup_765_23
- + lineup_778_23 + lineup_77_23 + lineup_80_23 + lineup_88_23 + lineup_91_23
- + lineup_97_23 <= 1
+ + lineup_778_23 + lineup_77_23 + lineup_789_23 + lineup_790_23 + lineup_80_23
+ + lineup_88_23 + lineup_91_23 + lineup_97_23 <= 1
 Max_lineup_players_in_position_1_in_gameweek_24: lineup_101_24 + lineup_113_24
  + lineup_116_24 + lineup_141_24 + lineup_145_24 + lineup_147_24
  + lineup_148_24 + lineup_152_24 + lineup_169_24 + lineup_172_24
@@ -24996,8 +25067,8 @@ Max_lineup_players_in_position_1_in_gameweek_24: lineup_101_24 + lineup_113_24
  + lineup_665_24 + lineup_669_24 + lineup_670_24 + lineup_680_24
  + lineup_686_24 + lineup_687_24 + lineup_692_24 + lineup_695_24
  + lineup_710_24 + lineup_752_24 + lineup_756_24 + lineup_765_24
- + lineup_778_24 + lineup_77_24 + lineup_80_24 + lineup_88_24 + lineup_91_24
- + lineup_97_24 <= 1
+ + lineup_778_24 + lineup_77_24 + lineup_789_24 + lineup_790_24 + lineup_80_24
+ + lineup_88_24 + lineup_91_24 + lineup_97_24 <= 1
 Max_lineup_players_in_position_1_in_gameweek_25: lineup_101_25 + lineup_113_25
  + lineup_116_25 + lineup_141_25 + lineup_145_25 + lineup_147_25
  + lineup_148_25 + lineup_152_25 + lineup_169_25 + lineup_172_25
@@ -25019,8 +25090,8 @@ Max_lineup_players_in_position_1_in_gameweek_25: lineup_101_25 + lineup_113_25
  + lineup_665_25 + lineup_669_25 + lineup_670_25 + lineup_680_25
  + lineup_686_25 + lineup_687_25 + lineup_692_25 + lineup_695_25
  + lineup_710_25 + lineup_752_25 + lineup_756_25 + lineup_765_25
- + lineup_778_25 + lineup_77_25 + lineup_80_25 + lineup_88_25 + lineup_91_25
- + lineup_97_25 <= 1
+ + lineup_778_25 + lineup_77_25 + lineup_789_25 + lineup_790_25 + lineup_80_25
+ + lineup_88_25 + lineup_91_25 + lineup_97_25 <= 1
 Max_lineup_players_in_position_1_in_gameweek_26: lineup_101_26 + lineup_113_26
  + lineup_116_26 + lineup_141_26 + lineup_145_26 + lineup_147_26
  + lineup_148_26 + lineup_152_26 + lineup_169_26 + lineup_172_26
@@ -25042,8 +25113,8 @@ Max_lineup_players_in_position_1_in_gameweek_26: lineup_101_26 + lineup_113_26
  + lineup_665_26 + lineup_669_26 + lineup_670_26 + lineup_680_26
  + lineup_686_26 + lineup_687_26 + lineup_692_26 + lineup_695_26
  + lineup_710_26 + lineup_752_26 + lineup_756_26 + lineup_765_26
- + lineup_778_26 + lineup_77_26 + lineup_80_26 + lineup_88_26 + lineup_91_26
- + lineup_97_26 <= 1
+ + lineup_778_26 + lineup_77_26 + lineup_789_26 + lineup_790_26 + lineup_80_26
+ + lineup_88_26 + lineup_91_26 + lineup_97_26 <= 1
 Max_lineup_players_in_position_2_in_gameweek_23: lineup_102_23 + lineup_103_23
  + lineup_104_23 + lineup_109_23 + lineup_10_23 + lineup_112_23
  + lineup_114_23 + lineup_121_23 + lineup_129_23 + lineup_131_23
@@ -25105,8 +25176,9 @@ Max_lineup_players_in_position_2_in_gameweek_23: lineup_102_23 + lineup_103_23
  + lineup_751_23 + lineup_753_23 + lineup_757_23 + lineup_75_23
  + lineup_761_23 + lineup_763_23 + lineup_766_23 + lineup_768_23
  + lineup_774_23 + lineup_777_23 + lineup_782_23 + lineup_784_23
- + lineup_788_23 + lineup_7_23 + lineup_83_23 + lineup_84_23 + lineup_89_23
- + lineup_90_23 + lineup_93_23 + lineup_96_23 <= 5
+ + lineup_788_23 + lineup_792_23 + lineup_793_23 + lineup_797_23 + lineup_7_23
+ + lineup_83_23 + lineup_84_23 + lineup_89_23 + lineup_90_23 + lineup_93_23
+ + lineup_96_23 <= 5
 Max_lineup_players_in_position_2_in_gameweek_24: lineup_102_24 + lineup_103_24
  + lineup_104_24 + lineup_109_24 + lineup_10_24 + lineup_112_24
  + lineup_114_24 + lineup_121_24 + lineup_129_24 + lineup_131_24
@@ -25168,8 +25240,9 @@ Max_lineup_players_in_position_2_in_gameweek_24: lineup_102_24 + lineup_103_24
  + lineup_751_24 + lineup_753_24 + lineup_757_24 + lineup_75_24
  + lineup_761_24 + lineup_763_24 + lineup_766_24 + lineup_768_24
  + lineup_774_24 + lineup_777_24 + lineup_782_24 + lineup_784_24
- + lineup_788_24 + lineup_7_24 + lineup_83_24 + lineup_84_24 + lineup_89_24
- + lineup_90_24 + lineup_93_24 + lineup_96_24 <= 5
+ + lineup_788_24 + lineup_792_24 + lineup_793_24 + lineup_797_24 + lineup_7_24
+ + lineup_83_24 + lineup_84_24 + lineup_89_24 + lineup_90_24 + lineup_93_24
+ + lineup_96_24 <= 5
 Max_lineup_players_in_position_2_in_gameweek_25: lineup_102_25 + lineup_103_25
  + lineup_104_25 + lineup_109_25 + lineup_10_25 + lineup_112_25
  + lineup_114_25 + lineup_121_25 + lineup_129_25 + lineup_131_25
@@ -25231,8 +25304,9 @@ Max_lineup_players_in_position_2_in_gameweek_25: lineup_102_25 + lineup_103_25
  + lineup_751_25 + lineup_753_25 + lineup_757_25 + lineup_75_25
  + lineup_761_25 + lineup_763_25 + lineup_766_25 + lineup_768_25
  + lineup_774_25 + lineup_777_25 + lineup_782_25 + lineup_784_25
- + lineup_788_25 + lineup_7_25 + lineup_83_25 + lineup_84_25 + lineup_89_25
- + lineup_90_25 + lineup_93_25 + lineup_96_25 <= 5
+ + lineup_788_25 + lineup_792_25 + lineup_793_25 + lineup_797_25 + lineup_7_25
+ + lineup_83_25 + lineup_84_25 + lineup_89_25 + lineup_90_25 + lineup_93_25
+ + lineup_96_25 <= 5
 Max_lineup_players_in_position_2_in_gameweek_26: lineup_102_26 + lineup_103_26
  + lineup_104_26 + lineup_109_26 + lineup_10_26 + lineup_112_26
  + lineup_114_26 + lineup_121_26 + lineup_129_26 + lineup_131_26
@@ -25294,8 +25368,9 @@ Max_lineup_players_in_position_2_in_gameweek_26: lineup_102_26 + lineup_103_26
  + lineup_751_26 + lineup_753_26 + lineup_757_26 + lineup_75_26
  + lineup_761_26 + lineup_763_26 + lineup_766_26 + lineup_768_26
  + lineup_774_26 + lineup_777_26 + lineup_782_26 + lineup_784_26
- + lineup_788_26 + lineup_7_26 + lineup_83_26 + lineup_84_26 + lineup_89_26
- + lineup_90_26 + lineup_93_26 + lineup_96_26 <= 5
+ + lineup_788_26 + lineup_792_26 + lineup_793_26 + lineup_797_26 + lineup_7_26
+ + lineup_83_26 + lineup_84_26 + lineup_89_26 + lineup_90_26 + lineup_93_26
+ + lineup_96_26 <= 5
 Max_lineup_players_in_position_3_in_gameweek_23: lineup_105_23 + lineup_106_23
  + lineup_107_23 + lineup_108_23 + lineup_110_23 + lineup_111_23
  + lineup_115_23 + lineup_118_23 + lineup_11_23 + lineup_120_23
@@ -25378,7 +25453,8 @@ Max_lineup_players_in_position_3_in_gameweek_23: lineup_105_23 + lineup_106_23
  + lineup_760_23 + lineup_762_23 + lineup_764_23 + lineup_767_23
  + lineup_769_23 + lineup_770_23 + lineup_771_23 + lineup_772_23
  + lineup_773_23 + lineup_775_23 + lineup_779_23 + lineup_783_23
- + lineup_786_23 + lineup_787_23 + lineup_78_23 + lineup_79_23 + lineup_81_23
+ + lineup_786_23 + lineup_787_23 + lineup_78_23 + lineup_791_23
+ + lineup_794_23 + lineup_795_23 + lineup_796_23 + lineup_79_23 + lineup_81_23
  + lineup_86_23 + lineup_87_23 + lineup_92_23 + lineup_94_23 + lineup_95_23
  + lineup_98_23 + lineup_99_23 + lineup_9_23 <= 5
 Max_lineup_players_in_position_3_in_gameweek_24: lineup_105_24 + lineup_106_24
@@ -25463,7 +25539,8 @@ Max_lineup_players_in_position_3_in_gameweek_24: lineup_105_24 + lineup_106_24
  + lineup_760_24 + lineup_762_24 + lineup_764_24 + lineup_767_24
  + lineup_769_24 + lineup_770_24 + lineup_771_24 + lineup_772_24
  + lineup_773_24 + lineup_775_24 + lineup_779_24 + lineup_783_24
- + lineup_786_24 + lineup_787_24 + lineup_78_24 + lineup_79_24 + lineup_81_24
+ + lineup_786_24 + lineup_787_24 + lineup_78_24 + lineup_791_24
+ + lineup_794_24 + lineup_795_24 + lineup_796_24 + lineup_79_24 + lineup_81_24
  + lineup_86_24 + lineup_87_24 + lineup_92_24 + lineup_94_24 + lineup_95_24
  + lineup_98_24 + lineup_99_24 + lineup_9_24 <= 5
 Max_lineup_players_in_position_3_in_gameweek_25: lineup_105_25 + lineup_106_25
@@ -25548,7 +25625,8 @@ Max_lineup_players_in_position_3_in_gameweek_25: lineup_105_25 + lineup_106_25
  + lineup_760_25 + lineup_762_25 + lineup_764_25 + lineup_767_25
  + lineup_769_25 + lineup_770_25 + lineup_771_25 + lineup_772_25
  + lineup_773_25 + lineup_775_25 + lineup_779_25 + lineup_783_25
- + lineup_786_25 + lineup_787_25 + lineup_78_25 + lineup_79_25 + lineup_81_25
+ + lineup_786_25 + lineup_787_25 + lineup_78_25 + lineup_791_25
+ + lineup_794_25 + lineup_795_25 + lineup_796_25 + lineup_79_25 + lineup_81_25
  + lineup_86_25 + lineup_87_25 + lineup_92_25 + lineup_94_25 + lineup_95_25
  + lineup_98_25 + lineup_99_25 + lineup_9_25 <= 5
 Max_lineup_players_in_position_3_in_gameweek_26: lineup_105_26 + lineup_106_26
@@ -25633,7 +25711,8 @@ Max_lineup_players_in_position_3_in_gameweek_26: lineup_105_26 + lineup_106_26
  + lineup_760_26 + lineup_762_26 + lineup_764_26 + lineup_767_26
  + lineup_769_26 + lineup_770_26 + lineup_771_26 + lineup_772_26
  + lineup_773_26 + lineup_775_26 + lineup_779_26 + lineup_783_26
- + lineup_786_26 + lineup_787_26 + lineup_78_26 + lineup_79_26 + lineup_81_26
+ + lineup_786_26 + lineup_787_26 + lineup_78_26 + lineup_791_26
+ + lineup_794_26 + lineup_795_26 + lineup_796_26 + lineup_79_26 + lineup_81_26
  + lineup_86_26 + lineup_87_26 + lineup_92_26 + lineup_94_26 + lineup_95_26
  + lineup_98_26 + lineup_99_26 + lineup_9_26 <= 5
 Max_lineup_players_in_position_4_in_gameweek_23: lineup_100_23 + lineup_117_23
@@ -25747,7 +25826,7 @@ Max_players_from_team_10_in_gameweek_23: squad_256_23 + squad_267_23
  + squad_283_23 + squad_284_23 + squad_285_23 + squad_286_23 + squad_287_23
  + squad_288_23 + squad_558_23 + squad_591_23 + squad_610_23 + squad_625_23
  + squad_651_23 + squad_652_23 + squad_662_23 + squad_683_23 + squad_688_23
- + squad_692_23 + squad_707_23 + squad_732_23 <= 3
+ + squad_692_23 + squad_707_23 + squad_732_23 + squad_796_23 <= 3
 Max_players_from_team_10_in_gameweek_24: squad_256_24 + squad_267_24
  + squad_268_24 + squad_269_24 + squad_270_24 + squad_271_24 + squad_272_24
  + squad_273_24 + squad_274_24 + squad_275_24 + squad_276_24 + squad_277_24
@@ -25755,7 +25834,7 @@ Max_players_from_team_10_in_gameweek_24: squad_256_24 + squad_267_24
  + squad_283_24 + squad_284_24 + squad_285_24 + squad_286_24 + squad_287_24
  + squad_288_24 + squad_558_24 + squad_591_24 + squad_610_24 + squad_625_24
  + squad_651_24 + squad_652_24 + squad_662_24 + squad_683_24 + squad_688_24
- + squad_692_24 + squad_707_24 + squad_732_24 <= 3
+ + squad_692_24 + squad_707_24 + squad_732_24 + squad_796_24 <= 3
 Max_players_from_team_10_in_gameweek_25: squad_256_25 + squad_267_25
  + squad_268_25 + squad_269_25 + squad_270_25 + squad_271_25 + squad_272_25
  + squad_273_25 + squad_274_25 + squad_275_25 + squad_276_25 + squad_277_25
@@ -25763,7 +25842,7 @@ Max_players_from_team_10_in_gameweek_25: squad_256_25 + squad_267_25
  + squad_283_25 + squad_284_25 + squad_285_25 + squad_286_25 + squad_287_25
  + squad_288_25 + squad_558_25 + squad_591_25 + squad_610_25 + squad_625_25
  + squad_651_25 + squad_652_25 + squad_662_25 + squad_683_25 + squad_688_25
- + squad_692_25 + squad_707_25 + squad_732_25 <= 3
+ + squad_692_25 + squad_707_25 + squad_732_25 + squad_796_25 <= 3
 Max_players_from_team_10_in_gameweek_26: squad_256_26 + squad_267_26
  + squad_268_26 + squad_269_26 + squad_270_26 + squad_271_26 + squad_272_26
  + squad_273_26 + squad_274_26 + squad_275_26 + squad_276_26 + squad_277_26
@@ -25771,7 +25850,7 @@ Max_players_from_team_10_in_gameweek_26: squad_256_26 + squad_267_26
  + squad_283_26 + squad_284_26 + squad_285_26 + squad_286_26 + squad_287_26
  + squad_288_26 + squad_558_26 + squad_591_26 + squad_610_26 + squad_625_26
  + squad_651_26 + squad_652_26 + squad_662_26 + squad_683_26 + squad_688_26
- + squad_692_26 + squad_707_26 + squad_732_26 <= 3
+ + squad_692_26 + squad_707_26 + squad_732_26 + squad_796_26 <= 3
 Max_players_from_team_11_in_gameweek_23: squad_289_23 + squad_290_23
  + squad_291_23 + squad_292_23 + squad_293_23 + squad_294_23 + squad_295_23
  + squad_296_23 + squad_297_23 + squad_298_23 + squad_299_23 + squad_300_23
@@ -25921,7 +26000,7 @@ Max_players_from_team_15_in_gameweek_23: squad_204_23 + squad_402_23
  + squad_428_23 + squad_429_23 + squad_430_23 + squad_431_23 + squad_432_23
  + squad_433_23 + squad_580_23 + squad_581_23 + squad_603_23 + squad_633_23
  + squad_634_23 + squad_635_23 + squad_738_23 + squad_739_23 + squad_745_23
- <= 3
+ + squad_794_23 + squad_795_23 <= 3
 Max_players_from_team_15_in_gameweek_24: squad_204_24 + squad_402_24
  + squad_403_24 + squad_404_24 + squad_405_24 + squad_406_24 + squad_407_24
  + squad_408_24 + squad_409_24 + squad_410_24 + squad_411_24 + squad_412_24
@@ -25931,7 +26010,7 @@ Max_players_from_team_15_in_gameweek_24: squad_204_24 + squad_402_24
  + squad_428_24 + squad_429_24 + squad_430_24 + squad_431_24 + squad_432_24
  + squad_433_24 + squad_580_24 + squad_581_24 + squad_603_24 + squad_633_24
  + squad_634_24 + squad_635_24 + squad_738_24 + squad_739_24 + squad_745_24
- <= 3
+ + squad_794_24 + squad_795_24 <= 3
 Max_players_from_team_15_in_gameweek_25: squad_204_25 + squad_402_25
  + squad_403_25 + squad_404_25 + squad_405_25 + squad_406_25 + squad_407_25
  + squad_408_25 + squad_409_25 + squad_410_25 + squad_411_25 + squad_412_25
@@ -25941,7 +26020,7 @@ Max_players_from_team_15_in_gameweek_25: squad_204_25 + squad_402_25
  + squad_428_25 + squad_429_25 + squad_430_25 + squad_431_25 + squad_432_25
  + squad_433_25 + squad_580_25 + squad_581_25 + squad_603_25 + squad_633_25
  + squad_634_25 + squad_635_25 + squad_738_25 + squad_739_25 + squad_745_25
- <= 3
+ + squad_794_25 + squad_795_25 <= 3
 Max_players_from_team_15_in_gameweek_26: squad_204_26 + squad_402_26
  + squad_403_26 + squad_404_26 + squad_405_26 + squad_406_26 + squad_407_26
  + squad_408_26 + squad_409_26 + squad_410_26 + squad_411_26 + squad_412_26
@@ -25951,7 +26030,7 @@ Max_players_from_team_15_in_gameweek_26: squad_204_26 + squad_402_26
  + squad_428_26 + squad_429_26 + squad_430_26 + squad_431_26 + squad_432_26
  + squad_433_26 + squad_580_26 + squad_581_26 + squad_603_26 + squad_633_26
  + squad_634_26 + squad_635_26 + squad_738_26 + squad_739_26 + squad_745_26
- <= 3
+ + squad_794_26 + squad_795_26 <= 3
 Max_players_from_team_16_in_gameweek_23: squad_205_23 + squad_23_23
  + squad_28_23 + squad_378_23 + squad_434_23 + squad_435_23 + squad_436_23
  + squad_437_23 + squad_438_23 + squad_439_23 + squad_440_23 + squad_441_23
@@ -26008,7 +26087,7 @@ Max_players_from_team_17_in_gameweek_23: squad_27_23 + squad_33_23
  + squad_576_23 + squad_587_23 + squad_592_23 + squad_593_23 + squad_638_23
  + squad_653_23 + squad_654_23 + squad_655_23 + squad_656_23 + squad_663_23
  + squad_666_23 + squad_693_23 + squad_730_23 + squad_731_23 + squad_759_23
- + squad_775_23 <= 3
+ + squad_775_23 + squad_790_23 <= 3
 Max_players_from_team_17_in_gameweek_24: squad_27_24 + squad_33_24
  + squad_360_24 + squad_471_24 + squad_472_24 + squad_473_24 + squad_474_24
  + squad_476_24 + squad_477_24 + squad_478_24 + squad_479_24 + squad_480_24
@@ -26017,7 +26096,7 @@ Max_players_from_team_17_in_gameweek_24: squad_27_24 + squad_33_24
  + squad_576_24 + squad_587_24 + squad_592_24 + squad_593_24 + squad_638_24
  + squad_653_24 + squad_654_24 + squad_655_24 + squad_656_24 + squad_663_24
  + squad_666_24 + squad_693_24 + squad_730_24 + squad_731_24 + squad_759_24
- + squad_775_24 <= 3
+ + squad_775_24 + squad_790_24 <= 3
 Max_players_from_team_17_in_gameweek_25: squad_27_25 + squad_33_25
  + squad_360_25 + squad_471_25 + squad_472_25 + squad_473_25 + squad_474_25
  + squad_476_25 + squad_477_25 + squad_478_25 + squad_479_25 + squad_480_25
@@ -26026,7 +26105,7 @@ Max_players_from_team_17_in_gameweek_25: squad_27_25 + squad_33_25
  + squad_576_25 + squad_587_25 + squad_592_25 + squad_593_25 + squad_638_25
  + squad_653_25 + squad_654_25 + squad_655_25 + squad_656_25 + squad_663_25
  + squad_666_25 + squad_693_25 + squad_730_25 + squad_731_25 + squad_759_25
- + squad_775_25 <= 3
+ + squad_775_25 + squad_790_25 <= 3
 Max_players_from_team_17_in_gameweek_26: squad_27_26 + squad_33_26
  + squad_360_26 + squad_471_26 + squad_472_26 + squad_473_26 + squad_474_26
  + squad_476_26 + squad_477_26 + squad_478_26 + squad_479_26 + squad_480_26
@@ -26035,7 +26114,7 @@ Max_players_from_team_17_in_gameweek_26: squad_27_26 + squad_33_26
  + squad_576_26 + squad_587_26 + squad_592_26 + squad_593_26 + squad_638_26
  + squad_653_26 + squad_654_26 + squad_655_26 + squad_656_26 + squad_663_26
  + squad_666_26 + squad_693_26 + squad_730_26 + squad_731_26 + squad_759_26
- + squad_775_26 <= 3
+ + squad_775_26 + squad_790_26 <= 3
 Max_players_from_team_18_in_gameweek_23: squad_450_23 + squad_491_23
  + squad_492_23 + squad_493_23 + squad_494_23 + squad_495_23 + squad_496_23
  + squad_497_23 + squad_498_23 + squad_499_23 + squad_500_23 + squad_501_23
@@ -26180,7 +26259,7 @@ Max_players_from_team_2_in_gameweek_23: squad_32_23 + squad_34_23
  + squad_56_23 + squad_57_23 + squad_584_23 + squad_58_23 + squad_599_23
  + squad_59_23 + squad_60_23 + squad_618_23 + squad_61_23 + squad_670_23
  + squad_672_23 + squad_686_23 + squad_699_23 + squad_765_23 + squad_767_23
- + squad_778_23 <= 3
+ + squad_778_23 + squad_793_23 <= 3
 Max_players_from_team_2_in_gameweek_24: squad_32_24 + squad_34_24
  + squad_35_24 + squad_36_24 + squad_37_24 + squad_38_24 + squad_39_24
  + squad_40_24 + squad_41_24 + squad_42_24 + squad_43_24 + squad_44_24
@@ -26189,7 +26268,7 @@ Max_players_from_team_2_in_gameweek_24: squad_32_24 + squad_34_24
  + squad_56_24 + squad_57_24 + squad_584_24 + squad_58_24 + squad_599_24
  + squad_59_24 + squad_60_24 + squad_618_24 + squad_61_24 + squad_670_24
  + squad_672_24 + squad_686_24 + squad_699_24 + squad_765_24 + squad_767_24
- + squad_778_24 <= 3
+ + squad_778_24 + squad_793_24 <= 3
 Max_players_from_team_2_in_gameweek_25: squad_32_25 + squad_34_25
  + squad_35_25 + squad_36_25 + squad_37_25 + squad_38_25 + squad_39_25
  + squad_40_25 + squad_41_25 + squad_42_25 + squad_43_25 + squad_44_25
@@ -26198,7 +26277,7 @@ Max_players_from_team_2_in_gameweek_25: squad_32_25 + squad_34_25
  + squad_56_25 + squad_57_25 + squad_584_25 + squad_58_25 + squad_599_25
  + squad_59_25 + squad_60_25 + squad_618_25 + squad_61_25 + squad_670_25
  + squad_672_25 + squad_686_25 + squad_699_25 + squad_765_25 + squad_767_25
- + squad_778_25 <= 3
+ + squad_778_25 + squad_793_25 <= 3
 Max_players_from_team_2_in_gameweek_26: squad_32_26 + squad_34_26
  + squad_35_26 + squad_36_26 + squad_37_26 + squad_38_26 + squad_39_26
  + squad_40_26 + squad_41_26 + squad_42_26 + squad_43_26 + squad_44_26
@@ -26207,7 +26286,7 @@ Max_players_from_team_2_in_gameweek_26: squad_32_26 + squad_34_26
  + squad_56_26 + squad_57_26 + squad_584_26 + squad_58_26 + squad_599_26
  + squad_59_26 + squad_60_26 + squad_618_26 + squad_61_26 + squad_670_26
  + squad_672_26 + squad_686_26 + squad_699_26 + squad_765_26 + squad_767_26
- + squad_778_26 <= 3
+ + squad_778_26 + squad_793_26 <= 3
 Max_players_from_team_3_in_gameweek_23: squad_595_23 + squad_607_23
  + squad_619_23 + squad_62_23 + squad_63_23 + squad_643_23 + squad_644_23
  + squad_64_23 + squad_65_23 + squad_66_23 + squad_673_23 + squad_67_23
@@ -26246,36 +26325,36 @@ Max_players_from_team_4_in_gameweek_23: squad_100_23 + squad_101_23
  + squad_112_23 + squad_114_23 + squad_115_23 + squad_116_23 + squad_117_23
  + squad_118_23 + squad_119_23 + squad_120_23 + squad_121_23 + squad_258_23
  + squad_508_23 + squad_620_23 + squad_684_23 + squad_701_23 + squad_725_23
- + squad_733_23 + squad_744_23 + squad_752_23 + squad_90_23 + squad_91_23
- + squad_92_23 + squad_93_23 + squad_94_23 + squad_95_23 + squad_96_23
- + squad_97_23 + squad_98_23 + squad_99_23 <= 3
+ + squad_733_23 + squad_744_23 + squad_752_23 + squad_789_23 + squad_797_23
+ + squad_90_23 + squad_91_23 + squad_92_23 + squad_93_23 + squad_94_23
+ + squad_95_23 + squad_96_23 + squad_97_23 + squad_98_23 + squad_99_23 <= 3
 Max_players_from_team_4_in_gameweek_24: squad_100_24 + squad_101_24
  + squad_102_24 + squad_103_24 + squad_104_24 + squad_105_24 + squad_106_24
  + squad_107_24 + squad_108_24 + squad_109_24 + squad_110_24 + squad_111_24
  + squad_112_24 + squad_114_24 + squad_115_24 + squad_116_24 + squad_117_24
  + squad_118_24 + squad_119_24 + squad_120_24 + squad_121_24 + squad_258_24
  + squad_508_24 + squad_620_24 + squad_684_24 + squad_701_24 + squad_725_24
- + squad_733_24 + squad_744_24 + squad_752_24 + squad_90_24 + squad_91_24
- + squad_92_24 + squad_93_24 + squad_94_24 + squad_95_24 + squad_96_24
- + squad_97_24 + squad_98_24 + squad_99_24 <= 3
+ + squad_733_24 + squad_744_24 + squad_752_24 + squad_789_24 + squad_797_24
+ + squad_90_24 + squad_91_24 + squad_92_24 + squad_93_24 + squad_94_24
+ + squad_95_24 + squad_96_24 + squad_97_24 + squad_98_24 + squad_99_24 <= 3
 Max_players_from_team_4_in_gameweek_25: squad_100_25 + squad_101_25
  + squad_102_25 + squad_103_25 + squad_104_25 + squad_105_25 + squad_106_25
  + squad_107_25 + squad_108_25 + squad_109_25 + squad_110_25 + squad_111_25
  + squad_112_25 + squad_114_25 + squad_115_25 + squad_116_25 + squad_117_25
  + squad_118_25 + squad_119_25 + squad_120_25 + squad_121_25 + squad_258_25
  + squad_508_25 + squad_620_25 + squad_684_25 + squad_701_25 + squad_725_25
- + squad_733_25 + squad_744_25 + squad_752_25 + squad_90_25 + squad_91_25
- + squad_92_25 + squad_93_25 + squad_94_25 + squad_95_25 + squad_96_25
- + squad_97_25 + squad_98_25 + squad_99_25 <= 3
+ + squad_733_25 + squad_744_25 + squad_752_25 + squad_789_25 + squad_797_25
+ + squad_90_25 + squad_91_25 + squad_92_25 + squad_93_25 + squad_94_25
+ + squad_95_25 + squad_96_25 + squad_97_25 + squad_98_25 + squad_99_25 <= 3
 Max_players_from_team_4_in_gameweek_26: squad_100_26 + squad_101_26
  + squad_102_26 + squad_103_26 + squad_104_26 + squad_105_26 + squad_106_26
  + squad_107_26 + squad_108_26 + squad_109_26 + squad_110_26 + squad_111_26
  + squad_112_26 + squad_114_26 + squad_115_26 + squad_116_26 + squad_117_26
  + squad_118_26 + squad_119_26 + squad_120_26 + squad_121_26 + squad_258_26
  + squad_508_26 + squad_620_26 + squad_684_26 + squad_701_26 + squad_725_26
- + squad_733_26 + squad_744_26 + squad_752_26 + squad_90_26 + squad_91_26
- + squad_92_26 + squad_93_26 + squad_94_26 + squad_95_26 + squad_96_26
- + squad_97_26 + squad_98_26 + squad_99_26 <= 3
+ + squad_733_26 + squad_744_26 + squad_752_26 + squad_789_26 + squad_797_26
+ + squad_90_26 + squad_91_26 + squad_92_26 + squad_93_26 + squad_94_26
+ + squad_95_26 + squad_96_26 + squad_97_26 + squad_98_26 + squad_99_26 <= 3
 Max_players_from_team_5_in_gameweek_23: squad_122_23 + squad_123_23
  + squad_124_23 + squad_125_23 + squad_127_23 + squad_128_23 + squad_129_23
  + squad_130_23 + squad_131_23 + squad_132_23 + squad_133_23 + squad_134_23
@@ -26366,7 +26445,7 @@ Max_players_from_team_7_in_gameweek_23: squad_126_23 + squad_145_23
  + squad_362_23 + squad_589_23 + squad_609_23 + squad_611_23 + squad_613_23
  + squad_623_23 + squad_659_23 + squad_667_23 + squad_671_23 + squad_677_23
  + squad_680_23 + squad_681_23 + squad_687_23 + squad_716_23 + squad_717_23
- + squad_718_23 + squad_723_23 + squad_758_23 <= 3
+ + squad_718_23 + squad_723_23 + squad_758_23 + squad_791_23 <= 3
 Max_players_from_team_7_in_gameweek_24: squad_126_24 + squad_145_24
  + squad_185_24 + squad_186_24 + squad_187_24 + squad_188_24 + squad_189_24
  + squad_190_24 + squad_191_24 + squad_192_24 + squad_193_24 + squad_194_24
@@ -26377,7 +26456,7 @@ Max_players_from_team_7_in_gameweek_24: squad_126_24 + squad_145_24
  + squad_362_24 + squad_589_24 + squad_609_24 + squad_611_24 + squad_613_24
  + squad_623_24 + squad_659_24 + squad_667_24 + squad_671_24 + squad_677_24
  + squad_680_24 + squad_681_24 + squad_687_24 + squad_716_24 + squad_717_24
- + squad_718_24 + squad_723_24 + squad_758_24 <= 3
+ + squad_718_24 + squad_723_24 + squad_758_24 + squad_791_24 <= 3
 Max_players_from_team_7_in_gameweek_25: squad_126_25 + squad_145_25
  + squad_185_25 + squad_186_25 + squad_187_25 + squad_188_25 + squad_189_25
  + squad_190_25 + squad_191_25 + squad_192_25 + squad_193_25 + squad_194_25
@@ -26388,7 +26467,7 @@ Max_players_from_team_7_in_gameweek_25: squad_126_25 + squad_145_25
  + squad_362_25 + squad_589_25 + squad_609_25 + squad_611_25 + squad_613_25
  + squad_623_25 + squad_659_25 + squad_667_25 + squad_671_25 + squad_677_25
  + squad_680_25 + squad_681_25 + squad_687_25 + squad_716_25 + squad_717_25
- + squad_718_25 + squad_723_25 + squad_758_25 <= 3
+ + squad_718_25 + squad_723_25 + squad_758_25 + squad_791_25 <= 3
 Max_players_from_team_7_in_gameweek_26: squad_126_26 + squad_145_26
  + squad_185_26 + squad_186_26 + squad_187_26 + squad_188_26 + squad_189_26
  + squad_190_26 + squad_191_26 + squad_192_26 + squad_193_26 + squad_194_26
@@ -26399,7 +26478,7 @@ Max_players_from_team_7_in_gameweek_26: squad_126_26 + squad_145_26
  + squad_362_26 + squad_589_26 + squad_609_26 + squad_611_26 + squad_613_26
  + squad_623_26 + squad_659_26 + squad_667_26 + squad_671_26 + squad_677_26
  + squad_680_26 + squad_681_26 + squad_687_26 + squad_716_26 + squad_717_26
- + squad_718_26 + squad_723_26 + squad_758_26 <= 3
+ + squad_718_26 + squad_723_26 + squad_758_26 + squad_791_26 <= 3
 Max_players_from_team_8_in_gameweek_23: squad_219_23 + squad_220_23
  + squad_221_23 + squad_222_23 + squad_223_23 + squad_224_23 + squad_225_23
  + squad_226_23 + squad_227_23 + squad_228_23 + squad_229_23 + squad_230_23
@@ -26407,7 +26486,7 @@ Max_players_from_team_8_in_gameweek_23: squad_219_23 + squad_220_23
  + squad_236_23 + squad_237_23 + squad_238_23 + squad_239_23 + squad_240_23
  + squad_241_23 + squad_242_23 + squad_243_23 + squad_385_23 + squad_615_23
  + squad_657_23 + squad_658_23 + squad_720_23 + squad_721_23 + squad_724_23
- + squad_763_23 + squad_7_23 <= 3
+ + squad_763_23 + squad_792_23 + squad_7_23 <= 3
 Max_players_from_team_8_in_gameweek_24: squad_219_24 + squad_220_24
  + squad_221_24 + squad_222_24 + squad_223_24 + squad_224_24 + squad_225_24
  + squad_226_24 + squad_227_24 + squad_228_24 + squad_229_24 + squad_230_24
@@ -26415,7 +26494,7 @@ Max_players_from_team_8_in_gameweek_24: squad_219_24 + squad_220_24
  + squad_236_24 + squad_237_24 + squad_238_24 + squad_239_24 + squad_240_24
  + squad_241_24 + squad_242_24 + squad_243_24 + squad_385_24 + squad_615_24
  + squad_657_24 + squad_658_24 + squad_720_24 + squad_721_24 + squad_724_24
- + squad_763_24 + squad_7_24 <= 3
+ + squad_763_24 + squad_792_24 + squad_7_24 <= 3
 Max_players_from_team_8_in_gameweek_25: squad_219_25 + squad_220_25
  + squad_221_25 + squad_222_25 + squad_223_25 + squad_224_25 + squad_225_25
  + squad_226_25 + squad_227_25 + squad_228_25 + squad_229_25 + squad_230_25
@@ -26423,7 +26502,7 @@ Max_players_from_team_8_in_gameweek_25: squad_219_25 + squad_220_25
  + squad_236_25 + squad_237_25 + squad_238_25 + squad_239_25 + squad_240_25
  + squad_241_25 + squad_242_25 + squad_243_25 + squad_385_25 + squad_615_25
  + squad_657_25 + squad_658_25 + squad_720_25 + squad_721_25 + squad_724_25
- + squad_763_25 + squad_7_25 <= 3
+ + squad_763_25 + squad_792_25 + squad_7_25 <= 3
 Max_players_from_team_8_in_gameweek_26: squad_219_26 + squad_220_26
  + squad_221_26 + squad_222_26 + squad_223_26 + squad_224_26 + squad_225_26
  + squad_226_26 + squad_227_26 + squad_228_26 + squad_229_26 + squad_230_26
@@ -26431,7 +26510,7 @@ Max_players_from_team_8_in_gameweek_26: squad_219_26 + squad_220_26
  + squad_236_26 + squad_237_26 + squad_238_26 + squad_239_26 + squad_240_26
  + squad_241_26 + squad_242_26 + squad_243_26 + squad_385_26 + squad_615_26
  + squad_657_26 + squad_658_26 + squad_720_26 + squad_721_26 + squad_724_26
- + squad_763_26 + squad_7_26 <= 3
+ + squad_763_26 + squad_792_26 + squad_7_26 <= 3
 Max_players_from_team_9_in_gameweek_23: squad_244_23 + squad_245_23
  + squad_246_23 + squad_247_23 + squad_248_23 + squad_249_23 + squad_250_23
  + squad_251_23 + squad_252_23 + squad_253_23 + squad_254_23 + squad_255_23
@@ -26485,8 +26564,8 @@ Min_lineup_players_in_position_1_in_gameweek_23: lineup_101_23 + lineup_113_23
  + lineup_665_23 + lineup_669_23 + lineup_670_23 + lineup_680_23
  + lineup_686_23 + lineup_687_23 + lineup_692_23 + lineup_695_23
  + lineup_710_23 + lineup_752_23 + lineup_756_23 + lineup_765_23
- + lineup_778_23 + lineup_77_23 + lineup_80_23 + lineup_88_23 + lineup_91_23
- + lineup_97_23 >= 1
+ + lineup_778_23 + lineup_77_23 + lineup_789_23 + lineup_790_23 + lineup_80_23
+ + lineup_88_23 + lineup_91_23 + lineup_97_23 >= 1
 Min_lineup_players_in_position_1_in_gameweek_24: lineup_101_24 + lineup_113_24
  + lineup_116_24 + lineup_141_24 + lineup_145_24 + lineup_147_24
  + lineup_148_24 + lineup_152_24 + lineup_169_24 + lineup_172_24
@@ -26508,8 +26587,8 @@ Min_lineup_players_in_position_1_in_gameweek_24: lineup_101_24 + lineup_113_24
  + lineup_665_24 + lineup_669_24 + lineup_670_24 + lineup_680_24
  + lineup_686_24 + lineup_687_24 + lineup_692_24 + lineup_695_24
  + lineup_710_24 + lineup_752_24 + lineup_756_24 + lineup_765_24
- + lineup_778_24 + lineup_77_24 + lineup_80_24 + lineup_88_24 + lineup_91_24
- + lineup_97_24 >= 1
+ + lineup_778_24 + lineup_77_24 + lineup_789_24 + lineup_790_24 + lineup_80_24
+ + lineup_88_24 + lineup_91_24 + lineup_97_24 >= 1
 Min_lineup_players_in_position_1_in_gameweek_25: lineup_101_25 + lineup_113_25
  + lineup_116_25 + lineup_141_25 + lineup_145_25 + lineup_147_25
  + lineup_148_25 + lineup_152_25 + lineup_169_25 + lineup_172_25
@@ -26531,8 +26610,8 @@ Min_lineup_players_in_position_1_in_gameweek_25: lineup_101_25 + lineup_113_25
  + lineup_665_25 + lineup_669_25 + lineup_670_25 + lineup_680_25
  + lineup_686_25 + lineup_687_25 + lineup_692_25 + lineup_695_25
  + lineup_710_25 + lineup_752_25 + lineup_756_25 + lineup_765_25
- + lineup_778_25 + lineup_77_25 + lineup_80_25 + lineup_88_25 + lineup_91_25
- + lineup_97_25 >= 1
+ + lineup_778_25 + lineup_77_25 + lineup_789_25 + lineup_790_25 + lineup_80_25
+ + lineup_88_25 + lineup_91_25 + lineup_97_25 >= 1
 Min_lineup_players_in_position_1_in_gameweek_26: lineup_101_26 + lineup_113_26
  + lineup_116_26 + lineup_141_26 + lineup_145_26 + lineup_147_26
  + lineup_148_26 + lineup_152_26 + lineup_169_26 + lineup_172_26
@@ -26554,8 +26633,8 @@ Min_lineup_players_in_position_1_in_gameweek_26: lineup_101_26 + lineup_113_26
  + lineup_665_26 + lineup_669_26 + lineup_670_26 + lineup_680_26
  + lineup_686_26 + lineup_687_26 + lineup_692_26 + lineup_695_26
  + lineup_710_26 + lineup_752_26 + lineup_756_26 + lineup_765_26
- + lineup_778_26 + lineup_77_26 + lineup_80_26 + lineup_88_26 + lineup_91_26
- + lineup_97_26 >= 1
+ + lineup_778_26 + lineup_77_26 + lineup_789_26 + lineup_790_26 + lineup_80_26
+ + lineup_88_26 + lineup_91_26 + lineup_97_26 >= 1
 Min_lineup_players_in_position_2_in_gameweek_23: lineup_102_23 + lineup_103_23
  + lineup_104_23 + lineup_109_23 + lineup_10_23 + lineup_112_23
  + lineup_114_23 + lineup_121_23 + lineup_129_23 + lineup_131_23
@@ -26617,8 +26696,9 @@ Min_lineup_players_in_position_2_in_gameweek_23: lineup_102_23 + lineup_103_23
  + lineup_751_23 + lineup_753_23 + lineup_757_23 + lineup_75_23
  + lineup_761_23 + lineup_763_23 + lineup_766_23 + lineup_768_23
  + lineup_774_23 + lineup_777_23 + lineup_782_23 + lineup_784_23
- + lineup_788_23 + lineup_7_23 + lineup_83_23 + lineup_84_23 + lineup_89_23
- + lineup_90_23 + lineup_93_23 + lineup_96_23 >= 3
+ + lineup_788_23 + lineup_792_23 + lineup_793_23 + lineup_797_23 + lineup_7_23
+ + lineup_83_23 + lineup_84_23 + lineup_89_23 + lineup_90_23 + lineup_93_23
+ + lineup_96_23 >= 3
 Min_lineup_players_in_position_2_in_gameweek_24: lineup_102_24 + lineup_103_24
  + lineup_104_24 + lineup_109_24 + lineup_10_24 + lineup_112_24
  + lineup_114_24 + lineup_121_24 + lineup_129_24 + lineup_131_24
@@ -26680,8 +26760,9 @@ Min_lineup_players_in_position_2_in_gameweek_24: lineup_102_24 + lineup_103_24
  + lineup_751_24 + lineup_753_24 + lineup_757_24 + lineup_75_24
  + lineup_761_24 + lineup_763_24 + lineup_766_24 + lineup_768_24
  + lineup_774_24 + lineup_777_24 + lineup_782_24 + lineup_784_24
- + lineup_788_24 + lineup_7_24 + lineup_83_24 + lineup_84_24 + lineup_89_24
- + lineup_90_24 + lineup_93_24 + lineup_96_24 >= 3
+ + lineup_788_24 + lineup_792_24 + lineup_793_24 + lineup_797_24 + lineup_7_24
+ + lineup_83_24 + lineup_84_24 + lineup_89_24 + lineup_90_24 + lineup_93_24
+ + lineup_96_24 >= 3
 Min_lineup_players_in_position_2_in_gameweek_25: lineup_102_25 + lineup_103_25
  + lineup_104_25 + lineup_109_25 + lineup_10_25 + lineup_112_25
  + lineup_114_25 + lineup_121_25 + lineup_129_25 + lineup_131_25
@@ -26743,8 +26824,9 @@ Min_lineup_players_in_position_2_in_gameweek_25: lineup_102_25 + lineup_103_25
  + lineup_751_25 + lineup_753_25 + lineup_757_25 + lineup_75_25
  + lineup_761_25 + lineup_763_25 + lineup_766_25 + lineup_768_25
  + lineup_774_25 + lineup_777_25 + lineup_782_25 + lineup_784_25
- + lineup_788_25 + lineup_7_25 + lineup_83_25 + lineup_84_25 + lineup_89_25
- + lineup_90_25 + lineup_93_25 + lineup_96_25 >= 3
+ + lineup_788_25 + lineup_792_25 + lineup_793_25 + lineup_797_25 + lineup_7_25
+ + lineup_83_25 + lineup_84_25 + lineup_89_25 + lineup_90_25 + lineup_93_25
+ + lineup_96_25 >= 3
 Min_lineup_players_in_position_2_in_gameweek_26: lineup_102_26 + lineup_103_26
  + lineup_104_26 + lineup_109_26 + lineup_10_26 + lineup_112_26
  + lineup_114_26 + lineup_121_26 + lineup_129_26 + lineup_131_26
@@ -26806,8 +26888,9 @@ Min_lineup_players_in_position_2_in_gameweek_26: lineup_102_26 + lineup_103_26
  + lineup_751_26 + lineup_753_26 + lineup_757_26 + lineup_75_26
  + lineup_761_26 + lineup_763_26 + lineup_766_26 + lineup_768_26
  + lineup_774_26 + lineup_777_26 + lineup_782_26 + lineup_784_26
- + lineup_788_26 + lineup_7_26 + lineup_83_26 + lineup_84_26 + lineup_89_26
- + lineup_90_26 + lineup_93_26 + lineup_96_26 >= 3
+ + lineup_788_26 + lineup_792_26 + lineup_793_26 + lineup_797_26 + lineup_7_26
+ + lineup_83_26 + lineup_84_26 + lineup_89_26 + lineup_90_26 + lineup_93_26
+ + lineup_96_26 >= 3
 Min_lineup_players_in_position_3_in_gameweek_23: lineup_105_23 + lineup_106_23
  + lineup_107_23 + lineup_108_23 + lineup_110_23 + lineup_111_23
  + lineup_115_23 + lineup_118_23 + lineup_11_23 + lineup_120_23
@@ -26890,7 +26973,8 @@ Min_lineup_players_in_position_3_in_gameweek_23: lineup_105_23 + lineup_106_23
  + lineup_760_23 + lineup_762_23 + lineup_764_23 + lineup_767_23
  + lineup_769_23 + lineup_770_23 + lineup_771_23 + lineup_772_23
  + lineup_773_23 + lineup_775_23 + lineup_779_23 + lineup_783_23
- + lineup_786_23 + lineup_787_23 + lineup_78_23 + lineup_79_23 + lineup_81_23
+ + lineup_786_23 + lineup_787_23 + lineup_78_23 + lineup_791_23
+ + lineup_794_23 + lineup_795_23 + lineup_796_23 + lineup_79_23 + lineup_81_23
  + lineup_86_23 + lineup_87_23 + lineup_92_23 + lineup_94_23 + lineup_95_23
  + lineup_98_23 + lineup_99_23 + lineup_9_23 >= 2
 Min_lineup_players_in_position_3_in_gameweek_24: lineup_105_24 + lineup_106_24
@@ -26975,7 +27059,8 @@ Min_lineup_players_in_position_3_in_gameweek_24: lineup_105_24 + lineup_106_24
  + lineup_760_24 + lineup_762_24 + lineup_764_24 + lineup_767_24
  + lineup_769_24 + lineup_770_24 + lineup_771_24 + lineup_772_24
  + lineup_773_24 + lineup_775_24 + lineup_779_24 + lineup_783_24
- + lineup_786_24 + lineup_787_24 + lineup_78_24 + lineup_79_24 + lineup_81_24
+ + lineup_786_24 + lineup_787_24 + lineup_78_24 + lineup_791_24
+ + lineup_794_24 + lineup_795_24 + lineup_796_24 + lineup_79_24 + lineup_81_24
  + lineup_86_24 + lineup_87_24 + lineup_92_24 + lineup_94_24 + lineup_95_24
  + lineup_98_24 + lineup_99_24 + lineup_9_24 >= 2
 Min_lineup_players_in_position_3_in_gameweek_25: lineup_105_25 + lineup_106_25
@@ -27060,7 +27145,8 @@ Min_lineup_players_in_position_3_in_gameweek_25: lineup_105_25 + lineup_106_25
  + lineup_760_25 + lineup_762_25 + lineup_764_25 + lineup_767_25
  + lineup_769_25 + lineup_770_25 + lineup_771_25 + lineup_772_25
  + lineup_773_25 + lineup_775_25 + lineup_779_25 + lineup_783_25
- + lineup_786_25 + lineup_787_25 + lineup_78_25 + lineup_79_25 + lineup_81_25
+ + lineup_786_25 + lineup_787_25 + lineup_78_25 + lineup_791_25
+ + lineup_794_25 + lineup_795_25 + lineup_796_25 + lineup_79_25 + lineup_81_25
  + lineup_86_25 + lineup_87_25 + lineup_92_25 + lineup_94_25 + lineup_95_25
  + lineup_98_25 + lineup_99_25 + lineup_9_25 >= 2
 Min_lineup_players_in_position_3_in_gameweek_26: lineup_105_26 + lineup_106_26
@@ -27145,7 +27231,8 @@ Min_lineup_players_in_position_3_in_gameweek_26: lineup_105_26 + lineup_106_26
  + lineup_760_26 + lineup_762_26 + lineup_764_26 + lineup_767_26
  + lineup_769_26 + lineup_770_26 + lineup_771_26 + lineup_772_26
  + lineup_773_26 + lineup_775_26 + lineup_779_26 + lineup_783_26
- + lineup_786_26 + lineup_787_26 + lineup_78_26 + lineup_79_26 + lineup_81_26
+ + lineup_786_26 + lineup_787_26 + lineup_78_26 + lineup_791_26
+ + lineup_794_26 + lineup_795_26 + lineup_796_26 + lineup_79_26 + lineup_81_26
  + lineup_86_26 + lineup_87_26 + lineup_92_26 + lineup_94_26 + lineup_95_26
  + lineup_98_26 + lineup_99_26 + lineup_9_26 >= 2
 Min_lineup_players_in_position_4_in_gameweek_23: lineup_100_23 + lineup_117_23
@@ -27257,15 +27344,15 @@ Money_in_bank_constraint_for_gameweek_23: - money_in_bank_22
  + 3.9 transfer_in_102_23 + 4.3 transfer_in_103_23 + 4.4 transfer_in_104_23
  + 5.3 transfer_in_105_23 + 5.4 transfer_in_106_23 + 4.7 transfer_in_107_23
  + 6.8 transfer_in_108_23 + 4.8 transfer_in_109_23 + 4.3 transfer_in_10_23
- + 5.4 transfer_in_110_23 + 4.9 transfer_in_111_23 + 4.6 transfer_in_112_23
+ + 5.3 transfer_in_110_23 + 4.9 transfer_in_111_23 + 4.6 transfer_in_112_23
  + 4.9 transfer_in_113_23 + 4.4 transfer_in_114_23 + 5.2 transfer_in_115_23
  + 3.9 transfer_in_116_23 + 8 transfer_in_117_23 + 4.5 transfer_in_118_23
- + 5.7 transfer_in_119_23 + 4.5 transfer_in_11_23 + 4.3 transfer_in_120_23
+ + 5.6 transfer_in_119_23 + 4.5 transfer_in_11_23 + 4.3 transfer_in_120_23
  + 4.3 transfer_in_121_23 + 5 transfer_in_122_23 + 4.4 transfer_in_123_23
  + 4.5 transfer_in_124_23 + 4.7 transfer_in_125_23 + 4.5 transfer_in_126_23
  + 4.5 transfer_in_127_23 + 4.8 transfer_in_128_23 + 5 transfer_in_129_23
  + 7.7 transfer_in_12_23 + 5 transfer_in_130_23 + 5.1 transfer_in_131_23
- + 5.9 transfer_in_132_23 + 4.9 transfer_in_133_23 + 6.5 transfer_in_134_23
+ + 5.8 transfer_in_132_23 + 4.9 transfer_in_133_23 + 6.5 transfer_in_134_23
  + 5.5 transfer_in_135_23 + 4 transfer_in_136_23 + 4.5 transfer_in_137_23
  + 4.9 transfer_in_138_23 + 3.9 transfer_in_139_23 + 5.2 transfer_in_13_23
  + 6.1 transfer_in_140_23 + 3.9 transfer_in_141_23 + 4.8 transfer_in_142_23
@@ -27278,7 +27365,7 @@ Money_in_bank_constraint_for_gameweek_23: - money_in_bank_22
  + 4.8 transfer_in_15_23 + 4 transfer_in_160_23 + 4.7 transfer_in_161_23
  + 4.4 transfer_in_162_23 + 4.8 transfer_in_163_23 + 4.5 transfer_in_164_23
  + 5 transfer_in_165_23 + 3.9 transfer_in_166_23 + 3.9 transfer_in_167_23
- + 4.8 transfer_in_168_23 + 3.9 transfer_in_169_23 + 4.9 transfer_in_16_23
+ + 4.7 transfer_in_168_23 + 3.9 transfer_in_169_23 + 4.9 transfer_in_16_23
  + 4.8 transfer_in_170_23 + 4 transfer_in_171_23 + 4.3 transfer_in_172_23
  + 4.4 transfer_in_173_23 + 4.9 transfer_in_174_23 + 4 transfer_in_175_23
  + 4.3 transfer_in_176_23 + 5.3 transfer_in_177_23 + 4 transfer_in_178_23
@@ -27345,18 +27432,18 @@ Money_in_bank_constraint_for_gameweek_23: - money_in_bank_22
  + 4.3 transfer_in_340_23 + 4.9 transfer_in_341_23 + 5 transfer_in_342_23
  + 7 transfer_in_343_23 + 6.5 transfer_in_344_23 + 4.4 transfer_in_345_23
  + 5.8 transfer_in_346_23 + 3.9 transfer_in_347_23 + 4.5 transfer_in_348_23
- + 10.6 transfer_in_349_23 + 5.7 transfer_in_34_23 + 5.5 transfer_in_350_23
+ + 10.7 transfer_in_349_23 + 5.7 transfer_in_34_23 + 5.5 transfer_in_350_23
  + 4.4 transfer_in_351_23 + 5.5 transfer_in_352_23 + 8 transfer_in_353_23
- + 7.2 transfer_in_354_23 + 13.9 transfer_in_355_23 + 4.7 transfer_in_356_23
+ + 7.2 transfer_in_354_23 + 14 transfer_in_355_23 + 4.7 transfer_in_356_23
  + 4.9 transfer_in_357_23 + 4.3 transfer_in_358_23 + 7.5 transfer_in_359_23
  + 5.7 transfer_in_35_23 + 4.4 transfer_in_360_23 + 3.8 transfer_in_361_23
  + 5.8 transfer_in_362_23 + 4.4 transfer_in_363_23 + 4.7 transfer_in_364_23
  + 5.6 transfer_in_365_23 + 3.8 transfer_in_366_23 + 3.9 transfer_in_367_23
- + 5.3 transfer_in_368_23 + 5.4 transfer_in_369_23 + 4.7 transfer_in_36_23
+ + 5.3 transfer_in_368_23 + 5.5 transfer_in_369_23 + 4.7 transfer_in_36_23
  + 4.5 transfer_in_370_23 + 4.4 transfer_in_371_23 + 6.8 transfer_in_372_23
  + 8.2 transfer_in_373_23 + 4 transfer_in_374_23 + 4 transfer_in_375_23
  + 5.3 transfer_in_376_23 + 5.1 transfer_in_377_23 + 5.1 transfer_in_378_23
- + 5.8 transfer_in_379_23 + 3.9 transfer_in_37_23 + 4 transfer_in_380_23
+ + 5.8 transfer_in_379_23 + 3.8 transfer_in_37_23 + 4 transfer_in_380_23
  + 5 transfer_in_381_23 + 4.8 transfer_in_382_23 + 4.3 transfer_in_383_23
  + 4 transfer_in_384_23 + 4.4 transfer_in_385_23 + 4.5 transfer_in_386_23
  + 4.2 transfer_in_387_23 + 4.4 transfer_in_388_23 + 4.3 transfer_in_389_23
@@ -27404,12 +27491,12 @@ Money_in_bank_constraint_for_gameweek_23: - money_in_bank_22
  + 5.4 transfer_in_4_23 + 12.5 transfer_in_500_23 + 7.1 transfer_in_501_23
  + 4.7 transfer_in_502_23 + 4.8 transfer_in_503_23 + 7.8 transfer_in_504_23
  + 4.4 transfer_in_505_23 + 5.9 transfer_in_506_23 + 4.7 transfer_in_507_23
- + 4.4 transfer_in_508_23 + 7 transfer_in_509_23 + 5.6 transfer_in_50_23
+ + 4.4 transfer_in_508_23 + 7 transfer_in_509_23 + 5.5 transfer_in_50_23
  + 4 transfer_in_510_23 + 4.9 transfer_in_511_23 + 4.4 transfer_in_512_23
  + 4.4 transfer_in_513_23 + 4.4 transfer_in_514_23 + 4.5 transfer_in_515_23
  + 9.7 transfer_in_516_23 + 4 transfer_in_517_23 + 4 transfer_in_518_23
  + 4.8 transfer_in_519_23 + 4.1 transfer_in_51_23 + 5.3 transfer_in_520_23
- + 3.9 transfer_in_521_23 + 4.5 transfer_in_522_23 + 5.7 transfer_in_523_23
+ + 3.9 transfer_in_521_23 + 4.4 transfer_in_522_23 + 5.7 transfer_in_523_23
  + 4.2 transfer_in_524_23 + 5.6 transfer_in_525_23 + 8.1 transfer_in_526_23
  + 5.2 transfer_in_527_23 + 4.7 transfer_in_528_23 + 4.3 transfer_in_529_23
  + 4.4 transfer_in_52_23 + 4.2 transfer_in_530_23 + 5 transfer_in_531_23
@@ -27441,7 +27528,7 @@ Money_in_bank_constraint_for_gameweek_23: - money_in_bank_22
  + 5 transfer_in_5_23 + 4.7 transfer_in_600_23 + 5.2 transfer_in_601_23
  + 4 transfer_in_602_23 + 6.2 transfer_in_603_23 + 4.5 transfer_in_604_23
  + 4.8 transfer_in_605_23 + 4.3 transfer_in_606_23 + 4.4 transfer_in_607_23
- + 4.9 transfer_in_608_23 + 5.1 transfer_in_609_23 + 8.9 transfer_in_60_23
+ + 4.9 transfer_in_608_23 + 5.1 transfer_in_609_23 + 8.8 transfer_in_60_23
  + 4.4 transfer_in_610_23 + 4.9 transfer_in_611_23 + 4.4 transfer_in_613_23
  + 4.5 transfer_in_614_23 + 4.8 transfer_in_615_23 + 4.8 transfer_in_616_23
  + 6.8 transfer_in_617_23 + 4.5 transfer_in_618_23 + 4 transfer_in_619_23
@@ -27507,7 +27594,10 @@ Money_in_bank_constraint_for_gameweek_23: - money_in_bank_22
  + 4.6 transfer_in_77_23 + 4.5 transfer_in_780_23 + 4.5 transfer_in_781_23
  + 4.5 transfer_in_782_23 + 4.5 transfer_in_783_23 + 4 transfer_in_784_23
  + 4.5 transfer_in_785_23 + 4.5 transfer_in_786_23 + 4.5 transfer_in_787_23
- + 4 transfer_in_788_23 + 4.7 transfer_in_78_23 + 4.5 transfer_in_79_23
+ + 4 transfer_in_788_23 + 4 transfer_in_789_23 + 4.7 transfer_in_78_23
+ + 4.5 transfer_in_790_23 + 4.5 transfer_in_791_23 + 4.5 transfer_in_792_23
+ + 4 transfer_in_793_23 + 4.5 transfer_in_794_23 + 4.5 transfer_in_795_23
+ + 4.5 transfer_in_796_23 + 4 transfer_in_797_23 + 4.5 transfer_in_79_23
  + 4.3 transfer_in_7_23 + 4 transfer_in_80_23 + 4.8 transfer_in_81_23
  + 4.5 transfer_in_82_23 + 4.5 transfer_in_83_23 + 4.4 transfer_in_84_23
  + 7.1 transfer_in_85_23 + 5.4 transfer_in_86_23 + 4.7 transfer_in_87_23
@@ -27519,15 +27609,15 @@ Money_in_bank_constraint_for_gameweek_23: - money_in_bank_22
  - 4.5 transfer_out_101_23 - 3.9 transfer_out_102_23 - 4.3 transfer_out_103_23
  - 4.4 transfer_out_104_23 - 5.3 transfer_out_105_23 - 5.4 transfer_out_106_23
  - 4.7 transfer_out_107_23 - 6.8 transfer_out_108_23 - 4.8 transfer_out_109_23
- - 4.3 transfer_out_10_23 - 5.4 transfer_out_110_23 - 4.9 transfer_out_111_23
+ - 4.3 transfer_out_10_23 - 5.3 transfer_out_110_23 - 4.9 transfer_out_111_23
  - 4.6 transfer_out_112_23 - 4.9 transfer_out_113_23 - 4.4 transfer_out_114_23
  - 5.2 transfer_out_115_23 - 3.9 transfer_out_116_23 - 8 transfer_out_117_23
- - 4.5 transfer_out_118_23 - 5.7 transfer_out_119_23 - 4.5 transfer_out_11_23
+ - 4.5 transfer_out_118_23 - 5.6 transfer_out_119_23 - 4.5 transfer_out_11_23
  - 4.3 transfer_out_120_23 - 4.3 transfer_out_121_23 - 5 transfer_out_122_23
  - 4.4 transfer_out_123_23 - 4.5 transfer_out_124_23 - 4.7 transfer_out_125_23
  - 4.5 transfer_out_126_23 - 4.5 transfer_out_127_23 - 4.8 transfer_out_128_23
  - 5 transfer_out_129_23 - 7.7 transfer_out_12_23 - 5 transfer_out_130_23
- - 5.1 transfer_out_131_23 - 5.9 transfer_out_132_23 - 4.9 transfer_out_133_23
+ - 5.1 transfer_out_131_23 - 5.8 transfer_out_132_23 - 4.9 transfer_out_133_23
  - 6.5 transfer_out_134_23 - 5.5 transfer_out_135_23 - 4 transfer_out_136_23
  - 4.5 transfer_out_137_23 - 4.9 transfer_out_138_23 - 3.9 transfer_out_139_23
  - 5.2 transfer_out_13_23 - 6.1 transfer_out_140_23 - 3.9 transfer_out_141_23
@@ -27540,7 +27630,7 @@ Money_in_bank_constraint_for_gameweek_23: - money_in_bank_22
  - 5.2 transfer_out_159_23 - 4.8 transfer_out_15_23 - 4 transfer_out_160_23
  - 4.7 transfer_out_161_23 - 4.4 transfer_out_162_23 - 4.8 transfer_out_163_23
  - 4.5 transfer_out_164_23 - 5 transfer_out_165_23 - 3.9 transfer_out_166_23
- - 3.9 transfer_out_167_23 - 4.8 transfer_out_168_23 - 3.9 transfer_out_169_23
+ - 3.9 transfer_out_167_23 - 4.7 transfer_out_168_23 - 3.9 transfer_out_169_23
  - 4.9 transfer_out_16_23 - 4.8 transfer_out_170_23 - 4 transfer_out_171_23
  - 4.3 transfer_out_172_23 - 4.4 transfer_out_173_23 - 4.9 transfer_out_174_23
  - 4 transfer_out_175_23 - 4.3 transfer_out_176_23 - 5.3 transfer_out_177_23
@@ -27608,191 +27698,194 @@ Money_in_bank_constraint_for_gameweek_23: - money_in_bank_22
  - 4.9 transfer_out_341_23 - 5 transfer_out_342_23 - 7 transfer_out_343_23
  - 6.5 transfer_out_344_23 - 4.4 transfer_out_345_23 - 5.8 transfer_out_346_23
  - 3.9 transfer_out_347_23 - 4.5 transfer_out_348_23
- - 10.6 transfer_out_349_23 - 5.7 transfer_out_34_23 - 5.5 transfer_out_350_23
+ - 10.7 transfer_out_349_23 - 5.7 transfer_out_34_23 - 5.5 transfer_out_350_23
  - 4.4 transfer_out_351_23 - 5.5 transfer_out_352_23 - 8 transfer_out_353_23
- - 7.2 transfer_out_354_23 - 13.9 transfer_out_355_23
- - 4.7 transfer_out_356_23 - 4.9 transfer_out_357_23 - 4.3 transfer_out_358_23
- - 7.5 transfer_out_359_23 - 5.7 transfer_out_35_23 - 4.4 transfer_out_360_23
- - 3.8 transfer_out_361_23 - 5.8 transfer_out_362_23 - 4.4 transfer_out_363_23
- - 4.7 transfer_out_364_23 - 5.6 transfer_out_365_23 - 3.8 transfer_out_366_23
- - 3.9 transfer_out_367_23 - 5.3 transfer_out_368_23 - 5.4 transfer_out_369_23
- - 4.7 transfer_out_36_23 - 4.5 transfer_out_370_23 - 4.4 transfer_out_371_23
- - 6.8 transfer_out_372_23 - 8.2 transfer_out_373_23 - 4 transfer_out_374_23
- - 4 transfer_out_375_23 - 5.3 transfer_out_376_23 - 5.1 transfer_out_377_23
- - 5.1 transfer_out_378_23 - 5.8 transfer_out_379_23 - 3.9 transfer_out_37_23
- - 4 transfer_out_380_23 - 5 transfer_out_381_23 - 4.8 transfer_out_382_23
- - 4.3 transfer_out_383_23 - 4 transfer_out_384_23 - 4.4 transfer_out_385_23
- - 4.5 transfer_out_386_23 - 4.2 transfer_out_387_23 - 4.4 transfer_out_388_23
- - 4.3 transfer_out_389_23 - 5.8 transfer_out_38_23 - 6.4 transfer_out_390_23
- - 4.7 transfer_out_391_23 - 4.6 transfer_out_392_23 - 4 transfer_out_393_23
- - 4.2 transfer_out_394_23 - 4.9 transfer_out_395_23 - 8.4 transfer_out_396_23
- - 6.7 transfer_out_397_23 - 5.2 transfer_out_398_23 - 4.4 transfer_out_399_23
- - 4.9 transfer_out_39_23 - 4.4 transfer_out_3_23 - 4.7 transfer_out_400_23
- - 4.4 transfer_out_401_23 - 6.2 transfer_out_402_23 - 4.2 transfer_out_403_23
- - 4 transfer_out_404_23 - 4.5 transfer_out_405_23 - 5.8 transfer_out_406_23
- - 4.4 transfer_out_407_23 - 4 transfer_out_408_23 - 4.2 transfer_out_409_23
- - 4.9 transfer_out_40_23 - 4.9 transfer_out_410_23 - 3.9 transfer_out_411_23
- - 6.1 transfer_out_412_23 - 4.4 transfer_out_413_23 - 4.4 transfer_out_414_23
- - 7.6 transfer_out_415_23 - 5.8 transfer_out_416_23 - 4.4 transfer_out_417_23
- - 4.5 transfer_out_418_23 - 4.1 transfer_out_419_23 - 4.4 transfer_out_41_23
- - 4 transfer_out_420_23 - 4.8 transfer_out_421_23 - 4 transfer_out_422_23
- - 4.8 transfer_out_423_23 - 5.3 transfer_out_424_23 - 4.3 transfer_out_425_23
- - 6 transfer_out_426_23 - 5.2 transfer_out_427_23 - 4.2 transfer_out_428_23
- - 5.2 transfer_out_429_23 - 4.6 transfer_out_42_23 - 6.7 transfer_out_430_23
- - 4 transfer_out_431_23 - 5.3 transfer_out_432_23 - 7.8 transfer_out_433_23
- - 4.5 transfer_out_434_23 - 4.3 transfer_out_435_23 - 4.5 transfer_out_436_23
- - 6.3 transfer_out_437_23 - 3.9 transfer_out_438_23 - 4.5 transfer_out_439_23
- - 5.6 transfer_out_43_23 - 4.5 transfer_out_440_23 - 4.5 transfer_out_441_23
- - 5.3 transfer_out_442_23 - 4.8 transfer_out_443_23 - 4 transfer_out_444_23
- - 4.4 transfer_out_445_23 - 4.9 transfer_out_446_23 - 5.7 transfer_out_447_23
- - 4 transfer_out_448_23 - 4.3 transfer_out_449_23 - 5 transfer_out_44_23
- - 5.8 transfer_out_450_23 - 4.8 transfer_out_451_23 - 4.5 transfer_out_452_23
- - 5 transfer_out_453_23 - 4 transfer_out_454_23 - 4.4 transfer_out_455_23
- - 4.4 transfer_out_456_23 - 4.5 transfer_out_457_23 - 4.9 transfer_out_458_23
- - 4.5 transfer_out_459_23 - 3.9 transfer_out_45_23 - 4 transfer_out_460_23
- - 4.4 transfer_out_461_23 - 4.5 transfer_out_462_23 - 4.8 transfer_out_463_23
- - 4.5 transfer_out_464_23 - 4.4 transfer_out_465_23 - 4.4 transfer_out_466_23
- - 4.3 transfer_out_467_23 - 5 transfer_out_468_23 - 4.3 transfer_out_469_23
- - 4.4 transfer_out_46_23 - 4.8 transfer_out_470_23 - 4.3 transfer_out_471_23
- - 3.9 transfer_out_472_23 - 3.8 transfer_out_473_23 - 3.9 transfer_out_474_23
- - 4.7 transfer_out_475_23 - 4.5 transfer_out_476_23 - 4.9 transfer_out_477_23
- - 4.4 transfer_out_478_23 - 4 transfer_out_479_23 - 5 transfer_out_47_23
- - 4.3 transfer_out_480_23 - 4.9 transfer_out_481_23 - 4.5 transfer_out_482_23
- - 4.8 transfer_out_483_23 - 4.3 transfer_out_484_23 - 5.4 transfer_out_485_23
- - 5.5 transfer_out_486_23 - 3.9 transfer_out_487_23 - 4.8 transfer_out_488_23
- - 4.8 transfer_out_489_23 - 4.6 transfer_out_48_23 - 4.3 transfer_out_490_23
- - 3.9 transfer_out_491_23 - 5.4 transfer_out_492_23 - 5 transfer_out_493_23
- - 4.9 transfer_out_494_23 - 4.3 transfer_out_495_23 - 4.2 transfer_out_496_23
- - 4.3 transfer_out_497_23 - 3.8 transfer_out_498_23 - 5.2 transfer_out_499_23
- - 5.2 transfer_out_49_23 - 5.4 transfer_out_4_23 - 12.5 transfer_out_500_23
- - 7.1 transfer_out_501_23 - 4.7 transfer_out_502_23 - 4.8 transfer_out_503_23
- - 7.8 transfer_out_504_23 - 4.4 transfer_out_505_23 - 5.9 transfer_out_506_23
- - 4.7 transfer_out_507_23 - 4.4 transfer_out_508_23 - 7 transfer_out_509_23
- - 5.6 transfer_out_50_23 - 4 transfer_out_510_23 - 4.9 transfer_out_511_23
- - 4.4 transfer_out_512_23 - 4.4 transfer_out_513_23 - 4.4 transfer_out_514_23
- - 4.5 transfer_out_515_23 - 9.7 transfer_out_516_23 - 4 transfer_out_517_23
- - 4 transfer_out_518_23 - 4.8 transfer_out_519_23 - 4.1 transfer_out_51_23
- - 5.3 transfer_out_520_23 - 3.9 transfer_out_521_23 - 4.5 transfer_out_522_23
- - 5.7 transfer_out_523_23 - 4.2 transfer_out_524_23 - 5.6 transfer_out_525_23
- - 8.1 transfer_out_526_23 - 5.2 transfer_out_527_23 - 4.7 transfer_out_528_23
- - 4.3 transfer_out_529_23 - 4.4 transfer_out_52_23 - 4.2 transfer_out_530_23
- - 5 transfer_out_531_23 - 4.6 transfer_out_532_23 - 4.2 transfer_out_533_23
- - 4.6 transfer_out_534_23 - 5.6 transfer_out_535_23 - 4.4 transfer_out_536_23
- - 4.2 transfer_out_537_23 - 4.2 transfer_out_538_23 - 6 transfer_out_539_23
- - 3.9 transfer_out_53_23 - 5.4 transfer_out_540_23 - 6 transfer_out_541_23
- - 4.9 transfer_out_542_23 - 4.5 transfer_out_543_23 - 4.5 transfer_out_544_23
- - 4.5 transfer_out_545_23 - 3.9 transfer_out_546_23 - 4 transfer_out_547_23
- - 4.4 transfer_out_548_23 - 4.5 transfer_out_549_23 - 4.5 transfer_out_54_23
- - 4.5 transfer_out_550_23 - 4.5 transfer_out_551_23 - 5.2 transfer_out_552_23
- - 4.2 transfer_out_553_23 - 5.4 transfer_out_554_23 - 4.4 transfer_out_555_23
- - 4 transfer_out_556_23 - 5.6 transfer_out_557_23 - 5.2 transfer_out_558_23
- - 4.9 transfer_out_559_23 - 5.9 transfer_out_55_23 - 4.3 transfer_out_560_23
- - 4.3 transfer_out_561_23 - 4.9 transfer_out_562_23 - 4.5 transfer_out_563_23
- - 3.9 transfer_out_564_23 - 4.9 transfer_out_565_23 - 4.8 transfer_out_566_23
- - 5.6 transfer_out_567_23 - 5.3 transfer_out_568_23 - 5 transfer_out_569_23
- - 4.5 transfer_out_56_23 - 4.7 transfer_out_570_23 - 4 transfer_out_571_23
- - 4.5 transfer_out_572_23 - 4.4 transfer_out_573_23 - 4.3 transfer_out_574_23
- - 4.2 transfer_out_575_23 - 4.4 transfer_out_576_23 - 4.3 transfer_out_577_23
- - 4.8 transfer_out_578_23 - 3.9 transfer_out_579_23 - 4 transfer_out_57_23
- - 3.9 transfer_out_580_23 - 3.9 transfer_out_581_23 - 4.7 transfer_out_582_23
- - 5.1 transfer_out_583_23 - 4.7 transfer_out_584_23 - 4.6 transfer_out_585_23
- - 4.7 transfer_out_586_23 - 4.7 transfer_out_587_23 - 4.4 transfer_out_588_23
- - 5 transfer_out_589_23 - 5.6 transfer_out_58_23 - 5.8 transfer_out_590_23
- - 5.3 transfer_out_591_23 - 4.3 transfer_out_592_23 - 5.1 transfer_out_593_23
- - 5.3 transfer_out_594_23 - 4.4 transfer_out_595_23 - 4.5 transfer_out_596_23
- - 4.8 transfer_out_597_23 - 4.3 transfer_out_598_23 - 6.6 transfer_out_599_23
- - 5 transfer_out_59_23 - 5 transfer_out_5_23 - 4.7 transfer_out_600_23
- - 5.2 transfer_out_601_23 - 4 transfer_out_602_23 - 6.2 transfer_out_603_23
- - 4.5 transfer_out_604_23 - 4.8 transfer_out_605_23 - 4.3 transfer_out_606_23
- - 4.4 transfer_out_607_23 - 4.9 transfer_out_608_23 - 5.1 transfer_out_609_23
- - 8.9 transfer_out_60_23 - 4.4 transfer_out_610_23 - 4.9 transfer_out_611_23
- - 4.4 transfer_out_613_23 - 4.5 transfer_out_614_23 - 4.8 transfer_out_615_23
- - 4.8 transfer_out_616_23 - 6.8 transfer_out_617_23 - 4.5 transfer_out_618_23
- - 4 transfer_out_619_23 - 5 transfer_out_61_23 - 4.5 transfer_out_620_23
- - 4.5 transfer_out_621_23 - 4 transfer_out_622_23 - 4.5 transfer_out_623_23
- - 4.5 transfer_out_624_23 - 3.9 transfer_out_625_23 - 4 transfer_out_626_23
- - 4.4 transfer_out_627_23 - 4.4 transfer_out_628_23 - 4.4 transfer_out_629_23
- - 4.9 transfer_out_62_23 - 4.9 transfer_out_630_23 - 4.9 transfer_out_631_23
- - 4.4 transfer_out_632_23 - 4.3 transfer_out_633_23 - 3.9 transfer_out_634_23
- - 4.5 transfer_out_635_23 - 3.9 transfer_out_636_23 - 3.9 transfer_out_637_23
- - 5 transfer_out_638_23 - 4.4 transfer_out_639_23 - 5.2 transfer_out_63_23
- - 4.5 transfer_out_640_23 - 5.4 transfer_out_641_23 - 5 transfer_out_642_23
- - 4.4 transfer_out_643_23 - 4.9 transfer_out_644_23 - 4.8 transfer_out_645_23
- - 4 transfer_out_646_23 - 4 transfer_out_647_23 - 4 transfer_out_648_23
- - 4.5 transfer_out_649_23 - 4.7 transfer_out_64_23 - 4.4 transfer_out_650_23
- - 4.5 transfer_out_651_23 - 4.5 transfer_out_652_23 - 3.9 transfer_out_653_23
- - 4.5 transfer_out_654_23 - 4.4 transfer_out_655_23 - 4.4 transfer_out_656_23
- - 4.5 transfer_out_657_23 - 4.5 transfer_out_658_23 - 3.9 transfer_out_659_23
- - 5 transfer_out_65_23 - 5 transfer_out_660_23 - 5.5 transfer_out_661_23
- - 4.9 transfer_out_662_23 - 5 transfer_out_663_23 - 6 transfer_out_664_23
- - 4.4 transfer_out_665_23 - 5 transfer_out_666_23 - 4.9 transfer_out_667_23
- - 5.4 transfer_out_668_23 - 4 transfer_out_669_23 - 5 transfer_out_66_23
- - 4 transfer_out_670_23 - 4 transfer_out_671_23 - 5.4 transfer_out_672_23
- - 4.9 transfer_out_673_23 - 4 transfer_out_674_23 - 5 transfer_out_675_23
- - 4.5 transfer_out_676_23 - 4.5 transfer_out_677_23 - 6.5 transfer_out_678_23
- - 4.4 transfer_out_679_23 - 4.5 transfer_out_67_23 - 4 transfer_out_680_23
- - 4.5 transfer_out_681_23 - 4 transfer_out_682_23 - 4.5 transfer_out_683_23
- - 4.5 transfer_out_684_23 - 4.5 transfer_out_685_23 - 4 transfer_out_686_23
- - 4.5 transfer_out_687_23 - 4.5 transfer_out_688_23 - 6.8 transfer_out_689_23
- - 4.3 transfer_out_68_23 - 4.5 transfer_out_690_23 - 5.7 transfer_out_691_23
- - 4 transfer_out_692_23 - 4 transfer_out_693_23 - 5 transfer_out_694_23
- - 4 transfer_out_695_23 - 4.5 transfer_out_696_23 - 4.5 transfer_out_697_23
- - 5 transfer_out_698_23 - 4.5 transfer_out_699_23 - 4 transfer_out_69_23
- - 7.1 transfer_out_6_23 - 6.4 transfer_out_700_23 - 4.5 transfer_out_701_23
- - 4 transfer_out_702_23 - 4 transfer_out_703_23 - 4.5 transfer_out_704_23
- - 5.5 transfer_out_705_23 - 5.4 transfer_out_706_23 - 4.5 transfer_out_707_23
- - 5 transfer_out_708_23 - 5 transfer_out_709_23 - 4.5 transfer_out_70_23
- - 4.5 transfer_out_710_23 - 4.5 transfer_out_711_23 - 5 transfer_out_712_23
- - 4.9 transfer_out_713_23 - 5 transfer_out_714_23 - 4.9 transfer_out_715_23
- - 4 transfer_out_716_23 - 4.5 transfer_out_717_23 - 4.5 transfer_out_718_23
- - 4.5 transfer_out_719_23 - 4.3 transfer_out_71_23 - 4.5 transfer_out_720_23
- - 4.5 transfer_out_721_23 - 4.5 transfer_out_722_23 - 4 transfer_out_723_23
- - 4.5 transfer_out_724_23 - 4 transfer_out_725_23 - 4 transfer_out_726_23
- - 5 transfer_out_727_23 - 3.9 transfer_out_728_23 - 4.5 transfer_out_729_23
- - 4.6 transfer_out_72_23 - 4.4 transfer_out_730_23 - 4 transfer_out_731_23
- - 4 transfer_out_732_23 - 4 transfer_out_733_23 - 4.5 transfer_out_734_23
- - 4.5 transfer_out_735_23 - 4 transfer_out_736_23 - 4.5 transfer_out_737_23
- - 4.5 transfer_out_738_23 - 4.5 transfer_out_739_23 - 4.9 transfer_out_73_23
- - 4 transfer_out_740_23 - 4.5 transfer_out_741_23 - 4.5 transfer_out_742_23
- - 4.5 transfer_out_743_23 - 4.5 transfer_out_744_23 - 4.4 transfer_out_745_23
- - 4 transfer_out_746_23 - 4.4 transfer_out_747_23 - 4.5 transfer_out_748_23
- - 4.5 transfer_out_749_23 - 4.3 transfer_out_74_23 - 4.4 transfer_out_750_23
- - 4 transfer_out_751_23 - 4 transfer_out_752_23 - 4 transfer_out_753_23
- - 4.5 transfer_out_754_23 - 4.5 transfer_out_755_23 - 4 transfer_out_756_23
- - 4 transfer_out_757_23 - 4.5 transfer_out_758_23 - 4.4 transfer_out_759_23
- - 4.3 transfer_out_75_23 - 4.5 transfer_out_760_23 - 4 transfer_out_761_23
- - 4.5 transfer_out_762_23 - 4 transfer_out_763_23 - 4.5 transfer_out_764_23
- - 4 transfer_out_765_23 - 4 transfer_out_766_23 - 4.5 transfer_out_767_23
- - 4 transfer_out_768_23 - 4.5 transfer_out_769_23 - 4.6 transfer_out_76_23
- - 4.5 transfer_out_770_23 - 4.5 transfer_out_771_23 - 4.5 transfer_out_772_23
- - 4.5 transfer_out_773_23 - 4 transfer_out_774_23 - 5 transfer_out_775_23
- - 6.5 transfer_out_776_23 - 4.5 transfer_out_777_23 - 4 transfer_out_778_23
- - 4.5 transfer_out_779_23 - 4.6 transfer_out_77_23 - 4.5 transfer_out_780_23
- - 4.5 transfer_out_781_23 - 4.5 transfer_out_782_23 - 4.5 transfer_out_783_23
- - 4 transfer_out_784_23 - 4.5 transfer_out_785_23 - 4.5 transfer_out_786_23
- - 4.5 transfer_out_787_23 - 4 transfer_out_788_23 - 4.7 transfer_out_78_23
- - 4.5 transfer_out_79_23 - 4.3 transfer_out_7_23 - 4 transfer_out_80_23
- - 4.8 transfer_out_81_23 - 4.5 transfer_out_82_23 - 4.5 transfer_out_83_23
- - 4.4 transfer_out_84_23 - 7.1 transfer_out_85_23 - 5.4 transfer_out_86_23
- - 4.7 transfer_out_87_23 - 4 transfer_out_88_23 - 4.4 transfer_out_89_23
- - 8 transfer_out_8_23 - 4.4 transfer_out_90_23 - 3.9 transfer_out_91_23
- - 4.3 transfer_out_92_23 - 4 transfer_out_93_23 - 4.5 transfer_out_94_23
- - 5 transfer_out_95_23 - 4.5 transfer_out_96_23 - 4 transfer_out_97_23
- - 4.8 transfer_out_98_23 - 4.7 transfer_out_99_23 - 5.3 transfer_out_9_23 = 0
+ - 7.2 transfer_out_354_23 - 14 transfer_out_355_23 - 4.7 transfer_out_356_23
+ - 4.9 transfer_out_357_23 - 4.3 transfer_out_358_23 - 7.5 transfer_out_359_23
+ - 5.7 transfer_out_35_23 - 4.4 transfer_out_360_23 - 3.8 transfer_out_361_23
+ - 5.8 transfer_out_362_23 - 4.4 transfer_out_363_23 - 4.7 transfer_out_364_23
+ - 5.6 transfer_out_365_23 - 3.8 transfer_out_366_23 - 3.9 transfer_out_367_23
+ - 5.3 transfer_out_368_23 - 5.5 transfer_out_369_23 - 4.7 transfer_out_36_23
+ - 4.5 transfer_out_370_23 - 4.4 transfer_out_371_23 - 6.8 transfer_out_372_23
+ - 8.2 transfer_out_373_23 - 4 transfer_out_374_23 - 4 transfer_out_375_23
+ - 5.3 transfer_out_376_23 - 5.1 transfer_out_377_23 - 5.1 transfer_out_378_23
+ - 5.8 transfer_out_379_23 - 3.8 transfer_out_37_23 - 4 transfer_out_380_23
+ - 5 transfer_out_381_23 - 4.8 transfer_out_382_23 - 4.3 transfer_out_383_23
+ - 4 transfer_out_384_23 - 4.4 transfer_out_385_23 - 4.5 transfer_out_386_23
+ - 4.2 transfer_out_387_23 - 4.4 transfer_out_388_23 - 4.3 transfer_out_389_23
+ - 5.8 transfer_out_38_23 - 6.4 transfer_out_390_23 - 4.7 transfer_out_391_23
+ - 4.6 transfer_out_392_23 - 4 transfer_out_393_23 - 4.2 transfer_out_394_23
+ - 4.9 transfer_out_395_23 - 8.4 transfer_out_396_23 - 6.7 transfer_out_397_23
+ - 5.2 transfer_out_398_23 - 4.4 transfer_out_399_23 - 4.9 transfer_out_39_23
+ - 4.4 transfer_out_3_23 - 4.7 transfer_out_400_23 - 4.4 transfer_out_401_23
+ - 6.2 transfer_out_402_23 - 4.2 transfer_out_403_23 - 4 transfer_out_404_23
+ - 4.5 transfer_out_405_23 - 5.8 transfer_out_406_23 - 4.4 transfer_out_407_23
+ - 4 transfer_out_408_23 - 4.2 transfer_out_409_23 - 4.9 transfer_out_40_23
+ - 4.9 transfer_out_410_23 - 3.9 transfer_out_411_23 - 6.1 transfer_out_412_23
+ - 4.4 transfer_out_413_23 - 4.4 transfer_out_414_23 - 7.6 transfer_out_415_23
+ - 5.8 transfer_out_416_23 - 4.4 transfer_out_417_23 - 4.5 transfer_out_418_23
+ - 4.1 transfer_out_419_23 - 4.4 transfer_out_41_23 - 4 transfer_out_420_23
+ - 4.8 transfer_out_421_23 - 4 transfer_out_422_23 - 4.8 transfer_out_423_23
+ - 5.3 transfer_out_424_23 - 4.3 transfer_out_425_23 - 6 transfer_out_426_23
+ - 5.2 transfer_out_427_23 - 4.2 transfer_out_428_23 - 5.2 transfer_out_429_23
+ - 4.6 transfer_out_42_23 - 6.7 transfer_out_430_23 - 4 transfer_out_431_23
+ - 5.3 transfer_out_432_23 - 7.8 transfer_out_433_23 - 4.5 transfer_out_434_23
+ - 4.3 transfer_out_435_23 - 4.5 transfer_out_436_23 - 6.3 transfer_out_437_23
+ - 3.9 transfer_out_438_23 - 4.5 transfer_out_439_23 - 5.6 transfer_out_43_23
+ - 4.5 transfer_out_440_23 - 4.5 transfer_out_441_23 - 5.3 transfer_out_442_23
+ - 4.8 transfer_out_443_23 - 4 transfer_out_444_23 - 4.4 transfer_out_445_23
+ - 4.9 transfer_out_446_23 - 5.7 transfer_out_447_23 - 4 transfer_out_448_23
+ - 4.3 transfer_out_449_23 - 5 transfer_out_44_23 - 5.8 transfer_out_450_23
+ - 4.8 transfer_out_451_23 - 4.5 transfer_out_452_23 - 5 transfer_out_453_23
+ - 4 transfer_out_454_23 - 4.4 transfer_out_455_23 - 4.4 transfer_out_456_23
+ - 4.5 transfer_out_457_23 - 4.9 transfer_out_458_23 - 4.5 transfer_out_459_23
+ - 3.9 transfer_out_45_23 - 4 transfer_out_460_23 - 4.4 transfer_out_461_23
+ - 4.5 transfer_out_462_23 - 4.8 transfer_out_463_23 - 4.5 transfer_out_464_23
+ - 4.4 transfer_out_465_23 - 4.4 transfer_out_466_23 - 4.3 transfer_out_467_23
+ - 5 transfer_out_468_23 - 4.3 transfer_out_469_23 - 4.4 transfer_out_46_23
+ - 4.8 transfer_out_470_23 - 4.3 transfer_out_471_23 - 3.9 transfer_out_472_23
+ - 3.8 transfer_out_473_23 - 3.9 transfer_out_474_23 - 4.7 transfer_out_475_23
+ - 4.5 transfer_out_476_23 - 4.9 transfer_out_477_23 - 4.4 transfer_out_478_23
+ - 4 transfer_out_479_23 - 5 transfer_out_47_23 - 4.3 transfer_out_480_23
+ - 4.9 transfer_out_481_23 - 4.5 transfer_out_482_23 - 4.8 transfer_out_483_23
+ - 4.3 transfer_out_484_23 - 5.4 transfer_out_485_23 - 5.5 transfer_out_486_23
+ - 3.9 transfer_out_487_23 - 4.8 transfer_out_488_23 - 4.8 transfer_out_489_23
+ - 4.6 transfer_out_48_23 - 4.3 transfer_out_490_23 - 3.9 transfer_out_491_23
+ - 5.4 transfer_out_492_23 - 5 transfer_out_493_23 - 4.9 transfer_out_494_23
+ - 4.3 transfer_out_495_23 - 4.2 transfer_out_496_23 - 4.3 transfer_out_497_23
+ - 3.8 transfer_out_498_23 - 5.2 transfer_out_499_23 - 5.2 transfer_out_49_23
+ - 5.4 transfer_out_4_23 - 12.5 transfer_out_500_23 - 7.1 transfer_out_501_23
+ - 4.7 transfer_out_502_23 - 4.8 transfer_out_503_23 - 7.8 transfer_out_504_23
+ - 4.4 transfer_out_505_23 - 5.9 transfer_out_506_23 - 4.7 transfer_out_507_23
+ - 4.4 transfer_out_508_23 - 7 transfer_out_509_23 - 5.5 transfer_out_50_23
+ - 4 transfer_out_510_23 - 4.9 transfer_out_511_23 - 4.4 transfer_out_512_23
+ - 4.4 transfer_out_513_23 - 4.4 transfer_out_514_23 - 4.5 transfer_out_515_23
+ - 9.7 transfer_out_516_23 - 4 transfer_out_517_23 - 4 transfer_out_518_23
+ - 4.8 transfer_out_519_23 - 4.1 transfer_out_51_23 - 5.3 transfer_out_520_23
+ - 3.9 transfer_out_521_23 - 4.4 transfer_out_522_23 - 5.7 transfer_out_523_23
+ - 4.2 transfer_out_524_23 - 5.6 transfer_out_525_23 - 8.1 transfer_out_526_23
+ - 5.2 transfer_out_527_23 - 4.7 transfer_out_528_23 - 4.3 transfer_out_529_23
+ - 4.4 transfer_out_52_23 - 4.2 transfer_out_530_23 - 5 transfer_out_531_23
+ - 4.6 transfer_out_532_23 - 4.2 transfer_out_533_23 - 4.6 transfer_out_534_23
+ - 5.6 transfer_out_535_23 - 4.4 transfer_out_536_23 - 4.2 transfer_out_537_23
+ - 4.2 transfer_out_538_23 - 6 transfer_out_539_23 - 3.9 transfer_out_53_23
+ - 5.4 transfer_out_540_23 - 6 transfer_out_541_23 - 4.9 transfer_out_542_23
+ - 4.5 transfer_out_543_23 - 4.5 transfer_out_544_23 - 4.5 transfer_out_545_23
+ - 3.9 transfer_out_546_23 - 4 transfer_out_547_23 - 4.4 transfer_out_548_23
+ - 4.5 transfer_out_549_23 - 4.5 transfer_out_54_23 - 4.5 transfer_out_550_23
+ - 4.5 transfer_out_551_23 - 5.2 transfer_out_552_23 - 4.2 transfer_out_553_23
+ - 5.4 transfer_out_554_23 - 4.4 transfer_out_555_23 - 4 transfer_out_556_23
+ - 5.6 transfer_out_557_23 - 5.2 transfer_out_558_23 - 4.9 transfer_out_559_23
+ - 5.9 transfer_out_55_23 - 4.3 transfer_out_560_23 - 4.3 transfer_out_561_23
+ - 4.9 transfer_out_562_23 - 4.5 transfer_out_563_23 - 3.9 transfer_out_564_23
+ - 4.9 transfer_out_565_23 - 4.8 transfer_out_566_23 - 5.6 transfer_out_567_23
+ - 5.3 transfer_out_568_23 - 5 transfer_out_569_23 - 4.5 transfer_out_56_23
+ - 4.7 transfer_out_570_23 - 4 transfer_out_571_23 - 4.5 transfer_out_572_23
+ - 4.4 transfer_out_573_23 - 4.3 transfer_out_574_23 - 4.2 transfer_out_575_23
+ - 4.4 transfer_out_576_23 - 4.3 transfer_out_577_23 - 4.8 transfer_out_578_23
+ - 3.9 transfer_out_579_23 - 4 transfer_out_57_23 - 3.9 transfer_out_580_23
+ - 3.9 transfer_out_581_23 - 4.7 transfer_out_582_23 - 5.1 transfer_out_583_23
+ - 4.7 transfer_out_584_23 - 4.6 transfer_out_585_23 - 4.7 transfer_out_586_23
+ - 4.7 transfer_out_587_23 - 4.4 transfer_out_588_23 - 5 transfer_out_589_23
+ - 5.6 transfer_out_58_23 - 5.8 transfer_out_590_23 - 5.3 transfer_out_591_23
+ - 4.3 transfer_out_592_23 - 5.1 transfer_out_593_23 - 5.3 transfer_out_594_23
+ - 4.4 transfer_out_595_23 - 4.5 transfer_out_596_23 - 4.8 transfer_out_597_23
+ - 4.3 transfer_out_598_23 - 6.6 transfer_out_599_23 - 5 transfer_out_59_23
+ - 5 transfer_out_5_23 - 4.7 transfer_out_600_23 - 5.2 transfer_out_601_23
+ - 4 transfer_out_602_23 - 6.2 transfer_out_603_23 - 4.5 transfer_out_604_23
+ - 4.8 transfer_out_605_23 - 4.3 transfer_out_606_23 - 4.4 transfer_out_607_23
+ - 4.9 transfer_out_608_23 - 5.1 transfer_out_609_23 - 8.8 transfer_out_60_23
+ - 4.4 transfer_out_610_23 - 4.9 transfer_out_611_23 - 4.4 transfer_out_613_23
+ - 4.5 transfer_out_614_23 - 4.8 transfer_out_615_23 - 4.8 transfer_out_616_23
+ - 6.8 transfer_out_617_23 - 4.5 transfer_out_618_23 - 4 transfer_out_619_23
+ - 5 transfer_out_61_23 - 4.5 transfer_out_620_23 - 4.5 transfer_out_621_23
+ - 4 transfer_out_622_23 - 4.5 transfer_out_623_23 - 4.5 transfer_out_624_23
+ - 3.9 transfer_out_625_23 - 4 transfer_out_626_23 - 4.4 transfer_out_627_23
+ - 4.4 transfer_out_628_23 - 4.4 transfer_out_629_23 - 4.9 transfer_out_62_23
+ - 4.9 transfer_out_630_23 - 4.9 transfer_out_631_23 - 4.4 transfer_out_632_23
+ - 4.3 transfer_out_633_23 - 3.9 transfer_out_634_23 - 4.5 transfer_out_635_23
+ - 3.9 transfer_out_636_23 - 3.9 transfer_out_637_23 - 5 transfer_out_638_23
+ - 4.4 transfer_out_639_23 - 5.2 transfer_out_63_23 - 4.5 transfer_out_640_23
+ - 5.4 transfer_out_641_23 - 5 transfer_out_642_23 - 4.4 transfer_out_643_23
+ - 4.9 transfer_out_644_23 - 4.8 transfer_out_645_23 - 4 transfer_out_646_23
+ - 4 transfer_out_647_23 - 4 transfer_out_648_23 - 4.5 transfer_out_649_23
+ - 4.7 transfer_out_64_23 - 4.4 transfer_out_650_23 - 4.5 transfer_out_651_23
+ - 4.5 transfer_out_652_23 - 3.9 transfer_out_653_23 - 4.5 transfer_out_654_23
+ - 4.4 transfer_out_655_23 - 4.4 transfer_out_656_23 - 4.5 transfer_out_657_23
+ - 4.5 transfer_out_658_23 - 3.9 transfer_out_659_23 - 5 transfer_out_65_23
+ - 5 transfer_out_660_23 - 5.5 transfer_out_661_23 - 4.9 transfer_out_662_23
+ - 5 transfer_out_663_23 - 6 transfer_out_664_23 - 4.4 transfer_out_665_23
+ - 5 transfer_out_666_23 - 4.9 transfer_out_667_23 - 5.4 transfer_out_668_23
+ - 4 transfer_out_669_23 - 5 transfer_out_66_23 - 4 transfer_out_670_23
+ - 4 transfer_out_671_23 - 5.4 transfer_out_672_23 - 4.9 transfer_out_673_23
+ - 4 transfer_out_674_23 - 5 transfer_out_675_23 - 4.5 transfer_out_676_23
+ - 4.5 transfer_out_677_23 - 6.5 transfer_out_678_23 - 4.4 transfer_out_679_23
+ - 4.5 transfer_out_67_23 - 4 transfer_out_680_23 - 4.5 transfer_out_681_23
+ - 4 transfer_out_682_23 - 4.5 transfer_out_683_23 - 4.5 transfer_out_684_23
+ - 4.5 transfer_out_685_23 - 4 transfer_out_686_23 - 4.5 transfer_out_687_23
+ - 4.5 transfer_out_688_23 - 6.8 transfer_out_689_23 - 4.3 transfer_out_68_23
+ - 4.5 transfer_out_690_23 - 5.7 transfer_out_691_23 - 4 transfer_out_692_23
+ - 4 transfer_out_693_23 - 5 transfer_out_694_23 - 4 transfer_out_695_23
+ - 4.5 transfer_out_696_23 - 4.5 transfer_out_697_23 - 5 transfer_out_698_23
+ - 4.5 transfer_out_699_23 - 4 transfer_out_69_23 - 7.1 transfer_out_6_23
+ - 6.4 transfer_out_700_23 - 4.5 transfer_out_701_23 - 4 transfer_out_702_23
+ - 4 transfer_out_703_23 - 4.5 transfer_out_704_23 - 5.5 transfer_out_705_23
+ - 5.4 transfer_out_706_23 - 4.5 transfer_out_707_23 - 5 transfer_out_708_23
+ - 5 transfer_out_709_23 - 4.5 transfer_out_70_23 - 4.5 transfer_out_710_23
+ - 4.5 transfer_out_711_23 - 5 transfer_out_712_23 - 4.9 transfer_out_713_23
+ - 5 transfer_out_714_23 - 4.9 transfer_out_715_23 - 4 transfer_out_716_23
+ - 4.5 transfer_out_717_23 - 4.5 transfer_out_718_23 - 4.5 transfer_out_719_23
+ - 4.3 transfer_out_71_23 - 4.5 transfer_out_720_23 - 4.5 transfer_out_721_23
+ - 4.5 transfer_out_722_23 - 4 transfer_out_723_23 - 4.5 transfer_out_724_23
+ - 4 transfer_out_725_23 - 4 transfer_out_726_23 - 5 transfer_out_727_23
+ - 3.9 transfer_out_728_23 - 4.5 transfer_out_729_23 - 4.6 transfer_out_72_23
+ - 4.4 transfer_out_730_23 - 4 transfer_out_731_23 - 4 transfer_out_732_23
+ - 4 transfer_out_733_23 - 4.5 transfer_out_734_23 - 4.5 transfer_out_735_23
+ - 4 transfer_out_736_23 - 4.5 transfer_out_737_23 - 4.5 transfer_out_738_23
+ - 4.5 transfer_out_739_23 - 4.9 transfer_out_73_23 - 4 transfer_out_740_23
+ - 4.5 transfer_out_741_23 - 4.5 transfer_out_742_23 - 4.5 transfer_out_743_23
+ - 4.5 transfer_out_744_23 - 4.4 transfer_out_745_23 - 4 transfer_out_746_23
+ - 4.4 transfer_out_747_23 - 4.5 transfer_out_748_23 - 4.5 transfer_out_749_23
+ - 4.3 transfer_out_74_23 - 4.4 transfer_out_750_23 - 4 transfer_out_751_23
+ - 4 transfer_out_752_23 - 4 transfer_out_753_23 - 4.5 transfer_out_754_23
+ - 4.5 transfer_out_755_23 - 4 transfer_out_756_23 - 4 transfer_out_757_23
+ - 4.5 transfer_out_758_23 - 4.4 transfer_out_759_23 - 4.3 transfer_out_75_23
+ - 4.5 transfer_out_760_23 - 4 transfer_out_761_23 - 4.5 transfer_out_762_23
+ - 4 transfer_out_763_23 - 4.5 transfer_out_764_23 - 4 transfer_out_765_23
+ - 4 transfer_out_766_23 - 4.5 transfer_out_767_23 - 4 transfer_out_768_23
+ - 4.5 transfer_out_769_23 - 4.6 transfer_out_76_23 - 4.5 transfer_out_770_23
+ - 4.5 transfer_out_771_23 - 4.5 transfer_out_772_23 - 4.5 transfer_out_773_23
+ - 4 transfer_out_774_23 - 5 transfer_out_775_23 - 6.5 transfer_out_776_23
+ - 4.5 transfer_out_777_23 - 4 transfer_out_778_23 - 4.5 transfer_out_779_23
+ - 4.6 transfer_out_77_23 - 4.5 transfer_out_780_23 - 4.5 transfer_out_781_23
+ - 4.5 transfer_out_782_23 - 4.5 transfer_out_783_23 - 4 transfer_out_784_23
+ - 4.5 transfer_out_785_23 - 4.5 transfer_out_786_23 - 4.5 transfer_out_787_23
+ - 4 transfer_out_788_23 - 4 transfer_out_789_23 - 4.7 transfer_out_78_23
+ - 4.5 transfer_out_790_23 - 4.5 transfer_out_791_23 - 4.5 transfer_out_792_23
+ - 4 transfer_out_793_23 - 4.5 transfer_out_794_23 - 4.5 transfer_out_795_23
+ - 4.5 transfer_out_796_23 - 4 transfer_out_797_23 - 4.5 transfer_out_79_23
+ - 4.3 transfer_out_7_23 - 4 transfer_out_80_23 - 4.8 transfer_out_81_23
+ - 4.5 transfer_out_82_23 - 4.5 transfer_out_83_23 - 4.4 transfer_out_84_23
+ - 7.1 transfer_out_85_23 - 5.4 transfer_out_86_23 - 4.7 transfer_out_87_23
+ - 4 transfer_out_88_23 - 4.4 transfer_out_89_23 - 8 transfer_out_8_23
+ - 4.4 transfer_out_90_23 - 3.9 transfer_out_91_23 - 4.3 transfer_out_92_23
+ - 4 transfer_out_93_23 - 4.5 transfer_out_94_23 - 5 transfer_out_95_23
+ - 4.5 transfer_out_96_23 - 4 transfer_out_97_23 - 4.8 transfer_out_98_23
+ - 4.7 transfer_out_99_23 - 5.3 transfer_out_9_23 = 0
 Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + money_in_bank_24 + 4.5 transfer_in_100_24 + 4.5 transfer_in_101_24
  + 3.9 transfer_in_102_24 + 4.3 transfer_in_103_24 + 4.4 transfer_in_104_24
  + 5.3 transfer_in_105_24 + 5.4 transfer_in_106_24 + 4.7 transfer_in_107_24
  + 6.8 transfer_in_108_24 + 4.8 transfer_in_109_24 + 4.3 transfer_in_10_24
- + 5.4 transfer_in_110_24 + 4.9 transfer_in_111_24 + 4.6 transfer_in_112_24
+ + 5.3 transfer_in_110_24 + 4.9 transfer_in_111_24 + 4.6 transfer_in_112_24
  + 4.9 transfer_in_113_24 + 4.4 transfer_in_114_24 + 5.2 transfer_in_115_24
  + 3.9 transfer_in_116_24 + 8 transfer_in_117_24 + 4.5 transfer_in_118_24
- + 5.7 transfer_in_119_24 + 4.5 transfer_in_11_24 + 4.3 transfer_in_120_24
+ + 5.6 transfer_in_119_24 + 4.5 transfer_in_11_24 + 4.3 transfer_in_120_24
  + 4.3 transfer_in_121_24 + 5 transfer_in_122_24 + 4.4 transfer_in_123_24
  + 4.5 transfer_in_124_24 + 4.7 transfer_in_125_24 + 4.5 transfer_in_126_24
  + 4.5 transfer_in_127_24 + 4.8 transfer_in_128_24 + 5 transfer_in_129_24
  + 7.7 transfer_in_12_24 + 5 transfer_in_130_24 + 5.1 transfer_in_131_24
- + 5.9 transfer_in_132_24 + 4.9 transfer_in_133_24 + 6.5 transfer_in_134_24
+ + 5.8 transfer_in_132_24 + 4.9 transfer_in_133_24 + 6.5 transfer_in_134_24
  + 5.5 transfer_in_135_24 + 4 transfer_in_136_24 + 4.5 transfer_in_137_24
  + 4.9 transfer_in_138_24 + 3.9 transfer_in_139_24 + 5.2 transfer_in_13_24
  + 6.1 transfer_in_140_24 + 3.9 transfer_in_141_24 + 4.8 transfer_in_142_24
@@ -27805,7 +27898,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 4.8 transfer_in_15_24 + 4 transfer_in_160_24 + 4.7 transfer_in_161_24
  + 4.4 transfer_in_162_24 + 4.8 transfer_in_163_24 + 4.5 transfer_in_164_24
  + 5 transfer_in_165_24 + 3.9 transfer_in_166_24 + 3.9 transfer_in_167_24
- + 4.8 transfer_in_168_24 + 3.9 transfer_in_169_24 + 4.9 transfer_in_16_24
+ + 4.7 transfer_in_168_24 + 3.9 transfer_in_169_24 + 4.9 transfer_in_16_24
  + 4.8 transfer_in_170_24 + 4 transfer_in_171_24 + 4.3 transfer_in_172_24
  + 4.4 transfer_in_173_24 + 4.9 transfer_in_174_24 + 4 transfer_in_175_24
  + 4.3 transfer_in_176_24 + 5.3 transfer_in_177_24 + 4 transfer_in_178_24
@@ -27872,18 +27965,18 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 4.3 transfer_in_340_24 + 4.9 transfer_in_341_24 + 5 transfer_in_342_24
  + 7 transfer_in_343_24 + 6.5 transfer_in_344_24 + 4.4 transfer_in_345_24
  + 5.8 transfer_in_346_24 + 3.9 transfer_in_347_24 + 4.5 transfer_in_348_24
- + 10.6 transfer_in_349_24 + 5.7 transfer_in_34_24 + 5.5 transfer_in_350_24
+ + 10.7 transfer_in_349_24 + 5.7 transfer_in_34_24 + 5.5 transfer_in_350_24
  + 4.4 transfer_in_351_24 + 5.5 transfer_in_352_24 + 8 transfer_in_353_24
- + 7.2 transfer_in_354_24 + 13.9 transfer_in_355_24 + 4.7 transfer_in_356_24
+ + 7.2 transfer_in_354_24 + 14 transfer_in_355_24 + 4.7 transfer_in_356_24
  + 4.9 transfer_in_357_24 + 4.3 transfer_in_358_24 + 7.5 transfer_in_359_24
  + 5.7 transfer_in_35_24 + 4.4 transfer_in_360_24 + 3.8 transfer_in_361_24
  + 5.8 transfer_in_362_24 + 4.4 transfer_in_363_24 + 4.7 transfer_in_364_24
  + 5.6 transfer_in_365_24 + 3.8 transfer_in_366_24 + 3.9 transfer_in_367_24
- + 5.3 transfer_in_368_24 + 5.4 transfer_in_369_24 + 4.7 transfer_in_36_24
+ + 5.3 transfer_in_368_24 + 5.5 transfer_in_369_24 + 4.7 transfer_in_36_24
  + 4.5 transfer_in_370_24 + 4.4 transfer_in_371_24 + 6.8 transfer_in_372_24
  + 8.2 transfer_in_373_24 + 4 transfer_in_374_24 + 4 transfer_in_375_24
  + 5.3 transfer_in_376_24 + 5.1 transfer_in_377_24 + 5.1 transfer_in_378_24
- + 5.8 transfer_in_379_24 + 3.9 transfer_in_37_24 + 4 transfer_in_380_24
+ + 5.8 transfer_in_379_24 + 3.8 transfer_in_37_24 + 4 transfer_in_380_24
  + 5 transfer_in_381_24 + 4.8 transfer_in_382_24 + 4.3 transfer_in_383_24
  + 4 transfer_in_384_24 + 4.4 transfer_in_385_24 + 4.5 transfer_in_386_24
  + 4.2 transfer_in_387_24 + 4.4 transfer_in_388_24 + 4.3 transfer_in_389_24
@@ -27931,12 +28024,12 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 5.4 transfer_in_4_24 + 12.5 transfer_in_500_24 + 7.1 transfer_in_501_24
  + 4.7 transfer_in_502_24 + 4.8 transfer_in_503_24 + 7.8 transfer_in_504_24
  + 4.4 transfer_in_505_24 + 5.9 transfer_in_506_24 + 4.7 transfer_in_507_24
- + 4.4 transfer_in_508_24 + 7 transfer_in_509_24 + 5.6 transfer_in_50_24
+ + 4.4 transfer_in_508_24 + 7 transfer_in_509_24 + 5.5 transfer_in_50_24
  + 4 transfer_in_510_24 + 4.9 transfer_in_511_24 + 4.4 transfer_in_512_24
  + 4.4 transfer_in_513_24 + 4.4 transfer_in_514_24 + 4.5 transfer_in_515_24
  + 9.7 transfer_in_516_24 + 4 transfer_in_517_24 + 4 transfer_in_518_24
  + 4.8 transfer_in_519_24 + 4.1 transfer_in_51_24 + 5.3 transfer_in_520_24
- + 3.9 transfer_in_521_24 + 4.5 transfer_in_522_24 + 5.7 transfer_in_523_24
+ + 3.9 transfer_in_521_24 + 4.4 transfer_in_522_24 + 5.7 transfer_in_523_24
  + 4.2 transfer_in_524_24 + 5.6 transfer_in_525_24 + 8.1 transfer_in_526_24
  + 5.2 transfer_in_527_24 + 4.7 transfer_in_528_24 + 4.3 transfer_in_529_24
  + 4.4 transfer_in_52_24 + 4.2 transfer_in_530_24 + 5 transfer_in_531_24
@@ -27968,7 +28061,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 5 transfer_in_5_24 + 4.7 transfer_in_600_24 + 5.2 transfer_in_601_24
  + 4 transfer_in_602_24 + 6.2 transfer_in_603_24 + 4.5 transfer_in_604_24
  + 4.8 transfer_in_605_24 + 4.3 transfer_in_606_24 + 4.4 transfer_in_607_24
- + 4.9 transfer_in_608_24 + 5.1 transfer_in_609_24 + 8.9 transfer_in_60_24
+ + 4.9 transfer_in_608_24 + 5.1 transfer_in_609_24 + 8.8 transfer_in_60_24
  + 4.4 transfer_in_610_24 + 4.9 transfer_in_611_24 + 4.4 transfer_in_613_24
  + 4.5 transfer_in_614_24 + 4.8 transfer_in_615_24 + 4.8 transfer_in_616_24
  + 6.8 transfer_in_617_24 + 4.5 transfer_in_618_24 + 4 transfer_in_619_24
@@ -28034,7 +28127,10 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 4.6 transfer_in_77_24 + 4.5 transfer_in_780_24 + 4.5 transfer_in_781_24
  + 4.5 transfer_in_782_24 + 4.5 transfer_in_783_24 + 4 transfer_in_784_24
  + 4.5 transfer_in_785_24 + 4.5 transfer_in_786_24 + 4.5 transfer_in_787_24
- + 4 transfer_in_788_24 + 4.7 transfer_in_78_24 + 4.5 transfer_in_79_24
+ + 4 transfer_in_788_24 + 4 transfer_in_789_24 + 4.7 transfer_in_78_24
+ + 4.5 transfer_in_790_24 + 4.5 transfer_in_791_24 + 4.5 transfer_in_792_24
+ + 4 transfer_in_793_24 + 4.5 transfer_in_794_24 + 4.5 transfer_in_795_24
+ + 4.5 transfer_in_796_24 + 4 transfer_in_797_24 + 4.5 transfer_in_79_24
  + 4.3 transfer_in_7_24 + 4 transfer_in_80_24 + 4.8 transfer_in_81_24
  + 4.5 transfer_in_82_24 + 4.5 transfer_in_83_24 + 4.4 transfer_in_84_24
  + 7.1 transfer_in_85_24 + 5.4 transfer_in_86_24 + 4.7 transfer_in_87_24
@@ -28046,15 +28142,15 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  - 4.5 transfer_out_101_24 - 3.9 transfer_out_102_24 - 4.3 transfer_out_103_24
  - 4.4 transfer_out_104_24 - 5.3 transfer_out_105_24 - 5.4 transfer_out_106_24
  - 4.7 transfer_out_107_24 - 6.8 transfer_out_108_24 - 4.8 transfer_out_109_24
- - 4.3 transfer_out_10_24 - 5.4 transfer_out_110_24 - 4.9 transfer_out_111_24
+ - 4.3 transfer_out_10_24 - 5.3 transfer_out_110_24 - 4.9 transfer_out_111_24
  - 4.6 transfer_out_112_24 - 4.9 transfer_out_113_24 - 4.4 transfer_out_114_24
  - 5.2 transfer_out_115_24 - 3.9 transfer_out_116_24 - 8 transfer_out_117_24
- - 4.5 transfer_out_118_24 - 5.7 transfer_out_119_24 - 4.5 transfer_out_11_24
+ - 4.5 transfer_out_118_24 - 5.6 transfer_out_119_24 - 4.5 transfer_out_11_24
  - 4.3 transfer_out_120_24 - 4.3 transfer_out_121_24 - 5 transfer_out_122_24
  - 4.4 transfer_out_123_24 - 4.5 transfer_out_124_24 - 4.7 transfer_out_125_24
  - 4.5 transfer_out_126_24 - 4.5 transfer_out_127_24 - 4.8 transfer_out_128_24
  - 5 transfer_out_129_24 - 7.7 transfer_out_12_24 - 5 transfer_out_130_24
- - 5.1 transfer_out_131_24 - 5.9 transfer_out_132_24 - 4.9 transfer_out_133_24
+ - 5.1 transfer_out_131_24 - 5.8 transfer_out_132_24 - 4.9 transfer_out_133_24
  - 6.5 transfer_out_134_24 - 5.5 transfer_out_135_24 - 4 transfer_out_136_24
  - 4.5 transfer_out_137_24 - 4.9 transfer_out_138_24 - 3.9 transfer_out_139_24
  - 5.2 transfer_out_13_24 - 6.1 transfer_out_140_24 - 3.9 transfer_out_141_24
@@ -28067,7 +28163,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  - 5.2 transfer_out_159_24 - 4.8 transfer_out_15_24 - 4 transfer_out_160_24
  - 4.7 transfer_out_161_24 - 4.4 transfer_out_162_24 - 4.8 transfer_out_163_24
  - 4.5 transfer_out_164_24 - 5 transfer_out_165_24 - 3.9 transfer_out_166_24
- - 3.9 transfer_out_167_24 - 4.8 transfer_out_168_24 - 3.9 transfer_out_169_24
+ - 3.9 transfer_out_167_24 - 4.7 transfer_out_168_24 - 3.9 transfer_out_169_24
  - 4.9 transfer_out_16_24 - 4.8 transfer_out_170_24 - 4 transfer_out_171_24
  - 4.3 transfer_out_172_24 - 4.4 transfer_out_173_24 - 4.9 transfer_out_174_24
  - 4 transfer_out_175_24 - 4.3 transfer_out_176_24 - 5.3 transfer_out_177_24
@@ -28135,191 +28231,194 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  - 4.9 transfer_out_341_24 - 5 transfer_out_342_24 - 7 transfer_out_343_24
  - 6.5 transfer_out_344_24 - 4.4 transfer_out_345_24 - 5.8 transfer_out_346_24
  - 3.9 transfer_out_347_24 - 4.5 transfer_out_348_24
- - 10.6 transfer_out_349_24 - 5.7 transfer_out_34_24 - 5.5 transfer_out_350_24
+ - 10.7 transfer_out_349_24 - 5.7 transfer_out_34_24 - 5.5 transfer_out_350_24
  - 4.4 transfer_out_351_24 - 5.5 transfer_out_352_24 - 8 transfer_out_353_24
- - 7.2 transfer_out_354_24 - 13.9 transfer_out_355_24
- - 4.7 transfer_out_356_24 - 4.9 transfer_out_357_24 - 4.3 transfer_out_358_24
- - 7.5 transfer_out_359_24 - 5.7 transfer_out_35_24 - 4.4 transfer_out_360_24
- - 3.8 transfer_out_361_24 - 5.8 transfer_out_362_24 - 4.4 transfer_out_363_24
- - 4.7 transfer_out_364_24 - 5.6 transfer_out_365_24 - 3.8 transfer_out_366_24
- - 3.9 transfer_out_367_24 - 5.3 transfer_out_368_24 - 5.4 transfer_out_369_24
- - 4.7 transfer_out_36_24 - 4.5 transfer_out_370_24 - 4.4 transfer_out_371_24
- - 6.8 transfer_out_372_24 - 8.2 transfer_out_373_24 - 4 transfer_out_374_24
- - 4 transfer_out_375_24 - 5.3 transfer_out_376_24 - 5.1 transfer_out_377_24
- - 5.1 transfer_out_378_24 - 5.8 transfer_out_379_24 - 3.9 transfer_out_37_24
- - 4 transfer_out_380_24 - 5 transfer_out_381_24 - 4.8 transfer_out_382_24
- - 4.3 transfer_out_383_24 - 4 transfer_out_384_24 - 4.4 transfer_out_385_24
- - 4.5 transfer_out_386_24 - 4.2 transfer_out_387_24 - 4.4 transfer_out_388_24
- - 4.3 transfer_out_389_24 - 5.8 transfer_out_38_24 - 6.4 transfer_out_390_24
- - 4.7 transfer_out_391_24 - 4.6 transfer_out_392_24 - 4 transfer_out_393_24
- - 4.2 transfer_out_394_24 - 4.9 transfer_out_395_24 - 8.4 transfer_out_396_24
- - 6.7 transfer_out_397_24 - 5.2 transfer_out_398_24 - 4.4 transfer_out_399_24
- - 4.9 transfer_out_39_24 - 4.4 transfer_out_3_24 - 4.7 transfer_out_400_24
- - 4.4 transfer_out_401_24 - 6.2 transfer_out_402_24 - 4.2 transfer_out_403_24
- - 4 transfer_out_404_24 - 4.5 transfer_out_405_24 - 5.8 transfer_out_406_24
- - 4.4 transfer_out_407_24 - 4 transfer_out_408_24 - 4.2 transfer_out_409_24
- - 4.9 transfer_out_40_24 - 4.9 transfer_out_410_24 - 3.9 transfer_out_411_24
- - 6.1 transfer_out_412_24 - 4.4 transfer_out_413_24 - 4.4 transfer_out_414_24
- - 7.6 transfer_out_415_24 - 5.8 transfer_out_416_24 - 4.4 transfer_out_417_24
- - 4.5 transfer_out_418_24 - 4.1 transfer_out_419_24 - 4.4 transfer_out_41_24
- - 4 transfer_out_420_24 - 4.8 transfer_out_421_24 - 4 transfer_out_422_24
- - 4.8 transfer_out_423_24 - 5.3 transfer_out_424_24 - 4.3 transfer_out_425_24
- - 6 transfer_out_426_24 - 5.2 transfer_out_427_24 - 4.2 transfer_out_428_24
- - 5.2 transfer_out_429_24 - 4.6 transfer_out_42_24 - 6.7 transfer_out_430_24
- - 4 transfer_out_431_24 - 5.3 transfer_out_432_24 - 7.8 transfer_out_433_24
- - 4.5 transfer_out_434_24 - 4.3 transfer_out_435_24 - 4.5 transfer_out_436_24
- - 6.3 transfer_out_437_24 - 3.9 transfer_out_438_24 - 4.5 transfer_out_439_24
- - 5.6 transfer_out_43_24 - 4.5 transfer_out_440_24 - 4.5 transfer_out_441_24
- - 5.3 transfer_out_442_24 - 4.8 transfer_out_443_24 - 4 transfer_out_444_24
- - 4.4 transfer_out_445_24 - 4.9 transfer_out_446_24 - 5.7 transfer_out_447_24
- - 4 transfer_out_448_24 - 4.3 transfer_out_449_24 - 5 transfer_out_44_24
- - 5.8 transfer_out_450_24 - 4.8 transfer_out_451_24 - 4.5 transfer_out_452_24
- - 5 transfer_out_453_24 - 4 transfer_out_454_24 - 4.4 transfer_out_455_24
- - 4.4 transfer_out_456_24 - 4.5 transfer_out_457_24 - 4.9 transfer_out_458_24
- - 4.5 transfer_out_459_24 - 3.9 transfer_out_45_24 - 4 transfer_out_460_24
- - 4.4 transfer_out_461_24 - 4.5 transfer_out_462_24 - 4.8 transfer_out_463_24
- - 4.5 transfer_out_464_24 - 4.4 transfer_out_465_24 - 4.4 transfer_out_466_24
- - 4.3 transfer_out_467_24 - 5 transfer_out_468_24 - 4.3 transfer_out_469_24
- - 4.4 transfer_out_46_24 - 4.8 transfer_out_470_24 - 4.3 transfer_out_471_24
- - 3.9 transfer_out_472_24 - 3.8 transfer_out_473_24 - 3.9 transfer_out_474_24
- - 4.7 transfer_out_475_24 - 4.5 transfer_out_476_24 - 4.9 transfer_out_477_24
- - 4.4 transfer_out_478_24 - 4 transfer_out_479_24 - 5 transfer_out_47_24
- - 4.3 transfer_out_480_24 - 4.9 transfer_out_481_24 - 4.5 transfer_out_482_24
- - 4.8 transfer_out_483_24 - 4.3 transfer_out_484_24 - 5.4 transfer_out_485_24
- - 5.5 transfer_out_486_24 - 3.9 transfer_out_487_24 - 4.8 transfer_out_488_24
- - 4.8 transfer_out_489_24 - 4.6 transfer_out_48_24 - 4.3 transfer_out_490_24
- - 3.9 transfer_out_491_24 - 5.4 transfer_out_492_24 - 5 transfer_out_493_24
- - 4.9 transfer_out_494_24 - 4.3 transfer_out_495_24 - 4.2 transfer_out_496_24
- - 4.3 transfer_out_497_24 - 3.8 transfer_out_498_24 - 5.2 transfer_out_499_24
- - 5.2 transfer_out_49_24 - 5.4 transfer_out_4_24 - 12.5 transfer_out_500_24
- - 7.1 transfer_out_501_24 - 4.7 transfer_out_502_24 - 4.8 transfer_out_503_24
- - 7.8 transfer_out_504_24 - 4.4 transfer_out_505_24 - 5.9 transfer_out_506_24
- - 4.7 transfer_out_507_24 - 4.4 transfer_out_508_24 - 7 transfer_out_509_24
- - 5.6 transfer_out_50_24 - 4 transfer_out_510_24 - 4.9 transfer_out_511_24
- - 4.4 transfer_out_512_24 - 4.4 transfer_out_513_24 - 4.4 transfer_out_514_24
- - 4.5 transfer_out_515_24 - 9.7 transfer_out_516_24 - 4 transfer_out_517_24
- - 4 transfer_out_518_24 - 4.8 transfer_out_519_24 - 4.1 transfer_out_51_24
- - 5.3 transfer_out_520_24 - 3.9 transfer_out_521_24 - 4.5 transfer_out_522_24
- - 5.7 transfer_out_523_24 - 4.2 transfer_out_524_24 - 5.6 transfer_out_525_24
- - 8.1 transfer_out_526_24 - 5.2 transfer_out_527_24 - 4.7 transfer_out_528_24
- - 4.3 transfer_out_529_24 - 4.4 transfer_out_52_24 - 4.2 transfer_out_530_24
- - 5 transfer_out_531_24 - 4.6 transfer_out_532_24 - 4.2 transfer_out_533_24
- - 4.6 transfer_out_534_24 - 5.6 transfer_out_535_24 - 4.4 transfer_out_536_24
- - 4.2 transfer_out_537_24 - 4.2 transfer_out_538_24 - 6 transfer_out_539_24
- - 3.9 transfer_out_53_24 - 5.4 transfer_out_540_24 - 6 transfer_out_541_24
- - 4.9 transfer_out_542_24 - 4.5 transfer_out_543_24 - 4.5 transfer_out_544_24
- - 4.5 transfer_out_545_24 - 3.9 transfer_out_546_24 - 4 transfer_out_547_24
- - 4.4 transfer_out_548_24 - 4.5 transfer_out_549_24 - 4.5 transfer_out_54_24
- - 4.5 transfer_out_550_24 - 4.5 transfer_out_551_24 - 5.2 transfer_out_552_24
- - 4.2 transfer_out_553_24 - 5.4 transfer_out_554_24 - 4.4 transfer_out_555_24
- - 4 transfer_out_556_24 - 5.6 transfer_out_557_24 - 5.2 transfer_out_558_24
- - 4.9 transfer_out_559_24 - 5.9 transfer_out_55_24 - 4.3 transfer_out_560_24
- - 4.3 transfer_out_561_24 - 4.9 transfer_out_562_24 - 4.5 transfer_out_563_24
- - 3.9 transfer_out_564_24 - 4.9 transfer_out_565_24 - 4.8 transfer_out_566_24
- - 5.6 transfer_out_567_24 - 5.3 transfer_out_568_24 - 5 transfer_out_569_24
- - 4.5 transfer_out_56_24 - 4.7 transfer_out_570_24 - 4 transfer_out_571_24
- - 4.5 transfer_out_572_24 - 4.4 transfer_out_573_24 - 4.3 transfer_out_574_24
- - 4.2 transfer_out_575_24 - 4.4 transfer_out_576_24 - 4.3 transfer_out_577_24
- - 4.8 transfer_out_578_24 - 3.9 transfer_out_579_24 - 4 transfer_out_57_24
- - 3.9 transfer_out_580_24 - 3.9 transfer_out_581_24 - 4.7 transfer_out_582_24
- - 5.1 transfer_out_583_24 - 4.7 transfer_out_584_24 - 4.6 transfer_out_585_24
- - 4.7 transfer_out_586_24 - 4.7 transfer_out_587_24 - 4.4 transfer_out_588_24
- - 5 transfer_out_589_24 - 5.6 transfer_out_58_24 - 5.8 transfer_out_590_24
- - 5.3 transfer_out_591_24 - 4.3 transfer_out_592_24 - 5.1 transfer_out_593_24
- - 5.3 transfer_out_594_24 - 4.4 transfer_out_595_24 - 4.5 transfer_out_596_24
- - 4.8 transfer_out_597_24 - 4.3 transfer_out_598_24 - 6.6 transfer_out_599_24
- - 5 transfer_out_59_24 - 5 transfer_out_5_24 - 4.7 transfer_out_600_24
- - 5.2 transfer_out_601_24 - 4 transfer_out_602_24 - 6.2 transfer_out_603_24
- - 4.5 transfer_out_604_24 - 4.8 transfer_out_605_24 - 4.3 transfer_out_606_24
- - 4.4 transfer_out_607_24 - 4.9 transfer_out_608_24 - 5.1 transfer_out_609_24
- - 8.9 transfer_out_60_24 - 4.4 transfer_out_610_24 - 4.9 transfer_out_611_24
- - 4.4 transfer_out_613_24 - 4.5 transfer_out_614_24 - 4.8 transfer_out_615_24
- - 4.8 transfer_out_616_24 - 6.8 transfer_out_617_24 - 4.5 transfer_out_618_24
- - 4 transfer_out_619_24 - 5 transfer_out_61_24 - 4.5 transfer_out_620_24
- - 4.5 transfer_out_621_24 - 4 transfer_out_622_24 - 4.5 transfer_out_623_24
- - 4.5 transfer_out_624_24 - 3.9 transfer_out_625_24 - 4 transfer_out_626_24
- - 4.4 transfer_out_627_24 - 4.4 transfer_out_628_24 - 4.4 transfer_out_629_24
- - 4.9 transfer_out_62_24 - 4.9 transfer_out_630_24 - 4.9 transfer_out_631_24
- - 4.4 transfer_out_632_24 - 4.3 transfer_out_633_24 - 3.9 transfer_out_634_24
- - 4.5 transfer_out_635_24 - 3.9 transfer_out_636_24 - 3.9 transfer_out_637_24
- - 5 transfer_out_638_24 - 4.4 transfer_out_639_24 - 5.2 transfer_out_63_24
- - 4.5 transfer_out_640_24 - 5.4 transfer_out_641_24 - 5 transfer_out_642_24
- - 4.4 transfer_out_643_24 - 4.9 transfer_out_644_24 - 4.8 transfer_out_645_24
- - 4 transfer_out_646_24 - 4 transfer_out_647_24 - 4 transfer_out_648_24
- - 4.5 transfer_out_649_24 - 4.7 transfer_out_64_24 - 4.4 transfer_out_650_24
- - 4.5 transfer_out_651_24 - 4.5 transfer_out_652_24 - 3.9 transfer_out_653_24
- - 4.5 transfer_out_654_24 - 4.4 transfer_out_655_24 - 4.4 transfer_out_656_24
- - 4.5 transfer_out_657_24 - 4.5 transfer_out_658_24 - 3.9 transfer_out_659_24
- - 5 transfer_out_65_24 - 5 transfer_out_660_24 - 5.5 transfer_out_661_24
- - 4.9 transfer_out_662_24 - 5 transfer_out_663_24 - 6 transfer_out_664_24
- - 4.4 transfer_out_665_24 - 5 transfer_out_666_24 - 4.9 transfer_out_667_24
- - 5.4 transfer_out_668_24 - 4 transfer_out_669_24 - 5 transfer_out_66_24
- - 4 transfer_out_670_24 - 4 transfer_out_671_24 - 5.4 transfer_out_672_24
- - 4.9 transfer_out_673_24 - 4 transfer_out_674_24 - 5 transfer_out_675_24
- - 4.5 transfer_out_676_24 - 4.5 transfer_out_677_24 - 6.5 transfer_out_678_24
- - 4.4 transfer_out_679_24 - 4.5 transfer_out_67_24 - 4 transfer_out_680_24
- - 4.5 transfer_out_681_24 - 4 transfer_out_682_24 - 4.5 transfer_out_683_24
- - 4.5 transfer_out_684_24 - 4.5 transfer_out_685_24 - 4 transfer_out_686_24
- - 4.5 transfer_out_687_24 - 4.5 transfer_out_688_24 - 6.8 transfer_out_689_24
- - 4.3 transfer_out_68_24 - 4.5 transfer_out_690_24 - 5.7 transfer_out_691_24
- - 4 transfer_out_692_24 - 4 transfer_out_693_24 - 5 transfer_out_694_24
- - 4 transfer_out_695_24 - 4.5 transfer_out_696_24 - 4.5 transfer_out_697_24
- - 5 transfer_out_698_24 - 4.5 transfer_out_699_24 - 4 transfer_out_69_24
- - 7.1 transfer_out_6_24 - 6.4 transfer_out_700_24 - 4.5 transfer_out_701_24
- - 4 transfer_out_702_24 - 4 transfer_out_703_24 - 4.5 transfer_out_704_24
- - 5.5 transfer_out_705_24 - 5.4 transfer_out_706_24 - 4.5 transfer_out_707_24
- - 5 transfer_out_708_24 - 5 transfer_out_709_24 - 4.5 transfer_out_70_24
- - 4.5 transfer_out_710_24 - 4.5 transfer_out_711_24 - 5 transfer_out_712_24
- - 4.9 transfer_out_713_24 - 5 transfer_out_714_24 - 4.9 transfer_out_715_24
- - 4 transfer_out_716_24 - 4.5 transfer_out_717_24 - 4.5 transfer_out_718_24
- - 4.5 transfer_out_719_24 - 4.3 transfer_out_71_24 - 4.5 transfer_out_720_24
- - 4.5 transfer_out_721_24 - 4.5 transfer_out_722_24 - 4 transfer_out_723_24
- - 4.5 transfer_out_724_24 - 4 transfer_out_725_24 - 4 transfer_out_726_24
- - 5 transfer_out_727_24 - 3.9 transfer_out_728_24 - 4.5 transfer_out_729_24
- - 4.6 transfer_out_72_24 - 4.4 transfer_out_730_24 - 4 transfer_out_731_24
- - 4 transfer_out_732_24 - 4 transfer_out_733_24 - 4.5 transfer_out_734_24
- - 4.5 transfer_out_735_24 - 4 transfer_out_736_24 - 4.5 transfer_out_737_24
- - 4.5 transfer_out_738_24 - 4.5 transfer_out_739_24 - 4.9 transfer_out_73_24
- - 4 transfer_out_740_24 - 4.5 transfer_out_741_24 - 4.5 transfer_out_742_24
- - 4.5 transfer_out_743_24 - 4.5 transfer_out_744_24 - 4.4 transfer_out_745_24
- - 4 transfer_out_746_24 - 4.4 transfer_out_747_24 - 4.5 transfer_out_748_24
- - 4.5 transfer_out_749_24 - 4.3 transfer_out_74_24 - 4.4 transfer_out_750_24
- - 4 transfer_out_751_24 - 4 transfer_out_752_24 - 4 transfer_out_753_24
- - 4.5 transfer_out_754_24 - 4.5 transfer_out_755_24 - 4 transfer_out_756_24
- - 4 transfer_out_757_24 - 4.5 transfer_out_758_24 - 4.4 transfer_out_759_24
- - 4.3 transfer_out_75_24 - 4.5 transfer_out_760_24 - 4 transfer_out_761_24
- - 4.5 transfer_out_762_24 - 4 transfer_out_763_24 - 4.5 transfer_out_764_24
- - 4 transfer_out_765_24 - 4 transfer_out_766_24 - 4.5 transfer_out_767_24
- - 4 transfer_out_768_24 - 4.5 transfer_out_769_24 - 4.6 transfer_out_76_24
- - 4.5 transfer_out_770_24 - 4.5 transfer_out_771_24 - 4.5 transfer_out_772_24
- - 4.5 transfer_out_773_24 - 4 transfer_out_774_24 - 5 transfer_out_775_24
- - 6.5 transfer_out_776_24 - 4.5 transfer_out_777_24 - 4 transfer_out_778_24
- - 4.5 transfer_out_779_24 - 4.6 transfer_out_77_24 - 4.5 transfer_out_780_24
- - 4.5 transfer_out_781_24 - 4.5 transfer_out_782_24 - 4.5 transfer_out_783_24
- - 4 transfer_out_784_24 - 4.5 transfer_out_785_24 - 4.5 transfer_out_786_24
- - 4.5 transfer_out_787_24 - 4 transfer_out_788_24 - 4.7 transfer_out_78_24
- - 4.5 transfer_out_79_24 - 4.3 transfer_out_7_24 - 4 transfer_out_80_24
- - 4.8 transfer_out_81_24 - 4.5 transfer_out_82_24 - 4.5 transfer_out_83_24
- - 4.4 transfer_out_84_24 - 7.1 transfer_out_85_24 - 5.4 transfer_out_86_24
- - 4.7 transfer_out_87_24 - 4 transfer_out_88_24 - 4.4 transfer_out_89_24
- - 8 transfer_out_8_24 - 4.4 transfer_out_90_24 - 3.9 transfer_out_91_24
- - 4.3 transfer_out_92_24 - 4 transfer_out_93_24 - 4.5 transfer_out_94_24
- - 5 transfer_out_95_24 - 4.5 transfer_out_96_24 - 4 transfer_out_97_24
- - 4.8 transfer_out_98_24 - 4.7 transfer_out_99_24 - 5.3 transfer_out_9_24 = 0
+ - 7.2 transfer_out_354_24 - 14 transfer_out_355_24 - 4.7 transfer_out_356_24
+ - 4.9 transfer_out_357_24 - 4.3 transfer_out_358_24 - 7.5 transfer_out_359_24
+ - 5.7 transfer_out_35_24 - 4.4 transfer_out_360_24 - 3.8 transfer_out_361_24
+ - 5.8 transfer_out_362_24 - 4.4 transfer_out_363_24 - 4.7 transfer_out_364_24
+ - 5.6 transfer_out_365_24 - 3.8 transfer_out_366_24 - 3.9 transfer_out_367_24
+ - 5.3 transfer_out_368_24 - 5.5 transfer_out_369_24 - 4.7 transfer_out_36_24
+ - 4.5 transfer_out_370_24 - 4.4 transfer_out_371_24 - 6.8 transfer_out_372_24
+ - 8.2 transfer_out_373_24 - 4 transfer_out_374_24 - 4 transfer_out_375_24
+ - 5.3 transfer_out_376_24 - 5.1 transfer_out_377_24 - 5.1 transfer_out_378_24
+ - 5.8 transfer_out_379_24 - 3.8 transfer_out_37_24 - 4 transfer_out_380_24
+ - 5 transfer_out_381_24 - 4.8 transfer_out_382_24 - 4.3 transfer_out_383_24
+ - 4 transfer_out_384_24 - 4.4 transfer_out_385_24 - 4.5 transfer_out_386_24
+ - 4.2 transfer_out_387_24 - 4.4 transfer_out_388_24 - 4.3 transfer_out_389_24
+ - 5.8 transfer_out_38_24 - 6.4 transfer_out_390_24 - 4.7 transfer_out_391_24
+ - 4.6 transfer_out_392_24 - 4 transfer_out_393_24 - 4.2 transfer_out_394_24
+ - 4.9 transfer_out_395_24 - 8.4 transfer_out_396_24 - 6.7 transfer_out_397_24
+ - 5.2 transfer_out_398_24 - 4.4 transfer_out_399_24 - 4.9 transfer_out_39_24
+ - 4.4 transfer_out_3_24 - 4.7 transfer_out_400_24 - 4.4 transfer_out_401_24
+ - 6.2 transfer_out_402_24 - 4.2 transfer_out_403_24 - 4 transfer_out_404_24
+ - 4.5 transfer_out_405_24 - 5.8 transfer_out_406_24 - 4.4 transfer_out_407_24
+ - 4 transfer_out_408_24 - 4.2 transfer_out_409_24 - 4.9 transfer_out_40_24
+ - 4.9 transfer_out_410_24 - 3.9 transfer_out_411_24 - 6.1 transfer_out_412_24
+ - 4.4 transfer_out_413_24 - 4.4 transfer_out_414_24 - 7.6 transfer_out_415_24
+ - 5.8 transfer_out_416_24 - 4.4 transfer_out_417_24 - 4.5 transfer_out_418_24
+ - 4.1 transfer_out_419_24 - 4.4 transfer_out_41_24 - 4 transfer_out_420_24
+ - 4.8 transfer_out_421_24 - 4 transfer_out_422_24 - 4.8 transfer_out_423_24
+ - 5.3 transfer_out_424_24 - 4.3 transfer_out_425_24 - 6 transfer_out_426_24
+ - 5.2 transfer_out_427_24 - 4.2 transfer_out_428_24 - 5.2 transfer_out_429_24
+ - 4.6 transfer_out_42_24 - 6.7 transfer_out_430_24 - 4 transfer_out_431_24
+ - 5.3 transfer_out_432_24 - 7.8 transfer_out_433_24 - 4.5 transfer_out_434_24
+ - 4.3 transfer_out_435_24 - 4.5 transfer_out_436_24 - 6.3 transfer_out_437_24
+ - 3.9 transfer_out_438_24 - 4.5 transfer_out_439_24 - 5.6 transfer_out_43_24
+ - 4.5 transfer_out_440_24 - 4.5 transfer_out_441_24 - 5.3 transfer_out_442_24
+ - 4.8 transfer_out_443_24 - 4 transfer_out_444_24 - 4.4 transfer_out_445_24
+ - 4.9 transfer_out_446_24 - 5.7 transfer_out_447_24 - 4 transfer_out_448_24
+ - 4.3 transfer_out_449_24 - 5 transfer_out_44_24 - 5.8 transfer_out_450_24
+ - 4.8 transfer_out_451_24 - 4.5 transfer_out_452_24 - 5 transfer_out_453_24
+ - 4 transfer_out_454_24 - 4.4 transfer_out_455_24 - 4.4 transfer_out_456_24
+ - 4.5 transfer_out_457_24 - 4.9 transfer_out_458_24 - 4.5 transfer_out_459_24
+ - 3.9 transfer_out_45_24 - 4 transfer_out_460_24 - 4.4 transfer_out_461_24
+ - 4.5 transfer_out_462_24 - 4.8 transfer_out_463_24 - 4.5 transfer_out_464_24
+ - 4.4 transfer_out_465_24 - 4.4 transfer_out_466_24 - 4.3 transfer_out_467_24
+ - 5 transfer_out_468_24 - 4.3 transfer_out_469_24 - 4.4 transfer_out_46_24
+ - 4.8 transfer_out_470_24 - 4.3 transfer_out_471_24 - 3.9 transfer_out_472_24
+ - 3.8 transfer_out_473_24 - 3.9 transfer_out_474_24 - 4.7 transfer_out_475_24
+ - 4.5 transfer_out_476_24 - 4.9 transfer_out_477_24 - 4.4 transfer_out_478_24
+ - 4 transfer_out_479_24 - 5 transfer_out_47_24 - 4.3 transfer_out_480_24
+ - 4.9 transfer_out_481_24 - 4.5 transfer_out_482_24 - 4.8 transfer_out_483_24
+ - 4.3 transfer_out_484_24 - 5.4 transfer_out_485_24 - 5.5 transfer_out_486_24
+ - 3.9 transfer_out_487_24 - 4.8 transfer_out_488_24 - 4.8 transfer_out_489_24
+ - 4.6 transfer_out_48_24 - 4.3 transfer_out_490_24 - 3.9 transfer_out_491_24
+ - 5.4 transfer_out_492_24 - 5 transfer_out_493_24 - 4.9 transfer_out_494_24
+ - 4.3 transfer_out_495_24 - 4.2 transfer_out_496_24 - 4.3 transfer_out_497_24
+ - 3.8 transfer_out_498_24 - 5.2 transfer_out_499_24 - 5.2 transfer_out_49_24
+ - 5.4 transfer_out_4_24 - 12.5 transfer_out_500_24 - 7.1 transfer_out_501_24
+ - 4.7 transfer_out_502_24 - 4.8 transfer_out_503_24 - 7.8 transfer_out_504_24
+ - 4.4 transfer_out_505_24 - 5.9 transfer_out_506_24 - 4.7 transfer_out_507_24
+ - 4.4 transfer_out_508_24 - 7 transfer_out_509_24 - 5.5 transfer_out_50_24
+ - 4 transfer_out_510_24 - 4.9 transfer_out_511_24 - 4.4 transfer_out_512_24
+ - 4.4 transfer_out_513_24 - 4.4 transfer_out_514_24 - 4.5 transfer_out_515_24
+ - 9.7 transfer_out_516_24 - 4 transfer_out_517_24 - 4 transfer_out_518_24
+ - 4.8 transfer_out_519_24 - 4.1 transfer_out_51_24 - 5.3 transfer_out_520_24
+ - 3.9 transfer_out_521_24 - 4.4 transfer_out_522_24 - 5.7 transfer_out_523_24
+ - 4.2 transfer_out_524_24 - 5.6 transfer_out_525_24 - 8.1 transfer_out_526_24
+ - 5.2 transfer_out_527_24 - 4.7 transfer_out_528_24 - 4.3 transfer_out_529_24
+ - 4.4 transfer_out_52_24 - 4.2 transfer_out_530_24 - 5 transfer_out_531_24
+ - 4.6 transfer_out_532_24 - 4.2 transfer_out_533_24 - 4.6 transfer_out_534_24
+ - 5.6 transfer_out_535_24 - 4.4 transfer_out_536_24 - 4.2 transfer_out_537_24
+ - 4.2 transfer_out_538_24 - 6 transfer_out_539_24 - 3.9 transfer_out_53_24
+ - 5.4 transfer_out_540_24 - 6 transfer_out_541_24 - 4.9 transfer_out_542_24
+ - 4.5 transfer_out_543_24 - 4.5 transfer_out_544_24 - 4.5 transfer_out_545_24
+ - 3.9 transfer_out_546_24 - 4 transfer_out_547_24 - 4.4 transfer_out_548_24
+ - 4.5 transfer_out_549_24 - 4.5 transfer_out_54_24 - 4.5 transfer_out_550_24
+ - 4.5 transfer_out_551_24 - 5.2 transfer_out_552_24 - 4.2 transfer_out_553_24
+ - 5.4 transfer_out_554_24 - 4.4 transfer_out_555_24 - 4 transfer_out_556_24
+ - 5.6 transfer_out_557_24 - 5.2 transfer_out_558_24 - 4.9 transfer_out_559_24
+ - 5.9 transfer_out_55_24 - 4.3 transfer_out_560_24 - 4.3 transfer_out_561_24
+ - 4.9 transfer_out_562_24 - 4.5 transfer_out_563_24 - 3.9 transfer_out_564_24
+ - 4.9 transfer_out_565_24 - 4.8 transfer_out_566_24 - 5.6 transfer_out_567_24
+ - 5.3 transfer_out_568_24 - 5 transfer_out_569_24 - 4.5 transfer_out_56_24
+ - 4.7 transfer_out_570_24 - 4 transfer_out_571_24 - 4.5 transfer_out_572_24
+ - 4.4 transfer_out_573_24 - 4.3 transfer_out_574_24 - 4.2 transfer_out_575_24
+ - 4.4 transfer_out_576_24 - 4.3 transfer_out_577_24 - 4.8 transfer_out_578_24
+ - 3.9 transfer_out_579_24 - 4 transfer_out_57_24 - 3.9 transfer_out_580_24
+ - 3.9 transfer_out_581_24 - 4.7 transfer_out_582_24 - 5.1 transfer_out_583_24
+ - 4.7 transfer_out_584_24 - 4.6 transfer_out_585_24 - 4.7 transfer_out_586_24
+ - 4.7 transfer_out_587_24 - 4.4 transfer_out_588_24 - 5 transfer_out_589_24
+ - 5.6 transfer_out_58_24 - 5.8 transfer_out_590_24 - 5.3 transfer_out_591_24
+ - 4.3 transfer_out_592_24 - 5.1 transfer_out_593_24 - 5.3 transfer_out_594_24
+ - 4.4 transfer_out_595_24 - 4.5 transfer_out_596_24 - 4.8 transfer_out_597_24
+ - 4.3 transfer_out_598_24 - 6.6 transfer_out_599_24 - 5 transfer_out_59_24
+ - 5 transfer_out_5_24 - 4.7 transfer_out_600_24 - 5.2 transfer_out_601_24
+ - 4 transfer_out_602_24 - 6.2 transfer_out_603_24 - 4.5 transfer_out_604_24
+ - 4.8 transfer_out_605_24 - 4.3 transfer_out_606_24 - 4.4 transfer_out_607_24
+ - 4.9 transfer_out_608_24 - 5.1 transfer_out_609_24 - 8.8 transfer_out_60_24
+ - 4.4 transfer_out_610_24 - 4.9 transfer_out_611_24 - 4.4 transfer_out_613_24
+ - 4.5 transfer_out_614_24 - 4.8 transfer_out_615_24 - 4.8 transfer_out_616_24
+ - 6.8 transfer_out_617_24 - 4.5 transfer_out_618_24 - 4 transfer_out_619_24
+ - 5 transfer_out_61_24 - 4.5 transfer_out_620_24 - 4.5 transfer_out_621_24
+ - 4 transfer_out_622_24 - 4.5 transfer_out_623_24 - 4.5 transfer_out_624_24
+ - 3.9 transfer_out_625_24 - 4 transfer_out_626_24 - 4.4 transfer_out_627_24
+ - 4.4 transfer_out_628_24 - 4.4 transfer_out_629_24 - 4.9 transfer_out_62_24
+ - 4.9 transfer_out_630_24 - 4.9 transfer_out_631_24 - 4.4 transfer_out_632_24
+ - 4.3 transfer_out_633_24 - 3.9 transfer_out_634_24 - 4.5 transfer_out_635_24
+ - 3.9 transfer_out_636_24 - 3.9 transfer_out_637_24 - 5 transfer_out_638_24
+ - 4.4 transfer_out_639_24 - 5.2 transfer_out_63_24 - 4.5 transfer_out_640_24
+ - 5.4 transfer_out_641_24 - 5 transfer_out_642_24 - 4.4 transfer_out_643_24
+ - 4.9 transfer_out_644_24 - 4.8 transfer_out_645_24 - 4 transfer_out_646_24
+ - 4 transfer_out_647_24 - 4 transfer_out_648_24 - 4.5 transfer_out_649_24
+ - 4.7 transfer_out_64_24 - 4.4 transfer_out_650_24 - 4.5 transfer_out_651_24
+ - 4.5 transfer_out_652_24 - 3.9 transfer_out_653_24 - 4.5 transfer_out_654_24
+ - 4.4 transfer_out_655_24 - 4.4 transfer_out_656_24 - 4.5 transfer_out_657_24
+ - 4.5 transfer_out_658_24 - 3.9 transfer_out_659_24 - 5 transfer_out_65_24
+ - 5 transfer_out_660_24 - 5.5 transfer_out_661_24 - 4.9 transfer_out_662_24
+ - 5 transfer_out_663_24 - 6 transfer_out_664_24 - 4.4 transfer_out_665_24
+ - 5 transfer_out_666_24 - 4.9 transfer_out_667_24 - 5.4 transfer_out_668_24
+ - 4 transfer_out_669_24 - 5 transfer_out_66_24 - 4 transfer_out_670_24
+ - 4 transfer_out_671_24 - 5.4 transfer_out_672_24 - 4.9 transfer_out_673_24
+ - 4 transfer_out_674_24 - 5 transfer_out_675_24 - 4.5 transfer_out_676_24
+ - 4.5 transfer_out_677_24 - 6.5 transfer_out_678_24 - 4.4 transfer_out_679_24
+ - 4.5 transfer_out_67_24 - 4 transfer_out_680_24 - 4.5 transfer_out_681_24
+ - 4 transfer_out_682_24 - 4.5 transfer_out_683_24 - 4.5 transfer_out_684_24
+ - 4.5 transfer_out_685_24 - 4 transfer_out_686_24 - 4.5 transfer_out_687_24
+ - 4.5 transfer_out_688_24 - 6.8 transfer_out_689_24 - 4.3 transfer_out_68_24
+ - 4.5 transfer_out_690_24 - 5.7 transfer_out_691_24 - 4 transfer_out_692_24
+ - 4 transfer_out_693_24 - 5 transfer_out_694_24 - 4 transfer_out_695_24
+ - 4.5 transfer_out_696_24 - 4.5 transfer_out_697_24 - 5 transfer_out_698_24
+ - 4.5 transfer_out_699_24 - 4 transfer_out_69_24 - 7.1 transfer_out_6_24
+ - 6.4 transfer_out_700_24 - 4.5 transfer_out_701_24 - 4 transfer_out_702_24
+ - 4 transfer_out_703_24 - 4.5 transfer_out_704_24 - 5.5 transfer_out_705_24
+ - 5.4 transfer_out_706_24 - 4.5 transfer_out_707_24 - 5 transfer_out_708_24
+ - 5 transfer_out_709_24 - 4.5 transfer_out_70_24 - 4.5 transfer_out_710_24
+ - 4.5 transfer_out_711_24 - 5 transfer_out_712_24 - 4.9 transfer_out_713_24
+ - 5 transfer_out_714_24 - 4.9 transfer_out_715_24 - 4 transfer_out_716_24
+ - 4.5 transfer_out_717_24 - 4.5 transfer_out_718_24 - 4.5 transfer_out_719_24
+ - 4.3 transfer_out_71_24 - 4.5 transfer_out_720_24 - 4.5 transfer_out_721_24
+ - 4.5 transfer_out_722_24 - 4 transfer_out_723_24 - 4.5 transfer_out_724_24
+ - 4 transfer_out_725_24 - 4 transfer_out_726_24 - 5 transfer_out_727_24
+ - 3.9 transfer_out_728_24 - 4.5 transfer_out_729_24 - 4.6 transfer_out_72_24
+ - 4.4 transfer_out_730_24 - 4 transfer_out_731_24 - 4 transfer_out_732_24
+ - 4 transfer_out_733_24 - 4.5 transfer_out_734_24 - 4.5 transfer_out_735_24
+ - 4 transfer_out_736_24 - 4.5 transfer_out_737_24 - 4.5 transfer_out_738_24
+ - 4.5 transfer_out_739_24 - 4.9 transfer_out_73_24 - 4 transfer_out_740_24
+ - 4.5 transfer_out_741_24 - 4.5 transfer_out_742_24 - 4.5 transfer_out_743_24
+ - 4.5 transfer_out_744_24 - 4.4 transfer_out_745_24 - 4 transfer_out_746_24
+ - 4.4 transfer_out_747_24 - 4.5 transfer_out_748_24 - 4.5 transfer_out_749_24
+ - 4.3 transfer_out_74_24 - 4.4 transfer_out_750_24 - 4 transfer_out_751_24
+ - 4 transfer_out_752_24 - 4 transfer_out_753_24 - 4.5 transfer_out_754_24
+ - 4.5 transfer_out_755_24 - 4 transfer_out_756_24 - 4 transfer_out_757_24
+ - 4.5 transfer_out_758_24 - 4.4 transfer_out_759_24 - 4.3 transfer_out_75_24
+ - 4.5 transfer_out_760_24 - 4 transfer_out_761_24 - 4.5 transfer_out_762_24
+ - 4 transfer_out_763_24 - 4.5 transfer_out_764_24 - 4 transfer_out_765_24
+ - 4 transfer_out_766_24 - 4.5 transfer_out_767_24 - 4 transfer_out_768_24
+ - 4.5 transfer_out_769_24 - 4.6 transfer_out_76_24 - 4.5 transfer_out_770_24
+ - 4.5 transfer_out_771_24 - 4.5 transfer_out_772_24 - 4.5 transfer_out_773_24
+ - 4 transfer_out_774_24 - 5 transfer_out_775_24 - 6.5 transfer_out_776_24
+ - 4.5 transfer_out_777_24 - 4 transfer_out_778_24 - 4.5 transfer_out_779_24
+ - 4.6 transfer_out_77_24 - 4.5 transfer_out_780_24 - 4.5 transfer_out_781_24
+ - 4.5 transfer_out_782_24 - 4.5 transfer_out_783_24 - 4 transfer_out_784_24
+ - 4.5 transfer_out_785_24 - 4.5 transfer_out_786_24 - 4.5 transfer_out_787_24
+ - 4 transfer_out_788_24 - 4 transfer_out_789_24 - 4.7 transfer_out_78_24
+ - 4.5 transfer_out_790_24 - 4.5 transfer_out_791_24 - 4.5 transfer_out_792_24
+ - 4 transfer_out_793_24 - 4.5 transfer_out_794_24 - 4.5 transfer_out_795_24
+ - 4.5 transfer_out_796_24 - 4 transfer_out_797_24 - 4.5 transfer_out_79_24
+ - 4.3 transfer_out_7_24 - 4 transfer_out_80_24 - 4.8 transfer_out_81_24
+ - 4.5 transfer_out_82_24 - 4.5 transfer_out_83_24 - 4.4 transfer_out_84_24
+ - 7.1 transfer_out_85_24 - 5.4 transfer_out_86_24 - 4.7 transfer_out_87_24
+ - 4 transfer_out_88_24 - 4.4 transfer_out_89_24 - 8 transfer_out_8_24
+ - 4.4 transfer_out_90_24 - 3.9 transfer_out_91_24 - 4.3 transfer_out_92_24
+ - 4 transfer_out_93_24 - 4.5 transfer_out_94_24 - 5 transfer_out_95_24
+ - 4.5 transfer_out_96_24 - 4 transfer_out_97_24 - 4.8 transfer_out_98_24
+ - 4.7 transfer_out_99_24 - 5.3 transfer_out_9_24 = 0
 Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + money_in_bank_25 + 4.5 transfer_in_100_25 + 4.5 transfer_in_101_25
  + 3.9 transfer_in_102_25 + 4.3 transfer_in_103_25 + 4.4 transfer_in_104_25
  + 5.3 transfer_in_105_25 + 5.4 transfer_in_106_25 + 4.7 transfer_in_107_25
  + 6.8 transfer_in_108_25 + 4.8 transfer_in_109_25 + 4.3 transfer_in_10_25
- + 5.4 transfer_in_110_25 + 4.9 transfer_in_111_25 + 4.6 transfer_in_112_25
+ + 5.3 transfer_in_110_25 + 4.9 transfer_in_111_25 + 4.6 transfer_in_112_25
  + 4.9 transfer_in_113_25 + 4.4 transfer_in_114_25 + 5.2 transfer_in_115_25
  + 3.9 transfer_in_116_25 + 8 transfer_in_117_25 + 4.5 transfer_in_118_25
- + 5.7 transfer_in_119_25 + 4.5 transfer_in_11_25 + 4.3 transfer_in_120_25
+ + 5.6 transfer_in_119_25 + 4.5 transfer_in_11_25 + 4.3 transfer_in_120_25
  + 4.3 transfer_in_121_25 + 5 transfer_in_122_25 + 4.4 transfer_in_123_25
  + 4.5 transfer_in_124_25 + 4.7 transfer_in_125_25 + 4.5 transfer_in_126_25
  + 4.5 transfer_in_127_25 + 4.8 transfer_in_128_25 + 5 transfer_in_129_25
  + 7.7 transfer_in_12_25 + 5 transfer_in_130_25 + 5.1 transfer_in_131_25
- + 5.9 transfer_in_132_25 + 4.9 transfer_in_133_25 + 6.5 transfer_in_134_25
+ + 5.8 transfer_in_132_25 + 4.9 transfer_in_133_25 + 6.5 transfer_in_134_25
  + 5.5 transfer_in_135_25 + 4 transfer_in_136_25 + 4.5 transfer_in_137_25
  + 4.9 transfer_in_138_25 + 3.9 transfer_in_139_25 + 5.2 transfer_in_13_25
  + 6.1 transfer_in_140_25 + 3.9 transfer_in_141_25 + 4.8 transfer_in_142_25
@@ -28332,7 +28431,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 4.8 transfer_in_15_25 + 4 transfer_in_160_25 + 4.7 transfer_in_161_25
  + 4.4 transfer_in_162_25 + 4.8 transfer_in_163_25 + 4.5 transfer_in_164_25
  + 5 transfer_in_165_25 + 3.9 transfer_in_166_25 + 3.9 transfer_in_167_25
- + 4.8 transfer_in_168_25 + 3.9 transfer_in_169_25 + 4.9 transfer_in_16_25
+ + 4.7 transfer_in_168_25 + 3.9 transfer_in_169_25 + 4.9 transfer_in_16_25
  + 4.8 transfer_in_170_25 + 4 transfer_in_171_25 + 4.3 transfer_in_172_25
  + 4.4 transfer_in_173_25 + 4.9 transfer_in_174_25 + 4 transfer_in_175_25
  + 4.3 transfer_in_176_25 + 5.3 transfer_in_177_25 + 4 transfer_in_178_25
@@ -28399,18 +28498,18 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 4.3 transfer_in_340_25 + 4.9 transfer_in_341_25 + 5 transfer_in_342_25
  + 7 transfer_in_343_25 + 6.5 transfer_in_344_25 + 4.4 transfer_in_345_25
  + 5.8 transfer_in_346_25 + 3.9 transfer_in_347_25 + 4.5 transfer_in_348_25
- + 10.6 transfer_in_349_25 + 5.7 transfer_in_34_25 + 5.5 transfer_in_350_25
+ + 10.7 transfer_in_349_25 + 5.7 transfer_in_34_25 + 5.5 transfer_in_350_25
  + 4.4 transfer_in_351_25 + 5.5 transfer_in_352_25 + 8 transfer_in_353_25
- + 7.2 transfer_in_354_25 + 13.9 transfer_in_355_25 + 4.7 transfer_in_356_25
+ + 7.2 transfer_in_354_25 + 14 transfer_in_355_25 + 4.7 transfer_in_356_25
  + 4.9 transfer_in_357_25 + 4.3 transfer_in_358_25 + 7.5 transfer_in_359_25
  + 5.7 transfer_in_35_25 + 4.4 transfer_in_360_25 + 3.8 transfer_in_361_25
  + 5.8 transfer_in_362_25 + 4.4 transfer_in_363_25 + 4.7 transfer_in_364_25
  + 5.6 transfer_in_365_25 + 3.8 transfer_in_366_25 + 3.9 transfer_in_367_25
- + 5.3 transfer_in_368_25 + 5.4 transfer_in_369_25 + 4.7 transfer_in_36_25
+ + 5.3 transfer_in_368_25 + 5.5 transfer_in_369_25 + 4.7 transfer_in_36_25
  + 4.5 transfer_in_370_25 + 4.4 transfer_in_371_25 + 6.8 transfer_in_372_25
  + 8.2 transfer_in_373_25 + 4 transfer_in_374_25 + 4 transfer_in_375_25
  + 5.3 transfer_in_376_25 + 5.1 transfer_in_377_25 + 5.1 transfer_in_378_25
- + 5.8 transfer_in_379_25 + 3.9 transfer_in_37_25 + 4 transfer_in_380_25
+ + 5.8 transfer_in_379_25 + 3.8 transfer_in_37_25 + 4 transfer_in_380_25
  + 5 transfer_in_381_25 + 4.8 transfer_in_382_25 + 4.3 transfer_in_383_25
  + 4 transfer_in_384_25 + 4.4 transfer_in_385_25 + 4.5 transfer_in_386_25
  + 4.2 transfer_in_387_25 + 4.4 transfer_in_388_25 + 4.3 transfer_in_389_25
@@ -28458,12 +28557,12 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 5.4 transfer_in_4_25 + 12.5 transfer_in_500_25 + 7.1 transfer_in_501_25
  + 4.7 transfer_in_502_25 + 4.8 transfer_in_503_25 + 7.8 transfer_in_504_25
  + 4.4 transfer_in_505_25 + 5.9 transfer_in_506_25 + 4.7 transfer_in_507_25
- + 4.4 transfer_in_508_25 + 7 transfer_in_509_25 + 5.6 transfer_in_50_25
+ + 4.4 transfer_in_508_25 + 7 transfer_in_509_25 + 5.5 transfer_in_50_25
  + 4 transfer_in_510_25 + 4.9 transfer_in_511_25 + 4.4 transfer_in_512_25
  + 4.4 transfer_in_513_25 + 4.4 transfer_in_514_25 + 4.5 transfer_in_515_25
  + 9.7 transfer_in_516_25 + 4 transfer_in_517_25 + 4 transfer_in_518_25
  + 4.8 transfer_in_519_25 + 4.1 transfer_in_51_25 + 5.3 transfer_in_520_25
- + 3.9 transfer_in_521_25 + 4.5 transfer_in_522_25 + 5.7 transfer_in_523_25
+ + 3.9 transfer_in_521_25 + 4.4 transfer_in_522_25 + 5.7 transfer_in_523_25
  + 4.2 transfer_in_524_25 + 5.6 transfer_in_525_25 + 8.1 transfer_in_526_25
  + 5.2 transfer_in_527_25 + 4.7 transfer_in_528_25 + 4.3 transfer_in_529_25
  + 4.4 transfer_in_52_25 + 4.2 transfer_in_530_25 + 5 transfer_in_531_25
@@ -28495,7 +28594,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 5 transfer_in_5_25 + 4.7 transfer_in_600_25 + 5.2 transfer_in_601_25
  + 4 transfer_in_602_25 + 6.2 transfer_in_603_25 + 4.5 transfer_in_604_25
  + 4.8 transfer_in_605_25 + 4.3 transfer_in_606_25 + 4.4 transfer_in_607_25
- + 4.9 transfer_in_608_25 + 5.1 transfer_in_609_25 + 8.9 transfer_in_60_25
+ + 4.9 transfer_in_608_25 + 5.1 transfer_in_609_25 + 8.8 transfer_in_60_25
  + 4.4 transfer_in_610_25 + 4.9 transfer_in_611_25 + 4.4 transfer_in_613_25
  + 4.5 transfer_in_614_25 + 4.8 transfer_in_615_25 + 4.8 transfer_in_616_25
  + 6.8 transfer_in_617_25 + 4.5 transfer_in_618_25 + 4 transfer_in_619_25
@@ -28561,7 +28660,10 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 4.6 transfer_in_77_25 + 4.5 transfer_in_780_25 + 4.5 transfer_in_781_25
  + 4.5 transfer_in_782_25 + 4.5 transfer_in_783_25 + 4 transfer_in_784_25
  + 4.5 transfer_in_785_25 + 4.5 transfer_in_786_25 + 4.5 transfer_in_787_25
- + 4 transfer_in_788_25 + 4.7 transfer_in_78_25 + 4.5 transfer_in_79_25
+ + 4 transfer_in_788_25 + 4 transfer_in_789_25 + 4.7 transfer_in_78_25
+ + 4.5 transfer_in_790_25 + 4.5 transfer_in_791_25 + 4.5 transfer_in_792_25
+ + 4 transfer_in_793_25 + 4.5 transfer_in_794_25 + 4.5 transfer_in_795_25
+ + 4.5 transfer_in_796_25 + 4 transfer_in_797_25 + 4.5 transfer_in_79_25
  + 4.3 transfer_in_7_25 + 4 transfer_in_80_25 + 4.8 transfer_in_81_25
  + 4.5 transfer_in_82_25 + 4.5 transfer_in_83_25 + 4.4 transfer_in_84_25
  + 7.1 transfer_in_85_25 + 5.4 transfer_in_86_25 + 4.7 transfer_in_87_25
@@ -28573,15 +28675,15 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  - 4.5 transfer_out_101_25 - 3.9 transfer_out_102_25 - 4.3 transfer_out_103_25
  - 4.4 transfer_out_104_25 - 5.3 transfer_out_105_25 - 5.4 transfer_out_106_25
  - 4.7 transfer_out_107_25 - 6.8 transfer_out_108_25 - 4.8 transfer_out_109_25
- - 4.3 transfer_out_10_25 - 5.4 transfer_out_110_25 - 4.9 transfer_out_111_25
+ - 4.3 transfer_out_10_25 - 5.3 transfer_out_110_25 - 4.9 transfer_out_111_25
  - 4.6 transfer_out_112_25 - 4.9 transfer_out_113_25 - 4.4 transfer_out_114_25
  - 5.2 transfer_out_115_25 - 3.9 transfer_out_116_25 - 8 transfer_out_117_25
- - 4.5 transfer_out_118_25 - 5.7 transfer_out_119_25 - 4.5 transfer_out_11_25
+ - 4.5 transfer_out_118_25 - 5.6 transfer_out_119_25 - 4.5 transfer_out_11_25
  - 4.3 transfer_out_120_25 - 4.3 transfer_out_121_25 - 5 transfer_out_122_25
  - 4.4 transfer_out_123_25 - 4.5 transfer_out_124_25 - 4.7 transfer_out_125_25
  - 4.5 transfer_out_126_25 - 4.5 transfer_out_127_25 - 4.8 transfer_out_128_25
  - 5 transfer_out_129_25 - 7.7 transfer_out_12_25 - 5 transfer_out_130_25
- - 5.1 transfer_out_131_25 - 5.9 transfer_out_132_25 - 4.9 transfer_out_133_25
+ - 5.1 transfer_out_131_25 - 5.8 transfer_out_132_25 - 4.9 transfer_out_133_25
  - 6.5 transfer_out_134_25 - 5.5 transfer_out_135_25 - 4 transfer_out_136_25
  - 4.5 transfer_out_137_25 - 4.9 transfer_out_138_25 - 3.9 transfer_out_139_25
  - 5.2 transfer_out_13_25 - 6.1 transfer_out_140_25 - 3.9 transfer_out_141_25
@@ -28594,7 +28696,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  - 5.2 transfer_out_159_25 - 4.8 transfer_out_15_25 - 4 transfer_out_160_25
  - 4.7 transfer_out_161_25 - 4.4 transfer_out_162_25 - 4.8 transfer_out_163_25
  - 4.5 transfer_out_164_25 - 5 transfer_out_165_25 - 3.9 transfer_out_166_25
- - 3.9 transfer_out_167_25 - 4.8 transfer_out_168_25 - 3.9 transfer_out_169_25
+ - 3.9 transfer_out_167_25 - 4.7 transfer_out_168_25 - 3.9 transfer_out_169_25
  - 4.9 transfer_out_16_25 - 4.8 transfer_out_170_25 - 4 transfer_out_171_25
  - 4.3 transfer_out_172_25 - 4.4 transfer_out_173_25 - 4.9 transfer_out_174_25
  - 4 transfer_out_175_25 - 4.3 transfer_out_176_25 - 5.3 transfer_out_177_25
@@ -28662,191 +28764,194 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  - 4.9 transfer_out_341_25 - 5 transfer_out_342_25 - 7 transfer_out_343_25
  - 6.5 transfer_out_344_25 - 4.4 transfer_out_345_25 - 5.8 transfer_out_346_25
  - 3.9 transfer_out_347_25 - 4.5 transfer_out_348_25
- - 10.6 transfer_out_349_25 - 5.7 transfer_out_34_25 - 5.5 transfer_out_350_25
+ - 10.7 transfer_out_349_25 - 5.7 transfer_out_34_25 - 5.5 transfer_out_350_25
  - 4.4 transfer_out_351_25 - 5.5 transfer_out_352_25 - 8 transfer_out_353_25
- - 7.2 transfer_out_354_25 - 13.9 transfer_out_355_25
- - 4.7 transfer_out_356_25 - 4.9 transfer_out_357_25 - 4.3 transfer_out_358_25
- - 7.5 transfer_out_359_25 - 5.7 transfer_out_35_25 - 4.4 transfer_out_360_25
- - 3.8 transfer_out_361_25 - 5.8 transfer_out_362_25 - 4.4 transfer_out_363_25
- - 4.7 transfer_out_364_25 - 5.6 transfer_out_365_25 - 3.8 transfer_out_366_25
- - 3.9 transfer_out_367_25 - 5.3 transfer_out_368_25 - 5.4 transfer_out_369_25
- - 4.7 transfer_out_36_25 - 4.5 transfer_out_370_25 - 4.4 transfer_out_371_25
- - 6.8 transfer_out_372_25 - 8.2 transfer_out_373_25 - 4 transfer_out_374_25
- - 4 transfer_out_375_25 - 5.3 transfer_out_376_25 - 5.1 transfer_out_377_25
- - 5.1 transfer_out_378_25 - 5.8 transfer_out_379_25 - 3.9 transfer_out_37_25
- - 4 transfer_out_380_25 - 5 transfer_out_381_25 - 4.8 transfer_out_382_25
- - 4.3 transfer_out_383_25 - 4 transfer_out_384_25 - 4.4 transfer_out_385_25
- - 4.5 transfer_out_386_25 - 4.2 transfer_out_387_25 - 4.4 transfer_out_388_25
- - 4.3 transfer_out_389_25 - 5.8 transfer_out_38_25 - 6.4 transfer_out_390_25
- - 4.7 transfer_out_391_25 - 4.6 transfer_out_392_25 - 4 transfer_out_393_25
- - 4.2 transfer_out_394_25 - 4.9 transfer_out_395_25 - 8.4 transfer_out_396_25
- - 6.7 transfer_out_397_25 - 5.2 transfer_out_398_25 - 4.4 transfer_out_399_25
- - 4.9 transfer_out_39_25 - 4.4 transfer_out_3_25 - 4.7 transfer_out_400_25
- - 4.4 transfer_out_401_25 - 6.2 transfer_out_402_25 - 4.2 transfer_out_403_25
- - 4 transfer_out_404_25 - 4.5 transfer_out_405_25 - 5.8 transfer_out_406_25
- - 4.4 transfer_out_407_25 - 4 transfer_out_408_25 - 4.2 transfer_out_409_25
- - 4.9 transfer_out_40_25 - 4.9 transfer_out_410_25 - 3.9 transfer_out_411_25
- - 6.1 transfer_out_412_25 - 4.4 transfer_out_413_25 - 4.4 transfer_out_414_25
- - 7.6 transfer_out_415_25 - 5.8 transfer_out_416_25 - 4.4 transfer_out_417_25
- - 4.5 transfer_out_418_25 - 4.1 transfer_out_419_25 - 4.4 transfer_out_41_25
- - 4 transfer_out_420_25 - 4.8 transfer_out_421_25 - 4 transfer_out_422_25
- - 4.8 transfer_out_423_25 - 5.3 transfer_out_424_25 - 4.3 transfer_out_425_25
- - 6 transfer_out_426_25 - 5.2 transfer_out_427_25 - 4.2 transfer_out_428_25
- - 5.2 transfer_out_429_25 - 4.6 transfer_out_42_25 - 6.7 transfer_out_430_25
- - 4 transfer_out_431_25 - 5.3 transfer_out_432_25 - 7.8 transfer_out_433_25
- - 4.5 transfer_out_434_25 - 4.3 transfer_out_435_25 - 4.5 transfer_out_436_25
- - 6.3 transfer_out_437_25 - 3.9 transfer_out_438_25 - 4.5 transfer_out_439_25
- - 5.6 transfer_out_43_25 - 4.5 transfer_out_440_25 - 4.5 transfer_out_441_25
- - 5.3 transfer_out_442_25 - 4.8 transfer_out_443_25 - 4 transfer_out_444_25
- - 4.4 transfer_out_445_25 - 4.9 transfer_out_446_25 - 5.7 transfer_out_447_25
- - 4 transfer_out_448_25 - 4.3 transfer_out_449_25 - 5 transfer_out_44_25
- - 5.8 transfer_out_450_25 - 4.8 transfer_out_451_25 - 4.5 transfer_out_452_25
- - 5 transfer_out_453_25 - 4 transfer_out_454_25 - 4.4 transfer_out_455_25
- - 4.4 transfer_out_456_25 - 4.5 transfer_out_457_25 - 4.9 transfer_out_458_25
- - 4.5 transfer_out_459_25 - 3.9 transfer_out_45_25 - 4 transfer_out_460_25
- - 4.4 transfer_out_461_25 - 4.5 transfer_out_462_25 - 4.8 transfer_out_463_25
- - 4.5 transfer_out_464_25 - 4.4 transfer_out_465_25 - 4.4 transfer_out_466_25
- - 4.3 transfer_out_467_25 - 5 transfer_out_468_25 - 4.3 transfer_out_469_25
- - 4.4 transfer_out_46_25 - 4.8 transfer_out_470_25 - 4.3 transfer_out_471_25
- - 3.9 transfer_out_472_25 - 3.8 transfer_out_473_25 - 3.9 transfer_out_474_25
- - 4.7 transfer_out_475_25 - 4.5 transfer_out_476_25 - 4.9 transfer_out_477_25
- - 4.4 transfer_out_478_25 - 4 transfer_out_479_25 - 5 transfer_out_47_25
- - 4.3 transfer_out_480_25 - 4.9 transfer_out_481_25 - 4.5 transfer_out_482_25
- - 4.8 transfer_out_483_25 - 4.3 transfer_out_484_25 - 5.4 transfer_out_485_25
- - 5.5 transfer_out_486_25 - 3.9 transfer_out_487_25 - 4.8 transfer_out_488_25
- - 4.8 transfer_out_489_25 - 4.6 transfer_out_48_25 - 4.3 transfer_out_490_25
- - 3.9 transfer_out_491_25 - 5.4 transfer_out_492_25 - 5 transfer_out_493_25
- - 4.9 transfer_out_494_25 - 4.3 transfer_out_495_25 - 4.2 transfer_out_496_25
- - 4.3 transfer_out_497_25 - 3.8 transfer_out_498_25 - 5.2 transfer_out_499_25
- - 5.2 transfer_out_49_25 - 5.4 transfer_out_4_25 - 12.5 transfer_out_500_25
- - 7.1 transfer_out_501_25 - 4.7 transfer_out_502_25 - 4.8 transfer_out_503_25
- - 7.8 transfer_out_504_25 - 4.4 transfer_out_505_25 - 5.9 transfer_out_506_25
- - 4.7 transfer_out_507_25 - 4.4 transfer_out_508_25 - 7 transfer_out_509_25
- - 5.6 transfer_out_50_25 - 4 transfer_out_510_25 - 4.9 transfer_out_511_25
- - 4.4 transfer_out_512_25 - 4.4 transfer_out_513_25 - 4.4 transfer_out_514_25
- - 4.5 transfer_out_515_25 - 9.7 transfer_out_516_25 - 4 transfer_out_517_25
- - 4 transfer_out_518_25 - 4.8 transfer_out_519_25 - 4.1 transfer_out_51_25
- - 5.3 transfer_out_520_25 - 3.9 transfer_out_521_25 - 4.5 transfer_out_522_25
- - 5.7 transfer_out_523_25 - 4.2 transfer_out_524_25 - 5.6 transfer_out_525_25
- - 8.1 transfer_out_526_25 - 5.2 transfer_out_527_25 - 4.7 transfer_out_528_25
- - 4.3 transfer_out_529_25 - 4.4 transfer_out_52_25 - 4.2 transfer_out_530_25
- - 5 transfer_out_531_25 - 4.6 transfer_out_532_25 - 4.2 transfer_out_533_25
- - 4.6 transfer_out_534_25 - 5.6 transfer_out_535_25 - 4.4 transfer_out_536_25
- - 4.2 transfer_out_537_25 - 4.2 transfer_out_538_25 - 6 transfer_out_539_25
- - 3.9 transfer_out_53_25 - 5.4 transfer_out_540_25 - 6 transfer_out_541_25
- - 4.9 transfer_out_542_25 - 4.5 transfer_out_543_25 - 4.5 transfer_out_544_25
- - 4.5 transfer_out_545_25 - 3.9 transfer_out_546_25 - 4 transfer_out_547_25
- - 4.4 transfer_out_548_25 - 4.5 transfer_out_549_25 - 4.5 transfer_out_54_25
- - 4.5 transfer_out_550_25 - 4.5 transfer_out_551_25 - 5.2 transfer_out_552_25
- - 4.2 transfer_out_553_25 - 5.4 transfer_out_554_25 - 4.4 transfer_out_555_25
- - 4 transfer_out_556_25 - 5.6 transfer_out_557_25 - 5.2 transfer_out_558_25
- - 4.9 transfer_out_559_25 - 5.9 transfer_out_55_25 - 4.3 transfer_out_560_25
- - 4.3 transfer_out_561_25 - 4.9 transfer_out_562_25 - 4.5 transfer_out_563_25
- - 3.9 transfer_out_564_25 - 4.9 transfer_out_565_25 - 4.8 transfer_out_566_25
- - 5.6 transfer_out_567_25 - 5.3 transfer_out_568_25 - 5 transfer_out_569_25
- - 4.5 transfer_out_56_25 - 4.7 transfer_out_570_25 - 4 transfer_out_571_25
- - 4.5 transfer_out_572_25 - 4.4 transfer_out_573_25 - 4.3 transfer_out_574_25
- - 4.2 transfer_out_575_25 - 4.4 transfer_out_576_25 - 4.3 transfer_out_577_25
- - 4.8 transfer_out_578_25 - 3.9 transfer_out_579_25 - 4 transfer_out_57_25
- - 3.9 transfer_out_580_25 - 3.9 transfer_out_581_25 - 4.7 transfer_out_582_25
- - 5.1 transfer_out_583_25 - 4.7 transfer_out_584_25 - 4.6 transfer_out_585_25
- - 4.7 transfer_out_586_25 - 4.7 transfer_out_587_25 - 4.4 transfer_out_588_25
- - 5 transfer_out_589_25 - 5.6 transfer_out_58_25 - 5.8 transfer_out_590_25
- - 5.3 transfer_out_591_25 - 4.3 transfer_out_592_25 - 5.1 transfer_out_593_25
- - 5.3 transfer_out_594_25 - 4.4 transfer_out_595_25 - 4.5 transfer_out_596_25
- - 4.8 transfer_out_597_25 - 4.3 transfer_out_598_25 - 6.6 transfer_out_599_25
- - 5 transfer_out_59_25 - 5 transfer_out_5_25 - 4.7 transfer_out_600_25
- - 5.2 transfer_out_601_25 - 4 transfer_out_602_25 - 6.2 transfer_out_603_25
- - 4.5 transfer_out_604_25 - 4.8 transfer_out_605_25 - 4.3 transfer_out_606_25
- - 4.4 transfer_out_607_25 - 4.9 transfer_out_608_25 - 5.1 transfer_out_609_25
- - 8.9 transfer_out_60_25 - 4.4 transfer_out_610_25 - 4.9 transfer_out_611_25
- - 4.4 transfer_out_613_25 - 4.5 transfer_out_614_25 - 4.8 transfer_out_615_25
- - 4.8 transfer_out_616_25 - 6.8 transfer_out_617_25 - 4.5 transfer_out_618_25
- - 4 transfer_out_619_25 - 5 transfer_out_61_25 - 4.5 transfer_out_620_25
- - 4.5 transfer_out_621_25 - 4 transfer_out_622_25 - 4.5 transfer_out_623_25
- - 4.5 transfer_out_624_25 - 3.9 transfer_out_625_25 - 4 transfer_out_626_25
- - 4.4 transfer_out_627_25 - 4.4 transfer_out_628_25 - 4.4 transfer_out_629_25
- - 4.9 transfer_out_62_25 - 4.9 transfer_out_630_25 - 4.9 transfer_out_631_25
- - 4.4 transfer_out_632_25 - 4.3 transfer_out_633_25 - 3.9 transfer_out_634_25
- - 4.5 transfer_out_635_25 - 3.9 transfer_out_636_25 - 3.9 transfer_out_637_25
- - 5 transfer_out_638_25 - 4.4 transfer_out_639_25 - 5.2 transfer_out_63_25
- - 4.5 transfer_out_640_25 - 5.4 transfer_out_641_25 - 5 transfer_out_642_25
- - 4.4 transfer_out_643_25 - 4.9 transfer_out_644_25 - 4.8 transfer_out_645_25
- - 4 transfer_out_646_25 - 4 transfer_out_647_25 - 4 transfer_out_648_25
- - 4.5 transfer_out_649_25 - 4.7 transfer_out_64_25 - 4.4 transfer_out_650_25
- - 4.5 transfer_out_651_25 - 4.5 transfer_out_652_25 - 3.9 transfer_out_653_25
- - 4.5 transfer_out_654_25 - 4.4 transfer_out_655_25 - 4.4 transfer_out_656_25
- - 4.5 transfer_out_657_25 - 4.5 transfer_out_658_25 - 3.9 transfer_out_659_25
- - 5 transfer_out_65_25 - 5 transfer_out_660_25 - 5.5 transfer_out_661_25
- - 4.9 transfer_out_662_25 - 5 transfer_out_663_25 - 6 transfer_out_664_25
- - 4.4 transfer_out_665_25 - 5 transfer_out_666_25 - 4.9 transfer_out_667_25
- - 5.4 transfer_out_668_25 - 4 transfer_out_669_25 - 5 transfer_out_66_25
- - 4 transfer_out_670_25 - 4 transfer_out_671_25 - 5.4 transfer_out_672_25
- - 4.9 transfer_out_673_25 - 4 transfer_out_674_25 - 5 transfer_out_675_25
- - 4.5 transfer_out_676_25 - 4.5 transfer_out_677_25 - 6.5 transfer_out_678_25
- - 4.4 transfer_out_679_25 - 4.5 transfer_out_67_25 - 4 transfer_out_680_25
- - 4.5 transfer_out_681_25 - 4 transfer_out_682_25 - 4.5 transfer_out_683_25
- - 4.5 transfer_out_684_25 - 4.5 transfer_out_685_25 - 4 transfer_out_686_25
- - 4.5 transfer_out_687_25 - 4.5 transfer_out_688_25 - 6.8 transfer_out_689_25
- - 4.3 transfer_out_68_25 - 4.5 transfer_out_690_25 - 5.7 transfer_out_691_25
- - 4 transfer_out_692_25 - 4 transfer_out_693_25 - 5 transfer_out_694_25
- - 4 transfer_out_695_25 - 4.5 transfer_out_696_25 - 4.5 transfer_out_697_25
- - 5 transfer_out_698_25 - 4.5 transfer_out_699_25 - 4 transfer_out_69_25
- - 7.1 transfer_out_6_25 - 6.4 transfer_out_700_25 - 4.5 transfer_out_701_25
- - 4 transfer_out_702_25 - 4 transfer_out_703_25 - 4.5 transfer_out_704_25
- - 5.5 transfer_out_705_25 - 5.4 transfer_out_706_25 - 4.5 transfer_out_707_25
- - 5 transfer_out_708_25 - 5 transfer_out_709_25 - 4.5 transfer_out_70_25
- - 4.5 transfer_out_710_25 - 4.5 transfer_out_711_25 - 5 transfer_out_712_25
- - 4.9 transfer_out_713_25 - 5 transfer_out_714_25 - 4.9 transfer_out_715_25
- - 4 transfer_out_716_25 - 4.5 transfer_out_717_25 - 4.5 transfer_out_718_25
- - 4.5 transfer_out_719_25 - 4.3 transfer_out_71_25 - 4.5 transfer_out_720_25
- - 4.5 transfer_out_721_25 - 4.5 transfer_out_722_25 - 4 transfer_out_723_25
- - 4.5 transfer_out_724_25 - 4 transfer_out_725_25 - 4 transfer_out_726_25
- - 5 transfer_out_727_25 - 3.9 transfer_out_728_25 - 4.5 transfer_out_729_25
- - 4.6 transfer_out_72_25 - 4.4 transfer_out_730_25 - 4 transfer_out_731_25
- - 4 transfer_out_732_25 - 4 transfer_out_733_25 - 4.5 transfer_out_734_25
- - 4.5 transfer_out_735_25 - 4 transfer_out_736_25 - 4.5 transfer_out_737_25
- - 4.5 transfer_out_738_25 - 4.5 transfer_out_739_25 - 4.9 transfer_out_73_25
- - 4 transfer_out_740_25 - 4.5 transfer_out_741_25 - 4.5 transfer_out_742_25
- - 4.5 transfer_out_743_25 - 4.5 transfer_out_744_25 - 4.4 transfer_out_745_25
- - 4 transfer_out_746_25 - 4.4 transfer_out_747_25 - 4.5 transfer_out_748_25
- - 4.5 transfer_out_749_25 - 4.3 transfer_out_74_25 - 4.4 transfer_out_750_25
- - 4 transfer_out_751_25 - 4 transfer_out_752_25 - 4 transfer_out_753_25
- - 4.5 transfer_out_754_25 - 4.5 transfer_out_755_25 - 4 transfer_out_756_25
- - 4 transfer_out_757_25 - 4.5 transfer_out_758_25 - 4.4 transfer_out_759_25
- - 4.3 transfer_out_75_25 - 4.5 transfer_out_760_25 - 4 transfer_out_761_25
- - 4.5 transfer_out_762_25 - 4 transfer_out_763_25 - 4.5 transfer_out_764_25
- - 4 transfer_out_765_25 - 4 transfer_out_766_25 - 4.5 transfer_out_767_25
- - 4 transfer_out_768_25 - 4.5 transfer_out_769_25 - 4.6 transfer_out_76_25
- - 4.5 transfer_out_770_25 - 4.5 transfer_out_771_25 - 4.5 transfer_out_772_25
- - 4.5 transfer_out_773_25 - 4 transfer_out_774_25 - 5 transfer_out_775_25
- - 6.5 transfer_out_776_25 - 4.5 transfer_out_777_25 - 4 transfer_out_778_25
- - 4.5 transfer_out_779_25 - 4.6 transfer_out_77_25 - 4.5 transfer_out_780_25
- - 4.5 transfer_out_781_25 - 4.5 transfer_out_782_25 - 4.5 transfer_out_783_25
- - 4 transfer_out_784_25 - 4.5 transfer_out_785_25 - 4.5 transfer_out_786_25
- - 4.5 transfer_out_787_25 - 4 transfer_out_788_25 - 4.7 transfer_out_78_25
- - 4.5 transfer_out_79_25 - 4.3 transfer_out_7_25 - 4 transfer_out_80_25
- - 4.8 transfer_out_81_25 - 4.5 transfer_out_82_25 - 4.5 transfer_out_83_25
- - 4.4 transfer_out_84_25 - 7.1 transfer_out_85_25 - 5.4 transfer_out_86_25
- - 4.7 transfer_out_87_25 - 4 transfer_out_88_25 - 4.4 transfer_out_89_25
- - 8 transfer_out_8_25 - 4.4 transfer_out_90_25 - 3.9 transfer_out_91_25
- - 4.3 transfer_out_92_25 - 4 transfer_out_93_25 - 4.5 transfer_out_94_25
- - 5 transfer_out_95_25 - 4.5 transfer_out_96_25 - 4 transfer_out_97_25
- - 4.8 transfer_out_98_25 - 4.7 transfer_out_99_25 - 5.3 transfer_out_9_25 = 0
+ - 7.2 transfer_out_354_25 - 14 transfer_out_355_25 - 4.7 transfer_out_356_25
+ - 4.9 transfer_out_357_25 - 4.3 transfer_out_358_25 - 7.5 transfer_out_359_25
+ - 5.7 transfer_out_35_25 - 4.4 transfer_out_360_25 - 3.8 transfer_out_361_25
+ - 5.8 transfer_out_362_25 - 4.4 transfer_out_363_25 - 4.7 transfer_out_364_25
+ - 5.6 transfer_out_365_25 - 3.8 transfer_out_366_25 - 3.9 transfer_out_367_25
+ - 5.3 transfer_out_368_25 - 5.5 transfer_out_369_25 - 4.7 transfer_out_36_25
+ - 4.5 transfer_out_370_25 - 4.4 transfer_out_371_25 - 6.8 transfer_out_372_25
+ - 8.2 transfer_out_373_25 - 4 transfer_out_374_25 - 4 transfer_out_375_25
+ - 5.3 transfer_out_376_25 - 5.1 transfer_out_377_25 - 5.1 transfer_out_378_25
+ - 5.8 transfer_out_379_25 - 3.8 transfer_out_37_25 - 4 transfer_out_380_25
+ - 5 transfer_out_381_25 - 4.8 transfer_out_382_25 - 4.3 transfer_out_383_25
+ - 4 transfer_out_384_25 - 4.4 transfer_out_385_25 - 4.5 transfer_out_386_25
+ - 4.2 transfer_out_387_25 - 4.4 transfer_out_388_25 - 4.3 transfer_out_389_25
+ - 5.8 transfer_out_38_25 - 6.4 transfer_out_390_25 - 4.7 transfer_out_391_25
+ - 4.6 transfer_out_392_25 - 4 transfer_out_393_25 - 4.2 transfer_out_394_25
+ - 4.9 transfer_out_395_25 - 8.4 transfer_out_396_25 - 6.7 transfer_out_397_25
+ - 5.2 transfer_out_398_25 - 4.4 transfer_out_399_25 - 4.9 transfer_out_39_25
+ - 4.4 transfer_out_3_25 - 4.7 transfer_out_400_25 - 4.4 transfer_out_401_25
+ - 6.2 transfer_out_402_25 - 4.2 transfer_out_403_25 - 4 transfer_out_404_25
+ - 4.5 transfer_out_405_25 - 5.8 transfer_out_406_25 - 4.4 transfer_out_407_25
+ - 4 transfer_out_408_25 - 4.2 transfer_out_409_25 - 4.9 transfer_out_40_25
+ - 4.9 transfer_out_410_25 - 3.9 transfer_out_411_25 - 6.1 transfer_out_412_25
+ - 4.4 transfer_out_413_25 - 4.4 transfer_out_414_25 - 7.6 transfer_out_415_25
+ - 5.8 transfer_out_416_25 - 4.4 transfer_out_417_25 - 4.5 transfer_out_418_25
+ - 4.1 transfer_out_419_25 - 4.4 transfer_out_41_25 - 4 transfer_out_420_25
+ - 4.8 transfer_out_421_25 - 4 transfer_out_422_25 - 4.8 transfer_out_423_25
+ - 5.3 transfer_out_424_25 - 4.3 transfer_out_425_25 - 6 transfer_out_426_25
+ - 5.2 transfer_out_427_25 - 4.2 transfer_out_428_25 - 5.2 transfer_out_429_25
+ - 4.6 transfer_out_42_25 - 6.7 transfer_out_430_25 - 4 transfer_out_431_25
+ - 5.3 transfer_out_432_25 - 7.8 transfer_out_433_25 - 4.5 transfer_out_434_25
+ - 4.3 transfer_out_435_25 - 4.5 transfer_out_436_25 - 6.3 transfer_out_437_25
+ - 3.9 transfer_out_438_25 - 4.5 transfer_out_439_25 - 5.6 transfer_out_43_25
+ - 4.5 transfer_out_440_25 - 4.5 transfer_out_441_25 - 5.3 transfer_out_442_25
+ - 4.8 transfer_out_443_25 - 4 transfer_out_444_25 - 4.4 transfer_out_445_25
+ - 4.9 transfer_out_446_25 - 5.7 transfer_out_447_25 - 4 transfer_out_448_25
+ - 4.3 transfer_out_449_25 - 5 transfer_out_44_25 - 5.8 transfer_out_450_25
+ - 4.8 transfer_out_451_25 - 4.5 transfer_out_452_25 - 5 transfer_out_453_25
+ - 4 transfer_out_454_25 - 4.4 transfer_out_455_25 - 4.4 transfer_out_456_25
+ - 4.5 transfer_out_457_25 - 4.9 transfer_out_458_25 - 4.5 transfer_out_459_25
+ - 3.9 transfer_out_45_25 - 4 transfer_out_460_25 - 4.4 transfer_out_461_25
+ - 4.5 transfer_out_462_25 - 4.8 transfer_out_463_25 - 4.5 transfer_out_464_25
+ - 4.4 transfer_out_465_25 - 4.4 transfer_out_466_25 - 4.3 transfer_out_467_25
+ - 5 transfer_out_468_25 - 4.3 transfer_out_469_25 - 4.4 transfer_out_46_25
+ - 4.8 transfer_out_470_25 - 4.3 transfer_out_471_25 - 3.9 transfer_out_472_25
+ - 3.8 transfer_out_473_25 - 3.9 transfer_out_474_25 - 4.7 transfer_out_475_25
+ - 4.5 transfer_out_476_25 - 4.9 transfer_out_477_25 - 4.4 transfer_out_478_25
+ - 4 transfer_out_479_25 - 5 transfer_out_47_25 - 4.3 transfer_out_480_25
+ - 4.9 transfer_out_481_25 - 4.5 transfer_out_482_25 - 4.8 transfer_out_483_25
+ - 4.3 transfer_out_484_25 - 5.4 transfer_out_485_25 - 5.5 transfer_out_486_25
+ - 3.9 transfer_out_487_25 - 4.8 transfer_out_488_25 - 4.8 transfer_out_489_25
+ - 4.6 transfer_out_48_25 - 4.3 transfer_out_490_25 - 3.9 transfer_out_491_25
+ - 5.4 transfer_out_492_25 - 5 transfer_out_493_25 - 4.9 transfer_out_494_25
+ - 4.3 transfer_out_495_25 - 4.2 transfer_out_496_25 - 4.3 transfer_out_497_25
+ - 3.8 transfer_out_498_25 - 5.2 transfer_out_499_25 - 5.2 transfer_out_49_25
+ - 5.4 transfer_out_4_25 - 12.5 transfer_out_500_25 - 7.1 transfer_out_501_25
+ - 4.7 transfer_out_502_25 - 4.8 transfer_out_503_25 - 7.8 transfer_out_504_25
+ - 4.4 transfer_out_505_25 - 5.9 transfer_out_506_25 - 4.7 transfer_out_507_25
+ - 4.4 transfer_out_508_25 - 7 transfer_out_509_25 - 5.5 transfer_out_50_25
+ - 4 transfer_out_510_25 - 4.9 transfer_out_511_25 - 4.4 transfer_out_512_25
+ - 4.4 transfer_out_513_25 - 4.4 transfer_out_514_25 - 4.5 transfer_out_515_25
+ - 9.7 transfer_out_516_25 - 4 transfer_out_517_25 - 4 transfer_out_518_25
+ - 4.8 transfer_out_519_25 - 4.1 transfer_out_51_25 - 5.3 transfer_out_520_25
+ - 3.9 transfer_out_521_25 - 4.4 transfer_out_522_25 - 5.7 transfer_out_523_25
+ - 4.2 transfer_out_524_25 - 5.6 transfer_out_525_25 - 8.1 transfer_out_526_25
+ - 5.2 transfer_out_527_25 - 4.7 transfer_out_528_25 - 4.3 transfer_out_529_25
+ - 4.4 transfer_out_52_25 - 4.2 transfer_out_530_25 - 5 transfer_out_531_25
+ - 4.6 transfer_out_532_25 - 4.2 transfer_out_533_25 - 4.6 transfer_out_534_25
+ - 5.6 transfer_out_535_25 - 4.4 transfer_out_536_25 - 4.2 transfer_out_537_25
+ - 4.2 transfer_out_538_25 - 6 transfer_out_539_25 - 3.9 transfer_out_53_25
+ - 5.4 transfer_out_540_25 - 6 transfer_out_541_25 - 4.9 transfer_out_542_25
+ - 4.5 transfer_out_543_25 - 4.5 transfer_out_544_25 - 4.5 transfer_out_545_25
+ - 3.9 transfer_out_546_25 - 4 transfer_out_547_25 - 4.4 transfer_out_548_25
+ - 4.5 transfer_out_549_25 - 4.5 transfer_out_54_25 - 4.5 transfer_out_550_25
+ - 4.5 transfer_out_551_25 - 5.2 transfer_out_552_25 - 4.2 transfer_out_553_25
+ - 5.4 transfer_out_554_25 - 4.4 transfer_out_555_25 - 4 transfer_out_556_25
+ - 5.6 transfer_out_557_25 - 5.2 transfer_out_558_25 - 4.9 transfer_out_559_25
+ - 5.9 transfer_out_55_25 - 4.3 transfer_out_560_25 - 4.3 transfer_out_561_25
+ - 4.9 transfer_out_562_25 - 4.5 transfer_out_563_25 - 3.9 transfer_out_564_25
+ - 4.9 transfer_out_565_25 - 4.8 transfer_out_566_25 - 5.6 transfer_out_567_25
+ - 5.3 transfer_out_568_25 - 5 transfer_out_569_25 - 4.5 transfer_out_56_25
+ - 4.7 transfer_out_570_25 - 4 transfer_out_571_25 - 4.5 transfer_out_572_25
+ - 4.4 transfer_out_573_25 - 4.3 transfer_out_574_25 - 4.2 transfer_out_575_25
+ - 4.4 transfer_out_576_25 - 4.3 transfer_out_577_25 - 4.8 transfer_out_578_25
+ - 3.9 transfer_out_579_25 - 4 transfer_out_57_25 - 3.9 transfer_out_580_25
+ - 3.9 transfer_out_581_25 - 4.7 transfer_out_582_25 - 5.1 transfer_out_583_25
+ - 4.7 transfer_out_584_25 - 4.6 transfer_out_585_25 - 4.7 transfer_out_586_25
+ - 4.7 transfer_out_587_25 - 4.4 transfer_out_588_25 - 5 transfer_out_589_25
+ - 5.6 transfer_out_58_25 - 5.8 transfer_out_590_25 - 5.3 transfer_out_591_25
+ - 4.3 transfer_out_592_25 - 5.1 transfer_out_593_25 - 5.3 transfer_out_594_25
+ - 4.4 transfer_out_595_25 - 4.5 transfer_out_596_25 - 4.8 transfer_out_597_25
+ - 4.3 transfer_out_598_25 - 6.6 transfer_out_599_25 - 5 transfer_out_59_25
+ - 5 transfer_out_5_25 - 4.7 transfer_out_600_25 - 5.2 transfer_out_601_25
+ - 4 transfer_out_602_25 - 6.2 transfer_out_603_25 - 4.5 transfer_out_604_25
+ - 4.8 transfer_out_605_25 - 4.3 transfer_out_606_25 - 4.4 transfer_out_607_25
+ - 4.9 transfer_out_608_25 - 5.1 transfer_out_609_25 - 8.8 transfer_out_60_25
+ - 4.4 transfer_out_610_25 - 4.9 transfer_out_611_25 - 4.4 transfer_out_613_25
+ - 4.5 transfer_out_614_25 - 4.8 transfer_out_615_25 - 4.8 transfer_out_616_25
+ - 6.8 transfer_out_617_25 - 4.5 transfer_out_618_25 - 4 transfer_out_619_25
+ - 5 transfer_out_61_25 - 4.5 transfer_out_620_25 - 4.5 transfer_out_621_25
+ - 4 transfer_out_622_25 - 4.5 transfer_out_623_25 - 4.5 transfer_out_624_25
+ - 3.9 transfer_out_625_25 - 4 transfer_out_626_25 - 4.4 transfer_out_627_25
+ - 4.4 transfer_out_628_25 - 4.4 transfer_out_629_25 - 4.9 transfer_out_62_25
+ - 4.9 transfer_out_630_25 - 4.9 transfer_out_631_25 - 4.4 transfer_out_632_25
+ - 4.3 transfer_out_633_25 - 3.9 transfer_out_634_25 - 4.5 transfer_out_635_25
+ - 3.9 transfer_out_636_25 - 3.9 transfer_out_637_25 - 5 transfer_out_638_25
+ - 4.4 transfer_out_639_25 - 5.2 transfer_out_63_25 - 4.5 transfer_out_640_25
+ - 5.4 transfer_out_641_25 - 5 transfer_out_642_25 - 4.4 transfer_out_643_25
+ - 4.9 transfer_out_644_25 - 4.8 transfer_out_645_25 - 4 transfer_out_646_25
+ - 4 transfer_out_647_25 - 4 transfer_out_648_25 - 4.5 transfer_out_649_25
+ - 4.7 transfer_out_64_25 - 4.4 transfer_out_650_25 - 4.5 transfer_out_651_25
+ - 4.5 transfer_out_652_25 - 3.9 transfer_out_653_25 - 4.5 transfer_out_654_25
+ - 4.4 transfer_out_655_25 - 4.4 transfer_out_656_25 - 4.5 transfer_out_657_25
+ - 4.5 transfer_out_658_25 - 3.9 transfer_out_659_25 - 5 transfer_out_65_25
+ - 5 transfer_out_660_25 - 5.5 transfer_out_661_25 - 4.9 transfer_out_662_25
+ - 5 transfer_out_663_25 - 6 transfer_out_664_25 - 4.4 transfer_out_665_25
+ - 5 transfer_out_666_25 - 4.9 transfer_out_667_25 - 5.4 transfer_out_668_25
+ - 4 transfer_out_669_25 - 5 transfer_out_66_25 - 4 transfer_out_670_25
+ - 4 transfer_out_671_25 - 5.4 transfer_out_672_25 - 4.9 transfer_out_673_25
+ - 4 transfer_out_674_25 - 5 transfer_out_675_25 - 4.5 transfer_out_676_25
+ - 4.5 transfer_out_677_25 - 6.5 transfer_out_678_25 - 4.4 transfer_out_679_25
+ - 4.5 transfer_out_67_25 - 4 transfer_out_680_25 - 4.5 transfer_out_681_25
+ - 4 transfer_out_682_25 - 4.5 transfer_out_683_25 - 4.5 transfer_out_684_25
+ - 4.5 transfer_out_685_25 - 4 transfer_out_686_25 - 4.5 transfer_out_687_25
+ - 4.5 transfer_out_688_25 - 6.8 transfer_out_689_25 - 4.3 transfer_out_68_25
+ - 4.5 transfer_out_690_25 - 5.7 transfer_out_691_25 - 4 transfer_out_692_25
+ - 4 transfer_out_693_25 - 5 transfer_out_694_25 - 4 transfer_out_695_25
+ - 4.5 transfer_out_696_25 - 4.5 transfer_out_697_25 - 5 transfer_out_698_25
+ - 4.5 transfer_out_699_25 - 4 transfer_out_69_25 - 7.1 transfer_out_6_25
+ - 6.4 transfer_out_700_25 - 4.5 transfer_out_701_25 - 4 transfer_out_702_25
+ - 4 transfer_out_703_25 - 4.5 transfer_out_704_25 - 5.5 transfer_out_705_25
+ - 5.4 transfer_out_706_25 - 4.5 transfer_out_707_25 - 5 transfer_out_708_25
+ - 5 transfer_out_709_25 - 4.5 transfer_out_70_25 - 4.5 transfer_out_710_25
+ - 4.5 transfer_out_711_25 - 5 transfer_out_712_25 - 4.9 transfer_out_713_25
+ - 5 transfer_out_714_25 - 4.9 transfer_out_715_25 - 4 transfer_out_716_25
+ - 4.5 transfer_out_717_25 - 4.5 transfer_out_718_25 - 4.5 transfer_out_719_25
+ - 4.3 transfer_out_71_25 - 4.5 transfer_out_720_25 - 4.5 transfer_out_721_25
+ - 4.5 transfer_out_722_25 - 4 transfer_out_723_25 - 4.5 transfer_out_724_25
+ - 4 transfer_out_725_25 - 4 transfer_out_726_25 - 5 transfer_out_727_25
+ - 3.9 transfer_out_728_25 - 4.5 transfer_out_729_25 - 4.6 transfer_out_72_25
+ - 4.4 transfer_out_730_25 - 4 transfer_out_731_25 - 4 transfer_out_732_25
+ - 4 transfer_out_733_25 - 4.5 transfer_out_734_25 - 4.5 transfer_out_735_25
+ - 4 transfer_out_736_25 - 4.5 transfer_out_737_25 - 4.5 transfer_out_738_25
+ - 4.5 transfer_out_739_25 - 4.9 transfer_out_73_25 - 4 transfer_out_740_25
+ - 4.5 transfer_out_741_25 - 4.5 transfer_out_742_25 - 4.5 transfer_out_743_25
+ - 4.5 transfer_out_744_25 - 4.4 transfer_out_745_25 - 4 transfer_out_746_25
+ - 4.4 transfer_out_747_25 - 4.5 transfer_out_748_25 - 4.5 transfer_out_749_25
+ - 4.3 transfer_out_74_25 - 4.4 transfer_out_750_25 - 4 transfer_out_751_25
+ - 4 transfer_out_752_25 - 4 transfer_out_753_25 - 4.5 transfer_out_754_25
+ - 4.5 transfer_out_755_25 - 4 transfer_out_756_25 - 4 transfer_out_757_25
+ - 4.5 transfer_out_758_25 - 4.4 transfer_out_759_25 - 4.3 transfer_out_75_25
+ - 4.5 transfer_out_760_25 - 4 transfer_out_761_25 - 4.5 transfer_out_762_25
+ - 4 transfer_out_763_25 - 4.5 transfer_out_764_25 - 4 transfer_out_765_25
+ - 4 transfer_out_766_25 - 4.5 transfer_out_767_25 - 4 transfer_out_768_25
+ - 4.5 transfer_out_769_25 - 4.6 transfer_out_76_25 - 4.5 transfer_out_770_25
+ - 4.5 transfer_out_771_25 - 4.5 transfer_out_772_25 - 4.5 transfer_out_773_25
+ - 4 transfer_out_774_25 - 5 transfer_out_775_25 - 6.5 transfer_out_776_25
+ - 4.5 transfer_out_777_25 - 4 transfer_out_778_25 - 4.5 transfer_out_779_25
+ - 4.6 transfer_out_77_25 - 4.5 transfer_out_780_25 - 4.5 transfer_out_781_25
+ - 4.5 transfer_out_782_25 - 4.5 transfer_out_783_25 - 4 transfer_out_784_25
+ - 4.5 transfer_out_785_25 - 4.5 transfer_out_786_25 - 4.5 transfer_out_787_25
+ - 4 transfer_out_788_25 - 4 transfer_out_789_25 - 4.7 transfer_out_78_25
+ - 4.5 transfer_out_790_25 - 4.5 transfer_out_791_25 - 4.5 transfer_out_792_25
+ - 4 transfer_out_793_25 - 4.5 transfer_out_794_25 - 4.5 transfer_out_795_25
+ - 4.5 transfer_out_796_25 - 4 transfer_out_797_25 - 4.5 transfer_out_79_25
+ - 4.3 transfer_out_7_25 - 4 transfer_out_80_25 - 4.8 transfer_out_81_25
+ - 4.5 transfer_out_82_25 - 4.5 transfer_out_83_25 - 4.4 transfer_out_84_25
+ - 7.1 transfer_out_85_25 - 5.4 transfer_out_86_25 - 4.7 transfer_out_87_25
+ - 4 transfer_out_88_25 - 4.4 transfer_out_89_25 - 8 transfer_out_8_25
+ - 4.4 transfer_out_90_25 - 3.9 transfer_out_91_25 - 4.3 transfer_out_92_25
+ - 4 transfer_out_93_25 - 4.5 transfer_out_94_25 - 5 transfer_out_95_25
+ - 4.5 transfer_out_96_25 - 4 transfer_out_97_25 - 4.8 transfer_out_98_25
+ - 4.7 transfer_out_99_25 - 5.3 transfer_out_9_25 = 0
 Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + money_in_bank_26 + 4.5 transfer_in_100_26 + 4.5 transfer_in_101_26
  + 3.9 transfer_in_102_26 + 4.3 transfer_in_103_26 + 4.4 transfer_in_104_26
  + 5.3 transfer_in_105_26 + 5.4 transfer_in_106_26 + 4.7 transfer_in_107_26
  + 6.8 transfer_in_108_26 + 4.8 transfer_in_109_26 + 4.3 transfer_in_10_26
- + 5.4 transfer_in_110_26 + 4.9 transfer_in_111_26 + 4.6 transfer_in_112_26
+ + 5.3 transfer_in_110_26 + 4.9 transfer_in_111_26 + 4.6 transfer_in_112_26
  + 4.9 transfer_in_113_26 + 4.4 transfer_in_114_26 + 5.2 transfer_in_115_26
  + 3.9 transfer_in_116_26 + 8 transfer_in_117_26 + 4.5 transfer_in_118_26
- + 5.7 transfer_in_119_26 + 4.5 transfer_in_11_26 + 4.3 transfer_in_120_26
+ + 5.6 transfer_in_119_26 + 4.5 transfer_in_11_26 + 4.3 transfer_in_120_26
  + 4.3 transfer_in_121_26 + 5 transfer_in_122_26 + 4.4 transfer_in_123_26
  + 4.5 transfer_in_124_26 + 4.7 transfer_in_125_26 + 4.5 transfer_in_126_26
  + 4.5 transfer_in_127_26 + 4.8 transfer_in_128_26 + 5 transfer_in_129_26
  + 7.7 transfer_in_12_26 + 5 transfer_in_130_26 + 5.1 transfer_in_131_26
- + 5.9 transfer_in_132_26 + 4.9 transfer_in_133_26 + 6.5 transfer_in_134_26
+ + 5.8 transfer_in_132_26 + 4.9 transfer_in_133_26 + 6.5 transfer_in_134_26
  + 5.5 transfer_in_135_26 + 4 transfer_in_136_26 + 4.5 transfer_in_137_26
  + 4.9 transfer_in_138_26 + 3.9 transfer_in_139_26 + 5.2 transfer_in_13_26
  + 6.1 transfer_in_140_26 + 3.9 transfer_in_141_26 + 4.8 transfer_in_142_26
@@ -28859,7 +28964,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 4.8 transfer_in_15_26 + 4 transfer_in_160_26 + 4.7 transfer_in_161_26
  + 4.4 transfer_in_162_26 + 4.8 transfer_in_163_26 + 4.5 transfer_in_164_26
  + 5 transfer_in_165_26 + 3.9 transfer_in_166_26 + 3.9 transfer_in_167_26
- + 4.8 transfer_in_168_26 + 3.9 transfer_in_169_26 + 4.9 transfer_in_16_26
+ + 4.7 transfer_in_168_26 + 3.9 transfer_in_169_26 + 4.9 transfer_in_16_26
  + 4.8 transfer_in_170_26 + 4 transfer_in_171_26 + 4.3 transfer_in_172_26
  + 4.4 transfer_in_173_26 + 4.9 transfer_in_174_26 + 4 transfer_in_175_26
  + 4.3 transfer_in_176_26 + 5.3 transfer_in_177_26 + 4 transfer_in_178_26
@@ -28926,18 +29031,18 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 4.3 transfer_in_340_26 + 4.9 transfer_in_341_26 + 5 transfer_in_342_26
  + 7 transfer_in_343_26 + 6.5 transfer_in_344_26 + 4.4 transfer_in_345_26
  + 5.8 transfer_in_346_26 + 3.9 transfer_in_347_26 + 4.5 transfer_in_348_26
- + 10.6 transfer_in_349_26 + 5.7 transfer_in_34_26 + 5.5 transfer_in_350_26
+ + 10.7 transfer_in_349_26 + 5.7 transfer_in_34_26 + 5.5 transfer_in_350_26
  + 4.4 transfer_in_351_26 + 5.5 transfer_in_352_26 + 8 transfer_in_353_26
- + 7.2 transfer_in_354_26 + 13.9 transfer_in_355_26 + 4.7 transfer_in_356_26
+ + 7.2 transfer_in_354_26 + 14 transfer_in_355_26 + 4.7 transfer_in_356_26
  + 4.9 transfer_in_357_26 + 4.3 transfer_in_358_26 + 7.5 transfer_in_359_26
  + 5.7 transfer_in_35_26 + 4.4 transfer_in_360_26 + 3.8 transfer_in_361_26
  + 5.8 transfer_in_362_26 + 4.4 transfer_in_363_26 + 4.7 transfer_in_364_26
  + 5.6 transfer_in_365_26 + 3.8 transfer_in_366_26 + 3.9 transfer_in_367_26
- + 5.3 transfer_in_368_26 + 5.4 transfer_in_369_26 + 4.7 transfer_in_36_26
+ + 5.3 transfer_in_368_26 + 5.5 transfer_in_369_26 + 4.7 transfer_in_36_26
  + 4.5 transfer_in_370_26 + 4.4 transfer_in_371_26 + 6.8 transfer_in_372_26
  + 8.2 transfer_in_373_26 + 4 transfer_in_374_26 + 4 transfer_in_375_26
  + 5.3 transfer_in_376_26 + 5.1 transfer_in_377_26 + 5.1 transfer_in_378_26
- + 5.8 transfer_in_379_26 + 3.9 transfer_in_37_26 + 4 transfer_in_380_26
+ + 5.8 transfer_in_379_26 + 3.8 transfer_in_37_26 + 4 transfer_in_380_26
  + 5 transfer_in_381_26 + 4.8 transfer_in_382_26 + 4.3 transfer_in_383_26
  + 4 transfer_in_384_26 + 4.4 transfer_in_385_26 + 4.5 transfer_in_386_26
  + 4.2 transfer_in_387_26 + 4.4 transfer_in_388_26 + 4.3 transfer_in_389_26
@@ -28985,12 +29090,12 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 5.4 transfer_in_4_26 + 12.5 transfer_in_500_26 + 7.1 transfer_in_501_26
  + 4.7 transfer_in_502_26 + 4.8 transfer_in_503_26 + 7.8 transfer_in_504_26
  + 4.4 transfer_in_505_26 + 5.9 transfer_in_506_26 + 4.7 transfer_in_507_26
- + 4.4 transfer_in_508_26 + 7 transfer_in_509_26 + 5.6 transfer_in_50_26
+ + 4.4 transfer_in_508_26 + 7 transfer_in_509_26 + 5.5 transfer_in_50_26
  + 4 transfer_in_510_26 + 4.9 transfer_in_511_26 + 4.4 transfer_in_512_26
  + 4.4 transfer_in_513_26 + 4.4 transfer_in_514_26 + 4.5 transfer_in_515_26
  + 9.7 transfer_in_516_26 + 4 transfer_in_517_26 + 4 transfer_in_518_26
  + 4.8 transfer_in_519_26 + 4.1 transfer_in_51_26 + 5.3 transfer_in_520_26
- + 3.9 transfer_in_521_26 + 4.5 transfer_in_522_26 + 5.7 transfer_in_523_26
+ + 3.9 transfer_in_521_26 + 4.4 transfer_in_522_26 + 5.7 transfer_in_523_26
  + 4.2 transfer_in_524_26 + 5.6 transfer_in_525_26 + 8.1 transfer_in_526_26
  + 5.2 transfer_in_527_26 + 4.7 transfer_in_528_26 + 4.3 transfer_in_529_26
  + 4.4 transfer_in_52_26 + 4.2 transfer_in_530_26 + 5 transfer_in_531_26
@@ -29022,7 +29127,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 5 transfer_in_5_26 + 4.7 transfer_in_600_26 + 5.2 transfer_in_601_26
  + 4 transfer_in_602_26 + 6.2 transfer_in_603_26 + 4.5 transfer_in_604_26
  + 4.8 transfer_in_605_26 + 4.3 transfer_in_606_26 + 4.4 transfer_in_607_26
- + 4.9 transfer_in_608_26 + 5.1 transfer_in_609_26 + 8.9 transfer_in_60_26
+ + 4.9 transfer_in_608_26 + 5.1 transfer_in_609_26 + 8.8 transfer_in_60_26
  + 4.4 transfer_in_610_26 + 4.9 transfer_in_611_26 + 4.4 transfer_in_613_26
  + 4.5 transfer_in_614_26 + 4.8 transfer_in_615_26 + 4.8 transfer_in_616_26
  + 6.8 transfer_in_617_26 + 4.5 transfer_in_618_26 + 4 transfer_in_619_26
@@ -29088,7 +29193,10 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 4.6 transfer_in_77_26 + 4.5 transfer_in_780_26 + 4.5 transfer_in_781_26
  + 4.5 transfer_in_782_26 + 4.5 transfer_in_783_26 + 4 transfer_in_784_26
  + 4.5 transfer_in_785_26 + 4.5 transfer_in_786_26 + 4.5 transfer_in_787_26
- + 4 transfer_in_788_26 + 4.7 transfer_in_78_26 + 4.5 transfer_in_79_26
+ + 4 transfer_in_788_26 + 4 transfer_in_789_26 + 4.7 transfer_in_78_26
+ + 4.5 transfer_in_790_26 + 4.5 transfer_in_791_26 + 4.5 transfer_in_792_26
+ + 4 transfer_in_793_26 + 4.5 transfer_in_794_26 + 4.5 transfer_in_795_26
+ + 4.5 transfer_in_796_26 + 4 transfer_in_797_26 + 4.5 transfer_in_79_26
  + 4.3 transfer_in_7_26 + 4 transfer_in_80_26 + 4.8 transfer_in_81_26
  + 4.5 transfer_in_82_26 + 4.5 transfer_in_83_26 + 4.4 transfer_in_84_26
  + 7.1 transfer_in_85_26 + 5.4 transfer_in_86_26 + 4.7 transfer_in_87_26
@@ -29100,15 +29208,15 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  - 4.5 transfer_out_101_26 - 3.9 transfer_out_102_26 - 4.3 transfer_out_103_26
  - 4.4 transfer_out_104_26 - 5.3 transfer_out_105_26 - 5.4 transfer_out_106_26
  - 4.7 transfer_out_107_26 - 6.8 transfer_out_108_26 - 4.8 transfer_out_109_26
- - 4.3 transfer_out_10_26 - 5.4 transfer_out_110_26 - 4.9 transfer_out_111_26
+ - 4.3 transfer_out_10_26 - 5.3 transfer_out_110_26 - 4.9 transfer_out_111_26
  - 4.6 transfer_out_112_26 - 4.9 transfer_out_113_26 - 4.4 transfer_out_114_26
  - 5.2 transfer_out_115_26 - 3.9 transfer_out_116_26 - 8 transfer_out_117_26
- - 4.5 transfer_out_118_26 - 5.7 transfer_out_119_26 - 4.5 transfer_out_11_26
+ - 4.5 transfer_out_118_26 - 5.6 transfer_out_119_26 - 4.5 transfer_out_11_26
  - 4.3 transfer_out_120_26 - 4.3 transfer_out_121_26 - 5 transfer_out_122_26
  - 4.4 transfer_out_123_26 - 4.5 transfer_out_124_26 - 4.7 transfer_out_125_26
  - 4.5 transfer_out_126_26 - 4.5 transfer_out_127_26 - 4.8 transfer_out_128_26
  - 5 transfer_out_129_26 - 7.7 transfer_out_12_26 - 5 transfer_out_130_26
- - 5.1 transfer_out_131_26 - 5.9 transfer_out_132_26 - 4.9 transfer_out_133_26
+ - 5.1 transfer_out_131_26 - 5.8 transfer_out_132_26 - 4.9 transfer_out_133_26
  - 6.5 transfer_out_134_26 - 5.5 transfer_out_135_26 - 4 transfer_out_136_26
  - 4.5 transfer_out_137_26 - 4.9 transfer_out_138_26 - 3.9 transfer_out_139_26
  - 5.2 transfer_out_13_26 - 6.1 transfer_out_140_26 - 3.9 transfer_out_141_26
@@ -29121,7 +29229,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  - 5.2 transfer_out_159_26 - 4.8 transfer_out_15_26 - 4 transfer_out_160_26
  - 4.7 transfer_out_161_26 - 4.4 transfer_out_162_26 - 4.8 transfer_out_163_26
  - 4.5 transfer_out_164_26 - 5 transfer_out_165_26 - 3.9 transfer_out_166_26
- - 3.9 transfer_out_167_26 - 4.8 transfer_out_168_26 - 3.9 transfer_out_169_26
+ - 3.9 transfer_out_167_26 - 4.7 transfer_out_168_26 - 3.9 transfer_out_169_26
  - 4.9 transfer_out_16_26 - 4.8 transfer_out_170_26 - 4 transfer_out_171_26
  - 4.3 transfer_out_172_26 - 4.4 transfer_out_173_26 - 4.9 transfer_out_174_26
  - 4 transfer_out_175_26 - 4.3 transfer_out_176_26 - 5.3 transfer_out_177_26
@@ -29189,177 +29297,180 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  - 4.9 transfer_out_341_26 - 5 transfer_out_342_26 - 7 transfer_out_343_26
  - 6.5 transfer_out_344_26 - 4.4 transfer_out_345_26 - 5.8 transfer_out_346_26
  - 3.9 transfer_out_347_26 - 4.5 transfer_out_348_26
- - 10.6 transfer_out_349_26 - 5.7 transfer_out_34_26 - 5.5 transfer_out_350_26
+ - 10.7 transfer_out_349_26 - 5.7 transfer_out_34_26 - 5.5 transfer_out_350_26
  - 4.4 transfer_out_351_26 - 5.5 transfer_out_352_26 - 8 transfer_out_353_26
- - 7.2 transfer_out_354_26 - 13.9 transfer_out_355_26
- - 4.7 transfer_out_356_26 - 4.9 transfer_out_357_26 - 4.3 transfer_out_358_26
- - 7.5 transfer_out_359_26 - 5.7 transfer_out_35_26 - 4.4 transfer_out_360_26
- - 3.8 transfer_out_361_26 - 5.8 transfer_out_362_26 - 4.4 transfer_out_363_26
- - 4.7 transfer_out_364_26 - 5.6 transfer_out_365_26 - 3.8 transfer_out_366_26
- - 3.9 transfer_out_367_26 - 5.3 transfer_out_368_26 - 5.4 transfer_out_369_26
- - 4.7 transfer_out_36_26 - 4.5 transfer_out_370_26 - 4.4 transfer_out_371_26
- - 6.8 transfer_out_372_26 - 8.2 transfer_out_373_26 - 4 transfer_out_374_26
- - 4 transfer_out_375_26 - 5.3 transfer_out_376_26 - 5.1 transfer_out_377_26
- - 5.1 transfer_out_378_26 - 5.8 transfer_out_379_26 - 3.9 transfer_out_37_26
- - 4 transfer_out_380_26 - 5 transfer_out_381_26 - 4.8 transfer_out_382_26
- - 4.3 transfer_out_383_26 - 4 transfer_out_384_26 - 4.4 transfer_out_385_26
- - 4.5 transfer_out_386_26 - 4.2 transfer_out_387_26 - 4.4 transfer_out_388_26
- - 4.3 transfer_out_389_26 - 5.8 transfer_out_38_26 - 6.4 transfer_out_390_26
- - 4.7 transfer_out_391_26 - 4.6 transfer_out_392_26 - 4 transfer_out_393_26
- - 4.2 transfer_out_394_26 - 4.9 transfer_out_395_26 - 8.4 transfer_out_396_26
- - 6.7 transfer_out_397_26 - 5.2 transfer_out_398_26 - 4.4 transfer_out_399_26
- - 4.9 transfer_out_39_26 - 4.4 transfer_out_3_26 - 4.7 transfer_out_400_26
- - 4.4 transfer_out_401_26 - 6.2 transfer_out_402_26 - 4.2 transfer_out_403_26
- - 4 transfer_out_404_26 - 4.5 transfer_out_405_26 - 5.8 transfer_out_406_26
- - 4.4 transfer_out_407_26 - 4 transfer_out_408_26 - 4.2 transfer_out_409_26
- - 4.9 transfer_out_40_26 - 4.9 transfer_out_410_26 - 3.9 transfer_out_411_26
- - 6.1 transfer_out_412_26 - 4.4 transfer_out_413_26 - 4.4 transfer_out_414_26
- - 7.6 transfer_out_415_26 - 5.8 transfer_out_416_26 - 4.4 transfer_out_417_26
- - 4.5 transfer_out_418_26 - 4.1 transfer_out_419_26 - 4.4 transfer_out_41_26
- - 4 transfer_out_420_26 - 4.8 transfer_out_421_26 - 4 transfer_out_422_26
- - 4.8 transfer_out_423_26 - 5.3 transfer_out_424_26 - 4.3 transfer_out_425_26
- - 6 transfer_out_426_26 - 5.2 transfer_out_427_26 - 4.2 transfer_out_428_26
- - 5.2 transfer_out_429_26 - 4.6 transfer_out_42_26 - 6.7 transfer_out_430_26
- - 4 transfer_out_431_26 - 5.3 transfer_out_432_26 - 7.8 transfer_out_433_26
- - 4.5 transfer_out_434_26 - 4.3 transfer_out_435_26 - 4.5 transfer_out_436_26
- - 6.3 transfer_out_437_26 - 3.9 transfer_out_438_26 - 4.5 transfer_out_439_26
- - 5.6 transfer_out_43_26 - 4.5 transfer_out_440_26 - 4.5 transfer_out_441_26
- - 5.3 transfer_out_442_26 - 4.8 transfer_out_443_26 - 4 transfer_out_444_26
- - 4.4 transfer_out_445_26 - 4.9 transfer_out_446_26 - 5.7 transfer_out_447_26
- - 4 transfer_out_448_26 - 4.3 transfer_out_449_26 - 5 transfer_out_44_26
- - 5.8 transfer_out_450_26 - 4.8 transfer_out_451_26 - 4.5 transfer_out_452_26
- - 5 transfer_out_453_26 - 4 transfer_out_454_26 - 4.4 transfer_out_455_26
- - 4.4 transfer_out_456_26 - 4.5 transfer_out_457_26 - 4.9 transfer_out_458_26
- - 4.5 transfer_out_459_26 - 3.9 transfer_out_45_26 - 4 transfer_out_460_26
- - 4.4 transfer_out_461_26 - 4.5 transfer_out_462_26 - 4.8 transfer_out_463_26
- - 4.5 transfer_out_464_26 - 4.4 transfer_out_465_26 - 4.4 transfer_out_466_26
- - 4.3 transfer_out_467_26 - 5 transfer_out_468_26 - 4.3 transfer_out_469_26
- - 4.4 transfer_out_46_26 - 4.8 transfer_out_470_26 - 4.3 transfer_out_471_26
- - 3.9 transfer_out_472_26 - 3.8 transfer_out_473_26 - 3.9 transfer_out_474_26
- - 4.7 transfer_out_475_26 - 4.5 transfer_out_476_26 - 4.9 transfer_out_477_26
- - 4.4 transfer_out_478_26 - 4 transfer_out_479_26 - 5 transfer_out_47_26
- - 4.3 transfer_out_480_26 - 4.9 transfer_out_481_26 - 4.5 transfer_out_482_26
- - 4.8 transfer_out_483_26 - 4.3 transfer_out_484_26 - 5.4 transfer_out_485_26
- - 5.5 transfer_out_486_26 - 3.9 transfer_out_487_26 - 4.8 transfer_out_488_26
- - 4.8 transfer_out_489_26 - 4.6 transfer_out_48_26 - 4.3 transfer_out_490_26
- - 3.9 transfer_out_491_26 - 5.4 transfer_out_492_26 - 5 transfer_out_493_26
- - 4.9 transfer_out_494_26 - 4.3 transfer_out_495_26 - 4.2 transfer_out_496_26
- - 4.3 transfer_out_497_26 - 3.8 transfer_out_498_26 - 5.2 transfer_out_499_26
- - 5.2 transfer_out_49_26 - 5.4 transfer_out_4_26 - 12.5 transfer_out_500_26
- - 7.1 transfer_out_501_26 - 4.7 transfer_out_502_26 - 4.8 transfer_out_503_26
- - 7.8 transfer_out_504_26 - 4.4 transfer_out_505_26 - 5.9 transfer_out_506_26
- - 4.7 transfer_out_507_26 - 4.4 transfer_out_508_26 - 7 transfer_out_509_26
- - 5.6 transfer_out_50_26 - 4 transfer_out_510_26 - 4.9 transfer_out_511_26
- - 4.4 transfer_out_512_26 - 4.4 transfer_out_513_26 - 4.4 transfer_out_514_26
- - 4.5 transfer_out_515_26 - 9.7 transfer_out_516_26 - 4 transfer_out_517_26
- - 4 transfer_out_518_26 - 4.8 transfer_out_519_26 - 4.1 transfer_out_51_26
- - 5.3 transfer_out_520_26 - 3.9 transfer_out_521_26 - 4.5 transfer_out_522_26
- - 5.7 transfer_out_523_26 - 4.2 transfer_out_524_26 - 5.6 transfer_out_525_26
- - 8.1 transfer_out_526_26 - 5.2 transfer_out_527_26 - 4.7 transfer_out_528_26
- - 4.3 transfer_out_529_26 - 4.4 transfer_out_52_26 - 4.2 transfer_out_530_26
- - 5 transfer_out_531_26 - 4.6 transfer_out_532_26 - 4.2 transfer_out_533_26
- - 4.6 transfer_out_534_26 - 5.6 transfer_out_535_26 - 4.4 transfer_out_536_26
- - 4.2 transfer_out_537_26 - 4.2 transfer_out_538_26 - 6 transfer_out_539_26
- - 3.9 transfer_out_53_26 - 5.4 transfer_out_540_26 - 6 transfer_out_541_26
- - 4.9 transfer_out_542_26 - 4.5 transfer_out_543_26 - 4.5 transfer_out_544_26
- - 4.5 transfer_out_545_26 - 3.9 transfer_out_546_26 - 4 transfer_out_547_26
- - 4.4 transfer_out_548_26 - 4.5 transfer_out_549_26 - 4.5 transfer_out_54_26
- - 4.5 transfer_out_550_26 - 4.5 transfer_out_551_26 - 5.2 transfer_out_552_26
- - 4.2 transfer_out_553_26 - 5.4 transfer_out_554_26 - 4.4 transfer_out_555_26
- - 4 transfer_out_556_26 - 5.6 transfer_out_557_26 - 5.2 transfer_out_558_26
- - 4.9 transfer_out_559_26 - 5.9 transfer_out_55_26 - 4.3 transfer_out_560_26
- - 4.3 transfer_out_561_26 - 4.9 transfer_out_562_26 - 4.5 transfer_out_563_26
- - 3.9 transfer_out_564_26 - 4.9 transfer_out_565_26 - 4.8 transfer_out_566_26
- - 5.6 transfer_out_567_26 - 5.3 transfer_out_568_26 - 5 transfer_out_569_26
- - 4.5 transfer_out_56_26 - 4.7 transfer_out_570_26 - 4 transfer_out_571_26
- - 4.5 transfer_out_572_26 - 4.4 transfer_out_573_26 - 4.3 transfer_out_574_26
- - 4.2 transfer_out_575_26 - 4.4 transfer_out_576_26 - 4.3 transfer_out_577_26
- - 4.8 transfer_out_578_26 - 3.9 transfer_out_579_26 - 4 transfer_out_57_26
- - 3.9 transfer_out_580_26 - 3.9 transfer_out_581_26 - 4.7 transfer_out_582_26
- - 5.1 transfer_out_583_26 - 4.7 transfer_out_584_26 - 4.6 transfer_out_585_26
- - 4.7 transfer_out_586_26 - 4.7 transfer_out_587_26 - 4.4 transfer_out_588_26
- - 5 transfer_out_589_26 - 5.6 transfer_out_58_26 - 5.8 transfer_out_590_26
- - 5.3 transfer_out_591_26 - 4.3 transfer_out_592_26 - 5.1 transfer_out_593_26
- - 5.3 transfer_out_594_26 - 4.4 transfer_out_595_26 - 4.5 transfer_out_596_26
- - 4.8 transfer_out_597_26 - 4.3 transfer_out_598_26 - 6.6 transfer_out_599_26
- - 5 transfer_out_59_26 - 5 transfer_out_5_26 - 4.7 transfer_out_600_26
- - 5.2 transfer_out_601_26 - 4 transfer_out_602_26 - 6.2 transfer_out_603_26
- - 4.5 transfer_out_604_26 - 4.8 transfer_out_605_26 - 4.3 transfer_out_606_26
- - 4.4 transfer_out_607_26 - 4.9 transfer_out_608_26 - 5.1 transfer_out_609_26
- - 8.9 transfer_out_60_26 - 4.4 transfer_out_610_26 - 4.9 transfer_out_611_26
- - 4.4 transfer_out_613_26 - 4.5 transfer_out_614_26 - 4.8 transfer_out_615_26
- - 4.8 transfer_out_616_26 - 6.8 transfer_out_617_26 - 4.5 transfer_out_618_26
- - 4 transfer_out_619_26 - 5 transfer_out_61_26 - 4.5 transfer_out_620_26
- - 4.5 transfer_out_621_26 - 4 transfer_out_622_26 - 4.5 transfer_out_623_26
- - 4.5 transfer_out_624_26 - 3.9 transfer_out_625_26 - 4 transfer_out_626_26
- - 4.4 transfer_out_627_26 - 4.4 transfer_out_628_26 - 4.4 transfer_out_629_26
- - 4.9 transfer_out_62_26 - 4.9 transfer_out_630_26 - 4.9 transfer_out_631_26
- - 4.4 transfer_out_632_26 - 4.3 transfer_out_633_26 - 3.9 transfer_out_634_26
- - 4.5 transfer_out_635_26 - 3.9 transfer_out_636_26 - 3.9 transfer_out_637_26
- - 5 transfer_out_638_26 - 4.4 transfer_out_639_26 - 5.2 transfer_out_63_26
- - 4.5 transfer_out_640_26 - 5.4 transfer_out_641_26 - 5 transfer_out_642_26
- - 4.4 transfer_out_643_26 - 4.9 transfer_out_644_26 - 4.8 transfer_out_645_26
- - 4 transfer_out_646_26 - 4 transfer_out_647_26 - 4 transfer_out_648_26
- - 4.5 transfer_out_649_26 - 4.7 transfer_out_64_26 - 4.4 transfer_out_650_26
- - 4.5 transfer_out_651_26 - 4.5 transfer_out_652_26 - 3.9 transfer_out_653_26
- - 4.5 transfer_out_654_26 - 4.4 transfer_out_655_26 - 4.4 transfer_out_656_26
- - 4.5 transfer_out_657_26 - 4.5 transfer_out_658_26 - 3.9 transfer_out_659_26
- - 5 transfer_out_65_26 - 5 transfer_out_660_26 - 5.5 transfer_out_661_26
- - 4.9 transfer_out_662_26 - 5 transfer_out_663_26 - 6 transfer_out_664_26
- - 4.4 transfer_out_665_26 - 5 transfer_out_666_26 - 4.9 transfer_out_667_26
- - 5.4 transfer_out_668_26 - 4 transfer_out_669_26 - 5 transfer_out_66_26
- - 4 transfer_out_670_26 - 4 transfer_out_671_26 - 5.4 transfer_out_672_26
- - 4.9 transfer_out_673_26 - 4 transfer_out_674_26 - 5 transfer_out_675_26
- - 4.5 transfer_out_676_26 - 4.5 transfer_out_677_26 - 6.5 transfer_out_678_26
- - 4.4 transfer_out_679_26 - 4.5 transfer_out_67_26 - 4 transfer_out_680_26
- - 4.5 transfer_out_681_26 - 4 transfer_out_682_26 - 4.5 transfer_out_683_26
- - 4.5 transfer_out_684_26 - 4.5 transfer_out_685_26 - 4 transfer_out_686_26
- - 4.5 transfer_out_687_26 - 4.5 transfer_out_688_26 - 6.8 transfer_out_689_26
- - 4.3 transfer_out_68_26 - 4.5 transfer_out_690_26 - 5.7 transfer_out_691_26
- - 4 transfer_out_692_26 - 4 transfer_out_693_26 - 5 transfer_out_694_26
- - 4 transfer_out_695_26 - 4.5 transfer_out_696_26 - 4.5 transfer_out_697_26
- - 5 transfer_out_698_26 - 4.5 transfer_out_699_26 - 4 transfer_out_69_26
- - 7.1 transfer_out_6_26 - 6.4 transfer_out_700_26 - 4.5 transfer_out_701_26
- - 4 transfer_out_702_26 - 4 transfer_out_703_26 - 4.5 transfer_out_704_26
- - 5.5 transfer_out_705_26 - 5.4 transfer_out_706_26 - 4.5 transfer_out_707_26
- - 5 transfer_out_708_26 - 5 transfer_out_709_26 - 4.5 transfer_out_70_26
- - 4.5 transfer_out_710_26 - 4.5 transfer_out_711_26 - 5 transfer_out_712_26
- - 4.9 transfer_out_713_26 - 5 transfer_out_714_26 - 4.9 transfer_out_715_26
- - 4 transfer_out_716_26 - 4.5 transfer_out_717_26 - 4.5 transfer_out_718_26
- - 4.5 transfer_out_719_26 - 4.3 transfer_out_71_26 - 4.5 transfer_out_720_26
- - 4.5 transfer_out_721_26 - 4.5 transfer_out_722_26 - 4 transfer_out_723_26
- - 4.5 transfer_out_724_26 - 4 transfer_out_725_26 - 4 transfer_out_726_26
- - 5 transfer_out_727_26 - 3.9 transfer_out_728_26 - 4.5 transfer_out_729_26
- - 4.6 transfer_out_72_26 - 4.4 transfer_out_730_26 - 4 transfer_out_731_26
- - 4 transfer_out_732_26 - 4 transfer_out_733_26 - 4.5 transfer_out_734_26
- - 4.5 transfer_out_735_26 - 4 transfer_out_736_26 - 4.5 transfer_out_737_26
- - 4.5 transfer_out_738_26 - 4.5 transfer_out_739_26 - 4.9 transfer_out_73_26
- - 4 transfer_out_740_26 - 4.5 transfer_out_741_26 - 4.5 transfer_out_742_26
- - 4.5 transfer_out_743_26 - 4.5 transfer_out_744_26 - 4.4 transfer_out_745_26
- - 4 transfer_out_746_26 - 4.4 transfer_out_747_26 - 4.5 transfer_out_748_26
- - 4.5 transfer_out_749_26 - 4.3 transfer_out_74_26 - 4.4 transfer_out_750_26
- - 4 transfer_out_751_26 - 4 transfer_out_752_26 - 4 transfer_out_753_26
- - 4.5 transfer_out_754_26 - 4.5 transfer_out_755_26 - 4 transfer_out_756_26
- - 4 transfer_out_757_26 - 4.5 transfer_out_758_26 - 4.4 transfer_out_759_26
- - 4.3 transfer_out_75_26 - 4.5 transfer_out_760_26 - 4 transfer_out_761_26
- - 4.5 transfer_out_762_26 - 4 transfer_out_763_26 - 4.5 transfer_out_764_26
- - 4 transfer_out_765_26 - 4 transfer_out_766_26 - 4.5 transfer_out_767_26
- - 4 transfer_out_768_26 - 4.5 transfer_out_769_26 - 4.6 transfer_out_76_26
- - 4.5 transfer_out_770_26 - 4.5 transfer_out_771_26 - 4.5 transfer_out_772_26
- - 4.5 transfer_out_773_26 - 4 transfer_out_774_26 - 5 transfer_out_775_26
- - 6.5 transfer_out_776_26 - 4.5 transfer_out_777_26 - 4 transfer_out_778_26
- - 4.5 transfer_out_779_26 - 4.6 transfer_out_77_26 - 4.5 transfer_out_780_26
- - 4.5 transfer_out_781_26 - 4.5 transfer_out_782_26 - 4.5 transfer_out_783_26
- - 4 transfer_out_784_26 - 4.5 transfer_out_785_26 - 4.5 transfer_out_786_26
- - 4.5 transfer_out_787_26 - 4 transfer_out_788_26 - 4.7 transfer_out_78_26
- - 4.5 transfer_out_79_26 - 4.3 transfer_out_7_26 - 4 transfer_out_80_26
- - 4.8 transfer_out_81_26 - 4.5 transfer_out_82_26 - 4.5 transfer_out_83_26
- - 4.4 transfer_out_84_26 - 7.1 transfer_out_85_26 - 5.4 transfer_out_86_26
- - 4.7 transfer_out_87_26 - 4 transfer_out_88_26 - 4.4 transfer_out_89_26
- - 8 transfer_out_8_26 - 4.4 transfer_out_90_26 - 3.9 transfer_out_91_26
- - 4.3 transfer_out_92_26 - 4 transfer_out_93_26 - 4.5 transfer_out_94_26
- - 5 transfer_out_95_26 - 4.5 transfer_out_96_26 - 4 transfer_out_97_26
- - 4.8 transfer_out_98_26 - 4.7 transfer_out_99_26 - 5.3 transfer_out_9_26 = 0
+ - 7.2 transfer_out_354_26 - 14 transfer_out_355_26 - 4.7 transfer_out_356_26
+ - 4.9 transfer_out_357_26 - 4.3 transfer_out_358_26 - 7.5 transfer_out_359_26
+ - 5.7 transfer_out_35_26 - 4.4 transfer_out_360_26 - 3.8 transfer_out_361_26
+ - 5.8 transfer_out_362_26 - 4.4 transfer_out_363_26 - 4.7 transfer_out_364_26
+ - 5.6 transfer_out_365_26 - 3.8 transfer_out_366_26 - 3.9 transfer_out_367_26
+ - 5.3 transfer_out_368_26 - 5.5 transfer_out_369_26 - 4.7 transfer_out_36_26
+ - 4.5 transfer_out_370_26 - 4.4 transfer_out_371_26 - 6.8 transfer_out_372_26
+ - 8.2 transfer_out_373_26 - 4 transfer_out_374_26 - 4 transfer_out_375_26
+ - 5.3 transfer_out_376_26 - 5.1 transfer_out_377_26 - 5.1 transfer_out_378_26
+ - 5.8 transfer_out_379_26 - 3.8 transfer_out_37_26 - 4 transfer_out_380_26
+ - 5 transfer_out_381_26 - 4.8 transfer_out_382_26 - 4.3 transfer_out_383_26
+ - 4 transfer_out_384_26 - 4.4 transfer_out_385_26 - 4.5 transfer_out_386_26
+ - 4.2 transfer_out_387_26 - 4.4 transfer_out_388_26 - 4.3 transfer_out_389_26
+ - 5.8 transfer_out_38_26 - 6.4 transfer_out_390_26 - 4.7 transfer_out_391_26
+ - 4.6 transfer_out_392_26 - 4 transfer_out_393_26 - 4.2 transfer_out_394_26
+ - 4.9 transfer_out_395_26 - 8.4 transfer_out_396_26 - 6.7 transfer_out_397_26
+ - 5.2 transfer_out_398_26 - 4.4 transfer_out_399_26 - 4.9 transfer_out_39_26
+ - 4.4 transfer_out_3_26 - 4.7 transfer_out_400_26 - 4.4 transfer_out_401_26
+ - 6.2 transfer_out_402_26 - 4.2 transfer_out_403_26 - 4 transfer_out_404_26
+ - 4.5 transfer_out_405_26 - 5.8 transfer_out_406_26 - 4.4 transfer_out_407_26
+ - 4 transfer_out_408_26 - 4.2 transfer_out_409_26 - 4.9 transfer_out_40_26
+ - 4.9 transfer_out_410_26 - 3.9 transfer_out_411_26 - 6.1 transfer_out_412_26
+ - 4.4 transfer_out_413_26 - 4.4 transfer_out_414_26 - 7.6 transfer_out_415_26
+ - 5.8 transfer_out_416_26 - 4.4 transfer_out_417_26 - 4.5 transfer_out_418_26
+ - 4.1 transfer_out_419_26 - 4.4 transfer_out_41_26 - 4 transfer_out_420_26
+ - 4.8 transfer_out_421_26 - 4 transfer_out_422_26 - 4.8 transfer_out_423_26
+ - 5.3 transfer_out_424_26 - 4.3 transfer_out_425_26 - 6 transfer_out_426_26
+ - 5.2 transfer_out_427_26 - 4.2 transfer_out_428_26 - 5.2 transfer_out_429_26
+ - 4.6 transfer_out_42_26 - 6.7 transfer_out_430_26 - 4 transfer_out_431_26
+ - 5.3 transfer_out_432_26 - 7.8 transfer_out_433_26 - 4.5 transfer_out_434_26
+ - 4.3 transfer_out_435_26 - 4.5 transfer_out_436_26 - 6.3 transfer_out_437_26
+ - 3.9 transfer_out_438_26 - 4.5 transfer_out_439_26 - 5.6 transfer_out_43_26
+ - 4.5 transfer_out_440_26 - 4.5 transfer_out_441_26 - 5.3 transfer_out_442_26
+ - 4.8 transfer_out_443_26 - 4 transfer_out_444_26 - 4.4 transfer_out_445_26
+ - 4.9 transfer_out_446_26 - 5.7 transfer_out_447_26 - 4 transfer_out_448_26
+ - 4.3 transfer_out_449_26 - 5 transfer_out_44_26 - 5.8 transfer_out_450_26
+ - 4.8 transfer_out_451_26 - 4.5 transfer_out_452_26 - 5 transfer_out_453_26
+ - 4 transfer_out_454_26 - 4.4 transfer_out_455_26 - 4.4 transfer_out_456_26
+ - 4.5 transfer_out_457_26 - 4.9 transfer_out_458_26 - 4.5 transfer_out_459_26
+ - 3.9 transfer_out_45_26 - 4 transfer_out_460_26 - 4.4 transfer_out_461_26
+ - 4.5 transfer_out_462_26 - 4.8 transfer_out_463_26 - 4.5 transfer_out_464_26
+ - 4.4 transfer_out_465_26 - 4.4 transfer_out_466_26 - 4.3 transfer_out_467_26
+ - 5 transfer_out_468_26 - 4.3 transfer_out_469_26 - 4.4 transfer_out_46_26
+ - 4.8 transfer_out_470_26 - 4.3 transfer_out_471_26 - 3.9 transfer_out_472_26
+ - 3.8 transfer_out_473_26 - 3.9 transfer_out_474_26 - 4.7 transfer_out_475_26
+ - 4.5 transfer_out_476_26 - 4.9 transfer_out_477_26 - 4.4 transfer_out_478_26
+ - 4 transfer_out_479_26 - 5 transfer_out_47_26 - 4.3 transfer_out_480_26
+ - 4.9 transfer_out_481_26 - 4.5 transfer_out_482_26 - 4.8 transfer_out_483_26
+ - 4.3 transfer_out_484_26 - 5.4 transfer_out_485_26 - 5.5 transfer_out_486_26
+ - 3.9 transfer_out_487_26 - 4.8 transfer_out_488_26 - 4.8 transfer_out_489_26
+ - 4.6 transfer_out_48_26 - 4.3 transfer_out_490_26 - 3.9 transfer_out_491_26
+ - 5.4 transfer_out_492_26 - 5 transfer_out_493_26 - 4.9 transfer_out_494_26
+ - 4.3 transfer_out_495_26 - 4.2 transfer_out_496_26 - 4.3 transfer_out_497_26
+ - 3.8 transfer_out_498_26 - 5.2 transfer_out_499_26 - 5.2 transfer_out_49_26
+ - 5.4 transfer_out_4_26 - 12.5 transfer_out_500_26 - 7.1 transfer_out_501_26
+ - 4.7 transfer_out_502_26 - 4.8 transfer_out_503_26 - 7.8 transfer_out_504_26
+ - 4.4 transfer_out_505_26 - 5.9 transfer_out_506_26 - 4.7 transfer_out_507_26
+ - 4.4 transfer_out_508_26 - 7 transfer_out_509_26 - 5.5 transfer_out_50_26
+ - 4 transfer_out_510_26 - 4.9 transfer_out_511_26 - 4.4 transfer_out_512_26
+ - 4.4 transfer_out_513_26 - 4.4 transfer_out_514_26 - 4.5 transfer_out_515_26
+ - 9.7 transfer_out_516_26 - 4 transfer_out_517_26 - 4 transfer_out_518_26
+ - 4.8 transfer_out_519_26 - 4.1 transfer_out_51_26 - 5.3 transfer_out_520_26
+ - 3.9 transfer_out_521_26 - 4.4 transfer_out_522_26 - 5.7 transfer_out_523_26
+ - 4.2 transfer_out_524_26 - 5.6 transfer_out_525_26 - 8.1 transfer_out_526_26
+ - 5.2 transfer_out_527_26 - 4.7 transfer_out_528_26 - 4.3 transfer_out_529_26
+ - 4.4 transfer_out_52_26 - 4.2 transfer_out_530_26 - 5 transfer_out_531_26
+ - 4.6 transfer_out_532_26 - 4.2 transfer_out_533_26 - 4.6 transfer_out_534_26
+ - 5.6 transfer_out_535_26 - 4.4 transfer_out_536_26 - 4.2 transfer_out_537_26
+ - 4.2 transfer_out_538_26 - 6 transfer_out_539_26 - 3.9 transfer_out_53_26
+ - 5.4 transfer_out_540_26 - 6 transfer_out_541_26 - 4.9 transfer_out_542_26
+ - 4.5 transfer_out_543_26 - 4.5 transfer_out_544_26 - 4.5 transfer_out_545_26
+ - 3.9 transfer_out_546_26 - 4 transfer_out_547_26 - 4.4 transfer_out_548_26
+ - 4.5 transfer_out_549_26 - 4.5 transfer_out_54_26 - 4.5 transfer_out_550_26
+ - 4.5 transfer_out_551_26 - 5.2 transfer_out_552_26 - 4.2 transfer_out_553_26
+ - 5.4 transfer_out_554_26 - 4.4 transfer_out_555_26 - 4 transfer_out_556_26
+ - 5.6 transfer_out_557_26 - 5.2 transfer_out_558_26 - 4.9 transfer_out_559_26
+ - 5.9 transfer_out_55_26 - 4.3 transfer_out_560_26 - 4.3 transfer_out_561_26
+ - 4.9 transfer_out_562_26 - 4.5 transfer_out_563_26 - 3.9 transfer_out_564_26
+ - 4.9 transfer_out_565_26 - 4.8 transfer_out_566_26 - 5.6 transfer_out_567_26
+ - 5.3 transfer_out_568_26 - 5 transfer_out_569_26 - 4.5 transfer_out_56_26
+ - 4.7 transfer_out_570_26 - 4 transfer_out_571_26 - 4.5 transfer_out_572_26
+ - 4.4 transfer_out_573_26 - 4.3 transfer_out_574_26 - 4.2 transfer_out_575_26
+ - 4.4 transfer_out_576_26 - 4.3 transfer_out_577_26 - 4.8 transfer_out_578_26
+ - 3.9 transfer_out_579_26 - 4 transfer_out_57_26 - 3.9 transfer_out_580_26
+ - 3.9 transfer_out_581_26 - 4.7 transfer_out_582_26 - 5.1 transfer_out_583_26
+ - 4.7 transfer_out_584_26 - 4.6 transfer_out_585_26 - 4.7 transfer_out_586_26
+ - 4.7 transfer_out_587_26 - 4.4 transfer_out_588_26 - 5 transfer_out_589_26
+ - 5.6 transfer_out_58_26 - 5.8 transfer_out_590_26 - 5.3 transfer_out_591_26
+ - 4.3 transfer_out_592_26 - 5.1 transfer_out_593_26 - 5.3 transfer_out_594_26
+ - 4.4 transfer_out_595_26 - 4.5 transfer_out_596_26 - 4.8 transfer_out_597_26
+ - 4.3 transfer_out_598_26 - 6.6 transfer_out_599_26 - 5 transfer_out_59_26
+ - 5 transfer_out_5_26 - 4.7 transfer_out_600_26 - 5.2 transfer_out_601_26
+ - 4 transfer_out_602_26 - 6.2 transfer_out_603_26 - 4.5 transfer_out_604_26
+ - 4.8 transfer_out_605_26 - 4.3 transfer_out_606_26 - 4.4 transfer_out_607_26
+ - 4.9 transfer_out_608_26 - 5.1 transfer_out_609_26 - 8.8 transfer_out_60_26
+ - 4.4 transfer_out_610_26 - 4.9 transfer_out_611_26 - 4.4 transfer_out_613_26
+ - 4.5 transfer_out_614_26 - 4.8 transfer_out_615_26 - 4.8 transfer_out_616_26
+ - 6.8 transfer_out_617_26 - 4.5 transfer_out_618_26 - 4 transfer_out_619_26
+ - 5 transfer_out_61_26 - 4.5 transfer_out_620_26 - 4.5 transfer_out_621_26
+ - 4 transfer_out_622_26 - 4.5 transfer_out_623_26 - 4.5 transfer_out_624_26
+ - 3.9 transfer_out_625_26 - 4 transfer_out_626_26 - 4.4 transfer_out_627_26
+ - 4.4 transfer_out_628_26 - 4.4 transfer_out_629_26 - 4.9 transfer_out_62_26
+ - 4.9 transfer_out_630_26 - 4.9 transfer_out_631_26 - 4.4 transfer_out_632_26
+ - 4.3 transfer_out_633_26 - 3.9 transfer_out_634_26 - 4.5 transfer_out_635_26
+ - 3.9 transfer_out_636_26 - 3.9 transfer_out_637_26 - 5 transfer_out_638_26
+ - 4.4 transfer_out_639_26 - 5.2 transfer_out_63_26 - 4.5 transfer_out_640_26
+ - 5.4 transfer_out_641_26 - 5 transfer_out_642_26 - 4.4 transfer_out_643_26
+ - 4.9 transfer_out_644_26 - 4.8 transfer_out_645_26 - 4 transfer_out_646_26
+ - 4 transfer_out_647_26 - 4 transfer_out_648_26 - 4.5 transfer_out_649_26
+ - 4.7 transfer_out_64_26 - 4.4 transfer_out_650_26 - 4.5 transfer_out_651_26
+ - 4.5 transfer_out_652_26 - 3.9 transfer_out_653_26 - 4.5 transfer_out_654_26
+ - 4.4 transfer_out_655_26 - 4.4 transfer_out_656_26 - 4.5 transfer_out_657_26
+ - 4.5 transfer_out_658_26 - 3.9 transfer_out_659_26 - 5 transfer_out_65_26
+ - 5 transfer_out_660_26 - 5.5 transfer_out_661_26 - 4.9 transfer_out_662_26
+ - 5 transfer_out_663_26 - 6 transfer_out_664_26 - 4.4 transfer_out_665_26
+ - 5 transfer_out_666_26 - 4.9 transfer_out_667_26 - 5.4 transfer_out_668_26
+ - 4 transfer_out_669_26 - 5 transfer_out_66_26 - 4 transfer_out_670_26
+ - 4 transfer_out_671_26 - 5.4 transfer_out_672_26 - 4.9 transfer_out_673_26
+ - 4 transfer_out_674_26 - 5 transfer_out_675_26 - 4.5 transfer_out_676_26
+ - 4.5 transfer_out_677_26 - 6.5 transfer_out_678_26 - 4.4 transfer_out_679_26
+ - 4.5 transfer_out_67_26 - 4 transfer_out_680_26 - 4.5 transfer_out_681_26
+ - 4 transfer_out_682_26 - 4.5 transfer_out_683_26 - 4.5 transfer_out_684_26
+ - 4.5 transfer_out_685_26 - 4 transfer_out_686_26 - 4.5 transfer_out_687_26
+ - 4.5 transfer_out_688_26 - 6.8 transfer_out_689_26 - 4.3 transfer_out_68_26
+ - 4.5 transfer_out_690_26 - 5.7 transfer_out_691_26 - 4 transfer_out_692_26
+ - 4 transfer_out_693_26 - 5 transfer_out_694_26 - 4 transfer_out_695_26
+ - 4.5 transfer_out_696_26 - 4.5 transfer_out_697_26 - 5 transfer_out_698_26
+ - 4.5 transfer_out_699_26 - 4 transfer_out_69_26 - 7.1 transfer_out_6_26
+ - 6.4 transfer_out_700_26 - 4.5 transfer_out_701_26 - 4 transfer_out_702_26
+ - 4 transfer_out_703_26 - 4.5 transfer_out_704_26 - 5.5 transfer_out_705_26
+ - 5.4 transfer_out_706_26 - 4.5 transfer_out_707_26 - 5 transfer_out_708_26
+ - 5 transfer_out_709_26 - 4.5 transfer_out_70_26 - 4.5 transfer_out_710_26
+ - 4.5 transfer_out_711_26 - 5 transfer_out_712_26 - 4.9 transfer_out_713_26
+ - 5 transfer_out_714_26 - 4.9 transfer_out_715_26 - 4 transfer_out_716_26
+ - 4.5 transfer_out_717_26 - 4.5 transfer_out_718_26 - 4.5 transfer_out_719_26
+ - 4.3 transfer_out_71_26 - 4.5 transfer_out_720_26 - 4.5 transfer_out_721_26
+ - 4.5 transfer_out_722_26 - 4 transfer_out_723_26 - 4.5 transfer_out_724_26
+ - 4 transfer_out_725_26 - 4 transfer_out_726_26 - 5 transfer_out_727_26
+ - 3.9 transfer_out_728_26 - 4.5 transfer_out_729_26 - 4.6 transfer_out_72_26
+ - 4.4 transfer_out_730_26 - 4 transfer_out_731_26 - 4 transfer_out_732_26
+ - 4 transfer_out_733_26 - 4.5 transfer_out_734_26 - 4.5 transfer_out_735_26
+ - 4 transfer_out_736_26 - 4.5 transfer_out_737_26 - 4.5 transfer_out_738_26
+ - 4.5 transfer_out_739_26 - 4.9 transfer_out_73_26 - 4 transfer_out_740_26
+ - 4.5 transfer_out_741_26 - 4.5 transfer_out_742_26 - 4.5 transfer_out_743_26
+ - 4.5 transfer_out_744_26 - 4.4 transfer_out_745_26 - 4 transfer_out_746_26
+ - 4.4 transfer_out_747_26 - 4.5 transfer_out_748_26 - 4.5 transfer_out_749_26
+ - 4.3 transfer_out_74_26 - 4.4 transfer_out_750_26 - 4 transfer_out_751_26
+ - 4 transfer_out_752_26 - 4 transfer_out_753_26 - 4.5 transfer_out_754_26
+ - 4.5 transfer_out_755_26 - 4 transfer_out_756_26 - 4 transfer_out_757_26
+ - 4.5 transfer_out_758_26 - 4.4 transfer_out_759_26 - 4.3 transfer_out_75_26
+ - 4.5 transfer_out_760_26 - 4 transfer_out_761_26 - 4.5 transfer_out_762_26
+ - 4 transfer_out_763_26 - 4.5 transfer_out_764_26 - 4 transfer_out_765_26
+ - 4 transfer_out_766_26 - 4.5 transfer_out_767_26 - 4 transfer_out_768_26
+ - 4.5 transfer_out_769_26 - 4.6 transfer_out_76_26 - 4.5 transfer_out_770_26
+ - 4.5 transfer_out_771_26 - 4.5 transfer_out_772_26 - 4.5 transfer_out_773_26
+ - 4 transfer_out_774_26 - 5 transfer_out_775_26 - 6.5 transfer_out_776_26
+ - 4.5 transfer_out_777_26 - 4 transfer_out_778_26 - 4.5 transfer_out_779_26
+ - 4.6 transfer_out_77_26 - 4.5 transfer_out_780_26 - 4.5 transfer_out_781_26
+ - 4.5 transfer_out_782_26 - 4.5 transfer_out_783_26 - 4 transfer_out_784_26
+ - 4.5 transfer_out_785_26 - 4.5 transfer_out_786_26 - 4.5 transfer_out_787_26
+ - 4 transfer_out_788_26 - 4 transfer_out_789_26 - 4.7 transfer_out_78_26
+ - 4.5 transfer_out_790_26 - 4.5 transfer_out_791_26 - 4.5 transfer_out_792_26
+ - 4 transfer_out_793_26 - 4.5 transfer_out_794_26 - 4.5 transfer_out_795_26
+ - 4.5 transfer_out_796_26 - 4 transfer_out_797_26 - 4.5 transfer_out_79_26
+ - 4.3 transfer_out_7_26 - 4 transfer_out_80_26 - 4.8 transfer_out_81_26
+ - 4.5 transfer_out_82_26 - 4.5 transfer_out_83_26 - 4.4 transfer_out_84_26
+ - 7.1 transfer_out_85_26 - 5.4 transfer_out_86_26 - 4.7 transfer_out_87_26
+ - 4 transfer_out_88_26 - 4.4 transfer_out_89_26 - 8 transfer_out_8_26
+ - 4.4 transfer_out_90_26 - 3.9 transfer_out_91_26 - 4.3 transfer_out_92_26
+ - 4 transfer_out_93_26 - 4.5 transfer_out_94_26 - 5 transfer_out_95_26
+ - 4.5 transfer_out_96_26 - 4 transfer_out_97_26 - 4.8 transfer_out_98_26
+ - 4.7 transfer_out_99_26 - 5.3 transfer_out_9_26 = 0
 Not_initial_squad_constraint_for_player_1: squad_1_22 = 0
 Not_initial_squad_constraint_for_player_10: squad_10_22 = 0
 Not_initial_squad_constraint_for_player_100: squad_100_22 = 0
@@ -30109,7 +30220,16 @@ Not_initial_squad_constraint_for_player_785: squad_785_22 = 0
 Not_initial_squad_constraint_for_player_786: squad_786_22 = 0
 Not_initial_squad_constraint_for_player_787: squad_787_22 = 0
 Not_initial_squad_constraint_for_player_788: squad_788_22 = 0
+Not_initial_squad_constraint_for_player_789: squad_789_22 = 0
 Not_initial_squad_constraint_for_player_79: squad_79_22 = 0
+Not_initial_squad_constraint_for_player_790: squad_790_22 = 0
+Not_initial_squad_constraint_for_player_791: squad_791_22 = 0
+Not_initial_squad_constraint_for_player_792: squad_792_22 = 0
+Not_initial_squad_constraint_for_player_793: squad_793_22 = 0
+Not_initial_squad_constraint_for_player_794: squad_794_22 = 0
+Not_initial_squad_constraint_for_player_795: squad_795_22 = 0
+Not_initial_squad_constraint_for_player_796: squad_796_22 = 0
+Not_initial_squad_constraint_for_player_797: squad_797_22 = 0
 Not_initial_squad_constraint_for_player_8: squad_8_22 = 0
 Not_initial_squad_constraint_for_player_80: squad_80_22 = 0
 Not_initial_squad_constraint_for_player_81: squad_81_22 = 0
@@ -30387,7 +30507,10 @@ Penalised_transfers_constraint_for_gameweek_23: free_transfers_available_23
  - transfer_in_77_23 - transfer_in_780_23 - transfer_in_781_23
  - transfer_in_782_23 - transfer_in_783_23 - transfer_in_784_23
  - transfer_in_785_23 - transfer_in_786_23 - transfer_in_787_23
- - transfer_in_788_23 - transfer_in_78_23 - transfer_in_79_23
+ - transfer_in_788_23 - transfer_in_789_23 - transfer_in_78_23
+ - transfer_in_790_23 - transfer_in_791_23 - transfer_in_792_23
+ - transfer_in_793_23 - transfer_in_794_23 - transfer_in_795_23
+ - transfer_in_796_23 - transfer_in_797_23 - transfer_in_79_23
  - transfer_in_7_23 - transfer_in_80_23 - transfer_in_81_23
  - transfer_in_82_23 - transfer_in_83_23 - transfer_in_84_23
  - transfer_in_85_23 - transfer_in_86_23 - transfer_in_87_23
@@ -30651,7 +30774,10 @@ Penalised_transfers_constraint_for_gameweek_24: free_transfers_available_24
  - transfer_in_77_24 - transfer_in_780_24 - transfer_in_781_24
  - transfer_in_782_24 - transfer_in_783_24 - transfer_in_784_24
  - transfer_in_785_24 - transfer_in_786_24 - transfer_in_787_24
- - transfer_in_788_24 - transfer_in_78_24 - transfer_in_79_24
+ - transfer_in_788_24 - transfer_in_789_24 - transfer_in_78_24
+ - transfer_in_790_24 - transfer_in_791_24 - transfer_in_792_24
+ - transfer_in_793_24 - transfer_in_794_24 - transfer_in_795_24
+ - transfer_in_796_24 - transfer_in_797_24 - transfer_in_79_24
  - transfer_in_7_24 - transfer_in_80_24 - transfer_in_81_24
  - transfer_in_82_24 - transfer_in_83_24 - transfer_in_84_24
  - transfer_in_85_24 - transfer_in_86_24 - transfer_in_87_24
@@ -30915,7 +31041,10 @@ Penalised_transfers_constraint_for_gameweek_25: free_transfers_available_25
  - transfer_in_77_25 - transfer_in_780_25 - transfer_in_781_25
  - transfer_in_782_25 - transfer_in_783_25 - transfer_in_784_25
  - transfer_in_785_25 - transfer_in_786_25 - transfer_in_787_25
- - transfer_in_788_25 - transfer_in_78_25 - transfer_in_79_25
+ - transfer_in_788_25 - transfer_in_789_25 - transfer_in_78_25
+ - transfer_in_790_25 - transfer_in_791_25 - transfer_in_792_25
+ - transfer_in_793_25 - transfer_in_794_25 - transfer_in_795_25
+ - transfer_in_796_25 - transfer_in_797_25 - transfer_in_79_25
  - transfer_in_7_25 - transfer_in_80_25 - transfer_in_81_25
  - transfer_in_82_25 - transfer_in_83_25 - transfer_in_84_25
  - transfer_in_85_25 - transfer_in_86_25 - transfer_in_87_25
@@ -31179,7 +31308,10 @@ Penalised_transfers_constraint_for_gameweek_26: free_transfers_available_26
  - transfer_in_77_26 - transfer_in_780_26 - transfer_in_781_26
  - transfer_in_782_26 - transfer_in_783_26 - transfer_in_784_26
  - transfer_in_785_26 - transfer_in_786_26 - transfer_in_787_26
- - transfer_in_788_26 - transfer_in_78_26 - transfer_in_79_26
+ - transfer_in_788_26 - transfer_in_789_26 - transfer_in_78_26
+ - transfer_in_790_26 - transfer_in_791_26 - transfer_in_792_26
+ - transfer_in_793_26 - transfer_in_794_26 - transfer_in_795_26
+ - transfer_in_796_26 - transfer_in_797_26 - transfer_in_79_26
  - transfer_in_7_26 - transfer_in_80_26 - transfer_in_81_26
  - transfer_in_82_26 - transfer_in_83_26 - transfer_in_84_26
  - transfer_in_85_26 - transfer_in_86_26 - transfer_in_87_26
@@ -37284,6 +37416,14 @@ Player_788_squad/transfer_constraint_for_gameweek_25: - squad_788_24
  + squad_788_25 - transfer_in_788_25 + transfer_out_788_25 = 0
 Player_788_squad/transfer_constraint_for_gameweek_26: - squad_788_25
  + squad_788_26 - transfer_in_788_26 + transfer_out_788_26 = 0
+Player_789_squad/transfer_constraint_for_gameweek_23: - squad_789_22
+ + squad_789_23 - transfer_in_789_23 + transfer_out_789_23 = 0
+Player_789_squad/transfer_constraint_for_gameweek_24: - squad_789_23
+ + squad_789_24 - transfer_in_789_24 + transfer_out_789_24 = 0
+Player_789_squad/transfer_constraint_for_gameweek_25: - squad_789_24
+ + squad_789_25 - transfer_in_789_25 + transfer_out_789_25 = 0
+Player_789_squad/transfer_constraint_for_gameweek_26: - squad_789_25
+ + squad_789_26 - transfer_in_789_26 + transfer_out_789_26 = 0
 Player_78_squad/transfer_constraint_for_gameweek_23: - squad_78_22
  + squad_78_23 - transfer_in_78_23 + transfer_out_78_23 = 0
 Player_78_squad/transfer_constraint_for_gameweek_24: - squad_78_23
@@ -37292,6 +37432,70 @@ Player_78_squad/transfer_constraint_for_gameweek_25: - squad_78_24
  + squad_78_25 - transfer_in_78_25 + transfer_out_78_25 = 0
 Player_78_squad/transfer_constraint_for_gameweek_26: - squad_78_25
  + squad_78_26 - transfer_in_78_26 + transfer_out_78_26 = 0
+Player_790_squad/transfer_constraint_for_gameweek_23: - squad_790_22
+ + squad_790_23 - transfer_in_790_23 + transfer_out_790_23 = 0
+Player_790_squad/transfer_constraint_for_gameweek_24: - squad_790_23
+ + squad_790_24 - transfer_in_790_24 + transfer_out_790_24 = 0
+Player_790_squad/transfer_constraint_for_gameweek_25: - squad_790_24
+ + squad_790_25 - transfer_in_790_25 + transfer_out_790_25 = 0
+Player_790_squad/transfer_constraint_for_gameweek_26: - squad_790_25
+ + squad_790_26 - transfer_in_790_26 + transfer_out_790_26 = 0
+Player_791_squad/transfer_constraint_for_gameweek_23: - squad_791_22
+ + squad_791_23 - transfer_in_791_23 + transfer_out_791_23 = 0
+Player_791_squad/transfer_constraint_for_gameweek_24: - squad_791_23
+ + squad_791_24 - transfer_in_791_24 + transfer_out_791_24 = 0
+Player_791_squad/transfer_constraint_for_gameweek_25: - squad_791_24
+ + squad_791_25 - transfer_in_791_25 + transfer_out_791_25 = 0
+Player_791_squad/transfer_constraint_for_gameweek_26: - squad_791_25
+ + squad_791_26 - transfer_in_791_26 + transfer_out_791_26 = 0
+Player_792_squad/transfer_constraint_for_gameweek_23: - squad_792_22
+ + squad_792_23 - transfer_in_792_23 + transfer_out_792_23 = 0
+Player_792_squad/transfer_constraint_for_gameweek_24: - squad_792_23
+ + squad_792_24 - transfer_in_792_24 + transfer_out_792_24 = 0
+Player_792_squad/transfer_constraint_for_gameweek_25: - squad_792_24
+ + squad_792_25 - transfer_in_792_25 + transfer_out_792_25 = 0
+Player_792_squad/transfer_constraint_for_gameweek_26: - squad_792_25
+ + squad_792_26 - transfer_in_792_26 + transfer_out_792_26 = 0
+Player_793_squad/transfer_constraint_for_gameweek_23: - squad_793_22
+ + squad_793_23 - transfer_in_793_23 + transfer_out_793_23 = 0
+Player_793_squad/transfer_constraint_for_gameweek_24: - squad_793_23
+ + squad_793_24 - transfer_in_793_24 + transfer_out_793_24 = 0
+Player_793_squad/transfer_constraint_for_gameweek_25: - squad_793_24
+ + squad_793_25 - transfer_in_793_25 + transfer_out_793_25 = 0
+Player_793_squad/transfer_constraint_for_gameweek_26: - squad_793_25
+ + squad_793_26 - transfer_in_793_26 + transfer_out_793_26 = 0
+Player_794_squad/transfer_constraint_for_gameweek_23: - squad_794_22
+ + squad_794_23 - transfer_in_794_23 + transfer_out_794_23 = 0
+Player_794_squad/transfer_constraint_for_gameweek_24: - squad_794_23
+ + squad_794_24 - transfer_in_794_24 + transfer_out_794_24 = 0
+Player_794_squad/transfer_constraint_for_gameweek_25: - squad_794_24
+ + squad_794_25 - transfer_in_794_25 + transfer_out_794_25 = 0
+Player_794_squad/transfer_constraint_for_gameweek_26: - squad_794_25
+ + squad_794_26 - transfer_in_794_26 + transfer_out_794_26 = 0
+Player_795_squad/transfer_constraint_for_gameweek_23: - squad_795_22
+ + squad_795_23 - transfer_in_795_23 + transfer_out_795_23 = 0
+Player_795_squad/transfer_constraint_for_gameweek_24: - squad_795_23
+ + squad_795_24 - transfer_in_795_24 + transfer_out_795_24 = 0
+Player_795_squad/transfer_constraint_for_gameweek_25: - squad_795_24
+ + squad_795_25 - transfer_in_795_25 + transfer_out_795_25 = 0
+Player_795_squad/transfer_constraint_for_gameweek_26: - squad_795_25
+ + squad_795_26 - transfer_in_795_26 + transfer_out_795_26 = 0
+Player_796_squad/transfer_constraint_for_gameweek_23: - squad_796_22
+ + squad_796_23 - transfer_in_796_23 + transfer_out_796_23 = 0
+Player_796_squad/transfer_constraint_for_gameweek_24: - squad_796_23
+ + squad_796_24 - transfer_in_796_24 + transfer_out_796_24 = 0
+Player_796_squad/transfer_constraint_for_gameweek_25: - squad_796_24
+ + squad_796_25 - transfer_in_796_25 + transfer_out_796_25 = 0
+Player_796_squad/transfer_constraint_for_gameweek_26: - squad_796_25
+ + squad_796_26 - transfer_in_796_26 + transfer_out_796_26 = 0
+Player_797_squad/transfer_constraint_for_gameweek_23: - squad_797_22
+ + squad_797_23 - transfer_in_797_23 + transfer_out_797_23 = 0
+Player_797_squad/transfer_constraint_for_gameweek_24: - squad_797_23
+ + squad_797_24 - transfer_in_797_24 + transfer_out_797_24 = 0
+Player_797_squad/transfer_constraint_for_gameweek_25: - squad_797_24
+ + squad_797_25 - transfer_in_797_25 + transfer_out_797_25 = 0
+Player_797_squad/transfer_constraint_for_gameweek_26: - squad_797_25
+ + squad_797_26 - transfer_in_797_26 + transfer_out_797_26 = 0
 Player_79_squad/transfer_constraint_for_gameweek_23: - squad_79_22
  + squad_79_23 - transfer_in_79_23 + transfer_out_79_23 = 0
 Player_79_squad/transfer_constraint_for_gameweek_24: - squad_79_23
@@ -37647,7 +37851,7 @@ Probability_of_appearance_for_lineup_player_118_for_gameweek_26: lineup_118_26
 Probability_of_appearance_for_lineup_player_119_for_gameweek_23: lineup_119_23
  <= 0
 Probability_of_appearance_for_lineup_player_119_for_gameweek_24: lineup_119_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_119_for_gameweek_25: lineup_119_25
  <= 1
 Probability_of_appearance_for_lineup_player_119_for_gameweek_26: lineup_119_26
@@ -37715,7 +37919,7 @@ Probability_of_appearance_for_lineup_player_126_for_gameweek_24: lineup_126_24
 Probability_of_appearance_for_lineup_player_126_for_gameweek_25: lineup_126_25
  <= 1
 Probability_of_appearance_for_lineup_player_126_for_gameweek_26: lineup_126_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_127_for_gameweek_23: lineup_127_23
  <= 0
 Probability_of_appearance_for_lineup_player_127_for_gameweek_24: lineup_127_24
@@ -37789,7 +37993,7 @@ Probability_of_appearance_for_lineup_player_134_for_gameweek_25: lineup_134_25
 Probability_of_appearance_for_lineup_player_134_for_gameweek_26: lineup_134_26
  <= 1
 Probability_of_appearance_for_lineup_player_135_for_gameweek_23: lineup_135_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_135_for_gameweek_24: lineup_135_24
  <= 1
 Probability_of_appearance_for_lineup_player_135_for_gameweek_25: lineup_135_25
@@ -37813,13 +38017,13 @@ Probability_of_appearance_for_lineup_player_137_for_gameweek_25: lineup_137_25
 Probability_of_appearance_for_lineup_player_137_for_gameweek_26: lineup_137_26
  <= 0
 Probability_of_appearance_for_lineup_player_138_for_gameweek_23: lineup_138_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_138_for_gameweek_24: lineup_138_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_138_for_gameweek_25: lineup_138_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_138_for_gameweek_26: lineup_138_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_139_for_gameweek_23: lineup_139_23
  <= 1
 Probability_of_appearance_for_lineup_player_139_for_gameweek_24: lineup_139_24
@@ -37853,7 +38057,7 @@ Probability_of_appearance_for_lineup_player_141_for_gameweek_25: lineup_141_25
 Probability_of_appearance_for_lineup_player_141_for_gameweek_26: lineup_141_26
  <= 0
 Probability_of_appearance_for_lineup_player_142_for_gameweek_23: lineup_142_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_142_for_gameweek_24: lineup_142_24
  <= 1
 Probability_of_appearance_for_lineup_player_142_for_gameweek_25: lineup_142_25
@@ -37879,11 +38083,11 @@ Probability_of_appearance_for_lineup_player_144_for_gameweek_26: lineup_144_26
 Probability_of_appearance_for_lineup_player_145_for_gameweek_23: lineup_145_23
  <= 0
 Probability_of_appearance_for_lineup_player_145_for_gameweek_24: lineup_145_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_145_for_gameweek_25: lineup_145_25
  <= 1
 Probability_of_appearance_for_lineup_player_145_for_gameweek_26: lineup_145_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_146_for_gameweek_23: lineup_146_23
  <= 0
 Probability_of_appearance_for_lineup_player_146_for_gameweek_24: lineup_146_24
@@ -37949,13 +38153,13 @@ Probability_of_appearance_for_lineup_player_152_for_gameweek_25: lineup_152_25
 Probability_of_appearance_for_lineup_player_152_for_gameweek_26: lineup_152_26
  <= 0
 Probability_of_appearance_for_lineup_player_153_for_gameweek_23: lineup_153_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_153_for_gameweek_24: lineup_153_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_153_for_gameweek_25: lineup_153_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_153_for_gameweek_26: lineup_153_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_154_for_gameweek_23: lineup_154_23
  <= 1
 Probability_of_appearance_for_lineup_player_154_for_gameweek_24: lineup_154_24
@@ -38013,7 +38217,7 @@ Probability_of_appearance_for_lineup_player_15_for_gameweek_25: lineup_15_25
 Probability_of_appearance_for_lineup_player_15_for_gameweek_26: lineup_15_26
  <= 0
 Probability_of_appearance_for_lineup_player_160_for_gameweek_23: lineup_160_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_160_for_gameweek_24: lineup_160_24
  <= 1
 Probability_of_appearance_for_lineup_player_160_for_gameweek_25: lineup_160_25
@@ -38069,13 +38273,13 @@ Probability_of_appearance_for_lineup_player_166_for_gameweek_25: lineup_166_25
 Probability_of_appearance_for_lineup_player_166_for_gameweek_26: lineup_166_26
  <= 0
 Probability_of_appearance_for_lineup_player_167_for_gameweek_23: lineup_167_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_167_for_gameweek_24: lineup_167_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_167_for_gameweek_25: lineup_167_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_167_for_gameweek_26: lineup_167_26
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_168_for_gameweek_23: lineup_168_23
  <= 1
 Probability_of_appearance_for_lineup_player_168_for_gameweek_24: lineup_168_24
@@ -38165,7 +38369,7 @@ Probability_of_appearance_for_lineup_player_177_for_gameweek_25: lineup_177_25
 Probability_of_appearance_for_lineup_player_177_for_gameweek_26: lineup_177_26
  <= 0
 Probability_of_appearance_for_lineup_player_178_for_gameweek_23: lineup_178_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_178_for_gameweek_24: lineup_178_24
  <= 1
 Probability_of_appearance_for_lineup_player_178_for_gameweek_25: lineup_178_25
@@ -38307,15 +38511,15 @@ Probability_of_appearance_for_lineup_player_193_for_gameweek_24: lineup_193_24
 Probability_of_appearance_for_lineup_player_193_for_gameweek_25: lineup_193_25
  <= 1
 Probability_of_appearance_for_lineup_player_193_for_gameweek_26: lineup_193_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_194_for_gameweek_23: lineup_194_23
  <= 0
 Probability_of_appearance_for_lineup_player_194_for_gameweek_24: lineup_194_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_194_for_gameweek_25: lineup_194_25
  <= 1
 Probability_of_appearance_for_lineup_player_194_for_gameweek_26: lineup_194_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_195_for_gameweek_23: lineup_195_23
  <= 1
 Probability_of_appearance_for_lineup_player_195_for_gameweek_24: lineup_195_24
@@ -38323,7 +38527,7 @@ Probability_of_appearance_for_lineup_player_195_for_gameweek_24: lineup_195_24
 Probability_of_appearance_for_lineup_player_195_for_gameweek_25: lineup_195_25
  <= 1
 Probability_of_appearance_for_lineup_player_195_for_gameweek_26: lineup_195_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_196_for_gameweek_23: lineup_196_23
  <= 1
 Probability_of_appearance_for_lineup_player_196_for_gameweek_24: lineup_196_24
@@ -38331,15 +38535,15 @@ Probability_of_appearance_for_lineup_player_196_for_gameweek_24: lineup_196_24
 Probability_of_appearance_for_lineup_player_196_for_gameweek_25: lineup_196_25
  <= 1
 Probability_of_appearance_for_lineup_player_196_for_gameweek_26: lineup_196_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_197_for_gameweek_23: lineup_197_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_197_for_gameweek_24: lineup_197_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_197_for_gameweek_25: lineup_197_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_197_for_gameweek_26: lineup_197_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_198_for_gameweek_23: lineup_198_23
  <= 0
 Probability_of_appearance_for_lineup_player_198_for_gameweek_24: lineup_198_24
@@ -38355,7 +38559,7 @@ Probability_of_appearance_for_lineup_player_199_for_gameweek_24: lineup_199_24
 Probability_of_appearance_for_lineup_player_199_for_gameweek_25: lineup_199_25
  <= 1
 Probability_of_appearance_for_lineup_player_199_for_gameweek_26: lineup_199_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_19_for_gameweek_23: lineup_19_23
  <= 1
 Probability_of_appearance_for_lineup_player_19_for_gameweek_24: lineup_19_24
@@ -38373,13 +38577,13 @@ Probability_of_appearance_for_lineup_player_1_for_gameweek_25: lineup_1_25
 Probability_of_appearance_for_lineup_player_1_for_gameweek_26: lineup_1_26
  <= 0
 Probability_of_appearance_for_lineup_player_200_for_gameweek_23: lineup_200_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_200_for_gameweek_24: lineup_200_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_200_for_gameweek_25: lineup_200_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_200_for_gameweek_26: lineup_200_26
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_201_for_gameweek_23: lineup_201_23
  <= 0
 Probability_of_appearance_for_lineup_player_201_for_gameweek_24: lineup_201_24
@@ -38395,7 +38599,7 @@ Probability_of_appearance_for_lineup_player_202_for_gameweek_24: lineup_202_24
 Probability_of_appearance_for_lineup_player_202_for_gameweek_25: lineup_202_25
  <= 1
 Probability_of_appearance_for_lineup_player_202_for_gameweek_26: lineup_202_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_203_for_gameweek_23: lineup_203_23
  <= 1
 Probability_of_appearance_for_lineup_player_203_for_gameweek_24: lineup_203_24
@@ -38403,15 +38607,15 @@ Probability_of_appearance_for_lineup_player_203_for_gameweek_24: lineup_203_24
 Probability_of_appearance_for_lineup_player_203_for_gameweek_25: lineup_203_25
  <= 1
 Probability_of_appearance_for_lineup_player_203_for_gameweek_26: lineup_203_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_204_for_gameweek_23: lineup_204_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_204_for_gameweek_24: lineup_204_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_204_for_gameweek_25: lineup_204_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_204_for_gameweek_26: lineup_204_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_205_for_gameweek_23: lineup_205_23
  <= 1
 Probability_of_appearance_for_lineup_player_205_for_gameweek_24: lineup_205_24
@@ -38437,11 +38641,11 @@ Probability_of_appearance_for_lineup_player_207_for_gameweek_25: lineup_207_25
 Probability_of_appearance_for_lineup_player_207_for_gameweek_26: lineup_207_26
  <= 0
 Probability_of_appearance_for_lineup_player_208_for_gameweek_23: lineup_208_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_208_for_gameweek_24: lineup_208_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_208_for_gameweek_25: lineup_208_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_208_for_gameweek_26: lineup_208_26
  <= 0
 Probability_of_appearance_for_lineup_player_209_for_gameweek_23: lineup_209_23
@@ -38449,9 +38653,9 @@ Probability_of_appearance_for_lineup_player_209_for_gameweek_23: lineup_209_23
 Probability_of_appearance_for_lineup_player_209_for_gameweek_24: lineup_209_24
  <= 0
 Probability_of_appearance_for_lineup_player_209_for_gameweek_25: lineup_209_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_209_for_gameweek_26: lineup_209_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_20_for_gameweek_23: lineup_20_23
  <= 1
 Probability_of_appearance_for_lineup_player_20_for_gameweek_24: lineup_20_24
@@ -38461,27 +38665,27 @@ Probability_of_appearance_for_lineup_player_20_for_gameweek_25: lineup_20_25
 Probability_of_appearance_for_lineup_player_20_for_gameweek_26: lineup_20_26
  <= 1
 Probability_of_appearance_for_lineup_player_210_for_gameweek_23: lineup_210_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_210_for_gameweek_24: lineup_210_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_210_for_gameweek_25: lineup_210_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_210_for_gameweek_26: lineup_210_26
  <= 0
 Probability_of_appearance_for_lineup_player_211_for_gameweek_23: lineup_211_23
  <= 0
 Probability_of_appearance_for_lineup_player_211_for_gameweek_24: lineup_211_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_211_for_gameweek_25: lineup_211_25
  <= 1
 Probability_of_appearance_for_lineup_player_211_for_gameweek_26: lineup_211_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_212_for_gameweek_23: lineup_212_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_212_for_gameweek_24: lineup_212_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_212_for_gameweek_25: lineup_212_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_212_for_gameweek_26: lineup_212_26
  <= 0
 Probability_of_appearance_for_lineup_player_213_for_gameweek_23: lineup_213_23
@@ -38515,7 +38719,7 @@ Probability_of_appearance_for_lineup_player_216_for_gameweek_24: lineup_216_24
 Probability_of_appearance_for_lineup_player_216_for_gameweek_25: lineup_216_25
  <= 1
 Probability_of_appearance_for_lineup_player_216_for_gameweek_26: lineup_216_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_217_for_gameweek_23: lineup_217_23
  <= 1
 Probability_of_appearance_for_lineup_player_217_for_gameweek_24: lineup_217_24
@@ -38523,7 +38727,7 @@ Probability_of_appearance_for_lineup_player_217_for_gameweek_24: lineup_217_24
 Probability_of_appearance_for_lineup_player_217_for_gameweek_25: lineup_217_25
  <= 1
 Probability_of_appearance_for_lineup_player_217_for_gameweek_26: lineup_217_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_218_for_gameweek_23: lineup_218_23
  <= 0
 Probability_of_appearance_for_lineup_player_218_for_gameweek_24: lineup_218_24
@@ -38547,7 +38751,7 @@ Probability_of_appearance_for_lineup_player_21_for_gameweek_24: lineup_21_24
 Probability_of_appearance_for_lineup_player_21_for_gameweek_25: lineup_21_25
  <= 1
 Probability_of_appearance_for_lineup_player_21_for_gameweek_26: lineup_21_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_220_for_gameweek_23: lineup_220_23
  <= 1
 Probability_of_appearance_for_lineup_player_220_for_gameweek_24: lineup_220_24
@@ -38565,13 +38769,13 @@ Probability_of_appearance_for_lineup_player_221_for_gameweek_25: lineup_221_25
 Probability_of_appearance_for_lineup_player_221_for_gameweek_26: lineup_221_26
  <= 1
 Probability_of_appearance_for_lineup_player_222_for_gameweek_23: lineup_222_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_222_for_gameweek_24: lineup_222_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_222_for_gameweek_25: lineup_222_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_222_for_gameweek_26: lineup_222_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_223_for_gameweek_23: lineup_223_23
  <= 0
 Probability_of_appearance_for_lineup_player_223_for_gameweek_24: lineup_223_24
@@ -38597,7 +38801,7 @@ Probability_of_appearance_for_lineup_player_225_for_gameweek_25: lineup_225_25
 Probability_of_appearance_for_lineup_player_225_for_gameweek_26: lineup_225_26
  <= 0
 Probability_of_appearance_for_lineup_player_226_for_gameweek_23: lineup_226_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_226_for_gameweek_24: lineup_226_24
  <= 1
 Probability_of_appearance_for_lineup_player_226_for_gameweek_25: lineup_226_25
@@ -38687,7 +38891,7 @@ Probability_of_appearance_for_lineup_player_235_for_gameweek_26: lineup_235_26
 Probability_of_appearance_for_lineup_player_236_for_gameweek_23: lineup_236_23
  <= 0
 Probability_of_appearance_for_lineup_player_236_for_gameweek_24: lineup_236_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_236_for_gameweek_25: lineup_236_25
  <= 1
 Probability_of_appearance_for_lineup_player_236_for_gameweek_26: lineup_236_26
@@ -38745,9 +38949,9 @@ Probability_of_appearance_for_lineup_player_242_for_gameweek_23: lineup_242_23
 Probability_of_appearance_for_lineup_player_242_for_gameweek_24: lineup_242_24
  <= 0
 Probability_of_appearance_for_lineup_player_242_for_gameweek_25: lineup_242_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_242_for_gameweek_26: lineup_242_26
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_243_for_gameweek_23: lineup_243_23
  <= 0
 Probability_of_appearance_for_lineup_player_243_for_gameweek_24: lineup_243_24
@@ -38781,9 +38985,9 @@ Probability_of_appearance_for_lineup_player_246_for_gameweek_25: lineup_246_25
 Probability_of_appearance_for_lineup_player_246_for_gameweek_26: lineup_246_26
  <= 1
 Probability_of_appearance_for_lineup_player_247_for_gameweek_23: lineup_247_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_247_for_gameweek_24: lineup_247_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_247_for_gameweek_25: lineup_247_25
  <= 1
 Probability_of_appearance_for_lineup_player_247_for_gameweek_26: lineup_247_26
@@ -38797,13 +39001,13 @@ Probability_of_appearance_for_lineup_player_248_for_gameweek_25: lineup_248_25
 Probability_of_appearance_for_lineup_player_248_for_gameweek_26: lineup_248_26
  <= 0
 Probability_of_appearance_for_lineup_player_249_for_gameweek_23: lineup_249_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_249_for_gameweek_24: lineup_249_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_249_for_gameweek_25: lineup_249_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_249_for_gameweek_26: lineup_249_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_24_for_gameweek_23: lineup_24_23
  <= 0
 Probability_of_appearance_for_lineup_player_24_for_gameweek_24: lineup_24_24
@@ -38909,21 +39113,21 @@ Probability_of_appearance_for_lineup_player_260_for_gameweek_25: lineup_260_25
 Probability_of_appearance_for_lineup_player_260_for_gameweek_26: lineup_260_26
  <= 1
 Probability_of_appearance_for_lineup_player_261_for_gameweek_23: lineup_261_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_261_for_gameweek_24: lineup_261_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_261_for_gameweek_25: lineup_261_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_261_for_gameweek_26: lineup_261_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_262_for_gameweek_23: lineup_262_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_262_for_gameweek_24: lineup_262_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_262_for_gameweek_25: lineup_262_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_262_for_gameweek_26: lineup_262_26
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_263_for_gameweek_23: lineup_263_23
  <= 1
 Probability_of_appearance_for_lineup_player_263_for_gameweek_24: lineup_263_24
@@ -39003,7 +39207,7 @@ Probability_of_appearance_for_lineup_player_271_for_gameweek_24: lineup_271_24
 Probability_of_appearance_for_lineup_player_271_for_gameweek_25: lineup_271_25
  <= 0
 Probability_of_appearance_for_lineup_player_271_for_gameweek_26: lineup_271_26
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_272_for_gameweek_23: lineup_272_23
  <= 0
 Probability_of_appearance_for_lineup_player_272_for_gameweek_24: lineup_272_24
@@ -39061,13 +39265,13 @@ Probability_of_appearance_for_lineup_player_278_for_gameweek_25: lineup_278_25
 Probability_of_appearance_for_lineup_player_278_for_gameweek_26: lineup_278_26
  <= 0
 Probability_of_appearance_for_lineup_player_279_for_gameweek_23: lineup_279_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_279_for_gameweek_24: lineup_279_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_279_for_gameweek_25: lineup_279_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_279_for_gameweek_26: lineup_279_26
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_27_for_gameweek_23: lineup_27_23
  <= 1
 Probability_of_appearance_for_lineup_player_27_for_gameweek_24: lineup_27_24
@@ -39141,11 +39345,11 @@ Probability_of_appearance_for_lineup_player_287_for_gameweek_25: lineup_287_25
 Probability_of_appearance_for_lineup_player_287_for_gameweek_26: lineup_287_26
  <= 0
 Probability_of_appearance_for_lineup_player_288_for_gameweek_23: lineup_288_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_288_for_gameweek_24: lineup_288_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_288_for_gameweek_25: lineup_288_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_288_for_gameweek_26: lineup_288_26
  <= 1
 Probability_of_appearance_for_lineup_player_289_for_gameweek_23: lineup_289_23
@@ -39165,13 +39369,13 @@ Probability_of_appearance_for_lineup_player_28_for_gameweek_25: lineup_28_25
 Probability_of_appearance_for_lineup_player_28_for_gameweek_26: lineup_28_26
  <= 1
 Probability_of_appearance_for_lineup_player_290_for_gameweek_23: lineup_290_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_290_for_gameweek_24: lineup_290_24
  <= 1
 Probability_of_appearance_for_lineup_player_290_for_gameweek_25: lineup_290_25
  <= 1
 Probability_of_appearance_for_lineup_player_290_for_gameweek_26: lineup_290_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_291_for_gameweek_23: lineup_291_23
  <= 1
 Probability_of_appearance_for_lineup_player_291_for_gameweek_24: lineup_291_24
@@ -39179,7 +39383,7 @@ Probability_of_appearance_for_lineup_player_291_for_gameweek_24: lineup_291_24
 Probability_of_appearance_for_lineup_player_291_for_gameweek_25: lineup_291_25
  <= 1
 Probability_of_appearance_for_lineup_player_291_for_gameweek_26: lineup_291_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_292_for_gameweek_23: lineup_292_23
  <= 0
 Probability_of_appearance_for_lineup_player_292_for_gameweek_24: lineup_292_24
@@ -39195,7 +39399,7 @@ Probability_of_appearance_for_lineup_player_293_for_gameweek_24: lineup_293_24
 Probability_of_appearance_for_lineup_player_293_for_gameweek_25: lineup_293_25
  <= 1
 Probability_of_appearance_for_lineup_player_293_for_gameweek_26: lineup_293_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_294_for_gameweek_23: lineup_294_23
  <= 1
 Probability_of_appearance_for_lineup_player_294_for_gameweek_24: lineup_294_24
@@ -39203,7 +39407,7 @@ Probability_of_appearance_for_lineup_player_294_for_gameweek_24: lineup_294_24
 Probability_of_appearance_for_lineup_player_294_for_gameweek_25: lineup_294_25
  <= 1
 Probability_of_appearance_for_lineup_player_294_for_gameweek_26: lineup_294_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_295_for_gameweek_23: lineup_295_23
  <= 1
 Probability_of_appearance_for_lineup_player_295_for_gameweek_24: lineup_295_24
@@ -39211,7 +39415,7 @@ Probability_of_appearance_for_lineup_player_295_for_gameweek_24: lineup_295_24
 Probability_of_appearance_for_lineup_player_295_for_gameweek_25: lineup_295_25
  <= 1
 Probability_of_appearance_for_lineup_player_295_for_gameweek_26: lineup_295_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_296_for_gameweek_23: lineup_296_23
  <= 0
 Probability_of_appearance_for_lineup_player_296_for_gameweek_24: lineup_296_24
@@ -39227,7 +39431,7 @@ Probability_of_appearance_for_lineup_player_297_for_gameweek_24: lineup_297_24
 Probability_of_appearance_for_lineup_player_297_for_gameweek_25: lineup_297_25
  <= 1
 Probability_of_appearance_for_lineup_player_297_for_gameweek_26: lineup_297_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_298_for_gameweek_23: lineup_298_23
  <= 1
 Probability_of_appearance_for_lineup_player_298_for_gameweek_24: lineup_298_24
@@ -39235,7 +39439,7 @@ Probability_of_appearance_for_lineup_player_298_for_gameweek_24: lineup_298_24
 Probability_of_appearance_for_lineup_player_298_for_gameweek_25: lineup_298_25
  <= 1
 Probability_of_appearance_for_lineup_player_298_for_gameweek_26: lineup_298_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_299_for_gameweek_23: lineup_299_23
  <= 0
 Probability_of_appearance_for_lineup_player_299_for_gameweek_24: lineup_299_24
@@ -39267,7 +39471,7 @@ Probability_of_appearance_for_lineup_player_300_for_gameweek_24: lineup_300_24
 Probability_of_appearance_for_lineup_player_300_for_gameweek_25: lineup_300_25
  <= 1
 Probability_of_appearance_for_lineup_player_300_for_gameweek_26: lineup_300_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_301_for_gameweek_23: lineup_301_23
  <= 0
 Probability_of_appearance_for_lineup_player_301_for_gameweek_24: lineup_301_24
@@ -39283,7 +39487,7 @@ Probability_of_appearance_for_lineup_player_302_for_gameweek_24: lineup_302_24
 Probability_of_appearance_for_lineup_player_302_for_gameweek_25: lineup_302_25
  <= 1
 Probability_of_appearance_for_lineup_player_302_for_gameweek_26: lineup_302_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_303_for_gameweek_23: lineup_303_23
  <= 1
 Probability_of_appearance_for_lineup_player_303_for_gameweek_24: lineup_303_24
@@ -39291,7 +39495,7 @@ Probability_of_appearance_for_lineup_player_303_for_gameweek_24: lineup_303_24
 Probability_of_appearance_for_lineup_player_303_for_gameweek_25: lineup_303_25
  <= 1
 Probability_of_appearance_for_lineup_player_303_for_gameweek_26: lineup_303_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_304_for_gameweek_23: lineup_304_23
  <= 1
 Probability_of_appearance_for_lineup_player_304_for_gameweek_24: lineup_304_24
@@ -39299,7 +39503,7 @@ Probability_of_appearance_for_lineup_player_304_for_gameweek_24: lineup_304_24
 Probability_of_appearance_for_lineup_player_304_for_gameweek_25: lineup_304_25
  <= 1
 Probability_of_appearance_for_lineup_player_304_for_gameweek_26: lineup_304_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_305_for_gameweek_23: lineup_305_23
  <= 0
 Probability_of_appearance_for_lineup_player_305_for_gameweek_24: lineup_305_24
@@ -39317,13 +39521,13 @@ Probability_of_appearance_for_lineup_player_306_for_gameweek_25: lineup_306_25
 Probability_of_appearance_for_lineup_player_306_for_gameweek_26: lineup_306_26
  <= 0
 Probability_of_appearance_for_lineup_player_307_for_gameweek_23: lineup_307_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_307_for_gameweek_24: lineup_307_24
  <= 1
 Probability_of_appearance_for_lineup_player_307_for_gameweek_25: lineup_307_25
  <= 1
 Probability_of_appearance_for_lineup_player_307_for_gameweek_26: lineup_307_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_308_for_gameweek_23: lineup_308_23
  <= 0
 Probability_of_appearance_for_lineup_player_308_for_gameweek_24: lineup_308_24
@@ -39331,15 +39535,15 @@ Probability_of_appearance_for_lineup_player_308_for_gameweek_24: lineup_308_24
 Probability_of_appearance_for_lineup_player_308_for_gameweek_25: lineup_308_25
  <= 1
 Probability_of_appearance_for_lineup_player_308_for_gameweek_26: lineup_308_26
- <= 1
-Probability_of_appearance_for_lineup_player_309_for_gameweek_23: lineup_309_23
  <= 0
+Probability_of_appearance_for_lineup_player_309_for_gameweek_23: lineup_309_23
+ <= 1
 Probability_of_appearance_for_lineup_player_309_for_gameweek_24: lineup_309_24
  <= 1
 Probability_of_appearance_for_lineup_player_309_for_gameweek_25: lineup_309_25
  <= 1
 Probability_of_appearance_for_lineup_player_309_for_gameweek_26: lineup_309_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_30_for_gameweek_23: lineup_30_23
  <= 0
 Probability_of_appearance_for_lineup_player_30_for_gameweek_24: lineup_30_24
@@ -39363,7 +39567,7 @@ Probability_of_appearance_for_lineup_player_311_for_gameweek_24: lineup_311_24
 Probability_of_appearance_for_lineup_player_311_for_gameweek_25: lineup_311_25
  <= 0
 Probability_of_appearance_for_lineup_player_311_for_gameweek_26: lineup_311_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_312_for_gameweek_23: lineup_312_23
  <= 0
 Probability_of_appearance_for_lineup_player_312_for_gameweek_24: lineup_312_24
@@ -39379,7 +39583,7 @@ Probability_of_appearance_for_lineup_player_313_for_gameweek_24: lineup_313_24
 Probability_of_appearance_for_lineup_player_313_for_gameweek_25: lineup_313_25
  <= 1
 Probability_of_appearance_for_lineup_player_313_for_gameweek_26: lineup_313_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_314_for_gameweek_23: lineup_314_23
  <= 1
 Probability_of_appearance_for_lineup_player_314_for_gameweek_24: lineup_314_24
@@ -39387,7 +39591,7 @@ Probability_of_appearance_for_lineup_player_314_for_gameweek_24: lineup_314_24
 Probability_of_appearance_for_lineup_player_314_for_gameweek_25: lineup_314_25
  <= 1
 Probability_of_appearance_for_lineup_player_314_for_gameweek_26: lineup_314_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_315_for_gameweek_23: lineup_315_23
  <= 0
 Probability_of_appearance_for_lineup_player_315_for_gameweek_24: lineup_315_24
@@ -39403,7 +39607,7 @@ Probability_of_appearance_for_lineup_player_316_for_gameweek_24: lineup_316_24
 Probability_of_appearance_for_lineup_player_316_for_gameweek_25: lineup_316_25
  <= 1
 Probability_of_appearance_for_lineup_player_316_for_gameweek_26: lineup_316_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_317_for_gameweek_23: lineup_317_23
  <= 0
 Probability_of_appearance_for_lineup_player_317_for_gameweek_24: lineup_317_24
@@ -39419,7 +39623,7 @@ Probability_of_appearance_for_lineup_player_318_for_gameweek_24: lineup_318_24
 Probability_of_appearance_for_lineup_player_318_for_gameweek_25: lineup_318_25
  <= 1
 Probability_of_appearance_for_lineup_player_318_for_gameweek_26: lineup_318_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_319_for_gameweek_23: lineup_319_23
  <= 0
 Probability_of_appearance_for_lineup_player_319_for_gameweek_24: lineup_319_24
@@ -39451,7 +39655,7 @@ Probability_of_appearance_for_lineup_player_321_for_gameweek_24: lineup_321_24
 Probability_of_appearance_for_lineup_player_321_for_gameweek_25: lineup_321_25
  <= 1
 Probability_of_appearance_for_lineup_player_321_for_gameweek_26: lineup_321_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_322_for_gameweek_23: lineup_322_23
  <= 0
 Probability_of_appearance_for_lineup_player_322_for_gameweek_24: lineup_322_24
@@ -39491,7 +39695,7 @@ Probability_of_appearance_for_lineup_player_326_for_gameweek_24: lineup_326_24
 Probability_of_appearance_for_lineup_player_326_for_gameweek_25: lineup_326_25
  <= 1
 Probability_of_appearance_for_lineup_player_326_for_gameweek_26: lineup_326_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_327_for_gameweek_23: lineup_327_23
  <= 0
 Probability_of_appearance_for_lineup_player_327_for_gameweek_24: lineup_327_24
@@ -39507,7 +39711,7 @@ Probability_of_appearance_for_lineup_player_328_for_gameweek_24: lineup_328_24
 Probability_of_appearance_for_lineup_player_328_for_gameweek_25: lineup_328_25
  <= 1
 Probability_of_appearance_for_lineup_player_328_for_gameweek_26: lineup_328_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_329_for_gameweek_23: lineup_329_23
  <= 0
 Probability_of_appearance_for_lineup_player_329_for_gameweek_24: lineup_329_24
@@ -39531,7 +39735,7 @@ Probability_of_appearance_for_lineup_player_330_for_gameweek_24: lineup_330_24
 Probability_of_appearance_for_lineup_player_330_for_gameweek_25: lineup_330_25
  <= 1
 Probability_of_appearance_for_lineup_player_330_for_gameweek_26: lineup_330_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_331_for_gameweek_23: lineup_331_23
  <= 0
 Probability_of_appearance_for_lineup_player_331_for_gameweek_24: lineup_331_24
@@ -39625,9 +39829,9 @@ Probability_of_appearance_for_lineup_player_341_for_gameweek_23: lineup_341_23
 Probability_of_appearance_for_lineup_player_341_for_gameweek_24: lineup_341_24
  <= 0
 Probability_of_appearance_for_lineup_player_341_for_gameweek_25: lineup_341_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_341_for_gameweek_26: lineup_341_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_342_for_gameweek_23: lineup_342_23
  <= 1
 Probability_of_appearance_for_lineup_player_342_for_gameweek_24: lineup_342_24
@@ -39701,13 +39905,13 @@ Probability_of_appearance_for_lineup_player_34_for_gameweek_25: lineup_34_25
 Probability_of_appearance_for_lineup_player_34_for_gameweek_26: lineup_34_26
  <= 1
 Probability_of_appearance_for_lineup_player_350_for_gameweek_23: lineup_350_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_350_for_gameweek_24: lineup_350_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_350_for_gameweek_25: lineup_350_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_350_for_gameweek_26: lineup_350_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_351_for_gameweek_23: lineup_351_23
  <= 1
 Probability_of_appearance_for_lineup_player_351_for_gameweek_24: lineup_351_24
@@ -39741,9 +39945,9 @@ Probability_of_appearance_for_lineup_player_354_for_gameweek_25: lineup_354_25
 Probability_of_appearance_for_lineup_player_354_for_gameweek_26: lineup_354_26
  <= 1
 Probability_of_appearance_for_lineup_player_355_for_gameweek_23: lineup_355_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_355_for_gameweek_24: lineup_355_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_355_for_gameweek_25: lineup_355_25
  <= 1
 Probability_of_appearance_for_lineup_player_355_for_gameweek_26: lineup_355_26
@@ -39811,7 +40015,7 @@ Probability_of_appearance_for_lineup_player_362_for_gameweek_24: lineup_362_24
 Probability_of_appearance_for_lineup_player_362_for_gameweek_25: lineup_362_25
  <= 1
 Probability_of_appearance_for_lineup_player_362_for_gameweek_26: lineup_362_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_363_for_gameweek_23: lineup_363_23
  <= 0
 Probability_of_appearance_for_lineup_player_363_for_gameweek_24: lineup_363_24
@@ -39853,13 +40057,13 @@ Probability_of_appearance_for_lineup_player_367_for_gameweek_25: lineup_367_25
 Probability_of_appearance_for_lineup_player_367_for_gameweek_26: lineup_367_26
  <= 0
 Probability_of_appearance_for_lineup_player_368_for_gameweek_23: lineup_368_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_368_for_gameweek_24: lineup_368_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_368_for_gameweek_25: lineup_368_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_368_for_gameweek_26: lineup_368_26
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_369_for_gameweek_23: lineup_369_23
  <= 1
 Probability_of_appearance_for_lineup_player_369_for_gameweek_24: lineup_369_24
@@ -39941,7 +40145,7 @@ Probability_of_appearance_for_lineup_player_377_for_gameweek_25: lineup_377_25
 Probability_of_appearance_for_lineup_player_377_for_gameweek_26: lineup_377_26
  <= 1
 Probability_of_appearance_for_lineup_player_378_for_gameweek_23: lineup_378_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_378_for_gameweek_24: lineup_378_24
  <= 1
 Probability_of_appearance_for_lineup_player_378_for_gameweek_25: lineup_378_25
@@ -40021,7 +40225,7 @@ Probability_of_appearance_for_lineup_player_386_for_gameweek_25: lineup_386_25
 Probability_of_appearance_for_lineup_player_386_for_gameweek_26: lineup_386_26
  <= 1
 Probability_of_appearance_for_lineup_player_387_for_gameweek_23: lineup_387_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_387_for_gameweek_24: lineup_387_24
  <= 1
 Probability_of_appearance_for_lineup_player_387_for_gameweek_25: lineup_387_25
@@ -40057,9 +40261,9 @@ Probability_of_appearance_for_lineup_player_390_for_gameweek_23: lineup_390_23
 Probability_of_appearance_for_lineup_player_390_for_gameweek_24: lineup_390_24
  <= 0
 Probability_of_appearance_for_lineup_player_390_for_gameweek_25: lineup_390_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_390_for_gameweek_26: lineup_390_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_391_for_gameweek_23: lineup_391_23
  <= 1
 Probability_of_appearance_for_lineup_player_391_for_gameweek_24: lineup_391_24
@@ -40077,13 +40281,13 @@ Probability_of_appearance_for_lineup_player_392_for_gameweek_25: lineup_392_25
 Probability_of_appearance_for_lineup_player_392_for_gameweek_26: lineup_392_26
  <= 1
 Probability_of_appearance_for_lineup_player_393_for_gameweek_23: lineup_393_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_393_for_gameweek_24: lineup_393_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_393_for_gameweek_25: lineup_393_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_393_for_gameweek_26: lineup_393_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_394_for_gameweek_23: lineup_394_23
  <= 0
 Probability_of_appearance_for_lineup_player_394_for_gameweek_24: lineup_394_24
@@ -40101,7 +40305,7 @@ Probability_of_appearance_for_lineup_player_395_for_gameweek_25: lineup_395_25
 Probability_of_appearance_for_lineup_player_395_for_gameweek_26: lineup_395_26
  <= 0
 Probability_of_appearance_for_lineup_player_396_for_gameweek_23: lineup_396_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_396_for_gameweek_24: lineup_396_24
  <= 1
 Probability_of_appearance_for_lineup_player_396_for_gameweek_25: lineup_396_25
@@ -40157,11 +40361,11 @@ Probability_of_appearance_for_lineup_player_400_for_gameweek_25: lineup_400_25
 Probability_of_appearance_for_lineup_player_400_for_gameweek_26: lineup_400_26
  <= 0
 Probability_of_appearance_for_lineup_player_401_for_gameweek_23: lineup_401_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_401_for_gameweek_24: lineup_401_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_401_for_gameweek_25: lineup_401_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_401_for_gameweek_26: lineup_401_26
  <= 1
 Probability_of_appearance_for_lineup_player_402_for_gameweek_23: lineup_402_23
@@ -40179,7 +40383,7 @@ Probability_of_appearance_for_lineup_player_403_for_gameweek_24: lineup_403_24
 Probability_of_appearance_for_lineup_player_403_for_gameweek_25: lineup_403_25
  <= 0
 Probability_of_appearance_for_lineup_player_403_for_gameweek_26: lineup_403_26
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_404_for_gameweek_23: lineup_404_23
  <= 0
 Probability_of_appearance_for_lineup_player_404_for_gameweek_24: lineup_404_24
@@ -40277,7 +40481,7 @@ Probability_of_appearance_for_lineup_player_414_for_gameweek_25: lineup_414_25
 Probability_of_appearance_for_lineup_player_414_for_gameweek_26: lineup_414_26
  <= 0
 Probability_of_appearance_for_lineup_player_415_for_gameweek_23: lineup_415_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_415_for_gameweek_24: lineup_415_24
  <= 1
 Probability_of_appearance_for_lineup_player_415_for_gameweek_25: lineup_415_25
@@ -40291,7 +40495,7 @@ Probability_of_appearance_for_lineup_player_416_for_gameweek_24: lineup_416_24
 Probability_of_appearance_for_lineup_player_416_for_gameweek_25: lineup_416_25
  <= 0
 Probability_of_appearance_for_lineup_player_416_for_gameweek_26: lineup_416_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_417_for_gameweek_23: lineup_417_23
  <= 0
 Probability_of_appearance_for_lineup_player_417_for_gameweek_24: lineup_417_24
@@ -40317,13 +40521,13 @@ Probability_of_appearance_for_lineup_player_419_for_gameweek_25: lineup_419_25
 Probability_of_appearance_for_lineup_player_419_for_gameweek_26: lineup_419_26
  <= 0
 Probability_of_appearance_for_lineup_player_41_for_gameweek_23: lineup_41_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_41_for_gameweek_24: lineup_41_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_41_for_gameweek_25: lineup_41_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_41_for_gameweek_26: lineup_41_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_420_for_gameweek_23: lineup_420_23
  <= 0
 Probability_of_appearance_for_lineup_player_420_for_gameweek_24: lineup_420_24
@@ -40349,13 +40553,13 @@ Probability_of_appearance_for_lineup_player_422_for_gameweek_25: lineup_422_25
 Probability_of_appearance_for_lineup_player_422_for_gameweek_26: lineup_422_26
  <= 0
 Probability_of_appearance_for_lineup_player_423_for_gameweek_23: lineup_423_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_423_for_gameweek_24: lineup_423_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_423_for_gameweek_25: lineup_423_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_423_for_gameweek_26: lineup_423_26
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_424_for_gameweek_23: lineup_424_23
  <= 0
 Probability_of_appearance_for_lineup_player_424_for_gameweek_24: lineup_424_24
@@ -40405,9 +40609,9 @@ Probability_of_appearance_for_lineup_player_429_for_gameweek_25: lineup_429_25
 Probability_of_appearance_for_lineup_player_429_for_gameweek_26: lineup_429_26
  <= 0
 Probability_of_appearance_for_lineup_player_42_for_gameweek_23: lineup_42_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_42_for_gameweek_24: lineup_42_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_42_for_gameweek_25: lineup_42_25
  <= 1
 Probability_of_appearance_for_lineup_player_42_for_gameweek_26: lineup_42_26
@@ -40443,7 +40647,7 @@ Probability_of_appearance_for_lineup_player_433_for_gameweek_24: lineup_433_24
 Probability_of_appearance_for_lineup_player_433_for_gameweek_25: lineup_433_25
  <= 0
 Probability_of_appearance_for_lineup_player_433_for_gameweek_26: lineup_433_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_434_for_gameweek_23: lineup_434_23
  <= 0
 Probability_of_appearance_for_lineup_player_434_for_gameweek_24: lineup_434_24
@@ -40469,9 +40673,9 @@ Probability_of_appearance_for_lineup_player_436_for_gameweek_25: lineup_436_25
 Probability_of_appearance_for_lineup_player_436_for_gameweek_26: lineup_436_26
  <= 0
 Probability_of_appearance_for_lineup_player_437_for_gameweek_23: lineup_437_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_437_for_gameweek_24: lineup_437_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_437_for_gameweek_25: lineup_437_25
  <= 1
 Probability_of_appearance_for_lineup_player_437_for_gameweek_26: lineup_437_26
@@ -40557,9 +40761,9 @@ Probability_of_appearance_for_lineup_player_446_for_gameweek_25: lineup_446_25
 Probability_of_appearance_for_lineup_player_446_for_gameweek_26: lineup_446_26
  <= 0
 Probability_of_appearance_for_lineup_player_447_for_gameweek_23: lineup_447_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_447_for_gameweek_24: lineup_447_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_447_for_gameweek_25: lineup_447_25
  <= 1
 Probability_of_appearance_for_lineup_player_447_for_gameweek_26: lineup_447_26
@@ -40581,13 +40785,13 @@ Probability_of_appearance_for_lineup_player_449_for_gameweek_25: lineup_449_25
 Probability_of_appearance_for_lineup_player_449_for_gameweek_26: lineup_449_26
  <= 0
 Probability_of_appearance_for_lineup_player_44_for_gameweek_23: lineup_44_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_44_for_gameweek_24: lineup_44_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_44_for_gameweek_25: lineup_44_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_44_for_gameweek_26: lineup_44_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_450_for_gameweek_23: lineup_450_23
  <= 1
 Probability_of_appearance_for_lineup_player_450_for_gameweek_24: lineup_450_24
@@ -40595,7 +40799,7 @@ Probability_of_appearance_for_lineup_player_450_for_gameweek_24: lineup_450_24
 Probability_of_appearance_for_lineup_player_450_for_gameweek_25: lineup_450_25
  <= 1
 Probability_of_appearance_for_lineup_player_450_for_gameweek_26: lineup_450_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_451_for_gameweek_23: lineup_451_23
  <= 0
 Probability_of_appearance_for_lineup_player_451_for_gameweek_24: lineup_451_24
@@ -40647,7 +40851,7 @@ Probability_of_appearance_for_lineup_player_456_for_gameweek_26: lineup_456_26
 Probability_of_appearance_for_lineup_player_457_for_gameweek_23: lineup_457_23
  <= 0
 Probability_of_appearance_for_lineup_player_457_for_gameweek_24: lineup_457_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_457_for_gameweek_25: lineup_457_25
  <= 1
 Probability_of_appearance_for_lineup_player_457_for_gameweek_26: lineup_457_26
@@ -40871,11 +41075,11 @@ Probability_of_appearance_for_lineup_player_481_for_gameweek_26: lineup_481_26
 Probability_of_appearance_for_lineup_player_482_for_gameweek_23: lineup_482_23
  <= 1
 Probability_of_appearance_for_lineup_player_482_for_gameweek_24: lineup_482_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_482_for_gameweek_25: lineup_482_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_482_for_gameweek_26: lineup_482_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_483_for_gameweek_23: lineup_483_23
  <= 0
 Probability_of_appearance_for_lineup_player_483_for_gameweek_24: lineup_483_24
@@ -40909,13 +41113,13 @@ Probability_of_appearance_for_lineup_player_486_for_gameweek_25: lineup_486_25
 Probability_of_appearance_for_lineup_player_486_for_gameweek_26: lineup_486_26
  <= 0
 Probability_of_appearance_for_lineup_player_487_for_gameweek_23: lineup_487_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_487_for_gameweek_24: lineup_487_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_487_for_gameweek_25: lineup_487_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_487_for_gameweek_26: lineup_487_26
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_488_for_gameweek_23: lineup_488_23
  <= 1
 Probability_of_appearance_for_lineup_player_488_for_gameweek_24: lineup_488_24
@@ -40963,7 +41167,7 @@ Probability_of_appearance_for_lineup_player_492_for_gameweek_24: lineup_492_24
 Probability_of_appearance_for_lineup_player_492_for_gameweek_25: lineup_492_25
  <= 1
 Probability_of_appearance_for_lineup_player_492_for_gameweek_26: lineup_492_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_493_for_gameweek_23: lineup_493_23
  <= 0
 Probability_of_appearance_for_lineup_player_493_for_gameweek_24: lineup_493_24
@@ -40971,23 +41175,23 @@ Probability_of_appearance_for_lineup_player_493_for_gameweek_24: lineup_493_24
 Probability_of_appearance_for_lineup_player_493_for_gameweek_25: lineup_493_25
  <= 1
 Probability_of_appearance_for_lineup_player_493_for_gameweek_26: lineup_493_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_494_for_gameweek_23: lineup_494_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_494_for_gameweek_24: lineup_494_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_494_for_gameweek_25: lineup_494_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_494_for_gameweek_26: lineup_494_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_495_for_gameweek_23: lineup_495_23
  <= 0
 Probability_of_appearance_for_lineup_player_495_for_gameweek_24: lineup_495_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_495_for_gameweek_25: lineup_495_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_495_for_gameweek_26: lineup_495_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_496_for_gameweek_23: lineup_496_23
  <= 0
 Probability_of_appearance_for_lineup_player_496_for_gameweek_24: lineup_496_24
@@ -40997,13 +41201,13 @@ Probability_of_appearance_for_lineup_player_496_for_gameweek_25: lineup_496_25
 Probability_of_appearance_for_lineup_player_496_for_gameweek_26: lineup_496_26
  <= 0
 Probability_of_appearance_for_lineup_player_497_for_gameweek_23: lineup_497_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_497_for_gameweek_24: lineup_497_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_497_for_gameweek_25: lineup_497_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_497_for_gameweek_26: lineup_497_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_498_for_gameweek_23: lineup_498_23
  <= 0
 Probability_of_appearance_for_lineup_player_498_for_gameweek_24: lineup_498_24
@@ -41019,7 +41223,7 @@ Probability_of_appearance_for_lineup_player_499_for_gameweek_24: lineup_499_24
 Probability_of_appearance_for_lineup_player_499_for_gameweek_25: lineup_499_25
  <= 1
 Probability_of_appearance_for_lineup_player_499_for_gameweek_26: lineup_499_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_49_for_gameweek_23: lineup_49_23
  <= 1
 Probability_of_appearance_for_lineup_player_49_for_gameweek_24: lineup_49_24
@@ -41035,7 +41239,7 @@ Probability_of_appearance_for_lineup_player_4_for_gameweek_24: lineup_4_24
 Probability_of_appearance_for_lineup_player_4_for_gameweek_25: lineup_4_25
  <= 0
 Probability_of_appearance_for_lineup_player_4_for_gameweek_26: lineup_4_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_500_for_gameweek_23: lineup_500_23
  <= 0
 Probability_of_appearance_for_lineup_player_500_for_gameweek_24: lineup_500_24
@@ -41051,7 +41255,7 @@ Probability_of_appearance_for_lineup_player_501_for_gameweek_24: lineup_501_24
 Probability_of_appearance_for_lineup_player_501_for_gameweek_25: lineup_501_25
  <= 1
 Probability_of_appearance_for_lineup_player_501_for_gameweek_26: lineup_501_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_502_for_gameweek_23: lineup_502_23
  <= 0
 Probability_of_appearance_for_lineup_player_502_for_gameweek_24: lineup_502_24
@@ -41069,13 +41273,13 @@ Probability_of_appearance_for_lineup_player_503_for_gameweek_25: lineup_503_25
 Probability_of_appearance_for_lineup_player_503_for_gameweek_26: lineup_503_26
  <= 0
 Probability_of_appearance_for_lineup_player_504_for_gameweek_23: lineup_504_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_504_for_gameweek_24: lineup_504_24
  <= 1
 Probability_of_appearance_for_lineup_player_504_for_gameweek_25: lineup_504_25
  <= 1
 Probability_of_appearance_for_lineup_player_504_for_gameweek_26: lineup_504_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_505_for_gameweek_23: lineup_505_23
  <= 0
 Probability_of_appearance_for_lineup_player_505_for_gameweek_24: lineup_505_24
@@ -41091,7 +41295,7 @@ Probability_of_appearance_for_lineup_player_506_for_gameweek_24: lineup_506_24
 Probability_of_appearance_for_lineup_player_506_for_gameweek_25: lineup_506_25
  <= 1
 Probability_of_appearance_for_lineup_player_506_for_gameweek_26: lineup_506_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_507_for_gameweek_23: lineup_507_23
  <= 0
 Probability_of_appearance_for_lineup_player_507_for_gameweek_24: lineup_507_24
@@ -41115,7 +41319,7 @@ Probability_of_appearance_for_lineup_player_509_for_gameweek_24: lineup_509_24
 Probability_of_appearance_for_lineup_player_509_for_gameweek_25: lineup_509_25
  <= 1
 Probability_of_appearance_for_lineup_player_509_for_gameweek_26: lineup_509_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_50_for_gameweek_23: lineup_50_23
  <= 1
 Probability_of_appearance_for_lineup_player_50_for_gameweek_24: lineup_50_24
@@ -41139,7 +41343,7 @@ Probability_of_appearance_for_lineup_player_511_for_gameweek_24: lineup_511_24
 Probability_of_appearance_for_lineup_player_511_for_gameweek_25: lineup_511_25
  <= 1
 Probability_of_appearance_for_lineup_player_511_for_gameweek_26: lineup_511_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_512_for_gameweek_23: lineup_512_23
  <= 0
 Probability_of_appearance_for_lineup_player_512_for_gameweek_24: lineup_512_24
@@ -41151,11 +41355,11 @@ Probability_of_appearance_for_lineup_player_512_for_gameweek_26: lineup_512_26
 Probability_of_appearance_for_lineup_player_513_for_gameweek_23: lineup_513_23
  <= 0
 Probability_of_appearance_for_lineup_player_513_for_gameweek_24: lineup_513_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_513_for_gameweek_25: lineup_513_25
  <= 1
 Probability_of_appearance_for_lineup_player_513_for_gameweek_26: lineup_513_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_514_for_gameweek_23: lineup_514_23
  <= 0
 Probability_of_appearance_for_lineup_player_514_for_gameweek_24: lineup_514_24
@@ -41171,7 +41375,7 @@ Probability_of_appearance_for_lineup_player_515_for_gameweek_24: lineup_515_24
 Probability_of_appearance_for_lineup_player_515_for_gameweek_25: lineup_515_25
  <= 1
 Probability_of_appearance_for_lineup_player_515_for_gameweek_26: lineup_515_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_516_for_gameweek_23: lineup_516_23
  <= 0
 Probability_of_appearance_for_lineup_player_516_for_gameweek_24: lineup_516_24
@@ -41179,7 +41383,7 @@ Probability_of_appearance_for_lineup_player_516_for_gameweek_24: lineup_516_24
 Probability_of_appearance_for_lineup_player_516_for_gameweek_25: lineup_516_25
  <= 1
 Probability_of_appearance_for_lineup_player_516_for_gameweek_26: lineup_516_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_517_for_gameweek_23: lineup_517_23
  <= 0
 Probability_of_appearance_for_lineup_player_517_for_gameweek_24: lineup_517_24
@@ -41203,7 +41407,7 @@ Probability_of_appearance_for_lineup_player_519_for_gameweek_24: lineup_519_24
 Probability_of_appearance_for_lineup_player_519_for_gameweek_25: lineup_519_25
  <= 1
 Probability_of_appearance_for_lineup_player_519_for_gameweek_26: lineup_519_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_51_for_gameweek_23: lineup_51_23
  <= 0
 Probability_of_appearance_for_lineup_player_51_for_gameweek_24: lineup_51_24
@@ -41219,7 +41423,7 @@ Probability_of_appearance_for_lineup_player_520_for_gameweek_24: lineup_520_24
 Probability_of_appearance_for_lineup_player_520_for_gameweek_25: lineup_520_25
  <= 1
 Probability_of_appearance_for_lineup_player_520_for_gameweek_26: lineup_520_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_521_for_gameweek_23: lineup_521_23
  <= 0
 Probability_of_appearance_for_lineup_player_521_for_gameweek_24: lineup_521_24
@@ -41231,7 +41435,7 @@ Probability_of_appearance_for_lineup_player_521_for_gameweek_26: lineup_521_26
 Probability_of_appearance_for_lineup_player_522_for_gameweek_23: lineup_522_23
  <= 0
 Probability_of_appearance_for_lineup_player_522_for_gameweek_24: lineup_522_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_522_for_gameweek_25: lineup_522_25
  <= 1
 Probability_of_appearance_for_lineup_player_522_for_gameweek_26: lineup_522_26
@@ -41239,7 +41443,7 @@ Probability_of_appearance_for_lineup_player_522_for_gameweek_26: lineup_522_26
 Probability_of_appearance_for_lineup_player_523_for_gameweek_23: lineup_523_23
  <= 0
 Probability_of_appearance_for_lineup_player_523_for_gameweek_24: lineup_523_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_523_for_gameweek_25: lineup_523_25
  <= 1
 Probability_of_appearance_for_lineup_player_523_for_gameweek_26: lineup_523_26
@@ -41377,7 +41581,7 @@ Probability_of_appearance_for_lineup_player_539_for_gameweek_23: lineup_539_23
 Probability_of_appearance_for_lineup_player_539_for_gameweek_24: lineup_539_24
  <= 0
 Probability_of_appearance_for_lineup_player_539_for_gameweek_25: lineup_539_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_539_for_gameweek_26: lineup_539_26
  <= 1
 Probability_of_appearance_for_lineup_player_53_for_gameweek_23: lineup_53_23
@@ -41429,9 +41633,9 @@ Probability_of_appearance_for_lineup_player_544_for_gameweek_25: lineup_544_25
 Probability_of_appearance_for_lineup_player_544_for_gameweek_26: lineup_544_26
  <= 1
 Probability_of_appearance_for_lineup_player_545_for_gameweek_23: lineup_545_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_545_for_gameweek_24: lineup_545_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_545_for_gameweek_25: lineup_545_25
  <= 1
 Probability_of_appearance_for_lineup_player_545_for_gameweek_26: lineup_545_26
@@ -41541,7 +41745,7 @@ Probability_of_appearance_for_lineup_player_557_for_gameweek_25: lineup_557_25
 Probability_of_appearance_for_lineup_player_557_for_gameweek_26: lineup_557_26
  <= 1
 Probability_of_appearance_for_lineup_player_558_for_gameweek_23: lineup_558_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_558_for_gameweek_24: lineup_558_24
  <= 1
 Probability_of_appearance_for_lineup_player_558_for_gameweek_25: lineup_558_25
@@ -41557,9 +41761,9 @@ Probability_of_appearance_for_lineup_player_559_for_gameweek_25: lineup_559_25
 Probability_of_appearance_for_lineup_player_559_for_gameweek_26: lineup_559_26
  <= 1
 Probability_of_appearance_for_lineup_player_55_for_gameweek_23: lineup_55_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_55_for_gameweek_24: lineup_55_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_55_for_gameweek_25: lineup_55_25
  <= 1
 Probability_of_appearance_for_lineup_player_55_for_gameweek_26: lineup_55_26
@@ -41769,17 +41973,17 @@ Probability_of_appearance_for_lineup_player_583_for_gameweek_23: lineup_583_23
 Probability_of_appearance_for_lineup_player_583_for_gameweek_24: lineup_583_24
  <= 0
 Probability_of_appearance_for_lineup_player_583_for_gameweek_25: lineup_583_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_583_for_gameweek_26: lineup_583_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_584_for_gameweek_23: lineup_584_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_584_for_gameweek_24: lineup_584_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_584_for_gameweek_25: lineup_584_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_584_for_gameweek_26: lineup_584_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_585_for_gameweek_23: lineup_585_23
  <= 0
 Probability_of_appearance_for_lineup_player_585_for_gameweek_24: lineup_585_24
@@ -41789,23 +41993,23 @@ Probability_of_appearance_for_lineup_player_585_for_gameweek_25: lineup_585_25
 Probability_of_appearance_for_lineup_player_585_for_gameweek_26: lineup_585_26
  <= 0
 Probability_of_appearance_for_lineup_player_586_for_gameweek_23: lineup_586_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_586_for_gameweek_24: lineup_586_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_586_for_gameweek_25: lineup_586_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_586_for_gameweek_26: lineup_586_26
  <= 0
 Probability_of_appearance_for_lineup_player_587_for_gameweek_23: lineup_587_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_587_for_gameweek_24: lineup_587_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_587_for_gameweek_25: lineup_587_25
  <= 1
 Probability_of_appearance_for_lineup_player_587_for_gameweek_26: lineup_587_26
  <= 1
 Probability_of_appearance_for_lineup_player_588_for_gameweek_23: lineup_588_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_588_for_gameweek_24: lineup_588_24
  <= 1
 Probability_of_appearance_for_lineup_player_588_for_gameweek_25: lineup_588_25
@@ -41939,23 +42143,23 @@ Probability_of_appearance_for_lineup_player_601_for_gameweek_24: lineup_601_24
 Probability_of_appearance_for_lineup_player_601_for_gameweek_25: lineup_601_25
  <= 0
 Probability_of_appearance_for_lineup_player_601_for_gameweek_26: lineup_601_26
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_602_for_gameweek_23: lineup_602_23
  <= 0
 Probability_of_appearance_for_lineup_player_602_for_gameweek_24: lineup_602_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_602_for_gameweek_25: lineup_602_25
  <= 1
 Probability_of_appearance_for_lineup_player_602_for_gameweek_26: lineup_602_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_603_for_gameweek_23: lineup_603_23
  <= 0
 Probability_of_appearance_for_lineup_player_603_for_gameweek_24: lineup_603_24
  <= 0
 Probability_of_appearance_for_lineup_player_603_for_gameweek_25: lineup_603_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_603_for_gameweek_26: lineup_603_26
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_604_for_gameweek_23: lineup_604_23
  <= 0
 Probability_of_appearance_for_lineup_player_604_for_gameweek_24: lineup_604_24
@@ -41973,7 +42177,7 @@ Probability_of_appearance_for_lineup_player_605_for_gameweek_25: lineup_605_25
 Probability_of_appearance_for_lineup_player_605_for_gameweek_26: lineup_605_26
  <= 0
 Probability_of_appearance_for_lineup_player_606_for_gameweek_23: lineup_606_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_606_for_gameweek_24: lineup_606_24
  <= 1
 Probability_of_appearance_for_lineup_player_606_for_gameweek_25: lineup_606_25
@@ -42027,7 +42231,7 @@ Probability_of_appearance_for_lineup_player_611_for_gameweek_24: lineup_611_24
 Probability_of_appearance_for_lineup_player_611_for_gameweek_25: lineup_611_25
  <= 1
 Probability_of_appearance_for_lineup_player_611_for_gameweek_26: lineup_611_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_613_for_gameweek_23: lineup_613_23
  <= 0
 Probability_of_appearance_for_lineup_player_613_for_gameweek_24: lineup_613_24
@@ -42043,7 +42247,7 @@ Probability_of_appearance_for_lineup_player_614_for_gameweek_24: lineup_614_24
 Probability_of_appearance_for_lineup_player_614_for_gameweek_25: lineup_614_25
  <= 1
 Probability_of_appearance_for_lineup_player_614_for_gameweek_26: lineup_614_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_615_for_gameweek_23: lineup_615_23
  <= 0
 Probability_of_appearance_for_lineup_player_615_for_gameweek_24: lineup_615_24
@@ -42187,15 +42391,15 @@ Probability_of_appearance_for_lineup_player_630_for_gameweek_24: lineup_630_24
 Probability_of_appearance_for_lineup_player_630_for_gameweek_25: lineup_630_25
  <= 1
 Probability_of_appearance_for_lineup_player_630_for_gameweek_26: lineup_630_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_631_for_gameweek_23: lineup_631_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_631_for_gameweek_24: lineup_631_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_631_for_gameweek_25: lineup_631_25
  <= 1
 Probability_of_appearance_for_lineup_player_631_for_gameweek_26: lineup_631_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_632_for_gameweek_23: lineup_632_23
  <= 0
 Probability_of_appearance_for_lineup_player_632_for_gameweek_24: lineup_632_24
@@ -42205,13 +42409,13 @@ Probability_of_appearance_for_lineup_player_632_for_gameweek_25: lineup_632_25
 Probability_of_appearance_for_lineup_player_632_for_gameweek_26: lineup_632_26
  <= 0
 Probability_of_appearance_for_lineup_player_633_for_gameweek_23: lineup_633_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_633_for_gameweek_24: lineup_633_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_633_for_gameweek_25: lineup_633_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_633_for_gameweek_26: lineup_633_26
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_634_for_gameweek_23: lineup_634_23
  <= 0
 Probability_of_appearance_for_lineup_player_634_for_gameweek_24: lineup_634_24
@@ -42259,7 +42463,7 @@ Probability_of_appearance_for_lineup_player_639_for_gameweek_24: lineup_639_24
 Probability_of_appearance_for_lineup_player_639_for_gameweek_25: lineup_639_25
  <= 1
 Probability_of_appearance_for_lineup_player_639_for_gameweek_26: lineup_639_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_63_for_gameweek_23: lineup_63_23
  <= 1
 Probability_of_appearance_for_lineup_player_63_for_gameweek_24: lineup_63_24
@@ -42293,13 +42497,13 @@ Probability_of_appearance_for_lineup_player_642_for_gameweek_25: lineup_642_25
 Probability_of_appearance_for_lineup_player_642_for_gameweek_26: lineup_642_26
  <= 0
 Probability_of_appearance_for_lineup_player_643_for_gameweek_23: lineup_643_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_643_for_gameweek_24: lineup_643_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_643_for_gameweek_25: lineup_643_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_643_for_gameweek_26: lineup_643_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_644_for_gameweek_23: lineup_644_23
  <= 1
 Probability_of_appearance_for_lineup_player_644_for_gameweek_24: lineup_644_24
@@ -42461,9 +42665,9 @@ Probability_of_appearance_for_lineup_player_661_for_gameweek_25: lineup_661_25
 Probability_of_appearance_for_lineup_player_661_for_gameweek_26: lineup_661_26
  <= 1
 Probability_of_appearance_for_lineup_player_662_for_gameweek_23: lineup_662_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_662_for_gameweek_24: lineup_662_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_662_for_gameweek_25: lineup_662_25
  <= 1
 Probability_of_appearance_for_lineup_player_662_for_gameweek_26: lineup_662_26
@@ -42515,7 +42719,7 @@ Probability_of_appearance_for_lineup_player_668_for_gameweek_24: lineup_668_24
 Probability_of_appearance_for_lineup_player_668_for_gameweek_25: lineup_668_25
  <= 1
 Probability_of_appearance_for_lineup_player_668_for_gameweek_26: lineup_668_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_669_for_gameweek_23: lineup_669_23
  <= 0
 Probability_of_appearance_for_lineup_player_669_for_gameweek_24: lineup_669_24
@@ -42677,7 +42881,7 @@ Probability_of_appearance_for_lineup_player_686_for_gameweek_25: lineup_686_25
 Probability_of_appearance_for_lineup_player_686_for_gameweek_26: lineup_686_26
  <= 0
 Probability_of_appearance_for_lineup_player_687_for_gameweek_23: lineup_687_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_687_for_gameweek_24: lineup_687_24
  <= 0
 Probability_of_appearance_for_lineup_player_687_for_gameweek_25: lineup_687_25
@@ -42789,13 +42993,13 @@ Probability_of_appearance_for_lineup_player_699_for_gameweek_25: lineup_699_25
 Probability_of_appearance_for_lineup_player_699_for_gameweek_26: lineup_699_26
  <= 0
 Probability_of_appearance_for_lineup_player_69_for_gameweek_23: lineup_69_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_69_for_gameweek_24: lineup_69_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_69_for_gameweek_25: lineup_69_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_69_for_gameweek_26: lineup_69_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_6_for_gameweek_23: lineup_6_23
  <= 1
 Probability_of_appearance_for_lineup_player_6_for_gameweek_24: lineup_6_24
@@ -42807,9 +43011,9 @@ Probability_of_appearance_for_lineup_player_6_for_gameweek_26: lineup_6_26
 Probability_of_appearance_for_lineup_player_700_for_gameweek_23: lineup_700_23
  <= 0
 Probability_of_appearance_for_lineup_player_700_for_gameweek_24: lineup_700_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_700_for_gameweek_25: lineup_700_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_700_for_gameweek_26: lineup_700_26
  <= 1
 Probability_of_appearance_for_lineup_player_701_for_gameweek_23: lineup_701_23
@@ -42875,7 +43079,7 @@ Probability_of_appearance_for_lineup_player_708_for_gameweek_24: lineup_708_24
 Probability_of_appearance_for_lineup_player_708_for_gameweek_25: lineup_708_25
  <= 1
 Probability_of_appearance_for_lineup_player_708_for_gameweek_26: lineup_708_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_709_for_gameweek_23: lineup_709_23
  <= 0
 Probability_of_appearance_for_lineup_player_709_for_gameweek_24: lineup_709_24
@@ -42909,13 +43113,13 @@ Probability_of_appearance_for_lineup_player_711_for_gameweek_25: lineup_711_25
 Probability_of_appearance_for_lineup_player_711_for_gameweek_26: lineup_711_26
  <= 0
 Probability_of_appearance_for_lineup_player_712_for_gameweek_23: lineup_712_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_712_for_gameweek_24: lineup_712_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_712_for_gameweek_25: lineup_712_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_712_for_gameweek_26: lineup_712_26
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_713_for_gameweek_23: lineup_713_23
  <= 0
 Probability_of_appearance_for_lineup_player_713_for_gameweek_24: lineup_713_24
@@ -43043,7 +43247,7 @@ Probability_of_appearance_for_lineup_player_727_for_gameweek_24: lineup_727_24
 Probability_of_appearance_for_lineup_player_727_for_gameweek_25: lineup_727_25
  <= 1
 Probability_of_appearance_for_lineup_player_727_for_gameweek_26: lineup_727_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_728_for_gameweek_23: lineup_728_23
  <= 0
 Probability_of_appearance_for_lineup_player_728_for_gameweek_24: lineup_728_24
@@ -43461,7 +43665,7 @@ Probability_of_appearance_for_lineup_player_774_for_gameweek_25: lineup_774_25
 Probability_of_appearance_for_lineup_player_774_for_gameweek_26: lineup_774_26
  <= 0
 Probability_of_appearance_for_lineup_player_775_for_gameweek_23: lineup_775_23
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_775_for_gameweek_24: lineup_775_24
  <= 1
 Probability_of_appearance_for_lineup_player_775_for_gameweek_25: lineup_775_25
@@ -43477,11 +43681,11 @@ Probability_of_appearance_for_lineup_player_776_for_gameweek_25: lineup_776_25
 Probability_of_appearance_for_lineup_player_776_for_gameweek_26: lineup_776_26
  <= 0
 Probability_of_appearance_for_lineup_player_777_for_gameweek_23: lineup_777_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_777_for_gameweek_24: lineup_777_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_777_for_gameweek_25: lineup_777_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_777_for_gameweek_26: lineup_777_26
  <= 0
 Probability_of_appearance_for_lineup_player_778_for_gameweek_23: lineup_778_23
@@ -43580,14 +43784,86 @@ Probability_of_appearance_for_lineup_player_788_for_gameweek_25: lineup_788_25
  <= 0
 Probability_of_appearance_for_lineup_player_788_for_gameweek_26: lineup_788_26
  <= 0
+Probability_of_appearance_for_lineup_player_789_for_gameweek_23: lineup_789_23
+ <= 0
+Probability_of_appearance_for_lineup_player_789_for_gameweek_24: lineup_789_24
+ <= 0
+Probability_of_appearance_for_lineup_player_789_for_gameweek_25: lineup_789_25
+ <= 0
+Probability_of_appearance_for_lineup_player_789_for_gameweek_26: lineup_789_26
+ <= 0
 Probability_of_appearance_for_lineup_player_78_for_gameweek_23: lineup_78_23
  <= 0
 Probability_of_appearance_for_lineup_player_78_for_gameweek_24: lineup_78_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_78_for_gameweek_25: lineup_78_25
  <= 1
 Probability_of_appearance_for_lineup_player_78_for_gameweek_26: lineup_78_26
  <= 1
+Probability_of_appearance_for_lineup_player_790_for_gameweek_23: lineup_790_23
+ <= 0
+Probability_of_appearance_for_lineup_player_790_for_gameweek_24: lineup_790_24
+ <= 0
+Probability_of_appearance_for_lineup_player_790_for_gameweek_25: lineup_790_25
+ <= 0
+Probability_of_appearance_for_lineup_player_790_for_gameweek_26: lineup_790_26
+ <= 1
+Probability_of_appearance_for_lineup_player_791_for_gameweek_23: lineup_791_23
+ <= 0
+Probability_of_appearance_for_lineup_player_791_for_gameweek_24: lineup_791_24
+ <= 0
+Probability_of_appearance_for_lineup_player_791_for_gameweek_25: lineup_791_25
+ <= 0
+Probability_of_appearance_for_lineup_player_791_for_gameweek_26: lineup_791_26
+ <= 0
+Probability_of_appearance_for_lineup_player_792_for_gameweek_23: lineup_792_23
+ <= 0
+Probability_of_appearance_for_lineup_player_792_for_gameweek_24: lineup_792_24
+ <= 0
+Probability_of_appearance_for_lineup_player_792_for_gameweek_25: lineup_792_25
+ <= 0
+Probability_of_appearance_for_lineup_player_792_for_gameweek_26: lineup_792_26
+ <= 0
+Probability_of_appearance_for_lineup_player_793_for_gameweek_23: lineup_793_23
+ <= 0
+Probability_of_appearance_for_lineup_player_793_for_gameweek_24: lineup_793_24
+ <= 0
+Probability_of_appearance_for_lineup_player_793_for_gameweek_25: lineup_793_25
+ <= 0
+Probability_of_appearance_for_lineup_player_793_for_gameweek_26: lineup_793_26
+ <= 0
+Probability_of_appearance_for_lineup_player_794_for_gameweek_23: lineup_794_23
+ <= 0
+Probability_of_appearance_for_lineup_player_794_for_gameweek_24: lineup_794_24
+ <= 0
+Probability_of_appearance_for_lineup_player_794_for_gameweek_25: lineup_794_25
+ <= 0
+Probability_of_appearance_for_lineup_player_794_for_gameweek_26: lineup_794_26
+ <= 0
+Probability_of_appearance_for_lineup_player_795_for_gameweek_23: lineup_795_23
+ <= 0
+Probability_of_appearance_for_lineup_player_795_for_gameweek_24: lineup_795_24
+ <= 0
+Probability_of_appearance_for_lineup_player_795_for_gameweek_25: lineup_795_25
+ <= 0
+Probability_of_appearance_for_lineup_player_795_for_gameweek_26: lineup_795_26
+ <= 0
+Probability_of_appearance_for_lineup_player_796_for_gameweek_23: lineup_796_23
+ <= 0
+Probability_of_appearance_for_lineup_player_796_for_gameweek_24: lineup_796_24
+ <= 0
+Probability_of_appearance_for_lineup_player_796_for_gameweek_25: lineup_796_25
+ <= 0
+Probability_of_appearance_for_lineup_player_796_for_gameweek_26: lineup_796_26
+ <= 0
+Probability_of_appearance_for_lineup_player_797_for_gameweek_23: lineup_797_23
+ <= 0
+Probability_of_appearance_for_lineup_player_797_for_gameweek_24: lineup_797_24
+ <= 0
+Probability_of_appearance_for_lineup_player_797_for_gameweek_25: lineup_797_25
+ <= 0
+Probability_of_appearance_for_lineup_player_797_for_gameweek_26: lineup_797_26
+ <= 0
 Probability_of_appearance_for_lineup_player_79_for_gameweek_23: lineup_79_23
  <= 0
 Probability_of_appearance_for_lineup_player_79_for_gameweek_24: lineup_79_24
@@ -43709,13 +43985,13 @@ Probability_of_appearance_for_lineup_player_91_for_gameweek_25: lineup_91_25
 Probability_of_appearance_for_lineup_player_91_for_gameweek_26: lineup_91_26
  <= 0
 Probability_of_appearance_for_lineup_player_92_for_gameweek_23: lineup_92_23
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_92_for_gameweek_24: lineup_92_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_92_for_gameweek_25: lineup_92_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_92_for_gameweek_26: lineup_92_26
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_93_for_gameweek_23: lineup_93_23
  <= 0
 Probability_of_appearance_for_lineup_player_93_for_gameweek_24: lineup_93_24
@@ -43879,7 +44155,7 @@ Probability_of_appearance_for_squad_player_110_for_gameweek_26: squad_110_26
 Probability_of_appearance_for_squad_player_111_for_gameweek_23: squad_111_23
  <= 0
 Probability_of_appearance_for_squad_player_111_for_gameweek_24: squad_111_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_111_for_gameweek_25: squad_111_25
  <= 1
 Probability_of_appearance_for_squad_player_111_for_gameweek_26: squad_111_26
@@ -43941,9 +44217,9 @@ Probability_of_appearance_for_squad_player_118_for_gameweek_25: squad_118_25
 Probability_of_appearance_for_squad_player_118_for_gameweek_26: squad_118_26
  <= 0
 Probability_of_appearance_for_squad_player_119_for_gameweek_23: squad_119_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_119_for_gameweek_24: squad_119_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_119_for_gameweek_25: squad_119_25
  <= 1
 Probability_of_appearance_for_squad_player_119_for_gameweek_26: squad_119_26
@@ -43975,7 +44251,7 @@ Probability_of_appearance_for_squad_player_121_for_gameweek_26: squad_121_26
 Probability_of_appearance_for_squad_player_122_for_gameweek_23: squad_122_23
  <= 0
 Probability_of_appearance_for_squad_player_122_for_gameweek_24: squad_122_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_122_for_gameweek_25: squad_122_25
  <= 1
 Probability_of_appearance_for_squad_player_122_for_gameweek_26: squad_122_26
@@ -44011,7 +44287,7 @@ Probability_of_appearance_for_squad_player_126_for_gameweek_24: squad_126_24
 Probability_of_appearance_for_squad_player_126_for_gameweek_25: squad_126_25
  <= 1
 Probability_of_appearance_for_squad_player_126_for_gameweek_26: squad_126_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_127_for_gameweek_23: squad_127_23
  <= 0
 Probability_of_appearance_for_squad_player_127_for_gameweek_24: squad_127_24
@@ -44173,13 +44449,13 @@ Probability_of_appearance_for_squad_player_144_for_gameweek_25: squad_144_25
 Probability_of_appearance_for_squad_player_144_for_gameweek_26: squad_144_26
  <= 1
 Probability_of_appearance_for_squad_player_145_for_gameweek_23: squad_145_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_145_for_gameweek_24: squad_145_24
  <= 1
 Probability_of_appearance_for_squad_player_145_for_gameweek_25: squad_145_25
  <= 1
 Probability_of_appearance_for_squad_player_145_for_gameweek_26: squad_145_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_146_for_gameweek_23: squad_146_23
  <= 0
 Probability_of_appearance_for_squad_player_146_for_gameweek_24: squad_146_24
@@ -44277,13 +44553,13 @@ Probability_of_appearance_for_squad_player_156_for_gameweek_25: squad_156_25
 Probability_of_appearance_for_squad_player_156_for_gameweek_26: squad_156_26
  <= 0
 Probability_of_appearance_for_squad_player_157_for_gameweek_23: squad_157_23
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_157_for_gameweek_24: squad_157_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_157_for_gameweek_25: squad_157_25
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_157_for_gameweek_26: squad_157_26
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_158_for_gameweek_23: squad_158_23
  <= 0
 Probability_of_appearance_for_squad_player_158_for_gameweek_24: squad_158_24
@@ -44305,9 +44581,9 @@ Probability_of_appearance_for_squad_player_15_for_gameweek_23: squad_15_23
 Probability_of_appearance_for_squad_player_15_for_gameweek_24: squad_15_24
  <= 0
 Probability_of_appearance_for_squad_player_15_for_gameweek_25: squad_15_25
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_15_for_gameweek_26: squad_15_26
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_160_for_gameweek_23: squad_160_23
  <= 1
 Probability_of_appearance_for_squad_player_160_for_gameweek_24: squad_160_24
@@ -44333,13 +44609,13 @@ Probability_of_appearance_for_squad_player_162_for_gameweek_25: squad_162_25
 Probability_of_appearance_for_squad_player_162_for_gameweek_26: squad_162_26
  <= 0
 Probability_of_appearance_for_squad_player_163_for_gameweek_23: squad_163_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_163_for_gameweek_24: squad_163_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_163_for_gameweek_25: squad_163_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_163_for_gameweek_26: squad_163_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_164_for_gameweek_23: squad_164_23
  <= 0
 Probability_of_appearance_for_squad_player_164_for_gameweek_24: squad_164_24
@@ -44581,11 +44857,11 @@ Probability_of_appearance_for_squad_player_190_for_gameweek_25: squad_190_25
 Probability_of_appearance_for_squad_player_190_for_gameweek_26: squad_190_26
  <= 0
 Probability_of_appearance_for_squad_player_191_for_gameweek_23: squad_191_23
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_191_for_gameweek_24: squad_191_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_191_for_gameweek_25: squad_191_25
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_191_for_gameweek_26: squad_191_26
  <= 0
 Probability_of_appearance_for_squad_player_192_for_gameweek_23: squad_192_23
@@ -44603,15 +44879,15 @@ Probability_of_appearance_for_squad_player_193_for_gameweek_24: squad_193_24
 Probability_of_appearance_for_squad_player_193_for_gameweek_25: squad_193_25
  <= 1
 Probability_of_appearance_for_squad_player_193_for_gameweek_26: squad_193_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_194_for_gameweek_23: squad_194_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_194_for_gameweek_24: squad_194_24
  <= 1
 Probability_of_appearance_for_squad_player_194_for_gameweek_25: squad_194_25
  <= 1
 Probability_of_appearance_for_squad_player_194_for_gameweek_26: squad_194_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_195_for_gameweek_23: squad_195_23
  <= 1
 Probability_of_appearance_for_squad_player_195_for_gameweek_24: squad_195_24
@@ -44619,7 +44895,7 @@ Probability_of_appearance_for_squad_player_195_for_gameweek_24: squad_195_24
 Probability_of_appearance_for_squad_player_195_for_gameweek_25: squad_195_25
  <= 1
 Probability_of_appearance_for_squad_player_195_for_gameweek_26: squad_195_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_196_for_gameweek_23: squad_196_23
  <= 1
 Probability_of_appearance_for_squad_player_196_for_gameweek_24: squad_196_24
@@ -44627,15 +44903,15 @@ Probability_of_appearance_for_squad_player_196_for_gameweek_24: squad_196_24
 Probability_of_appearance_for_squad_player_196_for_gameweek_25: squad_196_25
  <= 1
 Probability_of_appearance_for_squad_player_196_for_gameweek_26: squad_196_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_197_for_gameweek_23: squad_197_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_197_for_gameweek_24: squad_197_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_197_for_gameweek_25: squad_197_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_197_for_gameweek_26: squad_197_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_198_for_gameweek_23: squad_198_23
  <= 0
 Probability_of_appearance_for_squad_player_198_for_gameweek_24: squad_198_24
@@ -44651,7 +44927,7 @@ Probability_of_appearance_for_squad_player_199_for_gameweek_24: squad_199_24
 Probability_of_appearance_for_squad_player_199_for_gameweek_25: squad_199_25
  <= 1
 Probability_of_appearance_for_squad_player_199_for_gameweek_26: squad_199_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_19_for_gameweek_23: squad_19_23
  <= 1
 Probability_of_appearance_for_squad_player_19_for_gameweek_24: squad_19_24
@@ -44665,13 +44941,13 @@ Probability_of_appearance_for_squad_player_1_for_gameweek_24: squad_1_24 <= 0
 Probability_of_appearance_for_squad_player_1_for_gameweek_25: squad_1_25 <= 0
 Probability_of_appearance_for_squad_player_1_for_gameweek_26: squad_1_26 <= 0
 Probability_of_appearance_for_squad_player_200_for_gameweek_23: squad_200_23
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_200_for_gameweek_24: squad_200_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_200_for_gameweek_25: squad_200_25
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_200_for_gameweek_26: squad_200_26
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_201_for_gameweek_23: squad_201_23
  <= 0
 Probability_of_appearance_for_squad_player_201_for_gameweek_24: squad_201_24
@@ -44687,7 +44963,7 @@ Probability_of_appearance_for_squad_player_202_for_gameweek_24: squad_202_24
 Probability_of_appearance_for_squad_player_202_for_gameweek_25: squad_202_25
  <= 1
 Probability_of_appearance_for_squad_player_202_for_gameweek_26: squad_202_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_203_for_gameweek_23: squad_203_23
  <= 1
 Probability_of_appearance_for_squad_player_203_for_gameweek_24: squad_203_24
@@ -44695,7 +44971,7 @@ Probability_of_appearance_for_squad_player_203_for_gameweek_24: squad_203_24
 Probability_of_appearance_for_squad_player_203_for_gameweek_25: squad_203_25
  <= 1
 Probability_of_appearance_for_squad_player_203_for_gameweek_26: squad_203_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_204_for_gameweek_23: squad_204_23
  <= 1
 Probability_of_appearance_for_squad_player_204_for_gameweek_24: squad_204_24
@@ -44735,13 +45011,13 @@ Probability_of_appearance_for_squad_player_208_for_gameweek_24: squad_208_24
 Probability_of_appearance_for_squad_player_208_for_gameweek_25: squad_208_25
  <= 1
 Probability_of_appearance_for_squad_player_208_for_gameweek_26: squad_208_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_209_for_gameweek_23: squad_209_23
  <= 0
 Probability_of_appearance_for_squad_player_209_for_gameweek_24: squad_209_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_209_for_gameweek_25: squad_209_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_209_for_gameweek_26: squad_209_26
  <= 1
 Probability_of_appearance_for_squad_player_20_for_gameweek_23: squad_20_23
@@ -44759,21 +45035,21 @@ Probability_of_appearance_for_squad_player_210_for_gameweek_24: squad_210_24
 Probability_of_appearance_for_squad_player_210_for_gameweek_25: squad_210_25
  <= 1
 Probability_of_appearance_for_squad_player_210_for_gameweek_26: squad_210_26
- <= 1
-Probability_of_appearance_for_squad_player_211_for_gameweek_23: squad_211_23
  <= 0
+Probability_of_appearance_for_squad_player_211_for_gameweek_23: squad_211_23
+ <= 1
 Probability_of_appearance_for_squad_player_211_for_gameweek_24: squad_211_24
  <= 1
 Probability_of_appearance_for_squad_player_211_for_gameweek_25: squad_211_25
  <= 1
 Probability_of_appearance_for_squad_player_211_for_gameweek_26: squad_211_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_212_for_gameweek_23: squad_212_23
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_212_for_gameweek_24: squad_212_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_212_for_gameweek_25: squad_212_25
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_212_for_gameweek_26: squad_212_26
  <= 0
 Probability_of_appearance_for_squad_player_213_for_gameweek_23: squad_213_23
@@ -44807,7 +45083,7 @@ Probability_of_appearance_for_squad_player_216_for_gameweek_24: squad_216_24
 Probability_of_appearance_for_squad_player_216_for_gameweek_25: squad_216_25
  <= 1
 Probability_of_appearance_for_squad_player_216_for_gameweek_26: squad_216_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_217_for_gameweek_23: squad_217_23
  <= 1
 Probability_of_appearance_for_squad_player_217_for_gameweek_24: squad_217_24
@@ -44815,7 +45091,7 @@ Probability_of_appearance_for_squad_player_217_for_gameweek_24: squad_217_24
 Probability_of_appearance_for_squad_player_217_for_gameweek_25: squad_217_25
  <= 1
 Probability_of_appearance_for_squad_player_217_for_gameweek_26: squad_217_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_218_for_gameweek_23: squad_218_23
  <= 0
 Probability_of_appearance_for_squad_player_218_for_gameweek_24: squad_218_24
@@ -44825,13 +45101,13 @@ Probability_of_appearance_for_squad_player_218_for_gameweek_25: squad_218_25
 Probability_of_appearance_for_squad_player_218_for_gameweek_26: squad_218_26
  <= 0
 Probability_of_appearance_for_squad_player_219_for_gameweek_23: squad_219_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_219_for_gameweek_24: squad_219_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_219_for_gameweek_25: squad_219_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_219_for_gameweek_26: squad_219_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_21_for_gameweek_23: squad_21_23
  <= 1
 Probability_of_appearance_for_squad_player_21_for_gameweek_24: squad_21_24
@@ -44839,7 +45115,7 @@ Probability_of_appearance_for_squad_player_21_for_gameweek_24: squad_21_24
 Probability_of_appearance_for_squad_player_21_for_gameweek_25: squad_21_25
  <= 1
 Probability_of_appearance_for_squad_player_21_for_gameweek_26: squad_21_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_220_for_gameweek_23: squad_220_23
  <= 1
 Probability_of_appearance_for_squad_player_220_for_gameweek_24: squad_220_24
@@ -44977,7 +45253,7 @@ Probability_of_appearance_for_squad_player_235_for_gameweek_25: squad_235_25
 Probability_of_appearance_for_squad_player_235_for_gameweek_26: squad_235_26
  <= 0
 Probability_of_appearance_for_squad_player_236_for_gameweek_23: squad_236_23
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_236_for_gameweek_24: squad_236_24
  <= 1
 Probability_of_appearance_for_squad_player_236_for_gameweek_25: squad_236_25
@@ -45035,11 +45311,11 @@ Probability_of_appearance_for_squad_player_241_for_gameweek_26: squad_241_26
 Probability_of_appearance_for_squad_player_242_for_gameweek_23: squad_242_23
  <= 0
 Probability_of_appearance_for_squad_player_242_for_gameweek_24: squad_242_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_242_for_gameweek_25: squad_242_25
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_242_for_gameweek_26: squad_242_26
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_243_for_gameweek_23: squad_243_23
  <= 0
 Probability_of_appearance_for_squad_player_243_for_gameweek_24: squad_243_24
@@ -45049,13 +45325,13 @@ Probability_of_appearance_for_squad_player_243_for_gameweek_25: squad_243_25
 Probability_of_appearance_for_squad_player_243_for_gameweek_26: squad_243_26
  <= 0
 Probability_of_appearance_for_squad_player_244_for_gameweek_23: squad_244_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_244_for_gameweek_24: squad_244_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_244_for_gameweek_25: squad_244_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_244_for_gameweek_26: squad_244_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_245_for_gameweek_23: squad_245_23
  <= 1
 Probability_of_appearance_for_squad_player_245_for_gameweek_24: squad_245_24
@@ -45073,7 +45349,7 @@ Probability_of_appearance_for_squad_player_246_for_gameweek_25: squad_246_25
 Probability_of_appearance_for_squad_player_246_for_gameweek_26: squad_246_26
  <= 1
 Probability_of_appearance_for_squad_player_247_for_gameweek_23: squad_247_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_247_for_gameweek_24: squad_247_24
  <= 1
 Probability_of_appearance_for_squad_player_247_for_gameweek_25: squad_247_25
@@ -45089,13 +45365,13 @@ Probability_of_appearance_for_squad_player_248_for_gameweek_25: squad_248_25
 Probability_of_appearance_for_squad_player_248_for_gameweek_26: squad_248_26
  <= 0
 Probability_of_appearance_for_squad_player_249_for_gameweek_23: squad_249_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_249_for_gameweek_24: squad_249_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_249_for_gameweek_25: squad_249_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_249_for_gameweek_26: squad_249_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_24_for_gameweek_23: squad_24_23
  <= 0
 Probability_of_appearance_for_squad_player_24_for_gameweek_24: squad_24_24
@@ -45139,7 +45415,7 @@ Probability_of_appearance_for_squad_player_253_for_gameweek_26: squad_253_26
 Probability_of_appearance_for_squad_player_254_for_gameweek_23: squad_254_23
  <= 0
 Probability_of_appearance_for_squad_player_254_for_gameweek_24: squad_254_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_254_for_gameweek_25: squad_254_25
  <= 1
 Probability_of_appearance_for_squad_player_254_for_gameweek_26: squad_254_26
@@ -45155,7 +45431,7 @@ Probability_of_appearance_for_squad_player_255_for_gameweek_26: squad_255_26
 Probability_of_appearance_for_squad_player_256_for_gameweek_23: squad_256_23
  <= 0
 Probability_of_appearance_for_squad_player_256_for_gameweek_24: squad_256_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_256_for_gameweek_25: squad_256_25
  <= 1
 Probability_of_appearance_for_squad_player_256_for_gameweek_26: squad_256_26
@@ -45201,7 +45477,7 @@ Probability_of_appearance_for_squad_player_260_for_gameweek_25: squad_260_25
 Probability_of_appearance_for_squad_player_260_for_gameweek_26: squad_260_26
  <= 1
 Probability_of_appearance_for_squad_player_261_for_gameweek_23: squad_261_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_261_for_gameweek_24: squad_261_24
  <= 1
 Probability_of_appearance_for_squad_player_261_for_gameweek_25: squad_261_25
@@ -45289,7 +45565,7 @@ Probability_of_appearance_for_squad_player_270_for_gameweek_25: squad_270_25
 Probability_of_appearance_for_squad_player_270_for_gameweek_26: squad_270_26
  <= 1
 Probability_of_appearance_for_squad_player_271_for_gameweek_23: squad_271_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_271_for_gameweek_24: squad_271_24
  <= 1
 Probability_of_appearance_for_squad_player_271_for_gameweek_25: squad_271_25
@@ -45329,13 +45605,13 @@ Probability_of_appearance_for_squad_player_275_for_gameweek_25: squad_275_25
 Probability_of_appearance_for_squad_player_275_for_gameweek_26: squad_275_26
  <= 1
 Probability_of_appearance_for_squad_player_276_for_gameweek_23: squad_276_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_276_for_gameweek_24: squad_276_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_276_for_gameweek_25: squad_276_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_276_for_gameweek_26: squad_276_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_277_for_gameweek_23: squad_277_23
  <= 0
 Probability_of_appearance_for_squad_player_277_for_gameweek_24: squad_277_24
@@ -45377,13 +45653,13 @@ Probability_of_appearance_for_squad_player_280_for_gameweek_25: squad_280_25
 Probability_of_appearance_for_squad_player_280_for_gameweek_26: squad_280_26
  <= 1
 Probability_of_appearance_for_squad_player_281_for_gameweek_23: squad_281_23
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_281_for_gameweek_24: squad_281_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_281_for_gameweek_25: squad_281_25
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_281_for_gameweek_26: squad_281_26
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_282_for_gameweek_23: squad_282_23
  <= 1
 Probability_of_appearance_for_squad_player_282_for_gameweek_24: squad_282_24
@@ -45409,13 +45685,13 @@ Probability_of_appearance_for_squad_player_284_for_gameweek_25: squad_284_25
 Probability_of_appearance_for_squad_player_284_for_gameweek_26: squad_284_26
  <= 0
 Probability_of_appearance_for_squad_player_285_for_gameweek_23: squad_285_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_285_for_gameweek_24: squad_285_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_285_for_gameweek_25: squad_285_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_285_for_gameweek_26: squad_285_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_286_for_gameweek_23: squad_286_23
  <= 1
 Probability_of_appearance_for_squad_player_286_for_gameweek_24: squad_286_24
@@ -45425,19 +45701,19 @@ Probability_of_appearance_for_squad_player_286_for_gameweek_25: squad_286_25
 Probability_of_appearance_for_squad_player_286_for_gameweek_26: squad_286_26
  <= 1
 Probability_of_appearance_for_squad_player_287_for_gameweek_23: squad_287_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_287_for_gameweek_24: squad_287_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_287_for_gameweek_25: squad_287_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_287_for_gameweek_26: squad_287_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_288_for_gameweek_23: squad_288_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_288_for_gameweek_24: squad_288_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_288_for_gameweek_25: squad_288_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_288_for_gameweek_26: squad_288_26
  <= 1
 Probability_of_appearance_for_squad_player_289_for_gameweek_23: squad_289_23
@@ -45463,7 +45739,7 @@ Probability_of_appearance_for_squad_player_290_for_gameweek_24: squad_290_24
 Probability_of_appearance_for_squad_player_290_for_gameweek_25: squad_290_25
  <= 1
 Probability_of_appearance_for_squad_player_290_for_gameweek_26: squad_290_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_291_for_gameweek_23: squad_291_23
  <= 1
 Probability_of_appearance_for_squad_player_291_for_gameweek_24: squad_291_24
@@ -45471,7 +45747,7 @@ Probability_of_appearance_for_squad_player_291_for_gameweek_24: squad_291_24
 Probability_of_appearance_for_squad_player_291_for_gameweek_25: squad_291_25
  <= 1
 Probability_of_appearance_for_squad_player_291_for_gameweek_26: squad_291_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_292_for_gameweek_23: squad_292_23
  <= 0
 Probability_of_appearance_for_squad_player_292_for_gameweek_24: squad_292_24
@@ -45487,7 +45763,7 @@ Probability_of_appearance_for_squad_player_293_for_gameweek_24: squad_293_24
 Probability_of_appearance_for_squad_player_293_for_gameweek_25: squad_293_25
  <= 1
 Probability_of_appearance_for_squad_player_293_for_gameweek_26: squad_293_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_294_for_gameweek_23: squad_294_23
  <= 1
 Probability_of_appearance_for_squad_player_294_for_gameweek_24: squad_294_24
@@ -45495,7 +45771,7 @@ Probability_of_appearance_for_squad_player_294_for_gameweek_24: squad_294_24
 Probability_of_appearance_for_squad_player_294_for_gameweek_25: squad_294_25
  <= 1
 Probability_of_appearance_for_squad_player_294_for_gameweek_26: squad_294_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_295_for_gameweek_23: squad_295_23
  <= 1
 Probability_of_appearance_for_squad_player_295_for_gameweek_24: squad_295_24
@@ -45503,7 +45779,7 @@ Probability_of_appearance_for_squad_player_295_for_gameweek_24: squad_295_24
 Probability_of_appearance_for_squad_player_295_for_gameweek_25: squad_295_25
  <= 1
 Probability_of_appearance_for_squad_player_295_for_gameweek_26: squad_295_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_296_for_gameweek_23: squad_296_23
  <= 0
 Probability_of_appearance_for_squad_player_296_for_gameweek_24: squad_296_24
@@ -45519,7 +45795,7 @@ Probability_of_appearance_for_squad_player_297_for_gameweek_24: squad_297_24
 Probability_of_appearance_for_squad_player_297_for_gameweek_25: squad_297_25
  <= 1
 Probability_of_appearance_for_squad_player_297_for_gameweek_26: squad_297_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_298_for_gameweek_23: squad_298_23
  <= 1
 Probability_of_appearance_for_squad_player_298_for_gameweek_24: squad_298_24
@@ -45527,7 +45803,7 @@ Probability_of_appearance_for_squad_player_298_for_gameweek_24: squad_298_24
 Probability_of_appearance_for_squad_player_298_for_gameweek_25: squad_298_25
  <= 1
 Probability_of_appearance_for_squad_player_298_for_gameweek_26: squad_298_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_299_for_gameweek_23: squad_299_23
  <= 0
 Probability_of_appearance_for_squad_player_299_for_gameweek_24: squad_299_24
@@ -45555,7 +45831,7 @@ Probability_of_appearance_for_squad_player_300_for_gameweek_24: squad_300_24
 Probability_of_appearance_for_squad_player_300_for_gameweek_25: squad_300_25
  <= 1
 Probability_of_appearance_for_squad_player_300_for_gameweek_26: squad_300_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_301_for_gameweek_23: squad_301_23
  <= 0
 Probability_of_appearance_for_squad_player_301_for_gameweek_24: squad_301_24
@@ -45571,7 +45847,7 @@ Probability_of_appearance_for_squad_player_302_for_gameweek_24: squad_302_24
 Probability_of_appearance_for_squad_player_302_for_gameweek_25: squad_302_25
  <= 1
 Probability_of_appearance_for_squad_player_302_for_gameweek_26: squad_302_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_303_for_gameweek_23: squad_303_23
  <= 1
 Probability_of_appearance_for_squad_player_303_for_gameweek_24: squad_303_24
@@ -45579,7 +45855,7 @@ Probability_of_appearance_for_squad_player_303_for_gameweek_24: squad_303_24
 Probability_of_appearance_for_squad_player_303_for_gameweek_25: squad_303_25
  <= 1
 Probability_of_appearance_for_squad_player_303_for_gameweek_26: squad_303_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_304_for_gameweek_23: squad_304_23
  <= 1
 Probability_of_appearance_for_squad_player_304_for_gameweek_24: squad_304_24
@@ -45587,7 +45863,7 @@ Probability_of_appearance_for_squad_player_304_for_gameweek_24: squad_304_24
 Probability_of_appearance_for_squad_player_304_for_gameweek_25: squad_304_25
  <= 1
 Probability_of_appearance_for_squad_player_304_for_gameweek_26: squad_304_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_305_for_gameweek_23: squad_305_23
  <= 0
 Probability_of_appearance_for_squad_player_305_for_gameweek_24: squad_305_24
@@ -45611,15 +45887,15 @@ Probability_of_appearance_for_squad_player_307_for_gameweek_24: squad_307_24
 Probability_of_appearance_for_squad_player_307_for_gameweek_25: squad_307_25
  <= 1
 Probability_of_appearance_for_squad_player_307_for_gameweek_26: squad_307_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_308_for_gameweek_23: squad_308_23
  <= 0
 Probability_of_appearance_for_squad_player_308_for_gameweek_24: squad_308_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_308_for_gameweek_25: squad_308_25
  <= 1
 Probability_of_appearance_for_squad_player_308_for_gameweek_26: squad_308_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_309_for_gameweek_23: squad_309_23
  <= 1
 Probability_of_appearance_for_squad_player_309_for_gameweek_24: squad_309_24
@@ -45627,7 +45903,7 @@ Probability_of_appearance_for_squad_player_309_for_gameweek_24: squad_309_24
 Probability_of_appearance_for_squad_player_309_for_gameweek_25: squad_309_25
  <= 1
 Probability_of_appearance_for_squad_player_309_for_gameweek_26: squad_309_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_30_for_gameweek_23: squad_30_23
  <= 0
 Probability_of_appearance_for_squad_player_30_for_gameweek_24: squad_30_24
@@ -45645,13 +45921,13 @@ Probability_of_appearance_for_squad_player_310_for_gameweek_25: squad_310_25
 Probability_of_appearance_for_squad_player_310_for_gameweek_26: squad_310_26
  <= 0
 Probability_of_appearance_for_squad_player_311_for_gameweek_23: squad_311_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_311_for_gameweek_24: squad_311_24
  <= 1
 Probability_of_appearance_for_squad_player_311_for_gameweek_25: squad_311_25
  <= 1
 Probability_of_appearance_for_squad_player_311_for_gameweek_26: squad_311_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_312_for_gameweek_23: squad_312_23
  <= 0
 Probability_of_appearance_for_squad_player_312_for_gameweek_24: squad_312_24
@@ -45667,7 +45943,7 @@ Probability_of_appearance_for_squad_player_313_for_gameweek_24: squad_313_24
 Probability_of_appearance_for_squad_player_313_for_gameweek_25: squad_313_25
  <= 1
 Probability_of_appearance_for_squad_player_313_for_gameweek_26: squad_313_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_314_for_gameweek_23: squad_314_23
  <= 1
 Probability_of_appearance_for_squad_player_314_for_gameweek_24: squad_314_24
@@ -45675,7 +45951,7 @@ Probability_of_appearance_for_squad_player_314_for_gameweek_24: squad_314_24
 Probability_of_appearance_for_squad_player_314_for_gameweek_25: squad_314_25
  <= 1
 Probability_of_appearance_for_squad_player_314_for_gameweek_26: squad_314_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_315_for_gameweek_23: squad_315_23
  <= 0
 Probability_of_appearance_for_squad_player_315_for_gameweek_24: squad_315_24
@@ -45691,7 +45967,7 @@ Probability_of_appearance_for_squad_player_316_for_gameweek_24: squad_316_24
 Probability_of_appearance_for_squad_player_316_for_gameweek_25: squad_316_25
  <= 1
 Probability_of_appearance_for_squad_player_316_for_gameweek_26: squad_316_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_317_for_gameweek_23: squad_317_23
  <= 0
 Probability_of_appearance_for_squad_player_317_for_gameweek_24: squad_317_24
@@ -45707,7 +45983,7 @@ Probability_of_appearance_for_squad_player_318_for_gameweek_24: squad_318_24
 Probability_of_appearance_for_squad_player_318_for_gameweek_25: squad_318_25
  <= 1
 Probability_of_appearance_for_squad_player_318_for_gameweek_26: squad_318_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_319_for_gameweek_23: squad_319_23
  <= 0
 Probability_of_appearance_for_squad_player_319_for_gameweek_24: squad_319_24
@@ -45731,7 +46007,7 @@ Probability_of_appearance_for_squad_player_320_for_gameweek_24: squad_320_24
 Probability_of_appearance_for_squad_player_320_for_gameweek_25: squad_320_25
  <= 1
 Probability_of_appearance_for_squad_player_320_for_gameweek_26: squad_320_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_321_for_gameweek_23: squad_321_23
  <= 1
 Probability_of_appearance_for_squad_player_321_for_gameweek_24: squad_321_24
@@ -45739,7 +46015,7 @@ Probability_of_appearance_for_squad_player_321_for_gameweek_24: squad_321_24
 Probability_of_appearance_for_squad_player_321_for_gameweek_25: squad_321_25
  <= 1
 Probability_of_appearance_for_squad_player_321_for_gameweek_26: squad_321_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_322_for_gameweek_23: squad_322_23
  <= 0
 Probability_of_appearance_for_squad_player_322_for_gameweek_24: squad_322_24
@@ -45779,7 +46055,7 @@ Probability_of_appearance_for_squad_player_326_for_gameweek_24: squad_326_24
 Probability_of_appearance_for_squad_player_326_for_gameweek_25: squad_326_25
  <= 1
 Probability_of_appearance_for_squad_player_326_for_gameweek_26: squad_326_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_327_for_gameweek_23: squad_327_23
  <= 0
 Probability_of_appearance_for_squad_player_327_for_gameweek_24: squad_327_24
@@ -45795,7 +46071,7 @@ Probability_of_appearance_for_squad_player_328_for_gameweek_24: squad_328_24
 Probability_of_appearance_for_squad_player_328_for_gameweek_25: squad_328_25
  <= 1
 Probability_of_appearance_for_squad_player_328_for_gameweek_26: squad_328_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_329_for_gameweek_23: squad_329_23
  <= 0
 Probability_of_appearance_for_squad_player_329_for_gameweek_24: squad_329_24
@@ -45819,7 +46095,7 @@ Probability_of_appearance_for_squad_player_330_for_gameweek_24: squad_330_24
 Probability_of_appearance_for_squad_player_330_for_gameweek_25: squad_330_25
  <= 1
 Probability_of_appearance_for_squad_player_330_for_gameweek_26: squad_330_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_331_for_gameweek_23: squad_331_23
  <= 0
 Probability_of_appearance_for_squad_player_331_for_gameweek_24: squad_331_24
@@ -45837,13 +46113,13 @@ Probability_of_appearance_for_squad_player_332_for_gameweek_25: squad_332_25
 Probability_of_appearance_for_squad_player_332_for_gameweek_26: squad_332_26
  <= 0
 Probability_of_appearance_for_squad_player_333_for_gameweek_23: squad_333_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_333_for_gameweek_24: squad_333_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_333_for_gameweek_25: squad_333_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_333_for_gameweek_26: squad_333_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_334_for_gameweek_23: squad_334_23
  <= 0
 Probability_of_appearance_for_squad_player_334_for_gameweek_24: squad_334_24
@@ -46053,13 +46329,13 @@ Probability_of_appearance_for_squad_player_357_for_gameweek_25: squad_357_25
 Probability_of_appearance_for_squad_player_357_for_gameweek_26: squad_357_26
  <= 0
 Probability_of_appearance_for_squad_player_358_for_gameweek_23: squad_358_23
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_358_for_gameweek_24: squad_358_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_358_for_gameweek_25: squad_358_25
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_358_for_gameweek_26: squad_358_26
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_359_for_gameweek_23: squad_359_23
  <= 0
 Probability_of_appearance_for_squad_player_359_for_gameweek_24: squad_359_24
@@ -46099,7 +46375,7 @@ Probability_of_appearance_for_squad_player_362_for_gameweek_24: squad_362_24
 Probability_of_appearance_for_squad_player_362_for_gameweek_25: squad_362_25
  <= 1
 Probability_of_appearance_for_squad_player_362_for_gameweek_26: squad_362_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_363_for_gameweek_23: squad_363_23
  <= 0
 Probability_of_appearance_for_squad_player_363_for_gameweek_24: squad_363_24
@@ -46141,13 +46417,13 @@ Probability_of_appearance_for_squad_player_367_for_gameweek_25: squad_367_25
 Probability_of_appearance_for_squad_player_367_for_gameweek_26: squad_367_26
  <= 0
 Probability_of_appearance_for_squad_player_368_for_gameweek_23: squad_368_23
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_368_for_gameweek_24: squad_368_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_368_for_gameweek_25: squad_368_25
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_368_for_gameweek_26: squad_368_26
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_369_for_gameweek_23: squad_369_23
  <= 1
 Probability_of_appearance_for_squad_player_369_for_gameweek_24: squad_369_24
@@ -46327,9 +46603,9 @@ Probability_of_appearance_for_squad_player_388_for_gameweek_26: squad_388_26
 Probability_of_appearance_for_squad_player_389_for_gameweek_23: squad_389_23
  <= 0
 Probability_of_appearance_for_squad_player_389_for_gameweek_24: squad_389_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_389_for_gameweek_25: squad_389_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_389_for_gameweek_26: squad_389_26
  <= 1
 Probability_of_appearance_for_squad_player_38_for_gameweek_23: squad_38_23
@@ -46341,13 +46617,13 @@ Probability_of_appearance_for_squad_player_38_for_gameweek_25: squad_38_25
 Probability_of_appearance_for_squad_player_38_for_gameweek_26: squad_38_26
  <= 0
 Probability_of_appearance_for_squad_player_390_for_gameweek_23: squad_390_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_390_for_gameweek_24: squad_390_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_390_for_gameweek_25: squad_390_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_390_for_gameweek_26: squad_390_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_391_for_gameweek_23: squad_391_23
  <= 1
 Probability_of_appearance_for_squad_player_391_for_gameweek_24: squad_391_24
@@ -46365,13 +46641,13 @@ Probability_of_appearance_for_squad_player_392_for_gameweek_25: squad_392_25
 Probability_of_appearance_for_squad_player_392_for_gameweek_26: squad_392_26
  <= 1
 Probability_of_appearance_for_squad_player_393_for_gameweek_23: squad_393_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_393_for_gameweek_24: squad_393_24
  <= 1
 Probability_of_appearance_for_squad_player_393_for_gameweek_25: squad_393_25
  <= 1
 Probability_of_appearance_for_squad_player_393_for_gameweek_26: squad_393_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_394_for_gameweek_23: squad_394_23
  <= 0
 Probability_of_appearance_for_squad_player_394_for_gameweek_24: squad_394_24
@@ -46441,7 +46717,7 @@ Probability_of_appearance_for_squad_player_400_for_gameweek_25: squad_400_25
 Probability_of_appearance_for_squad_player_400_for_gameweek_26: squad_400_26
  <= 0
 Probability_of_appearance_for_squad_player_401_for_gameweek_23: squad_401_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_401_for_gameweek_24: squad_401_24
  <= 1
 Probability_of_appearance_for_squad_player_401_for_gameweek_25: squad_401_25
@@ -46461,9 +46737,9 @@ Probability_of_appearance_for_squad_player_403_for_gameweek_23: squad_403_23
 Probability_of_appearance_for_squad_player_403_for_gameweek_24: squad_403_24
  <= 0
 Probability_of_appearance_for_squad_player_403_for_gameweek_25: squad_403_25
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_403_for_gameweek_26: squad_403_26
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_404_for_gameweek_23: squad_404_23
  <= 0
 Probability_of_appearance_for_squad_player_404_for_gameweek_24: squad_404_24
@@ -46575,7 +46851,7 @@ Probability_of_appearance_for_squad_player_416_for_gameweek_24: squad_416_24
 Probability_of_appearance_for_squad_player_416_for_gameweek_25: squad_416_25
  <= 0
 Probability_of_appearance_for_squad_player_416_for_gameweek_26: squad_416_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_417_for_gameweek_23: squad_417_23
  <= 0
 Probability_of_appearance_for_squad_player_417_for_gameweek_24: squad_417_24
@@ -46593,9 +46869,9 @@ Probability_of_appearance_for_squad_player_418_for_gameweek_25: squad_418_25
 Probability_of_appearance_for_squad_player_418_for_gameweek_26: squad_418_26
  <= 0
 Probability_of_appearance_for_squad_player_419_for_gameweek_23: squad_419_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_419_for_gameweek_24: squad_419_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_419_for_gameweek_25: squad_419_25
  <= 1
 Probability_of_appearance_for_squad_player_419_for_gameweek_26: squad_419_26
@@ -46633,7 +46909,7 @@ Probability_of_appearance_for_squad_player_422_for_gameweek_25: squad_422_25
 Probability_of_appearance_for_squad_player_422_for_gameweek_26: squad_422_26
  <= 0
 Probability_of_appearance_for_squad_player_423_for_gameweek_23: squad_423_23
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_423_for_gameweek_24: squad_423_24
  <= 1
 Probability_of_appearance_for_squad_player_423_for_gameweek_25: squad_423_25
@@ -46689,7 +46965,7 @@ Probability_of_appearance_for_squad_player_429_for_gameweek_25: squad_429_25
 Probability_of_appearance_for_squad_player_429_for_gameweek_26: squad_429_26
  <= 0
 Probability_of_appearance_for_squad_player_42_for_gameweek_23: squad_42_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_42_for_gameweek_24: squad_42_24
  <= 1
 Probability_of_appearance_for_squad_player_42_for_gameweek_25: squad_42_25
@@ -46715,15 +46991,15 @@ Probability_of_appearance_for_squad_player_431_for_gameweek_26: squad_431_26
 Probability_of_appearance_for_squad_player_432_for_gameweek_23: squad_432_23
  <= 0
 Probability_of_appearance_for_squad_player_432_for_gameweek_24: squad_432_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_432_for_gameweek_25: squad_432_25
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_432_for_gameweek_26: squad_432_26
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_433_for_gameweek_23: squad_433_23
  <= 0
 Probability_of_appearance_for_squad_player_433_for_gameweek_24: squad_433_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_433_for_gameweek_25: squad_433_25
  <= 1
 Probability_of_appearance_for_squad_player_433_for_gameweek_26: squad_433_26
@@ -46753,7 +47029,7 @@ Probability_of_appearance_for_squad_player_436_for_gameweek_25: squad_436_25
 Probability_of_appearance_for_squad_player_436_for_gameweek_26: squad_436_26
  <= 1
 Probability_of_appearance_for_squad_player_437_for_gameweek_23: squad_437_23
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_437_for_gameweek_24: squad_437_24
  <= 1
 Probability_of_appearance_for_squad_player_437_for_gameweek_25: squad_437_25
@@ -46771,7 +47047,7 @@ Probability_of_appearance_for_squad_player_438_for_gameweek_26: squad_438_26
 Probability_of_appearance_for_squad_player_439_for_gameweek_23: squad_439_23
  <= 0
 Probability_of_appearance_for_squad_player_439_for_gameweek_24: squad_439_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_439_for_gameweek_25: squad_439_25
  <= 1
 Probability_of_appearance_for_squad_player_439_for_gameweek_26: squad_439_26
@@ -46831,7 +47107,7 @@ Probability_of_appearance_for_squad_player_445_for_gameweek_24: squad_445_24
 Probability_of_appearance_for_squad_player_445_for_gameweek_25: squad_445_25
  <= 0
 Probability_of_appearance_for_squad_player_445_for_gameweek_26: squad_445_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_446_for_gameweek_23: squad_446_23
  <= 0
 Probability_of_appearance_for_squad_player_446_for_gameweek_24: squad_446_24
@@ -46865,13 +47141,13 @@ Probability_of_appearance_for_squad_player_449_for_gameweek_25: squad_449_25
 Probability_of_appearance_for_squad_player_449_for_gameweek_26: squad_449_26
  <= 0
 Probability_of_appearance_for_squad_player_44_for_gameweek_23: squad_44_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_44_for_gameweek_24: squad_44_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_44_for_gameweek_25: squad_44_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_44_for_gameweek_26: squad_44_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_450_for_gameweek_23: squad_450_23
  <= 1
 Probability_of_appearance_for_squad_player_450_for_gameweek_24: squad_450_24
@@ -46879,7 +47155,7 @@ Probability_of_appearance_for_squad_player_450_for_gameweek_24: squad_450_24
 Probability_of_appearance_for_squad_player_450_for_gameweek_25: squad_450_25
  <= 1
 Probability_of_appearance_for_squad_player_450_for_gameweek_26: squad_450_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_451_for_gameweek_23: squad_451_23
  <= 0
 Probability_of_appearance_for_squad_player_451_for_gameweek_24: squad_451_24
@@ -47073,9 +47349,9 @@ Probability_of_appearance_for_squad_player_472_for_gameweek_25: squad_472_25
 Probability_of_appearance_for_squad_player_472_for_gameweek_26: squad_472_26
  <= 0
 Probability_of_appearance_for_squad_player_473_for_gameweek_23: squad_473_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_473_for_gameweek_24: squad_473_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_473_for_gameweek_25: squad_473_25
  <= 1
 Probability_of_appearance_for_squad_player_473_for_gameweek_26: squad_473_26
@@ -47157,9 +47433,9 @@ Probability_of_appearance_for_squad_player_482_for_gameweek_23: squad_482_23
 Probability_of_appearance_for_squad_player_482_for_gameweek_24: squad_482_24
  <= 1
 Probability_of_appearance_for_squad_player_482_for_gameweek_25: squad_482_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_482_for_gameweek_26: squad_482_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_483_for_gameweek_23: squad_483_23
  <= 0
 Probability_of_appearance_for_squad_player_483_for_gameweek_24: squad_483_24
@@ -47167,7 +47443,7 @@ Probability_of_appearance_for_squad_player_483_for_gameweek_24: squad_483_24
 Probability_of_appearance_for_squad_player_483_for_gameweek_25: squad_483_25
  <= 0
 Probability_of_appearance_for_squad_player_483_for_gameweek_26: squad_483_26
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_484_for_gameweek_23: squad_484_23
  <= 0
 Probability_of_appearance_for_squad_player_484_for_gameweek_24: squad_484_24
@@ -47247,15 +47523,15 @@ Probability_of_appearance_for_squad_player_492_for_gameweek_24: squad_492_24
 Probability_of_appearance_for_squad_player_492_for_gameweek_25: squad_492_25
  <= 1
 Probability_of_appearance_for_squad_player_492_for_gameweek_26: squad_492_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_493_for_gameweek_23: squad_493_23
  <= 0
 Probability_of_appearance_for_squad_player_493_for_gameweek_24: squad_493_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_493_for_gameweek_25: squad_493_25
  <= 1
 Probability_of_appearance_for_squad_player_493_for_gameweek_26: squad_493_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_494_for_gameweek_23: squad_494_23
  <= 1
 Probability_of_appearance_for_squad_player_494_for_gameweek_24: squad_494_24
@@ -47263,7 +47539,7 @@ Probability_of_appearance_for_squad_player_494_for_gameweek_24: squad_494_24
 Probability_of_appearance_for_squad_player_494_for_gameweek_25: squad_494_25
  <= 1
 Probability_of_appearance_for_squad_player_494_for_gameweek_26: squad_494_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_495_for_gameweek_23: squad_495_23
  <= 1
 Probability_of_appearance_for_squad_player_495_for_gameweek_24: squad_495_24
@@ -47271,7 +47547,7 @@ Probability_of_appearance_for_squad_player_495_for_gameweek_24: squad_495_24
 Probability_of_appearance_for_squad_player_495_for_gameweek_25: squad_495_25
  <= 1
 Probability_of_appearance_for_squad_player_495_for_gameweek_26: squad_495_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_496_for_gameweek_23: squad_496_23
  <= 0
 Probability_of_appearance_for_squad_player_496_for_gameweek_24: squad_496_24
@@ -47287,7 +47563,7 @@ Probability_of_appearance_for_squad_player_497_for_gameweek_24: squad_497_24
 Probability_of_appearance_for_squad_player_497_for_gameweek_25: squad_497_25
  <= 1
 Probability_of_appearance_for_squad_player_497_for_gameweek_26: squad_497_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_498_for_gameweek_23: squad_498_23
  <= 0
 Probability_of_appearance_for_squad_player_498_for_gameweek_24: squad_498_24
@@ -47303,7 +47579,7 @@ Probability_of_appearance_for_squad_player_499_for_gameweek_24: squad_499_24
 Probability_of_appearance_for_squad_player_499_for_gameweek_25: squad_499_25
  <= 1
 Probability_of_appearance_for_squad_player_499_for_gameweek_26: squad_499_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_49_for_gameweek_23: squad_49_23
  <= 1
 Probability_of_appearance_for_squad_player_49_for_gameweek_24: squad_49_24
@@ -47313,7 +47589,7 @@ Probability_of_appearance_for_squad_player_49_for_gameweek_25: squad_49_25
 Probability_of_appearance_for_squad_player_49_for_gameweek_26: squad_49_26
  <= 1
 Probability_of_appearance_for_squad_player_4_for_gameweek_23: squad_4_23 <= 0
-Probability_of_appearance_for_squad_player_4_for_gameweek_24: squad_4_24 <= 1
+Probability_of_appearance_for_squad_player_4_for_gameweek_24: squad_4_24 <= 0
 Probability_of_appearance_for_squad_player_4_for_gameweek_25: squad_4_25 <= 1
 Probability_of_appearance_for_squad_player_4_for_gameweek_26: squad_4_26 <= 1
 Probability_of_appearance_for_squad_player_500_for_gameweek_23: squad_500_23
@@ -47331,7 +47607,7 @@ Probability_of_appearance_for_squad_player_501_for_gameweek_24: squad_501_24
 Probability_of_appearance_for_squad_player_501_for_gameweek_25: squad_501_25
  <= 1
 Probability_of_appearance_for_squad_player_501_for_gameweek_26: squad_501_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_502_for_gameweek_23: squad_502_23
  <= 0
 Probability_of_appearance_for_squad_player_502_for_gameweek_24: squad_502_24
@@ -47355,7 +47631,7 @@ Probability_of_appearance_for_squad_player_504_for_gameweek_24: squad_504_24
 Probability_of_appearance_for_squad_player_504_for_gameweek_25: squad_504_25
  <= 1
 Probability_of_appearance_for_squad_player_504_for_gameweek_26: squad_504_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_505_for_gameweek_23: squad_505_23
  <= 0
 Probability_of_appearance_for_squad_player_505_for_gameweek_24: squad_505_24
@@ -47371,7 +47647,7 @@ Probability_of_appearance_for_squad_player_506_for_gameweek_24: squad_506_24
 Probability_of_appearance_for_squad_player_506_for_gameweek_25: squad_506_25
  <= 1
 Probability_of_appearance_for_squad_player_506_for_gameweek_26: squad_506_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_507_for_gameweek_23: squad_507_23
  <= 0
 Probability_of_appearance_for_squad_player_507_for_gameweek_24: squad_507_24
@@ -47395,7 +47671,7 @@ Probability_of_appearance_for_squad_player_509_for_gameweek_24: squad_509_24
 Probability_of_appearance_for_squad_player_509_for_gameweek_25: squad_509_25
  <= 1
 Probability_of_appearance_for_squad_player_509_for_gameweek_26: squad_509_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_50_for_gameweek_23: squad_50_23
  <= 1
 Probability_of_appearance_for_squad_player_50_for_gameweek_24: squad_50_24
@@ -47419,7 +47695,7 @@ Probability_of_appearance_for_squad_player_511_for_gameweek_24: squad_511_24
 Probability_of_appearance_for_squad_player_511_for_gameweek_25: squad_511_25
  <= 1
 Probability_of_appearance_for_squad_player_511_for_gameweek_26: squad_511_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_512_for_gameweek_23: squad_512_23
  <= 0
 Probability_of_appearance_for_squad_player_512_for_gameweek_24: squad_512_24
@@ -47429,13 +47705,13 @@ Probability_of_appearance_for_squad_player_512_for_gameweek_25: squad_512_25
 Probability_of_appearance_for_squad_player_512_for_gameweek_26: squad_512_26
  <= 0
 Probability_of_appearance_for_squad_player_513_for_gameweek_23: squad_513_23
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_513_for_gameweek_24: squad_513_24
  <= 1
 Probability_of_appearance_for_squad_player_513_for_gameweek_25: squad_513_25
  <= 1
 Probability_of_appearance_for_squad_player_513_for_gameweek_26: squad_513_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_514_for_gameweek_23: squad_514_23
  <= 0
 Probability_of_appearance_for_squad_player_514_for_gameweek_24: squad_514_24
@@ -47451,7 +47727,7 @@ Probability_of_appearance_for_squad_player_515_for_gameweek_24: squad_515_24
 Probability_of_appearance_for_squad_player_515_for_gameweek_25: squad_515_25
  <= 1
 Probability_of_appearance_for_squad_player_515_for_gameweek_26: squad_515_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_516_for_gameweek_23: squad_516_23
  <= 0
 Probability_of_appearance_for_squad_player_516_for_gameweek_24: squad_516_24
@@ -47459,7 +47735,7 @@ Probability_of_appearance_for_squad_player_516_for_gameweek_24: squad_516_24
 Probability_of_appearance_for_squad_player_516_for_gameweek_25: squad_516_25
  <= 1
 Probability_of_appearance_for_squad_player_516_for_gameweek_26: squad_516_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_517_for_gameweek_23: squad_517_23
  <= 0
 Probability_of_appearance_for_squad_player_517_for_gameweek_24: squad_517_24
@@ -47483,7 +47759,7 @@ Probability_of_appearance_for_squad_player_519_for_gameweek_24: squad_519_24
 Probability_of_appearance_for_squad_player_519_for_gameweek_25: squad_519_25
  <= 1
 Probability_of_appearance_for_squad_player_519_for_gameweek_26: squad_519_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_51_for_gameweek_23: squad_51_23
  <= 0
 Probability_of_appearance_for_squad_player_51_for_gameweek_24: squad_51_24
@@ -47499,7 +47775,7 @@ Probability_of_appearance_for_squad_player_520_for_gameweek_24: squad_520_24
 Probability_of_appearance_for_squad_player_520_for_gameweek_25: squad_520_25
  <= 1
 Probability_of_appearance_for_squad_player_520_for_gameweek_26: squad_520_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_521_for_gameweek_23: squad_521_23
  <= 0
 Probability_of_appearance_for_squad_player_521_for_gameweek_24: squad_521_24
@@ -47509,7 +47785,7 @@ Probability_of_appearance_for_squad_player_521_for_gameweek_25: squad_521_25
 Probability_of_appearance_for_squad_player_521_for_gameweek_26: squad_521_26
  <= 0
 Probability_of_appearance_for_squad_player_522_for_gameweek_23: squad_522_23
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_522_for_gameweek_24: squad_522_24
  <= 1
 Probability_of_appearance_for_squad_player_522_for_gameweek_25: squad_522_25
@@ -47517,7 +47793,7 @@ Probability_of_appearance_for_squad_player_522_for_gameweek_25: squad_522_25
 Probability_of_appearance_for_squad_player_522_for_gameweek_26: squad_522_26
  <= 1
 Probability_of_appearance_for_squad_player_523_for_gameweek_23: squad_523_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_523_for_gameweek_24: squad_523_24
  <= 1
 Probability_of_appearance_for_squad_player_523_for_gameweek_25: squad_523_25
@@ -47655,7 +47931,7 @@ Probability_of_appearance_for_squad_player_538_for_gameweek_26: squad_538_26
 Probability_of_appearance_for_squad_player_539_for_gameweek_23: squad_539_23
  <= 0
 Probability_of_appearance_for_squad_player_539_for_gameweek_24: squad_539_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_539_for_gameweek_25: squad_539_25
  <= 1
 Probability_of_appearance_for_squad_player_539_for_gameweek_26: squad_539_26
@@ -47709,7 +47985,7 @@ Probability_of_appearance_for_squad_player_544_for_gameweek_25: squad_544_25
 Probability_of_appearance_for_squad_player_544_for_gameweek_26: squad_544_26
  <= 1
 Probability_of_appearance_for_squad_player_545_for_gameweek_23: squad_545_23
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_545_for_gameweek_24: squad_545_24
  <= 1
 Probability_of_appearance_for_squad_player_545_for_gameweek_25: squad_545_25
@@ -47781,13 +48057,13 @@ Probability_of_appearance_for_squad_player_552_for_gameweek_25: squad_552_25
 Probability_of_appearance_for_squad_player_552_for_gameweek_26: squad_552_26
  <= 0
 Probability_of_appearance_for_squad_player_553_for_gameweek_23: squad_553_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_553_for_gameweek_24: squad_553_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_553_for_gameweek_25: squad_553_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_553_for_gameweek_26: squad_553_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_554_for_gameweek_23: squad_554_23
  <= 0
 Probability_of_appearance_for_squad_player_554_for_gameweek_24: squad_554_24
@@ -47893,13 +48169,13 @@ Probability_of_appearance_for_squad_player_565_for_gameweek_25: squad_565_25
 Probability_of_appearance_for_squad_player_565_for_gameweek_26: squad_565_26
  <= 1
 Probability_of_appearance_for_squad_player_566_for_gameweek_23: squad_566_23
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_566_for_gameweek_24: squad_566_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_566_for_gameweek_25: squad_566_25
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_566_for_gameweek_26: squad_566_26
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_567_for_gameweek_23: squad_567_23
  <= 1
 Probability_of_appearance_for_squad_player_567_for_gameweek_24: squad_567_24
@@ -47997,13 +48273,13 @@ Probability_of_appearance_for_squad_player_577_for_gameweek_25: squad_577_25
 Probability_of_appearance_for_squad_player_577_for_gameweek_26: squad_577_26
  <= 0
 Probability_of_appearance_for_squad_player_578_for_gameweek_23: squad_578_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_578_for_gameweek_24: squad_578_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_578_for_gameweek_25: squad_578_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_578_for_gameweek_26: squad_578_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_579_for_gameweek_23: squad_579_23
  <= 0
 Probability_of_appearance_for_squad_player_579_for_gameweek_24: squad_579_24
@@ -48043,23 +48319,23 @@ Probability_of_appearance_for_squad_player_582_for_gameweek_24: squad_582_24
 Probability_of_appearance_for_squad_player_582_for_gameweek_25: squad_582_25
  <= 1
 Probability_of_appearance_for_squad_player_582_for_gameweek_26: squad_582_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_583_for_gameweek_23: squad_583_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_583_for_gameweek_24: squad_583_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_583_for_gameweek_25: squad_583_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_583_for_gameweek_26: squad_583_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_584_for_gameweek_23: squad_584_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_584_for_gameweek_24: squad_584_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_584_for_gameweek_25: squad_584_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_584_for_gameweek_26: squad_584_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_585_for_gameweek_23: squad_585_23
  <= 0
 Probability_of_appearance_for_squad_player_585_for_gameweek_24: squad_585_24
@@ -48075,7 +48351,7 @@ Probability_of_appearance_for_squad_player_586_for_gameweek_24: squad_586_24
 Probability_of_appearance_for_squad_player_586_for_gameweek_25: squad_586_25
  <= 1
 Probability_of_appearance_for_squad_player_586_for_gameweek_26: squad_586_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_587_for_gameweek_23: squad_587_23
  <= 1
 Probability_of_appearance_for_squad_player_587_for_gameweek_24: squad_587_24
@@ -48201,15 +48477,15 @@ Probability_of_appearance_for_squad_player_5_for_gameweek_24: squad_5_24 <= 1
 Probability_of_appearance_for_squad_player_5_for_gameweek_25: squad_5_25 <= 1
 Probability_of_appearance_for_squad_player_5_for_gameweek_26: squad_5_26 <= 1
 Probability_of_appearance_for_squad_player_600_for_gameweek_23: squad_600_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_600_for_gameweek_24: squad_600_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_600_for_gameweek_25: squad_600_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_600_for_gameweek_26: squad_600_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_601_for_gameweek_23: squad_601_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_601_for_gameweek_24: squad_601_24
  <= 1
 Probability_of_appearance_for_squad_player_601_for_gameweek_25: squad_601_25
@@ -48223,15 +48499,15 @@ Probability_of_appearance_for_squad_player_602_for_gameweek_24: squad_602_24
 Probability_of_appearance_for_squad_player_602_for_gameweek_25: squad_602_25
  <= 1
 Probability_of_appearance_for_squad_player_602_for_gameweek_26: squad_602_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_603_for_gameweek_23: squad_603_23
  <= 0
 Probability_of_appearance_for_squad_player_603_for_gameweek_24: squad_603_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_603_for_gameweek_25: squad_603_25
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_603_for_gameweek_26: squad_603_26
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_604_for_gameweek_23: squad_604_23
  <= 0
 Probability_of_appearance_for_squad_player_604_for_gameweek_24: squad_604_24
@@ -48291,7 +48567,7 @@ Probability_of_appearance_for_squad_player_60_for_gameweek_26: squad_60_26
 Probability_of_appearance_for_squad_player_610_for_gameweek_23: squad_610_23
  <= 0
 Probability_of_appearance_for_squad_player_610_for_gameweek_24: squad_610_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_610_for_gameweek_25: squad_610_25
  <= 1
 Probability_of_appearance_for_squad_player_610_for_gameweek_26: squad_610_26
@@ -48303,7 +48579,7 @@ Probability_of_appearance_for_squad_player_611_for_gameweek_24: squad_611_24
 Probability_of_appearance_for_squad_player_611_for_gameweek_25: squad_611_25
  <= 1
 Probability_of_appearance_for_squad_player_611_for_gameweek_26: squad_611_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_613_for_gameweek_23: squad_613_23
  <= 0
 Probability_of_appearance_for_squad_player_613_for_gameweek_24: squad_613_24
@@ -48319,7 +48595,7 @@ Probability_of_appearance_for_squad_player_614_for_gameweek_24: squad_614_24
 Probability_of_appearance_for_squad_player_614_for_gameweek_25: squad_614_25
  <= 1
 Probability_of_appearance_for_squad_player_614_for_gameweek_26: squad_614_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_615_for_gameweek_23: squad_615_23
  <= 1
 Probability_of_appearance_for_squad_player_615_for_gameweek_24: squad_615_24
@@ -48369,13 +48645,13 @@ Probability_of_appearance_for_squad_player_61_for_gameweek_25: squad_61_25
 Probability_of_appearance_for_squad_player_61_for_gameweek_26: squad_61_26
  <= 0
 Probability_of_appearance_for_squad_player_620_for_gameweek_23: squad_620_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_620_for_gameweek_24: squad_620_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_620_for_gameweek_25: squad_620_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_620_for_gameweek_26: squad_620_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_621_for_gameweek_23: squad_621_23
  <= 1
 Probability_of_appearance_for_squad_player_621_for_gameweek_24: squad_621_24
@@ -48463,15 +48739,15 @@ Probability_of_appearance_for_squad_player_630_for_gameweek_24: squad_630_24
 Probability_of_appearance_for_squad_player_630_for_gameweek_25: squad_630_25
  <= 1
 Probability_of_appearance_for_squad_player_630_for_gameweek_26: squad_630_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_631_for_gameweek_23: squad_631_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_631_for_gameweek_24: squad_631_24
  <= 1
 Probability_of_appearance_for_squad_player_631_for_gameweek_25: squad_631_25
  <= 1
 Probability_of_appearance_for_squad_player_631_for_gameweek_26: squad_631_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_632_for_gameweek_23: squad_632_23
  <= 0
 Probability_of_appearance_for_squad_player_632_for_gameweek_24: squad_632_24
@@ -48535,7 +48811,7 @@ Probability_of_appearance_for_squad_player_639_for_gameweek_24: squad_639_24
 Probability_of_appearance_for_squad_player_639_for_gameweek_25: squad_639_25
  <= 1
 Probability_of_appearance_for_squad_player_639_for_gameweek_26: squad_639_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_63_for_gameweek_23: squad_63_23
  <= 1
 Probability_of_appearance_for_squad_player_63_for_gameweek_24: squad_63_24
@@ -48561,7 +48837,7 @@ Probability_of_appearance_for_squad_player_641_for_gameweek_25: squad_641_25
 Probability_of_appearance_for_squad_player_641_for_gameweek_26: squad_641_26
  <= 0
 Probability_of_appearance_for_squad_player_642_for_gameweek_23: squad_642_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_642_for_gameweek_24: squad_642_24
  <= 1
 Probability_of_appearance_for_squad_player_642_for_gameweek_25: squad_642_25
@@ -48569,13 +48845,13 @@ Probability_of_appearance_for_squad_player_642_for_gameweek_25: squad_642_25
 Probability_of_appearance_for_squad_player_642_for_gameweek_26: squad_642_26
  <= 1
 Probability_of_appearance_for_squad_player_643_for_gameweek_23: squad_643_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_643_for_gameweek_24: squad_643_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_643_for_gameweek_25: squad_643_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_643_for_gameweek_26: squad_643_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_644_for_gameweek_23: squad_644_23
  <= 1
 Probability_of_appearance_for_squad_player_644_for_gameweek_24: squad_644_24
@@ -48737,7 +49013,7 @@ Probability_of_appearance_for_squad_player_661_for_gameweek_25: squad_661_25
 Probability_of_appearance_for_squad_player_661_for_gameweek_26: squad_661_26
  <= 1
 Probability_of_appearance_for_squad_player_662_for_gameweek_23: squad_662_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_662_for_gameweek_24: squad_662_24
  <= 1
 Probability_of_appearance_for_squad_player_662_for_gameweek_25: squad_662_25
@@ -48771,7 +49047,7 @@ Probability_of_appearance_for_squad_player_665_for_gameweek_26: squad_665_26
 Probability_of_appearance_for_squad_player_666_for_gameweek_23: squad_666_23
  <= 0
 Probability_of_appearance_for_squad_player_666_for_gameweek_24: squad_666_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_666_for_gameweek_25: squad_666_25
  <= 1
 Probability_of_appearance_for_squad_player_666_for_gameweek_26: squad_666_26
@@ -48787,11 +49063,11 @@ Probability_of_appearance_for_squad_player_667_for_gameweek_26: squad_667_26
 Probability_of_appearance_for_squad_player_668_for_gameweek_23: squad_668_23
  <= 0
 Probability_of_appearance_for_squad_player_668_for_gameweek_24: squad_668_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_668_for_gameweek_25: squad_668_25
  <= 1
 Probability_of_appearance_for_squad_player_668_for_gameweek_26: squad_668_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_669_for_gameweek_23: squad_669_23
  <= 0
 Probability_of_appearance_for_squad_player_669_for_gameweek_24: squad_669_24
@@ -48953,7 +49229,7 @@ Probability_of_appearance_for_squad_player_686_for_gameweek_25: squad_686_25
 Probability_of_appearance_for_squad_player_686_for_gameweek_26: squad_686_26
  <= 0
 Probability_of_appearance_for_squad_player_687_for_gameweek_23: squad_687_23
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_687_for_gameweek_24: squad_687_24
  <= 0
 Probability_of_appearance_for_squad_player_687_for_gameweek_25: squad_687_25
@@ -49065,13 +49341,13 @@ Probability_of_appearance_for_squad_player_699_for_gameweek_25: squad_699_25
 Probability_of_appearance_for_squad_player_699_for_gameweek_26: squad_699_26
  <= 1
 Probability_of_appearance_for_squad_player_69_for_gameweek_23: squad_69_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_69_for_gameweek_24: squad_69_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_69_for_gameweek_25: squad_69_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_69_for_gameweek_26: squad_69_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_6_for_gameweek_23: squad_6_23 <= 1
 Probability_of_appearance_for_squad_player_6_for_gameweek_24: squad_6_24 <= 1
 Probability_of_appearance_for_squad_player_6_for_gameweek_25: squad_6_25 <= 1
@@ -49079,9 +49355,9 @@ Probability_of_appearance_for_squad_player_6_for_gameweek_26: squad_6_26 <= 1
 Probability_of_appearance_for_squad_player_700_for_gameweek_23: squad_700_23
  <= 0
 Probability_of_appearance_for_squad_player_700_for_gameweek_24: squad_700_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_700_for_gameweek_25: squad_700_25
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_700_for_gameweek_26: squad_700_26
  <= 1
 Probability_of_appearance_for_squad_player_701_for_gameweek_23: squad_701_23
@@ -49147,7 +49423,7 @@ Probability_of_appearance_for_squad_player_708_for_gameweek_24: squad_708_24
 Probability_of_appearance_for_squad_player_708_for_gameweek_25: squad_708_25
  <= 1
 Probability_of_appearance_for_squad_player_708_for_gameweek_26: squad_708_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_709_for_gameweek_23: squad_709_23
  <= 0
 Probability_of_appearance_for_squad_player_709_for_gameweek_24: squad_709_24
@@ -49213,13 +49489,13 @@ Probability_of_appearance_for_squad_player_715_for_gameweek_25: squad_715_25
 Probability_of_appearance_for_squad_player_715_for_gameweek_26: squad_715_26
  <= 1
 Probability_of_appearance_for_squad_player_716_for_gameweek_23: squad_716_23
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_716_for_gameweek_24: squad_716_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_716_for_gameweek_25: squad_716_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_716_for_gameweek_26: squad_716_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_717_for_gameweek_23: squad_717_23
  <= 0
 Probability_of_appearance_for_squad_player_717_for_gameweek_24: squad_717_24
@@ -49261,13 +49537,13 @@ Probability_of_appearance_for_squad_player_720_for_gameweek_25: squad_720_25
 Probability_of_appearance_for_squad_player_720_for_gameweek_26: squad_720_26
  <= 0
 Probability_of_appearance_for_squad_player_721_for_gameweek_23: squad_721_23
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_721_for_gameweek_24: squad_721_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_721_for_gameweek_25: squad_721_25
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_721_for_gameweek_26: squad_721_26
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_722_for_gameweek_23: squad_722_23
  <= 0
 Probability_of_appearance_for_squad_player_722_for_gameweek_24: squad_722_24
@@ -49315,7 +49591,7 @@ Probability_of_appearance_for_squad_player_727_for_gameweek_24: squad_727_24
 Probability_of_appearance_for_squad_player_727_for_gameweek_25: squad_727_25
  <= 1
 Probability_of_appearance_for_squad_player_727_for_gameweek_26: squad_727_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_728_for_gameweek_23: squad_728_23
  <= 0
 Probability_of_appearance_for_squad_player_728_for_gameweek_24: squad_728_24
@@ -49747,7 +50023,7 @@ Probability_of_appearance_for_squad_player_776_for_gameweek_24: squad_776_24
 Probability_of_appearance_for_squad_player_776_for_gameweek_25: squad_776_25
  <= 1
 Probability_of_appearance_for_squad_player_776_for_gameweek_26: squad_776_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_777_for_gameweek_23: squad_777_23
  <= 1
 Probability_of_appearance_for_squad_player_777_for_gameweek_24: squad_777_24
@@ -49755,7 +50031,7 @@ Probability_of_appearance_for_squad_player_777_for_gameweek_24: squad_777_24
 Probability_of_appearance_for_squad_player_777_for_gameweek_25: squad_777_25
  <= 1
 Probability_of_appearance_for_squad_player_777_for_gameweek_26: squad_777_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_778_for_gameweek_23: squad_778_23
  <= 0
 Probability_of_appearance_for_squad_player_778_for_gameweek_24: squad_778_24
@@ -49852,6 +50128,14 @@ Probability_of_appearance_for_squad_player_788_for_gameweek_25: squad_788_25
  <= 0
 Probability_of_appearance_for_squad_player_788_for_gameweek_26: squad_788_26
  <= 0
+Probability_of_appearance_for_squad_player_789_for_gameweek_23: squad_789_23
+ <= 0
+Probability_of_appearance_for_squad_player_789_for_gameweek_24: squad_789_24
+ <= 0
+Probability_of_appearance_for_squad_player_789_for_gameweek_25: squad_789_25
+ <= 0
+Probability_of_appearance_for_squad_player_789_for_gameweek_26: squad_789_26
+ <= 0
 Probability_of_appearance_for_squad_player_78_for_gameweek_23: squad_78_23
  <= 0
 Probability_of_appearance_for_squad_player_78_for_gameweek_24: squad_78_24
@@ -49860,6 +50144,70 @@ Probability_of_appearance_for_squad_player_78_for_gameweek_25: squad_78_25
  <= 1
 Probability_of_appearance_for_squad_player_78_for_gameweek_26: squad_78_26
  <= 1
+Probability_of_appearance_for_squad_player_790_for_gameweek_23: squad_790_23
+ <= 0
+Probability_of_appearance_for_squad_player_790_for_gameweek_24: squad_790_24
+ <= 0
+Probability_of_appearance_for_squad_player_790_for_gameweek_25: squad_790_25
+ <= 1
+Probability_of_appearance_for_squad_player_790_for_gameweek_26: squad_790_26
+ <= 1
+Probability_of_appearance_for_squad_player_791_for_gameweek_23: squad_791_23
+ <= 0
+Probability_of_appearance_for_squad_player_791_for_gameweek_24: squad_791_24
+ <= 0
+Probability_of_appearance_for_squad_player_791_for_gameweek_25: squad_791_25
+ <= 0
+Probability_of_appearance_for_squad_player_791_for_gameweek_26: squad_791_26
+ <= 0
+Probability_of_appearance_for_squad_player_792_for_gameweek_23: squad_792_23
+ <= 1
+Probability_of_appearance_for_squad_player_792_for_gameweek_24: squad_792_24
+ <= 1
+Probability_of_appearance_for_squad_player_792_for_gameweek_25: squad_792_25
+ <= 1
+Probability_of_appearance_for_squad_player_792_for_gameweek_26: squad_792_26
+ <= 1
+Probability_of_appearance_for_squad_player_793_for_gameweek_23: squad_793_23
+ <= 0
+Probability_of_appearance_for_squad_player_793_for_gameweek_24: squad_793_24
+ <= 0
+Probability_of_appearance_for_squad_player_793_for_gameweek_25: squad_793_25
+ <= 0
+Probability_of_appearance_for_squad_player_793_for_gameweek_26: squad_793_26
+ <= 0
+Probability_of_appearance_for_squad_player_794_for_gameweek_23: squad_794_23
+ <= 0
+Probability_of_appearance_for_squad_player_794_for_gameweek_24: squad_794_24
+ <= 0
+Probability_of_appearance_for_squad_player_794_for_gameweek_25: squad_794_25
+ <= 0
+Probability_of_appearance_for_squad_player_794_for_gameweek_26: squad_794_26
+ <= 0
+Probability_of_appearance_for_squad_player_795_for_gameweek_23: squad_795_23
+ <= 0
+Probability_of_appearance_for_squad_player_795_for_gameweek_24: squad_795_24
+ <= 0
+Probability_of_appearance_for_squad_player_795_for_gameweek_25: squad_795_25
+ <= 0
+Probability_of_appearance_for_squad_player_795_for_gameweek_26: squad_795_26
+ <= 0
+Probability_of_appearance_for_squad_player_796_for_gameweek_23: squad_796_23
+ <= 0
+Probability_of_appearance_for_squad_player_796_for_gameweek_24: squad_796_24
+ <= 0
+Probability_of_appearance_for_squad_player_796_for_gameweek_25: squad_796_25
+ <= 0
+Probability_of_appearance_for_squad_player_796_for_gameweek_26: squad_796_26
+ <= 0
+Probability_of_appearance_for_squad_player_797_for_gameweek_23: squad_797_23
+ <= 0
+Probability_of_appearance_for_squad_player_797_for_gameweek_24: squad_797_24
+ <= 0
+Probability_of_appearance_for_squad_player_797_for_gameweek_25: squad_797_25
+ <= 0
+Probability_of_appearance_for_squad_player_797_for_gameweek_26: squad_797_26
+ <= 0
 Probability_of_appearance_for_squad_player_79_for_gameweek_23: squad_79_23
  <= 0
 Probability_of_appearance_for_squad_player_79_for_gameweek_24: squad_79_24
@@ -50036,10 +50384,10 @@ Probability_of_appearance_for_squad_player_99_for_gameweek_25: squad_99_25
  <= 1
 Probability_of_appearance_for_squad_player_99_for_gameweek_26: squad_99_26
  <= 1
-Probability_of_appearance_for_squad_player_9_for_gameweek_23: squad_9_23 <= 0
-Probability_of_appearance_for_squad_player_9_for_gameweek_24: squad_9_24 <= 0
-Probability_of_appearance_for_squad_player_9_for_gameweek_25: squad_9_25 <= 0
-Probability_of_appearance_for_squad_player_9_for_gameweek_26: squad_9_26 <= 0
+Probability_of_appearance_for_squad_player_9_for_gameweek_23: squad_9_23 <= 1
+Probability_of_appearance_for_squad_player_9_for_gameweek_24: squad_9_24 <= 1
+Probability_of_appearance_for_squad_player_9_for_gameweek_25: squad_9_25 <= 1
+Probability_of_appearance_for_squad_player_9_for_gameweek_26: squad_9_26 <= 1
 Squad_count_constraint_for_gameweek_23: squad_100_23 + squad_101_23
  + squad_102_23 + squad_103_23 + squad_104_23 + squad_105_23 + squad_106_23
  + squad_107_23 + squad_108_23 + squad_109_23 + squad_10_23 + squad_110_23
@@ -50193,11 +50541,13 @@ Squad_count_constraint_for_gameweek_23: squad_100_23 + squad_101_23
  + squad_775_23 + squad_776_23 + squad_777_23 + squad_778_23 + squad_779_23
  + squad_77_23 + squad_780_23 + squad_781_23 + squad_782_23 + squad_783_23
  + squad_784_23 + squad_785_23 + squad_786_23 + squad_787_23 + squad_788_23
- + squad_78_23 + squad_79_23 + squad_7_23 + squad_80_23 + squad_81_23
- + squad_82_23 + squad_83_23 + squad_84_23 + squad_85_23 + squad_86_23
- + squad_87_23 + squad_88_23 + squad_89_23 + squad_8_23 + squad_90_23
- + squad_91_23 + squad_92_23 + squad_93_23 + squad_94_23 + squad_95_23
- + squad_96_23 + squad_97_23 + squad_98_23 + squad_99_23 + squad_9_23 = 15
+ + squad_789_23 + squad_78_23 + squad_790_23 + squad_791_23 + squad_792_23
+ + squad_793_23 + squad_794_23 + squad_795_23 + squad_796_23 + squad_797_23
+ + squad_79_23 + squad_7_23 + squad_80_23 + squad_81_23 + squad_82_23
+ + squad_83_23 + squad_84_23 + squad_85_23 + squad_86_23 + squad_87_23
+ + squad_88_23 + squad_89_23 + squad_8_23 + squad_90_23 + squad_91_23
+ + squad_92_23 + squad_93_23 + squad_94_23 + squad_95_23 + squad_96_23
+ + squad_97_23 + squad_98_23 + squad_99_23 + squad_9_23 = 15
 Squad_count_constraint_for_gameweek_24: squad_100_24 + squad_101_24
  + squad_102_24 + squad_103_24 + squad_104_24 + squad_105_24 + squad_106_24
  + squad_107_24 + squad_108_24 + squad_109_24 + squad_10_24 + squad_110_24
@@ -50351,11 +50701,13 @@ Squad_count_constraint_for_gameweek_24: squad_100_24 + squad_101_24
  + squad_775_24 + squad_776_24 + squad_777_24 + squad_778_24 + squad_779_24
  + squad_77_24 + squad_780_24 + squad_781_24 + squad_782_24 + squad_783_24
  + squad_784_24 + squad_785_24 + squad_786_24 + squad_787_24 + squad_788_24
- + squad_78_24 + squad_79_24 + squad_7_24 + squad_80_24 + squad_81_24
- + squad_82_24 + squad_83_24 + squad_84_24 + squad_85_24 + squad_86_24
- + squad_87_24 + squad_88_24 + squad_89_24 + squad_8_24 + squad_90_24
- + squad_91_24 + squad_92_24 + squad_93_24 + squad_94_24 + squad_95_24
- + squad_96_24 + squad_97_24 + squad_98_24 + squad_99_24 + squad_9_24 = 15
+ + squad_789_24 + squad_78_24 + squad_790_24 + squad_791_24 + squad_792_24
+ + squad_793_24 + squad_794_24 + squad_795_24 + squad_796_24 + squad_797_24
+ + squad_79_24 + squad_7_24 + squad_80_24 + squad_81_24 + squad_82_24
+ + squad_83_24 + squad_84_24 + squad_85_24 + squad_86_24 + squad_87_24
+ + squad_88_24 + squad_89_24 + squad_8_24 + squad_90_24 + squad_91_24
+ + squad_92_24 + squad_93_24 + squad_94_24 + squad_95_24 + squad_96_24
+ + squad_97_24 + squad_98_24 + squad_99_24 + squad_9_24 = 15
 Squad_count_constraint_for_gameweek_25: squad_100_25 + squad_101_25
  + squad_102_25 + squad_103_25 + squad_104_25 + squad_105_25 + squad_106_25
  + squad_107_25 + squad_108_25 + squad_109_25 + squad_10_25 + squad_110_25
@@ -50509,11 +50861,13 @@ Squad_count_constraint_for_gameweek_25: squad_100_25 + squad_101_25
  + squad_775_25 + squad_776_25 + squad_777_25 + squad_778_25 + squad_779_25
  + squad_77_25 + squad_780_25 + squad_781_25 + squad_782_25 + squad_783_25
  + squad_784_25 + squad_785_25 + squad_786_25 + squad_787_25 + squad_788_25
- + squad_78_25 + squad_79_25 + squad_7_25 + squad_80_25 + squad_81_25
- + squad_82_25 + squad_83_25 + squad_84_25 + squad_85_25 + squad_86_25
- + squad_87_25 + squad_88_25 + squad_89_25 + squad_8_25 + squad_90_25
- + squad_91_25 + squad_92_25 + squad_93_25 + squad_94_25 + squad_95_25
- + squad_96_25 + squad_97_25 + squad_98_25 + squad_99_25 + squad_9_25 = 15
+ + squad_789_25 + squad_78_25 + squad_790_25 + squad_791_25 + squad_792_25
+ + squad_793_25 + squad_794_25 + squad_795_25 + squad_796_25 + squad_797_25
+ + squad_79_25 + squad_7_25 + squad_80_25 + squad_81_25 + squad_82_25
+ + squad_83_25 + squad_84_25 + squad_85_25 + squad_86_25 + squad_87_25
+ + squad_88_25 + squad_89_25 + squad_8_25 + squad_90_25 + squad_91_25
+ + squad_92_25 + squad_93_25 + squad_94_25 + squad_95_25 + squad_96_25
+ + squad_97_25 + squad_98_25 + squad_99_25 + squad_9_25 = 15
 Squad_count_constraint_for_gameweek_26: squad_100_26 + squad_101_26
  + squad_102_26 + squad_103_26 + squad_104_26 + squad_105_26 + squad_106_26
  + squad_107_26 + squad_108_26 + squad_109_26 + squad_10_26 + squad_110_26
@@ -50667,11 +51021,13 @@ Squad_count_constraint_for_gameweek_26: squad_100_26 + squad_101_26
  + squad_775_26 + squad_776_26 + squad_777_26 + squad_778_26 + squad_779_26
  + squad_77_26 + squad_780_26 + squad_781_26 + squad_782_26 + squad_783_26
  + squad_784_26 + squad_785_26 + squad_786_26 + squad_787_26 + squad_788_26
- + squad_78_26 + squad_79_26 + squad_7_26 + squad_80_26 + squad_81_26
- + squad_82_26 + squad_83_26 + squad_84_26 + squad_85_26 + squad_86_26
- + squad_87_26 + squad_88_26 + squad_89_26 + squad_8_26 + squad_90_26
- + squad_91_26 + squad_92_26 + squad_93_26 + squad_94_26 + squad_95_26
- + squad_96_26 + squad_97_26 + squad_98_26 + squad_99_26 + squad_9_26 = 15
+ + squad_789_26 + squad_78_26 + squad_790_26 + squad_791_26 + squad_792_26
+ + squad_793_26 + squad_794_26 + squad_795_26 + squad_796_26 + squad_797_26
+ + squad_79_26 + squad_7_26 + squad_80_26 + squad_81_26 + squad_82_26
+ + squad_83_26 + squad_84_26 + squad_85_26 + squad_86_26 + squad_87_26
+ + squad_88_26 + squad_89_26 + squad_8_26 + squad_90_26 + squad_91_26
+ + squad_92_26 + squad_93_26 + squad_94_26 + squad_95_26 + squad_96_26
+ + squad_97_26 + squad_98_26 + squad_99_26 + squad_9_26 = 15
 Squad_players_in_position_1_in_gameweek_23: squad_101_23 + squad_113_23
  + squad_116_23 + squad_141_23 + squad_145_23 + squad_147_23 + squad_148_23
  + squad_152_23 + squad_169_23 + squad_172_23 + squad_175_23 + squad_17_23
@@ -50689,8 +51045,8 @@ Squad_players_in_position_1_in_gameweek_23: squad_101_23 + squad_113_23
  + squad_636_23 + squad_646_23 + squad_647_23 + squad_659_23 + squad_665_23
  + squad_669_23 + squad_670_23 + squad_680_23 + squad_686_23 + squad_687_23
  + squad_692_23 + squad_695_23 + squad_710_23 + squad_752_23 + squad_756_23
- + squad_765_23 + squad_778_23 + squad_77_23 + squad_80_23 + squad_88_23
- + squad_91_23 + squad_97_23 = 2
+ + squad_765_23 + squad_778_23 + squad_77_23 + squad_789_23 + squad_790_23
+ + squad_80_23 + squad_88_23 + squad_91_23 + squad_97_23 = 2
 Squad_players_in_position_1_in_gameweek_24: squad_101_24 + squad_113_24
  + squad_116_24 + squad_141_24 + squad_145_24 + squad_147_24 + squad_148_24
  + squad_152_24 + squad_169_24 + squad_172_24 + squad_175_24 + squad_17_24
@@ -50708,8 +51064,8 @@ Squad_players_in_position_1_in_gameweek_24: squad_101_24 + squad_113_24
  + squad_636_24 + squad_646_24 + squad_647_24 + squad_659_24 + squad_665_24
  + squad_669_24 + squad_670_24 + squad_680_24 + squad_686_24 + squad_687_24
  + squad_692_24 + squad_695_24 + squad_710_24 + squad_752_24 + squad_756_24
- + squad_765_24 + squad_778_24 + squad_77_24 + squad_80_24 + squad_88_24
- + squad_91_24 + squad_97_24 = 2
+ + squad_765_24 + squad_778_24 + squad_77_24 + squad_789_24 + squad_790_24
+ + squad_80_24 + squad_88_24 + squad_91_24 + squad_97_24 = 2
 Squad_players_in_position_1_in_gameweek_25: squad_101_25 + squad_113_25
  + squad_116_25 + squad_141_25 + squad_145_25 + squad_147_25 + squad_148_25
  + squad_152_25 + squad_169_25 + squad_172_25 + squad_175_25 + squad_17_25
@@ -50727,8 +51083,8 @@ Squad_players_in_position_1_in_gameweek_25: squad_101_25 + squad_113_25
  + squad_636_25 + squad_646_25 + squad_647_25 + squad_659_25 + squad_665_25
  + squad_669_25 + squad_670_25 + squad_680_25 + squad_686_25 + squad_687_25
  + squad_692_25 + squad_695_25 + squad_710_25 + squad_752_25 + squad_756_25
- + squad_765_25 + squad_778_25 + squad_77_25 + squad_80_25 + squad_88_25
- + squad_91_25 + squad_97_25 = 2
+ + squad_765_25 + squad_778_25 + squad_77_25 + squad_789_25 + squad_790_25
+ + squad_80_25 + squad_88_25 + squad_91_25 + squad_97_25 = 2
 Squad_players_in_position_1_in_gameweek_26: squad_101_26 + squad_113_26
  + squad_116_26 + squad_141_26 + squad_145_26 + squad_147_26 + squad_148_26
  + squad_152_26 + squad_169_26 + squad_172_26 + squad_175_26 + squad_17_26
@@ -50746,8 +51102,8 @@ Squad_players_in_position_1_in_gameweek_26: squad_101_26 + squad_113_26
  + squad_636_26 + squad_646_26 + squad_647_26 + squad_659_26 + squad_665_26
  + squad_669_26 + squad_670_26 + squad_680_26 + squad_686_26 + squad_687_26
  + squad_692_26 + squad_695_26 + squad_710_26 + squad_752_26 + squad_756_26
- + squad_765_26 + squad_778_26 + squad_77_26 + squad_80_26 + squad_88_26
- + squad_91_26 + squad_97_26 = 2
+ + squad_765_26 + squad_778_26 + squad_77_26 + squad_789_26 + squad_790_26
+ + squad_80_26 + squad_88_26 + squad_91_26 + squad_97_26 = 2
 Squad_players_in_position_2_in_gameweek_23: squad_102_23 + squad_103_23
  + squad_104_23 + squad_109_23 + squad_10_23 + squad_112_23 + squad_114_23
  + squad_121_23 + squad_129_23 + squad_131_23 + squad_136_23 + squad_139_23
@@ -50798,8 +51154,8 @@ Squad_players_in_position_2_in_gameweek_23: squad_102_23 + squad_103_23
  + squad_740_23 + squad_746_23 + squad_751_23 + squad_753_23 + squad_757_23
  + squad_75_23 + squad_761_23 + squad_763_23 + squad_766_23 + squad_768_23
  + squad_774_23 + squad_777_23 + squad_782_23 + squad_784_23 + squad_788_23
- + squad_7_23 + squad_83_23 + squad_84_23 + squad_89_23 + squad_90_23
- + squad_93_23 + squad_96_23 = 5
+ + squad_792_23 + squad_793_23 + squad_797_23 + squad_7_23 + squad_83_23
+ + squad_84_23 + squad_89_23 + squad_90_23 + squad_93_23 + squad_96_23 = 5
 Squad_players_in_position_2_in_gameweek_24: squad_102_24 + squad_103_24
  + squad_104_24 + squad_109_24 + squad_10_24 + squad_112_24 + squad_114_24
  + squad_121_24 + squad_129_24 + squad_131_24 + squad_136_24 + squad_139_24
@@ -50850,8 +51206,8 @@ Squad_players_in_position_2_in_gameweek_24: squad_102_24 + squad_103_24
  + squad_740_24 + squad_746_24 + squad_751_24 + squad_753_24 + squad_757_24
  + squad_75_24 + squad_761_24 + squad_763_24 + squad_766_24 + squad_768_24
  + squad_774_24 + squad_777_24 + squad_782_24 + squad_784_24 + squad_788_24
- + squad_7_24 + squad_83_24 + squad_84_24 + squad_89_24 + squad_90_24
- + squad_93_24 + squad_96_24 = 5
+ + squad_792_24 + squad_793_24 + squad_797_24 + squad_7_24 + squad_83_24
+ + squad_84_24 + squad_89_24 + squad_90_24 + squad_93_24 + squad_96_24 = 5
 Squad_players_in_position_2_in_gameweek_25: squad_102_25 + squad_103_25
  + squad_104_25 + squad_109_25 + squad_10_25 + squad_112_25 + squad_114_25
  + squad_121_25 + squad_129_25 + squad_131_25 + squad_136_25 + squad_139_25
@@ -50902,8 +51258,8 @@ Squad_players_in_position_2_in_gameweek_25: squad_102_25 + squad_103_25
  + squad_740_25 + squad_746_25 + squad_751_25 + squad_753_25 + squad_757_25
  + squad_75_25 + squad_761_25 + squad_763_25 + squad_766_25 + squad_768_25
  + squad_774_25 + squad_777_25 + squad_782_25 + squad_784_25 + squad_788_25
- + squad_7_25 + squad_83_25 + squad_84_25 + squad_89_25 + squad_90_25
- + squad_93_25 + squad_96_25 = 5
+ + squad_792_25 + squad_793_25 + squad_797_25 + squad_7_25 + squad_83_25
+ + squad_84_25 + squad_89_25 + squad_90_25 + squad_93_25 + squad_96_25 = 5
 Squad_players_in_position_2_in_gameweek_26: squad_102_26 + squad_103_26
  + squad_104_26 + squad_109_26 + squad_10_26 + squad_112_26 + squad_114_26
  + squad_121_26 + squad_129_26 + squad_131_26 + squad_136_26 + squad_139_26
@@ -50954,8 +51310,8 @@ Squad_players_in_position_2_in_gameweek_26: squad_102_26 + squad_103_26
  + squad_740_26 + squad_746_26 + squad_751_26 + squad_753_26 + squad_757_26
  + squad_75_26 + squad_761_26 + squad_763_26 + squad_766_26 + squad_768_26
  + squad_774_26 + squad_777_26 + squad_782_26 + squad_784_26 + squad_788_26
- + squad_7_26 + squad_83_26 + squad_84_26 + squad_89_26 + squad_90_26
- + squad_93_26 + squad_96_26 = 5
+ + squad_792_26 + squad_793_26 + squad_797_26 + squad_7_26 + squad_83_26
+ + squad_84_26 + squad_89_26 + squad_90_26 + squad_93_26 + squad_96_26 = 5
 Squad_players_in_position_3_in_gameweek_23: squad_105_23 + squad_106_23
  + squad_107_23 + squad_108_23 + squad_110_23 + squad_111_23 + squad_115_23
  + squad_118_23 + squad_11_23 + squad_120_23 + squad_122_23 + squad_123_23
@@ -51023,8 +51379,9 @@ Squad_players_in_position_3_in_gameweek_23: squad_105_23 + squad_106_23
  + squad_760_23 + squad_762_23 + squad_764_23 + squad_767_23 + squad_769_23
  + squad_770_23 + squad_771_23 + squad_772_23 + squad_773_23 + squad_775_23
  + squad_779_23 + squad_783_23 + squad_786_23 + squad_787_23 + squad_78_23
- + squad_79_23 + squad_81_23 + squad_86_23 + squad_87_23 + squad_92_23
- + squad_94_23 + squad_95_23 + squad_98_23 + squad_99_23 + squad_9_23 = 5
+ + squad_791_23 + squad_794_23 + squad_795_23 + squad_796_23 + squad_79_23
+ + squad_81_23 + squad_86_23 + squad_87_23 + squad_92_23 + squad_94_23
+ + squad_95_23 + squad_98_23 + squad_99_23 + squad_9_23 = 5
 Squad_players_in_position_3_in_gameweek_24: squad_105_24 + squad_106_24
  + squad_107_24 + squad_108_24 + squad_110_24 + squad_111_24 + squad_115_24
  + squad_118_24 + squad_11_24 + squad_120_24 + squad_122_24 + squad_123_24
@@ -51092,8 +51449,9 @@ Squad_players_in_position_3_in_gameweek_24: squad_105_24 + squad_106_24
  + squad_760_24 + squad_762_24 + squad_764_24 + squad_767_24 + squad_769_24
  + squad_770_24 + squad_771_24 + squad_772_24 + squad_773_24 + squad_775_24
  + squad_779_24 + squad_783_24 + squad_786_24 + squad_787_24 + squad_78_24
- + squad_79_24 + squad_81_24 + squad_86_24 + squad_87_24 + squad_92_24
- + squad_94_24 + squad_95_24 + squad_98_24 + squad_99_24 + squad_9_24 = 5
+ + squad_791_24 + squad_794_24 + squad_795_24 + squad_796_24 + squad_79_24
+ + squad_81_24 + squad_86_24 + squad_87_24 + squad_92_24 + squad_94_24
+ + squad_95_24 + squad_98_24 + squad_99_24 + squad_9_24 = 5
 Squad_players_in_position_3_in_gameweek_25: squad_105_25 + squad_106_25
  + squad_107_25 + squad_108_25 + squad_110_25 + squad_111_25 + squad_115_25
  + squad_118_25 + squad_11_25 + squad_120_25 + squad_122_25 + squad_123_25
@@ -51161,8 +51519,9 @@ Squad_players_in_position_3_in_gameweek_25: squad_105_25 + squad_106_25
  + squad_760_25 + squad_762_25 + squad_764_25 + squad_767_25 + squad_769_25
  + squad_770_25 + squad_771_25 + squad_772_25 + squad_773_25 + squad_775_25
  + squad_779_25 + squad_783_25 + squad_786_25 + squad_787_25 + squad_78_25
- + squad_79_25 + squad_81_25 + squad_86_25 + squad_87_25 + squad_92_25
- + squad_94_25 + squad_95_25 + squad_98_25 + squad_99_25 + squad_9_25 = 5
+ + squad_791_25 + squad_794_25 + squad_795_25 + squad_796_25 + squad_79_25
+ + squad_81_25 + squad_86_25 + squad_87_25 + squad_92_25 + squad_94_25
+ + squad_95_25 + squad_98_25 + squad_99_25 + squad_9_25 = 5
 Squad_players_in_position_3_in_gameweek_26: squad_105_26 + squad_106_26
  + squad_107_26 + squad_108_26 + squad_110_26 + squad_111_26 + squad_115_26
  + squad_118_26 + squad_11_26 + squad_120_26 + squad_122_26 + squad_123_26
@@ -51230,8 +51589,9 @@ Squad_players_in_position_3_in_gameweek_26: squad_105_26 + squad_106_26
  + squad_760_26 + squad_762_26 + squad_764_26 + squad_767_26 + squad_769_26
  + squad_770_26 + squad_771_26 + squad_772_26 + squad_773_26 + squad_775_26
  + squad_779_26 + squad_783_26 + squad_786_26 + squad_787_26 + squad_78_26
- + squad_79_26 + squad_81_26 + squad_86_26 + squad_87_26 + squad_92_26
- + squad_94_26 + squad_95_26 + squad_98_26 + squad_99_26 + squad_9_26 = 5
+ + squad_791_26 + squad_794_26 + squad_795_26 + squad_796_26 + squad_79_26
+ + squad_81_26 + squad_86_26 + squad_87_26 + squad_92_26 + squad_94_26
+ + squad_95_26 + squad_98_26 + squad_99_26 + squad_9_26 = 5
 Squad_players_in_position_4_in_gameweek_23: squad_100_23 + squad_117_23
  + squad_119_23 + squad_127_23 + squad_132_23 + squad_135_23 + squad_13_23
  + squad_149_23 + squad_154_23 + squad_155_23 + squad_168_23 + squad_174_23
@@ -51570,7 +51930,10 @@ Transfers_made_constraint_for_gameweek_23: transfer_in_100_23
  + transfer_in_779_23 + transfer_in_77_23 + transfer_in_780_23
  + transfer_in_781_23 + transfer_in_782_23 + transfer_in_783_23
  + transfer_in_784_23 + transfer_in_785_23 + transfer_in_786_23
- + transfer_in_787_23 + transfer_in_788_23 + transfer_in_78_23
+ + transfer_in_787_23 + transfer_in_788_23 + transfer_in_789_23
+ + transfer_in_78_23 + transfer_in_790_23 + transfer_in_791_23
+ + transfer_in_792_23 + transfer_in_793_23 + transfer_in_794_23
+ + transfer_in_795_23 + transfer_in_796_23 + transfer_in_797_23
  + transfer_in_79_23 + transfer_in_7_23 + transfer_in_80_23
  + transfer_in_81_23 + transfer_in_82_23 + transfer_in_83_23
  + transfer_in_84_23 + transfer_in_85_23 + transfer_in_86_23
@@ -51833,7 +52196,10 @@ Transfers_made_constraint_for_gameweek_24: transfer_in_100_24
  + transfer_in_779_24 + transfer_in_77_24 + transfer_in_780_24
  + transfer_in_781_24 + transfer_in_782_24 + transfer_in_783_24
  + transfer_in_784_24 + transfer_in_785_24 + transfer_in_786_24
- + transfer_in_787_24 + transfer_in_788_24 + transfer_in_78_24
+ + transfer_in_787_24 + transfer_in_788_24 + transfer_in_789_24
+ + transfer_in_78_24 + transfer_in_790_24 + transfer_in_791_24
+ + transfer_in_792_24 + transfer_in_793_24 + transfer_in_794_24
+ + transfer_in_795_24 + transfer_in_796_24 + transfer_in_797_24
  + transfer_in_79_24 + transfer_in_7_24 + transfer_in_80_24
  + transfer_in_81_24 + transfer_in_82_24 + transfer_in_83_24
  + transfer_in_84_24 + transfer_in_85_24 + transfer_in_86_24
@@ -52096,7 +52462,10 @@ Transfers_made_constraint_for_gameweek_25: transfer_in_100_25
  + transfer_in_779_25 + transfer_in_77_25 + transfer_in_780_25
  + transfer_in_781_25 + transfer_in_782_25 + transfer_in_783_25
  + transfer_in_784_25 + transfer_in_785_25 + transfer_in_786_25
- + transfer_in_787_25 + transfer_in_788_25 + transfer_in_78_25
+ + transfer_in_787_25 + transfer_in_788_25 + transfer_in_789_25
+ + transfer_in_78_25 + transfer_in_790_25 + transfer_in_791_25
+ + transfer_in_792_25 + transfer_in_793_25 + transfer_in_794_25
+ + transfer_in_795_25 + transfer_in_796_25 + transfer_in_797_25
  + transfer_in_79_25 + transfer_in_7_25 + transfer_in_80_25
  + transfer_in_81_25 + transfer_in_82_25 + transfer_in_83_25
  + transfer_in_84_25 + transfer_in_85_25 + transfer_in_86_25
@@ -52359,7 +52728,10 @@ Transfers_made_constraint_for_gameweek_26: transfer_in_100_26
  + transfer_in_779_26 + transfer_in_77_26 + transfer_in_780_26
  + transfer_in_781_26 + transfer_in_782_26 + transfer_in_783_26
  + transfer_in_784_26 + transfer_in_785_26 + transfer_in_786_26
- + transfer_in_787_26 + transfer_in_788_26 + transfer_in_78_26
+ + transfer_in_787_26 + transfer_in_788_26 + transfer_in_789_26
+ + transfer_in_78_26 + transfer_in_790_26 + transfer_in_791_26
+ + transfer_in_792_26 + transfer_in_793_26 + transfer_in_794_26
+ + transfer_in_795_26 + transfer_in_796_26 + transfer_in_797_26
  + transfer_in_79_26 + transfer_in_7_26 + transfer_in_80_26
  + transfer_in_81_26 + transfer_in_82_26 + transfer_in_83_26
  + transfer_in_84_26 + transfer_in_85_26 + transfer_in_86_26
@@ -52622,7 +52994,10 @@ Vice_captain_count_constraint_for_gameweek_23: vice_captain_100_23
  + vice_captain_779_23 + vice_captain_77_23 + vice_captain_780_23
  + vice_captain_781_23 + vice_captain_782_23 + vice_captain_783_23
  + vice_captain_784_23 + vice_captain_785_23 + vice_captain_786_23
- + vice_captain_787_23 + vice_captain_788_23 + vice_captain_78_23
+ + vice_captain_787_23 + vice_captain_788_23 + vice_captain_789_23
+ + vice_captain_78_23 + vice_captain_790_23 + vice_captain_791_23
+ + vice_captain_792_23 + vice_captain_793_23 + vice_captain_794_23
+ + vice_captain_795_23 + vice_captain_796_23 + vice_captain_797_23
  + vice_captain_79_23 + vice_captain_7_23 + vice_captain_80_23
  + vice_captain_81_23 + vice_captain_82_23 + vice_captain_83_23
  + vice_captain_84_23 + vice_captain_85_23 + vice_captain_86_23
@@ -52885,7 +53260,10 @@ Vice_captain_count_constraint_for_gameweek_24: vice_captain_100_24
  + vice_captain_779_24 + vice_captain_77_24 + vice_captain_780_24
  + vice_captain_781_24 + vice_captain_782_24 + vice_captain_783_24
  + vice_captain_784_24 + vice_captain_785_24 + vice_captain_786_24
- + vice_captain_787_24 + vice_captain_788_24 + vice_captain_78_24
+ + vice_captain_787_24 + vice_captain_788_24 + vice_captain_789_24
+ + vice_captain_78_24 + vice_captain_790_24 + vice_captain_791_24
+ + vice_captain_792_24 + vice_captain_793_24 + vice_captain_794_24
+ + vice_captain_795_24 + vice_captain_796_24 + vice_captain_797_24
  + vice_captain_79_24 + vice_captain_7_24 + vice_captain_80_24
  + vice_captain_81_24 + vice_captain_82_24 + vice_captain_83_24
  + vice_captain_84_24 + vice_captain_85_24 + vice_captain_86_24
@@ -53148,7 +53526,10 @@ Vice_captain_count_constraint_for_gameweek_25: vice_captain_100_25
  + vice_captain_779_25 + vice_captain_77_25 + vice_captain_780_25
  + vice_captain_781_25 + vice_captain_782_25 + vice_captain_783_25
  + vice_captain_784_25 + vice_captain_785_25 + vice_captain_786_25
- + vice_captain_787_25 + vice_captain_788_25 + vice_captain_78_25
+ + vice_captain_787_25 + vice_captain_788_25 + vice_captain_789_25
+ + vice_captain_78_25 + vice_captain_790_25 + vice_captain_791_25
+ + vice_captain_792_25 + vice_captain_793_25 + vice_captain_794_25
+ + vice_captain_795_25 + vice_captain_796_25 + vice_captain_797_25
  + vice_captain_79_25 + vice_captain_7_25 + vice_captain_80_25
  + vice_captain_81_25 + vice_captain_82_25 + vice_captain_83_25
  + vice_captain_84_25 + vice_captain_85_25 + vice_captain_86_25
@@ -53411,7 +53792,10 @@ Vice_captain_count_constraint_for_gameweek_26: vice_captain_100_26
  + vice_captain_779_26 + vice_captain_77_26 + vice_captain_780_26
  + vice_captain_781_26 + vice_captain_782_26 + vice_captain_783_26
  + vice_captain_784_26 + vice_captain_785_26 + vice_captain_786_26
- + vice_captain_787_26 + vice_captain_788_26 + vice_captain_78_26
+ + vice_captain_787_26 + vice_captain_788_26 + vice_captain_789_26
+ + vice_captain_78_26 + vice_captain_790_26 + vice_captain_791_26
+ + vice_captain_792_26 + vice_captain_793_26 + vice_captain_794_26
+ + vice_captain_795_26 + vice_captain_796_26 + vice_captain_797_26
  + vice_captain_79_26 + vice_captain_7_26 + vice_captain_80_26
  + vice_captain_81_26 + vice_captain_82_26 + vice_captain_83_26
  + vice_captain_84_26 + vice_captain_85_26 + vice_captain_86_26
@@ -59516,6 +59900,14 @@ Vice_captain_must_be_in_lineup_constraint_for_player_788_in_gameweek_25:
  - lineup_788_25 + vice_captain_788_25 <= 0
 Vice_captain_must_be_in_lineup_constraint_for_player_788_in_gameweek_26:
  - lineup_788_26 + vice_captain_788_26 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_789_in_gameweek_23:
+ - lineup_789_23 + vice_captain_789_23 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_789_in_gameweek_24:
+ - lineup_789_24 + vice_captain_789_24 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_789_in_gameweek_25:
+ - lineup_789_25 + vice_captain_789_25 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_789_in_gameweek_26:
+ - lineup_789_26 + vice_captain_789_26 <= 0
 Vice_captain_must_be_in_lineup_constraint_for_player_78_in_gameweek_23:
  - lineup_78_23 + vice_captain_78_23 <= 0
 Vice_captain_must_be_in_lineup_constraint_for_player_78_in_gameweek_24:
@@ -59524,6 +59916,70 @@ Vice_captain_must_be_in_lineup_constraint_for_player_78_in_gameweek_25:
  - lineup_78_25 + vice_captain_78_25 <= 0
 Vice_captain_must_be_in_lineup_constraint_for_player_78_in_gameweek_26:
  - lineup_78_26 + vice_captain_78_26 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_790_in_gameweek_23:
+ - lineup_790_23 + vice_captain_790_23 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_790_in_gameweek_24:
+ - lineup_790_24 + vice_captain_790_24 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_790_in_gameweek_25:
+ - lineup_790_25 + vice_captain_790_25 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_790_in_gameweek_26:
+ - lineup_790_26 + vice_captain_790_26 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_791_in_gameweek_23:
+ - lineup_791_23 + vice_captain_791_23 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_791_in_gameweek_24:
+ - lineup_791_24 + vice_captain_791_24 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_791_in_gameweek_25:
+ - lineup_791_25 + vice_captain_791_25 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_791_in_gameweek_26:
+ - lineup_791_26 + vice_captain_791_26 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_792_in_gameweek_23:
+ - lineup_792_23 + vice_captain_792_23 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_792_in_gameweek_24:
+ - lineup_792_24 + vice_captain_792_24 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_792_in_gameweek_25:
+ - lineup_792_25 + vice_captain_792_25 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_792_in_gameweek_26:
+ - lineup_792_26 + vice_captain_792_26 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_793_in_gameweek_23:
+ - lineup_793_23 + vice_captain_793_23 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_793_in_gameweek_24:
+ - lineup_793_24 + vice_captain_793_24 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_793_in_gameweek_25:
+ - lineup_793_25 + vice_captain_793_25 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_793_in_gameweek_26:
+ - lineup_793_26 + vice_captain_793_26 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_794_in_gameweek_23:
+ - lineup_794_23 + vice_captain_794_23 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_794_in_gameweek_24:
+ - lineup_794_24 + vice_captain_794_24 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_794_in_gameweek_25:
+ - lineup_794_25 + vice_captain_794_25 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_794_in_gameweek_26:
+ - lineup_794_26 + vice_captain_794_26 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_795_in_gameweek_23:
+ - lineup_795_23 + vice_captain_795_23 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_795_in_gameweek_24:
+ - lineup_795_24 + vice_captain_795_24 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_795_in_gameweek_25:
+ - lineup_795_25 + vice_captain_795_25 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_795_in_gameweek_26:
+ - lineup_795_26 + vice_captain_795_26 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_796_in_gameweek_23:
+ - lineup_796_23 + vice_captain_796_23 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_796_in_gameweek_24:
+ - lineup_796_24 + vice_captain_796_24 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_796_in_gameweek_25:
+ - lineup_796_25 + vice_captain_796_25 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_796_in_gameweek_26:
+ - lineup_796_26 + vice_captain_796_26 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_797_in_gameweek_23:
+ - lineup_797_23 + vice_captain_797_23 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_797_in_gameweek_24:
+ - lineup_797_24 + vice_captain_797_24 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_797_in_gameweek_25:
+ - lineup_797_25 + vice_captain_797_25 <= 0
+Vice_captain_must_be_in_lineup_constraint_for_player_797_in_gameweek_26:
+ - lineup_797_26 + vice_captain_797_26 <= 0
 Vice_captain_must_be_in_lineup_constraint_for_player_79_in_gameweek_23:
  - lineup_79_23 + vice_captain_79_23 <= 0
 Vice_captain_must_be_in_lineup_constraint_for_player_79_in_gameweek_24:
@@ -62789,10 +63245,46 @@ captain_788_23
 captain_788_24
 captain_788_25
 captain_788_26
+captain_789_23
+captain_789_24
+captain_789_25
+captain_789_26
 captain_78_23
 captain_78_24
 captain_78_25
 captain_78_26
+captain_790_23
+captain_790_24
+captain_790_25
+captain_790_26
+captain_791_23
+captain_791_24
+captain_791_25
+captain_791_26
+captain_792_23
+captain_792_24
+captain_792_25
+captain_792_26
+captain_793_23
+captain_793_24
+captain_793_25
+captain_793_26
+captain_794_23
+captain_794_24
+captain_794_25
+captain_794_26
+captain_795_23
+captain_795_24
+captain_795_25
+captain_795_26
+captain_796_23
+captain_796_24
+captain_796_25
+captain_796_26
+captain_797_23
+captain_797_24
+captain_797_25
+captain_797_26
 captain_79_23
 captain_79_24
 captain_79_25
@@ -65937,10 +66429,46 @@ lineup_788_23
 lineup_788_24
 lineup_788_25
 lineup_788_26
+lineup_789_23
+lineup_789_24
+lineup_789_25
+lineup_789_26
 lineup_78_23
 lineup_78_24
 lineup_78_25
 lineup_78_26
+lineup_790_23
+lineup_790_24
+lineup_790_25
+lineup_790_26
+lineup_791_23
+lineup_791_24
+lineup_791_25
+lineup_791_26
+lineup_792_23
+lineup_792_24
+lineup_792_25
+lineup_792_26
+lineup_793_23
+lineup_793_24
+lineup_793_25
+lineup_793_26
+lineup_794_23
+lineup_794_24
+lineup_794_25
+lineup_794_26
+lineup_795_23
+lineup_795_24
+lineup_795_25
+lineup_795_26
+lineup_796_23
+lineup_796_24
+lineup_796_25
+lineup_796_26
+lineup_797_23
+lineup_797_24
+lineup_797_25
+lineup_797_26
 lineup_79_23
 lineup_79_24
 lineup_79_25
@@ -69847,11 +70375,56 @@ squad_788_23
 squad_788_24
 squad_788_25
 squad_788_26
+squad_789_22
+squad_789_23
+squad_789_24
+squad_789_25
+squad_789_26
 squad_78_22
 squad_78_23
 squad_78_24
 squad_78_25
 squad_78_26
+squad_790_22
+squad_790_23
+squad_790_24
+squad_790_25
+squad_790_26
+squad_791_22
+squad_791_23
+squad_791_24
+squad_791_25
+squad_791_26
+squad_792_22
+squad_792_23
+squad_792_24
+squad_792_25
+squad_792_26
+squad_793_22
+squad_793_23
+squad_793_24
+squad_793_25
+squad_793_26
+squad_794_22
+squad_794_23
+squad_794_24
+squad_794_25
+squad_794_26
+squad_795_22
+squad_795_23
+squad_795_24
+squad_795_25
+squad_795_26
+squad_796_22
+squad_796_23
+squad_796_24
+squad_796_25
+squad_796_26
+squad_797_22
+squad_797_23
+squad_797_24
+squad_797_25
+squad_797_26
 squad_79_22
 squad_79_23
 squad_79_24
@@ -73020,10 +73593,46 @@ transfer_in_788_23
 transfer_in_788_24
 transfer_in_788_25
 transfer_in_788_26
+transfer_in_789_23
+transfer_in_789_24
+transfer_in_789_25
+transfer_in_789_26
 transfer_in_78_23
 transfer_in_78_24
 transfer_in_78_25
 transfer_in_78_26
+transfer_in_790_23
+transfer_in_790_24
+transfer_in_790_25
+transfer_in_790_26
+transfer_in_791_23
+transfer_in_791_24
+transfer_in_791_25
+transfer_in_791_26
+transfer_in_792_23
+transfer_in_792_24
+transfer_in_792_25
+transfer_in_792_26
+transfer_in_793_23
+transfer_in_793_24
+transfer_in_793_25
+transfer_in_793_26
+transfer_in_794_23
+transfer_in_794_24
+transfer_in_794_25
+transfer_in_794_26
+transfer_in_795_23
+transfer_in_795_24
+transfer_in_795_25
+transfer_in_795_26
+transfer_in_796_23
+transfer_in_796_24
+transfer_in_796_25
+transfer_in_796_26
+transfer_in_797_23
+transfer_in_797_24
+transfer_in_797_25
+transfer_in_797_26
 transfer_in_79_23
 transfer_in_79_24
 transfer_in_79_25
@@ -76168,10 +76777,46 @@ transfer_out_788_23
 transfer_out_788_24
 transfer_out_788_25
 transfer_out_788_26
+transfer_out_789_23
+transfer_out_789_24
+transfer_out_789_25
+transfer_out_789_26
 transfer_out_78_23
 transfer_out_78_24
 transfer_out_78_25
 transfer_out_78_26
+transfer_out_790_23
+transfer_out_790_24
+transfer_out_790_25
+transfer_out_790_26
+transfer_out_791_23
+transfer_out_791_24
+transfer_out_791_25
+transfer_out_791_26
+transfer_out_792_23
+transfer_out_792_24
+transfer_out_792_25
+transfer_out_792_26
+transfer_out_793_23
+transfer_out_793_24
+transfer_out_793_25
+transfer_out_793_26
+transfer_out_794_23
+transfer_out_794_24
+transfer_out_794_25
+transfer_out_794_26
+transfer_out_795_23
+transfer_out_795_24
+transfer_out_795_25
+transfer_out_795_26
+transfer_out_796_23
+transfer_out_796_24
+transfer_out_796_25
+transfer_out_796_26
+transfer_out_797_23
+transfer_out_797_24
+transfer_out_797_25
+transfer_out_797_26
 transfer_out_79_23
 transfer_out_79_24
 transfer_out_79_25
@@ -79316,10 +79961,46 @@ vice_captain_788_23
 vice_captain_788_24
 vice_captain_788_25
 vice_captain_788_26
+vice_captain_789_23
+vice_captain_789_24
+vice_captain_789_25
+vice_captain_789_26
 vice_captain_78_23
 vice_captain_78_24
 vice_captain_78_25
 vice_captain_78_26
+vice_captain_790_23
+vice_captain_790_24
+vice_captain_790_25
+vice_captain_790_26
+vice_captain_791_23
+vice_captain_791_24
+vice_captain_791_25
+vice_captain_791_26
+vice_captain_792_23
+vice_captain_792_24
+vice_captain_792_25
+vice_captain_792_26
+vice_captain_793_23
+vice_captain_793_24
+vice_captain_793_25
+vice_captain_793_26
+vice_captain_794_23
+vice_captain_794_24
+vice_captain_794_25
+vice_captain_794_26
+vice_captain_795_23
+vice_captain_795_24
+vice_captain_795_25
+vice_captain_795_26
+vice_captain_796_23
+vice_captain_796_24
+vice_captain_796_25
+vice_captain_796_26
+vice_captain_797_23
+vice_captain_797_24
+vice_captain_797_25
+vice_captain_797_26
 vice_captain_79_23
 vice_captain_79_24
 vice_captain_79_25
