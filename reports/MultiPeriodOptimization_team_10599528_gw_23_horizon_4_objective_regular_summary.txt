@@ -1,40 +1,40 @@
 --------------------------------------------------
 Gameweek 23 summary:
 --------------------------------------------------
-Total expected points: 58.42
-Money in bank: 3.9
+Total expected points: 55.8
+Money in bank: 4.7
 Free transfers available: 1
 Transfers made: 1
 Penalised transfers: 0
-Player 430 (Trippier @ Newcastle) transferred in.
-Player 506 (Pedro Porro @ Spurs) transferred out.
+Player 101 (Flekken @ BRE) transferred in.
+Player 230 (Johnstone @ CRY) transferred out.
 --------------------------------------------------
 Gameweek 24 summary:
 --------------------------------------------------
-Total expected points: 60.08
-Money in bank: 0.2
+Total expected points: 57.84
+Money in bank: 5.2
 Free transfers available: 1
 Transfers made: 1
 Penalised transfers: 0
-Player 126 (Caicedo @ Chelsea) transferred out.
-Player 373 (B.Fernandes @ Man Utd) transferred in.
+Player 5 (Gabriel @ ARS) transferred in.
+Player 369 (Walker @ MCI) transferred out.
 --------------------------------------------------
 Gameweek 25 summary:
 --------------------------------------------------
-Total expected points: 85.2
-Money in bank: 0.2
+Total expected points: 83.44
+Money in bank: 1.7
 Free transfers available: 1
 Transfers made: 1
 Penalised transfers: 0
-Player 101 (Flekken @ Brentford) transferred in.
-Player 230 (Johnstone @ Crystal Palace) transferred out.
+Player 126 (Caicedo @ CHE) transferred out.
+Player 353 (Foden @ MCI) transferred in.
 --------------------------------------------------
 Gameweek 26 summary:
 --------------------------------------------------
-Total expected points: 63.2
-Money in bank: 1.9
+Total expected points: 61.65
+Money in bank: 3.2
 Free transfers available: 1
 Transfers made: 1
 Penalised transfers: 0
-Player 5 (Gabriel @ Arsenal) transferred in.
-Player 430 (Trippier @ Newcastle) transferred out.
+Player 228 (Guéhi @ CRY) transferred in.
+Player 506 (Pedro Porro @ TOT) transferred out.

@@ -1,30 +1,30 @@
 --------------------------------------------------
 Gameweek 23 summary:
 --------------------------------------------------
-Total expected points: 58.73
-Money in bank: 3.0
+Total expected points: 55.8
+Money in bank: 4.7
 Free transfers available: 1
 Transfers made: 1
 Penalised transfers: 0
-Player 342 (Aké @ Man City) transferred out.
-Player 430 (Trippier @ Newcastle) transferred in.
+Player 101 (Flekken @ BRE) transferred in.
+Player 230 (Johnstone @ CRY) transferred out.
 --------------------------------------------------
 Gameweek 24 summary:
 --------------------------------------------------
-Total expected points: 59.53
-Money in bank: 3.0
+Total expected points: 59.16
+Money in bank: 1.7
 Free transfers available: 1
-Transfers made: 0
+Transfers made: 1
 Penalised transfers: 0
+Player 290 (Alexander-Arnold @ LIV) transferred in.
+Player 369 (Walker @ MCI) transferred out.
 --------------------------------------------------
 Gameweek 25 summary:
 --------------------------------------------------
-Total expected points: 88.39
-Money in bank: 1.0
-Free transfers available: 2
-Transfers made: 2
+Total expected points: 82.47
+Money in bank: 2.2
+Free transfers available: 1
+Transfers made: 1
 Penalised transfers: 0
-Player 14 (Ødegaard @ Arsenal) transferred out.
-Player 60 (Watkins @ Aston Villa) transferred out.
-Player 110 (Nørgaard @ Brentford) transferred in.
-Player 355 (Haaland @ Man City) transferred in.
+Player 14 (Ødegaard @ ARS) transferred out.
+Player 353 (Foden @ MCI) transferred in.

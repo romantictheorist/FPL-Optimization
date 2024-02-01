@@ -1,20 +1,20 @@
 --------------------------------------------------
 Gameweek 23 summary:
 --------------------------------------------------
-Total expected points: 58.73
-Money in bank: 3.0
+Total expected points: 56.09
+Money in bank: 4.7
 Free transfers available: 1
 Transfers made: 1
 Penalised transfers: 0
-Player 342 (Aké @ Man City) transferred out.
-Player 430 (Trippier @ Newcastle) transferred in.
+Player 596 (Trafford @ BUR) transferred in.
+Player 230 (Johnstone @ CRY) transferred out.
 --------------------------------------------------
 Gameweek 24 summary:
 --------------------------------------------------
-Total expected points: 61.05
-Money in bank: 0.4
+Total expected points: 59.22
+Money in bank: 1.2
 Free transfers available: 1
 Transfers made: 1
 Penalised transfers: 0
-Player 290 (Alexander-Arnold @ Liverpool) transferred in.
-Player 506 (Pedro Porro @ Spurs) transferred out.
+Player 129 (Dunk @ BHA) transferred out.
+Player 290 (Alexander-Arnold @ LIV) transferred in.

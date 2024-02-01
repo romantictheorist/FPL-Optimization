@@ -1,10 +1,10 @@
 --------------------------------------------------
 Gameweek 23 summary:
 --------------------------------------------------
-Total expected points: 58.73
-Money in bank: 3.0
+Total expected points: 56.09
+Money in bank: 4.7
 Free transfers available: 1
 Transfers made: 1
 Penalised transfers: 0
-Player 342 (Aké @ Man City) transferred out.
-Player 430 (Trippier @ Newcastle) transferred in.
+Player 596 (Trafford @ BUR) transferred in.
+Player 230 (Johnstone @ CRY) transferred out.

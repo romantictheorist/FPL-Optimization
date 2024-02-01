@@ -16,7 +16,7 @@ import sys
 sys.path.append("..")
 
 from data.get_data import FPLDataPuller, FPLFormScraper
-from features.build_features import merge_predicted_points
+from features.build_features import ProcessData
 
 pd.options.mode.chained_assignment = None  # default='warn'
 
@@ -24,9 +24,8 @@ pd.options.mode.chained_assignment = None  # default='warn'
 # Classes
 # ----------------------------------------
 
-class OptimizeMultiPeriod(FPLDataPuller):
+class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
     def __init__(self, team_id, gameweek, num_free_transfers, horizon, objective='regular', decay_base=0.85):
-        
         """
         Summary:
         --------
@@ -49,6 +48,10 @@ class OptimizeMultiPeriod(FPLDataPuller):
             Decay base to use for "decay" objective function.
         """
         
+        FPLDataPuller.__init__(self)
+        FPLFormScraper.__init__(self)
+        ProcessData.__init__(self)
+        
         # Set attributes
         self.team_id = team_id
         self.gameweek = gameweek
@@ -57,9 +60,10 @@ class OptimizeMultiPeriod(FPLDataPuller):
         self.objective = objective
         self.decay_base = decay_base
         
-        
+    
     def solve_problem(self):
         self.get_data()
+        self.get_lists()
         self.set_problem()
         self.set_variables()
         self.get_dictionaries()
@@ -90,75 +94,84 @@ class OptimizeMultiPeriod(FPLDataPuller):
         """
         Summary:
         --------
-        Function to prepare data for the optimization problem. Pulls general data and initial squad from FPL API, and merges with FPL form data.
+        Function to pull and process data from FPL API and FPLForm.com for the optimization problem.
+        
+        Returns:
+        --------
+        None
+        """
+
+        # Get initial squad and bank balance from FPL API using custom FPLDataPuller class
+        self.initial_squad = self.get_team_ids(team_id=self.team_id, gameweek=self.gameweek-1)
+        self.bank_balance = self.get_team_data(team_id=self.team_id)["bank_balance"]
+        
+        # Get current gameweek data from FPL API:
+        #  - if current gameweek data has already been downloaded, load data from there
+        #  - if not, pull data from FPL API using custom FPLDataPuller class
+        gameweek_path = f"../../data/raw/gameweeks/gw_{self.gameweek - 1}/"
+        
+        if os.path.exists(gameweek_path):
+            self.gameweek_df = pd.read_csv(gameweek_path + "gameweek.csv")
+            self.positions_df = pd.read_csv(gameweek_path + "positions.csv")
+            self.teams_df = pd.read_csv(gameweek_path + "teams.csv")
+        else:
+            gameweek_data = get_gameweek_data(gameweek=self.gameweek - 1)
+            self.gameweek_df = gameweek_data["gameweek"]
+            self.positions_df = gameweek_data["positions"]
+            self.teams_df = gameweek_data["teams"]
+            
+        # Get predicted points from FPLForm:
+        #  - if predicted points have already been downloaded, load data from there
+        #  - if not, scrape data using custom FPLFormScraper class
+        current_date = datetime.today().strftime("%Y_%m_%d")
+        predicted_points_path = f"../../data/raw/predicted_points/{current_date}_predicted_points.csv"
+        
+        if os.path.exists(predicted_points_path):
+            self.predicted_points_df = pd.read_csv(predicted_points_path)
+        else:
+            self.predicted_points_df = self.get_predicted_points()
+            
+        # Process gameweek data using custom ProcessData class
+        self.gameweek_df = self.process_gameweek(gameweek_df=self.gameweek_df)
+        # Map teams to gameweek data using custom ProcessData class
+        self.gameweek_df = self.map_teams_to_gameweek(gameweek_df=self.gameweek_df, teams_df=self.teams_df)
+        # Process predicted points using custom ProcessData class
+        self.predicted_points_df = self.process_predicted_points(predicted_points_df=self.predicted_points_df)
+        # Merge gameweek and predicted points data using custom ProcessData class
+        self.merged_df = self.merge_gameweek_and_predicted_points(gameweek_df=self.gameweek_df, predicted_points_df=self.predicted_points_df)
+        # Export merged data to csv file
+        self.merged_df.to_csv(f"../../data/processed/gw_{self.gameweek - 1}_merged_data.csv", index=False)
+        
+        # Set index as IDs for each dataframe
+        self.merged_df.set_index("player_id", inplace=True)
+        self.positions_df.set_index("id", inplace=True)
+        self.teams_df.set_index("id", inplace=True)
+        
+        
+    def get_lists(self):
+        """
+        Summary:
+        --------
+        Function to get lists of players, positions, teams, and gameweeks.
         
         Returns:
         --------
         Dictionary with the following keys:
-            - merged_elements_df: Dataframe with merged data from FPL API and FPL form data.
-            - element_types_df: Dataframe with element types (position) data.
-            - teams_df: Dataframe with teams data.
             - players: List of player IDs.
             - positions: List of position IDs.
             - teams: List of team IDs.
             - future_gameweeks: List of future gameweeks to optimize for.
             - all_gameweeks: List of all gameweeks (current gameweek + future gameweeks)
-            - initial_squad: List of player IDs in initial squad.
         """
         
-   
-        # Check if folder for current gameweek exists, if so, load data from there
-        # If not, pull data from FPL API and FPLForm scraper
-        gameweek_path = f"../../data/raw/gameweeks/gw_{self.gameweek - 1}/"
-        if os.path.exists(gameweek_path):
-            self.elements_df = pd.read_csv(gameweek_path + "elements.csv")
-            self.element_types_df = pd.read_csv(gameweek_path + "element_types.csv")
-            self.teams_df = pd.read_csv(gameweek_path + "teams.csv")
-        else:
-            # Pull general data from FPL API
-            puller = FPLDataPuller()
-            general_data = puller.get_general_data()
-            self.elements_df = general_data["elements"]
-            self.element_types_df = general_data["element_types"]
-            self.teams_df = general_data["teams"]
-            
-        # Check if today's predictions have been scraped, if so, load data from there
-        # If not, scrape data from FPLForm scraper
-        # Check by looking for file that has today's date as name
-        predicted_points_path = f"../../data/raw/predicted_points/{datetime.now().strftime("%Y_%m_%d")}_predicted_points.csv"
-        if os.path.exists(predicted_points_path):
-            predicted_points_df = pd.read_csv(predicted_points_path)
-        else:
-            scrapper = FPLFormScraper()
-            predicted_points_df = scrapper.get_predicted_points()
-            
-        # Get team data from FPL API
-        puller = FPLDataPuller()
-        team_data = puller.get_team_data(team_id=self.team_id)
-        self.bank_balance = team_data["bank_balance"]
-        
-        # Get current squad from FPL API and set as initial squad
-        self.initial_squad = puller.get_team_ids(team_id=self.team_id, gameweek=self.gameweek-1)
-                
-        # Merge predicted points with elements_df
-        self.merged_elements_df = merge_predicted_points(predicted_points_df=predicted_points_df, other_df=self.elements_df)
-        
-        # Set index for dataframes
-        self.merged_elements_df.set_index("id", inplace=True) 
-        self.element_types_df.set_index("id", inplace=True)
-        self.teams_df.set_index("id", inplace=True)
-        
-        # Get lists of players, positions, teams, and gameweeks
-        self.players = self.merged_elements_df.index.tolist()
-        self.positions = self.element_types_df.index.tolist()
+        # Get lists of players, positions, teams, future gameweeks, and all gameweeks
+        self.players = self.merged_df.index.tolist()
+        self.positions = self.positions_df.index.tolist()
         self.teams = self.teams_df.index.tolist()
         self.future_gameweeks = list(range(self.gameweek, self.gameweek + self.horizon))
         self.all_gameweeks = [self.gameweek - 1] + self.future_gameweeks
         
-        return {"merged_elements_df": self.merged_elements_df, "element_types": self.element_types_df, "teams_df": self.teams_df, "players": self.players, "positions": self.positions, 
-                "teams": self.teams, "future_gameweeks": self.future_gameweeks, "all_gameweeks": self.all_gameweeks, "initial_squad": self.initial_squad}
         
-    
     def set_problem(self):
         """
         Summary:
@@ -233,14 +246,14 @@ class OptimizeMultiPeriod(FPLDataPuller):
             - transfer_diff: Dictionary with difference between transfers made and free transfers available in each gameweek.
         """
  
-        self.player_cost = self.merged_elements_df["now_cost"].to_dict()
-        self.player_xp_gw = {(p, gw): self.merged_elements_df.loc[p, f"{gw}_pts_no_prob"] for p in self.players for gw in self.future_gameweeks}
-        self.player_prob_gw = {(p, gw): self.merged_elements_df.loc[p, f"{gw}_prob"] for p in self.players for gw in self.future_gameweeks}
+        self.player_cost = self.merged_df["cost"].to_dict()
+        self.player_xp_gw = {(p, gw): self.merged_df.loc[p, f"gw_{gw}_xp"] for p in self.players for gw in self.future_gameweeks}
+        self.player_prob_gw = {(p, gw): self.merged_df.loc[p, f"gw_{gw}_prob_of_appearing"] for p in self.players for gw in self.future_gameweeks}
         self.squad_count = {gw: lpSum([self.squad[p][gw] for p in self.players]) for gw in self.future_gameweeks}
         self.lineup_count = {gw: lpSum([self.lineup[p][gw] for p in self.players]) for gw in self.future_gameweeks}
-        self.lineup_position_count = {(pos, gw): lpSum([self.lineup[p][gw] for p in self.players if self.merged_elements_df.loc[p, "element_type"] == pos]) for pos in self.positions for gw in self.future_gameweeks}
-        self.squad_position_count = {(pos, gw): lpSum([self.squad[p][gw] for p in self.players if self.merged_elements_df.loc[p, "element_type"] == pos]) for pos in self.positions for gw in self.future_gameweeks}
-        self.squad_team_count = {(team, gw): lpSum([self.squad[p][gw] for p in self.players if self.merged_elements_df.loc[p, "team"] == team]) for team in self.teams for gw in self.future_gameweeks}
+        self.lineup_position_count = {(pos, gw): lpSum([self.lineup[p][gw] for p in self.players if self.merged_df.loc[p, "element_type"] == pos]) for pos in self.positions for gw in self.future_gameweeks}
+        self.squad_position_count = {(pos, gw): lpSum([self.squad[p][gw] for p in self.players if self.merged_df.loc[p, "element_type"] == pos]) for pos in self.positions for gw in self.future_gameweeks}
+        self.squad_team_count = {(team, gw): lpSum([self.squad[p][gw] for p in self.players if self.merged_df.loc[p, "team_id"] == team]) for team in self.teams for gw in self.future_gameweeks}
         self.revenue = {gw: lpSum([self.player_cost[p] * self.transfer_out[p][gw] for p in self.players]) for gw in self.future_gameweeks}
         self.expenditure = {gw: lpSum([self.player_cost[p] * self.transfer_in[p][gw] for p in self.players]) for gw in self.future_gameweeks}
         self.transfers_made = {gw: lpSum([self.transfer_in[p][gw] for p in self.players]) for gw in self.future_gameweeks}
@@ -339,12 +352,12 @@ class OptimizeMultiPeriod(FPLDataPuller):
         
         for gw in self.future_gameweeks:
             for pos in self.positions:
-                # Number of players in each position in lineup must be within the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for every gameweek
-                self.model += (self.lineup_position_count[pos, gw] >= self.element_types_df.loc[pos, "squad_min_play"]), f"Min lineup players in position {pos} in gameweek {gw}"
-                self.model += (self.lineup_position_count[pos, gw] <= self.element_types_df.loc[pos, "squad_max_play"]), f"Max lineup players in position {pos} in gameweek {gw}"
+                # Number of players in each position in lineup must be within the allowed range (defined in positions_df as squad_min_play and squad_max_play) for every gameweek
+                self.model += (self.lineup_position_count[pos, gw] >= self.positions_df.loc[pos, "squad_min_play"]), f"Min lineup players in position {pos} in gameweek {gw}"
+                self.model += (self.lineup_position_count[pos, gw] <= self.positions_df.loc[pos, "squad_max_play"]), f"Max lineup players in position {pos} in gameweek {gw}"
 
-                # Number of players in each position in squad must be satisfied (defined in element_types_df as squad_select) for every gameweek
-                self.model += (self.squad_position_count[pos, gw] == self.element_types_df.loc[pos, "squad_select"]), f"Squad players in position {pos} in gameweek {gw}"
+                # Number of players in each position in squad must be satisfied (defined in positions_df as squad_select) for every gameweek
+                self.model += (self.squad_position_count[pos, gw] == self.positions_df.loc[pos, "squad_select"]), f"Squad players in position {pos} in gameweek {gw}"
 
         # ----------------------------------------
         # Team played for constraints
@@ -359,11 +372,11 @@ class OptimizeMultiPeriod(FPLDataPuller):
         # Probability of appearance constraints
         # ----------------------------------------
 
-        # For every gameweek the probability of squad player appearing in next gameweek must be >= 50%, while probability of lineup player > 75%
+        # For every gameweek the probability of squad player appearing in next gameweek must be >= 75%, while probability of lineup player > 90%
         for gw in self.future_gameweeks:
             for p in self.players:
-                self.model += self.squad[p][gw] <= (self.player_prob_gw[p, gw] >= 0.5), f"Probability of appearance for squad player {p} for gameweek {gw}"
-                self.model += self.lineup[p][gw] <= (self.player_prob_gw[p, gw] >= 0.75), f"Probability of appearance for lineup player {p} for gameweek {gw}"
+                self.model += self.squad[p][gw] <= (self.player_prob_gw[p, gw] >= 0.75), f"Probability of appearance for squad player {p} for gameweek {gw}"
+                self.model += self.lineup[p][gw] <= (self.player_prob_gw[p, gw] >= 0.90), f"Probability of appearance for lineup player {p} for gameweek {gw}"
             
         # ----------------------------------------
         # Budgeting / Financial constraints
@@ -465,12 +478,12 @@ class OptimizeMultiPeriod(FPLDataPuller):
                             {   
                                 "gw": gw,
                                 "player_id": p,
-                                "player_name": self.merged_elements_df.loc[p, "web_name"],
-                                "team": self.merged_elements_df.loc[p, "team_name"],
-                                "position": self.merged_elements_df.loc[p, "position"],
-                                "position_id": self.merged_elements_df.loc[p, "element_type"],
+                                "name": self.merged_df.loc[p, "name"],
+                                "team": self.merged_df.loc[p, "team"],
+                                "position": self.merged_df.loc[p, "position"],
+                                "position_id": self.merged_df.loc[p, "element_type"],
                                 "cost": self.player_cost[p],
-                                "prob_appearance": self.player_prob_gw[p, gw],
+                                "prob_of_appearing": self.player_prob_gw[p, gw],
                                 "xp": self.player_xp_gw[p, gw],
                                 "squad": self.squad[p][gw].varValue,
                                 "lineup": self.lineup[p][gw].varValue,
@@ -508,8 +521,8 @@ class OptimizeMultiPeriod(FPLDataPuller):
             - Number of players in each position in squad is equal to squad_select (defined in element_types_df) for each gameweek
             - Number of players in each position in lineup is greater than the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for each gameweek
             - Number of players in each position in lineup is less than the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for each gameweek
-            - Probability of appearance for each player in squad is greater than 50% for each gameweek
-            - Probability of appearance for each player in lineup is greater than 75% for each gameweek
+            - Probability of appearance for each player in squad is greater than 75% for each gameweek
+            - Probability of appearance for each player in lineup is greater than 90% for each gameweek
             - Number of captains is equal to 1 for each gameweek
             - Number of vice captains is equal to 1 for each gameweek
             - Captain is in lineup for each gameweek
@@ -539,11 +552,11 @@ class OptimizeMultiPeriod(FPLDataPuller):
                 condition_2 = gw_results.lineup.sum() == 11
                 condition_3 = gw_results.transfer_in.sum() == gw_results.transfer_out.sum()
                 condition_4 = gw_results[gw_results["squad"] == 1].team.value_counts().max() <= 3
-                condition_5 = all(gw_results.groupby("position_id").squad.sum() == self.element_types_df["squad_select"])
-                condition_6a = all(gw_results.groupby("position_id").lineup.sum() >= self.element_types_df["squad_min_play"])
-                condition_6b = all(gw_results.groupby("position_id").lineup.sum() <= self.element_types_df["squad_max_play"])
-                condition_7 = all(gw_results[gw_results["squad"] == 1].prob_appearance > 0.5)
-                condition_8 = all(gw_results[gw_results["lineup"] == 1].prob_appearance > 0.75)
+                condition_5 = all(gw_results.groupby("position_id").squad.sum() == self.positions_df["squad_select"])
+                condition_6a = all(gw_results.groupby("position_id").lineup.sum() >= self.positions_df["squad_min_play"])
+                condition_6b = all(gw_results.groupby("position_id").lineup.sum() <= self.positions_df["squad_max_play"])
+                condition_7 = all(gw_results[gw_results["squad"] == 1].prob_of_appearing > 0.75)
+                condition_8 = all(gw_results[gw_results["lineup"] == 1].prob_of_appearing > 0.90)
                 condition_9 = gw_results.captain.sum() == 1
                 condition_10 = gw_results.vice_captain.sum() == 1
                 condition_11 = gw_results[gw_results["captain"] == 1].lineup.sum() == 1
@@ -585,9 +598,9 @@ class OptimizeMultiPeriod(FPLDataPuller):
                     if not condition_6b:
                         print(f"WARNING: Number of players in each position in lineup is less than the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for gameweek {gw}.")
                     if not condition_7:
-                        print(f"WARNING: Probability of appearance for each player in squad is not greater than 50% for gameweek {gw}.")
+                        print(f"WARNING: Probability of appearance for each player in squad is not greater than 75% for gameweek {gw}.")
                     if not condition_8:
-                        print(f"WARNING: Probability of appearance for each player in lineup is not greater than 75% for gameweek {gw}.")
+                        print(f"WARNING: Probability of appearance for each player in lineup is not greater than 90% for gameweek {gw}.")
                     if not condition_9:
                         print(f"WARNING: Number of captains is not equal to 1 for gameweek {gw}.")
                     if not condition_10:
@@ -640,13 +653,13 @@ class OptimizeMultiPeriod(FPLDataPuller):
             
             for p in self.players:
                 if self.transfer_in[p][gw].varValue == 1:
-                    web_name = self.merged_elements_df.loc[p, 'web_name']
-                    team_name = self.merged_elements_df.loc[p, 'team_name']
-                    summary_list.append(f"Player {p} ({web_name} @ {team_name}) transferred in.")
+                    name = self.merged_df.loc[p, 'name']
+                    team = self.merged_df.loc[p, 'team']
+                    summary_list.append(f"Player {p} ({name} @ {team}) transferred in.")
                 if self.transfer_out[p][gw].varValue == 1:
-                    web_name = self.merged_elements_df.loc[p, 'web_name']
-                    team_name = self.merged_elements_df.loc[p, 'team_name']
-                    summary_list.append(f"Player {p} ({web_name} @ {team_name}) transferred out.")
+                    name = self.merged_df.loc[p, 'name']
+                    team = self.merged_df.loc[p, 'team']
+                    summary_list.append(f"Player {p} ({name} @ {team}) transferred out.")
         
         # Join the summary list into a single string
         summary = "\n".join(summary_list)
