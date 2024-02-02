@@ -26,14 +26,13 @@ class FPLDataPuller:
     """
     Class for pulling data from FPL API.
     """
-    
+
     base_url = "https://fantasy.premierleague.com/api/"
-    destination = "../../data/raw/gameweeks/"
     
     def __init__(self):
         pass
     
-    def get_gameweek_data(self) -> dict:
+    def get_general_data(self) -> dict:
         """
         Summary:
         --------
@@ -54,35 +53,15 @@ class FPLDataPuller:
         teams_df = pd.DataFrame(r["teams"])
         events_df = pd.DataFrame(r["events"])
         
-        # Find current gameweek number from events_df
-        current_gw = events_df[events_df["is_current"] == True]["id"].iloc[0]
-        
-        # Create folder for current gameweek if it doesn't exist
-        if not os.path.exists(self.destination + "gw_" + str(current_gw)):
-            os.mkdir(self.destination + "gw_" + str(current_gw))
-        
-        # Export dataframes to csv files
-        gameweek_df.to_csv(
-            self.destination + "gw_" + str(current_gw) + "/gameweek.csv", index=False
-        )
-        
-        positions_df.to_csv(
-            self.destination + "gw_" + str(current_gw) + "/positions.csv", index=False
-        )
-        
-        teams_df.to_csv(
-            self.destination + "gw_" + str(current_gw) + "/teams.csv", index=False
-        )
-        
-        events_df.to_csv(
-            self.destination + "gw_" + str(current_gw) + "/events.csv", index=False
-        )
+        # Get current gameweek from events_df
+        current_gw = events_df[events_df["is_current"] == True]["id"].values[0]
         
         return {
             "gameweek": gameweek_df,
             "positions": positions_df,
             "teams": teams_df,
             "events": events_df,
+            "current_gw": current_gw
         }
         
     
@@ -163,8 +142,7 @@ class FPLFormScraper:
     Class for scraping data from FPLForm.com
     """
     
-    base_url = "https://fplform.com/export-fpl-form-data"
-    destination = "../../data/raw/predicted_points/"
+    url = "https://fplform.com/export-fpl-form-data"
     
     def __init__(self):
         pass
@@ -182,11 +160,9 @@ class FPLFormScraper:
         
         print("Scraping predicted points from FPLForm...")
         
-        current_date = datetime.now().strftime("%Y_%m_%d")
-        
         # Open browser and navigate to FPLForm.com
         driver = webdriver.Chrome()
-        driver.get(self.base_url)
+        driver.get(self.url)
         
         # Move slider to the right to select all gameweeks
         slider = driver.find_element(By.XPATH, "//div[contains(@class, 'handle-upper')]")
@@ -206,18 +182,20 @@ class FPLFormScraper:
         # Close the browser
         driver.quit()
         
-        # Get path to downloads folder
-        downloads_folder = os.path.join(os.path.expanduser("~"), "Downloads")
-        
-        # Move the downloaded file to the desired destination folder
-        downloaded_file = max([os.path.join(downloads_folder, f) for f in os.listdir(downloads_folder)], key=os.path.getctime)
-        os.rename(downloaded_file, self.destination + current_date + "_predicted_points.csv")
+        # Get path to downloaded file by finding the most recent file in the downloads folder
+        downloads_folder = os.path.expanduser("~") + "/Downloads"
+        files = os.listdir(downloads_folder)
+        files.sort(key=lambda x: os.path.getctime(os.path.join(downloads_folder, x)))
+        most_recent_file = files[-1]
         
         # Read the csv file into a dataframe
-        df = pd.read_csv(self.destination + current_date + "_predicted_points.csv")
-                    
+        df = pd.read_csv(downloads_folder + "/" + most_recent_file)
+        
+        # Delete the file from the downloads folder
+        os.remove(downloads_folder + "/" + most_recent_file)
+        
         return df
-    
+
 
 
 

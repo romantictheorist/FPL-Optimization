@@ -4,6 +4,7 @@
 import pandas as pd
 import sys
 from typing import TypedDict, Optional
+from datetime import datetime
 
 sys.path.append("..")
 
@@ -52,8 +53,7 @@ class ProcessData:
         gameweek_df = gameweek_df[cols_to_keep]
         
         # Rename columns
-        gameweek_df.rename(columns={'id': 'player_id', 
-                                    'web_name': 'name',
+        gameweek_df.rename(columns={'web_name': 'name',
                                     'team': 'team_id',
                                     'now_cost': 'cost',
                                     'chance_of_playing_next_round': 'official_chance',
@@ -181,7 +181,7 @@ class ProcessData:
         
         # Merged on player_id and name
         merged_df = pd.merge(gameweek_df, predicted_points_df, 
-                            left_on=["player_id", "name"], 
+                            left_on=["id", "name"], 
                             right_on=["ID", "Name"])
         
         # Drop duplicate columns
@@ -189,36 +189,13 @@ class ProcessData:
         
         # Check if merged_df has same number of rows as gameweek_df
         if merged_df.shape[0] != gameweek_df.shape[0]:
-            gameweek_df_ids = gameweek_df["player_id"].unique()
-            merged_df_ids = merged_df["player_id"].unique()
+            gameweek_df_ids = gameweek_df["id"].unique()
+            merged_df_ids = merged_df["id"].unique()
             gameweek_df_ids_not_in_merged_df_ids = set(gameweek_df_ids) - set(merged_df_ids)
             print(f"Players left out of merge: {gameweek_df_ids_not_in_merged_df_ids}")
             
         return merged_df
     
-    
-
-puller = FPLDataPuller()
-data = puller.get_gameweek_data()
-
-gameweek_df = data["gameweek"]
-positions_df = data["positions"]
-teams_df = data["teams"]
-events_df = data["events"]
-
-scraper = FPLFormScraper()
-predicted_points_df = scraper.get_predicted_points()
-
-preprocessor = ProcessData()
-new_gameweek_df = preprocessor.process_gameweek(gameweek_df)
-new_gameweek_df = preprocessor.map_teams_to_gameweek(teams_df, new_gameweek_df)
-
-new_predicted_points_df = preprocessor.process_predicted_points(predicted_points_df)
-new_gameweek_df = preprocessor.merge_gameweek_and_predicted_points(new_gameweek_df, new_predicted_points_df)
-
-
-
-
 
 
 
