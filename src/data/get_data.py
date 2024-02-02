@@ -32,7 +32,7 @@ class FPLDataPuller:
     def __init__(self):
         pass
     
-    def get_general_data(self) -> dict:
+    def _get_general_data(self) -> dict:
         """
         Summary:
         --------
@@ -65,7 +65,7 @@ class FPLDataPuller:
         }
         
     
-    def get_team_ids(self, team_id: int, gameweek: int) -> dict:
+    def _get_team_ids(self, team_id: int, gameweek: int) -> dict:
         """
         Summary:
         --------
@@ -100,7 +100,7 @@ class FPLDataPuller:
             return ids
         
     
-    def get_team_data(self, team_id: int) -> dict:
+    def _get_team_data(self, team_id: int) -> dict:
         """
         Summary:
         --------
@@ -147,7 +147,7 @@ class FPLFormScraper:
     def __init__(self):
         pass
     
-    def get_predicted_points(self) -> pd.DataFrame:
+    def _get_predicted_points(self) -> pd.DataFrame:
         """
         Summary:
         --------

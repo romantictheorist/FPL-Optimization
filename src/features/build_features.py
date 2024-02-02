@@ -15,7 +15,7 @@ class ProcessData:
     def __init__(self):
         pass
     
-    def process_gameweek(self, gameweek_df) -> pd.DataFrame:
+    def _process_gameweek(self, gameweek_df) -> pd.DataFrame:
         """
         Summary:
         --------
@@ -91,7 +91,7 @@ class ProcessData:
         
         return gameweek_df
     
-    def map_teams_to_gameweek(self, teams_df, gameweek_df) -> pd.DataFrame:
+    def _map_teams_to_gameweek(self, teams_df, gameweek_df) -> pd.DataFrame:
         """
         Summary:
         --------
@@ -122,7 +122,7 @@ class ProcessData:
         return gameweek_df
     
     
-    def process_predicted_points(self, predicted_points_df) -> pd.DataFrame:
+    def _process_predicted_points(self, predicted_points_df) -> pd.DataFrame:
         """
         Summary:
         --------
@@ -157,7 +157,7 @@ class ProcessData:
         
         return predicted_points_df
     
-    def merge_gameweek_and_predicted_points(self, gameweek_df, predicted_points_df) -> pd.DataFrame:
+    def _merge_gameweek_and_predicted_points(self, gameweek_df, predicted_points_df) -> pd.DataFrame:
         """
         Summary:
         --------
