@@ -1,7 +1,7 @@
 --------------------------------------------------
 Gameweek 23 summary:
 --------------------------------------------------
-Total expected points: 55.8
+Total expected points: 56.02
 Money in bank: 4.7
 Free transfers available: 1
 Transfers made: 1
@@ -11,7 +11,7 @@ Player 230 (Johnstone @ CRY) transferred out.
 --------------------------------------------------
 Gameweek 24 summary:
 --------------------------------------------------
-Total expected points: 59.16
+Total expected points: 59.21
 Money in bank: 1.7
 Free transfers available: 1
 Transfers made: 1
@@ -21,10 +21,10 @@ Player 369 (Walker @ MCI) transferred out.
 --------------------------------------------------
 Gameweek 25 summary:
 --------------------------------------------------
-Total expected points: 82.47
-Money in bank: 2.2
+Total expected points: 82.78
+Money in bank: 1.8
 Free transfers available: 1
 Transfers made: 1
 Penalised transfers: 0
-Player 14 (Ødegaard @ ARS) transferred out.
 Player 353 (Foden @ MCI) transferred in.
+Player 526 (Bowen @ WHU) transferred out.

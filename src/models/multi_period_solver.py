@@ -60,17 +60,16 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
         self.objective = objective
         self.decay_base = decay_base
         
-    
+
     def solve_problem(self):
-        self.get_data()
-        self.get_lists()
-        self.set_problem()
-        self.set_variables()
-        self.get_dictionaries()
-        self.set_initial_conditions()
-        self.set_constraints()
-        self.set_objective(objective=self.objective)
-        
+        self._get_and_process_data()
+        self._set_problem()
+        self._set_variables()
+        self._set_dictionaries()
+        self._set_initial_conditions()
+        self._set_constraints()
+        self._set_objective()
+    
         print("Solving model...")
         self.model.solve(pulp.PULP_CBC_CMD(msg=0))
         
@@ -84,95 +83,92 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
             print("Objective:", round(self.model.objective.value(), 2))
             
         self.get_results()
-        self.check_results(results=self.results)
-        self.get_summary()
-        
-        return {"model": self.model, "results": self.results, "summary": self.summary, "total_xp": self.total_xp, "gw_xp": self.gw_xp, "checks": self.checks}    
-        
-    
-    def get_data(self):
+        self._check_results(results=self.results_df)
+
+
+    def _get_and_process_data(self):
         """
         Summary:
         --------
-        Function to pull and process data from FPL API and FPLForm.com for the optimization problem.
+        Function to get and prepare data for the optimization problem.
+        Data is pulled from the FPL API and FPLForm.com, and processed using custom ProcessData class.
         
         Returns:
         --------
         None
         """
-
-        # Get initial squad and bank balance from FPL API using custom FPLDataPuller class
-        self.initial_squad = self.get_team_ids(team_id=self.team_id, gameweek=self.gameweek-1)
-        self.bank_balance = self.get_team_data(team_id=self.team_id)["bank_balance"]
         
-        # Get current gameweek data from FPL API:
-        #  - if current gameweek data has already been downloaded, load data from there
-        #  - if not, pull data from FPL API using custom FPLDataPuller class
-        gameweek_path = f"../../data/raw/gameweeks/gw_{self.gameweek - 1}/"
-        
-        if os.path.exists(gameweek_path):
-            self.gameweek_df = pd.read_csv(gameweek_path + "gameweek.csv")
-            self.positions_df = pd.read_csv(gameweek_path + "positions.csv")
-            self.teams_df = pd.read_csv(gameweek_path + "teams.csv")
+        # Get data from FPL API using custom FPLDataPuller class
+        general_data = self._get_general_data()
+        gameweek_df = general_data["gameweek"]
+        positions_df = general_data["positions"]
+        teams_df = general_data["teams"]
+        current_gw = general_data["current_gw"]
+       
+        # Check if gameweek is valid
+        if self.gameweek > current_gw + 1:
+            raise ValueError(f"Cannot optimize for GW{self.gameweek}. Optimization can only start from the next gameweek (i.e. GW{current_gw + 1}).")
+        elif self.gameweek < current_gw + 1:
+            raise ValueError(f"Cannot optimize for GW{self.gameweek} since it has already passed. Optimization can only start from the next gameweek (i.e. GW{current_gw + 1}).")
         else:
-            gameweek_data = get_gameweek_data(gameweek=self.gameweek - 1)
-            self.gameweek_df = gameweek_data["gameweek"]
-            self.positions_df = gameweek_data["positions"]
-            self.teams_df = gameweek_data["teams"]
-            
-        # Get predicted points from FPLForm:
-        #  - if predicted points have already been downloaded, load data from there
-        #  - if not, scrape data using custom FPLFormScraper class
+            pass
+        
+        # Get team data and initial squad from FPL API
+        initial_squad = self._get_team_ids(team_id=self.team_id, gameweek=self.gameweek-1)
+        bank_balance = self._get_team_data(team_id=self.team_id)["bank_balance"]
+        
+        # Get predicted points from FPLForm using custom FPLFormScraper class
+        predicted_points_df = self._get_predicted_points()
+        
+        # Export raw data to csv files
         current_date = datetime.today().strftime("%Y_%m_%d")
-        predicted_points_path = f"../../data/raw/predicted_points/{current_date}_predicted_points.csv"
+        raw_destination = f"../../data/raw/gw_{self.gameweek - 1}/"
         
-        if os.path.exists(predicted_points_path):
-            self.predicted_points_df = pd.read_csv(predicted_points_path)
-        else:
-            self.predicted_points_df = self.get_predicted_points()
+        if not os.path.exists(raw_destination):
+            os.makedirs(raw_destination)
+        
+        gameweek_df.to_csv(f"{raw_destination}gameweek.csv", index=False)
+        positions_df.to_csv(f"{raw_destination}positions.csv", index=False)
+        teams_df.to_csv(f"{raw_destination}teams.csv", index=False)
+        predicted_points_df.to_csv(f"{raw_destination}predicted_points_{current_date}.csv", index=False)
+        
+        # Process data using custom ProcessData class
+        gameweek_df = self._process_gameweek(gameweek_df=gameweek_df)
+        gameweek_df = self._map_teams_to_gameweek(gameweek_df=gameweek_df, teams_df=teams_df)
+        predicted_points_df = self._process_predicted_points(predicted_points_df=predicted_points_df)
+        merged_df = self._merge_gameweek_and_predicted_points(gameweek_df=gameweek_df, predicted_points_df=predicted_points_df)
+        
+        # Export merged data to csv file (processed data)
+        processed_destination = f"../../data/processed/gw_{self.gameweek - 1}/"
+        
+        if not os.path.exists(processed_destination):
+            os.makedirs(processed_destination)
             
-        # Process gameweek data using custom ProcessData class
-        self.gameweek_df = self.process_gameweek(gameweek_df=self.gameweek_df)
-        # Map teams to gameweek data using custom ProcessData class
-        self.gameweek_df = self.map_teams_to_gameweek(gameweek_df=self.gameweek_df, teams_df=self.teams_df)
-        # Process predicted points using custom ProcessData class
-        self.predicted_points_df = self.process_predicted_points(predicted_points_df=self.predicted_points_df)
-        # Merge gameweek and predicted points data using custom ProcessData class
-        self.merged_df = self.merge_gameweek_and_predicted_points(gameweek_df=self.gameweek_df, predicted_points_df=self.predicted_points_df)
-        # Export merged data to csv file
-        self.merged_df.to_csv(f"../../data/processed/gw_{self.gameweek - 1}_merged_data.csv", index=False)
+        merged_df.to_csv(f"{processed_destination}merged_data.csv", index=False)
         
-        # Set index as IDs for each dataframe
-        self.merged_df.set_index("player_id", inplace=True)
-        self.positions_df.set_index("id", inplace=True)
-        self.teams_df.set_index("id", inplace=True)
+        # Set index as IDs for needed dataframes
+        merged_df.set_index("id", inplace=True)
+        positions_df.set_index("id", inplace=True)
+        teams_df.set_index("id", inplace=True)
         
-        
-    def get_lists(self):
-        """
-        Summary:
-        --------
-        Function to get lists of players, positions, teams, and gameweeks.
-        
-        Returns:
-        --------
-        Dictionary with the following keys:
-            - players: List of player IDs.
-            - positions: List of position IDs.
-            - teams: List of team IDs.
-            - future_gameweeks: List of future gameweeks to optimize for.
-            - all_gameweeks: List of all gameweeks (current gameweek + future gameweeks)
-        """
+        # Update attributes
+        self.gameweek_df = gameweek_df
+        self.positions_df = positions_df
+        self.teams_df = teams_df
+        self.predicted_points_df = predicted_points_df
+        self.merged_df = merged_df
+        self.initial_squad = initial_squad
+        self.bank_balance = bank_balance
         
         # Get lists of players, positions, teams, future gameweeks, and all gameweeks
-        self.players = self.merged_df.index.tolist()
-        self.positions = self.positions_df.index.tolist()
-        self.teams = self.teams_df.index.tolist()
+        self.players = merged_df.index.tolist()
+        self.positions = positions_df.index.tolist()
+        self.teams = teams_df.index.tolist()
         self.future_gameweeks = list(range(self.gameweek, self.gameweek + self.horizon))
         self.all_gameweeks = [self.gameweek - 1] + self.future_gameweeks
         
-        
-    def set_problem(self):
+    
+    def _set_problem(self):
         """
         Summary:
         --------
@@ -180,33 +176,17 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
 
         Returns:
         --------
-        PuLP model object.
+        
         """
         name = f"MultiPeriodOptimization_team_{self.team_id}_gw_{self.gameweek}_horizon_{self.horizon}_objective_{self.objective}"
         self.model = LpProblem(name, LpMaximize)
+    
         
-        return self.model
-    
-    
-    def set_variables(self):
+    def _set_variables(self):
         """
         Summary:
         --------
-        Function to define the optimization variables. 
-        
-        Returns:
-        --------
-        Dictionary with the following keys:
-            - squad: Binary variable for whether player is in squad in each gameweek.
-            - lineup: Binary variable for whether player is in lineup in each gameweek.
-            - captain: Binary variable for whether player is captain in each gameweek.
-            - vice_captain: Binary variable for whether player is vice captain in each gameweek.
-            - transfer_in: Binary variable for whether player is transferred in in each gameweek.
-            - transfer_out: Binary variable for whether player is transferred out in each gameweek.
-            - money_in_bank: Continuous variable for money in bank in each gameweek.
-            - free_transfers_available: Integer variable for number of free transfers available in each gameweek.
-            - penalised_transfers: Integer variable for number of penalised transfers in each gameweek.
-            - aux: Binary variable for auxiliary variable in each gameweek.
+        Function to set the optimization variables for the problem.
         """
         
         self.squad = LpVariable.dicts("squad", (self.players, self.all_gameweeks), cat="Binary")
@@ -220,32 +200,29 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
         self.penalised_transfers = LpVariable.dicts("penalised_transfers", (self.future_gameweeks), cat="Integer", lowBound=0)
         self.aux = LpVariable.dicts("auxiliary_variable", (self.future_gameweeks), cat="Binary")
         
-        return {"squad": self.squad, "lineup": self.lineup, "captain": self.captain, "vice_captain": self.vice_captain, "transfer_in": self.transfer_in, "transfer_out": self.transfer_out, 
-                "money_in_bank": self.money_in_bank, "free_transfers_available": self.free_transfers_available, "penalised_transfers": self.penalised_transfers, "aux": self.aux}
-        
-    def get_dictionaries(self):
+    
+    def _set_dictionaries(self):
         """
         Summary:
         --------
         Function to define the optimization dictionaries. These are used to help define the constraints and objective function.
         
-        Returns:
-        --------
-        Dictionary with the following keys:
-            - player_cost: Dictionary with player cost for each player.
-            - player_xp_gw: Dictionary with expected points for each player in each gameweek.
-            - player_prob_gw: Dictionary with probability of appearance for each player in each gameweek.
-            - squad_count: Dictionary with number of players in squad in each gameweek.
-            - lineup_count: Dictionary with number of players in lineup in each gameweek.
-            - lineup_position_count: Dictionary with number of players in each position in lineup in each gameweek.
-            - squad_position_count: Dictionary with number of players in each position in squad in each gameweek.
-            - squad_team_count: Dictionary with number of players from each team in squad in each gameweek.
-            - revenue: Dictionary with transfer revenue in each gameweek.
-            - expenditure: Dictionary with transfer expenditure in each gameweek.
-            - transfers_made: Dictionary with number of transfers made in each gameweek.
-            - transfer_diff: Dictionary with difference between transfers made and free transfers available in each gameweek.
+        Dictionaries include:
+            - Player cost
+            - Player expected points for each gameweek
+            - Player probability of appearing for each gameweek
+            - Squad count for each gameweek
+            - Lineup count for each gameweek
+            - Lineup position count for each gameweek
+            - Squad position count for each gameweek
+            - Squad team count for each gameweek
+            - Revenue for each gameweek
+            - Expenditure for each gam
+            - Transfers made for each gameweek
+            - Transfer difference for each gameweek (i.e. number of transfers made minus number of free transfers available)
+            
         """
- 
+         
         self.player_cost = self.merged_df["cost"].to_dict()
         self.player_xp_gw = {(p, gw): self.merged_df.loc[p, f"gw_{gw}_xp"] for p in self.players for gw in self.future_gameweeks}
         self.player_prob_gw = {(p, gw): self.merged_df.loc[p, f"gw_{gw}_prob_of_appearing"] for p in self.players for gw in self.future_gameweeks}
@@ -260,12 +237,9 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
         self.transfers_made[self.gameweek - 1] = 1
         self.transfer_diff = {gw: (self.transfers_made[gw] - self.free_transfers_available[gw]) for gw in self.future_gameweeks}
         
-        return {"player_cost": self.player_cost, "player_xp_gw": self.player_xp_gw, "player_prob_gw": self.player_prob_gw, "squad_count": self.squad_count, "lineup_count": self.lineup_count, 
-                "lineup_position_count": self.lineup_position_count, "squad_position_count": self.squad_position_count, "squad_team_count": self.squad_team_count, "revenue": self.revenue, 
-                "expenditure": self.expenditure, "transfers_made": self.transfers_made, "transfer_diff": self.transfer_diff}
+   
         
-    
-    def set_initial_conditions(self):
+    def _set_initial_conditions(self):
         """
         Summary:
         --------
@@ -273,6 +247,7 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
         Initial conditions are added to model as constraints by using the += operator.
         Note that constraints, and therefore initial conditions, must include conditional operators (<=, >=, ==).
         """
+        
         # Players in initial squad must be in squad in current gameweek
         for p in [player for player in self.players if player in self.initial_squad]:
             self.model += self.squad[p][self.gameweek - 1] == 1, f"In initial squad constraint for player {p}"
@@ -288,7 +263,7 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
         self.model += self.free_transfers_available[self.gameweek - 1] == self.num_free_transfers, f"Initial free transfers available constraint"
             
         
-    def set_constraints(self):
+    def _set_constraints(self):
         """
         Summary:
         --------
@@ -418,7 +393,7 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
             self.model += self.penalised_transfers[gw] >= self.transfer_diff[gw], f"Penalised transfers constraint for gameweek {gw}"
         
         
-    def set_objective(self, objective: str):
+    def _set_objective(self):
         """
         Summary:
         --------
@@ -429,21 +404,17 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
             - Regular: Maximize total expected points over all gameweeks 
             - Decay: Maximize total expected points in each gameweek, with decay factor
             
-        Args:
-        ----------
-        objective: str
-            Objective function to optimize for. Can be either "regular" or "decay".
         """
         
         gw_xp_before_pen = {gw: lpSum([self.player_xp_gw[p, gw] * (self.lineup[p][gw] + self.captain[p][gw] + 0.1 * self.vice_captain[p][gw]) for p in self.players]) for gw in self.future_gameweeks}
         gw_xp_after_pen = {gw: gw_xp_before_pen[gw] - 4 * self.penalised_transfers[gw] for gw in self.future_gameweeks}
         
         
-        if objective == "regular":
+        if self.objective == "regular":
             total_xp = lpSum([gw_xp_after_pen [gw] for gw in self.future_gameweeks])
             self.model += total_xp
             
-        elif objective == "decay":
+        elif self.objective == "decay":
             total_xp = lpSum([gw_xp_after_pen[gw] * pow(self.decay_base, gw - self.gameweek) for gw in self.future_gameweeks])
             self.model += total_xp
             add_name = "_base_" + str(self.decay_base)
@@ -466,7 +437,7 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
         """
         
         if self.model.status != 1:
-            print("Cannot extract results available since model is not solved.")
+            print("Results unavailable since model is not solved.")
             return None
         else:
             results = []
@@ -501,15 +472,18 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
             results_df.sort_values(by=["gw", "squad", "lineup", "position_id", "xp"], ascending=[True, False, False, True, False], inplace=True)
             results_df.reset_index(drop=True, inplace=True)
             
-            # Update attributes
-            self.results = results_df
+            # Update attribute
+            self.results_df = results_df
+            
+            # Dictionary with team's expected points for each gameweek
             self.gw_xp = {gw: round(value(lpSum([self.player_xp_gw[p, gw] * (self.lineup[p][gw] + self.captain[p][gw] - (4 * self.penalised_transfers[gw])) for p in self.players])), 2) for gw in self.future_gameweeks}
+            # Total expected points for all optimized gameweeks
             self.total_xp = round(value(lpSum([self.gw_xp[gw] for gw in self.future_gameweeks])), 2)
             
-            return {"model": self.model, "dataframe": self.results, "total_xp": self.total_xp, "gw_xp": self.gw_xp}
+            return {"model": self.model, "dataframe": self.results_df, "total_xp": self.total_xp, "gw_xp": self.gw_xp}
         
-   
-    def check_results(self, results: pd.DataFrame):
+        
+    def _check_results(self, results: pd.DataFrame):
         """
         Summary:
         --------
@@ -555,8 +529,8 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
                 condition_5 = all(gw_results.groupby("position_id").squad.sum() == self.positions_df["squad_select"])
                 condition_6a = all(gw_results.groupby("position_id").lineup.sum() >= self.positions_df["squad_min_play"])
                 condition_6b = all(gw_results.groupby("position_id").lineup.sum() <= self.positions_df["squad_max_play"])
-                condition_7 = all(gw_results[gw_results["squad"] == 1].prob_of_appearing > 0.75)
-                condition_8 = all(gw_results[gw_results["lineup"] == 1].prob_of_appearing > 0.90)
+                condition_7 = all(gw_results[gw_results["squad"] == 1].prob_of_appearing >= 0.75)
+                condition_8 = all(gw_results[gw_results["lineup"] == 1].prob_of_appearing >= 0.90)
                 condition_9 = gw_results.captain.sum() == 1
                 condition_10 = gw_results.vice_captain.sum() == 1
                 condition_11 = gw_results[gw_results["captain"] == 1].lineup.sum() == 1
@@ -615,10 +589,8 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
             if all(value for value in checks_dict.values()):
                 print("Results check: passed")
 
-            self.checks = checks_dict
+            return checks_dict
 
-            return self.checks
-        
         
     def get_summary(self):
         """
@@ -631,6 +603,14 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
         --------
         String with summary of actions over all gameweeks.
         """
+        
+        # Only write summary if model is solved
+        if self.model.status != 1:
+            print("Summary unavailable since model is not solved.")
+            return None
+        else:
+            pass
+    
         # Initialize summary list
         summary_list = []
         
@@ -664,10 +644,7 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
         # Join the summary list into a single string
         summary = "\n".join(summary_list)
         
-        # Update summary attribute
-        self.summary = summary
-        
-        return self.summary
+        return summary
         
         
 # ----------------------------------------
@@ -682,18 +659,18 @@ if __name__ == "__main__":
             print(f"Optimizing for objective {objective} and horizon {h}...")
             print("-" * 50)
             
-            optimizer = OptimizeMultiPeriod(team_id=10599528, gameweek=23, num_free_transfers=1, horizon=h, objective=objective, decay_base=0.85)
+            optimizer = OptimizeMultiPeriod(team_id=10599528, gameweek=24, num_free_transfers=1, horizon=h, objective=objective, decay_base=0.85)
             optimizer.solve_problem()
+            results = optimizer.get_results()
+            summary = optimizer.get_summary()
+            name = optimizer.model.name
             
-            r = optimizer.get_results()
-            s = optimizer.get_summary()
-            n = optimizer.model.name
-            
-            r["model"].writeLP(f"../../models/multi_period/{n}_model.lp")
-            r["dataframe"].to_csv(f"../../data/external/{n}_results.csv", index=False)
-            
-            with open(f"../../reports/{n}_summary.txt", "w") as f:
-                f.write(s)
-
+            if results is not None:
+                results["model"].writeLP(f"../../models/multi_period/{name}_model.lp")
+                results["dataframe"].to_csv(f"../../data/external/{name}_results.csv", index=False)
+                
+                with open(f"../../reports/{name}_summary.txt", "w") as f:
+                    f.write(summary)
+                    f.close()   
         
 

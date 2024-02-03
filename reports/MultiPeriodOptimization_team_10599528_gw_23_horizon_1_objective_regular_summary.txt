@@ -1,7 +1,7 @@
 --------------------------------------------------
 Gameweek 23 summary:
 --------------------------------------------------
-Total expected points: 56.09
+Total expected points: 56.31
 Money in bank: 4.7
 Free transfers available: 1
 Transfers made: 1
