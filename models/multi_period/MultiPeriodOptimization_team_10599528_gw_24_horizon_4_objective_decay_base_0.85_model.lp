@@ -741,9 +741,7 @@ OBJ: 3.76854 captain_101_24 + 5.645224 captain_101_25
  + 1.487908 captain_598_25 + 1.84487485 captain_598_26
  + 1.03227657125 captain_598_27 + 4.09473 captain_599_24
  + 3.3045365 captain_599_25 + 3.097986075 captain_599_26
- + 2.53420523625 captain_599_27 + 1.5435 captain_59_24
- + 1.2636185 captain_59_25 + 1.1358278 captain_59_26
- + 0.92855085875 captain_59_27 + 4.01307 captain_5_24 + 4.144668 captain_5_25
+ + 2.53420523625 captain_599_27 + 4.01307 captain_5_24 + 4.144668 captain_5_25
  + 3.111756925 captain_5_26 + 2.5038736025 captain_5_27
  + 2.43584 captain_601_24 + 2.3905485 captain_601_25
  + 1.947419275 captain_601_26 + 1.76264315125 captain_601_27
@@ -1765,10 +1763,9 @@ OBJ: 3.76854 captain_101_24 + 5.645224 captain_101_25
  + 2.13699 lineup_598_24 + 1.487908 lineup_598_25 + 1.84487485 lineup_598_26
  + 1.03227657125 lineup_598_27 + 4.09473 lineup_599_24
  + 3.3045365 lineup_599_25 + 3.097986075 lineup_599_26
- + 2.53420523625 lineup_599_27 + 1.5435 lineup_59_24 + 1.2636185 lineup_59_25
- + 1.1358278 lineup_59_26 + 0.92855085875 lineup_59_27 + 4.01307 lineup_5_24
- + 4.144668 lineup_5_25 + 3.111756925 lineup_5_26 + 2.5038736025 lineup_5_27
- + 2.43584 lineup_601_24 + 2.3905485 lineup_601_25 + 1.947419275 lineup_601_26
+ + 2.53420523625 lineup_599_27 + 4.01307 lineup_5_24 + 4.144668 lineup_5_25
+ + 3.111756925 lineup_5_26 + 2.5038736025 lineup_5_27 + 2.43584 lineup_601_24
+ + 2.3905485 lineup_601_25 + 1.947419275 lineup_601_26
  + 1.76264315125 lineup_601_27 + 2.4414 lineup_602_24 + 1.79486 lineup_602_25
  + 1.241146625 lineup_602_27 + 2.77209 lineup_603_24 + 2.5135775 lineup_603_25
  + 1.809667425 lineup_603_26 + 1.73799217375 lineup_603_27
@@ -2861,9 +2858,7 @@ OBJ: 3.76854 captain_101_24 + 5.645224 captain_101_25
  + 0.1487908 vice_captain_598_25 + 0.184487485 vice_captain_598_26
  + 0.103227657125 vice_captain_598_27 + 0.409473 vice_captain_599_24
  + 0.33045365 vice_captain_599_25 + 0.3097986075 vice_captain_599_26
- + 0.253420523625 vice_captain_599_27 + 0.15435 vice_captain_59_24
- + 0.12636185 vice_captain_59_25 + 0.11358278 vice_captain_59_26
- + 0.092855085875 vice_captain_59_27 + 0.401307 vice_captain_5_24
+ + 0.253420523625 vice_captain_599_27 + 0.401307 vice_captain_5_24
  + 0.4144668 vice_captain_5_25 + 0.3111756925 vice_captain_5_26
  + 0.25038736025 vice_captain_5_27 + 0.243584 vice_captain_601_24
  + 0.23905485 vice_captain_601_25 + 0.1947419275 vice_captain_601_26
@@ -28335,8 +28330,8 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 4.5 transfer_in_124_24 + 4.7 transfer_in_125_24 + 4.5 transfer_in_126_24
  + 4.5 transfer_in_127_24 + 4.8 transfer_in_128_24 + 5 transfer_in_129_24
  + 7.7 transfer_in_12_24 + 5 transfer_in_130_24 + 5.1 transfer_in_131_24
- + 5.8 transfer_in_132_24 + 4.9 transfer_in_133_24 + 6.5 transfer_in_134_24
- + 5.5 transfer_in_135_24 + 4 transfer_in_136_24 + 4.5 transfer_in_137_24
+ + 5.8 transfer_in_132_24 + 4.9 transfer_in_133_24 + 6.4 transfer_in_134_24
+ + 5.4 transfer_in_135_24 + 4 transfer_in_136_24 + 4.5 transfer_in_137_24
  + 4.9 transfer_in_138_24 + 3.9 transfer_in_139_24 + 5.2 transfer_in_13_24
  + 6.1 transfer_in_140_24 + 3.9 transfer_in_141_24 + 4.8 transfer_in_142_24
  + 6.4 transfer_in_143_24 + 4.4 transfer_in_144_24 + 4.5 transfer_in_145_24
@@ -28354,7 +28349,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 4.3 transfer_in_176_24 + 5.3 transfer_in_177_24 + 4 transfer_in_178_24
  + 4 transfer_in_179_24 + 4.5 transfer_in_17_24 + 4.9 transfer_in_180_24
  + 3.9 transfer_in_181_24 + 4.4 transfer_in_182_24 + 5.5 transfer_in_183_24
- + 4.6 transfer_in_184_24 + 4 transfer_in_185_24 + 4.3 transfer_in_186_24
+ + 4.6 transfer_in_184_24 + 4 transfer_in_185_24 + 4.2 transfer_in_186_24
  + 5 transfer_in_187_24 + 6.5 transfer_in_188_24 + 4.5 transfer_in_189_24
  + 4 transfer_in_18_24 + 4 transfer_in_190_24 + 4.4 transfer_in_191_24
  + 4 transfer_in_192_24 + 4.9 transfer_in_193_24 + 4.3 transfer_in_194_24
@@ -28366,7 +28361,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 5.3 transfer_in_208_24 + 6.8 transfer_in_209_24 + 5.6 transfer_in_20_24
  + 6.3 transfer_in_210_24 + 6.8 transfer_in_211_24 + 7.4 transfer_in_212_24
  + 5.5 transfer_in_213_24 + 4.3 transfer_in_214_24 + 4 transfer_in_215_24
- + 7.1 transfer_in_216_24 + 5 transfer_in_217_24 + 5.4 transfer_in_218_24
+ + 7 transfer_in_216_24 + 5 transfer_in_217_24 + 5.4 transfer_in_218_24
  + 4.3 transfer_in_219_24 + 4.9 transfer_in_21_24 + 4.8 transfer_in_220_24
  + 5.4 transfer_in_221_24 + 4.4 transfer_in_222_24 + 4.9 transfer_in_223_24
  + 4.4 transfer_in_224_24 + 5.4 transfer_in_225_24 + 6 transfer_in_226_24
@@ -28392,7 +28387,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 4.4 transfer_in_279_24 + 3.9 transfer_in_27_24 + 5 transfer_in_280_24
  + 4.5 transfer_in_281_24 + 4.5 transfer_in_282_24 + 4.4 transfer_in_283_24
  + 3.9 transfer_in_284_24 + 4.4 transfer_in_285_24 + 4.3 transfer_in_286_24
- + 4.6 transfer_in_287_24 + 5.3 transfer_in_288_24 + 3.9 transfer_in_289_24
+ + 4.5 transfer_in_287_24 + 5.3 transfer_in_288_24 + 3.9 transfer_in_289_24
  + 3.9 transfer_in_28_24 + 8.5 transfer_in_290_24 + 5.7 transfer_in_291_24
  + 4.7 transfer_in_292_24 + 7.5 transfer_in_293_24 + 8 transfer_in_294_24
  + 4.8 transfer_in_295_24 + 5 transfer_in_296_24 + 7.2 transfer_in_297_24
@@ -28415,12 +28410,12 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 4.3 transfer_in_340_24 + 4.9 transfer_in_341_24 + 5 transfer_in_342_24
  + 6.9 transfer_in_343_24 + 6.5 transfer_in_344_24 + 4.4 transfer_in_345_24
  + 5.8 transfer_in_346_24 + 3.8 transfer_in_347_24 + 4.5 transfer_in_348_24
- + 10.7 transfer_in_349_24 + 5.6 transfer_in_34_24 + 5.5 transfer_in_350_24
+ + 10.8 transfer_in_349_24 + 5.6 transfer_in_34_24 + 5.5 transfer_in_350_24
  + 4.4 transfer_in_351_24 + 5.5 transfer_in_352_24 + 7.9 transfer_in_353_24
  + 7.2 transfer_in_354_24 + 14.1 transfer_in_355_24 + 4.7 transfer_in_356_24
  + 4.9 transfer_in_357_24 + 4.3 transfer_in_358_24 + 7.5 transfer_in_359_24
  + 5.7 transfer_in_35_24 + 4.4 transfer_in_360_24 + 3.8 transfer_in_361_24
- + 5.8 transfer_in_362_24 + 4.4 transfer_in_363_24 + 4.7 transfer_in_364_24
+ + 5.9 transfer_in_362_24 + 4.4 transfer_in_363_24 + 4.7 transfer_in_364_24
  + 5.6 transfer_in_365_24 + 3.8 transfer_in_366_24 + 3.9 transfer_in_367_24
  + 5.3 transfer_in_368_24 + 5.5 transfer_in_369_24 + 4.7 transfer_in_36_24
  + 4.5 transfer_in_370_24 + 4.4 transfer_in_371_24 + 6.8 transfer_in_372_24
@@ -28445,7 +28440,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 4.8 transfer_in_421_24 + 4 transfer_in_422_24 + 4.8 transfer_in_423_24
  + 5.3 transfer_in_424_24 + 4.3 transfer_in_425_24 + 6 transfer_in_426_24
  + 5.3 transfer_in_427_24 + 4.2 transfer_in_428_24 + 5.2 transfer_in_429_24
- + 4.6 transfer_in_42_24 + 6.7 transfer_in_430_24 + 4 transfer_in_431_24
+ + 4.6 transfer_in_42_24 + 6.8 transfer_in_430_24 + 4 transfer_in_431_24
  + 5.3 transfer_in_432_24 + 7.8 transfer_in_433_24 + 4.5 transfer_in_434_24
  + 4.3 transfer_in_435_24 + 4.5 transfer_in_436_24 + 6.3 transfer_in_437_24
  + 3.9 transfer_in_438_24 + 4.5 transfer_in_439_24 + 5.6 transfer_in_43_24
@@ -28459,7 +28454,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 3.9 transfer_in_45_24 + 4 transfer_in_460_24 + 4.4 transfer_in_461_24
  + 4.5 transfer_in_462_24 + 4.8 transfer_in_463_24 + 4.5 transfer_in_464_24
  + 4.4 transfer_in_465_24 + 4.4 transfer_in_466_24 + 4.3 transfer_in_467_24
- + 5 transfer_in_468_24 + 4.3 transfer_in_469_24 + 4.4 transfer_in_46_24
+ + 4.9 transfer_in_468_24 + 4.3 transfer_in_469_24 + 4.4 transfer_in_46_24
  + 4.8 transfer_in_470_24 + 4.3 transfer_in_471_24 + 3.9 transfer_in_472_24
  + 3.8 transfer_in_473_24 + 3.9 transfer_in_474_24 + 4.7 transfer_in_475_24
  + 4.5 transfer_in_476_24 + 4.9 transfer_in_477_24 + 4.4 transfer_in_478_24
@@ -28477,7 +28472,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 4.4 transfer_in_508_24 + 7.1 transfer_in_509_24 + 5.5 transfer_in_50_24
  + 4 transfer_in_510_24 + 4.9 transfer_in_511_24 + 4.4 transfer_in_512_24
  + 4.4 transfer_in_513_24 + 4.4 transfer_in_514_24 + 4.5 transfer_in_515_24
- + 9.7 transfer_in_516_24 + 4 transfer_in_517_24 + 4 transfer_in_518_24
+ + 9.6 transfer_in_516_24 + 4 transfer_in_517_24 + 4 transfer_in_518_24
  + 4.8 transfer_in_519_24 + 4.1 transfer_in_51_24 + 5.3 transfer_in_520_24
  + 3.9 transfer_in_521_24 + 4.4 transfer_in_522_24 + 5.7 transfer_in_523_24
  + 4.2 transfer_in_524_24 + 5.6 transfer_in_525_24 + 8 transfer_in_526_24
@@ -28492,19 +28487,19 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 4.5 transfer_in_549_24 + 4.5 transfer_in_54_24 + 4.5 transfer_in_550_24
  + 4.5 transfer_in_551_24 + 5.2 transfer_in_552_24 + 4.2 transfer_in_553_24
  + 5.4 transfer_in_554_24 + 4.4 transfer_in_555_24 + 4 transfer_in_556_24
- + 5.6 transfer_in_557_24 + 5.2 transfer_in_558_24 + 4.9 transfer_in_559_24
+ + 5.5 transfer_in_557_24 + 5.1 transfer_in_558_24 + 4.9 transfer_in_559_24
  + 5.9 transfer_in_55_24 + 4.3 transfer_in_560_24 + 4.3 transfer_in_561_24
  + 4.9 transfer_in_562_24 + 4.5 transfer_in_563_24 + 3.9 transfer_in_564_24
  + 4.9 transfer_in_565_24 + 4.8 transfer_in_566_24 + 5.6 transfer_in_567_24
  + 5.3 transfer_in_568_24 + 5 transfer_in_569_24 + 4.5 transfer_in_56_24
  + 4.7 transfer_in_570_24 + 4 transfer_in_571_24 + 4.5 transfer_in_572_24
  + 4.4 transfer_in_573_24 + 4.3 transfer_in_574_24 + 4.2 transfer_in_575_24
- + 4.4 transfer_in_576_24 + 4.3 transfer_in_577_24 + 4.8 transfer_in_578_24
+ + 4.3 transfer_in_576_24 + 4.3 transfer_in_577_24 + 4.8 transfer_in_578_24
  + 3.9 transfer_in_579_24 + 4 transfer_in_57_24 + 3.9 transfer_in_580_24
  + 3.9 transfer_in_581_24 + 4.7 transfer_in_582_24 + 5.1 transfer_in_583_24
  + 4.6 transfer_in_584_24 + 4.6 transfer_in_585_24 + 4.7 transfer_in_586_24
  + 4.7 transfer_in_587_24 + 4.4 transfer_in_588_24 + 5 transfer_in_589_24
- + 5.6 transfer_in_58_24 + 5.8 transfer_in_590_24 + 5.3 transfer_in_591_24
+ + 5.6 transfer_in_58_24 + 5.7 transfer_in_590_24 + 5.3 transfer_in_591_24
  + 4.3 transfer_in_592_24 + 5.1 transfer_in_593_24 + 5.3 transfer_in_594_24
  + 4.4 transfer_in_595_24 + 4.5 transfer_in_596_24 + 4.8 transfer_in_597_24
  + 4.3 transfer_in_598_24 + 6.5 transfer_in_599_24 + 5 transfer_in_59_24
@@ -28520,7 +28515,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 3.9 transfer_in_625_24 + 4 transfer_in_626_24 + 4.4 transfer_in_627_24
  + 4.4 transfer_in_628_24 + 4.4 transfer_in_629_24 + 4.9 transfer_in_62_24
  + 4.9 transfer_in_630_24 + 4.9 transfer_in_631_24 + 4.4 transfer_in_632_24
- + 4.3 transfer_in_633_24 + 3.9 transfer_in_634_24 + 4.5 transfer_in_635_24
+ + 4.2 transfer_in_633_24 + 3.9 transfer_in_634_24 + 4.5 transfer_in_635_24
  + 3.9 transfer_in_636_24 + 3.9 transfer_in_637_24 + 5 transfer_in_638_24
  + 4.4 transfer_in_639_24 + 5.2 transfer_in_63_24 + 4.5 transfer_in_640_24
  + 5.4 transfer_in_641_24 + 5 transfer_in_642_24 + 4.4 transfer_in_643_24
@@ -28605,7 +28600,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  - 4.7 transfer_out_125_24 - 4.5 transfer_out_126_24 - 4.5 transfer_out_127_24
  - 4.8 transfer_out_128_24 - 5 transfer_out_129_24 - 7.7 transfer_out_12_24
  - 5 transfer_out_130_24 - 5.1 transfer_out_131_24 - 5.8 transfer_out_132_24
- - 4.9 transfer_out_133_24 - 6.5 transfer_out_134_24 - 5.5 transfer_out_135_24
+ - 4.9 transfer_out_133_24 - 6.4 transfer_out_134_24 - 5.4 transfer_out_135_24
  - 4 transfer_out_136_24 - 4.5 transfer_out_137_24 - 4.9 transfer_out_138_24
  - 3.9 transfer_out_139_24 - 5.2 transfer_out_13_24 - 6.1 transfer_out_140_24
  - 3.9 transfer_out_141_24 - 4.8 transfer_out_142_24 - 6.4 transfer_out_143_24
@@ -28624,7 +28619,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  - 5.3 transfer_out_177_24 - 4 transfer_out_178_24 - 4 transfer_out_179_24
  - 4.5 transfer_out_17_24 - 4.9 transfer_out_180_24 - 3.9 transfer_out_181_24
  - 4.4 transfer_out_182_24 - 5.5 transfer_out_183_24 - 4.6 transfer_out_184_24
- - 4 transfer_out_185_24 - 4.3 transfer_out_186_24 - 5 transfer_out_187_24
+ - 4 transfer_out_185_24 - 4.2 transfer_out_186_24 - 5 transfer_out_187_24
  - 6.5 transfer_out_188_24 - 4.5 transfer_out_189_24 - 4 transfer_out_18_24
  - 4 transfer_out_190_24 - 4.4 transfer_out_191_24 - 4 transfer_out_192_24
  - 4.9 transfer_out_193_24 - 4.3 transfer_out_194_24 - 5.4 transfer_out_195_24
@@ -28635,7 +28630,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  - 5.3 transfer_out_206_24 - 6.8 transfer_out_207_24 - 5.3 transfer_out_208_24
  - 6.8 transfer_out_209_24 - 5.6 transfer_out_20_24 - 6.3 transfer_out_210_24
  - 6.8 transfer_out_211_24 - 7.4 transfer_out_212_24 - 5.5 transfer_out_213_24
- - 4.3 transfer_out_214_24 - 4 transfer_out_215_24 - 7.1 transfer_out_216_24
+ - 4.3 transfer_out_214_24 - 4 transfer_out_215_24 - 7 transfer_out_216_24
  - 5 transfer_out_217_24 - 5.4 transfer_out_218_24 - 4.3 transfer_out_219_24
  - 4.9 transfer_out_21_24 - 4.8 transfer_out_220_24 - 5.4 transfer_out_221_24
  - 4.4 transfer_out_222_24 - 4.9 transfer_out_223_24 - 4.4 transfer_out_224_24
@@ -28661,7 +28656,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  - 4 transfer_out_277_24 - 7.4 transfer_out_278_24 - 4.4 transfer_out_279_24
  - 3.9 transfer_out_27_24 - 5 transfer_out_280_24 - 4.5 transfer_out_281_24
  - 4.5 transfer_out_282_24 - 4.4 transfer_out_283_24 - 3.9 transfer_out_284_24
- - 4.4 transfer_out_285_24 - 4.3 transfer_out_286_24 - 4.6 transfer_out_287_24
+ - 4.4 transfer_out_285_24 - 4.3 transfer_out_286_24 - 4.5 transfer_out_287_24
  - 5.3 transfer_out_288_24 - 3.9 transfer_out_289_24 - 3.9 transfer_out_28_24
  - 8.5 transfer_out_290_24 - 5.7 transfer_out_291_24 - 4.7 transfer_out_292_24
  - 7.5 transfer_out_293_24 - 8 transfer_out_294_24 - 4.8 transfer_out_295_24
@@ -28685,12 +28680,12 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  - 4.9 transfer_out_341_24 - 5 transfer_out_342_24 - 6.9 transfer_out_343_24
  - 6.5 transfer_out_344_24 - 4.4 transfer_out_345_24 - 5.8 transfer_out_346_24
  - 3.8 transfer_out_347_24 - 4.5 transfer_out_348_24
- - 10.7 transfer_out_349_24 - 5.6 transfer_out_34_24 - 5.5 transfer_out_350_24
+ - 10.8 transfer_out_349_24 - 5.6 transfer_out_34_24 - 5.5 transfer_out_350_24
  - 4.4 transfer_out_351_24 - 5.5 transfer_out_352_24 - 7.9 transfer_out_353_24
  - 7.2 transfer_out_354_24 - 14.1 transfer_out_355_24
  - 4.7 transfer_out_356_24 - 4.9 transfer_out_357_24 - 4.3 transfer_out_358_24
  - 7.5 transfer_out_359_24 - 5.7 transfer_out_35_24 - 4.4 transfer_out_360_24
- - 3.8 transfer_out_361_24 - 5.8 transfer_out_362_24 - 4.4 transfer_out_363_24
+ - 3.8 transfer_out_361_24 - 5.9 transfer_out_362_24 - 4.4 transfer_out_363_24
  - 4.7 transfer_out_364_24 - 5.6 transfer_out_365_24 - 3.8 transfer_out_366_24
  - 3.9 transfer_out_367_24 - 5.3 transfer_out_368_24 - 5.5 transfer_out_369_24
  - 4.7 transfer_out_36_24 - 4.5 transfer_out_370_24 - 4.4 transfer_out_371_24
@@ -28715,7 +28710,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  - 4 transfer_out_420_24 - 4.8 transfer_out_421_24 - 4 transfer_out_422_24
  - 4.8 transfer_out_423_24 - 5.3 transfer_out_424_24 - 4.3 transfer_out_425_24
  - 6 transfer_out_426_24 - 5.3 transfer_out_427_24 - 4.2 transfer_out_428_24
- - 5.2 transfer_out_429_24 - 4.6 transfer_out_42_24 - 6.7 transfer_out_430_24
+ - 5.2 transfer_out_429_24 - 4.6 transfer_out_42_24 - 6.8 transfer_out_430_24
  - 4 transfer_out_431_24 - 5.3 transfer_out_432_24 - 7.8 transfer_out_433_24
  - 4.5 transfer_out_434_24 - 4.3 transfer_out_435_24 - 4.5 transfer_out_436_24
  - 6.3 transfer_out_437_24 - 3.9 transfer_out_438_24 - 4.5 transfer_out_439_24
@@ -28729,7 +28724,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  - 4.5 transfer_out_459_24 - 3.9 transfer_out_45_24 - 4 transfer_out_460_24
  - 4.4 transfer_out_461_24 - 4.5 transfer_out_462_24 - 4.8 transfer_out_463_24
  - 4.5 transfer_out_464_24 - 4.4 transfer_out_465_24 - 4.4 transfer_out_466_24
- - 4.3 transfer_out_467_24 - 5 transfer_out_468_24 - 4.3 transfer_out_469_24
+ - 4.3 transfer_out_467_24 - 4.9 transfer_out_468_24 - 4.3 transfer_out_469_24
  - 4.4 transfer_out_46_24 - 4.8 transfer_out_470_24 - 4.3 transfer_out_471_24
  - 3.9 transfer_out_472_24 - 3.8 transfer_out_473_24 - 3.9 transfer_out_474_24
  - 4.7 transfer_out_475_24 - 4.5 transfer_out_476_24 - 4.9 transfer_out_477_24
@@ -28747,7 +28742,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  - 4.7 transfer_out_507_24 - 4.4 transfer_out_508_24 - 7.1 transfer_out_509_24
  - 5.5 transfer_out_50_24 - 4 transfer_out_510_24 - 4.9 transfer_out_511_24
  - 4.4 transfer_out_512_24 - 4.4 transfer_out_513_24 - 4.4 transfer_out_514_24
- - 4.5 transfer_out_515_24 - 9.7 transfer_out_516_24 - 4 transfer_out_517_24
+ - 4.5 transfer_out_515_24 - 9.6 transfer_out_516_24 - 4 transfer_out_517_24
  - 4 transfer_out_518_24 - 4.8 transfer_out_519_24 - 4.1 transfer_out_51_24
  - 5.3 transfer_out_520_24 - 3.9 transfer_out_521_24 - 4.4 transfer_out_522_24
  - 5.7 transfer_out_523_24 - 4.2 transfer_out_524_24 - 5.6 transfer_out_525_24
@@ -28762,19 +28757,19 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  - 4.4 transfer_out_548_24 - 4.5 transfer_out_549_24 - 4.5 transfer_out_54_24
  - 4.5 transfer_out_550_24 - 4.5 transfer_out_551_24 - 5.2 transfer_out_552_24
  - 4.2 transfer_out_553_24 - 5.4 transfer_out_554_24 - 4.4 transfer_out_555_24
- - 4 transfer_out_556_24 - 5.6 transfer_out_557_24 - 5.2 transfer_out_558_24
+ - 4 transfer_out_556_24 - 5.5 transfer_out_557_24 - 5.1 transfer_out_558_24
  - 4.9 transfer_out_559_24 - 5.9 transfer_out_55_24 - 4.3 transfer_out_560_24
  - 4.3 transfer_out_561_24 - 4.9 transfer_out_562_24 - 4.5 transfer_out_563_24
  - 3.9 transfer_out_564_24 - 4.9 transfer_out_565_24 - 4.8 transfer_out_566_24
  - 5.6 transfer_out_567_24 - 5.3 transfer_out_568_24 - 5 transfer_out_569_24
  - 4.5 transfer_out_56_24 - 4.7 transfer_out_570_24 - 4 transfer_out_571_24
  - 4.5 transfer_out_572_24 - 4.4 transfer_out_573_24 - 4.3 transfer_out_574_24
- - 4.2 transfer_out_575_24 - 4.4 transfer_out_576_24 - 4.3 transfer_out_577_24
+ - 4.2 transfer_out_575_24 - 4.3 transfer_out_576_24 - 4.3 transfer_out_577_24
  - 4.8 transfer_out_578_24 - 3.9 transfer_out_579_24 - 4 transfer_out_57_24
  - 3.9 transfer_out_580_24 - 3.9 transfer_out_581_24 - 4.7 transfer_out_582_24
  - 5.1 transfer_out_583_24 - 4.6 transfer_out_584_24 - 4.6 transfer_out_585_24
  - 4.7 transfer_out_586_24 - 4.7 transfer_out_587_24 - 4.4 transfer_out_588_24
- - 5 transfer_out_589_24 - 5.6 transfer_out_58_24 - 5.8 transfer_out_590_24
+ - 5 transfer_out_589_24 - 5.6 transfer_out_58_24 - 5.7 transfer_out_590_24
  - 5.3 transfer_out_591_24 - 4.3 transfer_out_592_24 - 5.1 transfer_out_593_24
  - 5.3 transfer_out_594_24 - 4.4 transfer_out_595_24 - 4.5 transfer_out_596_24
  - 4.8 transfer_out_597_24 - 4.3 transfer_out_598_24 - 6.5 transfer_out_599_24
@@ -28790,7 +28785,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  - 4.5 transfer_out_624_24 - 3.9 transfer_out_625_24 - 4 transfer_out_626_24
  - 4.4 transfer_out_627_24 - 4.4 transfer_out_628_24 - 4.4 transfer_out_629_24
  - 4.9 transfer_out_62_24 - 4.9 transfer_out_630_24 - 4.9 transfer_out_631_24
- - 4.4 transfer_out_632_24 - 4.3 transfer_out_633_24 - 3.9 transfer_out_634_24
+ - 4.4 transfer_out_632_24 - 4.2 transfer_out_633_24 - 3.9 transfer_out_634_24
  - 4.5 transfer_out_635_24 - 3.9 transfer_out_636_24 - 3.9 transfer_out_637_24
  - 5 transfer_out_638_24 - 4.4 transfer_out_639_24 - 5.2 transfer_out_63_24
  - 4.5 transfer_out_640_24 - 5.4 transfer_out_641_24 - 5 transfer_out_642_24
@@ -28877,8 +28872,8 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 4.5 transfer_in_124_25 + 4.7 transfer_in_125_25 + 4.5 transfer_in_126_25
  + 4.5 transfer_in_127_25 + 4.8 transfer_in_128_25 + 5 transfer_in_129_25
  + 7.7 transfer_in_12_25 + 5 transfer_in_130_25 + 5.1 transfer_in_131_25
- + 5.8 transfer_in_132_25 + 4.9 transfer_in_133_25 + 6.5 transfer_in_134_25
- + 5.5 transfer_in_135_25 + 4 transfer_in_136_25 + 4.5 transfer_in_137_25
+ + 5.8 transfer_in_132_25 + 4.9 transfer_in_133_25 + 6.4 transfer_in_134_25
+ + 5.4 transfer_in_135_25 + 4 transfer_in_136_25 + 4.5 transfer_in_137_25
  + 4.9 transfer_in_138_25 + 3.9 transfer_in_139_25 + 5.2 transfer_in_13_25
  + 6.1 transfer_in_140_25 + 3.9 transfer_in_141_25 + 4.8 transfer_in_142_25
  + 6.4 transfer_in_143_25 + 4.4 transfer_in_144_25 + 4.5 transfer_in_145_25
@@ -28896,7 +28891,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 4.3 transfer_in_176_25 + 5.3 transfer_in_177_25 + 4 transfer_in_178_25
  + 4 transfer_in_179_25 + 4.5 transfer_in_17_25 + 4.9 transfer_in_180_25
  + 3.9 transfer_in_181_25 + 4.4 transfer_in_182_25 + 5.5 transfer_in_183_25
- + 4.6 transfer_in_184_25 + 4 transfer_in_185_25 + 4.3 transfer_in_186_25
+ + 4.6 transfer_in_184_25 + 4 transfer_in_185_25 + 4.2 transfer_in_186_25
  + 5 transfer_in_187_25 + 6.5 transfer_in_188_25 + 4.5 transfer_in_189_25
  + 4 transfer_in_18_25 + 4 transfer_in_190_25 + 4.4 transfer_in_191_25
  + 4 transfer_in_192_25 + 4.9 transfer_in_193_25 + 4.3 transfer_in_194_25
@@ -28908,7 +28903,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 5.3 transfer_in_208_25 + 6.8 transfer_in_209_25 + 5.6 transfer_in_20_25
  + 6.3 transfer_in_210_25 + 6.8 transfer_in_211_25 + 7.4 transfer_in_212_25
  + 5.5 transfer_in_213_25 + 4.3 transfer_in_214_25 + 4 transfer_in_215_25
- + 7.1 transfer_in_216_25 + 5 transfer_in_217_25 + 5.4 transfer_in_218_25
+ + 7 transfer_in_216_25 + 5 transfer_in_217_25 + 5.4 transfer_in_218_25
  + 4.3 transfer_in_219_25 + 4.9 transfer_in_21_25 + 4.8 transfer_in_220_25
  + 5.4 transfer_in_221_25 + 4.4 transfer_in_222_25 + 4.9 transfer_in_223_25
  + 4.4 transfer_in_224_25 + 5.4 transfer_in_225_25 + 6 transfer_in_226_25
@@ -28934,7 +28929,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 4.4 transfer_in_279_25 + 3.9 transfer_in_27_25 + 5 transfer_in_280_25
  + 4.5 transfer_in_281_25 + 4.5 transfer_in_282_25 + 4.4 transfer_in_283_25
  + 3.9 transfer_in_284_25 + 4.4 transfer_in_285_25 + 4.3 transfer_in_286_25
- + 4.6 transfer_in_287_25 + 5.3 transfer_in_288_25 + 3.9 transfer_in_289_25
+ + 4.5 transfer_in_287_25 + 5.3 transfer_in_288_25 + 3.9 transfer_in_289_25
  + 3.9 transfer_in_28_25 + 8.5 transfer_in_290_25 + 5.7 transfer_in_291_25
  + 4.7 transfer_in_292_25 + 7.5 transfer_in_293_25 + 8 transfer_in_294_25
  + 4.8 transfer_in_295_25 + 5 transfer_in_296_25 + 7.2 transfer_in_297_25
@@ -28957,12 +28952,12 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 4.3 transfer_in_340_25 + 4.9 transfer_in_341_25 + 5 transfer_in_342_25
  + 6.9 transfer_in_343_25 + 6.5 transfer_in_344_25 + 4.4 transfer_in_345_25
  + 5.8 transfer_in_346_25 + 3.8 transfer_in_347_25 + 4.5 transfer_in_348_25
- + 10.7 transfer_in_349_25 + 5.6 transfer_in_34_25 + 5.5 transfer_in_350_25
+ + 10.8 transfer_in_349_25 + 5.6 transfer_in_34_25 + 5.5 transfer_in_350_25
  + 4.4 transfer_in_351_25 + 5.5 transfer_in_352_25 + 7.9 transfer_in_353_25
  + 7.2 transfer_in_354_25 + 14.1 transfer_in_355_25 + 4.7 transfer_in_356_25
  + 4.9 transfer_in_357_25 + 4.3 transfer_in_358_25 + 7.5 transfer_in_359_25
  + 5.7 transfer_in_35_25 + 4.4 transfer_in_360_25 + 3.8 transfer_in_361_25
- + 5.8 transfer_in_362_25 + 4.4 transfer_in_363_25 + 4.7 transfer_in_364_25
+ + 5.9 transfer_in_362_25 + 4.4 transfer_in_363_25 + 4.7 transfer_in_364_25
  + 5.6 transfer_in_365_25 + 3.8 transfer_in_366_25 + 3.9 transfer_in_367_25
  + 5.3 transfer_in_368_25 + 5.5 transfer_in_369_25 + 4.7 transfer_in_36_25
  + 4.5 transfer_in_370_25 + 4.4 transfer_in_371_25 + 6.8 transfer_in_372_25
@@ -28987,7 +28982,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 4.8 transfer_in_421_25 + 4 transfer_in_422_25 + 4.8 transfer_in_423_25
  + 5.3 transfer_in_424_25 + 4.3 transfer_in_425_25 + 6 transfer_in_426_25
  + 5.3 transfer_in_427_25 + 4.2 transfer_in_428_25 + 5.2 transfer_in_429_25
- + 4.6 transfer_in_42_25 + 6.7 transfer_in_430_25 + 4 transfer_in_431_25
+ + 4.6 transfer_in_42_25 + 6.8 transfer_in_430_25 + 4 transfer_in_431_25
  + 5.3 transfer_in_432_25 + 7.8 transfer_in_433_25 + 4.5 transfer_in_434_25
  + 4.3 transfer_in_435_25 + 4.5 transfer_in_436_25 + 6.3 transfer_in_437_25
  + 3.9 transfer_in_438_25 + 4.5 transfer_in_439_25 + 5.6 transfer_in_43_25
@@ -29001,7 +28996,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 3.9 transfer_in_45_25 + 4 transfer_in_460_25 + 4.4 transfer_in_461_25
  + 4.5 transfer_in_462_25 + 4.8 transfer_in_463_25 + 4.5 transfer_in_464_25
  + 4.4 transfer_in_465_25 + 4.4 transfer_in_466_25 + 4.3 transfer_in_467_25
- + 5 transfer_in_468_25 + 4.3 transfer_in_469_25 + 4.4 transfer_in_46_25
+ + 4.9 transfer_in_468_25 + 4.3 transfer_in_469_25 + 4.4 transfer_in_46_25
  + 4.8 transfer_in_470_25 + 4.3 transfer_in_471_25 + 3.9 transfer_in_472_25
  + 3.8 transfer_in_473_25 + 3.9 transfer_in_474_25 + 4.7 transfer_in_475_25
  + 4.5 transfer_in_476_25 + 4.9 transfer_in_477_25 + 4.4 transfer_in_478_25
@@ -29019,7 +29014,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 4.4 transfer_in_508_25 + 7.1 transfer_in_509_25 + 5.5 transfer_in_50_25
  + 4 transfer_in_510_25 + 4.9 transfer_in_511_25 + 4.4 transfer_in_512_25
  + 4.4 transfer_in_513_25 + 4.4 transfer_in_514_25 + 4.5 transfer_in_515_25
- + 9.7 transfer_in_516_25 + 4 transfer_in_517_25 + 4 transfer_in_518_25
+ + 9.6 transfer_in_516_25 + 4 transfer_in_517_25 + 4 transfer_in_518_25
  + 4.8 transfer_in_519_25 + 4.1 transfer_in_51_25 + 5.3 transfer_in_520_25
  + 3.9 transfer_in_521_25 + 4.4 transfer_in_522_25 + 5.7 transfer_in_523_25
  + 4.2 transfer_in_524_25 + 5.6 transfer_in_525_25 + 8 transfer_in_526_25
@@ -29034,19 +29029,19 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 4.5 transfer_in_549_25 + 4.5 transfer_in_54_25 + 4.5 transfer_in_550_25
  + 4.5 transfer_in_551_25 + 5.2 transfer_in_552_25 + 4.2 transfer_in_553_25
  + 5.4 transfer_in_554_25 + 4.4 transfer_in_555_25 + 4 transfer_in_556_25
- + 5.6 transfer_in_557_25 + 5.2 transfer_in_558_25 + 4.9 transfer_in_559_25
+ + 5.5 transfer_in_557_25 + 5.1 transfer_in_558_25 + 4.9 transfer_in_559_25
  + 5.9 transfer_in_55_25 + 4.3 transfer_in_560_25 + 4.3 transfer_in_561_25
  + 4.9 transfer_in_562_25 + 4.5 transfer_in_563_25 + 3.9 transfer_in_564_25
  + 4.9 transfer_in_565_25 + 4.8 transfer_in_566_25 + 5.6 transfer_in_567_25
  + 5.3 transfer_in_568_25 + 5 transfer_in_569_25 + 4.5 transfer_in_56_25
  + 4.7 transfer_in_570_25 + 4 transfer_in_571_25 + 4.5 transfer_in_572_25
  + 4.4 transfer_in_573_25 + 4.3 transfer_in_574_25 + 4.2 transfer_in_575_25
- + 4.4 transfer_in_576_25 + 4.3 transfer_in_577_25 + 4.8 transfer_in_578_25
+ + 4.3 transfer_in_576_25 + 4.3 transfer_in_577_25 + 4.8 transfer_in_578_25
  + 3.9 transfer_in_579_25 + 4 transfer_in_57_25 + 3.9 transfer_in_580_25
  + 3.9 transfer_in_581_25 + 4.7 transfer_in_582_25 + 5.1 transfer_in_583_25
  + 4.6 transfer_in_584_25 + 4.6 transfer_in_585_25 + 4.7 transfer_in_586_25
  + 4.7 transfer_in_587_25 + 4.4 transfer_in_588_25 + 5 transfer_in_589_25
- + 5.6 transfer_in_58_25 + 5.8 transfer_in_590_25 + 5.3 transfer_in_591_25
+ + 5.6 transfer_in_58_25 + 5.7 transfer_in_590_25 + 5.3 transfer_in_591_25
  + 4.3 transfer_in_592_25 + 5.1 transfer_in_593_25 + 5.3 transfer_in_594_25
  + 4.4 transfer_in_595_25 + 4.5 transfer_in_596_25 + 4.8 transfer_in_597_25
  + 4.3 transfer_in_598_25 + 6.5 transfer_in_599_25 + 5 transfer_in_59_25
@@ -29062,7 +29057,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 3.9 transfer_in_625_25 + 4 transfer_in_626_25 + 4.4 transfer_in_627_25
  + 4.4 transfer_in_628_25 + 4.4 transfer_in_629_25 + 4.9 transfer_in_62_25
  + 4.9 transfer_in_630_25 + 4.9 transfer_in_631_25 + 4.4 transfer_in_632_25
- + 4.3 transfer_in_633_25 + 3.9 transfer_in_634_25 + 4.5 transfer_in_635_25
+ + 4.2 transfer_in_633_25 + 3.9 transfer_in_634_25 + 4.5 transfer_in_635_25
  + 3.9 transfer_in_636_25 + 3.9 transfer_in_637_25 + 5 transfer_in_638_25
  + 4.4 transfer_in_639_25 + 5.2 transfer_in_63_25 + 4.5 transfer_in_640_25
  + 5.4 transfer_in_641_25 + 5 transfer_in_642_25 + 4.4 transfer_in_643_25
@@ -29147,7 +29142,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  - 4.7 transfer_out_125_25 - 4.5 transfer_out_126_25 - 4.5 transfer_out_127_25
  - 4.8 transfer_out_128_25 - 5 transfer_out_129_25 - 7.7 transfer_out_12_25
  - 5 transfer_out_130_25 - 5.1 transfer_out_131_25 - 5.8 transfer_out_132_25
- - 4.9 transfer_out_133_25 - 6.5 transfer_out_134_25 - 5.5 transfer_out_135_25
+ - 4.9 transfer_out_133_25 - 6.4 transfer_out_134_25 - 5.4 transfer_out_135_25
  - 4 transfer_out_136_25 - 4.5 transfer_out_137_25 - 4.9 transfer_out_138_25
  - 3.9 transfer_out_139_25 - 5.2 transfer_out_13_25 - 6.1 transfer_out_140_25
  - 3.9 transfer_out_141_25 - 4.8 transfer_out_142_25 - 6.4 transfer_out_143_25
@@ -29166,7 +29161,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  - 5.3 transfer_out_177_25 - 4 transfer_out_178_25 - 4 transfer_out_179_25
  - 4.5 transfer_out_17_25 - 4.9 transfer_out_180_25 - 3.9 transfer_out_181_25
  - 4.4 transfer_out_182_25 - 5.5 transfer_out_183_25 - 4.6 transfer_out_184_25
- - 4 transfer_out_185_25 - 4.3 transfer_out_186_25 - 5 transfer_out_187_25
+ - 4 transfer_out_185_25 - 4.2 transfer_out_186_25 - 5 transfer_out_187_25
  - 6.5 transfer_out_188_25 - 4.5 transfer_out_189_25 - 4 transfer_out_18_25
  - 4 transfer_out_190_25 - 4.4 transfer_out_191_25 - 4 transfer_out_192_25
  - 4.9 transfer_out_193_25 - 4.3 transfer_out_194_25 - 5.4 transfer_out_195_25
@@ -29177,7 +29172,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  - 5.3 transfer_out_206_25 - 6.8 transfer_out_207_25 - 5.3 transfer_out_208_25
  - 6.8 transfer_out_209_25 - 5.6 transfer_out_20_25 - 6.3 transfer_out_210_25
  - 6.8 transfer_out_211_25 - 7.4 transfer_out_212_25 - 5.5 transfer_out_213_25
- - 4.3 transfer_out_214_25 - 4 transfer_out_215_25 - 7.1 transfer_out_216_25
+ - 4.3 transfer_out_214_25 - 4 transfer_out_215_25 - 7 transfer_out_216_25
  - 5 transfer_out_217_25 - 5.4 transfer_out_218_25 - 4.3 transfer_out_219_25
  - 4.9 transfer_out_21_25 - 4.8 transfer_out_220_25 - 5.4 transfer_out_221_25
  - 4.4 transfer_out_222_25 - 4.9 transfer_out_223_25 - 4.4 transfer_out_224_25
@@ -29203,7 +29198,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  - 4 transfer_out_277_25 - 7.4 transfer_out_278_25 - 4.4 transfer_out_279_25
  - 3.9 transfer_out_27_25 - 5 transfer_out_280_25 - 4.5 transfer_out_281_25
  - 4.5 transfer_out_282_25 - 4.4 transfer_out_283_25 - 3.9 transfer_out_284_25
- - 4.4 transfer_out_285_25 - 4.3 transfer_out_286_25 - 4.6 transfer_out_287_25
+ - 4.4 transfer_out_285_25 - 4.3 transfer_out_286_25 - 4.5 transfer_out_287_25
  - 5.3 transfer_out_288_25 - 3.9 transfer_out_289_25 - 3.9 transfer_out_28_25
  - 8.5 transfer_out_290_25 - 5.7 transfer_out_291_25 - 4.7 transfer_out_292_25
  - 7.5 transfer_out_293_25 - 8 transfer_out_294_25 - 4.8 transfer_out_295_25
@@ -29227,12 +29222,12 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  - 4.9 transfer_out_341_25 - 5 transfer_out_342_25 - 6.9 transfer_out_343_25
  - 6.5 transfer_out_344_25 - 4.4 transfer_out_345_25 - 5.8 transfer_out_346_25
  - 3.8 transfer_out_347_25 - 4.5 transfer_out_348_25
- - 10.7 transfer_out_349_25 - 5.6 transfer_out_34_25 - 5.5 transfer_out_350_25
+ - 10.8 transfer_out_349_25 - 5.6 transfer_out_34_25 - 5.5 transfer_out_350_25
  - 4.4 transfer_out_351_25 - 5.5 transfer_out_352_25 - 7.9 transfer_out_353_25
  - 7.2 transfer_out_354_25 - 14.1 transfer_out_355_25
  - 4.7 transfer_out_356_25 - 4.9 transfer_out_357_25 - 4.3 transfer_out_358_25
  - 7.5 transfer_out_359_25 - 5.7 transfer_out_35_25 - 4.4 transfer_out_360_25
- - 3.8 transfer_out_361_25 - 5.8 transfer_out_362_25 - 4.4 transfer_out_363_25
+ - 3.8 transfer_out_361_25 - 5.9 transfer_out_362_25 - 4.4 transfer_out_363_25
  - 4.7 transfer_out_364_25 - 5.6 transfer_out_365_25 - 3.8 transfer_out_366_25
  - 3.9 transfer_out_367_25 - 5.3 transfer_out_368_25 - 5.5 transfer_out_369_25
  - 4.7 transfer_out_36_25 - 4.5 transfer_out_370_25 - 4.4 transfer_out_371_25
@@ -29257,7 +29252,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  - 4 transfer_out_420_25 - 4.8 transfer_out_421_25 - 4 transfer_out_422_25
  - 4.8 transfer_out_423_25 - 5.3 transfer_out_424_25 - 4.3 transfer_out_425_25
  - 6 transfer_out_426_25 - 5.3 transfer_out_427_25 - 4.2 transfer_out_428_25
- - 5.2 transfer_out_429_25 - 4.6 transfer_out_42_25 - 6.7 transfer_out_430_25
+ - 5.2 transfer_out_429_25 - 4.6 transfer_out_42_25 - 6.8 transfer_out_430_25
  - 4 transfer_out_431_25 - 5.3 transfer_out_432_25 - 7.8 transfer_out_433_25
  - 4.5 transfer_out_434_25 - 4.3 transfer_out_435_25 - 4.5 transfer_out_436_25
  - 6.3 transfer_out_437_25 - 3.9 transfer_out_438_25 - 4.5 transfer_out_439_25
@@ -29271,7 +29266,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  - 4.5 transfer_out_459_25 - 3.9 transfer_out_45_25 - 4 transfer_out_460_25
  - 4.4 transfer_out_461_25 - 4.5 transfer_out_462_25 - 4.8 transfer_out_463_25
  - 4.5 transfer_out_464_25 - 4.4 transfer_out_465_25 - 4.4 transfer_out_466_25
- - 4.3 transfer_out_467_25 - 5 transfer_out_468_25 - 4.3 transfer_out_469_25
+ - 4.3 transfer_out_467_25 - 4.9 transfer_out_468_25 - 4.3 transfer_out_469_25
  - 4.4 transfer_out_46_25 - 4.8 transfer_out_470_25 - 4.3 transfer_out_471_25
  - 3.9 transfer_out_472_25 - 3.8 transfer_out_473_25 - 3.9 transfer_out_474_25
  - 4.7 transfer_out_475_25 - 4.5 transfer_out_476_25 - 4.9 transfer_out_477_25
@@ -29289,7 +29284,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  - 4.7 transfer_out_507_25 - 4.4 transfer_out_508_25 - 7.1 transfer_out_509_25
  - 5.5 transfer_out_50_25 - 4 transfer_out_510_25 - 4.9 transfer_out_511_25
  - 4.4 transfer_out_512_25 - 4.4 transfer_out_513_25 - 4.4 transfer_out_514_25
- - 4.5 transfer_out_515_25 - 9.7 transfer_out_516_25 - 4 transfer_out_517_25
+ - 4.5 transfer_out_515_25 - 9.6 transfer_out_516_25 - 4 transfer_out_517_25
  - 4 transfer_out_518_25 - 4.8 transfer_out_519_25 - 4.1 transfer_out_51_25
  - 5.3 transfer_out_520_25 - 3.9 transfer_out_521_25 - 4.4 transfer_out_522_25
  - 5.7 transfer_out_523_25 - 4.2 transfer_out_524_25 - 5.6 transfer_out_525_25
@@ -29304,19 +29299,19 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  - 4.4 transfer_out_548_25 - 4.5 transfer_out_549_25 - 4.5 transfer_out_54_25
  - 4.5 transfer_out_550_25 - 4.5 transfer_out_551_25 - 5.2 transfer_out_552_25
  - 4.2 transfer_out_553_25 - 5.4 transfer_out_554_25 - 4.4 transfer_out_555_25
- - 4 transfer_out_556_25 - 5.6 transfer_out_557_25 - 5.2 transfer_out_558_25
+ - 4 transfer_out_556_25 - 5.5 transfer_out_557_25 - 5.1 transfer_out_558_25
  - 4.9 transfer_out_559_25 - 5.9 transfer_out_55_25 - 4.3 transfer_out_560_25
  - 4.3 transfer_out_561_25 - 4.9 transfer_out_562_25 - 4.5 transfer_out_563_25
  - 3.9 transfer_out_564_25 - 4.9 transfer_out_565_25 - 4.8 transfer_out_566_25
  - 5.6 transfer_out_567_25 - 5.3 transfer_out_568_25 - 5 transfer_out_569_25
  - 4.5 transfer_out_56_25 - 4.7 transfer_out_570_25 - 4 transfer_out_571_25
  - 4.5 transfer_out_572_25 - 4.4 transfer_out_573_25 - 4.3 transfer_out_574_25
- - 4.2 transfer_out_575_25 - 4.4 transfer_out_576_25 - 4.3 transfer_out_577_25
+ - 4.2 transfer_out_575_25 - 4.3 transfer_out_576_25 - 4.3 transfer_out_577_25
  - 4.8 transfer_out_578_25 - 3.9 transfer_out_579_25 - 4 transfer_out_57_25
  - 3.9 transfer_out_580_25 - 3.9 transfer_out_581_25 - 4.7 transfer_out_582_25
  - 5.1 transfer_out_583_25 - 4.6 transfer_out_584_25 - 4.6 transfer_out_585_25
  - 4.7 transfer_out_586_25 - 4.7 transfer_out_587_25 - 4.4 transfer_out_588_25
- - 5 transfer_out_589_25 - 5.6 transfer_out_58_25 - 5.8 transfer_out_590_25
+ - 5 transfer_out_589_25 - 5.6 transfer_out_58_25 - 5.7 transfer_out_590_25
  - 5.3 transfer_out_591_25 - 4.3 transfer_out_592_25 - 5.1 transfer_out_593_25
  - 5.3 transfer_out_594_25 - 4.4 transfer_out_595_25 - 4.5 transfer_out_596_25
  - 4.8 transfer_out_597_25 - 4.3 transfer_out_598_25 - 6.5 transfer_out_599_25
@@ -29332,7 +29327,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  - 4.5 transfer_out_624_25 - 3.9 transfer_out_625_25 - 4 transfer_out_626_25
  - 4.4 transfer_out_627_25 - 4.4 transfer_out_628_25 - 4.4 transfer_out_629_25
  - 4.9 transfer_out_62_25 - 4.9 transfer_out_630_25 - 4.9 transfer_out_631_25
- - 4.4 transfer_out_632_25 - 4.3 transfer_out_633_25 - 3.9 transfer_out_634_25
+ - 4.4 transfer_out_632_25 - 4.2 transfer_out_633_25 - 3.9 transfer_out_634_25
  - 4.5 transfer_out_635_25 - 3.9 transfer_out_636_25 - 3.9 transfer_out_637_25
  - 5 transfer_out_638_25 - 4.4 transfer_out_639_25 - 5.2 transfer_out_63_25
  - 4.5 transfer_out_640_25 - 5.4 transfer_out_641_25 - 5 transfer_out_642_25
@@ -29419,8 +29414,8 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 4.5 transfer_in_124_26 + 4.7 transfer_in_125_26 + 4.5 transfer_in_126_26
  + 4.5 transfer_in_127_26 + 4.8 transfer_in_128_26 + 5 transfer_in_129_26
  + 7.7 transfer_in_12_26 + 5 transfer_in_130_26 + 5.1 transfer_in_131_26
- + 5.8 transfer_in_132_26 + 4.9 transfer_in_133_26 + 6.5 transfer_in_134_26
- + 5.5 transfer_in_135_26 + 4 transfer_in_136_26 + 4.5 transfer_in_137_26
+ + 5.8 transfer_in_132_26 + 4.9 transfer_in_133_26 + 6.4 transfer_in_134_26
+ + 5.4 transfer_in_135_26 + 4 transfer_in_136_26 + 4.5 transfer_in_137_26
  + 4.9 transfer_in_138_26 + 3.9 transfer_in_139_26 + 5.2 transfer_in_13_26
  + 6.1 transfer_in_140_26 + 3.9 transfer_in_141_26 + 4.8 transfer_in_142_26
  + 6.4 transfer_in_143_26 + 4.4 transfer_in_144_26 + 4.5 transfer_in_145_26
@@ -29438,7 +29433,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 4.3 transfer_in_176_26 + 5.3 transfer_in_177_26 + 4 transfer_in_178_26
  + 4 transfer_in_179_26 + 4.5 transfer_in_17_26 + 4.9 transfer_in_180_26
  + 3.9 transfer_in_181_26 + 4.4 transfer_in_182_26 + 5.5 transfer_in_183_26
- + 4.6 transfer_in_184_26 + 4 transfer_in_185_26 + 4.3 transfer_in_186_26
+ + 4.6 transfer_in_184_26 + 4 transfer_in_185_26 + 4.2 transfer_in_186_26
  + 5 transfer_in_187_26 + 6.5 transfer_in_188_26 + 4.5 transfer_in_189_26
  + 4 transfer_in_18_26 + 4 transfer_in_190_26 + 4.4 transfer_in_191_26
  + 4 transfer_in_192_26 + 4.9 transfer_in_193_26 + 4.3 transfer_in_194_26
@@ -29450,7 +29445,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 5.3 transfer_in_208_26 + 6.8 transfer_in_209_26 + 5.6 transfer_in_20_26
  + 6.3 transfer_in_210_26 + 6.8 transfer_in_211_26 + 7.4 transfer_in_212_26
  + 5.5 transfer_in_213_26 + 4.3 transfer_in_214_26 + 4 transfer_in_215_26
- + 7.1 transfer_in_216_26 + 5 transfer_in_217_26 + 5.4 transfer_in_218_26
+ + 7 transfer_in_216_26 + 5 transfer_in_217_26 + 5.4 transfer_in_218_26
  + 4.3 transfer_in_219_26 + 4.9 transfer_in_21_26 + 4.8 transfer_in_220_26
  + 5.4 transfer_in_221_26 + 4.4 transfer_in_222_26 + 4.9 transfer_in_223_26
  + 4.4 transfer_in_224_26 + 5.4 transfer_in_225_26 + 6 transfer_in_226_26
@@ -29476,7 +29471,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 4.4 transfer_in_279_26 + 3.9 transfer_in_27_26 + 5 transfer_in_280_26
  + 4.5 transfer_in_281_26 + 4.5 transfer_in_282_26 + 4.4 transfer_in_283_26
  + 3.9 transfer_in_284_26 + 4.4 transfer_in_285_26 + 4.3 transfer_in_286_26
- + 4.6 transfer_in_287_26 + 5.3 transfer_in_288_26 + 3.9 transfer_in_289_26
+ + 4.5 transfer_in_287_26 + 5.3 transfer_in_288_26 + 3.9 transfer_in_289_26
  + 3.9 transfer_in_28_26 + 8.5 transfer_in_290_26 + 5.7 transfer_in_291_26
  + 4.7 transfer_in_292_26 + 7.5 transfer_in_293_26 + 8 transfer_in_294_26
  + 4.8 transfer_in_295_26 + 5 transfer_in_296_26 + 7.2 transfer_in_297_26
@@ -29499,12 +29494,12 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 4.3 transfer_in_340_26 + 4.9 transfer_in_341_26 + 5 transfer_in_342_26
  + 6.9 transfer_in_343_26 + 6.5 transfer_in_344_26 + 4.4 transfer_in_345_26
  + 5.8 transfer_in_346_26 + 3.8 transfer_in_347_26 + 4.5 transfer_in_348_26
- + 10.7 transfer_in_349_26 + 5.6 transfer_in_34_26 + 5.5 transfer_in_350_26
+ + 10.8 transfer_in_349_26 + 5.6 transfer_in_34_26 + 5.5 transfer_in_350_26
  + 4.4 transfer_in_351_26 + 5.5 transfer_in_352_26 + 7.9 transfer_in_353_26
  + 7.2 transfer_in_354_26 + 14.1 transfer_in_355_26 + 4.7 transfer_in_356_26
  + 4.9 transfer_in_357_26 + 4.3 transfer_in_358_26 + 7.5 transfer_in_359_26
  + 5.7 transfer_in_35_26 + 4.4 transfer_in_360_26 + 3.8 transfer_in_361_26
- + 5.8 transfer_in_362_26 + 4.4 transfer_in_363_26 + 4.7 transfer_in_364_26
+ + 5.9 transfer_in_362_26 + 4.4 transfer_in_363_26 + 4.7 transfer_in_364_26
  + 5.6 transfer_in_365_26 + 3.8 transfer_in_366_26 + 3.9 transfer_in_367_26
  + 5.3 transfer_in_368_26 + 5.5 transfer_in_369_26 + 4.7 transfer_in_36_26
  + 4.5 transfer_in_370_26 + 4.4 transfer_in_371_26 + 6.8 transfer_in_372_26
@@ -29529,7 +29524,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 4.8 transfer_in_421_26 + 4 transfer_in_422_26 + 4.8 transfer_in_423_26
  + 5.3 transfer_in_424_26 + 4.3 transfer_in_425_26 + 6 transfer_in_426_26
  + 5.3 transfer_in_427_26 + 4.2 transfer_in_428_26 + 5.2 transfer_in_429_26
- + 4.6 transfer_in_42_26 + 6.7 transfer_in_430_26 + 4 transfer_in_431_26
+ + 4.6 transfer_in_42_26 + 6.8 transfer_in_430_26 + 4 transfer_in_431_26
  + 5.3 transfer_in_432_26 + 7.8 transfer_in_433_26 + 4.5 transfer_in_434_26
  + 4.3 transfer_in_435_26 + 4.5 transfer_in_436_26 + 6.3 transfer_in_437_26
  + 3.9 transfer_in_438_26 + 4.5 transfer_in_439_26 + 5.6 transfer_in_43_26
@@ -29543,7 +29538,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 3.9 transfer_in_45_26 + 4 transfer_in_460_26 + 4.4 transfer_in_461_26
  + 4.5 transfer_in_462_26 + 4.8 transfer_in_463_26 + 4.5 transfer_in_464_26
  + 4.4 transfer_in_465_26 + 4.4 transfer_in_466_26 + 4.3 transfer_in_467_26
- + 5 transfer_in_468_26 + 4.3 transfer_in_469_26 + 4.4 transfer_in_46_26
+ + 4.9 transfer_in_468_26 + 4.3 transfer_in_469_26 + 4.4 transfer_in_46_26
  + 4.8 transfer_in_470_26 + 4.3 transfer_in_471_26 + 3.9 transfer_in_472_26
  + 3.8 transfer_in_473_26 + 3.9 transfer_in_474_26 + 4.7 transfer_in_475_26
  + 4.5 transfer_in_476_26 + 4.9 transfer_in_477_26 + 4.4 transfer_in_478_26
@@ -29561,7 +29556,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 4.4 transfer_in_508_26 + 7.1 transfer_in_509_26 + 5.5 transfer_in_50_26
  + 4 transfer_in_510_26 + 4.9 transfer_in_511_26 + 4.4 transfer_in_512_26
  + 4.4 transfer_in_513_26 + 4.4 transfer_in_514_26 + 4.5 transfer_in_515_26
- + 9.7 transfer_in_516_26 + 4 transfer_in_517_26 + 4 transfer_in_518_26
+ + 9.6 transfer_in_516_26 + 4 transfer_in_517_26 + 4 transfer_in_518_26
  + 4.8 transfer_in_519_26 + 4.1 transfer_in_51_26 + 5.3 transfer_in_520_26
  + 3.9 transfer_in_521_26 + 4.4 transfer_in_522_26 + 5.7 transfer_in_523_26
  + 4.2 transfer_in_524_26 + 5.6 transfer_in_525_26 + 8 transfer_in_526_26
@@ -29576,19 +29571,19 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 4.5 transfer_in_549_26 + 4.5 transfer_in_54_26 + 4.5 transfer_in_550_26
  + 4.5 transfer_in_551_26 + 5.2 transfer_in_552_26 + 4.2 transfer_in_553_26
  + 5.4 transfer_in_554_26 + 4.4 transfer_in_555_26 + 4 transfer_in_556_26
- + 5.6 transfer_in_557_26 + 5.2 transfer_in_558_26 + 4.9 transfer_in_559_26
+ + 5.5 transfer_in_557_26 + 5.1 transfer_in_558_26 + 4.9 transfer_in_559_26
  + 5.9 transfer_in_55_26 + 4.3 transfer_in_560_26 + 4.3 transfer_in_561_26
  + 4.9 transfer_in_562_26 + 4.5 transfer_in_563_26 + 3.9 transfer_in_564_26
  + 4.9 transfer_in_565_26 + 4.8 transfer_in_566_26 + 5.6 transfer_in_567_26
  + 5.3 transfer_in_568_26 + 5 transfer_in_569_26 + 4.5 transfer_in_56_26
  + 4.7 transfer_in_570_26 + 4 transfer_in_571_26 + 4.5 transfer_in_572_26
  + 4.4 transfer_in_573_26 + 4.3 transfer_in_574_26 + 4.2 transfer_in_575_26
- + 4.4 transfer_in_576_26 + 4.3 transfer_in_577_26 + 4.8 transfer_in_578_26
+ + 4.3 transfer_in_576_26 + 4.3 transfer_in_577_26 + 4.8 transfer_in_578_26
  + 3.9 transfer_in_579_26 + 4 transfer_in_57_26 + 3.9 transfer_in_580_26
  + 3.9 transfer_in_581_26 + 4.7 transfer_in_582_26 + 5.1 transfer_in_583_26
  + 4.6 transfer_in_584_26 + 4.6 transfer_in_585_26 + 4.7 transfer_in_586_26
  + 4.7 transfer_in_587_26 + 4.4 transfer_in_588_26 + 5 transfer_in_589_26
- + 5.6 transfer_in_58_26 + 5.8 transfer_in_590_26 + 5.3 transfer_in_591_26
+ + 5.6 transfer_in_58_26 + 5.7 transfer_in_590_26 + 5.3 transfer_in_591_26
  + 4.3 transfer_in_592_26 + 5.1 transfer_in_593_26 + 5.3 transfer_in_594_26
  + 4.4 transfer_in_595_26 + 4.5 transfer_in_596_26 + 4.8 transfer_in_597_26
  + 4.3 transfer_in_598_26 + 6.5 transfer_in_599_26 + 5 transfer_in_59_26
@@ -29604,7 +29599,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 3.9 transfer_in_625_26 + 4 transfer_in_626_26 + 4.4 transfer_in_627_26
  + 4.4 transfer_in_628_26 + 4.4 transfer_in_629_26 + 4.9 transfer_in_62_26
  + 4.9 transfer_in_630_26 + 4.9 transfer_in_631_26 + 4.4 transfer_in_632_26
- + 4.3 transfer_in_633_26 + 3.9 transfer_in_634_26 + 4.5 transfer_in_635_26
+ + 4.2 transfer_in_633_26 + 3.9 transfer_in_634_26 + 4.5 transfer_in_635_26
  + 3.9 transfer_in_636_26 + 3.9 transfer_in_637_26 + 5 transfer_in_638_26
  + 4.4 transfer_in_639_26 + 5.2 transfer_in_63_26 + 4.5 transfer_in_640_26
  + 5.4 transfer_in_641_26 + 5 transfer_in_642_26 + 4.4 transfer_in_643_26
@@ -29689,7 +29684,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  - 4.7 transfer_out_125_26 - 4.5 transfer_out_126_26 - 4.5 transfer_out_127_26
  - 4.8 transfer_out_128_26 - 5 transfer_out_129_26 - 7.7 transfer_out_12_26
  - 5 transfer_out_130_26 - 5.1 transfer_out_131_26 - 5.8 transfer_out_132_26
- - 4.9 transfer_out_133_26 - 6.5 transfer_out_134_26 - 5.5 transfer_out_135_26
+ - 4.9 transfer_out_133_26 - 6.4 transfer_out_134_26 - 5.4 transfer_out_135_26
  - 4 transfer_out_136_26 - 4.5 transfer_out_137_26 - 4.9 transfer_out_138_26
  - 3.9 transfer_out_139_26 - 5.2 transfer_out_13_26 - 6.1 transfer_out_140_26
  - 3.9 transfer_out_141_26 - 4.8 transfer_out_142_26 - 6.4 transfer_out_143_26
@@ -29708,7 +29703,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  - 5.3 transfer_out_177_26 - 4 transfer_out_178_26 - 4 transfer_out_179_26
  - 4.5 transfer_out_17_26 - 4.9 transfer_out_180_26 - 3.9 transfer_out_181_26
  - 4.4 transfer_out_182_26 - 5.5 transfer_out_183_26 - 4.6 transfer_out_184_26
- - 4 transfer_out_185_26 - 4.3 transfer_out_186_26 - 5 transfer_out_187_26
+ - 4 transfer_out_185_26 - 4.2 transfer_out_186_26 - 5 transfer_out_187_26
  - 6.5 transfer_out_188_26 - 4.5 transfer_out_189_26 - 4 transfer_out_18_26
  - 4 transfer_out_190_26 - 4.4 transfer_out_191_26 - 4 transfer_out_192_26
  - 4.9 transfer_out_193_26 - 4.3 transfer_out_194_26 - 5.4 transfer_out_195_26
@@ -29719,7 +29714,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  - 5.3 transfer_out_206_26 - 6.8 transfer_out_207_26 - 5.3 transfer_out_208_26
  - 6.8 transfer_out_209_26 - 5.6 transfer_out_20_26 - 6.3 transfer_out_210_26
  - 6.8 transfer_out_211_26 - 7.4 transfer_out_212_26 - 5.5 transfer_out_213_26
- - 4.3 transfer_out_214_26 - 4 transfer_out_215_26 - 7.1 transfer_out_216_26
+ - 4.3 transfer_out_214_26 - 4 transfer_out_215_26 - 7 transfer_out_216_26
  - 5 transfer_out_217_26 - 5.4 transfer_out_218_26 - 4.3 transfer_out_219_26
  - 4.9 transfer_out_21_26 - 4.8 transfer_out_220_26 - 5.4 transfer_out_221_26
  - 4.4 transfer_out_222_26 - 4.9 transfer_out_223_26 - 4.4 transfer_out_224_26
@@ -29745,7 +29740,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  - 4 transfer_out_277_26 - 7.4 transfer_out_278_26 - 4.4 transfer_out_279_26
  - 3.9 transfer_out_27_26 - 5 transfer_out_280_26 - 4.5 transfer_out_281_26
  - 4.5 transfer_out_282_26 - 4.4 transfer_out_283_26 - 3.9 transfer_out_284_26
- - 4.4 transfer_out_285_26 - 4.3 transfer_out_286_26 - 4.6 transfer_out_287_26
+ - 4.4 transfer_out_285_26 - 4.3 transfer_out_286_26 - 4.5 transfer_out_287_26
  - 5.3 transfer_out_288_26 - 3.9 transfer_out_289_26 - 3.9 transfer_out_28_26
  - 8.5 transfer_out_290_26 - 5.7 transfer_out_291_26 - 4.7 transfer_out_292_26
  - 7.5 transfer_out_293_26 - 8 transfer_out_294_26 - 4.8 transfer_out_295_26
@@ -29769,12 +29764,12 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  - 4.9 transfer_out_341_26 - 5 transfer_out_342_26 - 6.9 transfer_out_343_26
  - 6.5 transfer_out_344_26 - 4.4 transfer_out_345_26 - 5.8 transfer_out_346_26
  - 3.8 transfer_out_347_26 - 4.5 transfer_out_348_26
- - 10.7 transfer_out_349_26 - 5.6 transfer_out_34_26 - 5.5 transfer_out_350_26
+ - 10.8 transfer_out_349_26 - 5.6 transfer_out_34_26 - 5.5 transfer_out_350_26
  - 4.4 transfer_out_351_26 - 5.5 transfer_out_352_26 - 7.9 transfer_out_353_26
  - 7.2 transfer_out_354_26 - 14.1 transfer_out_355_26
  - 4.7 transfer_out_356_26 - 4.9 transfer_out_357_26 - 4.3 transfer_out_358_26
  - 7.5 transfer_out_359_26 - 5.7 transfer_out_35_26 - 4.4 transfer_out_360_26
- - 3.8 transfer_out_361_26 - 5.8 transfer_out_362_26 - 4.4 transfer_out_363_26
+ - 3.8 transfer_out_361_26 - 5.9 transfer_out_362_26 - 4.4 transfer_out_363_26
  - 4.7 transfer_out_364_26 - 5.6 transfer_out_365_26 - 3.8 transfer_out_366_26
  - 3.9 transfer_out_367_26 - 5.3 transfer_out_368_26 - 5.5 transfer_out_369_26
  - 4.7 transfer_out_36_26 - 4.5 transfer_out_370_26 - 4.4 transfer_out_371_26
@@ -29799,7 +29794,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  - 4 transfer_out_420_26 - 4.8 transfer_out_421_26 - 4 transfer_out_422_26
  - 4.8 transfer_out_423_26 - 5.3 transfer_out_424_26 - 4.3 transfer_out_425_26
  - 6 transfer_out_426_26 - 5.3 transfer_out_427_26 - 4.2 transfer_out_428_26
- - 5.2 transfer_out_429_26 - 4.6 transfer_out_42_26 - 6.7 transfer_out_430_26
+ - 5.2 transfer_out_429_26 - 4.6 transfer_out_42_26 - 6.8 transfer_out_430_26
  - 4 transfer_out_431_26 - 5.3 transfer_out_432_26 - 7.8 transfer_out_433_26
  - 4.5 transfer_out_434_26 - 4.3 transfer_out_435_26 - 4.5 transfer_out_436_26
  - 6.3 transfer_out_437_26 - 3.9 transfer_out_438_26 - 4.5 transfer_out_439_26
@@ -29813,7 +29808,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  - 4.5 transfer_out_459_26 - 3.9 transfer_out_45_26 - 4 transfer_out_460_26
  - 4.4 transfer_out_461_26 - 4.5 transfer_out_462_26 - 4.8 transfer_out_463_26
  - 4.5 transfer_out_464_26 - 4.4 transfer_out_465_26 - 4.4 transfer_out_466_26
- - 4.3 transfer_out_467_26 - 5 transfer_out_468_26 - 4.3 transfer_out_469_26
+ - 4.3 transfer_out_467_26 - 4.9 transfer_out_468_26 - 4.3 transfer_out_469_26
  - 4.4 transfer_out_46_26 - 4.8 transfer_out_470_26 - 4.3 transfer_out_471_26
  - 3.9 transfer_out_472_26 - 3.8 transfer_out_473_26 - 3.9 transfer_out_474_26
  - 4.7 transfer_out_475_26 - 4.5 transfer_out_476_26 - 4.9 transfer_out_477_26
@@ -29831,7 +29826,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  - 4.7 transfer_out_507_26 - 4.4 transfer_out_508_26 - 7.1 transfer_out_509_26
  - 5.5 transfer_out_50_26 - 4 transfer_out_510_26 - 4.9 transfer_out_511_26
  - 4.4 transfer_out_512_26 - 4.4 transfer_out_513_26 - 4.4 transfer_out_514_26
- - 4.5 transfer_out_515_26 - 9.7 transfer_out_516_26 - 4 transfer_out_517_26
+ - 4.5 transfer_out_515_26 - 9.6 transfer_out_516_26 - 4 transfer_out_517_26
  - 4 transfer_out_518_26 - 4.8 transfer_out_519_26 - 4.1 transfer_out_51_26
  - 5.3 transfer_out_520_26 - 3.9 transfer_out_521_26 - 4.4 transfer_out_522_26
  - 5.7 transfer_out_523_26 - 4.2 transfer_out_524_26 - 5.6 transfer_out_525_26
@@ -29846,19 +29841,19 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  - 4.4 transfer_out_548_26 - 4.5 transfer_out_549_26 - 4.5 transfer_out_54_26
  - 4.5 transfer_out_550_26 - 4.5 transfer_out_551_26 - 5.2 transfer_out_552_26
  - 4.2 transfer_out_553_26 - 5.4 transfer_out_554_26 - 4.4 transfer_out_555_26
- - 4 transfer_out_556_26 - 5.6 transfer_out_557_26 - 5.2 transfer_out_558_26
+ - 4 transfer_out_556_26 - 5.5 transfer_out_557_26 - 5.1 transfer_out_558_26
  - 4.9 transfer_out_559_26 - 5.9 transfer_out_55_26 - 4.3 transfer_out_560_26
  - 4.3 transfer_out_561_26 - 4.9 transfer_out_562_26 - 4.5 transfer_out_563_26
  - 3.9 transfer_out_564_26 - 4.9 transfer_out_565_26 - 4.8 transfer_out_566_26
  - 5.6 transfer_out_567_26 - 5.3 transfer_out_568_26 - 5 transfer_out_569_26
  - 4.5 transfer_out_56_26 - 4.7 transfer_out_570_26 - 4 transfer_out_571_26
  - 4.5 transfer_out_572_26 - 4.4 transfer_out_573_26 - 4.3 transfer_out_574_26
- - 4.2 transfer_out_575_26 - 4.4 transfer_out_576_26 - 4.3 transfer_out_577_26
+ - 4.2 transfer_out_575_26 - 4.3 transfer_out_576_26 - 4.3 transfer_out_577_26
  - 4.8 transfer_out_578_26 - 3.9 transfer_out_579_26 - 4 transfer_out_57_26
  - 3.9 transfer_out_580_26 - 3.9 transfer_out_581_26 - 4.7 transfer_out_582_26
  - 5.1 transfer_out_583_26 - 4.6 transfer_out_584_26 - 4.6 transfer_out_585_26
  - 4.7 transfer_out_586_26 - 4.7 transfer_out_587_26 - 4.4 transfer_out_588_26
- - 5 transfer_out_589_26 - 5.6 transfer_out_58_26 - 5.8 transfer_out_590_26
+ - 5 transfer_out_589_26 - 5.6 transfer_out_58_26 - 5.7 transfer_out_590_26
  - 5.3 transfer_out_591_26 - 4.3 transfer_out_592_26 - 5.1 transfer_out_593_26
  - 5.3 transfer_out_594_26 - 4.4 transfer_out_595_26 - 4.5 transfer_out_596_26
  - 4.8 transfer_out_597_26 - 4.3 transfer_out_598_26 - 6.5 transfer_out_599_26
@@ -29874,7 +29869,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  - 4.5 transfer_out_624_26 - 3.9 transfer_out_625_26 - 4 transfer_out_626_26
  - 4.4 transfer_out_627_26 - 4.4 transfer_out_628_26 - 4.4 transfer_out_629_26
  - 4.9 transfer_out_62_26 - 4.9 transfer_out_630_26 - 4.9 transfer_out_631_26
- - 4.4 transfer_out_632_26 - 4.3 transfer_out_633_26 - 3.9 transfer_out_634_26
+ - 4.4 transfer_out_632_26 - 4.2 transfer_out_633_26 - 3.9 transfer_out_634_26
  - 4.5 transfer_out_635_26 - 3.9 transfer_out_636_26 - 3.9 transfer_out_637_26
  - 5 transfer_out_638_26 - 4.4 transfer_out_639_26 - 5.2 transfer_out_63_26
  - 4.5 transfer_out_640_26 - 5.4 transfer_out_641_26 - 5 transfer_out_642_26
@@ -29961,8 +29956,8 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  + 4.5 transfer_in_124_27 + 4.7 transfer_in_125_27 + 4.5 transfer_in_126_27
  + 4.5 transfer_in_127_27 + 4.8 transfer_in_128_27 + 5 transfer_in_129_27
  + 7.7 transfer_in_12_27 + 5 transfer_in_130_27 + 5.1 transfer_in_131_27
- + 5.8 transfer_in_132_27 + 4.9 transfer_in_133_27 + 6.5 transfer_in_134_27
- + 5.5 transfer_in_135_27 + 4 transfer_in_136_27 + 4.5 transfer_in_137_27
+ + 5.8 transfer_in_132_27 + 4.9 transfer_in_133_27 + 6.4 transfer_in_134_27
+ + 5.4 transfer_in_135_27 + 4 transfer_in_136_27 + 4.5 transfer_in_137_27
  + 4.9 transfer_in_138_27 + 3.9 transfer_in_139_27 + 5.2 transfer_in_13_27
  + 6.1 transfer_in_140_27 + 3.9 transfer_in_141_27 + 4.8 transfer_in_142_27
  + 6.4 transfer_in_143_27 + 4.4 transfer_in_144_27 + 4.5 transfer_in_145_27
@@ -29980,7 +29975,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  + 4.3 transfer_in_176_27 + 5.3 transfer_in_177_27 + 4 transfer_in_178_27
  + 4 transfer_in_179_27 + 4.5 transfer_in_17_27 + 4.9 transfer_in_180_27
  + 3.9 transfer_in_181_27 + 4.4 transfer_in_182_27 + 5.5 transfer_in_183_27
- + 4.6 transfer_in_184_27 + 4 transfer_in_185_27 + 4.3 transfer_in_186_27
+ + 4.6 transfer_in_184_27 + 4 transfer_in_185_27 + 4.2 transfer_in_186_27
  + 5 transfer_in_187_27 + 6.5 transfer_in_188_27 + 4.5 transfer_in_189_27
  + 4 transfer_in_18_27 + 4 transfer_in_190_27 + 4.4 transfer_in_191_27
  + 4 transfer_in_192_27 + 4.9 transfer_in_193_27 + 4.3 transfer_in_194_27
@@ -29992,7 +29987,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  + 5.3 transfer_in_208_27 + 6.8 transfer_in_209_27 + 5.6 transfer_in_20_27
  + 6.3 transfer_in_210_27 + 6.8 transfer_in_211_27 + 7.4 transfer_in_212_27
  + 5.5 transfer_in_213_27 + 4.3 transfer_in_214_27 + 4 transfer_in_215_27
- + 7.1 transfer_in_216_27 + 5 transfer_in_217_27 + 5.4 transfer_in_218_27
+ + 7 transfer_in_216_27 + 5 transfer_in_217_27 + 5.4 transfer_in_218_27
  + 4.3 transfer_in_219_27 + 4.9 transfer_in_21_27 + 4.8 transfer_in_220_27
  + 5.4 transfer_in_221_27 + 4.4 transfer_in_222_27 + 4.9 transfer_in_223_27
  + 4.4 transfer_in_224_27 + 5.4 transfer_in_225_27 + 6 transfer_in_226_27
@@ -30018,7 +30013,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  + 4.4 transfer_in_279_27 + 3.9 transfer_in_27_27 + 5 transfer_in_280_27
  + 4.5 transfer_in_281_27 + 4.5 transfer_in_282_27 + 4.4 transfer_in_283_27
  + 3.9 transfer_in_284_27 + 4.4 transfer_in_285_27 + 4.3 transfer_in_286_27
- + 4.6 transfer_in_287_27 + 5.3 transfer_in_288_27 + 3.9 transfer_in_289_27
+ + 4.5 transfer_in_287_27 + 5.3 transfer_in_288_27 + 3.9 transfer_in_289_27
  + 3.9 transfer_in_28_27 + 8.5 transfer_in_290_27 + 5.7 transfer_in_291_27
  + 4.7 transfer_in_292_27 + 7.5 transfer_in_293_27 + 8 transfer_in_294_27
  + 4.8 transfer_in_295_27 + 5 transfer_in_296_27 + 7.2 transfer_in_297_27
@@ -30041,12 +30036,12 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  + 4.3 transfer_in_340_27 + 4.9 transfer_in_341_27 + 5 transfer_in_342_27
  + 6.9 transfer_in_343_27 + 6.5 transfer_in_344_27 + 4.4 transfer_in_345_27
  + 5.8 transfer_in_346_27 + 3.8 transfer_in_347_27 + 4.5 transfer_in_348_27
- + 10.7 transfer_in_349_27 + 5.6 transfer_in_34_27 + 5.5 transfer_in_350_27
+ + 10.8 transfer_in_349_27 + 5.6 transfer_in_34_27 + 5.5 transfer_in_350_27
  + 4.4 transfer_in_351_27 + 5.5 transfer_in_352_27 + 7.9 transfer_in_353_27
  + 7.2 transfer_in_354_27 + 14.1 transfer_in_355_27 + 4.7 transfer_in_356_27
  + 4.9 transfer_in_357_27 + 4.3 transfer_in_358_27 + 7.5 transfer_in_359_27
  + 5.7 transfer_in_35_27 + 4.4 transfer_in_360_27 + 3.8 transfer_in_361_27
- + 5.8 transfer_in_362_27 + 4.4 transfer_in_363_27 + 4.7 transfer_in_364_27
+ + 5.9 transfer_in_362_27 + 4.4 transfer_in_363_27 + 4.7 transfer_in_364_27
  + 5.6 transfer_in_365_27 + 3.8 transfer_in_366_27 + 3.9 transfer_in_367_27
  + 5.3 transfer_in_368_27 + 5.5 transfer_in_369_27 + 4.7 transfer_in_36_27
  + 4.5 transfer_in_370_27 + 4.4 transfer_in_371_27 + 6.8 transfer_in_372_27
@@ -30071,7 +30066,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  + 4.8 transfer_in_421_27 + 4 transfer_in_422_27 + 4.8 transfer_in_423_27
  + 5.3 transfer_in_424_27 + 4.3 transfer_in_425_27 + 6 transfer_in_426_27
  + 5.3 transfer_in_427_27 + 4.2 transfer_in_428_27 + 5.2 transfer_in_429_27
- + 4.6 transfer_in_42_27 + 6.7 transfer_in_430_27 + 4 transfer_in_431_27
+ + 4.6 transfer_in_42_27 + 6.8 transfer_in_430_27 + 4 transfer_in_431_27
  + 5.3 transfer_in_432_27 + 7.8 transfer_in_433_27 + 4.5 transfer_in_434_27
  + 4.3 transfer_in_435_27 + 4.5 transfer_in_436_27 + 6.3 transfer_in_437_27
  + 3.9 transfer_in_438_27 + 4.5 transfer_in_439_27 + 5.6 transfer_in_43_27
@@ -30085,7 +30080,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  + 3.9 transfer_in_45_27 + 4 transfer_in_460_27 + 4.4 transfer_in_461_27
  + 4.5 transfer_in_462_27 + 4.8 transfer_in_463_27 + 4.5 transfer_in_464_27
  + 4.4 transfer_in_465_27 + 4.4 transfer_in_466_27 + 4.3 transfer_in_467_27
- + 5 transfer_in_468_27 + 4.3 transfer_in_469_27 + 4.4 transfer_in_46_27
+ + 4.9 transfer_in_468_27 + 4.3 transfer_in_469_27 + 4.4 transfer_in_46_27
  + 4.8 transfer_in_470_27 + 4.3 transfer_in_471_27 + 3.9 transfer_in_472_27
  + 3.8 transfer_in_473_27 + 3.9 transfer_in_474_27 + 4.7 transfer_in_475_27
  + 4.5 transfer_in_476_27 + 4.9 transfer_in_477_27 + 4.4 transfer_in_478_27
@@ -30103,7 +30098,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  + 4.4 transfer_in_508_27 + 7.1 transfer_in_509_27 + 5.5 transfer_in_50_27
  + 4 transfer_in_510_27 + 4.9 transfer_in_511_27 + 4.4 transfer_in_512_27
  + 4.4 transfer_in_513_27 + 4.4 transfer_in_514_27 + 4.5 transfer_in_515_27
- + 9.7 transfer_in_516_27 + 4 transfer_in_517_27 + 4 transfer_in_518_27
+ + 9.6 transfer_in_516_27 + 4 transfer_in_517_27 + 4 transfer_in_518_27
  + 4.8 transfer_in_519_27 + 4.1 transfer_in_51_27 + 5.3 transfer_in_520_27
  + 3.9 transfer_in_521_27 + 4.4 transfer_in_522_27 + 5.7 transfer_in_523_27
  + 4.2 transfer_in_524_27 + 5.6 transfer_in_525_27 + 8 transfer_in_526_27
@@ -30118,19 +30113,19 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  + 4.5 transfer_in_549_27 + 4.5 transfer_in_54_27 + 4.5 transfer_in_550_27
  + 4.5 transfer_in_551_27 + 5.2 transfer_in_552_27 + 4.2 transfer_in_553_27
  + 5.4 transfer_in_554_27 + 4.4 transfer_in_555_27 + 4 transfer_in_556_27
- + 5.6 transfer_in_557_27 + 5.2 transfer_in_558_27 + 4.9 transfer_in_559_27
+ + 5.5 transfer_in_557_27 + 5.1 transfer_in_558_27 + 4.9 transfer_in_559_27
  + 5.9 transfer_in_55_27 + 4.3 transfer_in_560_27 + 4.3 transfer_in_561_27
  + 4.9 transfer_in_562_27 + 4.5 transfer_in_563_27 + 3.9 transfer_in_564_27
  + 4.9 transfer_in_565_27 + 4.8 transfer_in_566_27 + 5.6 transfer_in_567_27
  + 5.3 transfer_in_568_27 + 5 transfer_in_569_27 + 4.5 transfer_in_56_27
  + 4.7 transfer_in_570_27 + 4 transfer_in_571_27 + 4.5 transfer_in_572_27
  + 4.4 transfer_in_573_27 + 4.3 transfer_in_574_27 + 4.2 transfer_in_575_27
- + 4.4 transfer_in_576_27 + 4.3 transfer_in_577_27 + 4.8 transfer_in_578_27
+ + 4.3 transfer_in_576_27 + 4.3 transfer_in_577_27 + 4.8 transfer_in_578_27
  + 3.9 transfer_in_579_27 + 4 transfer_in_57_27 + 3.9 transfer_in_580_27
  + 3.9 transfer_in_581_27 + 4.7 transfer_in_582_27 + 5.1 transfer_in_583_27
  + 4.6 transfer_in_584_27 + 4.6 transfer_in_585_27 + 4.7 transfer_in_586_27
  + 4.7 transfer_in_587_27 + 4.4 transfer_in_588_27 + 5 transfer_in_589_27
- + 5.6 transfer_in_58_27 + 5.8 transfer_in_590_27 + 5.3 transfer_in_591_27
+ + 5.6 transfer_in_58_27 + 5.7 transfer_in_590_27 + 5.3 transfer_in_591_27
  + 4.3 transfer_in_592_27 + 5.1 transfer_in_593_27 + 5.3 transfer_in_594_27
  + 4.4 transfer_in_595_27 + 4.5 transfer_in_596_27 + 4.8 transfer_in_597_27
  + 4.3 transfer_in_598_27 + 6.5 transfer_in_599_27 + 5 transfer_in_59_27
@@ -30146,7 +30141,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  + 3.9 transfer_in_625_27 + 4 transfer_in_626_27 + 4.4 transfer_in_627_27
  + 4.4 transfer_in_628_27 + 4.4 transfer_in_629_27 + 4.9 transfer_in_62_27
  + 4.9 transfer_in_630_27 + 4.9 transfer_in_631_27 + 4.4 transfer_in_632_27
- + 4.3 transfer_in_633_27 + 3.9 transfer_in_634_27 + 4.5 transfer_in_635_27
+ + 4.2 transfer_in_633_27 + 3.9 transfer_in_634_27 + 4.5 transfer_in_635_27
  + 3.9 transfer_in_636_27 + 3.9 transfer_in_637_27 + 5 transfer_in_638_27
  + 4.4 transfer_in_639_27 + 5.2 transfer_in_63_27 + 4.5 transfer_in_640_27
  + 5.4 transfer_in_641_27 + 5 transfer_in_642_27 + 4.4 transfer_in_643_27
@@ -30231,7 +30226,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  - 4.7 transfer_out_125_27 - 4.5 transfer_out_126_27 - 4.5 transfer_out_127_27
  - 4.8 transfer_out_128_27 - 5 transfer_out_129_27 - 7.7 transfer_out_12_27
  - 5 transfer_out_130_27 - 5.1 transfer_out_131_27 - 5.8 transfer_out_132_27
- - 4.9 transfer_out_133_27 - 6.5 transfer_out_134_27 - 5.5 transfer_out_135_27
+ - 4.9 transfer_out_133_27 - 6.4 transfer_out_134_27 - 5.4 transfer_out_135_27
  - 4 transfer_out_136_27 - 4.5 transfer_out_137_27 - 4.9 transfer_out_138_27
  - 3.9 transfer_out_139_27 - 5.2 transfer_out_13_27 - 6.1 transfer_out_140_27
  - 3.9 transfer_out_141_27 - 4.8 transfer_out_142_27 - 6.4 transfer_out_143_27
@@ -30250,7 +30245,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  - 5.3 transfer_out_177_27 - 4 transfer_out_178_27 - 4 transfer_out_179_27
  - 4.5 transfer_out_17_27 - 4.9 transfer_out_180_27 - 3.9 transfer_out_181_27
  - 4.4 transfer_out_182_27 - 5.5 transfer_out_183_27 - 4.6 transfer_out_184_27
- - 4 transfer_out_185_27 - 4.3 transfer_out_186_27 - 5 transfer_out_187_27
+ - 4 transfer_out_185_27 - 4.2 transfer_out_186_27 - 5 transfer_out_187_27
  - 6.5 transfer_out_188_27 - 4.5 transfer_out_189_27 - 4 transfer_out_18_27
  - 4 transfer_out_190_27 - 4.4 transfer_out_191_27 - 4 transfer_out_192_27
  - 4.9 transfer_out_193_27 - 4.3 transfer_out_194_27 - 5.4 transfer_out_195_27
@@ -30261,7 +30256,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  - 5.3 transfer_out_206_27 - 6.8 transfer_out_207_27 - 5.3 transfer_out_208_27
  - 6.8 transfer_out_209_27 - 5.6 transfer_out_20_27 - 6.3 transfer_out_210_27
  - 6.8 transfer_out_211_27 - 7.4 transfer_out_212_27 - 5.5 transfer_out_213_27
- - 4.3 transfer_out_214_27 - 4 transfer_out_215_27 - 7.1 transfer_out_216_27
+ - 4.3 transfer_out_214_27 - 4 transfer_out_215_27 - 7 transfer_out_216_27
  - 5 transfer_out_217_27 - 5.4 transfer_out_218_27 - 4.3 transfer_out_219_27
  - 4.9 transfer_out_21_27 - 4.8 transfer_out_220_27 - 5.4 transfer_out_221_27
  - 4.4 transfer_out_222_27 - 4.9 transfer_out_223_27 - 4.4 transfer_out_224_27
@@ -30287,7 +30282,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  - 4 transfer_out_277_27 - 7.4 transfer_out_278_27 - 4.4 transfer_out_279_27
  - 3.9 transfer_out_27_27 - 5 transfer_out_280_27 - 4.5 transfer_out_281_27
  - 4.5 transfer_out_282_27 - 4.4 transfer_out_283_27 - 3.9 transfer_out_284_27
- - 4.4 transfer_out_285_27 - 4.3 transfer_out_286_27 - 4.6 transfer_out_287_27
+ - 4.4 transfer_out_285_27 - 4.3 transfer_out_286_27 - 4.5 transfer_out_287_27
  - 5.3 transfer_out_288_27 - 3.9 transfer_out_289_27 - 3.9 transfer_out_28_27
  - 8.5 transfer_out_290_27 - 5.7 transfer_out_291_27 - 4.7 transfer_out_292_27
  - 7.5 transfer_out_293_27 - 8 transfer_out_294_27 - 4.8 transfer_out_295_27
@@ -30311,12 +30306,12 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  - 4.9 transfer_out_341_27 - 5 transfer_out_342_27 - 6.9 transfer_out_343_27
  - 6.5 transfer_out_344_27 - 4.4 transfer_out_345_27 - 5.8 transfer_out_346_27
  - 3.8 transfer_out_347_27 - 4.5 transfer_out_348_27
- - 10.7 transfer_out_349_27 - 5.6 transfer_out_34_27 - 5.5 transfer_out_350_27
+ - 10.8 transfer_out_349_27 - 5.6 transfer_out_34_27 - 5.5 transfer_out_350_27
  - 4.4 transfer_out_351_27 - 5.5 transfer_out_352_27 - 7.9 transfer_out_353_27
  - 7.2 transfer_out_354_27 - 14.1 transfer_out_355_27
  - 4.7 transfer_out_356_27 - 4.9 transfer_out_357_27 - 4.3 transfer_out_358_27
  - 7.5 transfer_out_359_27 - 5.7 transfer_out_35_27 - 4.4 transfer_out_360_27
- - 3.8 transfer_out_361_27 - 5.8 transfer_out_362_27 - 4.4 transfer_out_363_27
+ - 3.8 transfer_out_361_27 - 5.9 transfer_out_362_27 - 4.4 transfer_out_363_27
  - 4.7 transfer_out_364_27 - 5.6 transfer_out_365_27 - 3.8 transfer_out_366_27
  - 3.9 transfer_out_367_27 - 5.3 transfer_out_368_27 - 5.5 transfer_out_369_27
  - 4.7 transfer_out_36_27 - 4.5 transfer_out_370_27 - 4.4 transfer_out_371_27
@@ -30341,7 +30336,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  - 4 transfer_out_420_27 - 4.8 transfer_out_421_27 - 4 transfer_out_422_27
  - 4.8 transfer_out_423_27 - 5.3 transfer_out_424_27 - 4.3 transfer_out_425_27
  - 6 transfer_out_426_27 - 5.3 transfer_out_427_27 - 4.2 transfer_out_428_27
- - 5.2 transfer_out_429_27 - 4.6 transfer_out_42_27 - 6.7 transfer_out_430_27
+ - 5.2 transfer_out_429_27 - 4.6 transfer_out_42_27 - 6.8 transfer_out_430_27
  - 4 transfer_out_431_27 - 5.3 transfer_out_432_27 - 7.8 transfer_out_433_27
  - 4.5 transfer_out_434_27 - 4.3 transfer_out_435_27 - 4.5 transfer_out_436_27
  - 6.3 transfer_out_437_27 - 3.9 transfer_out_438_27 - 4.5 transfer_out_439_27
@@ -30355,7 +30350,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  - 4.5 transfer_out_459_27 - 3.9 transfer_out_45_27 - 4 transfer_out_460_27
  - 4.4 transfer_out_461_27 - 4.5 transfer_out_462_27 - 4.8 transfer_out_463_27
  - 4.5 transfer_out_464_27 - 4.4 transfer_out_465_27 - 4.4 transfer_out_466_27
- - 4.3 transfer_out_467_27 - 5 transfer_out_468_27 - 4.3 transfer_out_469_27
+ - 4.3 transfer_out_467_27 - 4.9 transfer_out_468_27 - 4.3 transfer_out_469_27
  - 4.4 transfer_out_46_27 - 4.8 transfer_out_470_27 - 4.3 transfer_out_471_27
  - 3.9 transfer_out_472_27 - 3.8 transfer_out_473_27 - 3.9 transfer_out_474_27
  - 4.7 transfer_out_475_27 - 4.5 transfer_out_476_27 - 4.9 transfer_out_477_27
@@ -30373,7 +30368,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  - 4.7 transfer_out_507_27 - 4.4 transfer_out_508_27 - 7.1 transfer_out_509_27
  - 5.5 transfer_out_50_27 - 4 transfer_out_510_27 - 4.9 transfer_out_511_27
  - 4.4 transfer_out_512_27 - 4.4 transfer_out_513_27 - 4.4 transfer_out_514_27
- - 4.5 transfer_out_515_27 - 9.7 transfer_out_516_27 - 4 transfer_out_517_27
+ - 4.5 transfer_out_515_27 - 9.6 transfer_out_516_27 - 4 transfer_out_517_27
  - 4 transfer_out_518_27 - 4.8 transfer_out_519_27 - 4.1 transfer_out_51_27
  - 5.3 transfer_out_520_27 - 3.9 transfer_out_521_27 - 4.4 transfer_out_522_27
  - 5.7 transfer_out_523_27 - 4.2 transfer_out_524_27 - 5.6 transfer_out_525_27
@@ -30388,19 +30383,19 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  - 4.4 transfer_out_548_27 - 4.5 transfer_out_549_27 - 4.5 transfer_out_54_27
  - 4.5 transfer_out_550_27 - 4.5 transfer_out_551_27 - 5.2 transfer_out_552_27
  - 4.2 transfer_out_553_27 - 5.4 transfer_out_554_27 - 4.4 transfer_out_555_27
- - 4 transfer_out_556_27 - 5.6 transfer_out_557_27 - 5.2 transfer_out_558_27
+ - 4 transfer_out_556_27 - 5.5 transfer_out_557_27 - 5.1 transfer_out_558_27
  - 4.9 transfer_out_559_27 - 5.9 transfer_out_55_27 - 4.3 transfer_out_560_27
  - 4.3 transfer_out_561_27 - 4.9 transfer_out_562_27 - 4.5 transfer_out_563_27
  - 3.9 transfer_out_564_27 - 4.9 transfer_out_565_27 - 4.8 transfer_out_566_27
  - 5.6 transfer_out_567_27 - 5.3 transfer_out_568_27 - 5 transfer_out_569_27
  - 4.5 transfer_out_56_27 - 4.7 transfer_out_570_27 - 4 transfer_out_571_27
  - 4.5 transfer_out_572_27 - 4.4 transfer_out_573_27 - 4.3 transfer_out_574_27
- - 4.2 transfer_out_575_27 - 4.4 transfer_out_576_27 - 4.3 transfer_out_577_27
+ - 4.2 transfer_out_575_27 - 4.3 transfer_out_576_27 - 4.3 transfer_out_577_27
  - 4.8 transfer_out_578_27 - 3.9 transfer_out_579_27 - 4 transfer_out_57_27
  - 3.9 transfer_out_580_27 - 3.9 transfer_out_581_27 - 4.7 transfer_out_582_27
  - 5.1 transfer_out_583_27 - 4.6 transfer_out_584_27 - 4.6 transfer_out_585_27
  - 4.7 transfer_out_586_27 - 4.7 transfer_out_587_27 - 4.4 transfer_out_588_27
- - 5 transfer_out_589_27 - 5.6 transfer_out_58_27 - 5.8 transfer_out_590_27
+ - 5 transfer_out_589_27 - 5.6 transfer_out_58_27 - 5.7 transfer_out_590_27
  - 5.3 transfer_out_591_27 - 4.3 transfer_out_592_27 - 5.1 transfer_out_593_27
  - 5.3 transfer_out_594_27 - 4.4 transfer_out_595_27 - 4.5 transfer_out_596_27
  - 4.8 transfer_out_597_27 - 4.3 transfer_out_598_27 - 6.5 transfer_out_599_27
@@ -30416,7 +30411,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  - 4.5 transfer_out_624_27 - 3.9 transfer_out_625_27 - 4 transfer_out_626_27
  - 4.4 transfer_out_627_27 - 4.4 transfer_out_628_27 - 4.4 transfer_out_629_27
  - 4.9 transfer_out_62_27 - 4.9 transfer_out_630_27 - 4.9 transfer_out_631_27
- - 4.4 transfer_out_632_27 - 4.3 transfer_out_633_27 - 3.9 transfer_out_634_27
+ - 4.4 transfer_out_632_27 - 4.2 transfer_out_633_27 - 3.9 transfer_out_634_27
  - 4.5 transfer_out_635_27 - 3.9 transfer_out_636_27 - 3.9 transfer_out_637_27
  - 5 transfer_out_638_27 - 4.4 transfer_out_639_27 - 5.2 transfer_out_63_27
  - 4.5 transfer_out_640_27 - 5.4 transfer_out_641_27 - 5 transfer_out_642_27
@@ -41361,13 +41356,13 @@ Probability_of_appearance_for_lineup_player_384_for_gameweek_26: lineup_384_26
 Probability_of_appearance_for_lineup_player_384_for_gameweek_27: lineup_384_27
  <= 0
 Probability_of_appearance_for_lineup_player_385_for_gameweek_24: lineup_385_24
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_385_for_gameweek_25: lineup_385_25
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_385_for_gameweek_26: lineup_385_26
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_385_for_gameweek_27: lineup_385_27
- <= 0
+ <= 1
 Probability_of_appearance_for_lineup_player_386_for_gameweek_24: lineup_386_24
  <= 0
 Probability_of_appearance_for_lineup_player_386_for_gameweek_25: lineup_386_25
@@ -45689,7 +45684,7 @@ Probability_of_appearance_for_squad_player_142_for_gameweek_26: squad_142_26
 Probability_of_appearance_for_squad_player_142_for_gameweek_27: squad_142_27
  <= 0
 Probability_of_appearance_for_squad_player_143_for_gameweek_24: squad_143_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_143_for_gameweek_25: squad_143_25
  <= 1
 Probability_of_appearance_for_squad_player_143_for_gameweek_26: squad_143_26
@@ -45729,13 +45724,13 @@ Probability_of_appearance_for_squad_player_147_for_gameweek_26: squad_147_26
 Probability_of_appearance_for_squad_player_147_for_gameweek_27: squad_147_27
  <= 0
 Probability_of_appearance_for_squad_player_148_for_gameweek_24: squad_148_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_148_for_gameweek_25: squad_148_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_148_for_gameweek_26: squad_148_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_148_for_gameweek_27: squad_148_27
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_149_for_gameweek_24: squad_149_24
  <= 0
 Probability_of_appearance_for_squad_player_149_for_gameweek_25: squad_149_25
@@ -46717,7 +46712,7 @@ Probability_of_appearance_for_squad_player_259_for_gameweek_26: squad_259_26
 Probability_of_appearance_for_squad_player_259_for_gameweek_27: squad_259_27
  <= 1
 Probability_of_appearance_for_squad_player_25_for_gameweek_24: squad_25_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_25_for_gameweek_25: squad_25_25
  <= 1
 Probability_of_appearance_for_squad_player_25_for_gameweek_26: squad_25_26
@@ -48429,13 +48424,13 @@ Probability_of_appearance_for_squad_player_452_for_gameweek_26: squad_452_26
 Probability_of_appearance_for_squad_player_452_for_gameweek_27: squad_452_27
  <= 0
 Probability_of_appearance_for_squad_player_453_for_gameweek_24: squad_453_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_453_for_gameweek_25: squad_453_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_453_for_gameweek_26: squad_453_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_453_for_gameweek_27: squad_453_27
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_454_for_gameweek_24: squad_454_24
  <= 0
 Probability_of_appearance_for_squad_player_454_for_gameweek_25: squad_454_25
@@ -48781,7 +48776,7 @@ Probability_of_appearance_for_squad_player_492_for_gameweek_26: squad_492_26
 Probability_of_appearance_for_squad_player_492_for_gameweek_27: squad_492_27
  <= 1
 Probability_of_appearance_for_squad_player_493_for_gameweek_24: squad_493_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_493_for_gameweek_25: squad_493_25
  <= 1
 Probability_of_appearance_for_squad_player_493_for_gameweek_26: squad_493_26
@@ -50317,7 +50312,7 @@ Probability_of_appearance_for_squad_player_667_for_gameweek_26: squad_667_26
 Probability_of_appearance_for_squad_player_667_for_gameweek_27: squad_667_27
  <= 0
 Probability_of_appearance_for_squad_player_668_for_gameweek_24: squad_668_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_668_for_gameweek_25: squad_668_25
  <= 1
 Probability_of_appearance_for_squad_player_668_for_gameweek_26: squad_668_26

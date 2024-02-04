@@ -1,7 +1,7 @@
 --------------------------------------------------
 Gameweek 24 summary:
 --------------------------------------------------
-Total expected points: -6142.39
+Total expected points: 58.14
 Money in bank: 4.4
 Free transfers available: 1
 Transfers made: 2
@@ -13,7 +13,7 @@ Player 369 (Walker @ MCI) transferred out.
 --------------------------------------------------
 Gameweek 25 summary:
 --------------------------------------------------
-Total expected points: 82.61
+Total expected points: 82.89
 Money in bank: 1.0
 Free transfers available: 1
 Transfers made: 1
@@ -23,7 +23,7 @@ Player 353 (Foden @ MCI) transferred in.
 --------------------------------------------------
 Gameweek 26 summary:
 --------------------------------------------------
-Total expected points: 63.32
+Total expected points: 63.65
 Money in bank: 0.7
 Free transfers available: 1
 Transfers made: 1

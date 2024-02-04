@@ -1,12 +1,12 @@
 --------------------------------------------------
 Gameweek 24 summary:
 --------------------------------------------------
-Total expected points: -6140.93
-Money in bank: 0.2
+Total expected points: 59.44
+Money in bank: 1.5
 Free transfers available: 1
 Transfers made: 2
 Penalised transfers: 1
 Player 49 (Martinez @ AVL) transferred in.
 Player 230 (Johnstone @ CRY) transferred out.
 Player 290 (Alexander-Arnold @ LIV) transferred in.
-Player 369 (Walker @ MCI) transferred out.
+Player 430 (Trippier @ NEW) transferred out.

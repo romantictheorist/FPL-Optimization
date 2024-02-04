@@ -1,20 +1,22 @@
 --------------------------------------------------
 Gameweek 24 summary:
 --------------------------------------------------
-Total expected points: -6142.39
-Money in bank: 4.4
+Total expected points: 59.32
+Money in bank: 5.9
 Free transfers available: 1
-Transfers made: 2
-Penalised transfers: 1
+Transfers made: 3
+Penalised transfers: 2
 Player 5 (Gabriel @ ARS) transferred in.
 Player 101 (Flekken @ BRE) transferred in.
 Player 230 (Johnstone @ CRY) transferred out.
 Player 369 (Walker @ MCI) transferred out.
+Player 427 (Schär @ NEW) transferred in.
+Player 430 (Trippier @ NEW) transferred out.
 --------------------------------------------------
 Gameweek 25 summary:
 --------------------------------------------------
-Total expected points: 82.61
-Money in bank: 1.0
+Total expected points: 83.52
+Money in bank: 2.5
 Free transfers available: 1
 Transfers made: 1
 Penalised transfers: 0
@@ -23,30 +25,30 @@ Player 353 (Foden @ MCI) transferred in.
 --------------------------------------------------
 Gameweek 26 summary:
 --------------------------------------------------
-Total expected points: 61.72
-Money in bank: 1.0
+Total expected points: 62.18
+Money in bank: 2.5
 Free transfers available: 1
 Transfers made: 0
 Penalised transfers: 0
 --------------------------------------------------
 Gameweek 27 summary:
 --------------------------------------------------
-Total expected points: 61.81
-Money in bank: 0.4
+Total expected points: 62.93
+Money in bank: 0.0
 Free transfers available: 2
 Transfers made: 2
 Penalised transfers: 0
-Player 60 (Watkins @ AVL) transferred out.
 Player 308 (Salah @ LIV) transferred in.
+Player 343 (J.Alvarez @ MCI) transferred out.
 Player 353 (Foden @ MCI) transferred out.
-Player 33 (Archer @ SHU) transferred in.
+Player 490 (Osula @ SHU) transferred in.
 --------------------------------------------------
 Gameweek 28 summary:
 --------------------------------------------------
-Total expected points: 61.55
-Money in bank: 0.2
+Total expected points: 62.51
+Money in bank: 0.9
 Free transfers available: 1
 Transfers made: 1
 Penalised transfers: 0
-Player 85 (Solanke @ BOU) transferred in.
-Player 343 (J.Alvarez @ MCI) transferred out.
+Player 228 (Guéhi @ CRY) transferred in.
+Player 427 (Schär @ NEW) transferred out.
