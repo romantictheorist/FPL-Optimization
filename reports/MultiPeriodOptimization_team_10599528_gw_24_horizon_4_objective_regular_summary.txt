@@ -2,41 +2,43 @@
 Gameweek 24 summary:
 --------------------------------------------------
 Total expected points: 58.14
-Money in bank: 4.4
+Money in bank: 5.8
 Free transfers available: 1
-Transfers made: 2
-Penalised transfers: 1
+Transfers made: 3
+Penalised transfers: 2
 Player 5 (Gabriel @ ARS) transferred in.
 Player 101 (Flekken @ BRE) transferred in.
+Player 126 (Caicedo @ CHE) transferred out.
 Player 230 (Johnstone @ CRY) transferred out.
-Player 369 (Walker @ MCI) transferred out.
+Player 430 (Trippier @ NEW) transferred out.
+Player 351 (Doyle @ WOL) transferred in.
 --------------------------------------------------
 Gameweek 25 summary:
 --------------------------------------------------
-Total expected points: 82.89
-Money in bank: 1.0
+Total expected points: 91.84
+Money in bank: 0.8
 Free transfers available: 1
 Transfers made: 1
 Penalised transfers: 0
-Player 126 (Caicedo @ CHE) transferred out.
-Player 353 (Foden @ MCI) transferred in.
+Player 308 (Salah @ LIV) transferred in.
+Player 526 (Bowen @ WHU) transferred out.
 --------------------------------------------------
 Gameweek 26 summary:
 --------------------------------------------------
-Total expected points: 62.18
-Money in bank: 1.0
+Total expected points: 62.86
+Money in bank: 5.6
 Free transfers available: 1
-Transfers made: 0
+Transfers made: 1
 Penalised transfers: 0
+Player 308 (Salah @ LIV) transferred out.
+Player 373 (B.Fernandes @ MUN) transferred in.
 --------------------------------------------------
 Gameweek 27 summary:
 --------------------------------------------------
-Total expected points: 61.78
-Money in bank: 0.4
-Free transfers available: 2
-Transfers made: 2
+Total expected points: 61.92
+Money in bank: 0.8
+Free transfers available: 1
+Transfers made: 1
 Penalised transfers: 0
-Player 60 (Watkins @ AVL) transferred out.
 Player 308 (Salah @ LIV) transferred in.
-Player 353 (Foden @ MCI) transferred out.
-Player 490 (Osula @ SHU) transferred in.
+Player 373 (B.Fernandes @ MUN) transferred out.
