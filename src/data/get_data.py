@@ -138,6 +138,69 @@ class FPLDataPuller:
             "current_gw": current_gw,
         }
 
+    def _get_transfer_history(self, team_id: int) -> pd.DataFrame:
+        """
+        Summary:
+        --------
+        Pulls transfer history for a given team id from FPL API.
+
+        Parameters:
+        -----------
+        team_id: int
+            Team id for which data is to be pulled.
+
+        Returns:
+        --------
+        Dataframe of transfer history for the current season.
+        """
+
+        r = requests.get(self.base_url + "entry/" + str(team_id) + "/history/").json()
+        df = pd.DataFrame(r["current"])
+
+        return df
+
+    def _get_num_free_transfers(self, team_id: int) -> int:
+        """
+        Summary:
+        --------
+        Pulls the history of free transfers for a given team id from FPL API.
+
+        Parameters:
+        -----------
+        team_id: int
+            Team id for which data is to be pulled.
+
+        Returns:
+        --------
+        Number of free transfers available for the upcoming gameweek.
+        """
+
+        transfer_history = self._get_transfer_history(team_id)[
+            ["event", "event_transfers", "event_transfers_cost"]
+        ]
+
+        rolling_free_transfers_next_gw = []
+
+        # Loop through every row in transfer_history dataframe
+        for index, row in transfer_history.iterrows():
+
+            # If the current row is the first row, set the number of free transfers for the next gameweek to 1
+            if index == 0:
+                ft_next_gw = 1
+            # After the first row, calculate the number of free transfers for the next gameweek
+            else:
+                ft_next_gw = (
+                    rolling_free_transfers_next_gw[-1] + 1 - row["event_transfers"]
+                )
+                if ft_next_gw < 0:
+                    ft_next_gw = 0
+
+            # Append the number of free transfers for the next gameweek to list
+            rolling_free_transfers_next_gw.append(ft_next_gw)
+
+        # Return the number of free transfers for the next gameweek
+        return rolling_free_transfers_next_gw[-1]
+
 
 class FPLFormScraper:
     """
