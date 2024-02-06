@@ -1,20 +1,14 @@
 import os
-import sys
 import time
 from datetime import datetime
 
-import numpy as np
 import pandas as pd
 import pulp
-from pulp import *
-from pulp import value
-
-sys.path.append("..")
+from pulp import LpProblem, LpVariable, lpSum, LpMaximize
+from pulp import value as pulp_value
 
 from data.get_data import FPLDataPuller, FPLFormScraper
 from features.build_features import ProcessData
-
-pd.options.mode.chained_assignment = None  # default='warn'
 
 
 class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
@@ -25,31 +19,32 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
         self,
         team_id: int,
         gameweek: int,
-        num_free_transfers: int,
         horizon: int,
         objective="regular",
         decay_base=0.85,
     ):
-
         # Step 1: Set the instance variables
+        super().__init__()
         self.team_id = team_id
         self.gameweek = gameweek
-        self.num_free_transfers = num_free_transfers
         self.horizon = horizon
         self.objective = objective
         self.decay_base = decay_base
 
-        # Step 2: Get lists of future gameweeks
         self.future_gameweeks = list(range(self.gameweek, self.gameweek + self.horizon))
         self.all_gameweeks = [self.gameweek - 1] + list(
             range(self.gameweek, self.gameweek + self.horizon)
         )
 
-        # Step 3: Check if the gameweek is valid
+        self.results = None
+        self.gw_xp = None
+        self.total_xp = None
+
+        # Step 2: Check if the gameweek is valid
         if self._check_gameweek(gameweek=self.gameweek):
             self.current_gw = self.gameweek - 1
 
-        # Step 4: Get the data needed for the optimization problem
+        # Step 3: Get the data needed for the optimization problem
         if OptimizeMultiPeriod._cached_data is None:
             print("Fetching data...")
             data = self._get_data(team_id=self.team_id)
@@ -85,6 +80,7 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
         self.teams_df = self._cached_data["teams_df"]
         self.initial_squad = self._cached_data["initial_squad"]
         self.bank_balance = self._cached_data["bank_balance"]
+        self.num_free_transfers = self._cached_data["num_free_transfers"]
         self.players = self._cached_data["players"]
         self.positions = self._cached_data["positions"]
         self.teams = self._cached_data["teams"]
@@ -129,7 +125,7 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
 
         # Step 7: Solve the optimization problem
         print("Solving model...")
-        self.model.solve(pulp.PULP_CBC_CMD(msg=0))
+        self.model.solve(pulp.PULP_CBC_CMD(msg=False))
 
         if self.model.status != 1:
             print("Model could not solved.")
@@ -141,10 +137,11 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
             print("Objective:", round(self.model.objective.value(), 2))
 
         # Step 8: Get the results of the optimization problem
-        self.get_results()
+        self.results = self.get_results()
 
         # Step 9: Check the results of the optimization problem
-        self._check_results(results=self.results_df)
+        if self._check_results(self.results):
+            print("Results passed checks.")
 
     def _get_data(self, team_id: int):
         """
@@ -205,6 +202,9 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
         initial_squad = self._get_team_ids(team_id=team_id, gameweek=self.current_gw)
         bank_balance = self._get_team_data(team_id=team_id)["bank_balance"]
 
+        # Pull number of free transfers available
+        num_free_transfers = self._get_num_free_transfers(team_id=team_id)
+
         # Store the data in a dictionary
         data = {
             "gameweek_df": gameweek_df,
@@ -213,6 +213,7 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
             "predicted_points_df": predicted_points_df,
             "initial_squad": initial_squad,
             "bank_balance": bank_balance,
+            "num_free_transfers": num_free_transfers,
         }
 
         return data
@@ -247,7 +248,8 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
 
         return data
 
-    def _save_data(self, data: dict, destination: str):
+    @staticmethod
+    def _save_data(data: dict, destination: str):
         """
         Summary:
         --------
@@ -296,12 +298,14 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
 
         if gameweek < current_gw + 1:
             raise ValueError(
-                f"Cannot optimize for GW{gameweek} since it has already passed. Optimization can only start from the next gameweek (i.e. GW{current_gw + 1})."
+                f"Cannot optimize for GW{gameweek} since it has already passed. Optimization can only start from the "
+                f"next gameweek (i.e. GW{current_gw + 1})."
             )
 
         elif gameweek > current_gw + 1:
             raise ValueError(
-                f"Cannot optimize for GW{gameweek} since it is ahead of the next gameweek. Optimization can only start from the next gameweek (i.e. GW{current_gw + 1})."
+                f"Cannot optimize for GW{gameweek} since it is ahead of the next gameweek. Optimization can only "
+                f"start from the next gameweek (i.e. GW{current_gw + 1})."
             )
         else:
             return True
@@ -316,8 +320,11 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
         --------
         None
         """
-        name = f"MultiPeriodOptimization_team_{self.team_id}_gw_{self.gameweek}_horizon_{self.horizon}_objective_{self.objective}"
-        self.model = LpProblem(name, LpMaximize)
+        problem_name = (
+            f"multiperiod_optimizer_{self.team_id}"
+            f"_gw_{self.gameweek}_horizon_{self.horizon}_objective_{self.objective}"
+        )
+        self.model = LpProblem(problem_name, LpMaximize)
 
     def _set_variables(self):
         """
@@ -350,41 +357,28 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
             "transfer_out", (self.players, self.future_gameweeks), cat="Binary"
         )
         self.money_in_bank = LpVariable.dicts(
-            "money_in_bank", (self.all_gameweeks), lowBound=0, cat="Continuous"
+            "money_in_bank", self.all_gameweeks, lowBound=0, cat="Continuous"
         )
         self.free_transfers_available = LpVariable.dicts(
             "free_transfers_available",
-            (self.all_gameweeks),
+            self.all_gameweeks,
             lowBound=1,
             upBound=2,
             cat="Integer",
         )
         self.penalised_transfers = LpVariable.dicts(
-            "penalised_transfers", (self.future_gameweeks), cat="Integer", lowBound=0
+            "penalised_transfers", self.future_gameweeks, cat="Integer", lowBound=0
         )
         self.aux = LpVariable.dicts(
-            "auxiliary_variable", (self.future_gameweeks), cat="Binary"
+            "auxiliary_variable", self.future_gameweeks, cat="Binary"
         )
 
     def _set_dictionaries(self):
         """
         Summary:
         --------
-        Function to define the optimization dictionaries. These are used to help define the constraints and objective function.
-
-        Dictionaries include:
-            - Player cost
-            - Player expected points for each gameweek
-            - Player probability of appearing for each gameweek
-            - Squad count for each gameweek
-            - Lineup count for each gameweek
-            - Lineup position count for each gameweek
-            - Squad position count for each gameweek
-            - Squad team count for each gameweek
-            - Revenue for each gameweek
-            - Expenditure for each gam
-            - Transfers made for each gameweek
-            - Transfer difference for each gameweek (i.e. number of transfers made minus number of free transfers available)
+        Function to define the optimization dictionaries.
+        These are used to help define the constraints and objective function.
 
         Returns:
         --------
@@ -465,13 +459,17 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
             for gw in self.future_gameweeks
         }
 
+        # Position constraints dictionary
+        self.squad_min_play = self.positions_df["squad_min_play"].to_dict()
+        self.squad_max_play = self.positions_df["squad_max_play"].to_dict()
+        self.squad_select = self.positions_df["squad_select"].to_dict()
+
     def _set_initial_conditions(self):
         """
-        Summary:
-        --------
-        Function to define the initial conditions for the optimization problem. These are the conditions that must be satisfied at the start of the gameweek.
-        Initial conditions are added to model as constraints by using the += operator.
-        Note that constraints, and therefore initial conditions, must include conditional operators (<=, >=, ==).
+        Summary: -------- Function to define the initial conditions for the optimization problem. These are the
+        conditions that must be satisfied at the start of the gameweek. Initial conditions are added to model as
+        constraints by using the += operator. Note that constraints, and therefore initial conditions, must include
+        conditional operators (<=, >=, ==).
 
         Returns:
         --------
@@ -703,33 +701,29 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
             base_str = "_base_" + str(self.decay_base)
             self.model.name += base_str
 
-    def get_results(self):
+    def get_results(self) -> pd.DataFrame:
         """
         Summary:
         --------
-        Function to generate results of the optimization problem.
+        Function to get the results for the optimization problem.
 
         Returns:
         --------
-        Dictionary with the following keys:
-            - dataframe: Dataframe with results.
-            - total_xp: Total expected points.
-            - gw_xp: Dictionary with expected points for each gameweek.
+        Dataframe with results from the optimization problem.
         """
 
         # Only return results if model is solved
         if self.model.status != 1:
-            print("Results unavailable since model is not solved.")
-            return None
+            raise ValueError("Results unavailable since model is not solved.")
         else:
-            results = []
+            results_list = []
             for gw in self.future_gameweeks:
                 for p in self.players:
                     if (
                         self.squad[p][gw].varValue == 1
                         or self.transfer_out[p][gw].varValue == 1
                     ):
-                        results.append(
+                        results_list.append(
                             {
                                 "gw": gw,
                                 "player_id": p,
@@ -749,196 +743,209 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
                             }
                         )
 
-            results_df = pd.DataFrame(results).round(2)
+            results_df = pd.DataFrame(results_list).round(2)
             results_df.sort_values(
                 by=["gw", "squad", "lineup", "position_id", "xp"],
                 ascending=[True, False, False, True, False],
                 inplace=True,
             )
             results_df.reset_index(drop=True, inplace=True)
-            self.results_df = results_df
 
-            # Expected points for each gameweek
-            self.gw_xp = {
-                gw: round(
-                    value(
-                        lpSum(
-                            [
-                                self.player_xp_gw[p, gw]
-                                * (self.lineup[p][gw] + self.captain[p][gw])
-                                for p in self.players
-                            ]
-                        )
-                    ),
-                    2,
-                )
-                for gw in self.future_gameweeks
-            }
-            # Total expected points for all optimized gameweeks (i.e. sum of values in gw_xp dictionary)
-            self.total_xp = sum(self.gw_xp.values())
+            return results_df
 
-            return {
-                "dataframe": self.results_df,
-                "total_xp": self.total_xp,
-                "gw_xp": self.gw_xp,
-            }
-
-    def _check_results(self, results: pd.DataFrame):
+    def get_gw_xp(self):
         """
         Summary:
         --------
-        Function to check results of the optimization problem. Checks include:
-            - Number of players in squad for each gameweek is 15
-            - Number of players in lineup for each gameweek is 11
-            - Number of transfers in is equal to number of transfers out for each gameweek
-            - Number of players from each team in squad is less than or equal to 3 for each gameweek
-            - Number of players in each position in squad is equal to squad_select (defined in element_types_df) for each gameweek
-            - Number of players in each position in lineup is greater than the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for each gameweek
-            - Number of players in each position in lineup is less than the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for each gameweek
-            - Probability of appearance for each player in squad is greater than 75% for each gameweek
-            - Probability of appearance for each player in lineup is greater than 90% for each gameweek
-            - Number of captains is equal to 1 for each gameweek
-            - Number of vice captains is equal to 1 for each gameweek
-            - Captain is in lineup for each gameweek
-            - Vice captain is in lineup for each gameweek
+        Function to get the team's expected points for each gameweek.
 
+        Returns:
+        --------
+        Dictionary with expected points for each gameweek.
+        """
+        gw_xp = {
+            gw: round(
+                pulp_value(
+                    lpSum(
+                        [
+                            self.player_xp_gw[p, gw]
+                            * (self.lineup[p][gw] + self.captain[p][gw])
+                            for p in self.players
+                        ]
+                    )
+                ),
+                2,
+            )
+            for gw in self.future_gameweeks
+        }
+
+        return gw_xp
+
+    def get_total_xp(self):
+        """
+        Summary:
+        --------
+        Function to get the team's total expected points for the horizon.
+
+        Returns:
+        --------
+        Float with total expected points for the horizon.
+        """
+        total_xp = sum(self.gw_xp.values())
+        return float(round(total_xp, 2))
+
+    def _check_results(self, results_df: pd.DataFrame):
+        """
+        Summary:
+        --------
+        Function to check results of the optimization problem.
         If all checks are passed, prints "Results passed checks".
 
         Arguments:
         --------
-        Results (pd.DataFrame): Dataframe with results from optimization problem.
+        results_df (pd.DataFrame): Dataframe with results from optimization problem, generated by get_results() method.
 
         Returns:
         --------
-        Dictionary with results of checks for each gameweek (True if all checks are passed, False otherwise)
+        True if all checks are passed, otherwise raises a Warning.
         """
-        checks_dict = {}
 
-        if results is None:
-            print("WARNING: No results available to check.")
-            return None
+        if results_df is None:
+            raise ValueError("No results available to check.")
         else:
             for gw in self.future_gameweeks:
-                gw_results = results[results["gw"] == gw]
+                # Get results for gameweek
+                gw_results = results_df[results_df["gw"] == gw]
 
-                condition_1 = gw_results.squad.sum() == 15
-                condition_2 = gw_results.lineup.sum() == 11
-                condition_3 = (
-                    gw_results.transfer_in.sum() == gw_results.transfer_out.sum()
+                # Compute key metrics for gameweek
+                num_players_squad = gw_results.squad.sum()
+                num_players_lineup = gw_results.lineup.sum()
+                num_transfers_in = gw_results.transfer_in.sum()
+                num_transfers_out = gw_results.transfer_out.sum()
+                num_captains = gw_results.captain.sum()
+                num_vice_captains = gw_results.vice_captain.sum()
+                num_captains_lineup = gw_results[
+                    gw_results["captain"] == 1
+                ].lineup.sum()
+                num_players_team = gw_results[
+                    gw_results["squad"] == 1
+                ].team.value_counts()
+
+                # Dictionary of position count for players in squad
+                position_count_squad = (
+                    gw_results[gw_results["squad"] == 1]
+                    .position_id.value_counts()
+                    .to_dict()
                 )
-                condition_4 = (
-                    gw_results[gw_results["squad"] == 1].team.value_counts().max() <= 3
+
+                # Dictionary of position count for players in lineup
+                position_count_lineup = (
+                    gw_results[gw_results["lineup"] == 1]
+                    .position_id.value_counts()
+                    .to_dict()
                 )
-                condition_5 = all(
-                    gw_results.groupby("position_id").squad.sum()
-                    == self.positions_df["squad_select"]
-                )
+
+                # Conditions to check and their respective warning messages
+                condition_1 = num_players_squad == 15
+                condition_1_str = f"Number of players in squad for GW{gw} is not 15."
+
+                condition_2 = num_players_lineup == 11
+                condition_2_str = f"Number of players in lineup for GW{gw} is not 11."
+
+                condition_3 = num_transfers_in == num_transfers_out
+                condition_3_str = f"Number of transfers in is not equal to number of transfer out for GW{gw}."
+
+                condition_4 = num_players_team.max() <= 3
+                condition_4_str = f"Number of players from each team in not within the limit of 3 for GW{gw}."
+
+                condition_5 = position_count_squad == self.squad_select
+                condition_5_str = f"Number of players in each position in squad does not meet requirements for GW{gw}."
+
                 condition_6a = all(
-                    gw_results.groupby("position_id").lineup.sum()
-                    >= self.positions_df["squad_min_play"]
+                    [
+                        position_count_lineup[pos] >= self.squad_min_play[pos]
+                        for pos in self.positions
+                    ]
                 )
+                condition_6a_str = (
+                    f"Number of players in each position in lineup is greater than "
+                    f"the allowed range for GW{gw}."
+                )
+
                 condition_6b = all(
-                    gw_results.groupby("position_id").lineup.sum()
-                    <= self.positions_df["squad_max_play"]
+                    [
+                        position_count_lineup[pos] <= self.squad_max_play[pos]
+                        for pos in self.positions
+                    ]
                 )
+                condition_6b_str = (
+                    f"Number of players in each position in lineup is less than the allowed "
+                    f"range for GW{gw}."
+                )
+
                 condition_7 = all(
                     gw_results[gw_results["squad"] == 1].prob_of_appearing >= 0.75
                 )
+                condition_7_str = (
+                    f"Probability of appearance for each player in squad is not greater "
+                    f"than 75% for GW{gw}."
+                )
+
                 condition_8 = all(
                     gw_results[gw_results["lineup"] == 1].prob_of_appearing >= 0.90
                 )
-                condition_9 = gw_results.captain.sum() == 1
-                condition_10 = gw_results.vice_captain.sum() == 1
-                condition_11 = gw_results[gw_results["captain"] == 1].lineup.sum() == 1
-                condition_12 = (
-                    gw_results[gw_results["vice_captain"] == 1].lineup.sum() == 1
+                condition_8_str = (
+                    f"Probability of appearance for each player in lineup is not greater"
+                    f" than 90% for GW{gw}."
                 )
 
-                if all(
-                    [
-                        condition_1,
-                        condition_2,
-                        condition_3,
-                        condition_4,
-                        condition_5,
-                        condition_6a,
-                        condition_6b,
-                        condition_7,
-                        condition_8,
-                        condition_9,
-                        condition_10,
-                        condition_11,
-                        condition_12,
-                    ]
-                ):
-                    checks_dict[gw] = True
+                condition_9 = num_captains == 1
+                condition_9_str = f"Number of captains is not equal to 1 for GW{gw}."
+
+                condition_10 = num_vice_captains == 1
+                condition_10_str = (
+                    f"Number of vice captains is not equal to 1 for GW{gw}."
+                )
+
+                condition_11 = num_captains_lineup == 1
+                condition_11_str = f"Captain is not in lineup for GW{gw}."
+
+                # Create a nested list of conditions and their respective warning messages
+                conditions = [
+                    [condition_1, condition_1_str],
+                    [condition_2, condition_2_str],
+                    [condition_3, condition_3_str],
+                    [condition_4, condition_4_str],
+                    [condition_5, condition_5_str],
+                    [condition_6a, condition_6a_str],
+                    [condition_6b, condition_6b_str],
+                    [condition_7, condition_7_str],
+                    [condition_8, condition_8_str],
+                    [condition_9, condition_9_str],
+                    [condition_10, condition_10_str],
+                    [condition_11, condition_11_str],
+                ]
+
+                # Loop through conditions and if any condition is False, add the warning message to the warnings list
+                warnings = []
+                for condition in conditions:
+                    if not condition[0]:
+                        warnings.append(condition[1])
+
+                # If there are no warnings, return True, otherwise raise a warning
+                if len(warnings) == 0:
+                    return True
                 else:
-                    checks_dict[gw] = False
-                    print(f"WARNING: Results for gameweek {gw} are not correct.")
-                    if not condition_1:
-                        print(
-                            f"WARNING: Number of players in squad for gameweek {gw} is not 15."
-                        )
-                    if not condition_2:
-                        print(
-                            f"WARNING: Number of players in lineup for gameweek {gw} is not 11."
-                        )
-                    if not condition_3:
-                        print(
-                            f"WARNING: Number of transfers in is not equal to number of transfer out for gameweek {gw}."
-                        )
-                    if not condition_4:
-                        print(
-                            f"WARNING: Number of players from each team in squad exceeds the limit of 3 for gameweek {gw}."
-                        )
-                    if not condition_5:
-                        print(
-                            f"WARNING: Number of players in each position in squad is not equal to squad_select (defined in element_types_df) for gameweek {gw}."
-                        )
-                    if not condition_6a:
-                        print(
-                            f"WARNING: Number of players in each position in lineup is greater than the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for gameweek {gw}."
-                        )
-                    if not condition_6b:
-                        print(
-                            f"WARNING: Number of players in each position in lineup is less than the allowed range (defined in element_types_df as squad_min_play and squad_max_play) for gameweek {gw}."
-                        )
-                    if not condition_7:
-                        print(
-                            f"WARNING: Probability of appearance for each player in squad is not greater than 75% for gameweek {gw}."
-                        )
-                    if not condition_8:
-                        print(
-                            f"WARNING: Probability of appearance for each player in lineup is not greater than 90% for gameweek {gw}."
-                        )
-                    if not condition_9:
-                        print(
-                            f"WARNING: Number of captains is not equal to 1 for gameweek {gw}."
-                        )
-                    if not condition_10:
-                        print(
-                            f"WARNING: Number of vice captains is not equal to 1 for gameweek {gw}."
-                        )
-                    if not condition_11:
-                        print(f"WARNING: Captain is not in lineup for gameweek {gw}.")
-                    if not condition_12:
-                        print(
-                            f"WARNING: Vice captain is not in lineup for gameweek {gw}."
-                        )
-
-                    print("\n")
-
-            if all(value for value in checks_dict.values()):
-                print("Results check: passed")
-
-            return checks_dict
+                    warnings_str = "\n".join(warnings)
+                    raise Warning(
+                        f"Results for GW{gw} did not pass checks:\n{warnings_str}"
+                    )
 
     def get_summary(self):
         """
         Summary:
         --------
         Function to extract summary of actions over all gameweeks from the optimization problem.
-        For example, which players are transferred in/out, how much money is in the bank, how many free transfers are available, etc.
 
         Returns:
         --------
@@ -960,13 +967,13 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
             summary_list.append("-" * 50)
             summary_list.append(f"Gameweek {gw} summary:")
             summary_list.append("-" * 50)
-            summary_list.append(f"Total expected points: {self.gw_xp[gw]}")
+            summary_list.append(f"Expected points: {self.get_gw_xp()[gw]}")
             summary_list.append(f"Money in bank: {self.money_in_bank[gw].varValue}")
             summary_list.append(
                 f"Free transfers available: {int(self.free_transfers_available[gw].varValue)}"
             )
             summary_list.append(
-                f"Transfers made: {int(value(self.transfers_made[gw]))}"
+                f"Transfers made: {int(pulp_value(self.transfers_made[gw]))}"
             )
             summary_list.append(
                 f"Penalised transfers: {int(self.penalised_transfers[gw].varValue)}"
@@ -974,20 +981,22 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
 
             for p in self.players:
                 if self.transfer_in[p][gw].varValue == 1:
-                    name = self.merged_df.loc[p, "name"]
-                    team = self.merged_df.loc[p, "team"]
-                    summary_list.append(f"Player {p} ({name} @ {team}) transferred in.")
-                if self.transfer_out[p][gw].varValue == 1:
-                    name = self.merged_df.loc[p, "name"]
-                    team = self.merged_df.loc[p, "team"]
+                    player_name = self.merged_df.loc[p, "name"]
+                    team_name = self.merged_df.loc[p, "team"]
                     summary_list.append(
-                        f"Player {p} ({name} @ {team}) transferred out."
+                        f"Player {p} ({player_name} @ {team_name}) transferred in."
+                    )
+                if self.transfer_out[p][gw].varValue == 1:
+                    player_name = self.merged_df.loc[p, "name"]
+                    team_name = self.merged_df.loc[p, "team"]
+                    summary_list.append(
+                        f"Player {p} ({player_name} @ {team_name}) transferred out."
                     )
 
         # Join the summary list into a single string
-        summary = "\n".join(summary_list)
+        full_summary = "\n".join(summary_list)
 
-        return summary
+        return full_summary
 
 
 # ----------------------------------------
@@ -995,12 +1004,11 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
 # ----------------------------------------
 
 if __name__ == "__main__":
-
-    t0 = time()
+    t0 = time.time()
 
     # Parameters to optimize over
     team_id = 10599528
-    horizons = [1, 2, 3, 4, 5]
+    horizons = [1, 2, 3]
     objectives = ["regular"]
     gameweek = 24
 
@@ -1009,7 +1017,6 @@ if __name__ == "__main__":
         OptimizeMultiPeriod(
             team_id=team_id,
             gameweek=gameweek,
-            num_free_transfers=1,
             horizon=h,
             objective=objective,
         )
@@ -1020,7 +1027,8 @@ if __name__ == "__main__":
     for optimizer in optimizers:
         print("-" * 100)
         print(
-            f"Optimizing for team {optimizer.team_id}, gameweek {optimizer.gameweek}, horizon {optimizer.horizon}, objective {optimizer.objective}"
+            f"Optimizing for team {optimizer.team_id}, gameweek {optimizer.gameweek}, "
+            f"horizon {optimizer.horizon}, objective {optimizer.objective}"
         )
         print("-" * 100)
         optimizer.solve_problem()
@@ -1031,14 +1039,12 @@ if __name__ == "__main__":
 
         if results is not None:
             solved_model.writeLP(f"../../models/multi_period/{name}_model.lp")
-            results["dataframe"].to_csv(
-                f"../../data/results/{name}_results.csv", index=False
-            )
+            results.to_csv(f"../../data/results/{name}_results.csv", index=False)
 
             with open(f"../../reports/{name}_summary.txt", "w") as f:
                 f.write(summary)
                 f.close()
 
     print("*" * 100)
-    print("Total seconds in loop:", round(time() - t0, 2))
+    print("Total seconds in loop:", round(time.time() - t0, 2))
     print("*" * 100)

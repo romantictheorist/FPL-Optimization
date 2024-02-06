@@ -1,12 +1,4 @@
-import sys
-from datetime import datetime
-from typing import Optional, TypedDict
-
 import pandas as pd
-
-sys.path.append("..")
-
-from data.get_data import FPLDataPuller, FPLFormScraper
 
 
 class ProcessData:
