@@ -29,14 +29,12 @@ class FPLDataPuller:
         """
         Summary:
         --------
-        Pulls gameweek data from FPL API. Data includes: elements, element_types, teams, events.
+        Pulls gameweek data from FPL API. Data includes: gameweek data, positions data, teams data.
 
         Returns:
         --------
         Dictionary of data for the current gameweek.
         """
-
-        print("Pulling gameweek data from FPL API...")
 
         r = requests.get(self.base_url + "bootstrap-static/").json()
 
@@ -44,18 +42,31 @@ class FPLDataPuller:
         gameweek_df = pd.DataFrame(r["elements"])
         positions_df = pd.DataFrame(r["element_types"])
         teams_df = pd.DataFrame(r["teams"])
-        events_df = pd.DataFrame(r["events"])
-
-        # Get current gameweek from events_df
-        current_gw = events_df[events_df["is_current"] == True]["id"].values[0]
 
         return {
             "gameweek": gameweek_df,
             "positions": positions_df,
             "teams": teams_df,
-            "events": events_df,
-            "current_gw": current_gw,
         }
+
+    def _get_current_gameweek(self) -> int:
+        """
+        Summary:
+        --------
+        Pulls the current gameweek from FPL API.
+
+        Returns:
+        --------
+        Current gameweek.
+        """
+
+        r = requests.get(self.base_url + "bootstrap-static/").json()
+        events_df = pd.DataFrame(r["events"])
+
+        # Get current gameweek from events_df
+        current_gw = events_df[events_df["is_current"] == True]["id"].values[0]
+
+        return current_gw
 
     def _get_team_ids(self, team_id: int, gameweek: int) -> dict:
         """
@@ -74,10 +85,6 @@ class FPLDataPuller:
         --------
         List of player ids for the squad.
         """
-
-        print(
-            f"Pulling team {team_id} player IDs for gameweek {gameweek} from FPL API..."
-        )
 
         r = requests.get(
             self.base_url
@@ -114,8 +121,6 @@ class FPLDataPuller:
         --------
         Dictionary of team data for the current season.
         """
-
-        print(f"Pulling team {team_id} data from FPL API...")
 
         r = requests.get(self.base_url + "entry/" + str(team_id) + "/").json()
 
@@ -154,8 +159,6 @@ class FPLFormScraper:
         --------
         Dataframe of predicted points.
         """
-
-        print("Scraping predicted points from FPLForm...")
 
         # Open browser and navigate to FPLForm.com
         driver = webdriver.Chrome()

@@ -1,30 +1,30 @@
 \* MultiPeriodOptimization_team_10599528_gw_24_horizon_4_objective_regular *\
 Maximize
-OBJ: 3.76854 captain_101_24 + 6.67193 captain_101_25 + 3.38404 captain_101_26
- + 3.73355 captain_101_27 + 3.15649 captain_105_24 + 6.17059 captain_105_25
- + 3.20198 captain_105_26 + 3.29252 captain_105_27 + 3.35515 captain_106_24
- + 6.43394 captain_106_25 + 3.31646 captain_106_26 + 3.41709 captain_106_27
- + 2.97912 captain_107_24 + 5.64549 captain_107_25 + 2.9142 captain_107_26
- + 3.0056 captain_107_27 + 5.51449 captain_108_27 + 3.43771 captain_109_24
- + 5.3616 captain_109_25 + 3.02623 captain_109_26 + 3.03418 captain_109_27
+OBJ: 3.82294 captain_101_24 + 6.74937 captain_101_25 + 3.4245 captain_101_26
+ + 3.78667 captain_101_27 + 3.07591 captain_105_24 + 6.06993 captain_105_25
+ + 3.18017 captain_105_26 + 3.28937 captain_105_27 + 3.29742 captain_106_24
+ + 6.3674 captain_106_25 + 3.3067 captain_106_26 + 3.42281 captain_106_27
+ + 2.74476 captain_107_24 + 5.29358 captain_107_25 + 2.78775 captain_107_26
+ + 2.9103 captain_107_27 + 5.40563 captain_108_27 + 3.32301 captain_109_24
+ + 5.22724 captain_109_25 + 2.98856 captain_109_26 + 3.01938 captain_109_27
  + 1.8265 captain_10_24 + 2.46729 captain_10_25 + 2.30967 captain_10_26
- + 2.22223 captain_10_27 + 3.5422 captain_110_24 + 6.8843 captain_110_25
- + 3.58304 captain_110_26 + 3.70576 captain_110_27 + 3.80355 captain_111_25
- + 1.94932 captain_111_26 + 2.00739 captain_111_27 + 3.77019 captain_112_24
- + 6.08897 captain_112_25 + 3.42583 captain_112_26 + 3.43418 captain_112_27
+ + 2.22223 captain_10_27 + 3.54523 captain_110_24 + 6.91284 captain_110_25
+ + 3.60973 captain_110_26 + 3.74096 captain_110_27 + 3.7297 captain_111_25
+ + 1.91159 captain_111_26 + 1.96867 captain_111_27 + 3.63736 captain_112_24
+ + 5.92372 captain_112_25 + 3.37368 captain_112_26 + 3.40585 captain_112_27
  + 3.55358 captain_113_24 + 3.89817 captain_113_25 + 3.65289 captain_113_26
- + 3.85572 captain_113_27 + 2.40917 captain_114_24 + 3.98756 captain_114_25
- + 2.21806 captain_114_26 + 2.22279 captain_114_27 + 3.18466 captain_116_24
- + 5.67379 captain_116_25 + 2.87555 captain_116_26 + 3.15653 captain_116_27
- + 5.64077 captain_117_24 + 10.3638 captain_117_25 + 5.76313 captain_117_26
- + 5.26733 captain_117_27 + 7.21599 captain_119_25 + 3.96384 captain_119_26
- + 3.66428 captain_119_27 + 1.39943 captain_120_24 + 2.86354 captain_120_25
- + 1.48782 captain_120_26 + 1.52215 captain_120_27 + 2.3775 captain_121_24
- + 3.69227 captain_121_25 + 2.05608 captain_121_26 + 2.06149 captain_121_27
+ + 3.85572 captain_113_27 + 2.42277 captain_114_24 + 4.02272 captain_114_25
+ + 2.2474 captain_114_26 + 2.25859 captain_114_27 + 3.17389 captain_116_24
+ + 5.65463 captain_116_25 + 2.86584 captain_116_26 + 3.14586 captain_116_27
+ + 5.51414 captain_117_24 + 10.18412 captain_117_25 + 5.69607 captain_117_26
+ + 5.22723 captain_117_27 + 7.08378 captain_119_25 + 3.89243 captain_119_26
+ + 3.59734 captain_119_27 + 1.2968 captain_120_24 + 2.72467 captain_120_25
+ + 1.44906 captain_120_26 + 1.50333 captain_120_27 + 2.35807 captain_121_24
+ + 3.65854 captain_121_25 + 2.03823 captain_121_26 + 2.04362 captain_121_27
  + 2.93204 captain_122_25 + 2.99876 captain_122_26 + 2.82724 captain_122_27
  + 2.08795 captain_125_24 + 2.20478 captain_125_25 + 2.25932 captain_125_26
  + 2.13828 captain_125_27 + 2.68372 captain_126_24 + 2.578 captain_126_25
- + 2.91322 captain_126_27 + 2.08181 captain_128_24 + 2.18265 captain_128_25
+ + 2.92778 captain_126_27 + 2.08181 captain_128_24 + 2.18265 captain_128_25
  + 2.2377 captain_128_26 + 2.11543 captain_128_27 + 3.03742 captain_129_24
  + 3.46447 captain_129_25 + 4.03094 captain_129_26 + 3.58664 captain_129_27
  + 4.8733 captain_12_24 + 4.91084 captain_12_25 + 5.21622 captain_12_26
@@ -44,7 +44,7 @@ OBJ: 3.76854 captain_101_24 + 6.67193 captain_101_25 + 3.38404 captain_101_26
  + 3.00625 captain_141_27 + 3.69447 captain_143_24 + 3.93346 captain_143_25
  + 4.03839 captain_143_26 + 3.76864 captain_143_27 + 1.23187 captain_144_24
  + 1.29053 captain_144_25 + 1.33502 captain_144_26 + 1.29497 captain_144_27
- + 3.50948 captain_145_24 + 3.01141 captain_145_25 + 3.38204 captain_145_27
+ + 3.50948 captain_145_24 + 3.01141 captain_145_25 + 3.36477 captain_145_27
  + 3.46747 captain_148_24 + 3.48483 captain_148_25 + 3.65207 captain_148_26
  + 3.44027 captain_148_27 + 5.40874 captain_14_24 + 5.55342 captain_14_25
  + 6.0077 captain_14_26 + 5.78732 captain_14_27 + 2.42569 captain_150_24
@@ -82,34 +82,34 @@ OBJ: 3.76854 captain_101_24 + 6.67193 captain_101_25 + 3.38404 captain_101_26
  + 3.08645 captain_182_26 + 3.15184 captain_182_27 + 1.512 captain_184_24
  + 1.60306 captain_184_25 + 1.61919 captain_184_26 + 1.81148 captain_184_27
  + 1.18808 captain_186_24 + 1.12945 captain_186_25 + 1.22152 captain_186_27
- + 2.55767 captain_191_24 + 1.78311 captain_191_25 + 2.39061 captain_191_27
- + 2.9704 captain_192_24 + 2.59391 captain_192_25 + 2.87407 captain_192_27
+ + 2.55767 captain_191_24 + 1.78311 captain_191_25 + 2.39723 captain_191_27
+ + 2.9704 captain_192_24 + 2.59391 captain_192_25 + 2.86102 captain_192_27
  + 2.00963 captain_193_24 + 2.08744 captain_193_25 + 2.02626 captain_193_26
  + 2.2241 captain_193_27 + 1.98216 captain_194_24 + 1.31624 captain_194_25
- + 1.75339 captain_194_27 + 2.43909 captain_195_24 + 1.53662 captain_195_25
- + 2.20801 captain_195_27 + 0.9185 captain_196_24 + 0.92051 captain_196_25
- + 1.06817 captain_196_27 + 3.13965 captain_197_24 + 2.25289 captain_197_25
- + 2.87962 captain_197_27 + 2.20074 captain_198_27 + 3.60618 captain_199_24
- + 3.38302 captain_199_25 + 3.90915 captain_199_27 + 6.13846 captain_19_24
+ + 1.75867 captain_194_27 + 2.43909 captain_195_24 + 1.53662 captain_195_25
+ + 2.21555 captain_195_27 + 0.9185 captain_196_24 + 0.92051 captain_196_25
+ + 1.07279 captain_196_27 + 3.13965 captain_197_24 + 2.25289 captain_197_25
+ + 2.88703 captain_197_27 + 2.20727 captain_198_27 + 3.60618 captain_199_24
+ + 3.38302 captain_199_25 + 3.93455 captain_199_27 + 6.13846 captain_19_24
  + 6.17843 captain_19_25 + 6.6307 captain_19_26 + 6.33344 captain_19_27
  + 1.49612 captain_1_24 + 1.57128 captain_1_25 + 1.55681 captain_1_26
  + 1.5922 captain_1_27 + 1.7531 captain_200_24 + 1.75933 captain_200_25
  + 1.7377 captain_200_26 + 1.77048 captain_200_27 + 2.97186 captain_202_24
- + 2.80321 captain_202_25 + 3.2524 captain_202_27 + 2.30594 captain_203_24
- + 1.51653 captain_203_25 + 2.10679 captain_203_27 + 2.06329 captain_204_24
+ + 2.80321 captain_202_25 + 3.27234 captain_202_27 + 2.30594 captain_203_24
+ + 1.51653 captain_203_25 + 2.11355 captain_203_27 + 2.06329 captain_204_24
  + 2.03057 captain_204_25 + 1.46403 captain_204_26 + 2.03607 captain_204_27
  + 2.19691 captain_205_24 + 2.19571 captain_205_25 + 2.09326 captain_205_26
  + 2.22731 captain_205_27 + 3.18595 captain_207_24 + 2.93575 captain_207_25
  + 3.13732 captain_207_27 + 2.04108 captain_208_24 + 1.95656 captain_208_25
- + 2.24244 captain_208_27 + 2.1003 captain_209_24 + 2.22384 captain_209_25
+ + 2.25427 captain_208_27 + 2.1003 captain_209_24 + 2.22384 captain_209_25
  + 2.34446 captain_209_26 + 1.98236 captain_209_27 + 3.36318 captain_20_24
  + 4.26468 captain_20_25 + 3.88088 captain_20_26 + 3.67231 captain_20_27
- + 2.71488 captain_210_24 + 2.54122 captain_210_25 + 2.92816 captain_210_27
- + 3.74222 captain_211_24 + 3.70498 captain_211_25 + 3.91467 captain_211_27
- + 2.93236 captain_212_24 + 2.90596 captain_212_25 + 3.04031 captain_212_27
- + 2.48817 captain_214_24 + 1.70273 captain_214_25 + 2.21834 captain_214_27
- + 3.98558 captain_216_24 + 3.69925 captain_216_25 + 4.32295 captain_216_27
- + 3.05248 captain_217_24 + 2.25085 captain_217_25 + 2.91276 captain_217_27
+ + 2.71488 captain_210_24 + 2.54122 captain_210_25 + 2.94591 captain_210_27
+ + 3.74222 captain_211_24 + 3.70498 captain_211_25 + 3.97901 captain_211_27
+ + 2.93236 captain_212_24 + 2.90596 captain_212_25 + 3.08808 captain_212_27
+ + 2.48817 captain_214_24 + 1.70273 captain_214_25 + 2.22457 captain_214_27
+ + 3.98558 captain_216_24 + 3.69925 captain_216_25 + 4.35177 captain_216_27
+ + 3.05248 captain_217_24 + 2.25085 captain_217_25 + 2.91993 captain_217_27
  + 1.01769 captain_219_24 + 1.03728 captain_219_25 + 1.11015 captain_219_26
  + 1.08514 captain_219_27 + 2.41004 captain_21_24 + 4.59185 captain_21_25
  + 2.29825 captain_21_27 + 2.8374 captain_220_24 + 3.00881 captain_220_25
@@ -154,8 +154,8 @@ OBJ: 3.76854 captain_101_24 + 6.67193 captain_101_25 + 3.38404 captain_101_26
  + 1.93175 captain_255_24 + 1.91767 captain_255_25 + 2.19585 captain_255_26
  + 1.94708 captain_255_27 + 3.66088 captain_256_25 + 3.70753 captain_256_26
  + 3.75826 captain_256_27 + 1.76955 captain_257_24 + 2.77814 captain_257_25
- + 2.11996 captain_257_26 + 2.55053 captain_257_27 + 3.20975 captain_258_24
- + 6.02067 captain_258_25 + 3.35113 captain_258_26 + 3.07837 captain_258_27
+ + 2.11996 captain_257_26 + 2.55053 captain_257_27 + 3.2077 captain_258_24
+ + 6.02007 captain_258_25 + 3.35761 captain_258_26 + 3.08513 captain_258_27
  + 3.21997 captain_259_24 + 3.84981 captain_259_25 + 3.76538 captain_259_26
  + 4.06321 captain_259_27 + 1.71385 captain_25_24 + 2.2165 captain_25_25
  + 2.00431 captain_25_26 + 1.88759 captain_25_27 + 2.10222 captain_260_24
@@ -194,30 +194,30 @@ OBJ: 3.76854 captain_101_24 + 6.67193 captain_101_25 + 3.38404 captain_101_26
  + 2.71657 captain_286_25 + 2.59741 captain_286_26 + 2.62766 captain_286_27
  + 2.00305 captain_287_24 + 2.03843 captain_287_25 + 1.98175 captain_287_26
  + 2.12818 captain_287_27 + 2.39474 captain_288_25 + 2.43473 captain_288_26
- + 2.46379 captain_288_27 + 3.03599 captain_289_24 + 5.95662 captain_289_25
+ + 2.46379 captain_288_27 + 3.03599 captain_289_24 + 5.94323 captain_289_25
  + 3.12386 captain_289_27 + 3.22733 captain_28_24 + 3.62787 captain_28_25
  + 3.23433 captain_28_26 + 3.26142 captain_28_27 + 5.05945 captain_290_24
- + 9.25111 captain_290_25 + 5.05739 captain_290_27 + 3.79099 captain_291_24
- + 7.42211 captain_291_25 + 3.91278 captain_291_27 + 3.22491 captain_292_25
- + 1.64223 captain_292_27 + 4.74503 captain_293_24 + 8.7579 captain_293_25
- + 4.07535 captain_293_27 + 3.45611 captain_294_24 + 6.6385 captain_294_25
- + 3.4237 captain_294_27 + 1.9986 captain_295_24 + 3.99834 captain_295_25
- + 2.11084 captain_295_27 + 3.23512 captain_297_24 + 6.3802 captain_297_25
- + 3.08132 captain_297_27 + 2.92872 captain_298_24 + 5.38817 captain_298_25
+ + 9.26479 captain_290_25 + 5.05739 captain_290_27 + 3.79099 captain_291_24
+ + 7.40355 captain_291_25 + 3.91278 captain_291_27 + 3.23363 captain_292_25
+ + 1.64223 captain_292_27 + 4.74503 captain_293_24 + 8.82187 captain_293_25
+ + 4.07535 captain_293_27 + 3.45611 captain_294_24 + 6.66047 captain_294_25
+ + 3.4237 captain_294_27 + 1.9986 captain_295_24 + 4.00861 captain_295_25
+ + 2.11084 captain_295_27 + 3.23512 captain_297_24 + 6.42281 captain_297_25
+ + 3.08132 captain_297_27 + 2.92872 captain_298_24 + 5.39474 captain_298_25
  + 2.85565 captain_298_27 + 3.39508 captain_29_24 + 4.3116 captain_29_25
  + 3.90635 captain_29_26 + 3.68904 captain_29_27 + 1.3891 captain_2_24
  + 1.78089 captain_2_25 + 1.60498 captain_2_26 + 1.50822 captain_2_27
- + 2.9154 captain_300_24 + 5.45595 captain_300_25 + 2.8266 captain_300_27
- + 3.06362 captain_301_24 + 6.01209 captain_301_25 + 3.15133 captain_301_27
- + 5.66834 captain_302_25 + 3.03897 captain_302_27 + 3.99381 captain_303_24
- + 7.76327 captain_303_25 + 3.97466 captain_303_27 + 3.74074 captain_304_24
- + 7.42546 captain_304_25 + 3.86628 captain_304_27 + 3.28573 captain_307_24
- + 6.06656 captain_307_25 + 3.29985 captain_307_27 + 7.77217 captain_308_24
- + 14.36746 captain_308_25 + 7.36873 captain_308_27 + 4.35356 captain_309_24
- + 8.3783 captain_309_25 + 4.27555 captain_309_27 + 1.51198 captain_310_24
- + 2.97834 captain_310_25 + 1.55146 captain_310_27 + 2.83706 captain_311_24
- + 5.15942 captain_311_25 + 2.71878 captain_311_27 + 4.10219 captain_313_24
- + 7.65841 captain_313_25 + 4.10181 captain_313_27 + 3.24788 captain_314_24
+ + 2.9154 captain_300_24 + 5.47154 captain_300_25 + 2.8266 captain_300_27
+ + 3.06362 captain_301_24 + 5.99872 captain_301_25 + 3.15133 captain_301_27
+ + 5.67576 captain_302_25 + 3.03897 captain_302_27 + 3.99381 captain_303_24
+ + 7.78712 captain_303_25 + 3.97466 captain_303_27 + 3.74074 captain_304_24
+ + 7.44948 captain_304_25 + 3.86628 captain_304_27 + 3.28573 captain_307_24
+ + 6.07492 captain_307_25 + 3.29985 captain_307_27 + 7.77217 captain_308_24
+ + 14.42166 captain_308_25 + 7.36873 captain_308_27 + 4.35356 captain_309_24
+ + 8.40274 captain_309_25 + 4.27555 captain_309_27 + 1.51198 captain_310_24
+ + 2.98623 captain_310_25 + 1.55146 captain_310_27 + 2.83706 captain_311_24
+ + 5.16581 captain_311_25 + 2.71878 captain_311_27 + 4.10219 captain_313_24
+ + 7.66795 captain_313_25 + 4.10181 captain_313_27 + 3.24788 captain_314_24
  + 5.77565 captain_314_25 + 2.93315 captain_314_27 + 1.9826 captain_315_24
  + 2.72432 captain_315_25 + 1.58826 captain_315_27 + 2.7819 captain_316_24
  + 4.25979 captain_316_25 + 2.44708 captain_316_27 + 1.64468 captain_317_24
@@ -238,40 +238,40 @@ OBJ: 3.76854 captain_101_24 + 6.67193 captain_101_25 + 3.38404 captain_101_26
  + 3.26099 captain_335_27 + 1.41943 captain_339_24 + 2.84313 captain_339_25
  + 1.43434 captain_339_27 + 2.56431 captain_33_24 + 2.71394 captain_33_25
  + 2.77693 captain_33_26 + 2.55527 captain_33_27 + 1.3518 captain_340_24
- + 2.58385 captain_340_25 + 1.38812 captain_340_27 + 3.90964 captain_341_24
- + 6.76054 captain_341_25 + 3.50792 captain_341_26 + 3.55772 captain_341_27
- + 4.2127 captain_342_24 + 7.35888 captain_342_25 + 3.89899 captain_342_26
- + 3.95488 captain_342_27 + 4.98823 captain_343_24 + 9.06538 captain_343_25
- + 4.52311 captain_343_26 + 4.60543 captain_343_27 + 4.03803 captain_344_24
- + 7.74848 captain_344_25 + 3.8118 captain_344_26 + 3.96454 captain_344_27
- + 1.77955 captain_345_24 + 3.33465 captain_345_25 + 1.62471 captain_345_26
- + 1.67629 captain_345_27 + 4.47254 captain_346_24 + 7.23065 captain_346_25
+ + 2.58385 captain_340_25 + 1.38812 captain_340_27 + 3.87602 captain_341_24
+ + 6.70041 captain_341_25 + 3.47701 captain_341_26 + 3.52647 captain_341_27
+ + 4.06963 captain_342_24 + 7.17445 captain_342_25 + 3.8446 captain_342_26
+ + 3.92641 captain_342_27 + 4.9177 captain_343_24 + 8.97189 captain_343_25
+ + 4.49765 captain_343_26 + 4.59389 captain_343_27 + 3.92192 captain_344_24
+ + 7.59897 captain_344_25 + 3.77735 captain_344_26 + 3.9549 captain_344_27
+ + 1.76341 captain_345_24 + 3.30323 captain_345_25 + 1.60916 captain_345_26
+ + 1.66034 captain_345_27 + 4.47254 captain_346_24 + 7.23065 captain_346_25
  + 3.49178 captain_346_26 + 2.30287 captain_346_27 + 3.18427 captain_347_24
  + 6.04445 captain_347_25 + 3.08611 captain_347_26 + 3.15322 captain_347_27
- + 4.10032 captain_349_24 + 7.87918 captain_349_25 + 3.87959 captain_349_26
- + 4.05839 captain_349_27 + 3.06225 captain_34_24 + 2.96389 captain_34_25
- + 3.23431 captain_34_26 + 3.10054 captain_34_27 + 3.8323 captain_350_24
- + 6.82028 captain_350_25 + 3.53625 captain_350_26 + 3.58273 captain_350_27
+ + 4.1096 captain_349_24 + 7.9238 captain_349_25 + 3.9155 captain_349_26
+ + 4.10445 captain_349_27 + 3.06225 captain_34_24 + 2.96389 captain_34_25
+ + 3.23431 captain_34_26 + 3.10054 captain_34_27 + 3.72458 captain_350_24
+ + 6.68508 captain_350_25 + 3.50096 captain_350_26 + 3.5694 captain_350_27
  + 1.69494 captain_351_24 + 1.66104 captain_351_25 + 1.78088 captain_351_26
- + 1.69483 captain_351_27 + 3.95808 captain_352_24 + 7.46523 captain_352_25
- + 3.82151 captain_352_26 + 3.91487 captain_352_27 + 4.95494 captain_353_24
- + 9.42604 captain_353_25 + 4.67534 captain_353_26 + 4.87462 captain_353_27
- + 3.76949 captain_354_24 + 7.46562 captain_354_25 + 3.7509 captain_354_26
- + 3.91512 captain_354_27 + 6.17171 captain_355_24 + 11.62672 captain_355_25
- + 5.99516 captain_355_26 + 6.11721 captain_355_27 + 2.53556 captain_356_24
- + 5.0327 captain_356_25 + 2.54224 captain_356_26 + 2.62702 captain_356_27
- + 2.73586 captain_358_24 + 4.88761 captain_358_25 + 2.5712 captain_358_26
- + 2.60606 captain_358_27 + 2.61381 captain_360_24 + 2.60326 captain_360_25
- + 2.58818 captain_360_26 + 2.54739 captain_360_27 + 3.24363 captain_361_24
- + 6.15848 captain_361_25 + 3.14405 captain_361_26 + 3.21212 captain_361_27
- + 4.73232 captain_362_24 + 4.19826 captain_362_25 + 4.86797 captain_362_27
+ + 1.69483 captain_351_27 + 3.95172 captain_352_24 + 7.45486 captain_352_25
+ + 3.81586 captain_352_26 + 3.90874 captain_352_27 + 5.2833 captain_353_24
+ + 9.93253 captain_353_25 + 4.85883 captain_353_26 + 5.02199 captain_353_27
+ + 3.73047 captain_354_24 + 7.3908 captain_354_25 + 3.71409 captain_354_26
+ + 3.87677 captain_354_27 + 6.12922 captain_355_24 + 11.57163 captain_355_25
+ + 5.98045 captain_355_26 + 6.11081 captain_355_27 + 2.32338 captain_356_24
+ + 4.71662 captain_356_25 + 2.43592 captain_356_26 + 2.55047 captain_356_27
+ + 2.71283 captain_358_24 + 4.84547 captain_358_25 + 2.54966 captain_358_26
+ + 2.58433 captain_358_27 + 2.61381 captain_360_24 + 2.60326 captain_360_25
+ + 2.58818 captain_360_26 + 2.54739 captain_360_27 + 3.23258 captain_361_24
+ + 6.13748 captain_361_25 + 3.13334 captain_361_26 + 3.20118 captain_361_27
+ + 4.73232 captain_362_24 + 4.19826 captain_362_25 + 4.90393 captain_362_27
  + 1.52126 captain_364_24 + 1.62047 captain_364_25 + 1.65105 captain_364_26
- + 1.62644 captain_364_27 + 4.24354 captain_365_24 + 8.25932 captain_365_25
- + 4.10952 captain_365_26 + 4.27885 captain_365_27 + 1.65349 captain_366_24
- + 2.92611 captain_366_25 + 1.57114 captain_366_26 + 1.59362 captain_366_27
- + 2.91434 captain_368_24 + 5.10434 captain_368_25 + 2.69166 captain_368_26
- + 2.72944 captain_368_27 + 4.37682 captain_369_24 + 7.53013 captain_369_25
- + 3.88237 captain_369_26 + 3.93429 captain_369_27 + 3.01881 captain_36_24
+ + 1.62644 captain_364_27 + 4.25617 captain_365_24 + 8.29975 captain_365_25
+ + 4.13812 captain_365_26 + 4.3146 captain_365_27 + 1.64147 captain_366_24
+ + 2.90332 captain_366_25 + 1.55959 captain_366_26 + 1.58202 captain_366_27
+ + 2.88986 captain_368_24 + 5.05994 captain_368_25 + 2.66891 captain_368_26
+ + 2.70648 captain_368_27 + 4.2751 captain_369_24 + 7.39916 captain_369_25
+ + 3.84592 captain_369_26 + 3.91758 captain_369_27 + 3.01881 captain_36_24
  + 3.0365 captain_36_25 + 3.53706 captain_36_26 + 2.88736 captain_36_27
  + 1.05477 captain_371_24 + 1.11427 captain_371_25 + 1.16277 captain_371_26
  + 1.01719 captain_371_27 + 2.35121 captain_372_24 + 2.67419 captain_372_25
@@ -295,2423 +295,2419 @@ OBJ: 3.76854 captain_101_24 + 6.67193 captain_101_25 + 3.38404 captain_101_26
  + 2.00798 captain_388_25 + 2.12111 captain_388_26 + 1.88522 captain_388_27
  + 1.42056 captain_389_24 + 1.47808 captain_389_25 + 1.82404 captain_389_26
  + 1.13277 captain_389_27 + 2.63649 captain_38_24 + 2.59192 captain_38_25
- + 2.72911 captain_38_26 + 2.43827 captain_38_27 + 1.53606 captain_391_24
- + 1.6581 captain_391_25 + 2.08069 captain_391_26 + 1.39605 captain_391_27
- + 3.00011 captain_392_24 + 3.24169 captain_392_25 + 3.44419 captain_392_26
- + 2.85837 captain_392_27 + 2.69283 captain_393_24 + 4.0579 captain_393_25
- + 2.32644 captain_393_27 + 2.03511 captain_395_24 + 2.19665 captain_395_25
- + 2.71234 captain_395_26 + 1.88429 captain_395_27 + 3.99223 captain_396_24
- + 4.41969 captain_396_25 + 4.80574 captain_396_26 + 3.96778 captain_396_27
- + 2.10393 captain_398_24 + 2.23681 captain_398_25 + 2.78935 captain_398_26
- + 1.83282 captain_398_27 + 1.29475 captain_399_24 + 1.34793 captain_399_25
- + 1.55659 captain_399_26 + 1.22618 captain_399_27 + 2.20328 captain_39_24
- + 2.35799 captain_39_25 + 2.52396 captain_39_26 + 1.97207 captain_39_27
- + 1.02189 captain_3_24 + 1.03266 captain_3_25 + 1.07932 captain_3_26
- + 1.05935 captain_3_27 + 2.33709 captain_401_24 + 2.44834 captain_401_25
- + 2.94781 captain_401_26 + 1.9838 captain_401_27 + 3.67213 captain_402_24
- + 4.01317 captain_402_25 + 3.46189 captain_402_26 + 3.93734 captain_402_27
- + 1.68403 captain_403_24 + 1.76096 captain_403_25 + 1.55135 captain_403_26
- + 1.69141 captain_403_27 + 3.11659 captain_405_24 + 3.12001 captain_405_25
- + 2.29812 captain_405_26 + 3.22617 captain_405_27 + 3.98689 captain_406_24
- + 4.27503 captain_406_25 + 3.64625 captain_406_26 + 4.09068 captain_406_27
- + 3.33036 captain_407_24 + 3.33094 captain_407_25 + 2.41924 captain_407_26
- + 3.45041 captain_407_27 + 3.43147 captain_409_24 + 3.35429 captain_409_25
- + 3.24866 captain_409_26 + 3.26882 captain_409_27 + 3.12386 captain_411_24
- + 3.05671 captain_411_25 + 2.9648 captain_411_26 + 2.98234 captain_411_27
- + 3.7021 captain_412_24 + 4.00204 captain_412_25 + 3.38407 captain_412_26
- + 3.85266 captain_412_27 + 1.4906 captain_414_24 + 1.50797 captain_414_25
- + 1.35889 captain_414_26 + 1.43911 captain_414_27 + 4.3993 captain_415_24
- + 4.29756 captain_415_25 + 3.93618 captain_415_26 + 4.64413 captain_415_27
- + 2.37791 captain_417_24 + 2.32121 captain_417_25 + 1.66122 captain_417_26
- + 2.36766 captain_417_27 + 2.64233 captain_419_24 + 2.56882 captain_419_25
- + 1.83228 captain_419_26 + 2.54591 captain_419_27 + 2.54028 captain_41_24
- + 2.54179 captain_41_25 + 2.84941 captain_41_26 + 2.36847 captain_41_27
- + 3.83847 captain_421_24 + 3.98561 captain_421_25 + 3.37201 captain_421_26
- + 3.66058 captain_421_27 + 2.41092 captain_423_24 + 2.50972 captain_423_25
- + 2.12701 captain_423_26 + 2.33188 captain_423_27 + 1.19836 captain_425_24
- + 1.24248 captain_425_25 + 1.12225 captain_425_26 + 1.20259 captain_425_27
- + 4.22684 captain_427_24 + 4.09366 captain_427_25 + 2.9252 captain_427_26
- + 3.94518 captain_427_27 + 1.96636 captain_428_25 + 1.3448 captain_428_26
- + 1.94703 captain_428_27 + 3.04052 captain_42_24 + 2.97078 captain_42_25
- + 3.32858 captain_42_26 + 2.68515 captain_42_27 + 4.96528 captain_430_24
- + 4.81406 captain_430_25 + 3.3427 captain_430_26 + 4.82785 captain_430_27
- + 3.12843 captain_432_24 + 3.31975 captain_432_25 + 2.79845 captain_432_26
- + 3.14676 captain_432_27 + 3.74021 captain_433_24 + 3.64773 captain_433_25
- + 3.33464 captain_433_26 + 3.98292 captain_433_27 + 1.2596 captain_435_24
- + 1.23184 captain_435_25 + 1.16996 captain_435_26 + 1.21577 captain_435_27
- + 2.57271 captain_436_24 + 2.68947 captain_436_25 + 2.2525 captain_436_26
- + 2.20526 captain_436_27 + 3.25425 captain_437_24 + 3.1304 captain_437_25
- + 2.92563 captain_437_26 + 3.0167 captain_437_27 + 2.64603 captain_439_25
- + 2.21862 captain_439_26 + 2.1954 captain_439_27 + 4.80758 captain_43_24
- + 4.54793 captain_43_25 + 4.9871 captain_43_26 + 4.76513 captain_43_27
- + 2.44674 captain_442_24 + 2.40536 captain_442_25 + 2.27365 captain_442_26
- + 2.42991 captain_442_27 + 2.26691 captain_445_24 + 2.3426 captain_445_25
- + 1.96842 captain_445_26 + 1.94809 captain_445_27 + 2.56436 captain_446_24
- + 2.55972 captain_446_25 + 2.41961 captain_446_26 + 2.49096 captain_446_27
- + 4.30617 captain_447_24 + 4.24047 captain_447_25 + 3.9609 captain_447_26
- + 4.2743 captain_447_27 + 2.84194 captain_448_24 + 3.19302 captain_448_25
- + 2.84808 captain_448_26 + 2.87182 captain_448_27 + 3.13647 captain_449_24
- + 3.56846 captain_449_25 + 3.14377 captain_449_26 + 3.14445 captain_449_27
- + 3.59313 captain_450_24 + 3.74177 captain_450_25 + 3.70885 captain_450_27
- + 1.50733 captain_451_24 + 1.47344 captain_451_25 + 1.39787 captain_451_26
- + 1.45381 captain_451_27 + 2.79224 captain_453_24 + 2.75355 captain_453_25
- + 2.57682 captain_453_26 + 2.66722 captain_453_27 + 1.44585 captain_456_24
- + 1.4436 captain_456_25 + 1.37568 captain_456_26 + 1.41027 captain_456_27
- + 2.46129 captain_457_24 + 2.52027 captain_457_25 + 2.14107 captain_457_26
- + 2.12046 captain_457_27 + 2.08001 captain_458_24 + 2.05956 captain_458_25
- + 1.94819 captain_458_26 + 2.00788 captain_458_27 + 1.58289 captain_45_24
- + 1.54392 captain_45_25 + 1.74387 captain_45_26 + 1.38431 captain_45_27
- + 1.81288 captain_460_24 + 1.98863 captain_460_25 + 1.50144 captain_460_26
- + 1.45264 captain_460_27 + 2.67226 captain_465_24 + 2.807 captain_465_25
- + 2.38774 captain_465_26 + 2.37355 captain_465_27 + 1.57614 captain_466_24
- + 1.56405 captain_466_25 + 1.52515 captain_466_26 + 1.57607 captain_466_27
- + 2.05952 captain_467_24 + 2.2106 captain_467_25 + 1.90394 captain_467_26
- + 1.90493 captain_467_27 + 3.21965 captain_468_24 + 3.11151 captain_468_25
- + 2.90812 captain_468_26 + 2.9952 captain_468_27 + 1.07946 captain_46_24
- + 1.06486 captain_46_25 + 1.13335 captain_46_26 + 1.11846 captain_46_27
- + 2.47099 captain_470_24 + 2.44958 captain_470_25 + 2.33403 captain_470_26
- + 2.47216 captain_470_27 + 2.5854 captain_471_24 + 2.59391 captain_471_25
- + 2.97824 captain_471_26 + 2.65164 captain_471_27 + 3.0626 captain_472_24
- + 3.0384 captain_472_25 + 3.13798 captain_472_26 + 2.85201 captain_472_27
- + 1.86357 captain_473_24 + 1.87366 captain_473_25 + 2.14512 captain_473_26
- + 1.91461 captain_473_27 + 2.4201 captain_475_24 + 2.59129 captain_475_25
- + 2.60155 captain_475_26 + 2.92297 captain_475_27 + 2.29608 captain_476_24
- + 2.35871 captain_476_25 + 2.76927 captain_476_26 + 2.51761 captain_476_27
- + 1.40292 captain_477_24 + 1.47139 captain_477_25 + 1.48493 captain_477_26
- + 1.32439 captain_477_27 + 1.22061 captain_478_24 + 1.21319 captain_478_25
- + 1.20404 captain_478_26 + 1.18383 captain_478_27 + 3.0626 captain_479_24
- + 3.0384 captain_479_25 + 3.13798 captain_479_26 + 2.85201 captain_479_27
- + 2.59383 captain_47_24 + 2.5418 captain_47_25 + 2.77305 captain_47_26
- + 2.70579 captain_47_27 + 1.68365 captain_481_24 + 1.67112 captain_481_25
- + 1.65567 captain_481_26 + 1.62155 captain_481_27 + 3.61923 captain_482_24
- + 3.58958 captain_482_25 + 3.7116 captain_482_26 + 3.36121 captain_482_27
- + 1.70974 captain_483_24 + 1.74895 captain_483_25 + 1.74339 captain_483_26
- + 1.55709 captain_483_27 + 1.91691 captain_484_24 + 1.90957 captain_484_25
- + 2.19664 captain_484_26 + 1.95287 captain_484_27 + 2.89774 captain_485_24
- + 2.98487 captain_485_25 + 2.98936 captain_485_26 + 2.66273 captain_485_27
- + 0.92012 captain_487_24 + 1.02308 captain_487_25 + 1.30887 captain_487_26
- + 1.19187 captain_487_27 + 2.52457 captain_488_24 + 2.55577 captain_488_25
- + 2.56943 captain_488_26 + 2.51359 captain_488_27 + 1.53956 captain_489_24
- + 1.57318 captain_489_25 + 1.58204 captain_489_26 + 1.57432 captain_489_27
- + 3.41301 captain_48_24 + 3.43284 captain_48_25 + 3.89669 captain_48_26
- + 3.23985 captain_48_27 + 1.73628 captain_490_24 + 1.80092 captain_490_25
- + 1.82081 captain_490_26 + 1.66507 captain_490_27 + 3.0384 captain_491_24
- + 2.98234 captain_491_25 + 3.20049 captain_491_27 + 1.90689 captain_492_24
- + 2.01719 captain_492_25 + 2.01794 captain_492_27 + 2.3189 captain_493_24
- + 2.38239 captain_493_25 + 2.3445 captain_493_27 + 1.64427 captain_494_24
- + 1.71917 captain_494_25 + 1.74788 captain_494_27 + 2.61079 captain_495_24
- + 3.0657 captain_495_25 + 3.31043 captain_495_27 + 2.00017 captain_497_24
- + 2.38707 captain_497_25 + 2.61243 captain_497_27 + 3.0245 captain_498_24
- + 2.96874 captain_498_25 + 3.18571 captain_498_27 + 2.56338 captain_499_24
- + 2.70382 captain_499_25 + 2.72138 captain_499_27 + 3.89821 captain_49_24
- + 3.69361 captain_49_25 + 4.05916 captain_49_26 + 3.77206 captain_49_27
- + 1.73555 captain_4_24 + 1.7645 captain_4_25 + 1.88989 captain_4_26
- + 1.83623 captain_4_27 + 3.65785 captain_501_24 + 3.83137 captain_501_25
- + 3.82732 captain_501_27 + 4.41022 captain_504_24 + 4.54818 captain_504_25
- + 4.44916 captain_504_27 + 3.53201 captain_506_24 + 4.22329 captain_506_25
- + 4.60761 captain_506_27 + 2.2988 captain_508_24 + 3.62609 captain_508_25
- + 2.05451 captain_508_26 + 2.06025 captain_508_27 + 4.22129 captain_509_24
- + 4.23873 captain_509_25 + 4.15103 captain_509_27 + 4.59832 captain_50_24
- + 4.34699 captain_50_25 + 4.58037 captain_50_26 + 4.29088 captain_50_27
- + 2.30541 captain_511_24 + 2.76769 captain_511_25 + 3.05357 captain_511_27
- + 2.36787 captain_513_24 + 2.49 captain_513_25 + 2.48513 captain_513_27
- + 1.7645 captain_515_24 + 1.85011 captain_515_25 + 1.85619 captain_515_27
- + 5.30394 captain_516_24 + 5.49028 captain_516_25 + 5.38829 captain_516_27
- + 1.57693 captain_517_24 + 2.01576 captain_517_25 + 1.42176 captain_517_27
- + 1.5072 captain_518_24 + 1.93504 captain_518_25 + 1.3626 captain_518_27
- + 2.95555 captain_519_24 + 3.45497 captain_519_25 + 3.71501 captain_519_27
- + 3.69148 captain_520_24 + 3.61938 captain_520_25 + 3.89995 captain_520_27
- + 3.06956 captain_522_24 + 3.54021 captain_522_25 + 3.34647 captain_522_26
- + 2.89013 captain_522_27 + 2.75525 captain_523_24 + 2.97375 captain_523_25
- + 2.91477 captain_523_26 + 3.19083 captain_523_27 + 3.3003 captain_524_24
- + 3.63657 captain_524_25 + 3.4016 captain_524_26 + 3.78523 captain_524_27
- + 3.05679 captain_525_24 + 3.26709 captain_525_25 + 3.26847 captain_525_26
- + 3.12114 captain_525_27 + 4.74792 captain_526_24 + 5.22419 captain_526_25
- + 5.31367 captain_526_26 + 5.1046 captain_526_27 + 1.92671 captain_527_24
- + 2.1122 captain_527_25 + 2.17641 captain_527_26 + 2.15049 captain_527_27
- + 2.5925 captain_528_24 + 3.08203 captain_528_25 + 2.98689 captain_528_26
- + 2.62924 captain_528_27 + 2.45539 captain_530_24 + 2.95685 captain_530_25
- + 2.81845 captain_530_26 + 2.42713 captain_530_27 + 2.70725 captain_532_24
- + 3.23055 captain_532_25 + 3.12069 captain_532_26 + 2.74107 captain_532_27
- + 3.24094 captain_533_24 + 3.5764 captain_533_25 + 3.34199 captain_533_26
- + 3.7247 captain_533_27 + 1.98878 captain_534_24 + 2.09502 captain_534_25
- + 2.10516 captain_534_26 + 2.03514 captain_534_27 + 2.31726 captain_535_24
- + 2.48679 captain_535_25 + 2.41154 captain_535_26 + 2.67863 captain_535_27
- + 1.90882 captain_536_24 + 2.33052 captain_536_25 + 2.26228 captain_536_26
- + 1.98807 captain_536_27 + 1.2011 captain_538_24 + 1.32922 captain_538_25
- + 1.32401 captain_538_26 + 1.44105 captain_538_27 + 3.78775 captain_539_24
- + 4.02847 captain_539_25 + 4.03026 captain_539_26 + 3.83991 captain_539_27
- + 3.10312 captain_53_24 + 2.96067 captain_53_25 + 3.21518 captain_53_26
- + 3.01528 captain_53_27 + 3.68889 captain_540_24 + 3.75679 captain_540_25
- + 4.04336 captain_540_26 + 3.96424 captain_540_27 + 3.55572 captain_542_24
- + 3.8137 captain_542_25 + 3.85906 captain_542_26 + 3.72354 captain_542_27
- + 2.78101 captain_544_24 + 3.33217 captain_544_25 + 3.25455 captain_544_26
- + 2.89828 captain_544_27 + 2.66287 captain_545_24 + 2.09541 captain_545_25
- + 3.13034 captain_545_26 + 1.99324 captain_545_27 + 2.9947 captain_546_24
- + 3.09067 captain_546_25 + 3.19138 captain_546_26 + 2.90987 captain_546_27
- + 1.83773 captain_547_24 + 1.45832 captain_547_25 + 1.99443 captain_547_26
- + 1.34028 captain_547_27 + 1.96471 captain_548_24 + 1.593 captain_548_25
- + 2.335 captain_548_26 + 1.51585 captain_548_27 + 1.35034 captain_54_24
- + 1.34071 captain_54_25 + 1.37977 captain_54_26 + 1.29927 captain_54_27
- + 3.289 captain_551_24 + 2.599 captain_551_25 + 3.76685 captain_551_26
- + 2.46973 captain_551_27 + 2.71314 captain_553_24 + 4.59394 captain_553_25
- + 2.40334 captain_553_27 + 3.0674 captain_554_24 + 2.88421 captain_554_25
- + 2.88759 captain_554_26 + 2.79084 captain_554_27 + 1.08066 captain_555_24
- + 1.04169 captain_555_25 + 1.09372 captain_555_26 + 1.02859 captain_555_27
- + 3.78978 captain_557_24 + 3.56218 captain_557_25 + 3.85281 captain_557_26
- + 3.48904 captain_557_27 + 2.67931 captain_559_24 + 2.60917 captain_559_25
- + 2.82016 captain_559_26 + 2.66108 captain_559_27 + 2.79638 captain_55_24
- + 2.72726 captain_55_25 + 3.02004 captain_55_26 + 2.95835 captain_55_27
- + 2.18354 captain_560_24 + 1.72681 captain_560_25 + 2.55585 captain_560_26
- + 1.55266 captain_560_27 + 1.23166 captain_561_24 + 1.18859 captain_561_25
- + 1.24609 captain_561_26 + 1.17412 captain_561_27 + 3.56202 captain_563_24
- + 2.85437 captain_563_25 + 3.90377 captain_563_26 + 2.59947 captain_563_27
- + 2.9339 captain_564_24 + 3.02911 captain_564_25 + 3.12903 captain_564_26
- + 2.84973 captain_564_27 + 3.29456 captain_565_24 + 3.18381 captain_565_25
- + 3.49638 captain_565_26 + 3.24219 captain_565_27 + 3.033 captain_566_24
- + 5.69698 captain_566_25 + 2.72306 captain_566_26 + 2.81353 captain_566_27
- + 3.56736 captain_567_24 + 3.4211 captain_567_25 + 3.71242 captain_567_26
- + 3.36621 captain_567_27 + 3.57654 captain_569_24 + 3.70231 captain_569_25
- + 3.83431 captain_569_26 + 3.46536 captain_569_27 + 3.43964 captain_570_24
- + 3.25851 captain_570_25 + 3.4949 captain_570_26 + 3.18363 captain_570_27
- + 2.91582 captain_572_24 + 2.38108 captain_572_25 + 3.35763 captain_572_26
- + 2.27509 captain_572_27 + 3.02837 captain_573_24 + 2.46478 captain_573_25
- + 3.56407 captain_573_26 + 2.3756 captain_573_27 + 1.32163 captain_574_24
- + 1.29877 captain_574_25 + 1.35549 captain_574_26 + 1.2845 captain_574_27
- + 2.32336 captain_576_24 + 2.38671 captain_576_25 + 2.75136 captain_576_26
- + 2.51003 captain_576_27 + 2.03783 captain_577_24 + 2.40741 captain_577_25
- + 2.3124 captain_577_26 + 2.04377 captain_577_27 + 1.29011 captain_578_24
- + 1.34698 captain_578_25 + 1.43385 captain_578_26 + 1.42658 captain_578_27
- + 2.66219 captain_579_24 + 3.20049 captain_579_25 + 3.09609 captain_579_26
- + 3.26691 captain_579_27 + 3.12386 captain_580_24 + 3.05671 captain_580_25
- + 2.9648 captain_580_26 + 2.98234 captain_580_27 + 1.69219 captain_581_24
- + 1.62481 captain_581_25 + 1.10935 captain_581_26 + 1.60878 captain_581_27
- + 2.09564 captain_582_24 + 4.12496 captain_582_25 + 2.13139 captain_582_27
- + 3.08604 captain_584_24 + 3.06979 captain_584_25 + 3.39957 captain_584_26
- + 2.80652 captain_584_27 + 1.96175 captain_586_24 + 3.89889 captain_586_25
- + 1.99704 captain_586_27 + 1.77745 captain_587_24 + 1.80003 captain_587_25
- + 1.80884 captain_587_26 + 1.79808 captain_587_27 + 1.87425 captain_588_24
- + 3.04137 captain_588_25 + 2.3 captain_588_26 + 2.827 captain_588_27
- + 2.49427 captain_58_24 + 2.43274 captain_58_25 + 2.63059 captain_58_26
- + 2.53867 captain_58_27 + 4.5779 captain_590_24 + 4.71878 captain_590_25
- + 4.70234 captain_590_26 + 4.49827 captain_590_27 + 4.40729 captain_591_24
- + 3.99483 captain_591_25 + 4.08627 captain_591_26 + 4.18826 captain_591_27
- + 1.82449 captain_592_24 + 1.8462 captain_592_25 + 2.15005 captain_592_26
- + 1.94518 captain_592_27 + 2.776 captain_594_24 + 2.88278 captain_594_25
- + 2.96022 captain_594_26 + 3.09866 captain_594_27 + 2.23066 captain_595_24
- + 1.79928 captain_595_25 + 1.83979 captain_595_26 + 2.65259 captain_595_27
- + 3.84654 captain_596_24 + 3.47346 captain_596_25 + 3.73756 captain_596_26
- + 3.74858 captain_596_27 + 3.49237 captain_597_24 + 3.68611 captain_597_25
- + 4.07179 captain_597_26 + 3.17457 captain_597_27 + 1.9674 captain_598_24
- + 1.62392 captain_598_25 + 2.43373 captain_598_26 + 1.61726 captain_598_27
- + 4.09473 captain_599_24 + 3.88769 captain_599_25 + 4.27813 captain_599_26
- + 4.12653 captain_599_27 + 3.88257 captain_5_24 + 4.75449 captain_5_25
- + 4.20958 captain_5_26 + 4.00188 captain_5_27 + 2.43584 captain_601_24
- + 2.81241 captain_601_25 + 2.69539 captain_601_26 + 2.86209 captain_601_27
- + 2.4414 captain_602_24 + 3.53116 captain_602_25 + 2.021 captain_602_27
- + 2.77209 captain_603_24 + 2.95715 captain_603_25 + 2.50152 captain_603_26
- + 2.82772 captain_603_27 + 2.72914 captain_604_25 + 2.32846 captain_604_26
- + 2.30668 captain_604_27 + 2.14348 captain_606_24 + 2.46236 captain_606_25
- + 2.88208 captain_606_26 + 2.59202 captain_606_27 + 3.27717 captain_607_24
- + 3.09735 captain_607_25 + 3.31356 captain_607_26 + 3.35362 captain_607_27
- + 1.6962 captain_608_24 + 1.82975 captain_608_25 + 1.88176 captain_608_26
- + 2.09814 captain_608_27 + 5.1838 captain_60_24 + 5.28556 captain_60_25
- + 6.11817 captain_60_26 + 5.24102 captain_60_27 + 2.48309 captain_610_25
- + 2.32028 captain_610_26 + 2.3155 captain_610_27 + 2.93875 captain_611_24
- + 2.12292 captain_611_25 + 2.85808 captain_611_27 + 3.67563 captain_614_24
- + 7.38106 captain_614_25 + 3.53554 captain_614_27 + 1.46821 captain_615_24
- + 1.49794 captain_615_25 + 1.61735 captain_615_26 + 1.53946 captain_615_27
- + 3.87929 captain_616_24 + 6.784 captain_616_25 + 3.5369 captain_616_26
- + 3.58423 captain_616_27 + 3.2058 captain_617_24 + 3.35041 captain_617_25
- + 3.87415 captain_617_26 + 3.0737 captain_617_27 + 1.24237 captain_618_24
- + 1.2031 captain_618_25 + 1.26023 captain_618_26 + 1.22061 captain_618_27
- + 1.54392 captain_619_24 + 1.13269 captain_619_25 + 1.11454 captain_619_26
- + 1.73974 captain_619_27 + 2.58967 captain_621_24 + 2.73576 captain_621_25
- + 2.8372 captain_621_26 + 2.70265 captain_621_27 + 1.7441 captain_622_24
- + 1.86842 captain_622_25 + 2.11724 captain_622_26 + 1.5122 captain_622_27
- + 1.41911 captain_623_24 + 1.32563 captain_623_25 + 1.40345 captain_623_27
- + 1.06011 captain_624_24 + 1.19528 captain_624_25 + 1.19372 captain_624_26
- + 1.27745 captain_624_27 + 1.65945 captain_625_24 + 1.50165 captain_625_25
- + 1.38188 captain_625_26 + 1.37836 captain_625_27 + 2.08123 captain_626_24
- + 3.77428 captain_626_25 + 1.99202 captain_626_27 + 1.13611 captain_627_24
- + 2.32589 captain_627_25 + 1.21679 captain_627_27 + 1.18853 captain_629_24
- + 2.31522 captain_629_25 + 1.17191 captain_629_27 + 2.10404 captain_62_24
- + 2.02574 captain_62_25 + 1.90016 captain_62_26 + 1.86428 captain_62_27
- + 4.30825 captain_630_24 + 7.75798 captain_630_25 + 3.71229 captain_630_27
- + 2.51192 captain_631_24 + 4.64904 captain_631_25 + 2.43966 captain_631_27
- + 1.11791 captain_632_24 + 1.18463 captain_632_25 + 1.25018 captain_632_26
- + 1.12237 captain_632_27 + 2.32497 captain_633_24 + 2.35485 captain_633_25
- + 1.74918 captain_633_26 + 2.46351 captain_633_27 + 1.68535 captain_634_24
- + 1.61835 captain_634_25 + 1.10575 captain_634_26 + 1.6024 captain_634_27
- + 2.45246 captain_635_24 + 2.63396 captain_635_25 + 2.32427 captain_635_26
- + 2.57729 captain_635_27 + 2.90462 captain_636_24 + 3.26691 captain_636_25
- + 2.91095 captain_636_26 + 2.93545 captain_636_27 + 1.56383 captain_637_24
- + 1.62316 captain_637_25 + 1.32984 captain_637_26 + 1.3139 captain_637_27
- + 2.75334 captain_638_24 + 2.76779 captain_638_25 + 2.76658 captain_638_26
- + 2.72363 captain_638_27 + 2.59628 captain_639_24 + 3.01539 captain_639_25
- + 3.25588 captain_639_27 + 3.02877 captain_63_27 + 1.52758 captain_640_24
- + 1.51797 captain_640_25 + 1.47198 captain_640_27 + 1.75191 captain_641_27
- + 2.69582 captain_642_24 + 2.84481 captain_642_25 + 2.84582 captain_642_26
- + 2.74052 captain_642_27 + 1.83321 captain_644_24 + 1.85829 captain_644_25
- + 1.90184 captain_644_26 + 2.04505 captain_644_27 + 1.50245 captain_645_24
- + 1.62653 captain_645_25 + 1.62049 captain_645_26 + 1.72126 captain_645_27
- + 2.83652 captain_646_24 + 3.07281 captain_646_25 + 2.90462 captain_646_26
- + 3.0437 captain_646_27 + 2.85201 captain_647_24 + 3.12386 captain_647_25
- + 2.9339 captain_647_26 + 3.24404 captain_647_27 + 1.32471 captain_649_24
- + 1.44539 captain_649_25 + 1.38516 captain_649_26 + 1.5017 captain_649_27
- + 2.19467 captain_64_24 + 2.1105 captain_64_25 + 2.09013 captain_64_26
- + 2.20008 captain_64_27 + 1.01981 captain_650_24 + 1.09574 captain_650_25
- + 1.06652 captain_650_26 + 1.10289 captain_650_27 + 1.27931 captain_652_24
- + 1.1917 captain_652_25 + 1.20199 captain_652_26 + 1.21319 captain_652_27
- + 1.38431 captain_653_24 + 1.37836 captain_653_25 + 1.6109 captain_653_26
- + 1.41344 captain_653_27 + 1.42288 captain_654_24 + 1.5892 captain_654_25
- + 1.47666 captain_654_26 + 1.44988 captain_654_27 + 1.63316 captain_655_24
- + 1.65787 captain_655_25 + 1.67501 captain_655_26 + 1.68435 captain_655_27
- + 1.24937 captain_657_24 + 1.22746 captain_657_25 + 1.28467 captain_657_26
- + 1.22183 captain_657_27 + 1.46622 captain_658_24 + 1.57687 captain_658_25
- + 1.54499 captain_658_26 + 1.43639 captain_658_27 + 3.04851 captain_659_24
- + 2.66219 captain_659_25 + 2.94966 captain_659_27 + 2.95751 captain_65_24
- + 2.93447 captain_65_25 + 2.9471 captain_65_26 + 3.14879 captain_65_27
- + 2.40827 captain_660_24 + 2.54246 captain_660_25 + 2.55366 captain_660_26
- + 2.84147 captain_660_27 + 3.76728 captain_661_24 + 4.28633 captain_661_25
- + 4.0819 captain_661_26 + 4.28559 captain_661_27 + 1.67618 captain_662_24
- + 1.53496 captain_662_25 + 1.55155 captain_662_26 + 1.56961 captain_662_27
- + 3.02863 captain_663_24 + 3.05762 captain_663_25 + 3.08031 captain_663_26
- + 3.05527 captain_663_27 + 5.4301 captain_664_24 + 5.67829 captain_664_25
- + 5.53857 captain_664_26 + 5.18432 captain_664_27 + 3.39511 captain_665_24
- + 6.81874 captain_665_25 + 3.26099 captain_665_27 + 1.14499 captain_666_24
- + 1.15408 captain_666_25 + 1.16115 captain_666_26 + 1.15533 captain_666_27
- + 2.28853 captain_668_24 + 4.39164 captain_668_25 + 2.23469 captain_668_27
- + 2.91397 captain_669_24 + 3.09585 captain_669_25 + 3.3561 captain_669_26
- + 2.66969 captain_669_27 + 2.59292 captain_66_24 + 2.53073 captain_66_25
- + 2.50973 captain_66_26 + 2.63625 captain_66_27 + 1.82682 captain_671_24
- + 1.13358 captain_671_25 + 1.57288 captain_671_27 + 1.96426 captain_672_24
- + 1.93829 captain_672_25 + 2.14892 captain_672_26 + 2.08428 captain_672_27
- + 1.56086 captain_673_26 + 1.6369 captain_673_27 + 1.19827 captain_674_24
- + 1.66413 captain_674_25 + 1.88021 captain_674_26 + 1.90523 captain_674_27
- + 1.74245 captain_675_24 + 1.8714 captain_675_25 + 1.89611 captain_675_26
- + 2.10722 captain_675_27 + 2.24153 captain_676_24 + 2.69468 captain_676_25
- + 2.62757 captain_676_26 + 2.33829 captain_676_27 + 1.36286 captain_677_24
- + 1.33634 captain_677_25 + 1.39146 captain_677_27 + 3.84969 captain_678_24
- + 7.48423 captain_678_25 + 3.73158 captain_678_26 + 3.88789 captain_678_27
- + 2.39442 captain_679_24 + 2.4677 captain_679_25 + 2.08596 captain_679_26
- + 2.10903 captain_679_27 + 1.41595 captain_681_24 + 1.34925 captain_681_25
- + 1.454 captain_681_27 + 1.9011 captain_682_24 + 2.54523 captain_682_25
- + 1.50165 captain_682_27 + 1.22711 captain_684_24 + 2.38257 captain_684_25
- + 1.21269 captain_684_26 + 1.23883 captain_684_27 + 1.15786 captain_685_24
- + 1.2177 captain_685_25 + 1.26107 captain_685_26 + 1.12197 captain_685_27
- + 3.51366 captain_687_24 + 3.0377 captain_687_25 + 3.39188 captain_687_27
- + 3.48775 captain_688_24 + 3.27351 captain_688_25 + 3.10353 captain_688_26
- + 3.10654 captain_688_27 + 3.22338 captain_689_24 + 3.45155 captain_689_25
- + 3.48328 captain_689_26 + 3.35704 captain_689_27 + 1.40596 captain_690_24
- + 1.52778 captain_690_25 + 1.60877 captain_690_26 + 1.57566 captain_690_27
- + 2.1318 captain_691_24 + 2.3789 captain_691_25 + 2.40857 captain_691_26
- + 2.57271 captain_691_27 + 3.06685 captain_692_24 + 3.02265 captain_692_25
- + 3.12477 captain_692_26 + 3.04848 captain_692_27 + 1.50935 captain_694_24
- + 1.64021 captain_694_25 + 1.69466 captain_694_26 + 1.92872 captain_694_27
- + 2.92061 captain_695_24 + 3.07276 captain_695_25 + 3.37565 captain_695_26
- + 2.67103 captain_695_27 + 3.06042 captain_696_24 + 3.22094 captain_696_25
- + 2.8008 captain_696_26 + 2.80829 captain_696_27 + 2.50333 captain_697_24
- + 2.01093 captain_697_25 + 2.82882 captain_697_26 + 1.86367 captain_697_27
- + 2.0584 captain_698_24 + 1.96824 captain_698_25 + 2.08861 captain_698_26
- + 1.93795 captain_698_27 + 2.97054 captain_699_24 + 2.99759 captain_699_25
- + 3.38615 captain_699_26 + 2.80314 captain_699_27 + 3.69195 captain_6_24
- + 3.80386 captain_6_25 + 4.10928 captain_6_26 + 3.9762 captain_6_27
- + 2.38976 captain_700_24 + 2.59453 captain_700_25 + 2.70907 captain_700_26
- + 2.57146 captain_700_27 + 1.84548 captain_701_24 + 3.56517 captain_701_25
- + 1.82141 captain_701_26 + 1.86883 captain_701_27 + 1.79863 captain_703_24
- + 1.92237 captain_703_25 + 2.32727 captain_703_26 + 1.65772 captain_703_27
- + 1.26688 captain_704_24 + 1.35955 captain_704_25 + 1.39151 captain_704_26
- + 1.36198 captain_704_27 + 2.74225 captain_705_24 + 2.6615 captain_705_25
- + 2.60544 captain_705_26 + 2.69904 captain_705_27 + 1.94039 captain_706_24
- + 2.07311 captain_706_25 + 2.09344 captain_706_26 + 2.28795 captain_706_27
- + 2.18722 captain_707_24 + 1.99943 captain_707_25 + 1.85691 captain_707_26
- + 1.85272 captain_707_27 + 2.23092 captain_708_24 + 4.50412 captain_708_25
- + 2.33222 captain_708_27 + 1.99601 captain_709_24 + 2.09648 captain_709_25
- + 2.19458 captain_709_26 + 1.90009 captain_709_27 + 2.51602 captain_70_24
- + 1.99782 captain_70_25 + 2.016 captain_70_26 + 2.88406 captain_70_27
- + 3.2446 captain_710_24 + 3.66739 captain_710_25 + 3.25198 captain_710_26
- + 3.28058 captain_710_27 + 2.43818 captain_711_24 + 2.57099 captain_711_25
- + 2.21118 captain_711_26 + 2.22278 captain_711_27 + 2.77188 captain_712_24
- + 2.72448 captain_712_25 + 2.60006 captain_712_26 + 2.76414 captain_712_27
- + 2.38646 captain_713_25 + 2.23225 captain_713_26 + 2.3464 captain_713_27
- + 2.05918 captain_715_24 + 2.04862 captain_715_25 + 2.22818 captain_715_26
- + 2.10548 captain_715_27 + 1.38542 captain_716_24 + 0.97011 captain_716_25
- + 1.36591 captain_716_27 + 1.26936 captain_717_24 + 1.24563 captain_717_25
- + 1.29496 captain_717_27 + 1.15472 captain_719_24 + 1.25751 captain_719_25
- + 1.21796 captain_719_26 + 1.26719 captain_719_27 + 1.2031 captain_71_24
- + 1.17412 captain_71_25 + 1.16096 captain_71_26 + 1.2029 captain_71_27
- + 1.08897 captain_721_24 + 1.10835 captain_721_25 + 1.19182 captain_721_26
- + 1.15997 captain_721_27 + 1.2179 captain_722_24 + 1.22846 captain_722_25
- + 1.20823 captain_722_27 + 1.68172 captain_723_24 + 1.09772 captain_723_25
- + 1.48109 captain_723_27 + 1.27456 captain_724_24 + 1.25235 captain_724_25
- + 1.31036 captain_724_26 + 1.24663 captain_724_27 + 1.67034 captain_725_24
- + 2.47648 captain_725_25 + 1.4032 captain_725_26 + 1.40745 captain_725_27
- + 1.94653 captain_726_24 + 3.50429 captain_726_25 + 1.78992 captain_726_27
- + 2.85454 captain_727_24 + 5.58884 captain_727_25 + 2.85336 captain_727_27
- + 1.88963 captain_728_24 + 3.40379 captain_728_25 + 1.80334 captain_728_27
- + 2.67073 captain_72_24 + 2.60555 captain_72_25 + 2.57333 captain_72_26
- + 2.71206 captain_72_27 + 1.25129 captain_730_24 + 1.24434 captain_730_25
- + 1.23578 captain_730_26 + 1.21688 captain_730_27 + 1.45192 captain_731_24
- + 1.44586 captain_731_25 + 1.68289 captain_731_26 + 1.48162 captain_731_27
- + 1.74496 captain_732_24 + 1.58359 captain_732_25 + 1.46111 captain_732_26
- + 1.45751 captain_732_27 + 1.73334 captain_733_24 + 2.58814 captain_733_25
- + 1.46177 captain_733_26 + 1.46609 captain_733_27 + 1.35632 captain_734_24
- + 2.59993 captain_734_25 + 1.29851 captain_734_27 + 1.30897 captain_735_24
- + 1.32297 captain_735_25 + 1.38365 captain_735_26 + 1.35768 captain_735_27
- + 1.44987 captain_736_24 + 1.85316 captain_736_25 + 1.67208 captain_736_26
- + 1.57248 captain_736_27 + 1.22239 captain_738_24 + 1.2609 captain_738_25
- + 1.15597 captain_738_26 + 1.22608 captain_738_27 + 1.40232 captain_739_24
- + 1.36301 captain_739_25 + 1.2605 captain_739_26 + 1.43345 captain_739_27
- + 2.50781 captain_73_24 + 2.40076 captain_73_25 + 2.23534 captain_73_26
- + 2.18693 captain_73_27 + 1.48117 captain_740_24 + 1.75346 captain_740_25
- + 1.90937 captain_740_27 + 1.48178 captain_741_24 + 1.51911 captain_741_25
- + 1.47608 captain_741_26 + 1.45602 captain_741_27 + 1.20109 captain_742_24
- + 1.26863 captain_742_25 + 1.31284 captain_742_26 + 1.26591 captain_742_27
- + 1.3607 captain_743_24 + 2.64664 captain_743_25 + 1.3406 captain_743_27
- + 1.33834 captain_745_24 + 1.30242 captain_745_25 + 1.21681 captain_745_26
- + 1.36078 captain_745_27 + 1.36053 captain_746_24 + 1.58479 captain_746_25
- + 1.88232 captain_746_26 + 1.66417 captain_746_27 + 1.30767 captain_747_24
- + 1.35768 captain_747_25 + 1.37964 captain_747_26 + 1.32319 captain_747_27
- + 1.36665 captain_749_24 + 1.32025 captain_749_25 + 1.3822 captain_749_26
- + 1.30466 captain_749_27 + 1.28237 captain_750_24 + 1.26504 captain_750_25
- + 1.34583 captain_750_26 + 1.27562 captain_750_27 + 1.76529 captain_751_24
- + 1.36041 captain_751_25 + 2.03292 captain_751_26 + 1.23932 captain_751_27
- + 3.2818 captain_752_24 + 5.85441 captain_752_25 + 2.96661 captain_752_26
- + 3.25312 captain_752_27 + 1.37221 captain_753_24 + 1.59723 captain_753_25
- + 1.89575 captain_753_26 + 1.67687 captain_753_27 + 1.34675 captain_754_24
- + 1.37122 captain_754_25 + 1.35662 captain_754_27 + 1.33295 captain_755_24
- + 1.38366 captain_755_25 + 1.40592 captain_755_26 + 1.34869 captain_755_27
- + 3.31212 captain_757_24 + 5.60673 captain_757_25 + 2.80978 captain_757_27
- + 1.3238 captain_758_24 + 1.26028 captain_758_25 + 1.36003 captain_758_27
- + 1.322 captain_759_24 + 1.31493 captain_759_25 + 1.30622 captain_759_26
- + 1.28698 captain_759_27 + 2.10305 captain_75_24 + 1.64375 captain_75_25
- + 1.63362 captain_75_26 + 2.348 captain_75_27 + 1.28506 captain_760_24
- + 1.39588 captain_760_25 + 1.35324 captain_760_26 + 1.40633 captain_760_27
- + 1.20627 captain_761_24 + 1.97791 captain_761_25 + 1.45969 captain_761_26
- + 1.82591 captain_761_27 + 1.4601 captain_762_24 + 2.84831 captain_762_25
- + 1.41067 captain_762_26 + 1.44506 captain_762_27 + 1.49607 captain_763_24
- + 1.60041 captain_763_25 + 2.05816 captain_763_26 + 1.44877 captain_763_27
- + 1.36009 captain_764_24 + 1.37449 captain_764_25 + 1.43686 captain_764_26
- + 1.41017 captain_764_27 + 3.30965 captain_765_24 + 3.15544 captain_765_25
- + 3.43095 captain_765_26 + 3.21456 captain_765_27 + 1.63742 captain_766_24
- + 1.69278 captain_766_25 + 2.02573 captain_766_26 + 1.36045 captain_766_27
- + 1.43142 captain_767_24 + 1.38791 captain_767_25 + 1.4512 captain_767_26
- + 1.40732 captain_767_27 + 1.50408 captain_768_24 + 1.5613 captain_768_25
- + 1.90551 captain_768_26 + 1.21774 captain_768_27 + 2.06816 captain_76_24
- + 2.06478 captain_76_25 + 1.89372 captain_76_26 + 1.98847 captain_76_27
- + 1.41955 captain_770_24 + 1.37185 captain_770_25 + 1.43554 captain_770_26
- + 1.35582 captain_770_27 + 1.47399 captain_771_24 + 2.87558 captain_771_25
- + 1.42421 captain_771_26 + 1.45885 captain_771_27 + 1.38643 captain_772_24
- + 1.40103 captain_772_25 + 1.46428 captain_772_26 + 1.43721 captain_772_27
- + 1.39308 captain_773_24 + 1.44642 captain_773_25 + 1.44681 captain_773_26
- + 1.40464 captain_773_27 + 1.6178 captain_774_24 + 1.95169 captain_774_25
- + 1.85953 captain_774_26 + 1.59899 captain_774_27 + 2.77363 captain_775_24
- + 2.77549 captain_775_25 + 2.77203 captain_775_26 + 2.76069 captain_775_27
- + 3.9929 captain_776_24 + 3.9709 captain_776_25 + 3.84624 captain_776_27
- + 1.74465 captain_777_24 + 2.1568 captain_777_25 + 2.437 captain_777_27
- + 3.35854 captain_778_24 + 3.20207 captain_778_25 + 3.48162 captain_778_26
- + 3.26206 captain_778_27 + 1.49226 captain_779_24 + 1.46086 captain_779_25
- + 1.39086 captain_779_26 + 1.44268 captain_779_27 + 3.54649 captain_77_24
- + 3.3471 captain_77_25 + 3.58685 captain_77_26 + 3.63127 captain_77_27
- + 1.65778 captain_780_24 + 1.59095 captain_780_25 + 1.48843 captain_780_26
- + 1.51638 captain_780_27 + 1.65778 captain_781_24 + 1.59095 captain_781_25
- + 1.48843 captain_781_26 + 1.51638 captain_781_27 + 1.2581 captain_783_24
- + 2.54232 captain_783_25 + 1.29743 captain_783_27 + 1.63094 captain_784_24
- + 1.966 captain_784_25 + 1.87353 captain_784_26 + 1.61206 captain_784_27
- + 1.41193 captain_786_24 + 1.46481 captain_786_25 + 1.48802 captain_786_26
- + 1.42834 captain_786_27 + 1.46065 captain_787_24 + 1.41193 captain_787_25
- + 1.47698 captain_787_26 + 1.39556 captain_787_27 + 3.36739 captain_789_24
- + 6.0072 captain_789_25 + 3.04403 captain_789_26 + 3.33796 captain_789_27
- + 2.02052 captain_78_24 + 2.00282 captain_78_25 + 2.00384 captain_78_26
- + 2.13481 captain_78_27 + 3.44878 captain_790_24 + 3.42031 captain_790_25
- + 3.53745 captain_790_26 + 3.20107 captain_790_27 + 1.30047 captain_791_24
- + 1.26221 captain_791_25 + 1.37293 captain_791_27 + 2.33445 captain_792_24
- + 2.41363 captain_792_25 + 3.05043 captain_792_26 + 2.22548 captain_792_27
- + 1.82473 captain_793_24 + 1.78322 captain_793_25 + 1.99622 captain_793_26
- + 1.61318 captain_793_27 + 1.47423 captain_794_24 + 1.52892 captain_794_25
- + 1.3799 captain_794_26 + 1.47947 captain_794_27 + 1.47423 captain_795_24
- + 1.52892 captain_795_25 + 1.3799 captain_795_26 + 1.47947 captain_795_27
- + 1.52892 captain_796_24 + 1.4291 captain_796_25 + 1.44083 captain_796_26
- + 1.45359 captain_796_27 + 1.86873 captain_797_24 + 2.82805 captain_797_25
- + 1.58762 captain_797_26 + 1.59209 captain_797_27 + 2.17897 captain_798_24
- + 3.01415 captain_798_25 + 1.75193 captain_798_27 + 1.64569 captain_799_24
- + 1.62943 captain_799_25 + 1.6414 captain_799_26 + 1.75176 captain_799_27
- + 2.45134 captain_800_24 + 2.34619 captain_800_25 + 2.48658 captain_800_26
- + 2.31086 captain_800_27 + 2.11256 captain_801_24 + 2.08706 captain_801_25
- + 1.99316 captain_801_26 + 2.1151 captain_801_27 + 1.78322 captain_802_24
- + 1.34513 captain_802_25 + 1.3258 captain_802_26 + 1.99182 captain_802_27
- + 2.31368 captain_803_24 + 2.23944 captain_803_25 + 2.39503 captain_803_26
- + 2.31999 captain_803_27 + 2.24748 captain_804_24 + 2.24065 captain_804_25
- + 2.06024 captain_804_26 + 2.15831 captain_804_27 + 1.53301 captain_805_24
- + 2.11218 captain_805_25 + 2.39751 captain_805_26 + 2.43446 captain_805_27
- + 1.02889 captain_806_24 + 1.50803 captain_806_25 + 1.75826 captain_806_26
- + 1.815 captain_806_27 + 2.39326 captain_807_24 + 2.36993 captain_807_25
- + 2.51629 captain_807_26 + 2.40515 captain_807_27 + 3.40394 captain_808_24
- + 3.8485 captain_808_25 + 3.4117 captain_808_26 + 3.44177 captain_808_27
- + 1.47046 captain_809_24 + 1.43333 captain_809_25 + 1.36554 captain_809_26
- + 1.40986 captain_809_27 + 3.00625 captain_80_24 + 2.84973 captain_80_25
- + 3.03794 captain_80_26 + 3.07281 captain_80_27 + 1.54342 captain_810_24
- + 1.44289 captain_810_25 + 1.45471 captain_810_26 + 1.46756 captain_810_27
- + 2.36942 captain_82_24 + 2.40493 captain_82_25 + 2.23094 captain_82_26
- + 2.36135 captain_82_27 + 2.75599 captain_83_24 + 2.15016 captain_83_25
- + 2.1447 captain_83_26 + 3.14816 captain_83_27 + 2.6281 captain_84_24
- + 2.09306 captain_84_25 + 2.09061 captain_84_26 + 2.98232 captain_84_27
- + 4.76339 captain_85_24 + 4.80098 captain_85_25 + 4.42902 captain_85_26
- + 4.68871 captain_85_27 + 3.73069 captain_86_24 + 3.60978 captain_86_25
- + 3.61905 captain_86_26 + 3.91649 captain_86_27 + 2.72694 captain_88_24
- + 2.58463 captain_88_25 + 2.75574 captain_88_26 + 2.78744 captain_88_27
- + 2.93561 captain_89_24 + 2.38916 captain_89_25 + 2.40269 captain_89_26
- + 3.36072 captain_89_27 + 4.32846 captain_8_24 + 4.0305 captain_8_25
- + 4.53883 captain_8_26 + 4.43031 captain_8_27 + 2.4748 captain_90_24
- + 3.86769 captain_90_25 + 2.2568 captain_90_26 + 2.26331 captain_90_27
- + 3.13798 captain_91_24 + 5.59764 captain_91_25 + 2.83652 captain_91_26
- + 3.11055 captain_91_27 + 1.49763 captain_92_24 + 3.00249 captain_92_25
- + 1.56612 captain_92_26 + 1.60559 captain_92_27 + 1.88723 captain_93_24
- + 3.02685 captain_93_25 + 1.59167 captain_93_26 + 1.42017 captain_93_27
- + 2.8335 captain_96_24 + 4.58692 captain_96_25 + 2.59676 captain_96_26
- + 2.60309 captain_96_27 + 1.74928 captain_98_24 + 3.53427 captain_98_25
- + 1.85645 captain_98_26 + 1.90398 captain_98_27 + 1.23826 captain_99_24
- + 2.51488 captain_99_25 + 1.31229 captain_99_26 + 1.34132 captain_99_27
- + 2.16244 captain_9_24 + 2.24911 captain_9_25 + 2.43969 captain_9_26
- + 2.42191 captain_9_27 + 3.76854 lineup_101_24 + 6.67193 lineup_101_25
- + 3.38404 lineup_101_26 + 3.73355 lineup_101_27 + 3.15649 lineup_105_24
- + 6.17059 lineup_105_25 + 3.20198 lineup_105_26 + 3.29252 lineup_105_27
- + 3.35515 lineup_106_24 + 6.43394 lineup_106_25 + 3.31646 lineup_106_26
- + 3.41709 lineup_106_27 + 2.97912 lineup_107_24 + 5.64549 lineup_107_25
- + 2.9142 lineup_107_26 + 3.0056 lineup_107_27 + 5.51449 lineup_108_27
- + 3.43771 lineup_109_24 + 5.3616 lineup_109_25 + 3.02623 lineup_109_26
- + 3.03418 lineup_109_27 + 1.8265 lineup_10_24 + 2.46729 lineup_10_25
- + 2.30967 lineup_10_26 + 2.22223 lineup_10_27 + 3.5422 lineup_110_24
- + 6.8843 lineup_110_25 + 3.58304 lineup_110_26 + 3.70576 lineup_110_27
- + 3.80355 lineup_111_25 + 1.94932 lineup_111_26 + 2.00739 lineup_111_27
- + 3.77019 lineup_112_24 + 6.08897 lineup_112_25 + 3.42583 lineup_112_26
- + 3.43418 lineup_112_27 + 3.55358 lineup_113_24 + 3.89817 lineup_113_25
- + 3.65289 lineup_113_26 + 3.85572 lineup_113_27 + 2.40917 lineup_114_24
- + 3.98756 lineup_114_25 + 2.21806 lineup_114_26 + 2.22279 lineup_114_27
- + 3.18466 lineup_116_24 + 5.67379 lineup_116_25 + 2.87555 lineup_116_26
- + 3.15653 lineup_116_27 + 5.64077 lineup_117_24 + 10.3638 lineup_117_25
- + 5.76313 lineup_117_26 + 5.26733 lineup_117_27 + 7.21599 lineup_119_25
- + 3.96384 lineup_119_26 + 3.66428 lineup_119_27 + 1.39943 lineup_120_24
- + 2.86354 lineup_120_25 + 1.48782 lineup_120_26 + 1.52215 lineup_120_27
- + 2.3775 lineup_121_24 + 3.69227 lineup_121_25 + 2.05608 lineup_121_26
- + 2.06149 lineup_121_27 + 2.93204 lineup_122_25 + 2.99876 lineup_122_26
- + 2.82724 lineup_122_27 + 2.08795 lineup_125_24 + 2.20478 lineup_125_25
- + 2.25932 lineup_125_26 + 2.13828 lineup_125_27 + 2.68372 lineup_126_24
- + 2.578 lineup_126_25 + 2.91322 lineup_126_27 + 2.08181 lineup_128_24
- + 2.18265 lineup_128_25 + 2.2377 lineup_128_26 + 2.11543 lineup_128_27
- + 3.03742 lineup_129_24 + 3.46447 lineup_129_25 + 4.03094 lineup_129_26
- + 3.58664 lineup_129_27 + 4.8733 lineup_12_24 + 4.91084 lineup_12_25
- + 5.21622 lineup_12_26 + 4.99529 lineup_12_27 + 2.02125 lineup_130_25
- + 2.0759 lineup_130_26 + 1.93541 lineup_130_27 + 1.97636 lineup_131_24
- + 2.43439 lineup_131_25 + 2.99588 lineup_131_26 + 2.74173 lineup_131_27
- + 2.7425 lineup_132_24 + 2.89901 lineup_132_25 + 2.87926 lineup_132_26
- + 2.87966 lineup_132_27 + 2.56528 lineup_133_24 + 2.76394 lineup_133_25
- + 2.87866 lineup_133_26 + 2.76641 lineup_133_27 + 5.02632 lineup_134_24
- + 5.31095 lineup_134_25 + 5.42118 lineup_134_26 + 5.04153 lineup_134_27
- + 4.0615 lineup_135_24 + 4.17949 lineup_135_25 + 4.04442 lineup_135_26
- + 3.99464 lineup_135_27 + 1.46122 lineup_138_24 + 1.57095 lineup_138_25
- + 1.64481 lineup_138_26 + 1.59434 lineup_138_27 + 1.55124 lineup_139_24
- + 1.79392 lineup_139_25 + 2.1209 lineup_139_26 + 1.8271 lineup_139_27
- + 2.7289 lineup_13_24 + 2.58448 lineup_13_25 + 2.94449 lineup_13_26
- + 2.90185 lineup_13_27 + 3.02911 lineup_141_24 + 3.0437 lineup_141_25
- + 3.18427 lineup_141_26 + 3.00625 lineup_141_27 + 3.69447 lineup_143_24
- + 3.93346 lineup_143_25 + 4.03839 lineup_143_26 + 3.76864 lineup_143_27
- + 1.23187 lineup_144_24 + 1.29053 lineup_144_25 + 1.33502 lineup_144_26
- + 1.29497 lineup_144_27 + 3.50948 lineup_145_24 + 3.01141 lineup_145_25
- + 3.38204 lineup_145_27 + 3.46747 lineup_148_24 + 3.48483 lineup_148_25
- + 3.65207 lineup_148_26 + 3.44027 lineup_148_27 + 5.40874 lineup_14_24
- + 5.55342 lineup_14_25 + 6.0077 lineup_14_26 + 5.78732 lineup_14_27
- + 2.42569 lineup_150_24 + 2.75481 lineup_150_25 + 3.18431 lineup_150_26
- + 2.8821 lineup_150_27 + 2.15347 lineup_151_24 + 2.47853 lineup_151_25
- + 2.90977 lineup_151_26 + 2.59358 lineup_151_27 + 3.48677 lineup_152_24
- + 3.50491 lineup_152_25 + 3.67971 lineup_152_26 + 3.45834 lineup_152_27
- + 1.95554 lineup_153_24 + 2.29304 lineup_153_25 + 2.71983 lineup_153_26
- + 2.43326 lineup_153_27 + 2.76053 lineup_154_24 + 2.86996 lineup_154_25
- + 2.79987 lineup_154_26 + 2.76573 lineup_154_27 + 1.14376 lineup_156_24
- + 1.18383 lineup_156_25 + 1.18015 lineup_156_26 + 1.27931 lineup_156_27
- + 1.8843 lineup_157_24 + 2.38522 lineup_157_25 + 2.59194 lineup_157_26
- + 2.54534 lineup_157_27 + 1.98208 lineup_159_24 + 2.07429 lineup_159_25
- + 2.06583 lineup_159_26 + 2.29401 lineup_159_27 + 1.64441 lineup_160_24
- + 2.32676 lineup_160_25 + 2.64558 lineup_160_26 + 2.68249 lineup_160_27
- + 2.99004 lineup_161_24 + 3.1621 lineup_161_25 + 3.17263 lineup_161_26
- + 3.52109 lineup_161_27 + 1.5765 lineup_163_24 + 1.67596 lineup_163_25
- + 1.70136 lineup_163_26 + 1.86923 lineup_163_27 + 2.06772 lineup_165_24
- + 2.17284 lineup_165_25 + 2.17672 lineup_165_26 + 2.40623 lineup_165_27
- + 0.96234 lineup_166_24 + 1.41344 lineup_166_25 + 1.63392 lineup_166_26
- + 1.65945 lineup_166_27 + 0.94171 lineup_167_24 + 1.45587 lineup_167_25
- + 1.7313 lineup_167_26 + 1.79328 lineup_167_27 + 2.39111 lineup_168_24
- + 2.50451 lineup_168_25 + 2.5815 lineup_168_26 + 2.70296 lineup_168_27
- + 2.23695 lineup_170_24 + 2.41509 lineup_170_25 + 2.45067 lineup_170_26
- + 2.79887 lineup_170_27 + 3.39576 lineup_172_24 + 3.07584 lineup_172_25
- + 3.3023 lineup_172_26 + 3.31176 lineup_172_27 + 1.88905 lineup_173_24
- + 2.57507 lineup_173_25 + 2.93092 lineup_173_26 + 2.99717 lineup_173_27
- + 1.2399 lineup_176_24 + 1.83237 lineup_176_25 + 2.13776 lineup_176_26
- + 2.18692 lineup_176_27 + 2.59516 lineup_177_24 + 2.6612 lineup_177_25
- + 2.69227 lineup_177_26 + 2.79164 lineup_177_27 + 1.66632 lineup_178_24
- + 2.29124 lineup_178_25 + 2.58281 lineup_178_26 + 2.61657 lineup_178_27
- + 3.24402 lineup_17_24 + 3.53032 lineup_17_25 + 3.32654 lineup_17_26
- + 3.49505 lineup_17_27 + 3.12959 lineup_181_24 + 2.85201 lineup_181_25
- + 3.04851 lineup_181_26 + 3.05671 lineup_181_27 + 2.01939 lineup_182_24
- + 2.72857 lineup_182_25 + 3.08645 lineup_182_26 + 3.15184 lineup_182_27
- + 1.512 lineup_184_24 + 1.60306 lineup_184_25 + 1.61919 lineup_184_26
- + 1.81148 lineup_184_27 + 1.18808 lineup_186_24 + 1.12945 lineup_186_25
- + 1.22152 lineup_186_27 + 2.55767 lineup_191_24 + 1.78311 lineup_191_25
- + 2.39061 lineup_191_27 + 2.9704 lineup_192_24 + 2.59391 lineup_192_25
- + 2.87407 lineup_192_27 + 2.00963 lineup_193_24 + 2.08744 lineup_193_25
- + 2.02626 lineup_193_26 + 2.2241 lineup_193_27 + 1.98216 lineup_194_24
- + 1.31624 lineup_194_25 + 1.75339 lineup_194_27 + 2.43909 lineup_195_24
- + 1.53662 lineup_195_25 + 2.20801 lineup_195_27 + 0.9185 lineup_196_24
- + 0.92051 lineup_196_25 + 1.06817 lineup_196_27 + 3.13965 lineup_197_24
- + 2.25289 lineup_197_25 + 2.87962 lineup_197_27 + 2.20074 lineup_198_27
- + 3.60618 lineup_199_24 + 3.38302 lineup_199_25 + 3.90915 lineup_199_27
- + 6.13846 lineup_19_24 + 6.17843 lineup_19_25 + 6.6307 lineup_19_26
- + 6.33344 lineup_19_27 + 1.49612 lineup_1_24 + 1.57128 lineup_1_25
- + 1.55681 lineup_1_26 + 1.5922 lineup_1_27 + 1.7531 lineup_200_24
- + 1.75933 lineup_200_25 + 1.7377 lineup_200_26 + 1.77048 lineup_200_27
- + 2.97186 lineup_202_24 + 2.80321 lineup_202_25 + 3.2524 lineup_202_27
- + 2.30594 lineup_203_24 + 1.51653 lineup_203_25 + 2.10679 lineup_203_27
- + 2.06329 lineup_204_24 + 2.03057 lineup_204_25 + 1.46403 lineup_204_26
- + 2.03607 lineup_204_27 + 2.19691 lineup_205_24 + 2.19571 lineup_205_25
- + 2.09326 lineup_205_26 + 2.22731 lineup_205_27 + 3.18595 lineup_207_24
- + 2.93575 lineup_207_25 + 3.13732 lineup_207_27 + 2.04108 lineup_208_24
- + 1.95656 lineup_208_25 + 2.24244 lineup_208_27 + 2.1003 lineup_209_24
- + 2.22384 lineup_209_25 + 2.34446 lineup_209_26 + 1.98236 lineup_209_27
- + 3.36318 lineup_20_24 + 4.26468 lineup_20_25 + 3.88088 lineup_20_26
- + 3.67231 lineup_20_27 + 2.71488 lineup_210_24 + 2.54122 lineup_210_25
- + 2.92816 lineup_210_27 + 3.74222 lineup_211_24 + 3.70498 lineup_211_25
- + 3.91467 lineup_211_27 + 2.93236 lineup_212_24 + 2.90596 lineup_212_25
- + 3.04031 lineup_212_27 + 2.48817 lineup_214_24 + 1.70273 lineup_214_25
- + 2.21834 lineup_214_27 + 3.98558 lineup_216_24 + 3.69925 lineup_216_25
- + 4.32295 lineup_216_27 + 3.05248 lineup_217_24 + 2.25085 lineup_217_25
- + 2.91276 lineup_217_27 + 1.01769 lineup_219_24 + 1.03728 lineup_219_25
- + 1.11015 lineup_219_26 + 1.08514 lineup_219_27 + 2.41004 lineup_21_24
- + 4.59185 lineup_21_25 + 2.29825 lineup_21_27 + 2.8374 lineup_220_24
- + 3.00881 lineup_220_25 + 3.84937 lineup_220_26 + 2.86136 lineup_220_27
- + 3.27509 lineup_221_24 + 3.24138 lineup_221_25 + 3.50652 lineup_221_26
- + 3.30151 lineup_221_27 + 2.23566 lineup_222_24 + 2.32651 lineup_222_25
- + 2.8518 lineup_222_26 + 2.17233 lineup_222_27 + 1.19041 lineup_224_24
- + 1.1697 lineup_224_25 + 1.2238 lineup_224_26 + 1.16437 lineup_224_27
- + 2.72399 lineup_225_24 + 3.10365 lineup_225_25 + 3.25418 lineup_225_26
- + 3.12058 lineup_225_27 + 4.53172 lineup_226_24 + 4.31083 lineup_226_25
- + 4.57433 lineup_226_26 + 4.12117 lineup_226_27 + 2.80117 lineup_228_24
- + 3.00109 lineup_228_25 + 3.85051 lineup_228_26 + 2.90185 lineup_228_27
- + 2.21226 lineup_229_24 + 2.22825 lineup_229_25 + 2.37871 lineup_229_26
- + 2.27049 lineup_229_27 + 2.3269 lineup_22_24 + 2.38692 lineup_22_25
- + 2.57325 lineup_22_26 + 2.49311 lineup_22_27 + 3.48013 lineup_230_24
- + 3.62937 lineup_230_25 + 3.39677 lineup_230_26 + 3.38908 lineup_230_27
- + 3.31358 lineup_231_24 + 3.31173 lineup_231_25 + 3.6058 lineup_231_26
- + 3.4033 lineup_231_27 + 2.38053 lineup_232_24 + 2.67971 lineup_232_25
- + 2.77994 lineup_232_26 + 2.6365 lineup_232_27 + 3.07482 lineup_233_24
- + 3.20563 lineup_233_25 + 3.00177 lineup_233_26 + 2.99504 lineup_233_27
- + 2.62119 lineup_234_24 + 2.78013 lineup_234_25 + 3.53208 lineup_234_26
- + 2.66167 lineup_234_27 + 4.33809 lineup_236_24 + 4.16476 lineup_236_25
- + 4.52362 lineup_236_26 + 4.16247 lineup_236_27 + 1.96727 lineup_238_24
- + 2.07983 lineup_238_25 + 2.61117 lineup_238_26 + 1.98571 lineup_238_27
- + 1.42295 lineup_239_24 + 1.39957 lineup_239_25 + 1.46062 lineup_239_26
- + 1.39355 lineup_239_27 + 1.64274 lineup_23_24 + 1.71901 lineup_23_25
- + 1.43137 lineup_23_26 + 1.42435 lineup_23_27 + 2.80454 lineup_240_24
- + 2.86049 lineup_240_25 + 3.131 lineup_240_26 + 2.99362 lineup_240_27
- + 1.14006 lineup_241_24 + 1.2017 lineup_241_25 + 1.59666 lineup_241_26
- + 1.09494 lineup_241_27 + 2.45568 lineup_242_24 + 2.52244 lineup_242_25
- + 3.16379 lineup_242_26 + 2.29889 lineup_242_27 + 3.09352 lineup_243_24
- + 3.22575 lineup_243_25 + 3.01967 lineup_243_26 + 3.01286 lineup_243_27
- + 2.18654 lineup_245_24 + 3.29783 lineup_245_25 + 2.52327 lineup_245_26
- + 2.96984 lineup_245_27 + 3.98023 lineup_246_24 + 4.28805 lineup_246_25
- + 4.21838 lineup_246_26 + 4.43726 lineup_246_27 + 1.42545 lineup_247_24
- + 2.35405 lineup_247_25 + 1.823 lineup_247_26 + 2.22613 lineup_247_27
- + 3.3323 lineup_249_24 + 3.88719 lineup_249_25 + 3.71718 lineup_249_26
- + 3.96794 lineup_249_27 + 2.94707 lineup_250_24 + 3.43554 lineup_250_25
- + 3.33061 lineup_250_26 + 3.56697 lineup_250_27 + 1.80757 lineup_252_24
- + 2.85966 lineup_252_25 + 2.08536 lineup_252_26 + 2.52486 lineup_252_27
- + 2.21925 lineup_254_24 + 2.49899 lineup_254_25 + 2.40688 lineup_254_26
- + 2.54672 lineup_254_27 + 1.93175 lineup_255_24 + 1.91767 lineup_255_25
- + 2.19585 lineup_255_26 + 1.94708 lineup_255_27 + 3.66088 lineup_256_25
- + 3.70753 lineup_256_26 + 3.75826 lineup_256_27 + 1.76955 lineup_257_24
- + 2.77814 lineup_257_25 + 2.11996 lineup_257_26 + 2.55053 lineup_257_27
- + 3.20975 lineup_258_24 + 6.02067 lineup_258_25 + 3.35113 lineup_258_26
- + 3.07837 lineup_258_27 + 3.21997 lineup_259_24 + 3.84981 lineup_259_25
- + 3.76538 lineup_259_26 + 4.06321 lineup_259_27 + 1.71385 lineup_25_24
- + 2.2165 lineup_25_25 + 2.00431 lineup_25_26 + 1.88759 lineup_25_27
- + 2.10222 lineup_260_24 + 3.22922 lineup_260_25 + 2.56873 lineup_260_26
- + 3.06321 lineup_260_27 + 2.77139 lineup_261_24 + 3.16295 lineup_261_25
- + 3.04566 lineup_261_26 + 3.21465 lineup_261_27 + 1.49421 lineup_262_24
- + 2.45753 lineup_262_25 + 1.88334 lineup_262_26 + 2.31041 lineup_262_27
- + 3.17183 lineup_263_24 + 3.84672 lineup_263_25 + 3.71583 lineup_263_26
- + 3.93 lineup_263_27 + 2.51518 lineup_265_24 + 3.88165 lineup_265_25
- + 3.01343 lineup_265_26 + 3.59626 lineup_265_27 + 2.66219 lineup_266_24
- + 3.20049 lineup_266_25 + 3.09609 lineup_266_26 + 3.26691 lineup_266_27
- + 3.87103 lineup_267_24 + 3.53166 lineup_267_25 + 3.59562 lineup_267_26
- + 3.65168 lineup_267_27 + 2.61863 lineup_268_24 + 2.3763 lineup_268_25
- + 2.3829 lineup_268_26 + 2.38919 lineup_268_27 + 3.23247 lineup_26_24
- + 3.36315 lineup_26_25 + 3.65055 lineup_26_26 + 3.62836 lineup_26_27
- + 3.1756 lineup_270_24 + 2.86503 lineup_270_25 + 2.91387 lineup_270_26
- + 2.9367 lineup_270_27 + 1.22908 lineup_272_24 + 1.14479 lineup_272_25
- + 1.15187 lineup_272_26 + 1.16547 lineup_272_27 + 1.50092 lineup_273_24
- + 1.40711 lineup_273_25 + 1.38779 lineup_273_26 + 1.40309 lineup_273_27
- + 2.05894 lineup_274_24 + 1.74659 lineup_274_25 + 1.43896 lineup_274_26
- + 1.53558 lineup_274_27 + 3.76205 lineup_275_24 + 3.70337 lineup_275_25
- + 3.83895 lineup_275_26 + 3.73766 lineup_275_27 + 1.65314 lineup_276_24
- + 1.56006 lineup_276_25 + 1.59505 lineup_276_26 + 1.6097 lineup_276_27
- + 2.08709 lineup_277_24 + 1.77474 lineup_277_25 + 1.46712 lineup_277_26
- + 1.56373 lineup_277_27 + 1.80353 lineup_279_24 + 1.85521 lineup_279_25
- + 1.80462 lineup_279_26 + 1.96145 lineup_279_27 + 2.08708 lineup_27_24
- + 2.14107 lineup_27_25 + 2.466 lineup_27_26 + 2.27002 lineup_27_27
- + 3.28083 lineup_280_24 + 3.01416 lineup_280_25 + 3.06822 lineup_280_26
- + 3.10686 lineup_280_27 + 2.53437 lineup_281_24 + 2.38744 lineup_281_25
- + 2.29014 lineup_281_26 + 2.3445 lineup_281_27 + 2.51263 lineup_282_24
- + 2.36057 lineup_282_25 + 2.39504 lineup_282_26 + 2.43155 lineup_282_27
- + 3.22825 lineup_283_24 + 3.04195 lineup_283_25 + 2.89947 lineup_283_26
- + 2.92517 lineup_283_27 + 3.05681 lineup_284_24 + 3.01276 lineup_284_25
- + 3.11454 lineup_284_26 + 3.0385 lineup_284_27 + 2.48118 lineup_285_24
- + 2.33128 lineup_285_25 + 2.2311 lineup_285_26 + 2.26297 lineup_285_27
- + 2.87536 lineup_286_24 + 2.71657 lineup_286_25 + 2.59741 lineup_286_26
- + 2.62766 lineup_286_27 + 2.00305 lineup_287_24 + 2.03843 lineup_287_25
- + 1.98175 lineup_287_26 + 2.12818 lineup_287_27 + 2.39474 lineup_288_25
- + 2.43473 lineup_288_26 + 2.46379 lineup_288_27 + 3.03599 lineup_289_24
- + 5.95662 lineup_289_25 + 3.12386 lineup_289_27 + 3.22733 lineup_28_24
- + 3.62787 lineup_28_25 + 3.23433 lineup_28_26 + 3.26142 lineup_28_27
- + 5.05945 lineup_290_24 + 9.25111 lineup_290_25 + 5.05739 lineup_290_27
- + 3.79099 lineup_291_24 + 7.42211 lineup_291_25 + 3.91278 lineup_291_27
- + 3.22491 lineup_292_25 + 1.64223 lineup_292_27 + 4.74503 lineup_293_24
- + 8.7579 lineup_293_25 + 4.07535 lineup_293_27 + 3.45611 lineup_294_24
- + 6.6385 lineup_294_25 + 3.4237 lineup_294_27 + 1.9986 lineup_295_24
- + 3.99834 lineup_295_25 + 2.11084 lineup_295_27 + 3.23512 lineup_297_24
- + 6.3802 lineup_297_25 + 3.08132 lineup_297_27 + 2.92872 lineup_298_24
- + 5.38817 lineup_298_25 + 2.85565 lineup_298_27 + 3.39508 lineup_29_24
- + 4.3116 lineup_29_25 + 3.90635 lineup_29_26 + 3.68904 lineup_29_27
- + 1.3891 lineup_2_24 + 1.78089 lineup_2_25 + 1.60498 lineup_2_26
- + 1.50822 lineup_2_27 + 2.9154 lineup_300_24 + 5.45595 lineup_300_25
- + 2.8266 lineup_300_27 + 3.06362 lineup_301_24 + 6.01209 lineup_301_25
- + 3.15133 lineup_301_27 + 5.66834 lineup_302_25 + 3.03897 lineup_302_27
- + 3.99381 lineup_303_24 + 7.76327 lineup_303_25 + 3.97466 lineup_303_27
- + 3.74074 lineup_304_24 + 7.42546 lineup_304_25 + 3.86628 lineup_304_27
- + 3.28573 lineup_307_24 + 6.06656 lineup_307_25 + 3.29985 lineup_307_27
- + 7.77217 lineup_308_24 + 14.36746 lineup_308_25 + 7.36873 lineup_308_27
- + 4.35356 lineup_309_24 + 8.3783 lineup_309_25 + 4.27555 lineup_309_27
- + 1.51198 lineup_310_24 + 2.97834 lineup_310_25 + 1.55146 lineup_310_27
- + 2.83706 lineup_311_24 + 5.15942 lineup_311_25 + 2.71878 lineup_311_27
- + 4.10219 lineup_313_24 + 7.65841 lineup_313_25 + 4.10181 lineup_313_27
- + 3.24788 lineup_314_24 + 5.77565 lineup_314_25 + 2.93315 lineup_314_27
- + 1.9826 lineup_315_24 + 2.72432 lineup_315_25 + 1.58826 lineup_315_27
- + 2.7819 lineup_316_24 + 4.25979 lineup_316_25 + 2.44708 lineup_316_27
- + 1.64468 lineup_317_24 + 3.27672 lineup_317_25 + 1.68658 lineup_317_27
- + 2.27245 lineup_318_24 + 3.24211 lineup_318_25 + 1.92013 lineup_318_27
- + 2.33293 lineup_319_24 + 4.675 lineup_319_25 + 2.36487 lineup_319_27
- + 3.47535 lineup_31_24 + 4.3932 lineup_31_25 + 3.94258 lineup_31_26
- + 3.68907 lineup_31_27 + 1.9856 lineup_320_24 + 3.75208 lineup_320_25
- + 1.8664 lineup_320_27 + 3.76778 lineup_321_24 + 5.41519 lineup_321_25
- + 3.14157 lineup_321_27 + 3.7994 lineup_326_24 + 6.83 lineup_326_25
- + 3.45809 lineup_326_27 + 1.49272 lineup_327_24 + 3.00931 lineup_327_25
- + 1.54483 lineup_327_27 + 3.60639 lineup_328_24 + 6.3138 lineup_328_25
- + 3.1721 lineup_328_27 + 2.78928 lineup_32_24 + 2.801 lineup_32_25
- + 3.19163 lineup_32_26 + 2.65978 lineup_32_27 + 3.23028 lineup_330_24
- + 4.74929 lineup_330_25 + 2.67215 lineup_330_27 + 1.41939 lineup_332_24
- + 2.84303 lineup_332_25 + 1.43429 lineup_332_27 + 1.68213 lineup_333_24
- + 2.17574 lineup_333_25 + 1.30443 lineup_333_27 + 3.39511 lineup_335_24
- + 6.81874 lineup_335_25 + 3.26099 lineup_335_27 + 1.41943 lineup_339_24
- + 2.84313 lineup_339_25 + 1.43434 lineup_339_27 + 2.56431 lineup_33_24
- + 2.71394 lineup_33_25 + 2.77693 lineup_33_26 + 2.55527 lineup_33_27
- + 1.3518 lineup_340_24 + 2.58385 lineup_340_25 + 1.38812 lineup_340_27
- + 3.90964 lineup_341_24 + 6.76054 lineup_341_25 + 3.50792 lineup_341_26
- + 3.55772 lineup_341_27 + 4.2127 lineup_342_24 + 7.35888 lineup_342_25
- + 3.89899 lineup_342_26 + 3.95488 lineup_342_27 + 4.98823 lineup_343_24
- + 9.06538 lineup_343_25 + 4.52311 lineup_343_26 + 4.60543 lineup_343_27
- + 4.03803 lineup_344_24 + 7.74848 lineup_344_25 + 3.8118 lineup_344_26
- + 3.96454 lineup_344_27 + 1.77955 lineup_345_24 + 3.33465 lineup_345_25
- + 1.62471 lineup_345_26 + 1.67629 lineup_345_27 + 4.47254 lineup_346_24
- + 7.23065 lineup_346_25 + 3.49178 lineup_346_26 + 2.30287 lineup_346_27
- + 3.18427 lineup_347_24 + 6.04445 lineup_347_25 + 3.08611 lineup_347_26
- + 3.15322 lineup_347_27 + 4.10032 lineup_349_24 + 7.87918 lineup_349_25
- + 3.87959 lineup_349_26 + 4.05839 lineup_349_27 + 3.06225 lineup_34_24
- + 2.96389 lineup_34_25 + 3.23431 lineup_34_26 + 3.10054 lineup_34_27
- + 3.8323 lineup_350_24 + 6.82028 lineup_350_25 + 3.53625 lineup_350_26
- + 3.58273 lineup_350_27 + 1.69494 lineup_351_24 + 1.66104 lineup_351_25
- + 1.78088 lineup_351_26 + 1.69483 lineup_351_27 + 3.95808 lineup_352_24
- + 7.46523 lineup_352_25 + 3.82151 lineup_352_26 + 3.91487 lineup_352_27
- + 4.95494 lineup_353_24 + 9.42604 lineup_353_25 + 4.67534 lineup_353_26
- + 4.87462 lineup_353_27 + 3.76949 lineup_354_24 + 7.46562 lineup_354_25
- + 3.7509 lineup_354_26 + 3.91512 lineup_354_27 + 6.17171 lineup_355_24
- + 11.62672 lineup_355_25 + 5.99516 lineup_355_26 + 6.11721 lineup_355_27
- + 2.53556 lineup_356_24 + 5.0327 lineup_356_25 + 2.54224 lineup_356_26
- + 2.62702 lineup_356_27 + 2.73586 lineup_358_24 + 4.88761 lineup_358_25
- + 2.5712 lineup_358_26 + 2.60606 lineup_358_27 + 2.61381 lineup_360_24
- + 2.60326 lineup_360_25 + 2.58818 lineup_360_26 + 2.54739 lineup_360_27
- + 3.24363 lineup_361_24 + 6.15848 lineup_361_25 + 3.14405 lineup_361_26
- + 3.21212 lineup_361_27 + 4.73232 lineup_362_24 + 4.19826 lineup_362_25
- + 4.86797 lineup_362_27 + 1.52126 lineup_364_24 + 1.62047 lineup_364_25
- + 1.65105 lineup_364_26 + 1.62644 lineup_364_27 + 4.24354 lineup_365_24
- + 8.25932 lineup_365_25 + 4.10952 lineup_365_26 + 4.27885 lineup_365_27
- + 1.65349 lineup_366_24 + 2.92611 lineup_366_25 + 1.57114 lineup_366_26
- + 1.59362 lineup_366_27 + 2.91434 lineup_368_24 + 5.10434 lineup_368_25
- + 2.69166 lineup_368_26 + 2.72944 lineup_368_27 + 4.37682 lineup_369_24
- + 7.53013 lineup_369_25 + 3.88237 lineup_369_26 + 3.93429 lineup_369_27
- + 3.01881 lineup_36_24 + 3.0365 lineup_36_25 + 3.53706 lineup_36_26
- + 2.88736 lineup_36_27 + 1.05477 lineup_371_24 + 1.11427 lineup_371_25
- + 1.16277 lineup_371_26 + 1.01719 lineup_371_27 + 2.35121 lineup_372_24
- + 2.67419 lineup_372_25 + 2.95472 lineup_372_26 + 2.53996 lineup_372_27
- + 5.15274 lineup_373_24 + 5.6804 lineup_373_25 + 6.14316 lineup_373_26
- + 4.89571 lineup_373_27 + 2.78466 lineup_376_24 + 2.99624 lineup_376_25
- + 3.20312 lineup_376_26 + 2.63107 lineup_376_27 + 2.61771 lineup_377_24
- + 2.77266 lineup_377_25 + 3.38539 lineup_377_26 + 2.29747 lineup_377_27
- + 3.2012 lineup_378_24 + 3.16931 lineup_378_25 + 2.99869 lineup_378_26
- + 3.22555 lineup_378_27 + 2.86921 lineup_379_24 + 3.06862 lineup_379_25
- + 3.28143 lineup_379_26 + 2.7289 lineup_379_27 + 1.59551 lineup_37_24
- + 1.55654 lineup_37_25 + 1.75648 lineup_37_26 + 1.39693 lineup_37_27
- + 1.50089 lineup_380_24 + 1.50445 lineup_380_25 + 1.9227 lineup_380_26
- + 1.08905 lineup_380_27 + 3.08226 lineup_382_24 + 3.30868 lineup_382_25
- + 3.5234 lineup_382_26 + 2.91732 lineup_382_27 + 2.86361 lineup_384_24
- + 3.01281 lineup_384_25 + 3.30984 lineup_384_26 + 2.61887 lineup_384_27
- + 3.18954 lineup_385_24 + 3.32816 lineup_385_25 + 3.11212 lineup_385_26
- + 3.10498 lineup_385_27 + 2.08193 lineup_386_24 + 2.19473 lineup_386_25
- + 2.67344 lineup_386_26 + 1.83637 lineup_386_27 + 2.05571 lineup_387_24
- + 2.1858 lineup_387_25 + 2.67982 lineup_387_26 + 1.86515 lineup_387_27
- + 1.86861 lineup_388_24 + 2.00798 lineup_388_25 + 2.12111 lineup_388_26
- + 1.88522 lineup_388_27 + 1.42056 lineup_389_24 + 1.47808 lineup_389_25
- + 1.82404 lineup_389_26 + 1.13277 lineup_389_27 + 2.63649 lineup_38_24
- + 2.59192 lineup_38_25 + 2.72911 lineup_38_26 + 2.43827 lineup_38_27
- + 1.53606 lineup_391_24 + 1.6581 lineup_391_25 + 2.08069 lineup_391_26
- + 1.39605 lineup_391_27 + 3.00011 lineup_392_24 + 3.24169 lineup_392_25
- + 3.44419 lineup_392_26 + 2.85837 lineup_392_27 + 2.69283 lineup_393_24
- + 4.0579 lineup_393_25 + 2.32644 lineup_393_27 + 2.03511 lineup_395_24
- + 2.19665 lineup_395_25 + 2.71234 lineup_395_26 + 1.88429 lineup_395_27
- + 3.99223 lineup_396_24 + 4.41969 lineup_396_25 + 4.80574 lineup_396_26
- + 3.96778 lineup_396_27 + 2.10393 lineup_398_24 + 2.23681 lineup_398_25
- + 2.78935 lineup_398_26 + 1.83282 lineup_398_27 + 1.29475 lineup_399_24
- + 1.34793 lineup_399_25 + 1.55659 lineup_399_26 + 1.22618 lineup_399_27
- + 2.20328 lineup_39_24 + 2.35799 lineup_39_25 + 2.52396 lineup_39_26
- + 1.97207 lineup_39_27 + 1.02189 lineup_3_24 + 1.03266 lineup_3_25
- + 1.07932 lineup_3_26 + 1.05935 lineup_3_27 + 2.33709 lineup_401_24
- + 2.44834 lineup_401_25 + 2.94781 lineup_401_26 + 1.9838 lineup_401_27
- + 3.67213 lineup_402_24 + 4.01317 lineup_402_25 + 3.46189 lineup_402_26
- + 3.93734 lineup_402_27 + 1.68403 lineup_403_24 + 1.76096 lineup_403_25
- + 1.55135 lineup_403_26 + 1.69141 lineup_403_27 + 3.11659 lineup_405_24
- + 3.12001 lineup_405_25 + 2.29812 lineup_405_26 + 3.22617 lineup_405_27
- + 3.98689 lineup_406_24 + 4.27503 lineup_406_25 + 3.64625 lineup_406_26
- + 4.09068 lineup_406_27 + 3.33036 lineup_407_24 + 3.33094 lineup_407_25
- + 2.41924 lineup_407_26 + 3.45041 lineup_407_27 + 3.43147 lineup_409_24
- + 3.35429 lineup_409_25 + 3.24866 lineup_409_26 + 3.26882 lineup_409_27
- + 3.12386 lineup_411_24 + 3.05671 lineup_411_25 + 2.9648 lineup_411_26
- + 2.98234 lineup_411_27 + 3.7021 lineup_412_24 + 4.00204 lineup_412_25
- + 3.38407 lineup_412_26 + 3.85266 lineup_412_27 + 1.4906 lineup_414_24
- + 1.50797 lineup_414_25 + 1.35889 lineup_414_26 + 1.43911 lineup_414_27
- + 4.3993 lineup_415_24 + 4.29756 lineup_415_25 + 3.93618 lineup_415_26
- + 4.64413 lineup_415_27 + 2.37791 lineup_417_24 + 2.32121 lineup_417_25
- + 1.66122 lineup_417_26 + 2.36766 lineup_417_27 + 2.64233 lineup_419_24
- + 2.56882 lineup_419_25 + 1.83228 lineup_419_26 + 2.54591 lineup_419_27
- + 2.54028 lineup_41_24 + 2.54179 lineup_41_25 + 2.84941 lineup_41_26
- + 2.36847 lineup_41_27 + 3.83847 lineup_421_24 + 3.98561 lineup_421_25
- + 3.37201 lineup_421_26 + 3.66058 lineup_421_27 + 2.41092 lineup_423_24
- + 2.50972 lineup_423_25 + 2.12701 lineup_423_26 + 2.33188 lineup_423_27
- + 1.19836 lineup_425_24 + 1.24248 lineup_425_25 + 1.12225 lineup_425_26
- + 1.20259 lineup_425_27 + 4.22684 lineup_427_24 + 4.09366 lineup_427_25
- + 2.9252 lineup_427_26 + 3.94518 lineup_427_27 + 1.96636 lineup_428_25
- + 1.3448 lineup_428_26 + 1.94703 lineup_428_27 + 3.04052 lineup_42_24
- + 2.97078 lineup_42_25 + 3.32858 lineup_42_26 + 2.68515 lineup_42_27
- + 4.96528 lineup_430_24 + 4.81406 lineup_430_25 + 3.3427 lineup_430_26
- + 4.82785 lineup_430_27 + 3.12843 lineup_432_24 + 3.31975 lineup_432_25
- + 2.79845 lineup_432_26 + 3.14676 lineup_432_27 + 3.74021 lineup_433_24
- + 3.64773 lineup_433_25 + 3.33464 lineup_433_26 + 3.98292 lineup_433_27
- + 1.2596 lineup_435_24 + 1.23184 lineup_435_25 + 1.16996 lineup_435_26
- + 1.21577 lineup_435_27 + 2.57271 lineup_436_24 + 2.68947 lineup_436_25
- + 2.2525 lineup_436_26 + 2.20526 lineup_436_27 + 3.25425 lineup_437_24
- + 3.1304 lineup_437_25 + 2.92563 lineup_437_26 + 3.0167 lineup_437_27
- + 2.64603 lineup_439_25 + 2.21862 lineup_439_26 + 2.1954 lineup_439_27
- + 4.80758 lineup_43_24 + 4.54793 lineup_43_25 + 4.9871 lineup_43_26
- + 4.76513 lineup_43_27 + 2.44674 lineup_442_24 + 2.40536 lineup_442_25
- + 2.27365 lineup_442_26 + 2.42991 lineup_442_27 + 2.26691 lineup_445_24
- + 2.3426 lineup_445_25 + 1.96842 lineup_445_26 + 1.94809 lineup_445_27
- + 2.56436 lineup_446_24 + 2.55972 lineup_446_25 + 2.41961 lineup_446_26
- + 2.49096 lineup_446_27 + 4.30617 lineup_447_24 + 4.24047 lineup_447_25
- + 3.9609 lineup_447_26 + 4.2743 lineup_447_27 + 2.84194 lineup_448_24
- + 3.19302 lineup_448_25 + 2.84808 lineup_448_26 + 2.87182 lineup_448_27
- + 3.13647 lineup_449_24 + 3.56846 lineup_449_25 + 3.14377 lineup_449_26
- + 3.14445 lineup_449_27 + 3.59313 lineup_450_24 + 3.74177 lineup_450_25
- + 3.70885 lineup_450_27 + 1.50733 lineup_451_24 + 1.47344 lineup_451_25
- + 1.39787 lineup_451_26 + 1.45381 lineup_451_27 + 2.79224 lineup_453_24
- + 2.75355 lineup_453_25 + 2.57682 lineup_453_26 + 2.66722 lineup_453_27
- + 1.44585 lineup_456_24 + 1.4436 lineup_456_25 + 1.37568 lineup_456_26
- + 1.41027 lineup_456_27 + 2.46129 lineup_457_24 + 2.52027 lineup_457_25
- + 2.14107 lineup_457_26 + 2.12046 lineup_457_27 + 2.08001 lineup_458_24
- + 2.05956 lineup_458_25 + 1.94819 lineup_458_26 + 2.00788 lineup_458_27
- + 1.58289 lineup_45_24 + 1.54392 lineup_45_25 + 1.74387 lineup_45_26
- + 1.38431 lineup_45_27 + 1.81288 lineup_460_24 + 1.98863 lineup_460_25
- + 1.50144 lineup_460_26 + 1.45264 lineup_460_27 + 2.67226 lineup_465_24
- + 2.807 lineup_465_25 + 2.38774 lineup_465_26 + 2.37355 lineup_465_27
- + 1.57614 lineup_466_24 + 1.56405 lineup_466_25 + 1.52515 lineup_466_26
- + 1.57607 lineup_466_27 + 2.05952 lineup_467_24 + 2.2106 lineup_467_25
- + 1.90394 lineup_467_26 + 1.90493 lineup_467_27 + 3.21965 lineup_468_24
- + 3.11151 lineup_468_25 + 2.90812 lineup_468_26 + 2.9952 lineup_468_27
- + 1.07946 lineup_46_24 + 1.06486 lineup_46_25 + 1.13335 lineup_46_26
- + 1.11846 lineup_46_27 + 2.47099 lineup_470_24 + 2.44958 lineup_470_25
- + 2.33403 lineup_470_26 + 2.47216 lineup_470_27 + 2.5854 lineup_471_24
- + 2.59391 lineup_471_25 + 2.97824 lineup_471_26 + 2.65164 lineup_471_27
- + 3.0626 lineup_472_24 + 3.0384 lineup_472_25 + 3.13798 lineup_472_26
- + 2.85201 lineup_472_27 + 1.86357 lineup_473_24 + 1.87366 lineup_473_25
- + 2.14512 lineup_473_26 + 1.91461 lineup_473_27 + 2.4201 lineup_475_24
- + 2.59129 lineup_475_25 + 2.60155 lineup_475_26 + 2.92297 lineup_475_27
- + 2.29608 lineup_476_24 + 2.35871 lineup_476_25 + 2.76927 lineup_476_26
- + 2.51761 lineup_476_27 + 1.40292 lineup_477_24 + 1.47139 lineup_477_25
- + 1.48493 lineup_477_26 + 1.32439 lineup_477_27 + 1.22061 lineup_478_24
- + 1.21319 lineup_478_25 + 1.20404 lineup_478_26 + 1.18383 lineup_478_27
- + 3.0626 lineup_479_24 + 3.0384 lineup_479_25 + 3.13798 lineup_479_26
- + 2.85201 lineup_479_27 + 2.59383 lineup_47_24 + 2.5418 lineup_47_25
- + 2.77305 lineup_47_26 + 2.70579 lineup_47_27 + 1.68365 lineup_481_24
- + 1.67112 lineup_481_25 + 1.65567 lineup_481_26 + 1.62155 lineup_481_27
- + 3.61923 lineup_482_24 + 3.58958 lineup_482_25 + 3.7116 lineup_482_26
- + 3.36121 lineup_482_27 + 1.70974 lineup_483_24 + 1.74895 lineup_483_25
- + 1.74339 lineup_483_26 + 1.55709 lineup_483_27 + 1.91691 lineup_484_24
- + 1.90957 lineup_484_25 + 2.19664 lineup_484_26 + 1.95287 lineup_484_27
- + 2.89774 lineup_485_24 + 2.98487 lineup_485_25 + 2.98936 lineup_485_26
- + 2.66273 lineup_485_27 + 0.92012 lineup_487_24 + 1.02308 lineup_487_25
- + 1.30887 lineup_487_26 + 1.19187 lineup_487_27 + 2.52457 lineup_488_24
- + 2.55577 lineup_488_25 + 2.56943 lineup_488_26 + 2.51359 lineup_488_27
- + 1.53956 lineup_489_24 + 1.57318 lineup_489_25 + 1.58204 lineup_489_26
- + 1.57432 lineup_489_27 + 3.41301 lineup_48_24 + 3.43284 lineup_48_25
- + 3.89669 lineup_48_26 + 3.23985 lineup_48_27 + 1.73628 lineup_490_24
- + 1.80092 lineup_490_25 + 1.82081 lineup_490_26 + 1.66507 lineup_490_27
- + 3.0384 lineup_491_24 + 2.98234 lineup_491_25 + 3.20049 lineup_491_27
- + 1.90689 lineup_492_24 + 2.01719 lineup_492_25 + 2.01794 lineup_492_27
- + 2.3189 lineup_493_24 + 2.38239 lineup_493_25 + 2.3445 lineup_493_27
- + 1.64427 lineup_494_24 + 1.71917 lineup_494_25 + 1.74788 lineup_494_27
- + 2.61079 lineup_495_24 + 3.0657 lineup_495_25 + 3.31043 lineup_495_27
- + 2.00017 lineup_497_24 + 2.38707 lineup_497_25 + 2.61243 lineup_497_27
- + 3.0245 lineup_498_24 + 2.96874 lineup_498_25 + 3.18571 lineup_498_27
- + 2.56338 lineup_499_24 + 2.70382 lineup_499_25 + 2.72138 lineup_499_27
- + 3.89821 lineup_49_24 + 3.69361 lineup_49_25 + 4.05916 lineup_49_26
- + 3.77206 lineup_49_27 + 1.73555 lineup_4_24 + 1.7645 lineup_4_25
- + 1.88989 lineup_4_26 + 1.83623 lineup_4_27 + 3.65785 lineup_501_24
- + 3.83137 lineup_501_25 + 3.82732 lineup_501_27 + 4.41022 lineup_504_24
- + 4.54818 lineup_504_25 + 4.44916 lineup_504_27 + 3.53201 lineup_506_24
- + 4.22329 lineup_506_25 + 4.60761 lineup_506_27 + 2.2988 lineup_508_24
- + 3.62609 lineup_508_25 + 2.05451 lineup_508_26 + 2.06025 lineup_508_27
- + 4.22129 lineup_509_24 + 4.23873 lineup_509_25 + 4.15103 lineup_509_27
- + 4.59832 lineup_50_24 + 4.34699 lineup_50_25 + 4.58037 lineup_50_26
- + 4.29088 lineup_50_27 + 2.30541 lineup_511_24 + 2.76769 lineup_511_25
- + 3.05357 lineup_511_27 + 2.36787 lineup_513_24 + 2.49 lineup_513_25
- + 2.48513 lineup_513_27 + 1.7645 lineup_515_24 + 1.85011 lineup_515_25
- + 1.85619 lineup_515_27 + 5.30394 lineup_516_24 + 5.49028 lineup_516_25
- + 5.38829 lineup_516_27 + 1.57693 lineup_517_24 + 2.01576 lineup_517_25
- + 1.42176 lineup_517_27 + 1.5072 lineup_518_24 + 1.93504 lineup_518_25
- + 1.3626 lineup_518_27 + 2.95555 lineup_519_24 + 3.45497 lineup_519_25
- + 3.71501 lineup_519_27 + 3.69148 lineup_520_24 + 3.61938 lineup_520_25
- + 3.89995 lineup_520_27 + 3.06956 lineup_522_24 + 3.54021 lineup_522_25
- + 3.34647 lineup_522_26 + 2.89013 lineup_522_27 + 2.75525 lineup_523_24
- + 2.97375 lineup_523_25 + 2.91477 lineup_523_26 + 3.19083 lineup_523_27
- + 3.3003 lineup_524_24 + 3.63657 lineup_524_25 + 3.4016 lineup_524_26
- + 3.78523 lineup_524_27 + 3.05679 lineup_525_24 + 3.26709 lineup_525_25
- + 3.26847 lineup_525_26 + 3.12114 lineup_525_27 + 4.74792 lineup_526_24
- + 5.22419 lineup_526_25 + 5.31367 lineup_526_26 + 5.1046 lineup_526_27
- + 1.92671 lineup_527_24 + 2.1122 lineup_527_25 + 2.17641 lineup_527_26
- + 2.15049 lineup_527_27 + 2.5925 lineup_528_24 + 3.08203 lineup_528_25
- + 2.98689 lineup_528_26 + 2.62924 lineup_528_27 + 2.45539 lineup_530_24
- + 2.95685 lineup_530_25 + 2.81845 lineup_530_26 + 2.42713 lineup_530_27
- + 2.70725 lineup_532_24 + 3.23055 lineup_532_25 + 3.12069 lineup_532_26
- + 2.74107 lineup_532_27 + 3.24094 lineup_533_24 + 3.5764 lineup_533_25
- + 3.34199 lineup_533_26 + 3.7247 lineup_533_27 + 1.98878 lineup_534_24
- + 2.09502 lineup_534_25 + 2.10516 lineup_534_26 + 2.03514 lineup_534_27
- + 2.31726 lineup_535_24 + 2.48679 lineup_535_25 + 2.41154 lineup_535_26
- + 2.67863 lineup_535_27 + 1.90882 lineup_536_24 + 2.33052 lineup_536_25
- + 2.26228 lineup_536_26 + 1.98807 lineup_536_27 + 1.2011 lineup_538_24
- + 1.32922 lineup_538_25 + 1.32401 lineup_538_26 + 1.44105 lineup_538_27
- + 3.78775 lineup_539_24 + 4.02847 lineup_539_25 + 4.03026 lineup_539_26
- + 3.83991 lineup_539_27 + 3.10312 lineup_53_24 + 2.96067 lineup_53_25
- + 3.21518 lineup_53_26 + 3.01528 lineup_53_27 + 3.68889 lineup_540_24
- + 3.75679 lineup_540_25 + 4.04336 lineup_540_26 + 3.96424 lineup_540_27
- + 3.55572 lineup_542_24 + 3.8137 lineup_542_25 + 3.85906 lineup_542_26
- + 3.72354 lineup_542_27 + 2.78101 lineup_544_24 + 3.33217 lineup_544_25
- + 3.25455 lineup_544_26 + 2.89828 lineup_544_27 + 2.66287 lineup_545_24
- + 2.09541 lineup_545_25 + 3.13034 lineup_545_26 + 1.99324 lineup_545_27
- + 2.9947 lineup_546_24 + 3.09067 lineup_546_25 + 3.19138 lineup_546_26
- + 2.90987 lineup_546_27 + 1.83773 lineup_547_24 + 1.45832 lineup_547_25
- + 1.99443 lineup_547_26 + 1.34028 lineup_547_27 + 1.96471 lineup_548_24
- + 1.593 lineup_548_25 + 2.335 lineup_548_26 + 1.51585 lineup_548_27
- + 1.35034 lineup_54_24 + 1.34071 lineup_54_25 + 1.37977 lineup_54_26
- + 1.29927 lineup_54_27 + 3.289 lineup_551_24 + 2.599 lineup_551_25
- + 3.76685 lineup_551_26 + 2.46973 lineup_551_27 + 2.71314 lineup_553_24
- + 4.59394 lineup_553_25 + 2.40334 lineup_553_27 + 3.0674 lineup_554_24
- + 2.88421 lineup_554_25 + 2.88759 lineup_554_26 + 2.79084 lineup_554_27
- + 1.08066 lineup_555_24 + 1.04169 lineup_555_25 + 1.09372 lineup_555_26
- + 1.02859 lineup_555_27 + 3.78978 lineup_557_24 + 3.56218 lineup_557_25
- + 3.85281 lineup_557_26 + 3.48904 lineup_557_27 + 2.67931 lineup_559_24
- + 2.60917 lineup_559_25 + 2.82016 lineup_559_26 + 2.66108 lineup_559_27
- + 2.79638 lineup_55_24 + 2.72726 lineup_55_25 + 3.02004 lineup_55_26
- + 2.95835 lineup_55_27 + 2.18354 lineup_560_24 + 1.72681 lineup_560_25
- + 2.55585 lineup_560_26 + 1.55266 lineup_560_27 + 1.23166 lineup_561_24
- + 1.18859 lineup_561_25 + 1.24609 lineup_561_26 + 1.17412 lineup_561_27
- + 3.56202 lineup_563_24 + 2.85437 lineup_563_25 + 3.90377 lineup_563_26
- + 2.59947 lineup_563_27 + 2.9339 lineup_564_24 + 3.02911 lineup_564_25
- + 3.12903 lineup_564_26 + 2.84973 lineup_564_27 + 3.29456 lineup_565_24
- + 3.18381 lineup_565_25 + 3.49638 lineup_565_26 + 3.24219 lineup_565_27
- + 3.033 lineup_566_24 + 5.69698 lineup_566_25 + 2.72306 lineup_566_26
- + 2.81353 lineup_566_27 + 3.56736 lineup_567_24 + 3.4211 lineup_567_25
- + 3.71242 lineup_567_26 + 3.36621 lineup_567_27 + 3.57654 lineup_569_24
- + 3.70231 lineup_569_25 + 3.83431 lineup_569_26 + 3.46536 lineup_569_27
- + 3.43964 lineup_570_24 + 3.25851 lineup_570_25 + 3.4949 lineup_570_26
- + 3.18363 lineup_570_27 + 2.91582 lineup_572_24 + 2.38108 lineup_572_25
- + 3.35763 lineup_572_26 + 2.27509 lineup_572_27 + 3.02837 lineup_573_24
- + 2.46478 lineup_573_25 + 3.56407 lineup_573_26 + 2.3756 lineup_573_27
- + 1.32163 lineup_574_24 + 1.29877 lineup_574_25 + 1.35549 lineup_574_26
- + 1.2845 lineup_574_27 + 2.32336 lineup_576_24 + 2.38671 lineup_576_25
- + 2.75136 lineup_576_26 + 2.51003 lineup_576_27 + 2.03783 lineup_577_24
- + 2.40741 lineup_577_25 + 2.3124 lineup_577_26 + 2.04377 lineup_577_27
- + 1.29011 lineup_578_24 + 1.34698 lineup_578_25 + 1.43385 lineup_578_26
- + 1.42658 lineup_578_27 + 2.66219 lineup_579_24 + 3.20049 lineup_579_25
- + 3.09609 lineup_579_26 + 3.26691 lineup_579_27 + 3.12386 lineup_580_24
- + 3.05671 lineup_580_25 + 2.9648 lineup_580_26 + 2.98234 lineup_580_27
- + 1.69219 lineup_581_24 + 1.62481 lineup_581_25 + 1.10935 lineup_581_26
- + 1.60878 lineup_581_27 + 2.09564 lineup_582_24 + 4.12496 lineup_582_25
- + 2.13139 lineup_582_27 + 3.08604 lineup_584_24 + 3.06979 lineup_584_25
- + 3.39957 lineup_584_26 + 2.80652 lineup_584_27 + 1.96175 lineup_586_24
- + 3.89889 lineup_586_25 + 1.99704 lineup_586_27 + 1.77745 lineup_587_24
- + 1.80003 lineup_587_25 + 1.80884 lineup_587_26 + 1.79808 lineup_587_27
- + 1.87425 lineup_588_24 + 3.04137 lineup_588_25 + 2.3 lineup_588_26
- + 2.827 lineup_588_27 + 2.49427 lineup_58_24 + 2.43274 lineup_58_25
- + 2.63059 lineup_58_26 + 2.53867 lineup_58_27 + 4.5779 lineup_590_24
- + 4.71878 lineup_590_25 + 4.70234 lineup_590_26 + 4.49827 lineup_590_27
- + 4.40729 lineup_591_24 + 3.99483 lineup_591_25 + 4.08627 lineup_591_26
- + 4.18826 lineup_591_27 + 1.82449 lineup_592_24 + 1.8462 lineup_592_25
- + 2.15005 lineup_592_26 + 1.94518 lineup_592_27 + 2.776 lineup_594_24
- + 2.88278 lineup_594_25 + 2.96022 lineup_594_26 + 3.09866 lineup_594_27
- + 2.23066 lineup_595_24 + 1.79928 lineup_595_25 + 1.83979 lineup_595_26
- + 2.65259 lineup_595_27 + 3.84654 lineup_596_24 + 3.47346 lineup_596_25
- + 3.73756 lineup_596_26 + 3.74858 lineup_596_27 + 3.49237 lineup_597_24
- + 3.68611 lineup_597_25 + 4.07179 lineup_597_26 + 3.17457 lineup_597_27
- + 1.9674 lineup_598_24 + 1.62392 lineup_598_25 + 2.43373 lineup_598_26
- + 1.61726 lineup_598_27 + 4.09473 lineup_599_24 + 3.88769 lineup_599_25
- + 4.27813 lineup_599_26 + 4.12653 lineup_599_27 + 3.88257 lineup_5_24
- + 4.75449 lineup_5_25 + 4.20958 lineup_5_26 + 4.00188 lineup_5_27
- + 2.43584 lineup_601_24 + 2.81241 lineup_601_25 + 2.69539 lineup_601_26
- + 2.86209 lineup_601_27 + 2.4414 lineup_602_24 + 3.53116 lineup_602_25
- + 2.021 lineup_602_27 + 2.77209 lineup_603_24 + 2.95715 lineup_603_25
- + 2.50152 lineup_603_26 + 2.82772 lineup_603_27 + 2.72914 lineup_604_25
- + 2.32846 lineup_604_26 + 2.30668 lineup_604_27 + 2.14348 lineup_606_24
- + 2.46236 lineup_606_25 + 2.88208 lineup_606_26 + 2.59202 lineup_606_27
- + 3.27717 lineup_607_24 + 3.09735 lineup_607_25 + 3.31356 lineup_607_26
- + 3.35362 lineup_607_27 + 1.6962 lineup_608_24 + 1.82975 lineup_608_25
- + 1.88176 lineup_608_26 + 2.09814 lineup_608_27 + 5.1838 lineup_60_24
- + 5.28556 lineup_60_25 + 6.11817 lineup_60_26 + 5.24102 lineup_60_27
- + 2.48309 lineup_610_25 + 2.32028 lineup_610_26 + 2.3155 lineup_610_27
- + 2.93875 lineup_611_24 + 2.12292 lineup_611_25 + 2.85808 lineup_611_27
- + 3.67563 lineup_614_24 + 7.38106 lineup_614_25 + 3.53554 lineup_614_27
- + 1.46821 lineup_615_24 + 1.49794 lineup_615_25 + 1.61735 lineup_615_26
- + 1.53946 lineup_615_27 + 3.87929 lineup_616_24 + 6.784 lineup_616_25
- + 3.5369 lineup_616_26 + 3.58423 lineup_616_27 + 3.2058 lineup_617_24
- + 3.35041 lineup_617_25 + 3.87415 lineup_617_26 + 3.0737 lineup_617_27
- + 1.24237 lineup_618_24 + 1.2031 lineup_618_25 + 1.26023 lineup_618_26
- + 1.22061 lineup_618_27 + 1.54392 lineup_619_24 + 1.13269 lineup_619_25
- + 1.11454 lineup_619_26 + 1.73974 lineup_619_27 + 2.58967 lineup_621_24
- + 2.73576 lineup_621_25 + 2.8372 lineup_621_26 + 2.70265 lineup_621_27
- + 1.7441 lineup_622_24 + 1.86842 lineup_622_25 + 2.11724 lineup_622_26
- + 1.5122 lineup_622_27 + 1.41911 lineup_623_24 + 1.32563 lineup_623_25
- + 1.40345 lineup_623_27 + 1.06011 lineup_624_24 + 1.19528 lineup_624_25
- + 1.19372 lineup_624_26 + 1.27745 lineup_624_27 + 1.65945 lineup_625_24
- + 1.50165 lineup_625_25 + 1.38188 lineup_625_26 + 1.37836 lineup_625_27
- + 2.08123 lineup_626_24 + 3.77428 lineup_626_25 + 1.99202 lineup_626_27
- + 1.13611 lineup_627_24 + 2.32589 lineup_627_25 + 1.21679 lineup_627_27
- + 1.18853 lineup_629_24 + 2.31522 lineup_629_25 + 1.17191 lineup_629_27
- + 2.10404 lineup_62_24 + 2.02574 lineup_62_25 + 1.90016 lineup_62_26
- + 1.86428 lineup_62_27 + 4.30825 lineup_630_24 + 7.75798 lineup_630_25
- + 3.71229 lineup_630_27 + 2.51192 lineup_631_24 + 4.64904 lineup_631_25
- + 2.43966 lineup_631_27 + 1.11791 lineup_632_24 + 1.18463 lineup_632_25
- + 1.25018 lineup_632_26 + 1.12237 lineup_632_27 + 2.32497 lineup_633_24
- + 2.35485 lineup_633_25 + 1.74918 lineup_633_26 + 2.46351 lineup_633_27
- + 1.68535 lineup_634_24 + 1.61835 lineup_634_25 + 1.10575 lineup_634_26
- + 1.6024 lineup_634_27 + 2.45246 lineup_635_24 + 2.63396 lineup_635_25
- + 2.32427 lineup_635_26 + 2.57729 lineup_635_27 + 2.90462 lineup_636_24
- + 3.26691 lineup_636_25 + 2.91095 lineup_636_26 + 2.93545 lineup_636_27
- + 1.56383 lineup_637_24 + 1.62316 lineup_637_25 + 1.32984 lineup_637_26
- + 1.3139 lineup_637_27 + 2.75334 lineup_638_24 + 2.76779 lineup_638_25
- + 2.76658 lineup_638_26 + 2.72363 lineup_638_27 + 2.59628 lineup_639_24
- + 3.01539 lineup_639_25 + 3.25588 lineup_639_27 + 3.02877 lineup_63_27
- + 1.52758 lineup_640_24 + 1.51797 lineup_640_25 + 1.47198 lineup_640_27
- + 1.75191 lineup_641_27 + 2.69582 lineup_642_24 + 2.84481 lineup_642_25
- + 2.84582 lineup_642_26 + 2.74052 lineup_642_27 + 1.83321 lineup_644_24
- + 1.85829 lineup_644_25 + 1.90184 lineup_644_26 + 2.04505 lineup_644_27
- + 1.50245 lineup_645_24 + 1.62653 lineup_645_25 + 1.62049 lineup_645_26
- + 1.72126 lineup_645_27 + 2.83652 lineup_646_24 + 3.07281 lineup_646_25
- + 2.90462 lineup_646_26 + 3.0437 lineup_646_27 + 2.85201 lineup_647_24
- + 3.12386 lineup_647_25 + 2.9339 lineup_647_26 + 3.24404 lineup_647_27
- + 1.32471 lineup_649_24 + 1.44539 lineup_649_25 + 1.38516 lineup_649_26
- + 1.5017 lineup_649_27 + 2.19467 lineup_64_24 + 2.1105 lineup_64_25
- + 2.09013 lineup_64_26 + 2.20008 lineup_64_27 + 1.01981 lineup_650_24
- + 1.09574 lineup_650_25 + 1.06652 lineup_650_26 + 1.10289 lineup_650_27
- + 1.27931 lineup_652_24 + 1.1917 lineup_652_25 + 1.20199 lineup_652_26
- + 1.21319 lineup_652_27 + 1.38431 lineup_653_24 + 1.37836 lineup_653_25
- + 1.6109 lineup_653_26 + 1.41344 lineup_653_27 + 1.42288 lineup_654_24
- + 1.5892 lineup_654_25 + 1.47666 lineup_654_26 + 1.44988 lineup_654_27
- + 1.63316 lineup_655_24 + 1.65787 lineup_655_25 + 1.67501 lineup_655_26
- + 1.68435 lineup_655_27 + 1.24937 lineup_657_24 + 1.22746 lineup_657_25
- + 1.28467 lineup_657_26 + 1.22183 lineup_657_27 + 1.46622 lineup_658_24
- + 1.57687 lineup_658_25 + 1.54499 lineup_658_26 + 1.43639 lineup_658_27
- + 3.04851 lineup_659_24 + 2.66219 lineup_659_25 + 2.94966 lineup_659_27
- + 2.95751 lineup_65_24 + 2.93447 lineup_65_25 + 2.9471 lineup_65_26
- + 3.14879 lineup_65_27 + 2.40827 lineup_660_24 + 2.54246 lineup_660_25
- + 2.55366 lineup_660_26 + 2.84147 lineup_660_27 + 3.76728 lineup_661_24
- + 4.28633 lineup_661_25 + 4.0819 lineup_661_26 + 4.28559 lineup_661_27
- + 1.67618 lineup_662_24 + 1.53496 lineup_662_25 + 1.55155 lineup_662_26
- + 1.56961 lineup_662_27 + 3.02863 lineup_663_24 + 3.05762 lineup_663_25
- + 3.08031 lineup_663_26 + 3.05527 lineup_663_27 + 5.4301 lineup_664_24
- + 5.67829 lineup_664_25 + 5.53857 lineup_664_26 + 5.18432 lineup_664_27
- + 3.39511 lineup_665_24 + 6.81874 lineup_665_25 + 3.26099 lineup_665_27
- + 1.14499 lineup_666_24 + 1.15408 lineup_666_25 + 1.16115 lineup_666_26
- + 1.15533 lineup_666_27 + 2.28853 lineup_668_24 + 4.39164 lineup_668_25
- + 2.23469 lineup_668_27 + 2.91397 lineup_669_24 + 3.09585 lineup_669_25
- + 3.3561 lineup_669_26 + 2.66969 lineup_669_27 + 2.59292 lineup_66_24
- + 2.53073 lineup_66_25 + 2.50973 lineup_66_26 + 2.63625 lineup_66_27
- + 1.82682 lineup_671_24 + 1.13358 lineup_671_25 + 1.57288 lineup_671_27
- + 1.96426 lineup_672_24 + 1.93829 lineup_672_25 + 2.14892 lineup_672_26
- + 2.08428 lineup_672_27 + 1.56086 lineup_673_26 + 1.6369 lineup_673_27
- + 1.19827 lineup_674_24 + 1.66413 lineup_674_25 + 1.88021 lineup_674_26
- + 1.90523 lineup_674_27 + 1.74245 lineup_675_24 + 1.8714 lineup_675_25
- + 1.89611 lineup_675_26 + 2.10722 lineup_675_27 + 2.24153 lineup_676_24
- + 2.69468 lineup_676_25 + 2.62757 lineup_676_26 + 2.33829 lineup_676_27
- + 1.36286 lineup_677_24 + 1.33634 lineup_677_25 + 1.39146 lineup_677_27
- + 3.84969 lineup_678_24 + 7.48423 lineup_678_25 + 3.73158 lineup_678_26
- + 3.88789 lineup_678_27 + 2.39442 lineup_679_24 + 2.4677 lineup_679_25
- + 2.08596 lineup_679_26 + 2.10903 lineup_679_27 + 1.41595 lineup_681_24
- + 1.34925 lineup_681_25 + 1.454 lineup_681_27 + 1.9011 lineup_682_24
- + 2.54523 lineup_682_25 + 1.50165 lineup_682_27 + 1.22711 lineup_684_24
- + 2.38257 lineup_684_25 + 1.21269 lineup_684_26 + 1.23883 lineup_684_27
- + 1.15786 lineup_685_24 + 1.2177 lineup_685_25 + 1.26107 lineup_685_26
- + 1.12197 lineup_685_27 + 3.51366 lineup_687_24 + 3.0377 lineup_687_25
- + 3.39188 lineup_687_27 + 3.48775 lineup_688_24 + 3.27351 lineup_688_25
- + 3.10353 lineup_688_26 + 3.10654 lineup_688_27 + 3.22338 lineup_689_24
- + 3.45155 lineup_689_25 + 3.48328 lineup_689_26 + 3.35704 lineup_689_27
- + 1.40596 lineup_690_24 + 1.52778 lineup_690_25 + 1.60877 lineup_690_26
- + 1.57566 lineup_690_27 + 2.1318 lineup_691_24 + 2.3789 lineup_691_25
- + 2.40857 lineup_691_26 + 2.57271 lineup_691_27 + 3.06685 lineup_692_24
- + 3.02265 lineup_692_25 + 3.12477 lineup_692_26 + 3.04848 lineup_692_27
- + 1.50935 lineup_694_24 + 1.64021 lineup_694_25 + 1.69466 lineup_694_26
- + 1.92872 lineup_694_27 + 2.92061 lineup_695_24 + 3.07276 lineup_695_25
- + 3.37565 lineup_695_26 + 2.67103 lineup_695_27 + 3.06042 lineup_696_24
- + 3.22094 lineup_696_25 + 2.8008 lineup_696_26 + 2.80829 lineup_696_27
- + 2.50333 lineup_697_24 + 2.01093 lineup_697_25 + 2.82882 lineup_697_26
- + 1.86367 lineup_697_27 + 2.0584 lineup_698_24 + 1.96824 lineup_698_25
- + 2.08861 lineup_698_26 + 1.93795 lineup_698_27 + 2.97054 lineup_699_24
- + 2.99759 lineup_699_25 + 3.38615 lineup_699_26 + 2.80314 lineup_699_27
- + 3.69195 lineup_6_24 + 3.80386 lineup_6_25 + 4.10928 lineup_6_26
- + 3.9762 lineup_6_27 + 2.38976 lineup_700_24 + 2.59453 lineup_700_25
- + 2.70907 lineup_700_26 + 2.57146 lineup_700_27 + 1.84548 lineup_701_24
- + 3.56517 lineup_701_25 + 1.82141 lineup_701_26 + 1.86883 lineup_701_27
- + 1.79863 lineup_703_24 + 1.92237 lineup_703_25 + 2.32727 lineup_703_26
- + 1.65772 lineup_703_27 + 1.26688 lineup_704_24 + 1.35955 lineup_704_25
- + 1.39151 lineup_704_26 + 1.36198 lineup_704_27 + 2.74225 lineup_705_24
- + 2.6615 lineup_705_25 + 2.60544 lineup_705_26 + 2.69904 lineup_705_27
- + 1.94039 lineup_706_24 + 2.07311 lineup_706_25 + 2.09344 lineup_706_26
- + 2.28795 lineup_706_27 + 2.18722 lineup_707_24 + 1.99943 lineup_707_25
- + 1.85691 lineup_707_26 + 1.85272 lineup_707_27 + 2.23092 lineup_708_24
- + 4.50412 lineup_708_25 + 2.33222 lineup_708_27 + 1.99601 lineup_709_24
- + 2.09648 lineup_709_25 + 2.19458 lineup_709_26 + 1.90009 lineup_709_27
- + 2.51602 lineup_70_24 + 1.99782 lineup_70_25 + 2.016 lineup_70_26
- + 2.88406 lineup_70_27 + 3.2446 lineup_710_24 + 3.66739 lineup_710_25
- + 3.25198 lineup_710_26 + 3.28058 lineup_710_27 + 2.43818 lineup_711_24
- + 2.57099 lineup_711_25 + 2.21118 lineup_711_26 + 2.22278 lineup_711_27
- + 2.77188 lineup_712_24 + 2.72448 lineup_712_25 + 2.60006 lineup_712_26
- + 2.76414 lineup_712_27 + 2.38646 lineup_713_25 + 2.23225 lineup_713_26
- + 2.3464 lineup_713_27 + 2.05918 lineup_715_24 + 2.04862 lineup_715_25
- + 2.22818 lineup_715_26 + 2.10548 lineup_715_27 + 1.38542 lineup_716_24
- + 0.97011 lineup_716_25 + 1.36591 lineup_716_27 + 1.26936 lineup_717_24
- + 1.24563 lineup_717_25 + 1.29496 lineup_717_27 + 1.15472 lineup_719_24
- + 1.25751 lineup_719_25 + 1.21796 lineup_719_26 + 1.26719 lineup_719_27
- + 1.2031 lineup_71_24 + 1.17412 lineup_71_25 + 1.16096 lineup_71_26
- + 1.2029 lineup_71_27 + 1.08897 lineup_721_24 + 1.10835 lineup_721_25
- + 1.19182 lineup_721_26 + 1.15997 lineup_721_27 + 1.2179 lineup_722_24
- + 1.22846 lineup_722_25 + 1.20823 lineup_722_27 + 1.68172 lineup_723_24
- + 1.09772 lineup_723_25 + 1.48109 lineup_723_27 + 1.27456 lineup_724_24
- + 1.25235 lineup_724_25 + 1.31036 lineup_724_26 + 1.24663 lineup_724_27
- + 1.67034 lineup_725_24 + 2.47648 lineup_725_25 + 1.4032 lineup_725_26
- + 1.40745 lineup_725_27 + 1.94653 lineup_726_24 + 3.50429 lineup_726_25
- + 1.78992 lineup_726_27 + 2.85454 lineup_727_24 + 5.58884 lineup_727_25
- + 2.85336 lineup_727_27 + 1.88963 lineup_728_24 + 3.40379 lineup_728_25
- + 1.80334 lineup_728_27 + 2.67073 lineup_72_24 + 2.60555 lineup_72_25
- + 2.57333 lineup_72_26 + 2.71206 lineup_72_27 + 1.25129 lineup_730_24
- + 1.24434 lineup_730_25 + 1.23578 lineup_730_26 + 1.21688 lineup_730_27
- + 1.45192 lineup_731_24 + 1.44586 lineup_731_25 + 1.68289 lineup_731_26
- + 1.48162 lineup_731_27 + 1.74496 lineup_732_24 + 1.58359 lineup_732_25
- + 1.46111 lineup_732_26 + 1.45751 lineup_732_27 + 1.73334 lineup_733_24
- + 2.58814 lineup_733_25 + 1.46177 lineup_733_26 + 1.46609 lineup_733_27
- + 1.35632 lineup_734_24 + 2.59993 lineup_734_25 + 1.29851 lineup_734_27
- + 1.30897 lineup_735_24 + 1.32297 lineup_735_25 + 1.38365 lineup_735_26
- + 1.35768 lineup_735_27 + 1.44987 lineup_736_24 + 1.85316 lineup_736_25
- + 1.67208 lineup_736_26 + 1.57248 lineup_736_27 + 1.22239 lineup_738_24
- + 1.2609 lineup_738_25 + 1.15597 lineup_738_26 + 1.22608 lineup_738_27
- + 1.40232 lineup_739_24 + 1.36301 lineup_739_25 + 1.2605 lineup_739_26
- + 1.43345 lineup_739_27 + 2.50781 lineup_73_24 + 2.40076 lineup_73_25
- + 2.23534 lineup_73_26 + 2.18693 lineup_73_27 + 1.48117 lineup_740_24
- + 1.75346 lineup_740_25 + 1.90937 lineup_740_27 + 1.48178 lineup_741_24
- + 1.51911 lineup_741_25 + 1.47608 lineup_741_26 + 1.45602 lineup_741_27
- + 1.20109 lineup_742_24 + 1.26863 lineup_742_25 + 1.31284 lineup_742_26
- + 1.26591 lineup_742_27 + 1.3607 lineup_743_24 + 2.64664 lineup_743_25
- + 1.3406 lineup_743_27 + 1.33834 lineup_745_24 + 1.30242 lineup_745_25
- + 1.21681 lineup_745_26 + 1.36078 lineup_745_27 + 1.36053 lineup_746_24
- + 1.58479 lineup_746_25 + 1.88232 lineup_746_26 + 1.66417 lineup_746_27
- + 1.30767 lineup_747_24 + 1.35768 lineup_747_25 + 1.37964 lineup_747_26
- + 1.32319 lineup_747_27 + 1.36665 lineup_749_24 + 1.32025 lineup_749_25
- + 1.3822 lineup_749_26 + 1.30466 lineup_749_27 + 1.28237 lineup_750_24
- + 1.26504 lineup_750_25 + 1.34583 lineup_750_26 + 1.27562 lineup_750_27
- + 1.76529 lineup_751_24 + 1.36041 lineup_751_25 + 2.03292 lineup_751_26
- + 1.23932 lineup_751_27 + 3.2818 lineup_752_24 + 5.85441 lineup_752_25
- + 2.96661 lineup_752_26 + 3.25312 lineup_752_27 + 1.37221 lineup_753_24
- + 1.59723 lineup_753_25 + 1.89575 lineup_753_26 + 1.67687 lineup_753_27
- + 1.34675 lineup_754_24 + 1.37122 lineup_754_25 + 1.35662 lineup_754_27
- + 1.33295 lineup_755_24 + 1.38366 lineup_755_25 + 1.40592 lineup_755_26
- + 1.34869 lineup_755_27 + 3.31212 lineup_757_24 + 5.60673 lineup_757_25
- + 2.80978 lineup_757_27 + 1.3238 lineup_758_24 + 1.26028 lineup_758_25
- + 1.36003 lineup_758_27 + 1.322 lineup_759_24 + 1.31493 lineup_759_25
- + 1.30622 lineup_759_26 + 1.28698 lineup_759_27 + 2.10305 lineup_75_24
- + 1.64375 lineup_75_25 + 1.63362 lineup_75_26 + 2.348 lineup_75_27
- + 1.28506 lineup_760_24 + 1.39588 lineup_760_25 + 1.35324 lineup_760_26
- + 1.40633 lineup_760_27 + 1.20627 lineup_761_24 + 1.97791 lineup_761_25
- + 1.45969 lineup_761_26 + 1.82591 lineup_761_27 + 1.4601 lineup_762_24
- + 2.84831 lineup_762_25 + 1.41067 lineup_762_26 + 1.44506 lineup_762_27
- + 1.49607 lineup_763_24 + 1.60041 lineup_763_25 + 2.05816 lineup_763_26
- + 1.44877 lineup_763_27 + 1.36009 lineup_764_24 + 1.37449 lineup_764_25
- + 1.43686 lineup_764_26 + 1.41017 lineup_764_27 + 3.30965 lineup_765_24
- + 3.15544 lineup_765_25 + 3.43095 lineup_765_26 + 3.21456 lineup_765_27
- + 1.63742 lineup_766_24 + 1.69278 lineup_766_25 + 2.02573 lineup_766_26
- + 1.36045 lineup_766_27 + 1.43142 lineup_767_24 + 1.38791 lineup_767_25
- + 1.4512 lineup_767_26 + 1.40732 lineup_767_27 + 1.50408 lineup_768_24
- + 1.5613 lineup_768_25 + 1.90551 lineup_768_26 + 1.21774 lineup_768_27
- + 2.06816 lineup_76_24 + 2.06478 lineup_76_25 + 1.89372 lineup_76_26
- + 1.98847 lineup_76_27 + 1.41955 lineup_770_24 + 1.37185 lineup_770_25
- + 1.43554 lineup_770_26 + 1.35582 lineup_770_27 + 1.47399 lineup_771_24
- + 2.87558 lineup_771_25 + 1.42421 lineup_771_26 + 1.45885 lineup_771_27
- + 1.38643 lineup_772_24 + 1.40103 lineup_772_25 + 1.46428 lineup_772_26
- + 1.43721 lineup_772_27 + 1.39308 lineup_773_24 + 1.44642 lineup_773_25
- + 1.44681 lineup_773_26 + 1.40464 lineup_773_27 + 1.6178 lineup_774_24
- + 1.95169 lineup_774_25 + 1.85953 lineup_774_26 + 1.59899 lineup_774_27
- + 2.77363 lineup_775_24 + 2.77549 lineup_775_25 + 2.77203 lineup_775_26
- + 2.76069 lineup_775_27 + 3.9929 lineup_776_24 + 3.9709 lineup_776_25
- + 3.84624 lineup_776_27 + 1.74465 lineup_777_24 + 2.1568 lineup_777_25
- + 2.437 lineup_777_27 + 3.35854 lineup_778_24 + 3.20207 lineup_778_25
- + 3.48162 lineup_778_26 + 3.26206 lineup_778_27 + 1.49226 lineup_779_24
- + 1.46086 lineup_779_25 + 1.39086 lineup_779_26 + 1.44268 lineup_779_27
- + 3.54649 lineup_77_24 + 3.3471 lineup_77_25 + 3.58685 lineup_77_26
- + 3.63127 lineup_77_27 + 1.65778 lineup_780_24 + 1.59095 lineup_780_25
- + 1.48843 lineup_780_26 + 1.51638 lineup_780_27 + 1.65778 lineup_781_24
- + 1.59095 lineup_781_25 + 1.48843 lineup_781_26 + 1.51638 lineup_781_27
- + 1.2581 lineup_783_24 + 2.54232 lineup_783_25 + 1.29743 lineup_783_27
- + 1.63094 lineup_784_24 + 1.966 lineup_784_25 + 1.87353 lineup_784_26
- + 1.61206 lineup_784_27 + 1.41193 lineup_786_24 + 1.46481 lineup_786_25
- + 1.48802 lineup_786_26 + 1.42834 lineup_786_27 + 1.46065 lineup_787_24
- + 1.41193 lineup_787_25 + 1.47698 lineup_787_26 + 1.39556 lineup_787_27
- + 3.36739 lineup_789_24 + 6.0072 lineup_789_25 + 3.04403 lineup_789_26
- + 3.33796 lineup_789_27 + 2.02052 lineup_78_24 + 2.00282 lineup_78_25
- + 2.00384 lineup_78_26 + 2.13481 lineup_78_27 + 3.44878 lineup_790_24
- + 3.42031 lineup_790_25 + 3.53745 lineup_790_26 + 3.20107 lineup_790_27
- + 1.30047 lineup_791_24 + 1.26221 lineup_791_25 + 1.37293 lineup_791_27
- + 2.33445 lineup_792_24 + 2.41363 lineup_792_25 + 3.05043 lineup_792_26
- + 2.22548 lineup_792_27 + 1.82473 lineup_793_24 + 1.78322 lineup_793_25
- + 1.99622 lineup_793_26 + 1.61318 lineup_793_27 + 1.47423 lineup_794_24
- + 1.52892 lineup_794_25 + 1.3799 lineup_794_26 + 1.47947 lineup_794_27
- + 1.47423 lineup_795_24 + 1.52892 lineup_795_25 + 1.3799 lineup_795_26
- + 1.47947 lineup_795_27 + 1.52892 lineup_796_24 + 1.4291 lineup_796_25
- + 1.44083 lineup_796_26 + 1.45359 lineup_796_27 + 1.86873 lineup_797_24
- + 2.82805 lineup_797_25 + 1.58762 lineup_797_26 + 1.59209 lineup_797_27
- + 2.17897 lineup_798_24 + 3.01415 lineup_798_25 + 1.75193 lineup_798_27
- + 1.64569 lineup_799_24 + 1.62943 lineup_799_25 + 1.6414 lineup_799_26
- + 1.75176 lineup_799_27 + 2.45134 lineup_800_24 + 2.34619 lineup_800_25
- + 2.48658 lineup_800_26 + 2.31086 lineup_800_27 + 2.11256 lineup_801_24
- + 2.08706 lineup_801_25 + 1.99316 lineup_801_26 + 2.1151 lineup_801_27
- + 1.78322 lineup_802_24 + 1.34513 lineup_802_25 + 1.3258 lineup_802_26
- + 1.99182 lineup_802_27 + 2.31368 lineup_803_24 + 2.23944 lineup_803_25
- + 2.39503 lineup_803_26 + 2.31999 lineup_803_27 + 2.24748 lineup_804_24
- + 2.24065 lineup_804_25 + 2.06024 lineup_804_26 + 2.15831 lineup_804_27
- + 1.53301 lineup_805_24 + 2.11218 lineup_805_25 + 2.39751 lineup_805_26
- + 2.43446 lineup_805_27 + 1.02889 lineup_806_24 + 1.50803 lineup_806_25
- + 1.75826 lineup_806_26 + 1.815 lineup_806_27 + 2.39326 lineup_807_24
- + 2.36993 lineup_807_25 + 2.51629 lineup_807_26 + 2.40515 lineup_807_27
- + 3.40394 lineup_808_24 + 3.8485 lineup_808_25 + 3.4117 lineup_808_26
- + 3.44177 lineup_808_27 + 1.47046 lineup_809_24 + 1.43333 lineup_809_25
- + 1.36554 lineup_809_26 + 1.40986 lineup_809_27 + 3.00625 lineup_80_24
- + 2.84973 lineup_80_25 + 3.03794 lineup_80_26 + 3.07281 lineup_80_27
- + 1.54342 lineup_810_24 + 1.44289 lineup_810_25 + 1.45471 lineup_810_26
- + 1.46756 lineup_810_27 + 2.36942 lineup_82_24 + 2.40493 lineup_82_25
- + 2.23094 lineup_82_26 + 2.36135 lineup_82_27 + 2.75599 lineup_83_24
- + 2.15016 lineup_83_25 + 2.1447 lineup_83_26 + 3.14816 lineup_83_27
- + 2.6281 lineup_84_24 + 2.09306 lineup_84_25 + 2.09061 lineup_84_26
- + 2.98232 lineup_84_27 + 4.76339 lineup_85_24 + 4.80098 lineup_85_25
- + 4.42902 lineup_85_26 + 4.68871 lineup_85_27 + 3.73069 lineup_86_24
- + 3.60978 lineup_86_25 + 3.61905 lineup_86_26 + 3.91649 lineup_86_27
- + 2.72694 lineup_88_24 + 2.58463 lineup_88_25 + 2.75574 lineup_88_26
- + 2.78744 lineup_88_27 + 2.93561 lineup_89_24 + 2.38916 lineup_89_25
- + 2.40269 lineup_89_26 + 3.36072 lineup_89_27 + 4.32846 lineup_8_24
- + 4.0305 lineup_8_25 + 4.53883 lineup_8_26 + 4.43031 lineup_8_27
- + 2.4748 lineup_90_24 + 3.86769 lineup_90_25 + 2.2568 lineup_90_26
- + 2.26331 lineup_90_27 + 3.13798 lineup_91_24 + 5.59764 lineup_91_25
- + 2.83652 lineup_91_26 + 3.11055 lineup_91_27 + 1.49763 lineup_92_24
- + 3.00249 lineup_92_25 + 1.56612 lineup_92_26 + 1.60559 lineup_92_27
- + 1.88723 lineup_93_24 + 3.02685 lineup_93_25 + 1.59167 lineup_93_26
- + 1.42017 lineup_93_27 + 2.8335 lineup_96_24 + 4.58692 lineup_96_25
- + 2.59676 lineup_96_26 + 2.60309 lineup_96_27 + 1.74928 lineup_98_24
- + 3.53427 lineup_98_25 + 1.85645 lineup_98_26 + 1.90398 lineup_98_27
- + 1.23826 lineup_99_24 + 2.51488 lineup_99_25 + 1.31229 lineup_99_26
- + 1.34132 lineup_99_27 + 2.16244 lineup_9_24 + 2.24911 lineup_9_25
- + 2.43969 lineup_9_26 + 2.42191 lineup_9_27 - 4 penalised_transfers_24
- - 4 penalised_transfers_25 - 4 penalised_transfers_26
- - 4 penalised_transfers_27 + 0.376854 vice_captain_101_24
- + 0.667193 vice_captain_101_25 + 0.338404 vice_captain_101_26
- + 0.373355 vice_captain_101_27 + 0.315649 vice_captain_105_24
- + 0.617059 vice_captain_105_25 + 0.320198 vice_captain_105_26
- + 0.329252 vice_captain_105_27 + 0.335515 vice_captain_106_24
- + 0.643394 vice_captain_106_25 + 0.331646 vice_captain_106_26
- + 0.341709 vice_captain_106_27 + 0.297912 vice_captain_107_24
- + 0.564549 vice_captain_107_25 + 0.29142 vice_captain_107_26
- + 0.30056 vice_captain_107_27 + 0.551449 vice_captain_108_27
- + 0.343771 vice_captain_109_24 + 0.53616 vice_captain_109_25
- + 0.302623 vice_captain_109_26 + 0.303418 vice_captain_109_27
- + 0.18265 vice_captain_10_24 + 0.246729 vice_captain_10_25
- + 0.230967 vice_captain_10_26 + 0.222223 vice_captain_10_27
- + 0.35422 vice_captain_110_24 + 0.68843 vice_captain_110_25
- + 0.358304 vice_captain_110_26 + 0.370576 vice_captain_110_27
- + 0.380355 vice_captain_111_25 + 0.194932 vice_captain_111_26
- + 0.200739 vice_captain_111_27 + 0.377019 vice_captain_112_24
- + 0.608897 vice_captain_112_25 + 0.342583 vice_captain_112_26
- + 0.343418 vice_captain_112_27 + 0.355358 vice_captain_113_24
- + 0.389817 vice_captain_113_25 + 0.365289 vice_captain_113_26
- + 0.385572 vice_captain_113_27 + 0.240917 vice_captain_114_24
- + 0.398756 vice_captain_114_25 + 0.221806 vice_captain_114_26
- + 0.222279 vice_captain_114_27 + 0.318466 vice_captain_116_24
- + 0.567379 vice_captain_116_25 + 0.287555 vice_captain_116_26
- + 0.315653 vice_captain_116_27 + 0.564077 vice_captain_117_24
- + 1.03638 vice_captain_117_25 + 0.576313 vice_captain_117_26
- + 0.526733 vice_captain_117_27 + 0.721599 vice_captain_119_25
- + 0.396384 vice_captain_119_26 + 0.366428 vice_captain_119_27
- + 0.139943 vice_captain_120_24 + 0.286354 vice_captain_120_25
- + 0.148782 vice_captain_120_26 + 0.152215 vice_captain_120_27
- + 0.23775 vice_captain_121_24 + 0.369227 vice_captain_121_25
- + 0.205608 vice_captain_121_26 + 0.206149 vice_captain_121_27
- + 0.293204 vice_captain_122_25 + 0.299876 vice_captain_122_26
- + 0.282724 vice_captain_122_27 + 0.208795 vice_captain_125_24
- + 0.220478 vice_captain_125_25 + 0.225932 vice_captain_125_26
- + 0.213828 vice_captain_125_27 + 0.268372 vice_captain_126_24
- + 0.2578 vice_captain_126_25 + 0.291322 vice_captain_126_27
- + 0.208181 vice_captain_128_24 + 0.218265 vice_captain_128_25
- + 0.22377 vice_captain_128_26 + 0.211543 vice_captain_128_27
- + 0.303742 vice_captain_129_24 + 0.346447 vice_captain_129_25
- + 0.403094 vice_captain_129_26 + 0.358664 vice_captain_129_27
- + 0.48733 vice_captain_12_24 + 0.491084 vice_captain_12_25
- + 0.521622 vice_captain_12_26 + 0.499529 vice_captain_12_27
- + 0.202125 vice_captain_130_25 + 0.20759 vice_captain_130_26
- + 0.193541 vice_captain_130_27 + 0.197636 vice_captain_131_24
- + 0.243439 vice_captain_131_25 + 0.299588 vice_captain_131_26
- + 0.274173 vice_captain_131_27 + 0.27425 vice_captain_132_24
- + 0.289901 vice_captain_132_25 + 0.287926 vice_captain_132_26
- + 0.287966 vice_captain_132_27 + 0.256528 vice_captain_133_24
- + 0.276394 vice_captain_133_25 + 0.287866 vice_captain_133_26
- + 0.276641 vice_captain_133_27 + 0.502632 vice_captain_134_24
- + 0.531095 vice_captain_134_25 + 0.542118 vice_captain_134_26
- + 0.504153 vice_captain_134_27 + 0.40615 vice_captain_135_24
- + 0.417949 vice_captain_135_25 + 0.404442 vice_captain_135_26
- + 0.399464 vice_captain_135_27 + 0.146122 vice_captain_138_24
- + 0.157095 vice_captain_138_25 + 0.164481 vice_captain_138_26
- + 0.159434 vice_captain_138_27 + 0.155124 vice_captain_139_24
- + 0.179392 vice_captain_139_25 + 0.21209 vice_captain_139_26
- + 0.18271 vice_captain_139_27 + 0.27289 vice_captain_13_24
- + 0.258448 vice_captain_13_25 + 0.294449 vice_captain_13_26
- + 0.290185 vice_captain_13_27 + 0.302911 vice_captain_141_24
- + 0.30437 vice_captain_141_25 + 0.318427 vice_captain_141_26
- + 0.300625 vice_captain_141_27 + 0.369447 vice_captain_143_24
- + 0.393346 vice_captain_143_25 + 0.403839 vice_captain_143_26
- + 0.376864 vice_captain_143_27 + 0.123187 vice_captain_144_24
- + 0.129053 vice_captain_144_25 + 0.133502 vice_captain_144_26
- + 0.129497 vice_captain_144_27 + 0.350948 vice_captain_145_24
- + 0.301141 vice_captain_145_25 + 0.338204 vice_captain_145_27
- + 0.346747 vice_captain_148_24 + 0.348483 vice_captain_148_25
- + 0.365207 vice_captain_148_26 + 0.344027 vice_captain_148_27
- + 0.540874 vice_captain_14_24 + 0.555342 vice_captain_14_25
- + 0.60077 vice_captain_14_26 + 0.578732 vice_captain_14_27
- + 0.242569 vice_captain_150_24 + 0.275481 vice_captain_150_25
- + 0.318431 vice_captain_150_26 + 0.28821 vice_captain_150_27
- + 0.215347 vice_captain_151_24 + 0.247853 vice_captain_151_25
- + 0.290977 vice_captain_151_26 + 0.259358 vice_captain_151_27
- + 0.348677 vice_captain_152_24 + 0.350491 vice_captain_152_25
- + 0.367971 vice_captain_152_26 + 0.345834 vice_captain_152_27
- + 0.195554 vice_captain_153_24 + 0.229304 vice_captain_153_25
- + 0.271983 vice_captain_153_26 + 0.243326 vice_captain_153_27
- + 0.276053 vice_captain_154_24 + 0.286996 vice_captain_154_25
- + 0.279987 vice_captain_154_26 + 0.276573 vice_captain_154_27
- + 0.114376 vice_captain_156_24 + 0.118383 vice_captain_156_25
- + 0.118015 vice_captain_156_26 + 0.127931 vice_captain_156_27
- + 0.18843 vice_captain_157_24 + 0.238522 vice_captain_157_25
- + 0.259194 vice_captain_157_26 + 0.254534 vice_captain_157_27
- + 0.198208 vice_captain_159_24 + 0.207429 vice_captain_159_25
- + 0.206583 vice_captain_159_26 + 0.229401 vice_captain_159_27
- + 0.164441 vice_captain_160_24 + 0.232676 vice_captain_160_25
- + 0.264558 vice_captain_160_26 + 0.268249 vice_captain_160_27
- + 0.299004 vice_captain_161_24 + 0.31621 vice_captain_161_25
- + 0.317263 vice_captain_161_26 + 0.352109 vice_captain_161_27
- + 0.15765 vice_captain_163_24 + 0.167596 vice_captain_163_25
- + 0.170136 vice_captain_163_26 + 0.186923 vice_captain_163_27
- + 0.206772 vice_captain_165_24 + 0.217284 vice_captain_165_25
- + 0.217672 vice_captain_165_26 + 0.240623 vice_captain_165_27
- + 0.096234 vice_captain_166_24 + 0.141344 vice_captain_166_25
- + 0.163392 vice_captain_166_26 + 0.165945 vice_captain_166_27
- + 0.094171 vice_captain_167_24 + 0.145587 vice_captain_167_25
- + 0.17313 vice_captain_167_26 + 0.179328 vice_captain_167_27
- + 0.239111 vice_captain_168_24 + 0.250451 vice_captain_168_25
- + 0.25815 vice_captain_168_26 + 0.270296 vice_captain_168_27
- + 0.223695 vice_captain_170_24 + 0.241509 vice_captain_170_25
- + 0.245067 vice_captain_170_26 + 0.279887 vice_captain_170_27
- + 0.339576 vice_captain_172_24 + 0.307584 vice_captain_172_25
- + 0.33023 vice_captain_172_26 + 0.331176 vice_captain_172_27
- + 0.188905 vice_captain_173_24 + 0.257507 vice_captain_173_25
- + 0.293092 vice_captain_173_26 + 0.299717 vice_captain_173_27
- + 0.12399 vice_captain_176_24 + 0.183237 vice_captain_176_25
- + 0.213776 vice_captain_176_26 + 0.218692 vice_captain_176_27
- + 0.259516 vice_captain_177_24 + 0.26612 vice_captain_177_25
- + 0.269227 vice_captain_177_26 + 0.279164 vice_captain_177_27
- + 0.166632 vice_captain_178_24 + 0.229124 vice_captain_178_25
- + 0.258281 vice_captain_178_26 + 0.261657 vice_captain_178_27
- + 0.324402 vice_captain_17_24 + 0.353032 vice_captain_17_25
- + 0.332654 vice_captain_17_26 + 0.349505 vice_captain_17_27
- + 0.312959 vice_captain_181_24 + 0.285201 vice_captain_181_25
- + 0.304851 vice_captain_181_26 + 0.305671 vice_captain_181_27
- + 0.201939 vice_captain_182_24 + 0.272857 vice_captain_182_25
- + 0.308645 vice_captain_182_26 + 0.315184 vice_captain_182_27
- + 0.1512 vice_captain_184_24 + 0.160306 vice_captain_184_25
- + 0.161919 vice_captain_184_26 + 0.181148 vice_captain_184_27
- + 0.118808 vice_captain_186_24 + 0.112945 vice_captain_186_25
- + 0.122152 vice_captain_186_27 + 0.255767 vice_captain_191_24
- + 0.178311 vice_captain_191_25 + 0.239061 vice_captain_191_27
- + 0.29704 vice_captain_192_24 + 0.259391 vice_captain_192_25
- + 0.287407 vice_captain_192_27 + 0.200963 vice_captain_193_24
- + 0.208744 vice_captain_193_25 + 0.202626 vice_captain_193_26
- + 0.22241 vice_captain_193_27 + 0.198216 vice_captain_194_24
- + 0.131624 vice_captain_194_25 + 0.175339 vice_captain_194_27
- + 0.243909 vice_captain_195_24 + 0.153662 vice_captain_195_25
- + 0.220801 vice_captain_195_27 + 0.09185 vice_captain_196_24
- + 0.092051 vice_captain_196_25 + 0.106817 vice_captain_196_27
- + 0.313965 vice_captain_197_24 + 0.225289 vice_captain_197_25
- + 0.287962 vice_captain_197_27 + 0.220074 vice_captain_198_27
- + 0.360618 vice_captain_199_24 + 0.338302 vice_captain_199_25
- + 0.390915 vice_captain_199_27 + 0.613846 vice_captain_19_24
- + 0.617843 vice_captain_19_25 + 0.66307 vice_captain_19_26
- + 0.633344 vice_captain_19_27 + 0.149612 vice_captain_1_24
- + 0.157128 vice_captain_1_25 + 0.155681 vice_captain_1_26
- + 0.15922 vice_captain_1_27 + 0.17531 vice_captain_200_24
- + 0.175933 vice_captain_200_25 + 0.17377 vice_captain_200_26
- + 0.177048 vice_captain_200_27 + 0.297186 vice_captain_202_24
- + 0.280321 vice_captain_202_25 + 0.32524 vice_captain_202_27
- + 0.230594 vice_captain_203_24 + 0.151653 vice_captain_203_25
- + 0.210679 vice_captain_203_27 + 0.206329 vice_captain_204_24
- + 0.203057 vice_captain_204_25 + 0.146403 vice_captain_204_26
- + 0.203607 vice_captain_204_27 + 0.219691 vice_captain_205_24
- + 0.219571 vice_captain_205_25 + 0.209326 vice_captain_205_26
- + 0.222731 vice_captain_205_27 + 0.318595 vice_captain_207_24
- + 0.293575 vice_captain_207_25 + 0.313732 vice_captain_207_27
- + 0.204108 vice_captain_208_24 + 0.195656 vice_captain_208_25
- + 0.224244 vice_captain_208_27 + 0.21003 vice_captain_209_24
- + 0.222384 vice_captain_209_25 + 0.234446 vice_captain_209_26
- + 0.198236 vice_captain_209_27 + 0.336318 vice_captain_20_24
- + 0.426468 vice_captain_20_25 + 0.388088 vice_captain_20_26
- + 0.367231 vice_captain_20_27 + 0.271488 vice_captain_210_24
- + 0.254122 vice_captain_210_25 + 0.292816 vice_captain_210_27
- + 0.374222 vice_captain_211_24 + 0.370498 vice_captain_211_25
- + 0.391467 vice_captain_211_27 + 0.293236 vice_captain_212_24
- + 0.290596 vice_captain_212_25 + 0.304031 vice_captain_212_27
- + 0.248817 vice_captain_214_24 + 0.170273 vice_captain_214_25
- + 0.221834 vice_captain_214_27 + 0.398558 vice_captain_216_24
- + 0.369925 vice_captain_216_25 + 0.432295 vice_captain_216_27
- + 0.305248 vice_captain_217_24 + 0.225085 vice_captain_217_25
- + 0.291276 vice_captain_217_27 + 0.101769 vice_captain_219_24
- + 0.103728 vice_captain_219_25 + 0.111015 vice_captain_219_26
- + 0.108514 vice_captain_219_27 + 0.241004 vice_captain_21_24
- + 0.459185 vice_captain_21_25 + 0.229825 vice_captain_21_27
- + 0.28374 vice_captain_220_24 + 0.300881 vice_captain_220_25
- + 0.384937 vice_captain_220_26 + 0.286136 vice_captain_220_27
- + 0.327509 vice_captain_221_24 + 0.324138 vice_captain_221_25
- + 0.350652 vice_captain_221_26 + 0.330151 vice_captain_221_27
- + 0.223566 vice_captain_222_24 + 0.232651 vice_captain_222_25
- + 0.28518 vice_captain_222_26 + 0.217233 vice_captain_222_27
- + 0.119041 vice_captain_224_24 + 0.11697 vice_captain_224_25
- + 0.12238 vice_captain_224_26 + 0.116437 vice_captain_224_27
- + 0.272399 vice_captain_225_24 + 0.310365 vice_captain_225_25
- + 0.325418 vice_captain_225_26 + 0.312058 vice_captain_225_27
- + 0.453172 vice_captain_226_24 + 0.431083 vice_captain_226_25
- + 0.457433 vice_captain_226_26 + 0.412117 vice_captain_226_27
- + 0.280117 vice_captain_228_24 + 0.300109 vice_captain_228_25
- + 0.385051 vice_captain_228_26 + 0.290185 vice_captain_228_27
- + 0.221226 vice_captain_229_24 + 0.222825 vice_captain_229_25
- + 0.237871 vice_captain_229_26 + 0.227049 vice_captain_229_27
- + 0.23269 vice_captain_22_24 + 0.238692 vice_captain_22_25
- + 0.257325 vice_captain_22_26 + 0.249311 vice_captain_22_27
- + 0.348013 vice_captain_230_24 + 0.362937 vice_captain_230_25
- + 0.339677 vice_captain_230_26 + 0.338908 vice_captain_230_27
- + 0.331358 vice_captain_231_24 + 0.331173 vice_captain_231_25
- + 0.36058 vice_captain_231_26 + 0.34033 vice_captain_231_27
- + 0.238053 vice_captain_232_24 + 0.267971 vice_captain_232_25
- + 0.277994 vice_captain_232_26 + 0.26365 vice_captain_232_27
- + 0.307482 vice_captain_233_24 + 0.320563 vice_captain_233_25
- + 0.300177 vice_captain_233_26 + 0.299504 vice_captain_233_27
- + 0.262119 vice_captain_234_24 + 0.278013 vice_captain_234_25
- + 0.353208 vice_captain_234_26 + 0.266167 vice_captain_234_27
- + 0.433809 vice_captain_236_24 + 0.416476 vice_captain_236_25
- + 0.452362 vice_captain_236_26 + 0.416247 vice_captain_236_27
- + 0.196727 vice_captain_238_24 + 0.207983 vice_captain_238_25
- + 0.261117 vice_captain_238_26 + 0.198571 vice_captain_238_27
- + 0.142295 vice_captain_239_24 + 0.139957 vice_captain_239_25
- + 0.146062 vice_captain_239_26 + 0.139355 vice_captain_239_27
- + 0.164274 vice_captain_23_24 + 0.171901 vice_captain_23_25
- + 0.143137 vice_captain_23_26 + 0.142435 vice_captain_23_27
- + 0.280454 vice_captain_240_24 + 0.286049 vice_captain_240_25
- + 0.3131 vice_captain_240_26 + 0.299362 vice_captain_240_27
- + 0.114006 vice_captain_241_24 + 0.12017 vice_captain_241_25
- + 0.159666 vice_captain_241_26 + 0.109494 vice_captain_241_27
- + 0.245568 vice_captain_242_24 + 0.252244 vice_captain_242_25
- + 0.316379 vice_captain_242_26 + 0.229889 vice_captain_242_27
- + 0.309352 vice_captain_243_24 + 0.322575 vice_captain_243_25
- + 0.301967 vice_captain_243_26 + 0.301286 vice_captain_243_27
- + 0.218654 vice_captain_245_24 + 0.329783 vice_captain_245_25
- + 0.252327 vice_captain_245_26 + 0.296984 vice_captain_245_27
- + 0.398023 vice_captain_246_24 + 0.428805 vice_captain_246_25
- + 0.421838 vice_captain_246_26 + 0.443726 vice_captain_246_27
- + 0.142545 vice_captain_247_24 + 0.235405 vice_captain_247_25
- + 0.1823 vice_captain_247_26 + 0.222613 vice_captain_247_27
- + 0.33323 vice_captain_249_24 + 0.388719 vice_captain_249_25
- + 0.371718 vice_captain_249_26 + 0.396794 vice_captain_249_27
- + 0.294707 vice_captain_250_24 + 0.343554 vice_captain_250_25
- + 0.333061 vice_captain_250_26 + 0.356697 vice_captain_250_27
- + 0.180757 vice_captain_252_24 + 0.285966 vice_captain_252_25
- + 0.208536 vice_captain_252_26 + 0.252486 vice_captain_252_27
- + 0.221925 vice_captain_254_24 + 0.249899 vice_captain_254_25
- + 0.240688 vice_captain_254_26 + 0.254672 vice_captain_254_27
- + 0.193175 vice_captain_255_24 + 0.191767 vice_captain_255_25
- + 0.219585 vice_captain_255_26 + 0.194708 vice_captain_255_27
- + 0.366088 vice_captain_256_25 + 0.370753 vice_captain_256_26
- + 0.375826 vice_captain_256_27 + 0.176955 vice_captain_257_24
- + 0.277814 vice_captain_257_25 + 0.211996 vice_captain_257_26
- + 0.255053 vice_captain_257_27 + 0.320975 vice_captain_258_24
- + 0.602067 vice_captain_258_25 + 0.335113 vice_captain_258_26
- + 0.307837 vice_captain_258_27 + 0.321997 vice_captain_259_24
- + 0.384981 vice_captain_259_25 + 0.376538 vice_captain_259_26
- + 0.406321 vice_captain_259_27 + 0.171385 vice_captain_25_24
- + 0.22165 vice_captain_25_25 + 0.200431 vice_captain_25_26
- + 0.188759 vice_captain_25_27 + 0.210222 vice_captain_260_24
- + 0.322922 vice_captain_260_25 + 0.256873 vice_captain_260_26
- + 0.306321 vice_captain_260_27 + 0.277139 vice_captain_261_24
- + 0.316295 vice_captain_261_25 + 0.304566 vice_captain_261_26
- + 0.321465 vice_captain_261_27 + 0.149421 vice_captain_262_24
- + 0.245753 vice_captain_262_25 + 0.188334 vice_captain_262_26
- + 0.231041 vice_captain_262_27 + 0.317183 vice_captain_263_24
- + 0.384672 vice_captain_263_25 + 0.371583 vice_captain_263_26
- + 0.393 vice_captain_263_27 + 0.251518 vice_captain_265_24
- + 0.388165 vice_captain_265_25 + 0.301343 vice_captain_265_26
- + 0.359626 vice_captain_265_27 + 0.266219 vice_captain_266_24
- + 0.320049 vice_captain_266_25 + 0.309609 vice_captain_266_26
- + 0.326691 vice_captain_266_27 + 0.387103 vice_captain_267_24
- + 0.353166 vice_captain_267_25 + 0.359562 vice_captain_267_26
- + 0.365168 vice_captain_267_27 + 0.261863 vice_captain_268_24
- + 0.23763 vice_captain_268_25 + 0.23829 vice_captain_268_26
- + 0.238919 vice_captain_268_27 + 0.323247 vice_captain_26_24
- + 0.336315 vice_captain_26_25 + 0.365055 vice_captain_26_26
- + 0.362836 vice_captain_26_27 + 0.31756 vice_captain_270_24
- + 0.286503 vice_captain_270_25 + 0.291387 vice_captain_270_26
- + 0.29367 vice_captain_270_27 + 0.122908 vice_captain_272_24
- + 0.114479 vice_captain_272_25 + 0.115187 vice_captain_272_26
- + 0.116547 vice_captain_272_27 + 0.150092 vice_captain_273_24
- + 0.140711 vice_captain_273_25 + 0.138779 vice_captain_273_26
- + 0.140309 vice_captain_273_27 + 0.205894 vice_captain_274_24
- + 0.174659 vice_captain_274_25 + 0.143896 vice_captain_274_26
- + 0.153558 vice_captain_274_27 + 0.376205 vice_captain_275_24
- + 0.370337 vice_captain_275_25 + 0.383895 vice_captain_275_26
- + 0.373766 vice_captain_275_27 + 0.165314 vice_captain_276_24
- + 0.156006 vice_captain_276_25 + 0.159505 vice_captain_276_26
- + 0.16097 vice_captain_276_27 + 0.208709 vice_captain_277_24
- + 0.177474 vice_captain_277_25 + 0.146712 vice_captain_277_26
- + 0.156373 vice_captain_277_27 + 0.180353 vice_captain_279_24
- + 0.185521 vice_captain_279_25 + 0.180462 vice_captain_279_26
- + 0.196145 vice_captain_279_27 + 0.208708 vice_captain_27_24
- + 0.214107 vice_captain_27_25 + 0.2466 vice_captain_27_26
- + 0.227002 vice_captain_27_27 + 0.328083 vice_captain_280_24
- + 0.301416 vice_captain_280_25 + 0.306822 vice_captain_280_26
- + 0.310686 vice_captain_280_27 + 0.253437 vice_captain_281_24
- + 0.238744 vice_captain_281_25 + 0.229014 vice_captain_281_26
- + 0.23445 vice_captain_281_27 + 0.251263 vice_captain_282_24
- + 0.236057 vice_captain_282_25 + 0.239504 vice_captain_282_26
- + 0.243155 vice_captain_282_27 + 0.322825 vice_captain_283_24
- + 0.304195 vice_captain_283_25 + 0.289947 vice_captain_283_26
- + 0.292517 vice_captain_283_27 + 0.305681 vice_captain_284_24
- + 0.301276 vice_captain_284_25 + 0.311454 vice_captain_284_26
- + 0.30385 vice_captain_284_27 + 0.248118 vice_captain_285_24
- + 0.233128 vice_captain_285_25 + 0.22311 vice_captain_285_26
- + 0.226297 vice_captain_285_27 + 0.287536 vice_captain_286_24
- + 0.271657 vice_captain_286_25 + 0.259741 vice_captain_286_26
- + 0.262766 vice_captain_286_27 + 0.200305 vice_captain_287_24
- + 0.203843 vice_captain_287_25 + 0.198175 vice_captain_287_26
- + 0.212818 vice_captain_287_27 + 0.239474 vice_captain_288_25
- + 0.243473 vice_captain_288_26 + 0.246379 vice_captain_288_27
- + 0.303599 vice_captain_289_24 + 0.595662 vice_captain_289_25
- + 0.312386 vice_captain_289_27 + 0.322733 vice_captain_28_24
- + 0.362787 vice_captain_28_25 + 0.323433 vice_captain_28_26
- + 0.326142 vice_captain_28_27 + 0.505945 vice_captain_290_24
- + 0.925111 vice_captain_290_25 + 0.505739 vice_captain_290_27
- + 0.379099 vice_captain_291_24 + 0.742211 vice_captain_291_25
- + 0.391278 vice_captain_291_27 + 0.322491 vice_captain_292_25
- + 0.164223 vice_captain_292_27 + 0.474503 vice_captain_293_24
- + 0.87579 vice_captain_293_25 + 0.407535 vice_captain_293_27
- + 0.345611 vice_captain_294_24 + 0.66385 vice_captain_294_25
- + 0.34237 vice_captain_294_27 + 0.19986 vice_captain_295_24
- + 0.399834 vice_captain_295_25 + 0.211084 vice_captain_295_27
- + 0.323512 vice_captain_297_24 + 0.63802 vice_captain_297_25
- + 0.308132 vice_captain_297_27 + 0.292872 vice_captain_298_24
- + 0.538817 vice_captain_298_25 + 0.285565 vice_captain_298_27
- + 0.339508 vice_captain_29_24 + 0.43116 vice_captain_29_25
- + 0.390635 vice_captain_29_26 + 0.368904 vice_captain_29_27
- + 0.13891 vice_captain_2_24 + 0.178089 vice_captain_2_25
- + 0.160498 vice_captain_2_26 + 0.150822 vice_captain_2_27
- + 0.29154 vice_captain_300_24 + 0.545595 vice_captain_300_25
- + 0.28266 vice_captain_300_27 + 0.306362 vice_captain_301_24
- + 0.601209 vice_captain_301_25 + 0.315133 vice_captain_301_27
- + 0.566834 vice_captain_302_25 + 0.303897 vice_captain_302_27
- + 0.399381 vice_captain_303_24 + 0.776327 vice_captain_303_25
- + 0.397466 vice_captain_303_27 + 0.374074 vice_captain_304_24
- + 0.742546 vice_captain_304_25 + 0.386628 vice_captain_304_27
- + 0.328573 vice_captain_307_24 + 0.606656 vice_captain_307_25
- + 0.329985 vice_captain_307_27 + 0.777217 vice_captain_308_24
- + 1.436746 vice_captain_308_25 + 0.736873 vice_captain_308_27
- + 0.435356 vice_captain_309_24 + 0.83783 vice_captain_309_25
- + 0.427555 vice_captain_309_27 + 0.151198 vice_captain_310_24
- + 0.297834 vice_captain_310_25 + 0.155146 vice_captain_310_27
- + 0.283706 vice_captain_311_24 + 0.515942 vice_captain_311_25
- + 0.271878 vice_captain_311_27 + 0.410219 vice_captain_313_24
- + 0.765841 vice_captain_313_25 + 0.410181 vice_captain_313_27
- + 0.324788 vice_captain_314_24 + 0.577565 vice_captain_314_25
- + 0.293315 vice_captain_314_27 + 0.19826 vice_captain_315_24
- + 0.272432 vice_captain_315_25 + 0.158826 vice_captain_315_27
- + 0.27819 vice_captain_316_24 + 0.425979 vice_captain_316_25
- + 0.244708 vice_captain_316_27 + 0.164468 vice_captain_317_24
- + 0.327672 vice_captain_317_25 + 0.168658 vice_captain_317_27
- + 0.227245 vice_captain_318_24 + 0.324211 vice_captain_318_25
- + 0.192013 vice_captain_318_27 + 0.233293 vice_captain_319_24
- + 0.4675 vice_captain_319_25 + 0.236487 vice_captain_319_27
- + 0.347535 vice_captain_31_24 + 0.43932 vice_captain_31_25
- + 0.394258 vice_captain_31_26 + 0.368907 vice_captain_31_27
- + 0.19856 vice_captain_320_24 + 0.375208 vice_captain_320_25
- + 0.18664 vice_captain_320_27 + 0.376778 vice_captain_321_24
- + 0.541519 vice_captain_321_25 + 0.314157 vice_captain_321_27
- + 0.37994 vice_captain_326_24 + 0.683 vice_captain_326_25
- + 0.345809 vice_captain_326_27 + 0.149272 vice_captain_327_24
- + 0.300931 vice_captain_327_25 + 0.154483 vice_captain_327_27
- + 0.360639 vice_captain_328_24 + 0.63138 vice_captain_328_25
- + 0.31721 vice_captain_328_27 + 0.278928 vice_captain_32_24
- + 0.2801 vice_captain_32_25 + 0.319163 vice_captain_32_26
- + 0.265978 vice_captain_32_27 + 0.323028 vice_captain_330_24
- + 0.474929 vice_captain_330_25 + 0.267215 vice_captain_330_27
- + 0.141939 vice_captain_332_24 + 0.284303 vice_captain_332_25
- + 0.143429 vice_captain_332_27 + 0.168213 vice_captain_333_24
- + 0.217574 vice_captain_333_25 + 0.130443 vice_captain_333_27
- + 0.339511 vice_captain_335_24 + 0.681874 vice_captain_335_25
- + 0.326099 vice_captain_335_27 + 0.141943 vice_captain_339_24
- + 0.284313 vice_captain_339_25 + 0.143434 vice_captain_339_27
- + 0.256431 vice_captain_33_24 + 0.271394 vice_captain_33_25
- + 0.277693 vice_captain_33_26 + 0.255527 vice_captain_33_27
- + 0.13518 vice_captain_340_24 + 0.258385 vice_captain_340_25
- + 0.138812 vice_captain_340_27 + 0.390964 vice_captain_341_24
- + 0.676054 vice_captain_341_25 + 0.350792 vice_captain_341_26
- + 0.355772 vice_captain_341_27 + 0.42127 vice_captain_342_24
- + 0.735888 vice_captain_342_25 + 0.389899 vice_captain_342_26
- + 0.395488 vice_captain_342_27 + 0.498823 vice_captain_343_24
- + 0.906538 vice_captain_343_25 + 0.452311 vice_captain_343_26
- + 0.460543 vice_captain_343_27 + 0.403803 vice_captain_344_24
- + 0.774848 vice_captain_344_25 + 0.38118 vice_captain_344_26
- + 0.396454 vice_captain_344_27 + 0.177955 vice_captain_345_24
- + 0.333465 vice_captain_345_25 + 0.162471 vice_captain_345_26
- + 0.167629 vice_captain_345_27 + 0.447254 vice_captain_346_24
- + 0.723065 vice_captain_346_25 + 0.349178 vice_captain_346_26
- + 0.230287 vice_captain_346_27 + 0.318427 vice_captain_347_24
- + 0.604445 vice_captain_347_25 + 0.308611 vice_captain_347_26
- + 0.315322 vice_captain_347_27 + 0.410032 vice_captain_349_24
- + 0.787918 vice_captain_349_25 + 0.387959 vice_captain_349_26
- + 0.405839 vice_captain_349_27 + 0.306225 vice_captain_34_24
- + 0.296389 vice_captain_34_25 + 0.323431 vice_captain_34_26
- + 0.310054 vice_captain_34_27 + 0.38323 vice_captain_350_24
- + 0.682028 vice_captain_350_25 + 0.353625 vice_captain_350_26
- + 0.358273 vice_captain_350_27 + 0.169494 vice_captain_351_24
- + 0.166104 vice_captain_351_25 + 0.178088 vice_captain_351_26
- + 0.169483 vice_captain_351_27 + 0.395808 vice_captain_352_24
- + 0.746523 vice_captain_352_25 + 0.382151 vice_captain_352_26
- + 0.391487 vice_captain_352_27 + 0.495494 vice_captain_353_24
- + 0.942604 vice_captain_353_25 + 0.467534 vice_captain_353_26
- + 0.487462 vice_captain_353_27 + 0.376949 vice_captain_354_24
- + 0.746562 vice_captain_354_25 + 0.37509 vice_captain_354_26
- + 0.391512 vice_captain_354_27 + 0.617171 vice_captain_355_24
- + 1.162672 vice_captain_355_25 + 0.599516 vice_captain_355_26
- + 0.611721 vice_captain_355_27 + 0.253556 vice_captain_356_24
- + 0.50327 vice_captain_356_25 + 0.254224 vice_captain_356_26
- + 0.262702 vice_captain_356_27 + 0.273586 vice_captain_358_24
- + 0.488761 vice_captain_358_25 + 0.25712 vice_captain_358_26
- + 0.260606 vice_captain_358_27 + 0.261381 vice_captain_360_24
- + 0.260326 vice_captain_360_25 + 0.258818 vice_captain_360_26
- + 0.254739 vice_captain_360_27 + 0.324363 vice_captain_361_24
- + 0.615848 vice_captain_361_25 + 0.314405 vice_captain_361_26
- + 0.321212 vice_captain_361_27 + 0.473232 vice_captain_362_24
- + 0.419826 vice_captain_362_25 + 0.486797 vice_captain_362_27
- + 0.152126 vice_captain_364_24 + 0.162047 vice_captain_364_25
- + 0.165105 vice_captain_364_26 + 0.162644 vice_captain_364_27
- + 0.424354 vice_captain_365_24 + 0.825932 vice_captain_365_25
- + 0.410952 vice_captain_365_26 + 0.427885 vice_captain_365_27
- + 0.165349 vice_captain_366_24 + 0.292611 vice_captain_366_25
- + 0.157114 vice_captain_366_26 + 0.159362 vice_captain_366_27
- + 0.291434 vice_captain_368_24 + 0.510434 vice_captain_368_25
- + 0.269166 vice_captain_368_26 + 0.272944 vice_captain_368_27
- + 0.437682 vice_captain_369_24 + 0.753013 vice_captain_369_25
- + 0.388237 vice_captain_369_26 + 0.393429 vice_captain_369_27
- + 0.301881 vice_captain_36_24 + 0.30365 vice_captain_36_25
- + 0.353706 vice_captain_36_26 + 0.288736 vice_captain_36_27
- + 0.105477 vice_captain_371_24 + 0.111427 vice_captain_371_25
- + 0.116277 vice_captain_371_26 + 0.101719 vice_captain_371_27
- + 0.235121 vice_captain_372_24 + 0.267419 vice_captain_372_25
- + 0.295472 vice_captain_372_26 + 0.253996 vice_captain_372_27
- + 0.515274 vice_captain_373_24 + 0.56804 vice_captain_373_25
- + 0.614316 vice_captain_373_26 + 0.489571 vice_captain_373_27
- + 0.278466 vice_captain_376_24 + 0.299624 vice_captain_376_25
- + 0.320312 vice_captain_376_26 + 0.263107 vice_captain_376_27
- + 0.261771 vice_captain_377_24 + 0.277266 vice_captain_377_25
- + 0.338539 vice_captain_377_26 + 0.229747 vice_captain_377_27
- + 0.32012 vice_captain_378_24 + 0.316931 vice_captain_378_25
- + 0.299869 vice_captain_378_26 + 0.322555 vice_captain_378_27
- + 0.286921 vice_captain_379_24 + 0.306862 vice_captain_379_25
- + 0.328143 vice_captain_379_26 + 0.27289 vice_captain_379_27
- + 0.159551 vice_captain_37_24 + 0.155654 vice_captain_37_25
- + 0.175648 vice_captain_37_26 + 0.139693 vice_captain_37_27
- + 0.150089 vice_captain_380_24 + 0.150445 vice_captain_380_25
- + 0.19227 vice_captain_380_26 + 0.108905 vice_captain_380_27
- + 0.308226 vice_captain_382_24 + 0.330868 vice_captain_382_25
- + 0.35234 vice_captain_382_26 + 0.291732 vice_captain_382_27
- + 0.286361 vice_captain_384_24 + 0.301281 vice_captain_384_25
- + 0.330984 vice_captain_384_26 + 0.261887 vice_captain_384_27
- + 0.318954 vice_captain_385_24 + 0.332816 vice_captain_385_25
- + 0.311212 vice_captain_385_26 + 0.310498 vice_captain_385_27
- + 0.208193 vice_captain_386_24 + 0.219473 vice_captain_386_25
- + 0.267344 vice_captain_386_26 + 0.183637 vice_captain_386_27
- + 0.205571 vice_captain_387_24 + 0.21858 vice_captain_387_25
- + 0.267982 vice_captain_387_26 + 0.186515 vice_captain_387_27
- + 0.186861 vice_captain_388_24 + 0.200798 vice_captain_388_25
- + 0.212111 vice_captain_388_26 + 0.188522 vice_captain_388_27
- + 0.142056 vice_captain_389_24 + 0.147808 vice_captain_389_25
- + 0.182404 vice_captain_389_26 + 0.113277 vice_captain_389_27
- + 0.263649 vice_captain_38_24 + 0.259192 vice_captain_38_25
- + 0.272911 vice_captain_38_26 + 0.243827 vice_captain_38_27
- + 0.153606 vice_captain_391_24 + 0.16581 vice_captain_391_25
- + 0.208069 vice_captain_391_26 + 0.139605 vice_captain_391_27
- + 0.300011 vice_captain_392_24 + 0.324169 vice_captain_392_25
- + 0.344419 vice_captain_392_26 + 0.285837 vice_captain_392_27
- + 0.269283 vice_captain_393_24 + 0.40579 vice_captain_393_25
- + 0.232644 vice_captain_393_27 + 0.203511 vice_captain_395_24
- + 0.219665 vice_captain_395_25 + 0.271234 vice_captain_395_26
- + 0.188429 vice_captain_395_27 + 0.399223 vice_captain_396_24
- + 0.441969 vice_captain_396_25 + 0.480574 vice_captain_396_26
- + 0.396778 vice_captain_396_27 + 0.210393 vice_captain_398_24
- + 0.223681 vice_captain_398_25 + 0.278935 vice_captain_398_26
- + 0.183282 vice_captain_398_27 + 0.129475 vice_captain_399_24
- + 0.134793 vice_captain_399_25 + 0.155659 vice_captain_399_26
- + 0.122618 vice_captain_399_27 + 0.220328 vice_captain_39_24
- + 0.235799 vice_captain_39_25 + 0.252396 vice_captain_39_26
- + 0.197207 vice_captain_39_27 + 0.102189 vice_captain_3_24
- + 0.103266 vice_captain_3_25 + 0.107932 vice_captain_3_26
- + 0.105935 vice_captain_3_27 + 0.233709 vice_captain_401_24
- + 0.244834 vice_captain_401_25 + 0.294781 vice_captain_401_26
- + 0.19838 vice_captain_401_27 + 0.367213 vice_captain_402_24
- + 0.401317 vice_captain_402_25 + 0.346189 vice_captain_402_26
- + 0.393734 vice_captain_402_27 + 0.168403 vice_captain_403_24
- + 0.176096 vice_captain_403_25 + 0.155135 vice_captain_403_26
- + 0.169141 vice_captain_403_27 + 0.311659 vice_captain_405_24
- + 0.312001 vice_captain_405_25 + 0.229812 vice_captain_405_26
- + 0.322617 vice_captain_405_27 + 0.398689 vice_captain_406_24
- + 0.427503 vice_captain_406_25 + 0.364625 vice_captain_406_26
- + 0.409068 vice_captain_406_27 + 0.333036 vice_captain_407_24
- + 0.333094 vice_captain_407_25 + 0.241924 vice_captain_407_26
- + 0.345041 vice_captain_407_27 + 0.343147 vice_captain_409_24
- + 0.335429 vice_captain_409_25 + 0.324866 vice_captain_409_26
- + 0.326882 vice_captain_409_27 + 0.312386 vice_captain_411_24
- + 0.305671 vice_captain_411_25 + 0.29648 vice_captain_411_26
- + 0.298234 vice_captain_411_27 + 0.37021 vice_captain_412_24
- + 0.400204 vice_captain_412_25 + 0.338407 vice_captain_412_26
- + 0.385266 vice_captain_412_27 + 0.14906 vice_captain_414_24
- + 0.150797 vice_captain_414_25 + 0.135889 vice_captain_414_26
- + 0.143911 vice_captain_414_27 + 0.43993 vice_captain_415_24
- + 0.429756 vice_captain_415_25 + 0.393618 vice_captain_415_26
- + 0.464413 vice_captain_415_27 + 0.237791 vice_captain_417_24
- + 0.232121 vice_captain_417_25 + 0.166122 vice_captain_417_26
- + 0.236766 vice_captain_417_27 + 0.264233 vice_captain_419_24
- + 0.256882 vice_captain_419_25 + 0.183228 vice_captain_419_26
- + 0.254591 vice_captain_419_27 + 0.254028 vice_captain_41_24
- + 0.254179 vice_captain_41_25 + 0.284941 vice_captain_41_26
- + 0.236847 vice_captain_41_27 + 0.383847 vice_captain_421_24
- + 0.398561 vice_captain_421_25 + 0.337201 vice_captain_421_26
- + 0.366058 vice_captain_421_27 + 0.241092 vice_captain_423_24
- + 0.250972 vice_captain_423_25 + 0.212701 vice_captain_423_26
- + 0.233188 vice_captain_423_27 + 0.119836 vice_captain_425_24
- + 0.124248 vice_captain_425_25 + 0.112225 vice_captain_425_26
- + 0.120259 vice_captain_425_27 + 0.422684 vice_captain_427_24
- + 0.409366 vice_captain_427_25 + 0.29252 vice_captain_427_26
- + 0.394518 vice_captain_427_27 + 0.196636 vice_captain_428_25
- + 0.13448 vice_captain_428_26 + 0.194703 vice_captain_428_27
- + 0.304052 vice_captain_42_24 + 0.297078 vice_captain_42_25
- + 0.332858 vice_captain_42_26 + 0.268515 vice_captain_42_27
- + 0.496528 vice_captain_430_24 + 0.481406 vice_captain_430_25
- + 0.33427 vice_captain_430_26 + 0.482785 vice_captain_430_27
- + 0.312843 vice_captain_432_24 + 0.331975 vice_captain_432_25
- + 0.279845 vice_captain_432_26 + 0.314676 vice_captain_432_27
- + 0.374021 vice_captain_433_24 + 0.364773 vice_captain_433_25
- + 0.333464 vice_captain_433_26 + 0.398292 vice_captain_433_27
- + 0.12596 vice_captain_435_24 + 0.123184 vice_captain_435_25
- + 0.116996 vice_captain_435_26 + 0.121577 vice_captain_435_27
- + 0.257271 vice_captain_436_24 + 0.268947 vice_captain_436_25
- + 0.22525 vice_captain_436_26 + 0.220526 vice_captain_436_27
- + 0.325425 vice_captain_437_24 + 0.31304 vice_captain_437_25
- + 0.292563 vice_captain_437_26 + 0.30167 vice_captain_437_27
- + 0.264603 vice_captain_439_25 + 0.221862 vice_captain_439_26
- + 0.21954 vice_captain_439_27 + 0.480758 vice_captain_43_24
- + 0.454793 vice_captain_43_25 + 0.49871 vice_captain_43_26
- + 0.476513 vice_captain_43_27 + 0.244674 vice_captain_442_24
- + 0.240536 vice_captain_442_25 + 0.227365 vice_captain_442_26
- + 0.242991 vice_captain_442_27 + 0.226691 vice_captain_445_24
- + 0.23426 vice_captain_445_25 + 0.196842 vice_captain_445_26
- + 0.194809 vice_captain_445_27 + 0.256436 vice_captain_446_24
- + 0.255972 vice_captain_446_25 + 0.241961 vice_captain_446_26
- + 0.249096 vice_captain_446_27 + 0.430617 vice_captain_447_24
- + 0.424047 vice_captain_447_25 + 0.39609 vice_captain_447_26
- + 0.42743 vice_captain_447_27 + 0.284194 vice_captain_448_24
- + 0.319302 vice_captain_448_25 + 0.284808 vice_captain_448_26
- + 0.287182 vice_captain_448_27 + 0.313647 vice_captain_449_24
- + 0.356846 vice_captain_449_25 + 0.314377 vice_captain_449_26
- + 0.314445 vice_captain_449_27 + 0.359313 vice_captain_450_24
- + 0.374177 vice_captain_450_25 + 0.370885 vice_captain_450_27
- + 0.150733 vice_captain_451_24 + 0.147344 vice_captain_451_25
- + 0.139787 vice_captain_451_26 + 0.145381 vice_captain_451_27
- + 0.279224 vice_captain_453_24 + 0.275355 vice_captain_453_25
- + 0.257682 vice_captain_453_26 + 0.266722 vice_captain_453_27
- + 0.144585 vice_captain_456_24 + 0.14436 vice_captain_456_25
- + 0.137568 vice_captain_456_26 + 0.141027 vice_captain_456_27
- + 0.246129 vice_captain_457_24 + 0.252027 vice_captain_457_25
- + 0.214107 vice_captain_457_26 + 0.212046 vice_captain_457_27
- + 0.208001 vice_captain_458_24 + 0.205956 vice_captain_458_25
- + 0.194819 vice_captain_458_26 + 0.200788 vice_captain_458_27
- + 0.158289 vice_captain_45_24 + 0.154392 vice_captain_45_25
- + 0.174387 vice_captain_45_26 + 0.138431 vice_captain_45_27
- + 0.181288 vice_captain_460_24 + 0.198863 vice_captain_460_25
- + 0.150144 vice_captain_460_26 + 0.145264 vice_captain_460_27
- + 0.267226 vice_captain_465_24 + 0.2807 vice_captain_465_25
- + 0.238774 vice_captain_465_26 + 0.237355 vice_captain_465_27
- + 0.157614 vice_captain_466_24 + 0.156405 vice_captain_466_25
- + 0.152515 vice_captain_466_26 + 0.157607 vice_captain_466_27
- + 0.205952 vice_captain_467_24 + 0.22106 vice_captain_467_25
- + 0.190394 vice_captain_467_26 + 0.190493 vice_captain_467_27
- + 0.321965 vice_captain_468_24 + 0.311151 vice_captain_468_25
- + 0.290812 vice_captain_468_26 + 0.29952 vice_captain_468_27
- + 0.107946 vice_captain_46_24 + 0.106486 vice_captain_46_25
- + 0.113335 vice_captain_46_26 + 0.111846 vice_captain_46_27
- + 0.247099 vice_captain_470_24 + 0.244958 vice_captain_470_25
- + 0.233403 vice_captain_470_26 + 0.247216 vice_captain_470_27
- + 0.25854 vice_captain_471_24 + 0.259391 vice_captain_471_25
- + 0.297824 vice_captain_471_26 + 0.265164 vice_captain_471_27
- + 0.30626 vice_captain_472_24 + 0.30384 vice_captain_472_25
- + 0.313798 vice_captain_472_26 + 0.285201 vice_captain_472_27
- + 0.186357 vice_captain_473_24 + 0.187366 vice_captain_473_25
- + 0.214512 vice_captain_473_26 + 0.191461 vice_captain_473_27
- + 0.24201 vice_captain_475_24 + 0.259129 vice_captain_475_25
- + 0.260155 vice_captain_475_26 + 0.292297 vice_captain_475_27
- + 0.229608 vice_captain_476_24 + 0.235871 vice_captain_476_25
- + 0.276927 vice_captain_476_26 + 0.251761 vice_captain_476_27
- + 0.140292 vice_captain_477_24 + 0.147139 vice_captain_477_25
- + 0.148493 vice_captain_477_26 + 0.132439 vice_captain_477_27
- + 0.122061 vice_captain_478_24 + 0.121319 vice_captain_478_25
- + 0.120404 vice_captain_478_26 + 0.118383 vice_captain_478_27
- + 0.30626 vice_captain_479_24 + 0.30384 vice_captain_479_25
- + 0.313798 vice_captain_479_26 + 0.285201 vice_captain_479_27
- + 0.259383 vice_captain_47_24 + 0.25418 vice_captain_47_25
- + 0.277305 vice_captain_47_26 + 0.270579 vice_captain_47_27
- + 0.168365 vice_captain_481_24 + 0.167112 vice_captain_481_25
- + 0.165567 vice_captain_481_26 + 0.162155 vice_captain_481_27
- + 0.361923 vice_captain_482_24 + 0.358958 vice_captain_482_25
- + 0.37116 vice_captain_482_26 + 0.336121 vice_captain_482_27
- + 0.170974 vice_captain_483_24 + 0.174895 vice_captain_483_25
- + 0.174339 vice_captain_483_26 + 0.155709 vice_captain_483_27
- + 0.191691 vice_captain_484_24 + 0.190957 vice_captain_484_25
- + 0.219664 vice_captain_484_26 + 0.195287 vice_captain_484_27
- + 0.289774 vice_captain_485_24 + 0.298487 vice_captain_485_25
- + 0.298936 vice_captain_485_26 + 0.266273 vice_captain_485_27
- + 0.092012 vice_captain_487_24 + 0.102308 vice_captain_487_25
- + 0.130887 vice_captain_487_26 + 0.119187 vice_captain_487_27
- + 0.252457 vice_captain_488_24 + 0.255577 vice_captain_488_25
- + 0.256943 vice_captain_488_26 + 0.251359 vice_captain_488_27
- + 0.153956 vice_captain_489_24 + 0.157318 vice_captain_489_25
- + 0.158204 vice_captain_489_26 + 0.157432 vice_captain_489_27
- + 0.341301 vice_captain_48_24 + 0.343284 vice_captain_48_25
- + 0.389669 vice_captain_48_26 + 0.323985 vice_captain_48_27
- + 0.173628 vice_captain_490_24 + 0.180092 vice_captain_490_25
- + 0.182081 vice_captain_490_26 + 0.166507 vice_captain_490_27
- + 0.30384 vice_captain_491_24 + 0.298234 vice_captain_491_25
- + 0.320049 vice_captain_491_27 + 0.190689 vice_captain_492_24
- + 0.201719 vice_captain_492_25 + 0.201794 vice_captain_492_27
- + 0.23189 vice_captain_493_24 + 0.238239 vice_captain_493_25
- + 0.23445 vice_captain_493_27 + 0.164427 vice_captain_494_24
- + 0.171917 vice_captain_494_25 + 0.174788 vice_captain_494_27
- + 0.261079 vice_captain_495_24 + 0.30657 vice_captain_495_25
- + 0.331043 vice_captain_495_27 + 0.200017 vice_captain_497_24
- + 0.238707 vice_captain_497_25 + 0.261243 vice_captain_497_27
- + 0.30245 vice_captain_498_24 + 0.296874 vice_captain_498_25
- + 0.318571 vice_captain_498_27 + 0.256338 vice_captain_499_24
- + 0.270382 vice_captain_499_25 + 0.272138 vice_captain_499_27
- + 0.389821 vice_captain_49_24 + 0.369361 vice_captain_49_25
- + 0.405916 vice_captain_49_26 + 0.377206 vice_captain_49_27
- + 0.173555 vice_captain_4_24 + 0.17645 vice_captain_4_25
- + 0.188989 vice_captain_4_26 + 0.183623 vice_captain_4_27
- + 0.365785 vice_captain_501_24 + 0.383137 vice_captain_501_25
- + 0.382732 vice_captain_501_27 + 0.441022 vice_captain_504_24
- + 0.454818 vice_captain_504_25 + 0.444916 vice_captain_504_27
- + 0.353201 vice_captain_506_24 + 0.422329 vice_captain_506_25
- + 0.460761 vice_captain_506_27 + 0.22988 vice_captain_508_24
- + 0.362609 vice_captain_508_25 + 0.205451 vice_captain_508_26
- + 0.206025 vice_captain_508_27 + 0.422129 vice_captain_509_24
- + 0.423873 vice_captain_509_25 + 0.415103 vice_captain_509_27
- + 0.459832 vice_captain_50_24 + 0.434699 vice_captain_50_25
- + 0.458037 vice_captain_50_26 + 0.429088 vice_captain_50_27
- + 0.230541 vice_captain_511_24 + 0.276769 vice_captain_511_25
- + 0.305357 vice_captain_511_27 + 0.236787 vice_captain_513_24
- + 0.249 vice_captain_513_25 + 0.248513 vice_captain_513_27
- + 0.17645 vice_captain_515_24 + 0.185011 vice_captain_515_25
- + 0.185619 vice_captain_515_27 + 0.530394 vice_captain_516_24
- + 0.549028 vice_captain_516_25 + 0.538829 vice_captain_516_27
- + 0.157693 vice_captain_517_24 + 0.201576 vice_captain_517_25
- + 0.142176 vice_captain_517_27 + 0.15072 vice_captain_518_24
- + 0.193504 vice_captain_518_25 + 0.13626 vice_captain_518_27
- + 0.295555 vice_captain_519_24 + 0.345497 vice_captain_519_25
- + 0.371501 vice_captain_519_27 + 0.369148 vice_captain_520_24
- + 0.361938 vice_captain_520_25 + 0.389995 vice_captain_520_27
- + 0.306956 vice_captain_522_24 + 0.354021 vice_captain_522_25
- + 0.334647 vice_captain_522_26 + 0.289013 vice_captain_522_27
- + 0.275525 vice_captain_523_24 + 0.297375 vice_captain_523_25
- + 0.291477 vice_captain_523_26 + 0.319083 vice_captain_523_27
- + 0.33003 vice_captain_524_24 + 0.363657 vice_captain_524_25
- + 0.34016 vice_captain_524_26 + 0.378523 vice_captain_524_27
- + 0.305679 vice_captain_525_24 + 0.326709 vice_captain_525_25
- + 0.326847 vice_captain_525_26 + 0.312114 vice_captain_525_27
- + 0.474792 vice_captain_526_24 + 0.522419 vice_captain_526_25
- + 0.531367 vice_captain_526_26 + 0.51046 vice_captain_526_27
- + 0.192671 vice_captain_527_24 + 0.21122 vice_captain_527_25
- + 0.217641 vice_captain_527_26 + 0.215049 vice_captain_527_27
- + 0.25925 vice_captain_528_24 + 0.308203 vice_captain_528_25
- + 0.298689 vice_captain_528_26 + 0.262924 vice_captain_528_27
- + 0.245539 vice_captain_530_24 + 0.295685 vice_captain_530_25
- + 0.281845 vice_captain_530_26 + 0.242713 vice_captain_530_27
- + 0.270725 vice_captain_532_24 + 0.323055 vice_captain_532_25
- + 0.312069 vice_captain_532_26 + 0.274107 vice_captain_532_27
- + 0.324094 vice_captain_533_24 + 0.35764 vice_captain_533_25
- + 0.334199 vice_captain_533_26 + 0.37247 vice_captain_533_27
- + 0.198878 vice_captain_534_24 + 0.209502 vice_captain_534_25
- + 0.210516 vice_captain_534_26 + 0.203514 vice_captain_534_27
- + 0.231726 vice_captain_535_24 + 0.248679 vice_captain_535_25
- + 0.241154 vice_captain_535_26 + 0.267863 vice_captain_535_27
- + 0.190882 vice_captain_536_24 + 0.233052 vice_captain_536_25
- + 0.226228 vice_captain_536_26 + 0.198807 vice_captain_536_27
- + 0.12011 vice_captain_538_24 + 0.132922 vice_captain_538_25
- + 0.132401 vice_captain_538_26 + 0.144105 vice_captain_538_27
- + 0.378775 vice_captain_539_24 + 0.402847 vice_captain_539_25
- + 0.403026 vice_captain_539_26 + 0.383991 vice_captain_539_27
- + 0.310312 vice_captain_53_24 + 0.296067 vice_captain_53_25
- + 0.321518 vice_captain_53_26 + 0.301528 vice_captain_53_27
- + 0.368889 vice_captain_540_24 + 0.375679 vice_captain_540_25
- + 0.404336 vice_captain_540_26 + 0.396424 vice_captain_540_27
- + 0.355572 vice_captain_542_24 + 0.38137 vice_captain_542_25
- + 0.385906 vice_captain_542_26 + 0.372354 vice_captain_542_27
- + 0.278101 vice_captain_544_24 + 0.333217 vice_captain_544_25
- + 0.325455 vice_captain_544_26 + 0.289828 vice_captain_544_27
- + 0.266287 vice_captain_545_24 + 0.209541 vice_captain_545_25
- + 0.313034 vice_captain_545_26 + 0.199324 vice_captain_545_27
- + 0.29947 vice_captain_546_24 + 0.309067 vice_captain_546_25
- + 0.319138 vice_captain_546_26 + 0.290987 vice_captain_546_27
- + 0.183773 vice_captain_547_24 + 0.145832 vice_captain_547_25
- + 0.199443 vice_captain_547_26 + 0.134028 vice_captain_547_27
- + 0.196471 vice_captain_548_24 + 0.1593 vice_captain_548_25
- + 0.2335 vice_captain_548_26 + 0.151585 vice_captain_548_27
- + 0.135034 vice_captain_54_24 + 0.134071 vice_captain_54_25
- + 0.137977 vice_captain_54_26 + 0.129927 vice_captain_54_27
- + 0.3289 vice_captain_551_24 + 0.2599 vice_captain_551_25
- + 0.376685 vice_captain_551_26 + 0.246973 vice_captain_551_27
- + 0.271314 vice_captain_553_24 + 0.459394 vice_captain_553_25
- + 0.240334 vice_captain_553_27 + 0.30674 vice_captain_554_24
- + 0.288421 vice_captain_554_25 + 0.288759 vice_captain_554_26
- + 0.279084 vice_captain_554_27 + 0.108066 vice_captain_555_24
- + 0.104169 vice_captain_555_25 + 0.109372 vice_captain_555_26
- + 0.102859 vice_captain_555_27 + 0.378978 vice_captain_557_24
- + 0.356218 vice_captain_557_25 + 0.385281 vice_captain_557_26
- + 0.348904 vice_captain_557_27 + 0.267931 vice_captain_559_24
- + 0.260917 vice_captain_559_25 + 0.282016 vice_captain_559_26
- + 0.266108 vice_captain_559_27 + 0.279638 vice_captain_55_24
- + 0.272726 vice_captain_55_25 + 0.302004 vice_captain_55_26
- + 0.295835 vice_captain_55_27 + 0.218354 vice_captain_560_24
- + 0.172681 vice_captain_560_25 + 0.255585 vice_captain_560_26
- + 0.155266 vice_captain_560_27 + 0.123166 vice_captain_561_24
- + 0.118859 vice_captain_561_25 + 0.124609 vice_captain_561_26
- + 0.117412 vice_captain_561_27 + 0.356202 vice_captain_563_24
- + 0.285437 vice_captain_563_25 + 0.390377 vice_captain_563_26
- + 0.259947 vice_captain_563_27 + 0.29339 vice_captain_564_24
- + 0.302911 vice_captain_564_25 + 0.312903 vice_captain_564_26
- + 0.284973 vice_captain_564_27 + 0.329456 vice_captain_565_24
- + 0.318381 vice_captain_565_25 + 0.349638 vice_captain_565_26
- + 0.324219 vice_captain_565_27 + 0.3033 vice_captain_566_24
- + 0.569698 vice_captain_566_25 + 0.272306 vice_captain_566_26
- + 0.281353 vice_captain_566_27 + 0.356736 vice_captain_567_24
- + 0.34211 vice_captain_567_25 + 0.371242 vice_captain_567_26
- + 0.336621 vice_captain_567_27 + 0.357654 vice_captain_569_24
- + 0.370231 vice_captain_569_25 + 0.383431 vice_captain_569_26
- + 0.346536 vice_captain_569_27 + 0.343964 vice_captain_570_24
- + 0.325851 vice_captain_570_25 + 0.34949 vice_captain_570_26
- + 0.318363 vice_captain_570_27 + 0.291582 vice_captain_572_24
- + 0.238108 vice_captain_572_25 + 0.335763 vice_captain_572_26
- + 0.227509 vice_captain_572_27 + 0.302837 vice_captain_573_24
- + 0.246478 vice_captain_573_25 + 0.356407 vice_captain_573_26
- + 0.23756 vice_captain_573_27 + 0.132163 vice_captain_574_24
- + 0.129877 vice_captain_574_25 + 0.135549 vice_captain_574_26
- + 0.12845 vice_captain_574_27 + 0.232336 vice_captain_576_24
- + 0.238671 vice_captain_576_25 + 0.275136 vice_captain_576_26
- + 0.251003 vice_captain_576_27 + 0.203783 vice_captain_577_24
- + 0.240741 vice_captain_577_25 + 0.23124 vice_captain_577_26
- + 0.204377 vice_captain_577_27 + 0.129011 vice_captain_578_24
- + 0.134698 vice_captain_578_25 + 0.143385 vice_captain_578_26
- + 0.142658 vice_captain_578_27 + 0.266219 vice_captain_579_24
- + 0.320049 vice_captain_579_25 + 0.309609 vice_captain_579_26
- + 0.326691 vice_captain_579_27 + 0.312386 vice_captain_580_24
- + 0.305671 vice_captain_580_25 + 0.29648 vice_captain_580_26
- + 0.298234 vice_captain_580_27 + 0.169219 vice_captain_581_24
- + 0.162481 vice_captain_581_25 + 0.110935 vice_captain_581_26
- + 0.160878 vice_captain_581_27 + 0.209564 vice_captain_582_24
- + 0.412496 vice_captain_582_25 + 0.213139 vice_captain_582_27
- + 0.308604 vice_captain_584_24 + 0.306979 vice_captain_584_25
- + 0.339957 vice_captain_584_26 + 0.280652 vice_captain_584_27
- + 0.196175 vice_captain_586_24 + 0.389889 vice_captain_586_25
- + 0.199704 vice_captain_586_27 + 0.177745 vice_captain_587_24
- + 0.180003 vice_captain_587_25 + 0.180884 vice_captain_587_26
- + 0.179808 vice_captain_587_27 + 0.187425 vice_captain_588_24
- + 0.304137 vice_captain_588_25 + 0.23 vice_captain_588_26
- + 0.2827 vice_captain_588_27 + 0.249427 vice_captain_58_24
- + 0.243274 vice_captain_58_25 + 0.263059 vice_captain_58_26
- + 0.253867 vice_captain_58_27 + 0.45779 vice_captain_590_24
- + 0.471878 vice_captain_590_25 + 0.470234 vice_captain_590_26
- + 0.449827 vice_captain_590_27 + 0.440729 vice_captain_591_24
- + 0.399483 vice_captain_591_25 + 0.408627 vice_captain_591_26
- + 0.418826 vice_captain_591_27 + 0.182449 vice_captain_592_24
- + 0.18462 vice_captain_592_25 + 0.215005 vice_captain_592_26
- + 0.194518 vice_captain_592_27 + 0.2776 vice_captain_594_24
- + 0.288278 vice_captain_594_25 + 0.296022 vice_captain_594_26
- + 0.309866 vice_captain_594_27 + 0.223066 vice_captain_595_24
- + 0.179928 vice_captain_595_25 + 0.183979 vice_captain_595_26
- + 0.265259 vice_captain_595_27 + 0.384654 vice_captain_596_24
- + 0.347346 vice_captain_596_25 + 0.373756 vice_captain_596_26
- + 0.374858 vice_captain_596_27 + 0.349237 vice_captain_597_24
- + 0.368611 vice_captain_597_25 + 0.407179 vice_captain_597_26
- + 0.317457 vice_captain_597_27 + 0.19674 vice_captain_598_24
- + 0.162392 vice_captain_598_25 + 0.243373 vice_captain_598_26
- + 0.161726 vice_captain_598_27 + 0.409473 vice_captain_599_24
- + 0.388769 vice_captain_599_25 + 0.427813 vice_captain_599_26
- + 0.412653 vice_captain_599_27 + 0.388257 vice_captain_5_24
- + 0.475449 vice_captain_5_25 + 0.420958 vice_captain_5_26
- + 0.400188 vice_captain_5_27 + 0.243584 vice_captain_601_24
- + 0.281241 vice_captain_601_25 + 0.269539 vice_captain_601_26
- + 0.286209 vice_captain_601_27 + 0.24414 vice_captain_602_24
- + 0.353116 vice_captain_602_25 + 0.2021 vice_captain_602_27
- + 0.277209 vice_captain_603_24 + 0.295715 vice_captain_603_25
- + 0.250152 vice_captain_603_26 + 0.282772 vice_captain_603_27
- + 0.272914 vice_captain_604_25 + 0.232846 vice_captain_604_26
- + 0.230668 vice_captain_604_27 + 0.214348 vice_captain_606_24
- + 0.246236 vice_captain_606_25 + 0.288208 vice_captain_606_26
- + 0.259202 vice_captain_606_27 + 0.327717 vice_captain_607_24
- + 0.309735 vice_captain_607_25 + 0.331356 vice_captain_607_26
- + 0.335362 vice_captain_607_27 + 0.16962 vice_captain_608_24
- + 0.182975 vice_captain_608_25 + 0.188176 vice_captain_608_26
- + 0.209814 vice_captain_608_27 + 0.51838 vice_captain_60_24
- + 0.528556 vice_captain_60_25 + 0.611817 vice_captain_60_26
- + 0.524102 vice_captain_60_27 + 0.248309 vice_captain_610_25
- + 0.232028 vice_captain_610_26 + 0.23155 vice_captain_610_27
- + 0.293875 vice_captain_611_24 + 0.212292 vice_captain_611_25
- + 0.285808 vice_captain_611_27 + 0.367563 vice_captain_614_24
- + 0.738106 vice_captain_614_25 + 0.353554 vice_captain_614_27
- + 0.146821 vice_captain_615_24 + 0.149794 vice_captain_615_25
- + 0.161735 vice_captain_615_26 + 0.153946 vice_captain_615_27
- + 0.387929 vice_captain_616_24 + 0.6784 vice_captain_616_25
- + 0.35369 vice_captain_616_26 + 0.358423 vice_captain_616_27
- + 0.32058 vice_captain_617_24 + 0.335041 vice_captain_617_25
- + 0.387415 vice_captain_617_26 + 0.30737 vice_captain_617_27
- + 0.124237 vice_captain_618_24 + 0.12031 vice_captain_618_25
- + 0.126023 vice_captain_618_26 + 0.122061 vice_captain_618_27
- + 0.154392 vice_captain_619_24 + 0.113269 vice_captain_619_25
- + 0.111454 vice_captain_619_26 + 0.173974 vice_captain_619_27
- + 0.258967 vice_captain_621_24 + 0.273576 vice_captain_621_25
- + 0.28372 vice_captain_621_26 + 0.270265 vice_captain_621_27
- + 0.17441 vice_captain_622_24 + 0.186842 vice_captain_622_25
- + 0.211724 vice_captain_622_26 + 0.15122 vice_captain_622_27
- + 0.141911 vice_captain_623_24 + 0.132563 vice_captain_623_25
- + 0.140345 vice_captain_623_27 + 0.106011 vice_captain_624_24
- + 0.119528 vice_captain_624_25 + 0.119372 vice_captain_624_26
- + 0.127745 vice_captain_624_27 + 0.165945 vice_captain_625_24
- + 0.150165 vice_captain_625_25 + 0.138188 vice_captain_625_26
- + 0.137836 vice_captain_625_27 + 0.208123 vice_captain_626_24
- + 0.377428 vice_captain_626_25 + 0.199202 vice_captain_626_27
- + 0.113611 vice_captain_627_24 + 0.232589 vice_captain_627_25
- + 0.121679 vice_captain_627_27 + 0.118853 vice_captain_629_24
- + 0.231522 vice_captain_629_25 + 0.117191 vice_captain_629_27
- + 0.210404 vice_captain_62_24 + 0.202574 vice_captain_62_25
- + 0.190016 vice_captain_62_26 + 0.186428 vice_captain_62_27
- + 0.430825 vice_captain_630_24 + 0.775798 vice_captain_630_25
- + 0.371229 vice_captain_630_27 + 0.251192 vice_captain_631_24
- + 0.464904 vice_captain_631_25 + 0.243966 vice_captain_631_27
- + 0.111791 vice_captain_632_24 + 0.118463 vice_captain_632_25
- + 0.125018 vice_captain_632_26 + 0.112237 vice_captain_632_27
- + 0.232497 vice_captain_633_24 + 0.235485 vice_captain_633_25
- + 0.174918 vice_captain_633_26 + 0.246351 vice_captain_633_27
- + 0.168535 vice_captain_634_24 + 0.161835 vice_captain_634_25
- + 0.110575 vice_captain_634_26 + 0.16024 vice_captain_634_27
- + 0.245246 vice_captain_635_24 + 0.263396 vice_captain_635_25
- + 0.232427 vice_captain_635_26 + 0.257729 vice_captain_635_27
- + 0.290462 vice_captain_636_24 + 0.326691 vice_captain_636_25
- + 0.291095 vice_captain_636_26 + 0.293545 vice_captain_636_27
- + 0.156383 vice_captain_637_24 + 0.162316 vice_captain_637_25
- + 0.132984 vice_captain_637_26 + 0.13139 vice_captain_637_27
- + 0.275334 vice_captain_638_24 + 0.276779 vice_captain_638_25
- + 0.276658 vice_captain_638_26 + 0.272363 vice_captain_638_27
- + 0.259628 vice_captain_639_24 + 0.301539 vice_captain_639_25
- + 0.325588 vice_captain_639_27 + 0.302877 vice_captain_63_27
- + 0.152758 vice_captain_640_24 + 0.151797 vice_captain_640_25
- + 0.147198 vice_captain_640_27 + 0.175191 vice_captain_641_27
- + 0.269582 vice_captain_642_24 + 0.284481 vice_captain_642_25
- + 0.284582 vice_captain_642_26 + 0.274052 vice_captain_642_27
- + 0.183321 vice_captain_644_24 + 0.185829 vice_captain_644_25
- + 0.190184 vice_captain_644_26 + 0.204505 vice_captain_644_27
- + 0.150245 vice_captain_645_24 + 0.162653 vice_captain_645_25
- + 0.162049 vice_captain_645_26 + 0.172126 vice_captain_645_27
- + 0.283652 vice_captain_646_24 + 0.307281 vice_captain_646_25
- + 0.290462 vice_captain_646_26 + 0.30437 vice_captain_646_27
- + 0.285201 vice_captain_647_24 + 0.312386 vice_captain_647_25
- + 0.29339 vice_captain_647_26 + 0.324404 vice_captain_647_27
- + 0.132471 vice_captain_649_24 + 0.144539 vice_captain_649_25
- + 0.138516 vice_captain_649_26 + 0.15017 vice_captain_649_27
- + 0.219467 vice_captain_64_24 + 0.21105 vice_captain_64_25
- + 0.209013 vice_captain_64_26 + 0.220008 vice_captain_64_27
- + 0.101981 vice_captain_650_24 + 0.109574 vice_captain_650_25
- + 0.106652 vice_captain_650_26 + 0.110289 vice_captain_650_27
- + 0.127931 vice_captain_652_24 + 0.11917 vice_captain_652_25
- + 0.120199 vice_captain_652_26 + 0.121319 vice_captain_652_27
- + 0.138431 vice_captain_653_24 + 0.137836 vice_captain_653_25
- + 0.16109 vice_captain_653_26 + 0.141344 vice_captain_653_27
- + 0.142288 vice_captain_654_24 + 0.15892 vice_captain_654_25
- + 0.147666 vice_captain_654_26 + 0.144988 vice_captain_654_27
- + 0.163316 vice_captain_655_24 + 0.165787 vice_captain_655_25
- + 0.167501 vice_captain_655_26 + 0.168435 vice_captain_655_27
- + 0.124937 vice_captain_657_24 + 0.122746 vice_captain_657_25
- + 0.128467 vice_captain_657_26 + 0.122183 vice_captain_657_27
- + 0.146622 vice_captain_658_24 + 0.157687 vice_captain_658_25
- + 0.154499 vice_captain_658_26 + 0.143639 vice_captain_658_27
- + 0.304851 vice_captain_659_24 + 0.266219 vice_captain_659_25
- + 0.294966 vice_captain_659_27 + 0.295751 vice_captain_65_24
- + 0.293447 vice_captain_65_25 + 0.29471 vice_captain_65_26
- + 0.314879 vice_captain_65_27 + 0.240827 vice_captain_660_24
- + 0.254246 vice_captain_660_25 + 0.255366 vice_captain_660_26
- + 0.284147 vice_captain_660_27 + 0.376728 vice_captain_661_24
- + 0.428633 vice_captain_661_25 + 0.40819 vice_captain_661_26
- + 0.428559 vice_captain_661_27 + 0.167618 vice_captain_662_24
- + 0.153496 vice_captain_662_25 + 0.155155 vice_captain_662_26
- + 0.156961 vice_captain_662_27 + 0.302863 vice_captain_663_24
- + 0.305762 vice_captain_663_25 + 0.308031 vice_captain_663_26
- + 0.305527 vice_captain_663_27 + 0.54301 vice_captain_664_24
- + 0.567829 vice_captain_664_25 + 0.553857 vice_captain_664_26
- + 0.518432 vice_captain_664_27 + 0.339511 vice_captain_665_24
- + 0.681874 vice_captain_665_25 + 0.326099 vice_captain_665_27
- + 0.114499 vice_captain_666_24 + 0.115408 vice_captain_666_25
- + 0.116115 vice_captain_666_26 + 0.115533 vice_captain_666_27
- + 0.228853 vice_captain_668_24 + 0.439164 vice_captain_668_25
- + 0.223469 vice_captain_668_27 + 0.291397 vice_captain_669_24
- + 0.309585 vice_captain_669_25 + 0.33561 vice_captain_669_26
- + 0.266969 vice_captain_669_27 + 0.259292 vice_captain_66_24
- + 0.253073 vice_captain_66_25 + 0.250973 vice_captain_66_26
- + 0.263625 vice_captain_66_27 + 0.182682 vice_captain_671_24
- + 0.113358 vice_captain_671_25 + 0.157288 vice_captain_671_27
- + 0.196426 vice_captain_672_24 + 0.193829 vice_captain_672_25
- + 0.214892 vice_captain_672_26 + 0.208428 vice_captain_672_27
- + 0.156086 vice_captain_673_26 + 0.16369 vice_captain_673_27
- + 0.119827 vice_captain_674_24 + 0.166413 vice_captain_674_25
- + 0.188021 vice_captain_674_26 + 0.190523 vice_captain_674_27
- + 0.174245 vice_captain_675_24 + 0.18714 vice_captain_675_25
- + 0.189611 vice_captain_675_26 + 0.210722 vice_captain_675_27
- + 0.224153 vice_captain_676_24 + 0.269468 vice_captain_676_25
- + 0.262757 vice_captain_676_26 + 0.233829 vice_captain_676_27
- + 0.136286 vice_captain_677_24 + 0.133634 vice_captain_677_25
- + 0.139146 vice_captain_677_27 + 0.384969 vice_captain_678_24
- + 0.748423 vice_captain_678_25 + 0.373158 vice_captain_678_26
- + 0.388789 vice_captain_678_27 + 0.239442 vice_captain_679_24
- + 0.24677 vice_captain_679_25 + 0.208596 vice_captain_679_26
- + 0.210903 vice_captain_679_27 + 0.141595 vice_captain_681_24
- + 0.134925 vice_captain_681_25 + 0.1454 vice_captain_681_27
- + 0.19011 vice_captain_682_24 + 0.254523 vice_captain_682_25
- + 0.150165 vice_captain_682_27 + 0.122711 vice_captain_684_24
- + 0.238257 vice_captain_684_25 + 0.121269 vice_captain_684_26
- + 0.123883 vice_captain_684_27 + 0.115786 vice_captain_685_24
- + 0.12177 vice_captain_685_25 + 0.126107 vice_captain_685_26
- + 0.112197 vice_captain_685_27 + 0.351366 vice_captain_687_24
- + 0.30377 vice_captain_687_25 + 0.339188 vice_captain_687_27
- + 0.348775 vice_captain_688_24 + 0.327351 vice_captain_688_25
- + 0.310353 vice_captain_688_26 + 0.310654 vice_captain_688_27
- + 0.322338 vice_captain_689_24 + 0.345155 vice_captain_689_25
- + 0.348328 vice_captain_689_26 + 0.335704 vice_captain_689_27
- + 0.140596 vice_captain_690_24 + 0.152778 vice_captain_690_25
- + 0.160877 vice_captain_690_26 + 0.157566 vice_captain_690_27
- + 0.21318 vice_captain_691_24 + 0.23789 vice_captain_691_25
- + 0.240857 vice_captain_691_26 + 0.257271 vice_captain_691_27
- + 0.306685 vice_captain_692_24 + 0.302265 vice_captain_692_25
- + 0.312477 vice_captain_692_26 + 0.304848 vice_captain_692_27
- + 0.150935 vice_captain_694_24 + 0.164021 vice_captain_694_25
- + 0.169466 vice_captain_694_26 + 0.192872 vice_captain_694_27
- + 0.292061 vice_captain_695_24 + 0.307276 vice_captain_695_25
- + 0.337565 vice_captain_695_26 + 0.267103 vice_captain_695_27
- + 0.306042 vice_captain_696_24 + 0.322094 vice_captain_696_25
- + 0.28008 vice_captain_696_26 + 0.280829 vice_captain_696_27
- + 0.250333 vice_captain_697_24 + 0.201093 vice_captain_697_25
- + 0.282882 vice_captain_697_26 + 0.186367 vice_captain_697_27
- + 0.20584 vice_captain_698_24 + 0.196824 vice_captain_698_25
- + 0.208861 vice_captain_698_26 + 0.193795 vice_captain_698_27
- + 0.297054 vice_captain_699_24 + 0.299759 vice_captain_699_25
- + 0.338615 vice_captain_699_26 + 0.280314 vice_captain_699_27
- + 0.369195 vice_captain_6_24 + 0.380386 vice_captain_6_25
- + 0.410928 vice_captain_6_26 + 0.39762 vice_captain_6_27
- + 0.238976 vice_captain_700_24 + 0.259453 vice_captain_700_25
- + 0.270907 vice_captain_700_26 + 0.257146 vice_captain_700_27
- + 0.184548 vice_captain_701_24 + 0.356517 vice_captain_701_25
- + 0.182141 vice_captain_701_26 + 0.186883 vice_captain_701_27
- + 0.179863 vice_captain_703_24 + 0.192237 vice_captain_703_25
- + 0.232727 vice_captain_703_26 + 0.165772 vice_captain_703_27
- + 0.126688 vice_captain_704_24 + 0.135955 vice_captain_704_25
- + 0.139151 vice_captain_704_26 + 0.136198 vice_captain_704_27
- + 0.274225 vice_captain_705_24 + 0.26615 vice_captain_705_25
- + 0.260544 vice_captain_705_26 + 0.269904 vice_captain_705_27
- + 0.194039 vice_captain_706_24 + 0.207311 vice_captain_706_25
- + 0.209344 vice_captain_706_26 + 0.228795 vice_captain_706_27
- + 0.218722 vice_captain_707_24 + 0.199943 vice_captain_707_25
- + 0.185691 vice_captain_707_26 + 0.185272 vice_captain_707_27
- + 0.223092 vice_captain_708_24 + 0.450412 vice_captain_708_25
- + 0.233222 vice_captain_708_27 + 0.199601 vice_captain_709_24
- + 0.209648 vice_captain_709_25 + 0.219458 vice_captain_709_26
- + 0.190009 vice_captain_709_27 + 0.251602 vice_captain_70_24
- + 0.199782 vice_captain_70_25 + 0.2016 vice_captain_70_26
- + 0.288406 vice_captain_70_27 + 0.32446 vice_captain_710_24
- + 0.366739 vice_captain_710_25 + 0.325198 vice_captain_710_26
- + 0.328058 vice_captain_710_27 + 0.243818 vice_captain_711_24
- + 0.257099 vice_captain_711_25 + 0.221118 vice_captain_711_26
- + 0.222278 vice_captain_711_27 + 0.277188 vice_captain_712_24
- + 0.272448 vice_captain_712_25 + 0.260006 vice_captain_712_26
- + 0.276414 vice_captain_712_27 + 0.238646 vice_captain_713_25
- + 0.223225 vice_captain_713_26 + 0.23464 vice_captain_713_27
- + 0.205918 vice_captain_715_24 + 0.204862 vice_captain_715_25
- + 0.222818 vice_captain_715_26 + 0.210548 vice_captain_715_27
- + 0.138542 vice_captain_716_24 + 0.097011 vice_captain_716_25
- + 0.136591 vice_captain_716_27 + 0.126936 vice_captain_717_24
- + 0.124563 vice_captain_717_25 + 0.129496 vice_captain_717_27
- + 0.115472 vice_captain_719_24 + 0.125751 vice_captain_719_25
- + 0.121796 vice_captain_719_26 + 0.126719 vice_captain_719_27
- + 0.12031 vice_captain_71_24 + 0.117412 vice_captain_71_25
- + 0.116096 vice_captain_71_26 + 0.12029 vice_captain_71_27
- + 0.108897 vice_captain_721_24 + 0.110835 vice_captain_721_25
- + 0.119182 vice_captain_721_26 + 0.115997 vice_captain_721_27
- + 0.12179 vice_captain_722_24 + 0.122846 vice_captain_722_25
- + 0.120823 vice_captain_722_27 + 0.168172 vice_captain_723_24
- + 0.109772 vice_captain_723_25 + 0.148109 vice_captain_723_27
- + 0.127456 vice_captain_724_24 + 0.125235 vice_captain_724_25
- + 0.131036 vice_captain_724_26 + 0.124663 vice_captain_724_27
- + 0.167034 vice_captain_725_24 + 0.247648 vice_captain_725_25
- + 0.14032 vice_captain_725_26 + 0.140745 vice_captain_725_27
- + 0.194653 vice_captain_726_24 + 0.350429 vice_captain_726_25
- + 0.178992 vice_captain_726_27 + 0.285454 vice_captain_727_24
- + 0.558884 vice_captain_727_25 + 0.285336 vice_captain_727_27
- + 0.188963 vice_captain_728_24 + 0.340379 vice_captain_728_25
- + 0.180334 vice_captain_728_27 + 0.267073 vice_captain_72_24
- + 0.260555 vice_captain_72_25 + 0.257333 vice_captain_72_26
- + 0.271206 vice_captain_72_27 + 0.125129 vice_captain_730_24
- + 0.124434 vice_captain_730_25 + 0.123578 vice_captain_730_26
- + 0.121688 vice_captain_730_27 + 0.145192 vice_captain_731_24
- + 0.144586 vice_captain_731_25 + 0.168289 vice_captain_731_26
- + 0.148162 vice_captain_731_27 + 0.174496 vice_captain_732_24
- + 0.158359 vice_captain_732_25 + 0.146111 vice_captain_732_26
- + 0.145751 vice_captain_732_27 + 0.173334 vice_captain_733_24
- + 0.258814 vice_captain_733_25 + 0.146177 vice_captain_733_26
- + 0.146609 vice_captain_733_27 + 0.135632 vice_captain_734_24
- + 0.259993 vice_captain_734_25 + 0.129851 vice_captain_734_27
- + 0.130897 vice_captain_735_24 + 0.132297 vice_captain_735_25
- + 0.138365 vice_captain_735_26 + 0.135768 vice_captain_735_27
- + 0.144987 vice_captain_736_24 + 0.185316 vice_captain_736_25
- + 0.167208 vice_captain_736_26 + 0.157248 vice_captain_736_27
- + 0.122239 vice_captain_738_24 + 0.12609 vice_captain_738_25
- + 0.115597 vice_captain_738_26 + 0.122608 vice_captain_738_27
- + 0.140232 vice_captain_739_24 + 0.136301 vice_captain_739_25
- + 0.12605 vice_captain_739_26 + 0.143345 vice_captain_739_27
- + 0.250781 vice_captain_73_24 + 0.240076 vice_captain_73_25
- + 0.223534 vice_captain_73_26 + 0.218693 vice_captain_73_27
- + 0.148117 vice_captain_740_24 + 0.175346 vice_captain_740_25
- + 0.190937 vice_captain_740_27 + 0.148178 vice_captain_741_24
- + 0.151911 vice_captain_741_25 + 0.147608 vice_captain_741_26
- + 0.145602 vice_captain_741_27 + 0.120109 vice_captain_742_24
- + 0.126863 vice_captain_742_25 + 0.131284 vice_captain_742_26
- + 0.126591 vice_captain_742_27 + 0.13607 vice_captain_743_24
- + 0.264664 vice_captain_743_25 + 0.13406 vice_captain_743_27
- + 0.133834 vice_captain_745_24 + 0.130242 vice_captain_745_25
- + 0.121681 vice_captain_745_26 + 0.136078 vice_captain_745_27
- + 0.136053 vice_captain_746_24 + 0.158479 vice_captain_746_25
- + 0.188232 vice_captain_746_26 + 0.166417 vice_captain_746_27
- + 0.130767 vice_captain_747_24 + 0.135768 vice_captain_747_25
- + 0.137964 vice_captain_747_26 + 0.132319 vice_captain_747_27
- + 0.136665 vice_captain_749_24 + 0.132025 vice_captain_749_25
- + 0.13822 vice_captain_749_26 + 0.130466 vice_captain_749_27
- + 0.128237 vice_captain_750_24 + 0.126504 vice_captain_750_25
- + 0.134583 vice_captain_750_26 + 0.127562 vice_captain_750_27
- + 0.176529 vice_captain_751_24 + 0.136041 vice_captain_751_25
- + 0.203292 vice_captain_751_26 + 0.123932 vice_captain_751_27
- + 0.32818 vice_captain_752_24 + 0.585441 vice_captain_752_25
- + 0.296661 vice_captain_752_26 + 0.325312 vice_captain_752_27
- + 0.137221 vice_captain_753_24 + 0.159723 vice_captain_753_25
- + 0.189575 vice_captain_753_26 + 0.167687 vice_captain_753_27
- + 0.134675 vice_captain_754_24 + 0.137122 vice_captain_754_25
- + 0.135662 vice_captain_754_27 + 0.133295 vice_captain_755_24
- + 0.138366 vice_captain_755_25 + 0.140592 vice_captain_755_26
- + 0.134869 vice_captain_755_27 + 0.331212 vice_captain_757_24
- + 0.560673 vice_captain_757_25 + 0.280978 vice_captain_757_27
- + 0.13238 vice_captain_758_24 + 0.126028 vice_captain_758_25
- + 0.136003 vice_captain_758_27 + 0.1322 vice_captain_759_24
- + 0.131493 vice_captain_759_25 + 0.130622 vice_captain_759_26
- + 0.128698 vice_captain_759_27 + 0.210305 vice_captain_75_24
- + 0.164375 vice_captain_75_25 + 0.163362 vice_captain_75_26
- + 0.2348 vice_captain_75_27 + 0.128506 vice_captain_760_24
- + 0.139588 vice_captain_760_25 + 0.135324 vice_captain_760_26
- + 0.140633 vice_captain_760_27 + 0.120627 vice_captain_761_24
- + 0.197791 vice_captain_761_25 + 0.145969 vice_captain_761_26
- + 0.182591 vice_captain_761_27 + 0.14601 vice_captain_762_24
- + 0.284831 vice_captain_762_25 + 0.141067 vice_captain_762_26
- + 0.144506 vice_captain_762_27 + 0.149607 vice_captain_763_24
- + 0.160041 vice_captain_763_25 + 0.205816 vice_captain_763_26
- + 0.144877 vice_captain_763_27 + 0.136009 vice_captain_764_24
- + 0.137449 vice_captain_764_25 + 0.143686 vice_captain_764_26
- + 0.141017 vice_captain_764_27 + 0.330965 vice_captain_765_24
- + 0.315544 vice_captain_765_25 + 0.343095 vice_captain_765_26
- + 0.321456 vice_captain_765_27 + 0.163742 vice_captain_766_24
- + 0.169278 vice_captain_766_25 + 0.202573 vice_captain_766_26
- + 0.136045 vice_captain_766_27 + 0.143142 vice_captain_767_24
- + 0.138791 vice_captain_767_25 + 0.14512 vice_captain_767_26
- + 0.140732 vice_captain_767_27 + 0.150408 vice_captain_768_24
- + 0.15613 vice_captain_768_25 + 0.190551 vice_captain_768_26
- + 0.121774 vice_captain_768_27 + 0.206816 vice_captain_76_24
- + 0.206478 vice_captain_76_25 + 0.189372 vice_captain_76_26
- + 0.198847 vice_captain_76_27 + 0.141955 vice_captain_770_24
- + 0.137185 vice_captain_770_25 + 0.143554 vice_captain_770_26
- + 0.135582 vice_captain_770_27 + 0.147399 vice_captain_771_24
- + 0.287558 vice_captain_771_25 + 0.142421 vice_captain_771_26
- + 0.145885 vice_captain_771_27 + 0.138643 vice_captain_772_24
- + 0.140103 vice_captain_772_25 + 0.146428 vice_captain_772_26
- + 0.143721 vice_captain_772_27 + 0.139308 vice_captain_773_24
- + 0.144642 vice_captain_773_25 + 0.144681 vice_captain_773_26
- + 0.140464 vice_captain_773_27 + 0.16178 vice_captain_774_24
- + 0.195169 vice_captain_774_25 + 0.185953 vice_captain_774_26
- + 0.159899 vice_captain_774_27 + 0.277363 vice_captain_775_24
- + 0.277549 vice_captain_775_25 + 0.277203 vice_captain_775_26
- + 0.276069 vice_captain_775_27 + 0.39929 vice_captain_776_24
- + 0.39709 vice_captain_776_25 + 0.384624 vice_captain_776_27
- + 0.174465 vice_captain_777_24 + 0.21568 vice_captain_777_25
- + 0.2437 vice_captain_777_27 + 0.335854 vice_captain_778_24
- + 0.320207 vice_captain_778_25 + 0.348162 vice_captain_778_26
- + 0.326206 vice_captain_778_27 + 0.149226 vice_captain_779_24
- + 0.146086 vice_captain_779_25 + 0.139086 vice_captain_779_26
- + 0.144268 vice_captain_779_27 + 0.354649 vice_captain_77_24
- + 0.33471 vice_captain_77_25 + 0.358685 vice_captain_77_26
- + 0.363127 vice_captain_77_27 + 0.165778 vice_captain_780_24
- + 0.159095 vice_captain_780_25 + 0.148843 vice_captain_780_26
- + 0.151638 vice_captain_780_27 + 0.165778 vice_captain_781_24
- + 0.159095 vice_captain_781_25 + 0.148843 vice_captain_781_26
- + 0.151638 vice_captain_781_27 + 0.12581 vice_captain_783_24
- + 0.254232 vice_captain_783_25 + 0.129743 vice_captain_783_27
- + 0.163094 vice_captain_784_24 + 0.1966 vice_captain_784_25
- + 0.187353 vice_captain_784_26 + 0.161206 vice_captain_784_27
- + 0.141193 vice_captain_786_24 + 0.146481 vice_captain_786_25
- + 0.148802 vice_captain_786_26 + 0.142834 vice_captain_786_27
- + 0.146065 vice_captain_787_24 + 0.141193 vice_captain_787_25
- + 0.147698 vice_captain_787_26 + 0.139556 vice_captain_787_27
- + 0.336739 vice_captain_789_24 + 0.60072 vice_captain_789_25
- + 0.304403 vice_captain_789_26 + 0.333796 vice_captain_789_27
- + 0.202052 vice_captain_78_24 + 0.200282 vice_captain_78_25
- + 0.200384 vice_captain_78_26 + 0.213481 vice_captain_78_27
- + 0.344878 vice_captain_790_24 + 0.342031 vice_captain_790_25
- + 0.353745 vice_captain_790_26 + 0.320107 vice_captain_790_27
- + 0.130047 vice_captain_791_24 + 0.126221 vice_captain_791_25
- + 0.137293 vice_captain_791_27 + 0.233445 vice_captain_792_24
- + 0.241363 vice_captain_792_25 + 0.305043 vice_captain_792_26
- + 0.222548 vice_captain_792_27 + 0.182473 vice_captain_793_24
- + 0.178322 vice_captain_793_25 + 0.199622 vice_captain_793_26
- + 0.161318 vice_captain_793_27 + 0.147423 vice_captain_794_24
- + 0.152892 vice_captain_794_25 + 0.13799 vice_captain_794_26
- + 0.147947 vice_captain_794_27 + 0.147423 vice_captain_795_24
- + 0.152892 vice_captain_795_25 + 0.13799 vice_captain_795_26
- + 0.147947 vice_captain_795_27 + 0.152892 vice_captain_796_24
- + 0.14291 vice_captain_796_25 + 0.144083 vice_captain_796_26
- + 0.145359 vice_captain_796_27 + 0.186873 vice_captain_797_24
- + 0.282805 vice_captain_797_25 + 0.158762 vice_captain_797_26
- + 0.159209 vice_captain_797_27 + 0.217897 vice_captain_798_24
- + 0.301415 vice_captain_798_25 + 0.175193 vice_captain_798_27
- + 0.164569 vice_captain_799_24 + 0.162943 vice_captain_799_25
- + 0.16414 vice_captain_799_26 + 0.175176 vice_captain_799_27
- + 0.245134 vice_captain_800_24 + 0.234619 vice_captain_800_25
- + 0.248658 vice_captain_800_26 + 0.231086 vice_captain_800_27
- + 0.211256 vice_captain_801_24 + 0.208706 vice_captain_801_25
- + 0.199316 vice_captain_801_26 + 0.21151 vice_captain_801_27
- + 0.178322 vice_captain_802_24 + 0.134513 vice_captain_802_25
- + 0.13258 vice_captain_802_26 + 0.199182 vice_captain_802_27
- + 0.231368 vice_captain_803_24 + 0.223944 vice_captain_803_25
- + 0.239503 vice_captain_803_26 + 0.231999 vice_captain_803_27
- + 0.224748 vice_captain_804_24 + 0.224065 vice_captain_804_25
- + 0.206024 vice_captain_804_26 + 0.215831 vice_captain_804_27
- + 0.153301 vice_captain_805_24 + 0.211218 vice_captain_805_25
- + 0.239751 vice_captain_805_26 + 0.243446 vice_captain_805_27
- + 0.102889 vice_captain_806_24 + 0.150803 vice_captain_806_25
- + 0.175826 vice_captain_806_26 + 0.1815 vice_captain_806_27
- + 0.239326 vice_captain_807_24 + 0.236993 vice_captain_807_25
- + 0.251629 vice_captain_807_26 + 0.240515 vice_captain_807_27
- + 0.340394 vice_captain_808_24 + 0.38485 vice_captain_808_25
- + 0.34117 vice_captain_808_26 + 0.344177 vice_captain_808_27
- + 0.147046 vice_captain_809_24 + 0.143333 vice_captain_809_25
- + 0.136554 vice_captain_809_26 + 0.140986 vice_captain_809_27
- + 0.300625 vice_captain_80_24 + 0.284973 vice_captain_80_25
- + 0.303794 vice_captain_80_26 + 0.307281 vice_captain_80_27
- + 0.154342 vice_captain_810_24 + 0.144289 vice_captain_810_25
- + 0.145471 vice_captain_810_26 + 0.146756 vice_captain_810_27
- + 0.236942 vice_captain_82_24 + 0.240493 vice_captain_82_25
- + 0.223094 vice_captain_82_26 + 0.236135 vice_captain_82_27
- + 0.275599 vice_captain_83_24 + 0.215016 vice_captain_83_25
- + 0.21447 vice_captain_83_26 + 0.314816 vice_captain_83_27
- + 0.26281 vice_captain_84_24 + 0.209306 vice_captain_84_25
- + 0.209061 vice_captain_84_26 + 0.298232 vice_captain_84_27
- + 0.476339 vice_captain_85_24 + 0.480098 vice_captain_85_25
- + 0.442902 vice_captain_85_26 + 0.468871 vice_captain_85_27
- + 0.373069 vice_captain_86_24 + 0.360978 vice_captain_86_25
- + 0.361905 vice_captain_86_26 + 0.391649 vice_captain_86_27
- + 0.272694 vice_captain_88_24 + 0.258463 vice_captain_88_25
- + 0.275574 vice_captain_88_26 + 0.278744 vice_captain_88_27
- + 0.293561 vice_captain_89_24 + 0.238916 vice_captain_89_25
- + 0.240269 vice_captain_89_26 + 0.336072 vice_captain_89_27
- + 0.432846 vice_captain_8_24 + 0.40305 vice_captain_8_25
- + 0.453883 vice_captain_8_26 + 0.443031 vice_captain_8_27
- + 0.24748 vice_captain_90_24 + 0.386769 vice_captain_90_25
- + 0.22568 vice_captain_90_26 + 0.226331 vice_captain_90_27
- + 0.313798 vice_captain_91_24 + 0.559764 vice_captain_91_25
- + 0.283652 vice_captain_91_26 + 0.311055 vice_captain_91_27
- + 0.149763 vice_captain_92_24 + 0.300249 vice_captain_92_25
- + 0.156612 vice_captain_92_26 + 0.160559 vice_captain_92_27
- + 0.188723 vice_captain_93_24 + 0.302685 vice_captain_93_25
- + 0.159167 vice_captain_93_26 + 0.142017 vice_captain_93_27
- + 0.28335 vice_captain_96_24 + 0.458692 vice_captain_96_25
- + 0.259676 vice_captain_96_26 + 0.260309 vice_captain_96_27
- + 0.174928 vice_captain_98_24 + 0.353427 vice_captain_98_25
- + 0.185645 vice_captain_98_26 + 0.190398 vice_captain_98_27
- + 0.123826 vice_captain_99_24 + 0.251488 vice_captain_99_25
- + 0.131229 vice_captain_99_26 + 0.134132 vice_captain_99_27
- + 0.216244 vice_captain_9_24 + 0.224911 vice_captain_9_25
- + 0.243969 vice_captain_9_26 + 0.242191 vice_captain_9_27
+ + 2.72911 captain_38_26 + 2.43827 captain_38_27 + 3.00011 captain_392_24
+ + 3.24169 captain_392_25 + 3.44419 captain_392_26 + 2.85837 captain_392_27
+ + 2.69283 captain_393_24 + 4.0579 captain_393_25 + 2.32644 captain_393_27
+ + 2.03511 captain_395_24 + 2.19665 captain_395_25 + 2.71234 captain_395_26
+ + 1.88429 captain_395_27 + 3.99223 captain_396_24 + 4.41969 captain_396_25
+ + 4.80574 captain_396_26 + 3.96778 captain_396_27 + 2.10393 captain_398_24
+ + 2.23681 captain_398_25 + 2.78935 captain_398_26 + 1.83282 captain_398_27
+ + 1.29475 captain_399_24 + 1.34793 captain_399_25 + 1.55659 captain_399_26
+ + 1.22618 captain_399_27 + 2.20328 captain_39_24 + 2.35799 captain_39_25
+ + 2.52396 captain_39_26 + 1.97207 captain_39_27 + 1.02189 captain_3_24
+ + 1.03266 captain_3_25 + 1.07932 captain_3_26 + 1.05935 captain_3_27
+ + 2.33709 captain_401_24 + 2.44834 captain_401_25 + 2.94781 captain_401_26
+ + 1.9838 captain_401_27 + 3.67213 captain_402_24 + 4.01317 captain_402_25
+ + 3.46189 captain_402_26 + 3.93734 captain_402_27 + 1.68403 captain_403_24
+ + 1.76096 captain_403_25 + 1.55135 captain_403_26 + 1.69141 captain_403_27
+ + 3.11659 captain_405_24 + 3.12001 captain_405_25 + 2.29812 captain_405_26
+ + 3.22617 captain_405_27 + 3.98689 captain_406_24 + 4.27503 captain_406_25
+ + 3.64625 captain_406_26 + 4.09068 captain_406_27 + 3.33036 captain_407_24
+ + 3.33094 captain_407_25 + 2.41924 captain_407_26 + 3.45041 captain_407_27
+ + 3.43147 captain_409_24 + 3.35429 captain_409_25 + 3.24866 captain_409_26
+ + 3.26882 captain_409_27 + 3.12386 captain_411_24 + 3.05671 captain_411_25
+ + 2.9648 captain_411_26 + 2.98234 captain_411_27 + 3.7021 captain_412_24
+ + 4.00204 captain_412_25 + 3.38407 captain_412_26 + 3.85266 captain_412_27
+ + 1.4906 captain_414_24 + 1.50797 captain_414_25 + 1.35889 captain_414_26
+ + 1.43911 captain_414_27 + 4.3993 captain_415_24 + 4.29756 captain_415_25
+ + 3.93618 captain_415_26 + 4.64413 captain_415_27 + 2.37791 captain_417_24
+ + 2.32121 captain_417_25 + 1.66122 captain_417_26 + 2.36766 captain_417_27
+ + 2.64233 captain_419_24 + 2.56882 captain_419_25 + 1.83228 captain_419_26
+ + 2.54591 captain_419_27 + 2.54028 captain_41_24 + 2.54179 captain_41_25
+ + 2.84941 captain_41_26 + 2.36847 captain_41_27 + 3.83847 captain_421_24
+ + 3.98561 captain_421_25 + 3.37201 captain_421_26 + 3.66058 captain_421_27
+ + 2.41092 captain_423_24 + 2.50972 captain_423_25 + 2.12701 captain_423_26
+ + 2.33188 captain_423_27 + 1.19836 captain_425_24 + 1.24248 captain_425_25
+ + 1.12225 captain_425_26 + 1.20259 captain_425_27 + 4.22684 captain_427_24
+ + 4.09366 captain_427_25 + 2.9252 captain_427_26 + 3.94518 captain_427_27
+ + 1.96636 captain_428_25 + 1.3448 captain_428_26 + 1.94703 captain_428_27
+ + 3.04052 captain_42_24 + 2.97078 captain_42_25 + 3.32858 captain_42_26
+ + 2.68515 captain_42_27 + 4.96528 captain_430_24 + 4.81406 captain_430_25
+ + 3.3427 captain_430_26 + 4.82785 captain_430_27 + 3.12843 captain_432_24
+ + 3.31975 captain_432_25 + 2.79845 captain_432_26 + 3.14676 captain_432_27
+ + 3.74021 captain_433_24 + 3.64773 captain_433_25 + 3.33464 captain_433_26
+ + 3.98292 captain_433_27 + 1.2596 captain_435_24 + 1.23184 captain_435_25
+ + 1.16996 captain_435_26 + 1.21577 captain_435_27 + 2.57271 captain_436_24
+ + 2.68947 captain_436_25 + 2.2525 captain_436_26 + 2.20526 captain_436_27
+ + 3.25425 captain_437_24 + 3.1304 captain_437_25 + 2.92563 captain_437_26
+ + 3.0167 captain_437_27 + 2.64603 captain_439_25 + 2.21862 captain_439_26
+ + 2.1954 captain_439_27 + 4.80758 captain_43_24 + 4.54793 captain_43_25
+ + 4.9871 captain_43_26 + 4.76513 captain_43_27 + 2.44674 captain_442_24
+ + 2.40536 captain_442_25 + 2.27365 captain_442_26 + 2.42991 captain_442_27
+ + 2.26691 captain_445_24 + 2.3426 captain_445_25 + 1.96842 captain_445_26
+ + 1.94809 captain_445_27 + 2.56436 captain_446_24 + 2.55972 captain_446_25
+ + 2.41961 captain_446_26 + 2.49096 captain_446_27 + 4.30617 captain_447_24
+ + 4.24047 captain_447_25 + 3.9609 captain_447_26 + 4.2743 captain_447_27
+ + 2.84194 captain_448_24 + 3.19302 captain_448_25 + 2.84808 captain_448_26
+ + 2.87182 captain_448_27 + 3.13647 captain_449_24 + 3.56846 captain_449_25
+ + 3.14377 captain_449_26 + 3.14445 captain_449_27 + 3.59313 captain_450_24
+ + 3.74177 captain_450_25 + 3.70885 captain_450_27 + 1.50733 captain_451_24
+ + 1.47344 captain_451_25 + 1.39787 captain_451_26 + 1.45381 captain_451_27
+ + 2.79224 captain_453_24 + 2.75355 captain_453_25 + 2.57682 captain_453_26
+ + 2.66722 captain_453_27 + 1.44585 captain_456_24 + 1.4436 captain_456_25
+ + 1.37568 captain_456_26 + 1.41027 captain_456_27 + 2.46129 captain_457_24
+ + 2.52027 captain_457_25 + 2.14107 captain_457_26 + 2.12046 captain_457_27
+ + 2.08001 captain_458_24 + 2.05956 captain_458_25 + 1.94819 captain_458_26
+ + 2.00788 captain_458_27 + 1.58289 captain_45_24 + 1.54392 captain_45_25
+ + 1.74387 captain_45_26 + 1.38431 captain_45_27 + 1.81288 captain_460_24
+ + 1.98863 captain_460_25 + 1.50144 captain_460_26 + 1.45264 captain_460_27
+ + 2.67226 captain_465_24 + 2.807 captain_465_25 + 2.38774 captain_465_26
+ + 2.37355 captain_465_27 + 1.57614 captain_466_24 + 1.56405 captain_466_25
+ + 1.52515 captain_466_26 + 1.57607 captain_466_27 + 2.05952 captain_467_24
+ + 2.2106 captain_467_25 + 1.90394 captain_467_26 + 1.90493 captain_467_27
+ + 3.21965 captain_468_24 + 3.11151 captain_468_25 + 2.90812 captain_468_26
+ + 2.9952 captain_468_27 + 1.07946 captain_46_24 + 1.06486 captain_46_25
+ + 1.13335 captain_46_26 + 1.11846 captain_46_27 + 2.47099 captain_470_24
+ + 2.44958 captain_470_25 + 2.33403 captain_470_26 + 2.47216 captain_470_27
+ + 2.5854 captain_471_24 + 2.59391 captain_471_25 + 2.97824 captain_471_26
+ + 2.65164 captain_471_27 + 3.0626 captain_472_24 + 3.0384 captain_472_25
+ + 3.13798 captain_472_26 + 2.85201 captain_472_27 + 1.86357 captain_473_24
+ + 1.87366 captain_473_25 + 2.14512 captain_473_26 + 1.91461 captain_473_27
+ + 2.4201 captain_475_24 + 2.59129 captain_475_25 + 2.60155 captain_475_26
+ + 2.92297 captain_475_27 + 2.29608 captain_476_24 + 2.35871 captain_476_25
+ + 2.76927 captain_476_26 + 2.51761 captain_476_27 + 1.40292 captain_477_24
+ + 1.47139 captain_477_25 + 1.48493 captain_477_26 + 1.32439 captain_477_27
+ + 1.22061 captain_478_24 + 1.21319 captain_478_25 + 1.20404 captain_478_26
+ + 1.18383 captain_478_27 + 3.0626 captain_479_24 + 3.0384 captain_479_25
+ + 3.13798 captain_479_26 + 2.85201 captain_479_27 + 2.59383 captain_47_24
+ + 2.5418 captain_47_25 + 2.77305 captain_47_26 + 2.70579 captain_47_27
+ + 1.68365 captain_481_24 + 1.67112 captain_481_25 + 1.65567 captain_481_26
+ + 1.62155 captain_481_27 + 3.61923 captain_482_24 + 3.58958 captain_482_25
+ + 3.7116 captain_482_26 + 3.36121 captain_482_27 + 1.70974 captain_483_24
+ + 1.74895 captain_483_25 + 1.74339 captain_483_26 + 1.55709 captain_483_27
+ + 1.91691 captain_484_24 + 1.90957 captain_484_25 + 2.19664 captain_484_26
+ + 1.95287 captain_484_27 + 2.89774 captain_485_24 + 2.98487 captain_485_25
+ + 2.98936 captain_485_26 + 2.66273 captain_485_27 + 0.92012 captain_487_24
+ + 1.02308 captain_487_25 + 1.30887 captain_487_26 + 1.19187 captain_487_27
+ + 2.52457 captain_488_24 + 2.55577 captain_488_25 + 2.56943 captain_488_26
+ + 2.51359 captain_488_27 + 1.53956 captain_489_24 + 1.57318 captain_489_25
+ + 1.58204 captain_489_26 + 1.57432 captain_489_27 + 3.41301 captain_48_24
+ + 3.43284 captain_48_25 + 3.89669 captain_48_26 + 3.23985 captain_48_27
+ + 1.73628 captain_490_24 + 1.80092 captain_490_25 + 1.82081 captain_490_26
+ + 1.66507 captain_490_27 + 3.0384 captain_491_24 + 2.98234 captain_491_25
+ + 3.20049 captain_491_27 + 1.90689 captain_492_24 + 2.01719 captain_492_25
+ + 2.01794 captain_492_27 + 2.3189 captain_493_24 + 2.38239 captain_493_25
+ + 2.3445 captain_493_27 + 1.64427 captain_494_24 + 1.71917 captain_494_25
+ + 1.74788 captain_494_27 + 2.61079 captain_495_24 + 3.0657 captain_495_25
+ + 3.31043 captain_495_27 + 2.00017 captain_497_24 + 2.38707 captain_497_25
+ + 2.61243 captain_497_27 + 3.0245 captain_498_24 + 2.96874 captain_498_25
+ + 3.18571 captain_498_27 + 2.56338 captain_499_24 + 2.70382 captain_499_25
+ + 2.72138 captain_499_27 + 3.89821 captain_49_24 + 3.69361 captain_49_25
+ + 4.05916 captain_49_26 + 3.77206 captain_49_27 + 1.73555 captain_4_24
+ + 1.7645 captain_4_25 + 1.88989 captain_4_26 + 1.83623 captain_4_27
+ + 3.65785 captain_501_24 + 3.83137 captain_501_25 + 3.82732 captain_501_27
+ + 4.41022 captain_504_24 + 4.54818 captain_504_25 + 4.44916 captain_504_27
+ + 3.53201 captain_506_24 + 4.22329 captain_506_25 + 4.60761 captain_506_27
+ + 2.34343 captain_508_24 + 3.72068 captain_508_25 + 2.111 captain_508_26
+ + 2.12171 captain_508_27 + 4.22129 captain_509_24 + 4.23873 captain_509_25
+ + 4.15103 captain_509_27 + 4.59832 captain_50_24 + 4.34699 captain_50_25
+ + 4.58037 captain_50_26 + 4.29088 captain_50_27 + 2.30541 captain_511_24
+ + 2.76769 captain_511_25 + 3.05357 captain_511_27 + 2.36787 captain_513_24
+ + 2.49 captain_513_25 + 2.48513 captain_513_27 + 1.7645 captain_515_24
+ + 1.85011 captain_515_25 + 1.85619 captain_515_27 + 5.30394 captain_516_24
+ + 5.49028 captain_516_25 + 5.38829 captain_516_27 + 1.57693 captain_517_24
+ + 2.01576 captain_517_25 + 1.42176 captain_517_27 + 1.5072 captain_518_24
+ + 1.93504 captain_518_25 + 1.3626 captain_518_27 + 2.95555 captain_519_24
+ + 3.45497 captain_519_25 + 3.71501 captain_519_27 + 3.69148 captain_520_24
+ + 3.61938 captain_520_25 + 3.89995 captain_520_27 + 3.06956 captain_522_24
+ + 3.54021 captain_522_25 + 3.34647 captain_522_26 + 2.89013 captain_522_27
+ + 2.75525 captain_523_24 + 2.97375 captain_523_25 + 2.91477 captain_523_26
+ + 3.19083 captain_523_27 + 3.3003 captain_524_24 + 3.63657 captain_524_25
+ + 3.4016 captain_524_26 + 3.78523 captain_524_27 + 3.05679 captain_525_24
+ + 3.26709 captain_525_25 + 3.26847 captain_525_26 + 3.12114 captain_525_27
+ + 4.74792 captain_526_24 + 5.22419 captain_526_25 + 5.31367 captain_526_26
+ + 5.1046 captain_526_27 + 1.92671 captain_527_24 + 2.1122 captain_527_25
+ + 2.17641 captain_527_26 + 2.15049 captain_527_27 + 2.5925 captain_528_24
+ + 3.08203 captain_528_25 + 2.98689 captain_528_26 + 2.62924 captain_528_27
+ + 2.45539 captain_530_24 + 2.95685 captain_530_25 + 2.81845 captain_530_26
+ + 2.42713 captain_530_27 + 2.70725 captain_532_24 + 3.23055 captain_532_25
+ + 3.12069 captain_532_26 + 2.74107 captain_532_27 + 3.24094 captain_533_24
+ + 3.5764 captain_533_25 + 3.34199 captain_533_26 + 3.7247 captain_533_27
+ + 1.98878 captain_534_24 + 2.09502 captain_534_25 + 2.10516 captain_534_26
+ + 2.03514 captain_534_27 + 2.31726 captain_535_24 + 2.48679 captain_535_25
+ + 2.41154 captain_535_26 + 2.67863 captain_535_27 + 1.90882 captain_536_24
+ + 2.33052 captain_536_25 + 2.26228 captain_536_26 + 1.98807 captain_536_27
+ + 1.2011 captain_538_24 + 1.32922 captain_538_25 + 1.32401 captain_538_26
+ + 1.44105 captain_538_27 + 3.78775 captain_539_24 + 4.02847 captain_539_25
+ + 4.03026 captain_539_26 + 3.83991 captain_539_27 + 3.10312 captain_53_24
+ + 2.96067 captain_53_25 + 3.21518 captain_53_26 + 3.01528 captain_53_27
+ + 3.68889 captain_540_24 + 3.75679 captain_540_25 + 4.04336 captain_540_26
+ + 3.96424 captain_540_27 + 3.55572 captain_542_24 + 3.8137 captain_542_25
+ + 3.85906 captain_542_26 + 3.72354 captain_542_27 + 2.78101 captain_544_24
+ + 3.33217 captain_544_25 + 3.25455 captain_544_26 + 2.89828 captain_544_27
+ + 2.66287 captain_545_24 + 2.09541 captain_545_25 + 3.13034 captain_545_26
+ + 1.99324 captain_545_27 + 2.9947 captain_546_24 + 3.09067 captain_546_25
+ + 3.19138 captain_546_26 + 2.90987 captain_546_27 + 1.83773 captain_547_24
+ + 1.45832 captain_547_25 + 1.99443 captain_547_26 + 1.34028 captain_547_27
+ + 1.96471 captain_548_24 + 1.593 captain_548_25 + 2.335 captain_548_26
+ + 1.51585 captain_548_27 + 1.35034 captain_54_24 + 1.34071 captain_54_25
+ + 1.37977 captain_54_26 + 1.29927 captain_54_27 + 3.289 captain_551_24
+ + 2.599 captain_551_25 + 3.76685 captain_551_26 + 2.46973 captain_551_27
+ + 2.71314 captain_553_24 + 4.59394 captain_553_25 + 2.40334 captain_553_27
+ + 3.0674 captain_554_24 + 2.88421 captain_554_25 + 2.88759 captain_554_26
+ + 2.79084 captain_554_27 + 1.08066 captain_555_24 + 1.04169 captain_555_25
+ + 1.09372 captain_555_26 + 1.02859 captain_555_27 + 3.78978 captain_557_24
+ + 3.56218 captain_557_25 + 3.85281 captain_557_26 + 3.48904 captain_557_27
+ + 2.67931 captain_559_24 + 2.60917 captain_559_25 + 2.82016 captain_559_26
+ + 2.66108 captain_559_27 + 2.79638 captain_55_24 + 2.72726 captain_55_25
+ + 3.02004 captain_55_26 + 2.95835 captain_55_27 + 2.18354 captain_560_24
+ + 1.72681 captain_560_25 + 2.55585 captain_560_26 + 1.55266 captain_560_27
+ + 1.23166 captain_561_24 + 1.18859 captain_561_25 + 1.24609 captain_561_26
+ + 1.17412 captain_561_27 + 3.56202 captain_563_24 + 2.85437 captain_563_25
+ + 3.90377 captain_563_26 + 2.59947 captain_563_27 + 2.9339 captain_564_24
+ + 3.02911 captain_564_25 + 3.12903 captain_564_26 + 2.84973 captain_564_27
+ + 3.29456 captain_565_24 + 3.18381 captain_565_25 + 3.49638 captain_565_26
+ + 3.24219 captain_565_27 + 3.00532 captain_566_24 + 5.64329 captain_566_25
+ + 2.69653 captain_566_26 + 2.7862 captain_566_27 + 3.56736 captain_567_24
+ + 3.4211 captain_567_25 + 3.71242 captain_567_26 + 3.36621 captain_567_27
+ + 3.57654 captain_569_24 + 3.70231 captain_569_25 + 3.83431 captain_569_26
+ + 3.46536 captain_569_27 + 3.43964 captain_570_24 + 3.25851 captain_570_25
+ + 3.4949 captain_570_26 + 3.18363 captain_570_27 + 2.91582 captain_572_24
+ + 2.38108 captain_572_25 + 3.35763 captain_572_26 + 2.27509 captain_572_27
+ + 3.02837 captain_573_24 + 2.46478 captain_573_25 + 3.56407 captain_573_26
+ + 2.3756 captain_573_27 + 1.32163 captain_574_24 + 1.29877 captain_574_25
+ + 1.35549 captain_574_26 + 1.2845 captain_574_27 + 2.32336 captain_576_24
+ + 2.38671 captain_576_25 + 2.75136 captain_576_26 + 2.51003 captain_576_27
+ + 2.03783 captain_577_24 + 2.40741 captain_577_25 + 2.3124 captain_577_26
+ + 2.04377 captain_577_27 + 1.29011 captain_578_24 + 1.34698 captain_578_25
+ + 1.43385 captain_578_26 + 1.42658 captain_578_27 + 2.66219 captain_579_24
+ + 3.20049 captain_579_25 + 3.09609 captain_579_26 + 3.26691 captain_579_27
+ + 3.12386 captain_580_24 + 3.05671 captain_580_25 + 2.9648 captain_580_26
+ + 2.98234 captain_580_27 + 1.69219 captain_581_24 + 1.62481 captain_581_25
+ + 1.10935 captain_581_26 + 1.60878 captain_581_27 + 2.09564 captain_582_24
+ + 4.12496 captain_582_25 + 2.13139 captain_582_27 + 3.08604 captain_584_24
+ + 3.06979 captain_584_25 + 3.39957 captain_584_26 + 2.80652 captain_584_27
+ + 1.96175 captain_586_24 + 3.89889 captain_586_25 + 1.99704 captain_586_27
+ + 1.77745 captain_587_24 + 1.80003 captain_587_25 + 1.80884 captain_587_26
+ + 1.79808 captain_587_27 + 1.87425 captain_588_24 + 3.04137 captain_588_25
+ + 2.3 captain_588_26 + 2.827 captain_588_27 + 2.49427 captain_58_24
+ + 2.43274 captain_58_25 + 2.63059 captain_58_26 + 2.53867 captain_58_27
+ + 4.5779 captain_590_24 + 4.71878 captain_590_25 + 4.70234 captain_590_26
+ + 4.49827 captain_590_27 + 4.40729 captain_591_24 + 3.99483 captain_591_25
+ + 4.08627 captain_591_26 + 4.18826 captain_591_27 + 1.82449 captain_592_24
+ + 1.8462 captain_592_25 + 2.15005 captain_592_26 + 1.94518 captain_592_27
+ + 2.776 captain_594_24 + 2.88278 captain_594_25 + 2.96022 captain_594_26
+ + 3.09866 captain_594_27 + 2.23066 captain_595_24 + 1.79928 captain_595_25
+ + 1.83847 captain_595_26 + 2.65259 captain_595_27 + 3.84654 captain_596_24
+ + 3.47346 captain_596_25 + 3.73756 captain_596_26 + 3.74858 captain_596_27
+ + 3.49237 captain_597_24 + 3.68611 captain_597_25 + 4.07179 captain_597_26
+ + 3.17457 captain_597_27 + 1.9674 captain_598_24 + 1.62392 captain_598_25
+ + 2.43373 captain_598_26 + 1.61726 captain_598_27 + 4.09473 captain_599_24
+ + 3.88769 captain_599_25 + 4.27813 captain_599_26 + 4.12653 captain_599_27
+ + 3.88257 captain_5_24 + 4.75449 captain_5_25 + 4.20958 captain_5_26
+ + 4.00188 captain_5_27 + 2.43584 captain_601_24 + 2.81241 captain_601_25
+ + 2.69539 captain_601_26 + 2.86209 captain_601_27 + 2.4414 captain_602_24
+ + 3.53116 captain_602_25 + 2.021 captain_602_27 + 2.77209 captain_603_24
+ + 2.95715 captain_603_25 + 2.50152 captain_603_26 + 2.82772 captain_603_27
+ + 2.72914 captain_604_25 + 2.32846 captain_604_26 + 2.30668 captain_604_27
+ + 2.14348 captain_606_24 + 2.46236 captain_606_25 + 2.88208 captain_606_26
+ + 2.59202 captain_606_27 + 3.27717 captain_607_24 + 3.09735 captain_607_25
+ + 3.43517 captain_607_26 + 3.35362 captain_607_27 + 1.6962 captain_608_24
+ + 1.82975 captain_608_25 + 1.88176 captain_608_26 + 2.09814 captain_608_27
+ + 5.1838 captain_60_24 + 5.28556 captain_60_25 + 6.11817 captain_60_26
+ + 5.24102 captain_60_27 + 2.48309 captain_610_25 + 2.32028 captain_610_26
+ + 2.3155 captain_610_27 + 2.93875 captain_611_24 + 2.12292 captain_611_25
+ + 2.86568 captain_611_27 + 3.67563 captain_614_24 + 7.38106 captain_614_25
+ + 3.53554 captain_614_27 + 1.46821 captain_615_24 + 1.49794 captain_615_25
+ + 1.61735 captain_615_26 + 1.53946 captain_615_27 + 3.8758 captain_616_24
+ + 6.79471 captain_616_25 + 3.55333 captain_616_26 + 3.60792 captain_616_27
+ + 3.2058 captain_617_24 + 3.35041 captain_617_25 + 3.87415 captain_617_26
+ + 3.0737 captain_617_27 + 1.24237 captain_618_24 + 1.2031 captain_618_25
+ + 1.26023 captain_618_26 + 1.22061 captain_618_27 + 1.54392 captain_619_24
+ + 1.13269 captain_619_25 + 1.11454 captain_619_26 + 1.73974 captain_619_27
+ + 2.58967 captain_621_24 + 2.73576 captain_621_25 + 2.8372 captain_621_26
+ + 2.70265 captain_621_27 + 1.7441 captain_622_24 + 1.86842 captain_622_25
+ + 2.11724 captain_622_26 + 1.5122 captain_622_27 + 1.41911 captain_623_24
+ + 1.32563 captain_623_25 + 1.40345 captain_623_27 + 1.06011 captain_624_24
+ + 1.19528 captain_624_25 + 1.19372 captain_624_26 + 1.27745 captain_624_27
+ + 1.65945 captain_625_24 + 1.50165 captain_625_25 + 1.38188 captain_625_26
+ + 1.37836 captain_625_27 + 2.08123 captain_626_24 + 3.7791 captain_626_25
+ + 1.99202 captain_626_27 + 1.13611 captain_627_24 + 2.33023 captain_627_25
+ + 1.21679 captain_627_27 + 1.18853 captain_629_24 + 2.31941 captain_629_25
+ + 1.17191 captain_629_27 + 2.10404 captain_62_24 + 2.02574 captain_62_25
+ + 1.90016 captain_62_26 + 1.86428 captain_62_27 + 4.30825 captain_630_24
+ + 7.75798 captain_630_25 + 3.71229 captain_630_27 + 2.51192 captain_631_24
+ + 4.64904 captain_631_25 + 2.43966 captain_631_27 + 1.11791 captain_632_24
+ + 1.18463 captain_632_25 + 1.25018 captain_632_26 + 1.12237 captain_632_27
+ + 2.32497 captain_633_24 + 2.35485 captain_633_25 + 1.74918 captain_633_26
+ + 2.46351 captain_633_27 + 1.68535 captain_634_24 + 1.61835 captain_634_25
+ + 1.10575 captain_634_26 + 1.6024 captain_634_27 + 2.45246 captain_635_24
+ + 2.63396 captain_635_25 + 2.32427 captain_635_26 + 2.57729 captain_635_27
+ + 2.90462 captain_636_24 + 3.26691 captain_636_25 + 2.91095 captain_636_26
+ + 2.93545 captain_636_27 + 1.56383 captain_637_24 + 1.62316 captain_637_25
+ + 1.32984 captain_637_26 + 1.3139 captain_637_27 + 2.75334 captain_638_24
+ + 2.76779 captain_638_25 + 2.76658 captain_638_26 + 2.72363 captain_638_27
+ + 2.59628 captain_639_24 + 3.01539 captain_639_25 + 3.25588 captain_639_27
+ + 3.02877 captain_63_27 + 1.52758 captain_640_24 + 1.51797 captain_640_25
+ + 1.47198 captain_640_27 + 1.75191 captain_641_27 + 2.69582 captain_642_24
+ + 2.84481 captain_642_25 + 2.84582 captain_642_26 + 2.74052 captain_642_27
+ + 1.83321 captain_644_24 + 1.85829 captain_644_25 + 1.89455 captain_644_26
+ + 2.04505 captain_644_27 + 1.50245 captain_645_24 + 1.62653 captain_645_25
+ + 1.62049 captain_645_26 + 1.72126 captain_645_27 + 2.83652 captain_646_24
+ + 3.07281 captain_646_25 + 2.90462 captain_646_26 + 3.0437 captain_646_27
+ + 2.85201 captain_647_24 + 3.12386 captain_647_25 + 2.9339 captain_647_26
+ + 3.24404 captain_647_27 + 1.32471 captain_649_24 + 1.44539 captain_649_25
+ + 1.38516 captain_649_26 + 1.5017 captain_649_27 + 2.19467 captain_64_24
+ + 2.1105 captain_64_25 + 2.09013 captain_64_26 + 2.20008 captain_64_27
+ + 1.01981 captain_650_24 + 1.09574 captain_650_25 + 1.06652 captain_650_26
+ + 1.10289 captain_650_27 + 1.27931 captain_652_24 + 1.1917 captain_652_25
+ + 1.20199 captain_652_26 + 1.21319 captain_652_27 + 1.38431 captain_653_24
+ + 1.37836 captain_653_25 + 1.6109 captain_653_26 + 1.41344 captain_653_27
+ + 1.42288 captain_654_24 + 1.5892 captain_654_25 + 1.47666 captain_654_26
+ + 1.44988 captain_654_27 + 1.63316 captain_655_24 + 1.65787 captain_655_25
+ + 1.67501 captain_655_26 + 1.68435 captain_655_27 + 1.24937 captain_657_24
+ + 1.22746 captain_657_25 + 1.28467 captain_657_26 + 1.22183 captain_657_27
+ + 1.46622 captain_658_24 + 1.57687 captain_658_25 + 1.54499 captain_658_26
+ + 1.43639 captain_658_27 + 3.04851 captain_659_24 + 2.66219 captain_659_25
+ + 2.93627 captain_659_27 + 2.95751 captain_65_24 + 2.93447 captain_65_25
+ + 2.93596 captain_65_26 + 3.14879 captain_65_27 + 2.40827 captain_660_24
+ + 2.54246 captain_660_25 + 2.55366 captain_660_26 + 2.84147 captain_660_27
+ + 3.76728 captain_661_24 + 4.28633 captain_661_25 + 4.0819 captain_661_26
+ + 4.28559 captain_661_27 + 1.67618 captain_662_24 + 1.53496 captain_662_25
+ + 1.55155 captain_662_26 + 1.56961 captain_662_27 + 3.02863 captain_663_24
+ + 3.05762 captain_663_25 + 3.08031 captain_663_26 + 3.05527 captain_663_27
+ + 5.4301 captain_664_24 + 5.67829 captain_664_25 + 5.53857 captain_664_26
+ + 5.18432 captain_664_27 + 3.39511 captain_665_24 + 6.81874 captain_665_25
+ + 3.26099 captain_665_27 + 1.14499 captain_666_24 + 1.15408 captain_666_25
+ + 1.16115 captain_666_26 + 1.15533 captain_666_27 + 2.28853 captain_668_24
+ + 4.40303 captain_668_25 + 2.23469 captain_668_27 + 2.91397 captain_669_24
+ + 3.09585 captain_669_25 + 3.3561 captain_669_26 + 2.66969 captain_669_27
+ + 2.59292 captain_66_24 + 2.53073 captain_66_25 + 2.50056 captain_66_26
+ + 2.63625 captain_66_27 + 1.82682 captain_671_24 + 1.13358 captain_671_25
+ + 1.57288 captain_671_27 + 1.96426 captain_672_24 + 1.93829 captain_672_25
+ + 2.14892 captain_672_26 + 2.08428 captain_672_27 + 1.55516 captain_673_26
+ + 1.6369 captain_673_27 + 1.19827 captain_674_24 + 1.66413 captain_674_25
+ + 1.88021 captain_674_26 + 1.90523 captain_674_27 + 1.74245 captain_675_24
+ + 1.8714 captain_675_25 + 1.89611 captain_675_26 + 2.10722 captain_675_27
+ + 2.24153 captain_676_24 + 2.69468 captain_676_25 + 2.62757 captain_676_26
+ + 2.33829 captain_676_27 + 1.36286 captain_677_24 + 1.33634 captain_677_25
+ + 1.41157 captain_677_27 + 3.51913 captain_678_24 + 6.97879 captain_678_25
+ + 3.552 captain_678_26 + 3.74797 captain_678_27 + 2.39442 captain_679_24
+ + 2.4677 captain_679_25 + 2.08596 captain_679_26 + 2.10903 captain_679_27
+ + 1.41595 captain_681_24 + 1.34925 captain_681_25 + 1.45943 captain_681_27
+ + 1.9011 captain_682_24 + 2.54523 captain_682_25 + 1.50165 captain_682_27
+ + 1.21552 captain_684_24 + 2.35986 captain_684_25 + 1.20119 captain_684_26
+ + 1.22715 captain_684_27 + 1.15786 captain_685_24 + 1.2177 captain_685_25
+ + 1.26107 captain_685_26 + 1.12197 captain_685_27 + 3.51366 captain_687_24
+ + 3.0377 captain_687_25 + 3.37538 captain_687_27 + 3.48775 captain_688_24
+ + 3.27351 captain_688_25 + 3.10353 captain_688_26 + 3.10654 captain_688_27
+ + 3.22338 captain_689_24 + 3.45155 captain_689_25 + 3.48328 captain_689_26
+ + 3.35704 captain_689_27 + 1.40596 captain_690_24 + 1.52778 captain_690_25
+ + 1.60877 captain_690_26 + 1.57566 captain_690_27 + 2.1318 captain_691_24
+ + 2.3789 captain_691_25 + 2.40857 captain_691_26 + 2.57271 captain_691_27
+ + 3.06685 captain_692_24 + 3.02265 captain_692_25 + 3.12477 captain_692_26
+ + 3.04848 captain_692_27 + 1.50935 captain_694_24 + 1.64021 captain_694_25
+ + 1.69466 captain_694_26 + 1.92872 captain_694_27 + 2.92061 captain_695_24
+ + 3.07276 captain_695_25 + 3.37565 captain_695_26 + 2.67103 captain_695_27
+ + 3.06042 captain_696_24 + 3.22094 captain_696_25 + 2.8008 captain_696_26
+ + 2.80829 captain_696_27 + 2.50333 captain_697_24 + 2.01093 captain_697_25
+ + 2.82882 captain_697_26 + 1.86367 captain_697_27 + 2.0584 captain_698_24
+ + 1.96824 captain_698_25 + 2.08861 captain_698_26 + 1.93795 captain_698_27
+ + 2.97054 captain_699_24 + 2.99759 captain_699_25 + 3.38615 captain_699_26
+ + 2.80314 captain_699_27 + 3.69195 captain_6_24 + 3.80386 captain_6_25
+ + 4.10928 captain_6_26 + 3.9762 captain_6_27 + 2.38976 captain_700_24
+ + 2.59453 captain_700_25 + 2.70907 captain_700_26 + 2.57146 captain_700_27
+ + 1.80988 captain_701_24 + 3.49608 captain_701_25 + 1.78624 captain_701_26
+ + 1.83288 captain_701_27 + 1.79863 captain_703_24 + 1.92237 captain_703_25
+ + 2.32727 captain_703_26 + 1.65772 captain_703_27 + 1.26688 captain_704_24
+ + 1.35955 captain_704_25 + 1.39151 captain_704_26 + 1.36198 captain_704_27
+ + 2.74225 captain_705_24 + 2.6615 captain_705_25 + 2.59535 captain_705_26
+ + 2.69904 captain_705_27 + 1.94039 captain_706_24 + 2.07311 captain_706_25
+ + 2.09344 captain_706_26 + 2.28795 captain_706_27 + 2.18722 captain_707_24
+ + 1.99943 captain_707_25 + 1.85691 captain_707_26 + 1.85272 captain_707_27
+ + 2.23092 captain_708_24 + 4.51496 captain_708_25 + 2.33222 captain_708_27
+ + 1.99601 captain_709_24 + 2.09648 captain_709_25 + 2.19458 captain_709_26
+ + 1.90009 captain_709_27 + 2.51602 captain_70_24 + 1.99782 captain_70_25
+ + 2.01449 captain_70_26 + 2.88406 captain_70_27 + 3.2446 captain_710_24
+ + 3.66739 captain_710_25 + 3.25198 captain_710_26 + 3.28058 captain_710_27
+ + 2.43818 captain_711_24 + 2.57099 captain_711_25 + 2.21118 captain_711_26
+ + 2.22278 captain_711_27 + 2.77188 captain_712_24 + 2.72448 captain_712_25
+ + 2.60006 captain_712_26 + 2.76414 captain_712_27 + 2.38646 captain_713_25
+ + 2.23225 captain_713_26 + 2.3464 captain_713_27 + 2.05918 captain_715_24
+ + 2.04862 captain_715_25 + 2.22818 captain_715_26 + 2.10548 captain_715_27
+ + 1.38542 captain_716_24 + 0.97011 captain_716_25 + 1.36994 captain_716_27
+ + 1.26936 captain_717_24 + 1.24563 captain_717_25 + 1.31295 captain_717_27
+ + 1.15472 captain_719_24 + 1.25751 captain_719_25 + 1.21796 captain_719_26
+ + 1.26719 captain_719_27 + 1.2031 captain_71_24 + 1.17412 captain_71_25
+ + 1.16096 captain_71_26 + 1.2029 captain_71_27 + 1.08897 captain_721_24
+ + 1.10835 captain_721_25 + 1.19182 captain_721_26 + 1.15997 captain_721_27
+ + 1.2179 captain_722_24 + 1.22846 captain_722_25 + 1.20823 captain_722_27
+ + 1.68172 captain_723_24 + 1.09772 captain_723_25 + 1.48572 captain_723_27
+ + 1.27456 captain_724_24 + 1.25235 captain_724_25 + 1.31036 captain_724_26
+ + 1.24663 captain_724_27 + 1.64599 captain_725_24 + 2.43333 captain_725_25
+ + 1.38057 captain_725_26 + 1.38479 captain_725_27 + 1.94653 captain_726_24
+ + 3.50429 captain_726_25 + 1.78992 captain_726_27 + 2.85454 captain_727_24
+ + 5.58884 captain_727_25 + 2.85336 captain_727_27 + 1.88963 captain_728_24
+ + 3.40845 captain_728_25 + 1.80334 captain_728_27 + 2.67073 captain_72_24
+ + 2.60555 captain_72_25 + 2.5638 captain_72_26 + 2.71206 captain_72_27
+ + 1.25129 captain_730_24 + 1.24434 captain_730_25 + 1.23578 captain_730_26
+ + 1.21688 captain_730_27 + 1.45192 captain_731_24 + 1.44586 captain_731_25
+ + 1.68289 captain_731_26 + 1.48162 captain_731_27 + 1.74496 captain_732_24
+ + 1.58359 captain_732_25 + 1.46111 captain_732_26 + 1.45751 captain_732_27
+ + 1.72054 captain_733_24 + 2.56544 captain_733_25 + 1.44987 captain_733_26
+ + 1.45417 captain_733_27 + 1.35632 captain_734_24 + 2.59993 captain_734_25
+ + 1.29851 captain_734_27 + 1.30897 captain_735_24 + 1.32297 captain_735_25
+ + 1.38365 captain_735_26 + 1.35768 captain_735_27 + 1.44987 captain_736_24
+ + 1.85316 captain_736_25 + 1.67208 captain_736_26 + 1.57248 captain_736_27
+ + 1.22239 captain_738_24 + 1.2609 captain_738_25 + 1.15597 captain_738_26
+ + 1.22608 captain_738_27 + 1.40232 captain_739_24 + 1.36301 captain_739_25
+ + 1.2605 captain_739_26 + 1.43345 captain_739_27 + 2.50781 captain_73_24
+ + 2.40076 captain_73_25 + 2.23534 captain_73_26 + 2.18693 captain_73_27
+ + 1.48117 captain_740_24 + 1.75346 captain_740_25 + 1.90937 captain_740_27
+ + 1.48178 captain_741_24 + 1.51911 captain_741_25 + 1.47608 captain_741_26
+ + 1.45602 captain_741_27 + 1.20109 captain_742_24 + 1.26863 captain_742_25
+ + 1.31284 captain_742_26 + 1.26591 captain_742_27 + 1.3607 captain_743_24
+ + 2.6517 captain_743_25 + 1.3406 captain_743_27 + 1.33834 captain_745_24
+ + 1.30242 captain_745_25 + 1.21681 captain_745_26 + 1.36078 captain_745_27
+ + 1.36053 captain_746_24 + 1.58479 captain_746_25 + 1.88232 captain_746_26
+ + 1.66417 captain_746_27 + 1.30767 captain_747_24 + 1.35768 captain_747_25
+ + 1.37964 captain_747_26 + 1.32319 captain_747_27 + 1.36665 captain_749_24
+ + 1.32025 captain_749_25 + 1.3822 captain_749_26 + 1.30466 captain_749_27
+ + 1.28237 captain_750_24 + 1.26504 captain_750_25 + 1.34583 captain_750_26
+ + 1.27562 captain_750_27 + 1.76529 captain_751_24 + 1.36041 captain_751_25
+ + 2.03292 captain_751_26 + 1.23932 captain_751_27 + 3.27006 captain_752_24
+ + 5.83344 captain_752_25 + 2.95599 captain_752_26 + 3.24148 captain_752_27
+ + 1.37221 captain_753_24 + 1.59723 captain_753_25 + 1.89575 captain_753_26
+ + 1.67687 captain_753_27 + 1.34675 captain_754_24 + 1.37122 captain_754_25
+ + 1.35662 captain_754_27 + 1.33295 captain_755_24 + 1.38366 captain_755_25
+ + 1.40592 captain_755_26 + 1.34869 captain_755_27 + 3.31212 captain_757_24
+ + 5.61439 captain_757_25 + 2.80978 captain_757_27 + 1.3238 captain_758_24
+ + 1.26028 captain_758_25 + 1.3652 captain_758_27 + 1.322 captain_759_24
+ + 1.31493 captain_759_25 + 1.30622 captain_759_26 + 1.28698 captain_759_27
+ + 2.10305 captain_75_24 + 1.64375 captain_75_25 + 1.63236 captain_75_26
+ + 2.348 captain_75_27 + 1.28506 captain_760_24 + 1.39588 captain_760_25
+ + 1.35324 captain_760_26 + 1.40633 captain_760_27 + 1.20627 captain_761_24
+ + 1.97791 captain_761_25 + 1.45969 captain_761_26 + 1.82591 captain_761_27
+ + 1.44635 captain_762_24 + 2.82131 captain_762_25 + 1.39726 captain_762_26
+ + 1.43142 captain_762_27 + 1.49607 captain_763_24 + 1.60041 captain_763_25
+ + 2.05816 captain_763_26 + 1.44877 captain_763_27 + 1.36009 captain_764_24
+ + 1.37449 captain_764_25 + 1.43686 captain_764_26 + 1.41017 captain_764_27
+ + 3.30965 captain_765_24 + 3.15544 captain_765_25 + 3.43095 captain_765_26
+ + 3.21456 captain_765_27 + 1.63742 captain_766_24 + 1.69278 captain_766_25
+ + 2.02573 captain_766_26 + 1.36045 captain_766_27 + 1.43142 captain_767_24
+ + 1.38791 captain_767_25 + 1.4512 captain_767_26 + 1.40732 captain_767_27
+ + 1.50408 captain_768_24 + 1.5613 captain_768_25 + 1.90551 captain_768_26
+ + 1.21774 captain_768_27 + 2.06816 captain_76_24 + 2.06478 captain_76_25
+ + 1.89372 captain_76_26 + 1.98847 captain_76_27 + 1.41955 captain_770_24
+ + 1.37185 captain_770_25 + 1.43554 captain_770_26 + 1.35582 captain_770_27
+ + 1.4601 captain_771_24 + 2.84831 captain_771_25 + 1.41067 captain_771_26
+ + 1.44506 captain_771_27 + 1.38643 captain_772_24 + 1.40103 captain_772_25
+ + 1.46428 captain_772_26 + 1.43721 captain_772_27 + 1.39308 captain_773_24
+ + 1.44642 captain_773_25 + 1.44681 captain_773_26 + 1.40464 captain_773_27
+ + 1.6178 captain_774_24 + 1.95169 captain_774_25 + 1.85953 captain_774_26
+ + 1.59899 captain_774_27 + 2.77363 captain_775_24 + 2.77549 captain_775_25
+ + 2.77203 captain_775_26 + 2.76069 captain_775_27 + 3.9929 captain_776_24
+ + 3.9709 captain_776_25 + 3.84624 captain_776_27 + 1.74465 captain_777_24
+ + 2.1568 captain_777_25 + 2.437 captain_777_27 + 3.35854 captain_778_24
+ + 3.20207 captain_778_25 + 3.48162 captain_778_26 + 3.26206 captain_778_27
+ + 1.49226 captain_779_24 + 1.46086 captain_779_25 + 1.39086 captain_779_26
+ + 1.44268 captain_779_27 + 3.54649 captain_77_24 + 3.3471 captain_77_25
+ + 3.7217 captain_77_26 + 3.63127 captain_77_27 + 1.65778 captain_780_24
+ + 1.59095 captain_780_25 + 1.48843 captain_780_26 + 1.51638 captain_780_27
+ + 1.65778 captain_781_24 + 1.59095 captain_781_25 + 1.48843 captain_781_26
+ + 1.51638 captain_781_27 + 1.2581 captain_783_24 + 2.54605 captain_783_25
+ + 1.29743 captain_783_27 + 1.63094 captain_784_24 + 1.966 captain_784_25
+ + 1.87353 captain_784_26 + 1.61206 captain_784_27 + 1.41193 captain_786_24
+ + 1.46481 captain_786_25 + 1.48802 captain_786_26 + 1.42834 captain_786_27
+ + 1.46065 captain_787_24 + 1.41193 captain_787_25 + 1.47698 captain_787_26
+ + 1.39556 captain_787_27 + 3.35479 captain_789_24 + 5.98471 captain_789_25
+ + 3.03264 captain_789_26 + 3.32547 captain_789_27 + 2.02052 captain_78_24
+ + 2.00282 captain_78_25 + 1.99643 captain_78_26 + 2.13481 captain_78_27
+ + 3.44878 captain_790_24 + 3.42031 captain_790_25 + 3.53745 captain_790_26
+ + 3.20107 captain_790_27 + 1.30047 captain_791_24 + 1.26221 captain_791_25
+ + 1.37764 captain_791_27 + 2.33445 captain_792_24 + 2.41363 captain_792_25
+ + 3.05043 captain_792_26 + 2.22548 captain_792_27 + 1.82473 captain_793_24
+ + 1.78322 captain_793_25 + 1.99622 captain_793_26 + 1.61318 captain_793_27
+ + 1.47423 captain_794_24 + 1.52892 captain_794_25 + 1.3799 captain_794_26
+ + 1.47947 captain_794_27 + 1.47423 captain_795_24 + 1.52892 captain_795_25
+ + 1.3799 captain_795_26 + 1.47947 captain_795_27 + 1.52892 captain_796_24
+ + 1.4291 captain_796_25 + 1.44083 captain_796_26 + 1.45359 captain_796_27
+ + 1.85457 captain_797_24 + 2.80296 captain_797_25 + 1.57446 captain_797_26
+ + 1.57891 captain_797_27 + 2.17897 captain_798_24 + 3.01415 captain_798_25
+ + 1.75193 captain_798_27 + 1.64569 captain_799_24 + 1.62943 captain_799_25
+ + 1.6358 captain_799_26 + 1.75176 captain_799_27 + 2.45134 captain_800_24
+ + 2.34619 captain_800_25 + 2.48658 captain_800_26 + 2.31086 captain_800_27
+ + 2.11256 captain_801_24 + 2.08706 captain_801_25 + 1.99316 captain_801_26
+ + 2.1151 captain_801_27 + 1.78322 captain_802_24 + 1.34513 captain_802_25
+ + 1.32463 captain_802_26 + 1.99182 captain_802_27 + 2.31368 captain_803_24
+ + 2.23944 captain_803_25 + 2.39503 captain_803_26 + 2.31999 captain_803_27
+ + 2.24748 captain_804_24 + 2.24065 captain_804_25 + 2.07673 captain_804_26
+ + 2.15831 captain_804_27 + 1.53301 captain_805_24 + 2.11218 captain_805_25
+ + 2.39751 captain_805_26 + 2.43446 captain_805_27 + 1.02889 captain_806_24
+ + 1.50803 captain_806_25 + 1.75826 captain_806_26 + 1.815 captain_806_27
+ + 2.39326 captain_807_24 + 2.36993 captain_807_25 + 2.51629 captain_807_26
+ + 2.40515 captain_807_27 + 3.40394 captain_808_24 + 3.8485 captain_808_25
+ + 3.4117 captain_808_26 + 3.44177 captain_808_27 + 1.47046 captain_809_24
+ + 1.43333 captain_809_25 + 1.36554 captain_809_26 + 1.40986 captain_809_27
+ + 3.00625 captain_80_24 + 2.84973 captain_80_25 + 3.14379 captain_80_26
+ + 3.07281 captain_80_27 + 1.54342 captain_810_24 + 1.44289 captain_810_25
+ + 1.45471 captain_810_26 + 1.46756 captain_810_27 + 2.36942 captain_82_24
+ + 2.40493 captain_82_25 + 2.24897 captain_82_26 + 2.36135 captain_82_27
+ + 2.75599 captain_83_24 + 2.15016 captain_83_25 + 2.14297 captain_83_26
+ + 3.14816 captain_83_27 + 2.6281 captain_84_24 + 2.09306 captain_84_25
+ + 2.08908 captain_84_26 + 2.98232 captain_84_27 + 4.76339 captain_85_24
+ + 4.80098 captain_85_25 + 4.46814 captain_85_26 + 4.68871 captain_85_27
+ + 3.73069 captain_86_24 + 3.60978 captain_86_25 + 3.60283 captain_86_26
+ + 3.91649 captain_86_27 + 2.72694 captain_88_24 + 2.58463 captain_88_25
+ + 2.85198 captain_88_26 + 2.78744 captain_88_27 + 2.93561 captain_89_24
+ + 2.38916 captain_89_25 + 2.40104 captain_89_26 + 3.36072 captain_89_27
+ + 4.32846 captain_8_24 + 4.0305 captain_8_25 + 4.53883 captain_8_26
+ + 4.43031 captain_8_27 + 2.30912 captain_90_24 + 3.65203 captain_90_25
+ + 2.1811 captain_90_26 + 2.21358 captain_90_27 + 3.13798 captain_91_24
+ + 5.59764 captain_91_25 + 2.83652 captain_91_26 + 3.11055 captain_91_27
+ + 1.33173 captain_92_24 + 2.76454 captain_92_25 + 1.48735 captain_92_26
+ + 1.55222 captain_92_27 + 1.88723 captain_93_24 + 3.02685 captain_93_25
+ + 1.59167 captain_93_26 + 1.42017 captain_93_27 + 2.74846 captain_96_24
+ + 4.4969 captain_96_25 + 2.577 captain_96_26 + 2.60279 captain_96_27
+ + 1.62041 captain_98_24 + 3.34992 captain_98_25 + 1.79712 captain_98_26
+ + 1.86574 captain_98_27 + 1.22565 captain_99_24 + 2.49022 captain_99_25
+ + 1.2998 captain_99_26 + 1.32863 captain_99_27 + 2.16244 captain_9_24
+ + 2.24911 captain_9_25 + 2.43969 captain_9_26 + 2.42191 captain_9_27
+ + 3.82294 lineup_101_24 + 6.74937 lineup_101_25 + 3.4245 lineup_101_26
+ + 3.78667 lineup_101_27 + 3.07591 lineup_105_24 + 6.06993 lineup_105_25
+ + 3.18017 lineup_105_26 + 3.28937 lineup_105_27 + 3.29742 lineup_106_24
+ + 6.3674 lineup_106_25 + 3.3067 lineup_106_26 + 3.42281 lineup_106_27
+ + 2.74476 lineup_107_24 + 5.29358 lineup_107_25 + 2.78775 lineup_107_26
+ + 2.9103 lineup_107_27 + 5.40563 lineup_108_27 + 3.32301 lineup_109_24
+ + 5.22724 lineup_109_25 + 2.98856 lineup_109_26 + 3.01938 lineup_109_27
+ + 1.8265 lineup_10_24 + 2.46729 lineup_10_25 + 2.30967 lineup_10_26
+ + 2.22223 lineup_10_27 + 3.54523 lineup_110_24 + 6.91284 lineup_110_25
+ + 3.60973 lineup_110_26 + 3.74096 lineup_110_27 + 3.7297 lineup_111_25
+ + 1.91159 lineup_111_26 + 1.96867 lineup_111_27 + 3.63736 lineup_112_24
+ + 5.92372 lineup_112_25 + 3.37368 lineup_112_26 + 3.40585 lineup_112_27
+ + 3.55358 lineup_113_24 + 3.89817 lineup_113_25 + 3.65289 lineup_113_26
+ + 3.85572 lineup_113_27 + 2.42277 lineup_114_24 + 4.02272 lineup_114_25
+ + 2.2474 lineup_114_26 + 2.25859 lineup_114_27 + 3.17389 lineup_116_24
+ + 5.65463 lineup_116_25 + 2.86584 lineup_116_26 + 3.14586 lineup_116_27
+ + 5.51414 lineup_117_24 + 10.18412 lineup_117_25 + 5.69607 lineup_117_26
+ + 5.22723 lineup_117_27 + 7.08378 lineup_119_25 + 3.89243 lineup_119_26
+ + 3.59734 lineup_119_27 + 1.2968 lineup_120_24 + 2.72467 lineup_120_25
+ + 1.44906 lineup_120_26 + 1.50333 lineup_120_27 + 2.35807 lineup_121_24
+ + 3.65854 lineup_121_25 + 2.03823 lineup_121_26 + 2.04362 lineup_121_27
+ + 2.93204 lineup_122_25 + 2.99876 lineup_122_26 + 2.82724 lineup_122_27
+ + 2.08795 lineup_125_24 + 2.20478 lineup_125_25 + 2.25932 lineup_125_26
+ + 2.13828 lineup_125_27 + 2.68372 lineup_126_24 + 2.578 lineup_126_25
+ + 2.92778 lineup_126_27 + 2.08181 lineup_128_24 + 2.18265 lineup_128_25
+ + 2.2377 lineup_128_26 + 2.11543 lineup_128_27 + 3.03742 lineup_129_24
+ + 3.46447 lineup_129_25 + 4.03094 lineup_129_26 + 3.58664 lineup_129_27
+ + 4.8733 lineup_12_24 + 4.91084 lineup_12_25 + 5.21622 lineup_12_26
+ + 4.99529 lineup_12_27 + 2.02125 lineup_130_25 + 2.0759 lineup_130_26
+ + 1.93541 lineup_130_27 + 1.97636 lineup_131_24 + 2.43439 lineup_131_25
+ + 2.99588 lineup_131_26 + 2.74173 lineup_131_27 + 2.7425 lineup_132_24
+ + 2.89901 lineup_132_25 + 2.87926 lineup_132_26 + 2.87966 lineup_132_27
+ + 2.56528 lineup_133_24 + 2.76394 lineup_133_25 + 2.87866 lineup_133_26
+ + 2.76641 lineup_133_27 + 5.02632 lineup_134_24 + 5.31095 lineup_134_25
+ + 5.42118 lineup_134_26 + 5.04153 lineup_134_27 + 4.0615 lineup_135_24
+ + 4.17949 lineup_135_25 + 4.04442 lineup_135_26 + 3.99464 lineup_135_27
+ + 1.46122 lineup_138_24 + 1.57095 lineup_138_25 + 1.64481 lineup_138_26
+ + 1.59434 lineup_138_27 + 1.55124 lineup_139_24 + 1.79392 lineup_139_25
+ + 2.1209 lineup_139_26 + 1.8271 lineup_139_27 + 2.7289 lineup_13_24
+ + 2.58448 lineup_13_25 + 2.94449 lineup_13_26 + 2.90185 lineup_13_27
+ + 3.02911 lineup_141_24 + 3.0437 lineup_141_25 + 3.18427 lineup_141_26
+ + 3.00625 lineup_141_27 + 3.69447 lineup_143_24 + 3.93346 lineup_143_25
+ + 4.03839 lineup_143_26 + 3.76864 lineup_143_27 + 1.23187 lineup_144_24
+ + 1.29053 lineup_144_25 + 1.33502 lineup_144_26 + 1.29497 lineup_144_27
+ + 3.50948 lineup_145_24 + 3.01141 lineup_145_25 + 3.36477 lineup_145_27
+ + 3.46747 lineup_148_24 + 3.48483 lineup_148_25 + 3.65207 lineup_148_26
+ + 3.44027 lineup_148_27 + 5.40874 lineup_14_24 + 5.55342 lineup_14_25
+ + 6.0077 lineup_14_26 + 5.78732 lineup_14_27 + 2.42569 lineup_150_24
+ + 2.75481 lineup_150_25 + 3.18431 lineup_150_26 + 2.8821 lineup_150_27
+ + 2.15347 lineup_151_24 + 2.47853 lineup_151_25 + 2.90977 lineup_151_26
+ + 2.59358 lineup_151_27 + 3.48677 lineup_152_24 + 3.50491 lineup_152_25
+ + 3.67971 lineup_152_26 + 3.45834 lineup_152_27 + 1.95554 lineup_153_24
+ + 2.29304 lineup_153_25 + 2.71983 lineup_153_26 + 2.43326 lineup_153_27
+ + 2.76053 lineup_154_24 + 2.86996 lineup_154_25 + 2.79987 lineup_154_26
+ + 2.76573 lineup_154_27 + 1.14376 lineup_156_24 + 1.18383 lineup_156_25
+ + 1.18015 lineup_156_26 + 1.27931 lineup_156_27 + 1.8843 lineup_157_24
+ + 2.38522 lineup_157_25 + 2.59194 lineup_157_26 + 2.54534 lineup_157_27
+ + 1.98208 lineup_159_24 + 2.07429 lineup_159_25 + 2.06583 lineup_159_26
+ + 2.29401 lineup_159_27 + 1.64441 lineup_160_24 + 2.32676 lineup_160_25
+ + 2.64558 lineup_160_26 + 2.68249 lineup_160_27 + 2.99004 lineup_161_24
+ + 3.1621 lineup_161_25 + 3.17263 lineup_161_26 + 3.52109 lineup_161_27
+ + 1.5765 lineup_163_24 + 1.67596 lineup_163_25 + 1.70136 lineup_163_26
+ + 1.86923 lineup_163_27 + 2.06772 lineup_165_24 + 2.17284 lineup_165_25
+ + 2.17672 lineup_165_26 + 2.40623 lineup_165_27 + 0.96234 lineup_166_24
+ + 1.41344 lineup_166_25 + 1.63392 lineup_166_26 + 1.65945 lineup_166_27
+ + 0.94171 lineup_167_24 + 1.45587 lineup_167_25 + 1.7313 lineup_167_26
+ + 1.79328 lineup_167_27 + 2.39111 lineup_168_24 + 2.50451 lineup_168_25
+ + 2.5815 lineup_168_26 + 2.70296 lineup_168_27 + 2.23695 lineup_170_24
+ + 2.41509 lineup_170_25 + 2.45067 lineup_170_26 + 2.79887 lineup_170_27
+ + 3.39576 lineup_172_24 + 3.07584 lineup_172_25 + 3.3023 lineup_172_26
+ + 3.31176 lineup_172_27 + 1.88905 lineup_173_24 + 2.57507 lineup_173_25
+ + 2.93092 lineup_173_26 + 2.99717 lineup_173_27 + 1.2399 lineup_176_24
+ + 1.83237 lineup_176_25 + 2.13776 lineup_176_26 + 2.18692 lineup_176_27
+ + 2.59516 lineup_177_24 + 2.6612 lineup_177_25 + 2.69227 lineup_177_26
+ + 2.79164 lineup_177_27 + 1.66632 lineup_178_24 + 2.29124 lineup_178_25
+ + 2.58281 lineup_178_26 + 2.61657 lineup_178_27 + 3.24402 lineup_17_24
+ + 3.53032 lineup_17_25 + 3.32654 lineup_17_26 + 3.49505 lineup_17_27
+ + 3.12959 lineup_181_24 + 2.85201 lineup_181_25 + 3.04851 lineup_181_26
+ + 3.05671 lineup_181_27 + 2.01939 lineup_182_24 + 2.72857 lineup_182_25
+ + 3.08645 lineup_182_26 + 3.15184 lineup_182_27 + 1.512 lineup_184_24
+ + 1.60306 lineup_184_25 + 1.61919 lineup_184_26 + 1.81148 lineup_184_27
+ + 1.18808 lineup_186_24 + 1.12945 lineup_186_25 + 1.22152 lineup_186_27
+ + 2.55767 lineup_191_24 + 1.78311 lineup_191_25 + 2.39723 lineup_191_27
+ + 2.9704 lineup_192_24 + 2.59391 lineup_192_25 + 2.86102 lineup_192_27
+ + 2.00963 lineup_193_24 + 2.08744 lineup_193_25 + 2.02626 lineup_193_26
+ + 2.2241 lineup_193_27 + 1.98216 lineup_194_24 + 1.31624 lineup_194_25
+ + 1.75867 lineup_194_27 + 2.43909 lineup_195_24 + 1.53662 lineup_195_25
+ + 2.21555 lineup_195_27 + 0.9185 lineup_196_24 + 0.92051 lineup_196_25
+ + 1.07279 lineup_196_27 + 3.13965 lineup_197_24 + 2.25289 lineup_197_25
+ + 2.88703 lineup_197_27 + 2.20727 lineup_198_27 + 3.60618 lineup_199_24
+ + 3.38302 lineup_199_25 + 3.93455 lineup_199_27 + 6.13846 lineup_19_24
+ + 6.17843 lineup_19_25 + 6.6307 lineup_19_26 + 6.33344 lineup_19_27
+ + 1.49612 lineup_1_24 + 1.57128 lineup_1_25 + 1.55681 lineup_1_26
+ + 1.5922 lineup_1_27 + 1.7531 lineup_200_24 + 1.75933 lineup_200_25
+ + 1.7377 lineup_200_26 + 1.77048 lineup_200_27 + 2.97186 lineup_202_24
+ + 2.80321 lineup_202_25 + 3.27234 lineup_202_27 + 2.30594 lineup_203_24
+ + 1.51653 lineup_203_25 + 2.11355 lineup_203_27 + 2.06329 lineup_204_24
+ + 2.03057 lineup_204_25 + 1.46403 lineup_204_26 + 2.03607 lineup_204_27
+ + 2.19691 lineup_205_24 + 2.19571 lineup_205_25 + 2.09326 lineup_205_26
+ + 2.22731 lineup_205_27 + 3.18595 lineup_207_24 + 2.93575 lineup_207_25
+ + 3.13732 lineup_207_27 + 2.04108 lineup_208_24 + 1.95656 lineup_208_25
+ + 2.25427 lineup_208_27 + 2.1003 lineup_209_24 + 2.22384 lineup_209_25
+ + 2.34446 lineup_209_26 + 1.98236 lineup_209_27 + 3.36318 lineup_20_24
+ + 4.26468 lineup_20_25 + 3.88088 lineup_20_26 + 3.67231 lineup_20_27
+ + 2.71488 lineup_210_24 + 2.54122 lineup_210_25 + 2.94591 lineup_210_27
+ + 3.74222 lineup_211_24 + 3.70498 lineup_211_25 + 3.97901 lineup_211_27
+ + 2.93236 lineup_212_24 + 2.90596 lineup_212_25 + 3.08808 lineup_212_27
+ + 2.48817 lineup_214_24 + 1.70273 lineup_214_25 + 2.22457 lineup_214_27
+ + 3.98558 lineup_216_24 + 3.69925 lineup_216_25 + 4.35177 lineup_216_27
+ + 3.05248 lineup_217_24 + 2.25085 lineup_217_25 + 2.91993 lineup_217_27
+ + 1.01769 lineup_219_24 + 1.03728 lineup_219_25 + 1.11015 lineup_219_26
+ + 1.08514 lineup_219_27 + 2.41004 lineup_21_24 + 4.59185 lineup_21_25
+ + 2.29825 lineup_21_27 + 2.8374 lineup_220_24 + 3.00881 lineup_220_25
+ + 3.84937 lineup_220_26 + 2.86136 lineup_220_27 + 3.27509 lineup_221_24
+ + 3.24138 lineup_221_25 + 3.50652 lineup_221_26 + 3.30151 lineup_221_27
+ + 2.23566 lineup_222_24 + 2.32651 lineup_222_25 + 2.8518 lineup_222_26
+ + 2.17233 lineup_222_27 + 1.19041 lineup_224_24 + 1.1697 lineup_224_25
+ + 1.2238 lineup_224_26 + 1.16437 lineup_224_27 + 2.72399 lineup_225_24
+ + 3.10365 lineup_225_25 + 3.25418 lineup_225_26 + 3.12058 lineup_225_27
+ + 4.53172 lineup_226_24 + 4.31083 lineup_226_25 + 4.57433 lineup_226_26
+ + 4.12117 lineup_226_27 + 2.80117 lineup_228_24 + 3.00109 lineup_228_25
+ + 3.85051 lineup_228_26 + 2.90185 lineup_228_27 + 2.21226 lineup_229_24
+ + 2.22825 lineup_229_25 + 2.37871 lineup_229_26 + 2.27049 lineup_229_27
+ + 2.3269 lineup_22_24 + 2.38692 lineup_22_25 + 2.57325 lineup_22_26
+ + 2.49311 lineup_22_27 + 3.48013 lineup_230_24 + 3.62937 lineup_230_25
+ + 3.39677 lineup_230_26 + 3.38908 lineup_230_27 + 3.31358 lineup_231_24
+ + 3.31173 lineup_231_25 + 3.6058 lineup_231_26 + 3.4033 lineup_231_27
+ + 2.38053 lineup_232_24 + 2.67971 lineup_232_25 + 2.77994 lineup_232_26
+ + 2.6365 lineup_232_27 + 3.07482 lineup_233_24 + 3.20563 lineup_233_25
+ + 3.00177 lineup_233_26 + 2.99504 lineup_233_27 + 2.62119 lineup_234_24
+ + 2.78013 lineup_234_25 + 3.53208 lineup_234_26 + 2.66167 lineup_234_27
+ + 4.33809 lineup_236_24 + 4.16476 lineup_236_25 + 4.52362 lineup_236_26
+ + 4.16247 lineup_236_27 + 1.96727 lineup_238_24 + 2.07983 lineup_238_25
+ + 2.61117 lineup_238_26 + 1.98571 lineup_238_27 + 1.42295 lineup_239_24
+ + 1.39957 lineup_239_25 + 1.46062 lineup_239_26 + 1.39355 lineup_239_27
+ + 1.64274 lineup_23_24 + 1.71901 lineup_23_25 + 1.43137 lineup_23_26
+ + 1.42435 lineup_23_27 + 2.80454 lineup_240_24 + 2.86049 lineup_240_25
+ + 3.131 lineup_240_26 + 2.99362 lineup_240_27 + 1.14006 lineup_241_24
+ + 1.2017 lineup_241_25 + 1.59666 lineup_241_26 + 1.09494 lineup_241_27
+ + 2.45568 lineup_242_24 + 2.52244 lineup_242_25 + 3.16379 lineup_242_26
+ + 2.29889 lineup_242_27 + 3.09352 lineup_243_24 + 3.22575 lineup_243_25
+ + 3.01967 lineup_243_26 + 3.01286 lineup_243_27 + 2.18654 lineup_245_24
+ + 3.29783 lineup_245_25 + 2.52327 lineup_245_26 + 2.96984 lineup_245_27
+ + 3.98023 lineup_246_24 + 4.28805 lineup_246_25 + 4.21838 lineup_246_26
+ + 4.43726 lineup_246_27 + 1.42545 lineup_247_24 + 2.35405 lineup_247_25
+ + 1.823 lineup_247_26 + 2.22613 lineup_247_27 + 3.3323 lineup_249_24
+ + 3.88719 lineup_249_25 + 3.71718 lineup_249_26 + 3.96794 lineup_249_27
+ + 2.94707 lineup_250_24 + 3.43554 lineup_250_25 + 3.33061 lineup_250_26
+ + 3.56697 lineup_250_27 + 1.80757 lineup_252_24 + 2.85966 lineup_252_25
+ + 2.08536 lineup_252_26 + 2.52486 lineup_252_27 + 2.21925 lineup_254_24
+ + 2.49899 lineup_254_25 + 2.40688 lineup_254_26 + 2.54672 lineup_254_27
+ + 1.93175 lineup_255_24 + 1.91767 lineup_255_25 + 2.19585 lineup_255_26
+ + 1.94708 lineup_255_27 + 3.66088 lineup_256_25 + 3.70753 lineup_256_26
+ + 3.75826 lineup_256_27 + 1.76955 lineup_257_24 + 2.77814 lineup_257_25
+ + 2.11996 lineup_257_26 + 2.55053 lineup_257_27 + 3.2077 lineup_258_24
+ + 6.02007 lineup_258_25 + 3.35761 lineup_258_26 + 3.08513 lineup_258_27
+ + 3.21997 lineup_259_24 + 3.84981 lineup_259_25 + 3.76538 lineup_259_26
+ + 4.06321 lineup_259_27 + 1.71385 lineup_25_24 + 2.2165 lineup_25_25
+ + 2.00431 lineup_25_26 + 1.88759 lineup_25_27 + 2.10222 lineup_260_24
+ + 3.22922 lineup_260_25 + 2.56873 lineup_260_26 + 3.06321 lineup_260_27
+ + 2.77139 lineup_261_24 + 3.16295 lineup_261_25 + 3.04566 lineup_261_26
+ + 3.21465 lineup_261_27 + 1.49421 lineup_262_24 + 2.45753 lineup_262_25
+ + 1.88334 lineup_262_26 + 2.31041 lineup_262_27 + 3.17183 lineup_263_24
+ + 3.84672 lineup_263_25 + 3.71583 lineup_263_26 + 3.93 lineup_263_27
+ + 2.51518 lineup_265_24 + 3.88165 lineup_265_25 + 3.01343 lineup_265_26
+ + 3.59626 lineup_265_27 + 2.66219 lineup_266_24 + 3.20049 lineup_266_25
+ + 3.09609 lineup_266_26 + 3.26691 lineup_266_27 + 3.87103 lineup_267_24
+ + 3.53166 lineup_267_25 + 3.59562 lineup_267_26 + 3.65168 lineup_267_27
+ + 2.61863 lineup_268_24 + 2.3763 lineup_268_25 + 2.3829 lineup_268_26
+ + 2.38919 lineup_268_27 + 3.23247 lineup_26_24 + 3.36315 lineup_26_25
+ + 3.65055 lineup_26_26 + 3.62836 lineup_26_27 + 3.1756 lineup_270_24
+ + 2.86503 lineup_270_25 + 2.91387 lineup_270_26 + 2.9367 lineup_270_27
+ + 1.22908 lineup_272_24 + 1.14479 lineup_272_25 + 1.15187 lineup_272_26
+ + 1.16547 lineup_272_27 + 1.50092 lineup_273_24 + 1.40711 lineup_273_25
+ + 1.38779 lineup_273_26 + 1.40309 lineup_273_27 + 2.05894 lineup_274_24
+ + 1.74659 lineup_274_25 + 1.43896 lineup_274_26 + 1.53558 lineup_274_27
+ + 3.76205 lineup_275_24 + 3.70337 lineup_275_25 + 3.83895 lineup_275_26
+ + 3.73766 lineup_275_27 + 1.65314 lineup_276_24 + 1.56006 lineup_276_25
+ + 1.59505 lineup_276_26 + 1.6097 lineup_276_27 + 2.08709 lineup_277_24
+ + 1.77474 lineup_277_25 + 1.46712 lineup_277_26 + 1.56373 lineup_277_27
+ + 1.80353 lineup_279_24 + 1.85521 lineup_279_25 + 1.80462 lineup_279_26
+ + 1.96145 lineup_279_27 + 2.08708 lineup_27_24 + 2.14107 lineup_27_25
+ + 2.466 lineup_27_26 + 2.27002 lineup_27_27 + 3.28083 lineup_280_24
+ + 3.01416 lineup_280_25 + 3.06822 lineup_280_26 + 3.10686 lineup_280_27
+ + 2.53437 lineup_281_24 + 2.38744 lineup_281_25 + 2.29014 lineup_281_26
+ + 2.3445 lineup_281_27 + 2.51263 lineup_282_24 + 2.36057 lineup_282_25
+ + 2.39504 lineup_282_26 + 2.43155 lineup_282_27 + 3.22825 lineup_283_24
+ + 3.04195 lineup_283_25 + 2.89947 lineup_283_26 + 2.92517 lineup_283_27
+ + 3.05681 lineup_284_24 + 3.01276 lineup_284_25 + 3.11454 lineup_284_26
+ + 3.0385 lineup_284_27 + 2.48118 lineup_285_24 + 2.33128 lineup_285_25
+ + 2.2311 lineup_285_26 + 2.26297 lineup_285_27 + 2.87536 lineup_286_24
+ + 2.71657 lineup_286_25 + 2.59741 lineup_286_26 + 2.62766 lineup_286_27
+ + 2.00305 lineup_287_24 + 2.03843 lineup_287_25 + 1.98175 lineup_287_26
+ + 2.12818 lineup_287_27 + 2.39474 lineup_288_25 + 2.43473 lineup_288_26
+ + 2.46379 lineup_288_27 + 3.03599 lineup_289_24 + 5.94323 lineup_289_25
+ + 3.12386 lineup_289_27 + 3.22733 lineup_28_24 + 3.62787 lineup_28_25
+ + 3.23433 lineup_28_26 + 3.26142 lineup_28_27 + 5.05945 lineup_290_24
+ + 9.26479 lineup_290_25 + 5.05739 lineup_290_27 + 3.79099 lineup_291_24
+ + 7.40355 lineup_291_25 + 3.91278 lineup_291_27 + 3.23363 lineup_292_25
+ + 1.64223 lineup_292_27 + 4.74503 lineup_293_24 + 8.82187 lineup_293_25
+ + 4.07535 lineup_293_27 + 3.45611 lineup_294_24 + 6.66047 lineup_294_25
+ + 3.4237 lineup_294_27 + 1.9986 lineup_295_24 + 4.00861 lineup_295_25
+ + 2.11084 lineup_295_27 + 3.23512 lineup_297_24 + 6.42281 lineup_297_25
+ + 3.08132 lineup_297_27 + 2.92872 lineup_298_24 + 5.39474 lineup_298_25
+ + 2.85565 lineup_298_27 + 3.39508 lineup_29_24 + 4.3116 lineup_29_25
+ + 3.90635 lineup_29_26 + 3.68904 lineup_29_27 + 1.3891 lineup_2_24
+ + 1.78089 lineup_2_25 + 1.60498 lineup_2_26 + 1.50822 lineup_2_27
+ + 2.9154 lineup_300_24 + 5.47154 lineup_300_25 + 2.8266 lineup_300_27
+ + 3.06362 lineup_301_24 + 5.99872 lineup_301_25 + 3.15133 lineup_301_27
+ + 5.67576 lineup_302_25 + 3.03897 lineup_302_27 + 3.99381 lineup_303_24
+ + 7.78712 lineup_303_25 + 3.97466 lineup_303_27 + 3.74074 lineup_304_24
+ + 7.44948 lineup_304_25 + 3.86628 lineup_304_27 + 3.28573 lineup_307_24
+ + 6.07492 lineup_307_25 + 3.29985 lineup_307_27 + 7.77217 lineup_308_24
+ + 14.42166 lineup_308_25 + 7.36873 lineup_308_27 + 4.35356 lineup_309_24
+ + 8.40274 lineup_309_25 + 4.27555 lineup_309_27 + 1.51198 lineup_310_24
+ + 2.98623 lineup_310_25 + 1.55146 lineup_310_27 + 2.83706 lineup_311_24
+ + 5.16581 lineup_311_25 + 2.71878 lineup_311_27 + 4.10219 lineup_313_24
+ + 7.66795 lineup_313_25 + 4.10181 lineup_313_27 + 3.24788 lineup_314_24
+ + 5.77565 lineup_314_25 + 2.93315 lineup_314_27 + 1.9826 lineup_315_24
+ + 2.72432 lineup_315_25 + 1.58826 lineup_315_27 + 2.7819 lineup_316_24
+ + 4.25979 lineup_316_25 + 2.44708 lineup_316_27 + 1.64468 lineup_317_24
+ + 3.27672 lineup_317_25 + 1.68658 lineup_317_27 + 2.27245 lineup_318_24
+ + 3.24211 lineup_318_25 + 1.92013 lineup_318_27 + 2.33293 lineup_319_24
+ + 4.675 lineup_319_25 + 2.36487 lineup_319_27 + 3.47535 lineup_31_24
+ + 4.3932 lineup_31_25 + 3.94258 lineup_31_26 + 3.68907 lineup_31_27
+ + 1.9856 lineup_320_24 + 3.75208 lineup_320_25 + 1.8664 lineup_320_27
+ + 3.76778 lineup_321_24 + 5.41519 lineup_321_25 + 3.14157 lineup_321_27
+ + 3.7994 lineup_326_24 + 6.83 lineup_326_25 + 3.45809 lineup_326_27
+ + 1.49272 lineup_327_24 + 3.00931 lineup_327_25 + 1.54483 lineup_327_27
+ + 3.60639 lineup_328_24 + 6.3138 lineup_328_25 + 3.1721 lineup_328_27
+ + 2.78928 lineup_32_24 + 2.801 lineup_32_25 + 3.19163 lineup_32_26
+ + 2.65978 lineup_32_27 + 3.23028 lineup_330_24 + 4.74929 lineup_330_25
+ + 2.67215 lineup_330_27 + 1.41939 lineup_332_24 + 2.84303 lineup_332_25
+ + 1.43429 lineup_332_27 + 1.68213 lineup_333_24 + 2.17574 lineup_333_25
+ + 1.30443 lineup_333_27 + 3.39511 lineup_335_24 + 6.81874 lineup_335_25
+ + 3.26099 lineup_335_27 + 1.41943 lineup_339_24 + 2.84313 lineup_339_25
+ + 1.43434 lineup_339_27 + 2.56431 lineup_33_24 + 2.71394 lineup_33_25
+ + 2.77693 lineup_33_26 + 2.55527 lineup_33_27 + 1.3518 lineup_340_24
+ + 2.58385 lineup_340_25 + 1.38812 lineup_340_27 + 3.87602 lineup_341_24
+ + 6.70041 lineup_341_25 + 3.47701 lineup_341_26 + 3.52647 lineup_341_27
+ + 4.06963 lineup_342_24 + 7.17445 lineup_342_25 + 3.8446 lineup_342_26
+ + 3.92641 lineup_342_27 + 4.9177 lineup_343_24 + 8.97189 lineup_343_25
+ + 4.49765 lineup_343_26 + 4.59389 lineup_343_27 + 3.92192 lineup_344_24
+ + 7.59897 lineup_344_25 + 3.77735 lineup_344_26 + 3.9549 lineup_344_27
+ + 1.76341 lineup_345_24 + 3.30323 lineup_345_25 + 1.60916 lineup_345_26
+ + 1.66034 lineup_345_27 + 4.47254 lineup_346_24 + 7.23065 lineup_346_25
+ + 3.49178 lineup_346_26 + 2.30287 lineup_346_27 + 3.18427 lineup_347_24
+ + 6.04445 lineup_347_25 + 3.08611 lineup_347_26 + 3.15322 lineup_347_27
+ + 4.1096 lineup_349_24 + 7.9238 lineup_349_25 + 3.9155 lineup_349_26
+ + 4.10445 lineup_349_27 + 3.06225 lineup_34_24 + 2.96389 lineup_34_25
+ + 3.23431 lineup_34_26 + 3.10054 lineup_34_27 + 3.72458 lineup_350_24
+ + 6.68508 lineup_350_25 + 3.50096 lineup_350_26 + 3.5694 lineup_350_27
+ + 1.69494 lineup_351_24 + 1.66104 lineup_351_25 + 1.78088 lineup_351_26
+ + 1.69483 lineup_351_27 + 3.95172 lineup_352_24 + 7.45486 lineup_352_25
+ + 3.81586 lineup_352_26 + 3.90874 lineup_352_27 + 5.2833 lineup_353_24
+ + 9.93253 lineup_353_25 + 4.85883 lineup_353_26 + 5.02199 lineup_353_27
+ + 3.73047 lineup_354_24 + 7.3908 lineup_354_25 + 3.71409 lineup_354_26
+ + 3.87677 lineup_354_27 + 6.12922 lineup_355_24 + 11.57163 lineup_355_25
+ + 5.98045 lineup_355_26 + 6.11081 lineup_355_27 + 2.32338 lineup_356_24
+ + 4.71662 lineup_356_25 + 2.43592 lineup_356_26 + 2.55047 lineup_356_27
+ + 2.71283 lineup_358_24 + 4.84547 lineup_358_25 + 2.54966 lineup_358_26
+ + 2.58433 lineup_358_27 + 2.61381 lineup_360_24 + 2.60326 lineup_360_25
+ + 2.58818 lineup_360_26 + 2.54739 lineup_360_27 + 3.23258 lineup_361_24
+ + 6.13748 lineup_361_25 + 3.13334 lineup_361_26 + 3.20118 lineup_361_27
+ + 4.73232 lineup_362_24 + 4.19826 lineup_362_25 + 4.90393 lineup_362_27
+ + 1.52126 lineup_364_24 + 1.62047 lineup_364_25 + 1.65105 lineup_364_26
+ + 1.62644 lineup_364_27 + 4.25617 lineup_365_24 + 8.29975 lineup_365_25
+ + 4.13812 lineup_365_26 + 4.3146 lineup_365_27 + 1.64147 lineup_366_24
+ + 2.90332 lineup_366_25 + 1.55959 lineup_366_26 + 1.58202 lineup_366_27
+ + 2.88986 lineup_368_24 + 5.05994 lineup_368_25 + 2.66891 lineup_368_26
+ + 2.70648 lineup_368_27 + 4.2751 lineup_369_24 + 7.39916 lineup_369_25
+ + 3.84592 lineup_369_26 + 3.91758 lineup_369_27 + 3.01881 lineup_36_24
+ + 3.0365 lineup_36_25 + 3.53706 lineup_36_26 + 2.88736 lineup_36_27
+ + 1.05477 lineup_371_24 + 1.11427 lineup_371_25 + 1.16277 lineup_371_26
+ + 1.01719 lineup_371_27 + 2.35121 lineup_372_24 + 2.67419 lineup_372_25
+ + 2.95472 lineup_372_26 + 2.53996 lineup_372_27 + 5.15274 lineup_373_24
+ + 5.6804 lineup_373_25 + 6.14316 lineup_373_26 + 4.89571 lineup_373_27
+ + 2.78466 lineup_376_24 + 2.99624 lineup_376_25 + 3.20312 lineup_376_26
+ + 2.63107 lineup_376_27 + 2.61771 lineup_377_24 + 2.77266 lineup_377_25
+ + 3.38539 lineup_377_26 + 2.29747 lineup_377_27 + 3.2012 lineup_378_24
+ + 3.16931 lineup_378_25 + 2.99869 lineup_378_26 + 3.22555 lineup_378_27
+ + 2.86921 lineup_379_24 + 3.06862 lineup_379_25 + 3.28143 lineup_379_26
+ + 2.7289 lineup_379_27 + 1.59551 lineup_37_24 + 1.55654 lineup_37_25
+ + 1.75648 lineup_37_26 + 1.39693 lineup_37_27 + 1.50089 lineup_380_24
+ + 1.50445 lineup_380_25 + 1.9227 lineup_380_26 + 1.08905 lineup_380_27
+ + 3.08226 lineup_382_24 + 3.30868 lineup_382_25 + 3.5234 lineup_382_26
+ + 2.91732 lineup_382_27 + 2.86361 lineup_384_24 + 3.01281 lineup_384_25
+ + 3.30984 lineup_384_26 + 2.61887 lineup_384_27 + 3.18954 lineup_385_24
+ + 3.32816 lineup_385_25 + 3.11212 lineup_385_26 + 3.10498 lineup_385_27
+ + 2.08193 lineup_386_24 + 2.19473 lineup_386_25 + 2.67344 lineup_386_26
+ + 1.83637 lineup_386_27 + 2.05571 lineup_387_24 + 2.1858 lineup_387_25
+ + 2.67982 lineup_387_26 + 1.86515 lineup_387_27 + 1.86861 lineup_388_24
+ + 2.00798 lineup_388_25 + 2.12111 lineup_388_26 + 1.88522 lineup_388_27
+ + 1.42056 lineup_389_24 + 1.47808 lineup_389_25 + 1.82404 lineup_389_26
+ + 1.13277 lineup_389_27 + 2.63649 lineup_38_24 + 2.59192 lineup_38_25
+ + 2.72911 lineup_38_26 + 2.43827 lineup_38_27 + 3.00011 lineup_392_24
+ + 3.24169 lineup_392_25 + 3.44419 lineup_392_26 + 2.85837 lineup_392_27
+ + 2.69283 lineup_393_24 + 4.0579 lineup_393_25 + 2.32644 lineup_393_27
+ + 2.03511 lineup_395_24 + 2.19665 lineup_395_25 + 2.71234 lineup_395_26
+ + 1.88429 lineup_395_27 + 3.99223 lineup_396_24 + 4.41969 lineup_396_25
+ + 4.80574 lineup_396_26 + 3.96778 lineup_396_27 + 2.10393 lineup_398_24
+ + 2.23681 lineup_398_25 + 2.78935 lineup_398_26 + 1.83282 lineup_398_27
+ + 1.29475 lineup_399_24 + 1.34793 lineup_399_25 + 1.55659 lineup_399_26
+ + 1.22618 lineup_399_27 + 2.20328 lineup_39_24 + 2.35799 lineup_39_25
+ + 2.52396 lineup_39_26 + 1.97207 lineup_39_27 + 1.02189 lineup_3_24
+ + 1.03266 lineup_3_25 + 1.07932 lineup_3_26 + 1.05935 lineup_3_27
+ + 2.33709 lineup_401_24 + 2.44834 lineup_401_25 + 2.94781 lineup_401_26
+ + 1.9838 lineup_401_27 + 3.67213 lineup_402_24 + 4.01317 lineup_402_25
+ + 3.46189 lineup_402_26 + 3.93734 lineup_402_27 + 1.68403 lineup_403_24
+ + 1.76096 lineup_403_25 + 1.55135 lineup_403_26 + 1.69141 lineup_403_27
+ + 3.11659 lineup_405_24 + 3.12001 lineup_405_25 + 2.29812 lineup_405_26
+ + 3.22617 lineup_405_27 + 3.98689 lineup_406_24 + 4.27503 lineup_406_25
+ + 3.64625 lineup_406_26 + 4.09068 lineup_406_27 + 3.33036 lineup_407_24
+ + 3.33094 lineup_407_25 + 2.41924 lineup_407_26 + 3.45041 lineup_407_27
+ + 3.43147 lineup_409_24 + 3.35429 lineup_409_25 + 3.24866 lineup_409_26
+ + 3.26882 lineup_409_27 + 3.12386 lineup_411_24 + 3.05671 lineup_411_25
+ + 2.9648 lineup_411_26 + 2.98234 lineup_411_27 + 3.7021 lineup_412_24
+ + 4.00204 lineup_412_25 + 3.38407 lineup_412_26 + 3.85266 lineup_412_27
+ + 1.4906 lineup_414_24 + 1.50797 lineup_414_25 + 1.35889 lineup_414_26
+ + 1.43911 lineup_414_27 + 4.3993 lineup_415_24 + 4.29756 lineup_415_25
+ + 3.93618 lineup_415_26 + 4.64413 lineup_415_27 + 2.37791 lineup_417_24
+ + 2.32121 lineup_417_25 + 1.66122 lineup_417_26 + 2.36766 lineup_417_27
+ + 2.64233 lineup_419_24 + 2.56882 lineup_419_25 + 1.83228 lineup_419_26
+ + 2.54591 lineup_419_27 + 2.54028 lineup_41_24 + 2.54179 lineup_41_25
+ + 2.84941 lineup_41_26 + 2.36847 lineup_41_27 + 3.83847 lineup_421_24
+ + 3.98561 lineup_421_25 + 3.37201 lineup_421_26 + 3.66058 lineup_421_27
+ + 2.41092 lineup_423_24 + 2.50972 lineup_423_25 + 2.12701 lineup_423_26
+ + 2.33188 lineup_423_27 + 1.19836 lineup_425_24 + 1.24248 lineup_425_25
+ + 1.12225 lineup_425_26 + 1.20259 lineup_425_27 + 4.22684 lineup_427_24
+ + 4.09366 lineup_427_25 + 2.9252 lineup_427_26 + 3.94518 lineup_427_27
+ + 1.96636 lineup_428_25 + 1.3448 lineup_428_26 + 1.94703 lineup_428_27
+ + 3.04052 lineup_42_24 + 2.97078 lineup_42_25 + 3.32858 lineup_42_26
+ + 2.68515 lineup_42_27 + 4.96528 lineup_430_24 + 4.81406 lineup_430_25
+ + 3.3427 lineup_430_26 + 4.82785 lineup_430_27 + 3.12843 lineup_432_24
+ + 3.31975 lineup_432_25 + 2.79845 lineup_432_26 + 3.14676 lineup_432_27
+ + 3.74021 lineup_433_24 + 3.64773 lineup_433_25 + 3.33464 lineup_433_26
+ + 3.98292 lineup_433_27 + 1.2596 lineup_435_24 + 1.23184 lineup_435_25
+ + 1.16996 lineup_435_26 + 1.21577 lineup_435_27 + 2.57271 lineup_436_24
+ + 2.68947 lineup_436_25 + 2.2525 lineup_436_26 + 2.20526 lineup_436_27
+ + 3.25425 lineup_437_24 + 3.1304 lineup_437_25 + 2.92563 lineup_437_26
+ + 3.0167 lineup_437_27 + 2.64603 lineup_439_25 + 2.21862 lineup_439_26
+ + 2.1954 lineup_439_27 + 4.80758 lineup_43_24 + 4.54793 lineup_43_25
+ + 4.9871 lineup_43_26 + 4.76513 lineup_43_27 + 2.44674 lineup_442_24
+ + 2.40536 lineup_442_25 + 2.27365 lineup_442_26 + 2.42991 lineup_442_27
+ + 2.26691 lineup_445_24 + 2.3426 lineup_445_25 + 1.96842 lineup_445_26
+ + 1.94809 lineup_445_27 + 2.56436 lineup_446_24 + 2.55972 lineup_446_25
+ + 2.41961 lineup_446_26 + 2.49096 lineup_446_27 + 4.30617 lineup_447_24
+ + 4.24047 lineup_447_25 + 3.9609 lineup_447_26 + 4.2743 lineup_447_27
+ + 2.84194 lineup_448_24 + 3.19302 lineup_448_25 + 2.84808 lineup_448_26
+ + 2.87182 lineup_448_27 + 3.13647 lineup_449_24 + 3.56846 lineup_449_25
+ + 3.14377 lineup_449_26 + 3.14445 lineup_449_27 + 3.59313 lineup_450_24
+ + 3.74177 lineup_450_25 + 3.70885 lineup_450_27 + 1.50733 lineup_451_24
+ + 1.47344 lineup_451_25 + 1.39787 lineup_451_26 + 1.45381 lineup_451_27
+ + 2.79224 lineup_453_24 + 2.75355 lineup_453_25 + 2.57682 lineup_453_26
+ + 2.66722 lineup_453_27 + 1.44585 lineup_456_24 + 1.4436 lineup_456_25
+ + 1.37568 lineup_456_26 + 1.41027 lineup_456_27 + 2.46129 lineup_457_24
+ + 2.52027 lineup_457_25 + 2.14107 lineup_457_26 + 2.12046 lineup_457_27
+ + 2.08001 lineup_458_24 + 2.05956 lineup_458_25 + 1.94819 lineup_458_26
+ + 2.00788 lineup_458_27 + 1.58289 lineup_45_24 + 1.54392 lineup_45_25
+ + 1.74387 lineup_45_26 + 1.38431 lineup_45_27 + 1.81288 lineup_460_24
+ + 1.98863 lineup_460_25 + 1.50144 lineup_460_26 + 1.45264 lineup_460_27
+ + 2.67226 lineup_465_24 + 2.807 lineup_465_25 + 2.38774 lineup_465_26
+ + 2.37355 lineup_465_27 + 1.57614 lineup_466_24 + 1.56405 lineup_466_25
+ + 1.52515 lineup_466_26 + 1.57607 lineup_466_27 + 2.05952 lineup_467_24
+ + 2.2106 lineup_467_25 + 1.90394 lineup_467_26 + 1.90493 lineup_467_27
+ + 3.21965 lineup_468_24 + 3.11151 lineup_468_25 + 2.90812 lineup_468_26
+ + 2.9952 lineup_468_27 + 1.07946 lineup_46_24 + 1.06486 lineup_46_25
+ + 1.13335 lineup_46_26 + 1.11846 lineup_46_27 + 2.47099 lineup_470_24
+ + 2.44958 lineup_470_25 + 2.33403 lineup_470_26 + 2.47216 lineup_470_27
+ + 2.5854 lineup_471_24 + 2.59391 lineup_471_25 + 2.97824 lineup_471_26
+ + 2.65164 lineup_471_27 + 3.0626 lineup_472_24 + 3.0384 lineup_472_25
+ + 3.13798 lineup_472_26 + 2.85201 lineup_472_27 + 1.86357 lineup_473_24
+ + 1.87366 lineup_473_25 + 2.14512 lineup_473_26 + 1.91461 lineup_473_27
+ + 2.4201 lineup_475_24 + 2.59129 lineup_475_25 + 2.60155 lineup_475_26
+ + 2.92297 lineup_475_27 + 2.29608 lineup_476_24 + 2.35871 lineup_476_25
+ + 2.76927 lineup_476_26 + 2.51761 lineup_476_27 + 1.40292 lineup_477_24
+ + 1.47139 lineup_477_25 + 1.48493 lineup_477_26 + 1.32439 lineup_477_27
+ + 1.22061 lineup_478_24 + 1.21319 lineup_478_25 + 1.20404 lineup_478_26
+ + 1.18383 lineup_478_27 + 3.0626 lineup_479_24 + 3.0384 lineup_479_25
+ + 3.13798 lineup_479_26 + 2.85201 lineup_479_27 + 2.59383 lineup_47_24
+ + 2.5418 lineup_47_25 + 2.77305 lineup_47_26 + 2.70579 lineup_47_27
+ + 1.68365 lineup_481_24 + 1.67112 lineup_481_25 + 1.65567 lineup_481_26
+ + 1.62155 lineup_481_27 + 3.61923 lineup_482_24 + 3.58958 lineup_482_25
+ + 3.7116 lineup_482_26 + 3.36121 lineup_482_27 + 1.70974 lineup_483_24
+ + 1.74895 lineup_483_25 + 1.74339 lineup_483_26 + 1.55709 lineup_483_27
+ + 1.91691 lineup_484_24 + 1.90957 lineup_484_25 + 2.19664 lineup_484_26
+ + 1.95287 lineup_484_27 + 2.89774 lineup_485_24 + 2.98487 lineup_485_25
+ + 2.98936 lineup_485_26 + 2.66273 lineup_485_27 + 0.92012 lineup_487_24
+ + 1.02308 lineup_487_25 + 1.30887 lineup_487_26 + 1.19187 lineup_487_27
+ + 2.52457 lineup_488_24 + 2.55577 lineup_488_25 + 2.56943 lineup_488_26
+ + 2.51359 lineup_488_27 + 1.53956 lineup_489_24 + 1.57318 lineup_489_25
+ + 1.58204 lineup_489_26 + 1.57432 lineup_489_27 + 3.41301 lineup_48_24
+ + 3.43284 lineup_48_25 + 3.89669 lineup_48_26 + 3.23985 lineup_48_27
+ + 1.73628 lineup_490_24 + 1.80092 lineup_490_25 + 1.82081 lineup_490_26
+ + 1.66507 lineup_490_27 + 3.0384 lineup_491_24 + 2.98234 lineup_491_25
+ + 3.20049 lineup_491_27 + 1.90689 lineup_492_24 + 2.01719 lineup_492_25
+ + 2.01794 lineup_492_27 + 2.3189 lineup_493_24 + 2.38239 lineup_493_25
+ + 2.3445 lineup_493_27 + 1.64427 lineup_494_24 + 1.71917 lineup_494_25
+ + 1.74788 lineup_494_27 + 2.61079 lineup_495_24 + 3.0657 lineup_495_25
+ + 3.31043 lineup_495_27 + 2.00017 lineup_497_24 + 2.38707 lineup_497_25
+ + 2.61243 lineup_497_27 + 3.0245 lineup_498_24 + 2.96874 lineup_498_25
+ + 3.18571 lineup_498_27 + 2.56338 lineup_499_24 + 2.70382 lineup_499_25
+ + 2.72138 lineup_499_27 + 3.89821 lineup_49_24 + 3.69361 lineup_49_25
+ + 4.05916 lineup_49_26 + 3.77206 lineup_49_27 + 1.73555 lineup_4_24
+ + 1.7645 lineup_4_25 + 1.88989 lineup_4_26 + 1.83623 lineup_4_27
+ + 3.65785 lineup_501_24 + 3.83137 lineup_501_25 + 3.82732 lineup_501_27
+ + 4.41022 lineup_504_24 + 4.54818 lineup_504_25 + 4.44916 lineup_504_27
+ + 3.53201 lineup_506_24 + 4.22329 lineup_506_25 + 4.60761 lineup_506_27
+ + 2.34343 lineup_508_24 + 3.72068 lineup_508_25 + 2.111 lineup_508_26
+ + 2.12171 lineup_508_27 + 4.22129 lineup_509_24 + 4.23873 lineup_509_25
+ + 4.15103 lineup_509_27 + 4.59832 lineup_50_24 + 4.34699 lineup_50_25
+ + 4.58037 lineup_50_26 + 4.29088 lineup_50_27 + 2.30541 lineup_511_24
+ + 2.76769 lineup_511_25 + 3.05357 lineup_511_27 + 2.36787 lineup_513_24
+ + 2.49 lineup_513_25 + 2.48513 lineup_513_27 + 1.7645 lineup_515_24
+ + 1.85011 lineup_515_25 + 1.85619 lineup_515_27 + 5.30394 lineup_516_24
+ + 5.49028 lineup_516_25 + 5.38829 lineup_516_27 + 1.57693 lineup_517_24
+ + 2.01576 lineup_517_25 + 1.42176 lineup_517_27 + 1.5072 lineup_518_24
+ + 1.93504 lineup_518_25 + 1.3626 lineup_518_27 + 2.95555 lineup_519_24
+ + 3.45497 lineup_519_25 + 3.71501 lineup_519_27 + 3.69148 lineup_520_24
+ + 3.61938 lineup_520_25 + 3.89995 lineup_520_27 + 3.06956 lineup_522_24
+ + 3.54021 lineup_522_25 + 3.34647 lineup_522_26 + 2.89013 lineup_522_27
+ + 2.75525 lineup_523_24 + 2.97375 lineup_523_25 + 2.91477 lineup_523_26
+ + 3.19083 lineup_523_27 + 3.3003 lineup_524_24 + 3.63657 lineup_524_25
+ + 3.4016 lineup_524_26 + 3.78523 lineup_524_27 + 3.05679 lineup_525_24
+ + 3.26709 lineup_525_25 + 3.26847 lineup_525_26 + 3.12114 lineup_525_27
+ + 4.74792 lineup_526_24 + 5.22419 lineup_526_25 + 5.31367 lineup_526_26
+ + 5.1046 lineup_526_27 + 1.92671 lineup_527_24 + 2.1122 lineup_527_25
+ + 2.17641 lineup_527_26 + 2.15049 lineup_527_27 + 2.5925 lineup_528_24
+ + 3.08203 lineup_528_25 + 2.98689 lineup_528_26 + 2.62924 lineup_528_27
+ + 2.45539 lineup_530_24 + 2.95685 lineup_530_25 + 2.81845 lineup_530_26
+ + 2.42713 lineup_530_27 + 2.70725 lineup_532_24 + 3.23055 lineup_532_25
+ + 3.12069 lineup_532_26 + 2.74107 lineup_532_27 + 3.24094 lineup_533_24
+ + 3.5764 lineup_533_25 + 3.34199 lineup_533_26 + 3.7247 lineup_533_27
+ + 1.98878 lineup_534_24 + 2.09502 lineup_534_25 + 2.10516 lineup_534_26
+ + 2.03514 lineup_534_27 + 2.31726 lineup_535_24 + 2.48679 lineup_535_25
+ + 2.41154 lineup_535_26 + 2.67863 lineup_535_27 + 1.90882 lineup_536_24
+ + 2.33052 lineup_536_25 + 2.26228 lineup_536_26 + 1.98807 lineup_536_27
+ + 1.2011 lineup_538_24 + 1.32922 lineup_538_25 + 1.32401 lineup_538_26
+ + 1.44105 lineup_538_27 + 3.78775 lineup_539_24 + 4.02847 lineup_539_25
+ + 4.03026 lineup_539_26 + 3.83991 lineup_539_27 + 3.10312 lineup_53_24
+ + 2.96067 lineup_53_25 + 3.21518 lineup_53_26 + 3.01528 lineup_53_27
+ + 3.68889 lineup_540_24 + 3.75679 lineup_540_25 + 4.04336 lineup_540_26
+ + 3.96424 lineup_540_27 + 3.55572 lineup_542_24 + 3.8137 lineup_542_25
+ + 3.85906 lineup_542_26 + 3.72354 lineup_542_27 + 2.78101 lineup_544_24
+ + 3.33217 lineup_544_25 + 3.25455 lineup_544_26 + 2.89828 lineup_544_27
+ + 2.66287 lineup_545_24 + 2.09541 lineup_545_25 + 3.13034 lineup_545_26
+ + 1.99324 lineup_545_27 + 2.9947 lineup_546_24 + 3.09067 lineup_546_25
+ + 3.19138 lineup_546_26 + 2.90987 lineup_546_27 + 1.83773 lineup_547_24
+ + 1.45832 lineup_547_25 + 1.99443 lineup_547_26 + 1.34028 lineup_547_27
+ + 1.96471 lineup_548_24 + 1.593 lineup_548_25 + 2.335 lineup_548_26
+ + 1.51585 lineup_548_27 + 1.35034 lineup_54_24 + 1.34071 lineup_54_25
+ + 1.37977 lineup_54_26 + 1.29927 lineup_54_27 + 3.289 lineup_551_24
+ + 2.599 lineup_551_25 + 3.76685 lineup_551_26 + 2.46973 lineup_551_27
+ + 2.71314 lineup_553_24 + 4.59394 lineup_553_25 + 2.40334 lineup_553_27
+ + 3.0674 lineup_554_24 + 2.88421 lineup_554_25 + 2.88759 lineup_554_26
+ + 2.79084 lineup_554_27 + 1.08066 lineup_555_24 + 1.04169 lineup_555_25
+ + 1.09372 lineup_555_26 + 1.02859 lineup_555_27 + 3.78978 lineup_557_24
+ + 3.56218 lineup_557_25 + 3.85281 lineup_557_26 + 3.48904 lineup_557_27
+ + 2.67931 lineup_559_24 + 2.60917 lineup_559_25 + 2.82016 lineup_559_26
+ + 2.66108 lineup_559_27 + 2.79638 lineup_55_24 + 2.72726 lineup_55_25
+ + 3.02004 lineup_55_26 + 2.95835 lineup_55_27 + 2.18354 lineup_560_24
+ + 1.72681 lineup_560_25 + 2.55585 lineup_560_26 + 1.55266 lineup_560_27
+ + 1.23166 lineup_561_24 + 1.18859 lineup_561_25 + 1.24609 lineup_561_26
+ + 1.17412 lineup_561_27 + 3.56202 lineup_563_24 + 2.85437 lineup_563_25
+ + 3.90377 lineup_563_26 + 2.59947 lineup_563_27 + 2.9339 lineup_564_24
+ + 3.02911 lineup_564_25 + 3.12903 lineup_564_26 + 2.84973 lineup_564_27
+ + 3.29456 lineup_565_24 + 3.18381 lineup_565_25 + 3.49638 lineup_565_26
+ + 3.24219 lineup_565_27 + 3.00532 lineup_566_24 + 5.64329 lineup_566_25
+ + 2.69653 lineup_566_26 + 2.7862 lineup_566_27 + 3.56736 lineup_567_24
+ + 3.4211 lineup_567_25 + 3.71242 lineup_567_26 + 3.36621 lineup_567_27
+ + 3.57654 lineup_569_24 + 3.70231 lineup_569_25 + 3.83431 lineup_569_26
+ + 3.46536 lineup_569_27 + 3.43964 lineup_570_24 + 3.25851 lineup_570_25
+ + 3.4949 lineup_570_26 + 3.18363 lineup_570_27 + 2.91582 lineup_572_24
+ + 2.38108 lineup_572_25 + 3.35763 lineup_572_26 + 2.27509 lineup_572_27
+ + 3.02837 lineup_573_24 + 2.46478 lineup_573_25 + 3.56407 lineup_573_26
+ + 2.3756 lineup_573_27 + 1.32163 lineup_574_24 + 1.29877 lineup_574_25
+ + 1.35549 lineup_574_26 + 1.2845 lineup_574_27 + 2.32336 lineup_576_24
+ + 2.38671 lineup_576_25 + 2.75136 lineup_576_26 + 2.51003 lineup_576_27
+ + 2.03783 lineup_577_24 + 2.40741 lineup_577_25 + 2.3124 lineup_577_26
+ + 2.04377 lineup_577_27 + 1.29011 lineup_578_24 + 1.34698 lineup_578_25
+ + 1.43385 lineup_578_26 + 1.42658 lineup_578_27 + 2.66219 lineup_579_24
+ + 3.20049 lineup_579_25 + 3.09609 lineup_579_26 + 3.26691 lineup_579_27
+ + 3.12386 lineup_580_24 + 3.05671 lineup_580_25 + 2.9648 lineup_580_26
+ + 2.98234 lineup_580_27 + 1.69219 lineup_581_24 + 1.62481 lineup_581_25
+ + 1.10935 lineup_581_26 + 1.60878 lineup_581_27 + 2.09564 lineup_582_24
+ + 4.12496 lineup_582_25 + 2.13139 lineup_582_27 + 3.08604 lineup_584_24
+ + 3.06979 lineup_584_25 + 3.39957 lineup_584_26 + 2.80652 lineup_584_27
+ + 1.96175 lineup_586_24 + 3.89889 lineup_586_25 + 1.99704 lineup_586_27
+ + 1.77745 lineup_587_24 + 1.80003 lineup_587_25 + 1.80884 lineup_587_26
+ + 1.79808 lineup_587_27 + 1.87425 lineup_588_24 + 3.04137 lineup_588_25
+ + 2.3 lineup_588_26 + 2.827 lineup_588_27 + 2.49427 lineup_58_24
+ + 2.43274 lineup_58_25 + 2.63059 lineup_58_26 + 2.53867 lineup_58_27
+ + 4.5779 lineup_590_24 + 4.71878 lineup_590_25 + 4.70234 lineup_590_26
+ + 4.49827 lineup_590_27 + 4.40729 lineup_591_24 + 3.99483 lineup_591_25
+ + 4.08627 lineup_591_26 + 4.18826 lineup_591_27 + 1.82449 lineup_592_24
+ + 1.8462 lineup_592_25 + 2.15005 lineup_592_26 + 1.94518 lineup_592_27
+ + 2.776 lineup_594_24 + 2.88278 lineup_594_25 + 2.96022 lineup_594_26
+ + 3.09866 lineup_594_27 + 2.23066 lineup_595_24 + 1.79928 lineup_595_25
+ + 1.83847 lineup_595_26 + 2.65259 lineup_595_27 + 3.84654 lineup_596_24
+ + 3.47346 lineup_596_25 + 3.73756 lineup_596_26 + 3.74858 lineup_596_27
+ + 3.49237 lineup_597_24 + 3.68611 lineup_597_25 + 4.07179 lineup_597_26
+ + 3.17457 lineup_597_27 + 1.9674 lineup_598_24 + 1.62392 lineup_598_25
+ + 2.43373 lineup_598_26 + 1.61726 lineup_598_27 + 4.09473 lineup_599_24
+ + 3.88769 lineup_599_25 + 4.27813 lineup_599_26 + 4.12653 lineup_599_27
+ + 3.88257 lineup_5_24 + 4.75449 lineup_5_25 + 4.20958 lineup_5_26
+ + 4.00188 lineup_5_27 + 2.43584 lineup_601_24 + 2.81241 lineup_601_25
+ + 2.69539 lineup_601_26 + 2.86209 lineup_601_27 + 2.4414 lineup_602_24
+ + 3.53116 lineup_602_25 + 2.021 lineup_602_27 + 2.77209 lineup_603_24
+ + 2.95715 lineup_603_25 + 2.50152 lineup_603_26 + 2.82772 lineup_603_27
+ + 2.72914 lineup_604_25 + 2.32846 lineup_604_26 + 2.30668 lineup_604_27
+ + 2.14348 lineup_606_24 + 2.46236 lineup_606_25 + 2.88208 lineup_606_26
+ + 2.59202 lineup_606_27 + 3.27717 lineup_607_24 + 3.09735 lineup_607_25
+ + 3.43517 lineup_607_26 + 3.35362 lineup_607_27 + 1.6962 lineup_608_24
+ + 1.82975 lineup_608_25 + 1.88176 lineup_608_26 + 2.09814 lineup_608_27
+ + 5.1838 lineup_60_24 + 5.28556 lineup_60_25 + 6.11817 lineup_60_26
+ + 5.24102 lineup_60_27 + 2.48309 lineup_610_25 + 2.32028 lineup_610_26
+ + 2.3155 lineup_610_27 + 2.93875 lineup_611_24 + 2.12292 lineup_611_25
+ + 2.86568 lineup_611_27 + 3.67563 lineup_614_24 + 7.38106 lineup_614_25
+ + 3.53554 lineup_614_27 + 1.46821 lineup_615_24 + 1.49794 lineup_615_25
+ + 1.61735 lineup_615_26 + 1.53946 lineup_615_27 + 3.8758 lineup_616_24
+ + 6.79471 lineup_616_25 + 3.55333 lineup_616_26 + 3.60792 lineup_616_27
+ + 3.2058 lineup_617_24 + 3.35041 lineup_617_25 + 3.87415 lineup_617_26
+ + 3.0737 lineup_617_27 + 1.24237 lineup_618_24 + 1.2031 lineup_618_25
+ + 1.26023 lineup_618_26 + 1.22061 lineup_618_27 + 1.54392 lineup_619_24
+ + 1.13269 lineup_619_25 + 1.11454 lineup_619_26 + 1.73974 lineup_619_27
+ + 2.58967 lineup_621_24 + 2.73576 lineup_621_25 + 2.8372 lineup_621_26
+ + 2.70265 lineup_621_27 + 1.7441 lineup_622_24 + 1.86842 lineup_622_25
+ + 2.11724 lineup_622_26 + 1.5122 lineup_622_27 + 1.41911 lineup_623_24
+ + 1.32563 lineup_623_25 + 1.40345 lineup_623_27 + 1.06011 lineup_624_24
+ + 1.19528 lineup_624_25 + 1.19372 lineup_624_26 + 1.27745 lineup_624_27
+ + 1.65945 lineup_625_24 + 1.50165 lineup_625_25 + 1.38188 lineup_625_26
+ + 1.37836 lineup_625_27 + 2.08123 lineup_626_24 + 3.7791 lineup_626_25
+ + 1.99202 lineup_626_27 + 1.13611 lineup_627_24 + 2.33023 lineup_627_25
+ + 1.21679 lineup_627_27 + 1.18853 lineup_629_24 + 2.31941 lineup_629_25
+ + 1.17191 lineup_629_27 + 2.10404 lineup_62_24 + 2.02574 lineup_62_25
+ + 1.90016 lineup_62_26 + 1.86428 lineup_62_27 + 4.30825 lineup_630_24
+ + 7.75798 lineup_630_25 + 3.71229 lineup_630_27 + 2.51192 lineup_631_24
+ + 4.64904 lineup_631_25 + 2.43966 lineup_631_27 + 1.11791 lineup_632_24
+ + 1.18463 lineup_632_25 + 1.25018 lineup_632_26 + 1.12237 lineup_632_27
+ + 2.32497 lineup_633_24 + 2.35485 lineup_633_25 + 1.74918 lineup_633_26
+ + 2.46351 lineup_633_27 + 1.68535 lineup_634_24 + 1.61835 lineup_634_25
+ + 1.10575 lineup_634_26 + 1.6024 lineup_634_27 + 2.45246 lineup_635_24
+ + 2.63396 lineup_635_25 + 2.32427 lineup_635_26 + 2.57729 lineup_635_27
+ + 2.90462 lineup_636_24 + 3.26691 lineup_636_25 + 2.91095 lineup_636_26
+ + 2.93545 lineup_636_27 + 1.56383 lineup_637_24 + 1.62316 lineup_637_25
+ + 1.32984 lineup_637_26 + 1.3139 lineup_637_27 + 2.75334 lineup_638_24
+ + 2.76779 lineup_638_25 + 2.76658 lineup_638_26 + 2.72363 lineup_638_27
+ + 2.59628 lineup_639_24 + 3.01539 lineup_639_25 + 3.25588 lineup_639_27
+ + 3.02877 lineup_63_27 + 1.52758 lineup_640_24 + 1.51797 lineup_640_25
+ + 1.47198 lineup_640_27 + 1.75191 lineup_641_27 + 2.69582 lineup_642_24
+ + 2.84481 lineup_642_25 + 2.84582 lineup_642_26 + 2.74052 lineup_642_27
+ + 1.83321 lineup_644_24 + 1.85829 lineup_644_25 + 1.89455 lineup_644_26
+ + 2.04505 lineup_644_27 + 1.50245 lineup_645_24 + 1.62653 lineup_645_25
+ + 1.62049 lineup_645_26 + 1.72126 lineup_645_27 + 2.83652 lineup_646_24
+ + 3.07281 lineup_646_25 + 2.90462 lineup_646_26 + 3.0437 lineup_646_27
+ + 2.85201 lineup_647_24 + 3.12386 lineup_647_25 + 2.9339 lineup_647_26
+ + 3.24404 lineup_647_27 + 1.32471 lineup_649_24 + 1.44539 lineup_649_25
+ + 1.38516 lineup_649_26 + 1.5017 lineup_649_27 + 2.19467 lineup_64_24
+ + 2.1105 lineup_64_25 + 2.09013 lineup_64_26 + 2.20008 lineup_64_27
+ + 1.01981 lineup_650_24 + 1.09574 lineup_650_25 + 1.06652 lineup_650_26
+ + 1.10289 lineup_650_27 + 1.27931 lineup_652_24 + 1.1917 lineup_652_25
+ + 1.20199 lineup_652_26 + 1.21319 lineup_652_27 + 1.38431 lineup_653_24
+ + 1.37836 lineup_653_25 + 1.6109 lineup_653_26 + 1.41344 lineup_653_27
+ + 1.42288 lineup_654_24 + 1.5892 lineup_654_25 + 1.47666 lineup_654_26
+ + 1.44988 lineup_654_27 + 1.63316 lineup_655_24 + 1.65787 lineup_655_25
+ + 1.67501 lineup_655_26 + 1.68435 lineup_655_27 + 1.24937 lineup_657_24
+ + 1.22746 lineup_657_25 + 1.28467 lineup_657_26 + 1.22183 lineup_657_27
+ + 1.46622 lineup_658_24 + 1.57687 lineup_658_25 + 1.54499 lineup_658_26
+ + 1.43639 lineup_658_27 + 3.04851 lineup_659_24 + 2.66219 lineup_659_25
+ + 2.93627 lineup_659_27 + 2.95751 lineup_65_24 + 2.93447 lineup_65_25
+ + 2.93596 lineup_65_26 + 3.14879 lineup_65_27 + 2.40827 lineup_660_24
+ + 2.54246 lineup_660_25 + 2.55366 lineup_660_26 + 2.84147 lineup_660_27
+ + 3.76728 lineup_661_24 + 4.28633 lineup_661_25 + 4.0819 lineup_661_26
+ + 4.28559 lineup_661_27 + 1.67618 lineup_662_24 + 1.53496 lineup_662_25
+ + 1.55155 lineup_662_26 + 1.56961 lineup_662_27 + 3.02863 lineup_663_24
+ + 3.05762 lineup_663_25 + 3.08031 lineup_663_26 + 3.05527 lineup_663_27
+ + 5.4301 lineup_664_24 + 5.67829 lineup_664_25 + 5.53857 lineup_664_26
+ + 5.18432 lineup_664_27 + 3.39511 lineup_665_24 + 6.81874 lineup_665_25
+ + 3.26099 lineup_665_27 + 1.14499 lineup_666_24 + 1.15408 lineup_666_25
+ + 1.16115 lineup_666_26 + 1.15533 lineup_666_27 + 2.28853 lineup_668_24
+ + 4.40303 lineup_668_25 + 2.23469 lineup_668_27 + 2.91397 lineup_669_24
+ + 3.09585 lineup_669_25 + 3.3561 lineup_669_26 + 2.66969 lineup_669_27
+ + 2.59292 lineup_66_24 + 2.53073 lineup_66_25 + 2.50056 lineup_66_26
+ + 2.63625 lineup_66_27 + 1.82682 lineup_671_24 + 1.13358 lineup_671_25
+ + 1.57288 lineup_671_27 + 1.96426 lineup_672_24 + 1.93829 lineup_672_25
+ + 2.14892 lineup_672_26 + 2.08428 lineup_672_27 + 1.55516 lineup_673_26
+ + 1.6369 lineup_673_27 + 1.19827 lineup_674_24 + 1.66413 lineup_674_25
+ + 1.88021 lineup_674_26 + 1.90523 lineup_674_27 + 1.74245 lineup_675_24
+ + 1.8714 lineup_675_25 + 1.89611 lineup_675_26 + 2.10722 lineup_675_27
+ + 2.24153 lineup_676_24 + 2.69468 lineup_676_25 + 2.62757 lineup_676_26
+ + 2.33829 lineup_676_27 + 1.36286 lineup_677_24 + 1.33634 lineup_677_25
+ + 1.41157 lineup_677_27 + 3.51913 lineup_678_24 + 6.97879 lineup_678_25
+ + 3.552 lineup_678_26 + 3.74797 lineup_678_27 + 2.39442 lineup_679_24
+ + 2.4677 lineup_679_25 + 2.08596 lineup_679_26 + 2.10903 lineup_679_27
+ + 1.41595 lineup_681_24 + 1.34925 lineup_681_25 + 1.45943 lineup_681_27
+ + 1.9011 lineup_682_24 + 2.54523 lineup_682_25 + 1.50165 lineup_682_27
+ + 1.21552 lineup_684_24 + 2.35986 lineup_684_25 + 1.20119 lineup_684_26
+ + 1.22715 lineup_684_27 + 1.15786 lineup_685_24 + 1.2177 lineup_685_25
+ + 1.26107 lineup_685_26 + 1.12197 lineup_685_27 + 3.51366 lineup_687_24
+ + 3.0377 lineup_687_25 + 3.37538 lineup_687_27 + 3.48775 lineup_688_24
+ + 3.27351 lineup_688_25 + 3.10353 lineup_688_26 + 3.10654 lineup_688_27
+ + 3.22338 lineup_689_24 + 3.45155 lineup_689_25 + 3.48328 lineup_689_26
+ + 3.35704 lineup_689_27 + 1.40596 lineup_690_24 + 1.52778 lineup_690_25
+ + 1.60877 lineup_690_26 + 1.57566 lineup_690_27 + 2.1318 lineup_691_24
+ + 2.3789 lineup_691_25 + 2.40857 lineup_691_26 + 2.57271 lineup_691_27
+ + 3.06685 lineup_692_24 + 3.02265 lineup_692_25 + 3.12477 lineup_692_26
+ + 3.04848 lineup_692_27 + 1.50935 lineup_694_24 + 1.64021 lineup_694_25
+ + 1.69466 lineup_694_26 + 1.92872 lineup_694_27 + 2.92061 lineup_695_24
+ + 3.07276 lineup_695_25 + 3.37565 lineup_695_26 + 2.67103 lineup_695_27
+ + 3.06042 lineup_696_24 + 3.22094 lineup_696_25 + 2.8008 lineup_696_26
+ + 2.80829 lineup_696_27 + 2.50333 lineup_697_24 + 2.01093 lineup_697_25
+ + 2.82882 lineup_697_26 + 1.86367 lineup_697_27 + 2.0584 lineup_698_24
+ + 1.96824 lineup_698_25 + 2.08861 lineup_698_26 + 1.93795 lineup_698_27
+ + 2.97054 lineup_699_24 + 2.99759 lineup_699_25 + 3.38615 lineup_699_26
+ + 2.80314 lineup_699_27 + 3.69195 lineup_6_24 + 3.80386 lineup_6_25
+ + 4.10928 lineup_6_26 + 3.9762 lineup_6_27 + 2.38976 lineup_700_24
+ + 2.59453 lineup_700_25 + 2.70907 lineup_700_26 + 2.57146 lineup_700_27
+ + 1.80988 lineup_701_24 + 3.49608 lineup_701_25 + 1.78624 lineup_701_26
+ + 1.83288 lineup_701_27 + 1.79863 lineup_703_24 + 1.92237 lineup_703_25
+ + 2.32727 lineup_703_26 + 1.65772 lineup_703_27 + 1.26688 lineup_704_24
+ + 1.35955 lineup_704_25 + 1.39151 lineup_704_26 + 1.36198 lineup_704_27
+ + 2.74225 lineup_705_24 + 2.6615 lineup_705_25 + 2.59535 lineup_705_26
+ + 2.69904 lineup_705_27 + 1.94039 lineup_706_24 + 2.07311 lineup_706_25
+ + 2.09344 lineup_706_26 + 2.28795 lineup_706_27 + 2.18722 lineup_707_24
+ + 1.99943 lineup_707_25 + 1.85691 lineup_707_26 + 1.85272 lineup_707_27
+ + 2.23092 lineup_708_24 + 4.51496 lineup_708_25 + 2.33222 lineup_708_27
+ + 1.99601 lineup_709_24 + 2.09648 lineup_709_25 + 2.19458 lineup_709_26
+ + 1.90009 lineup_709_27 + 2.51602 lineup_70_24 + 1.99782 lineup_70_25
+ + 2.01449 lineup_70_26 + 2.88406 lineup_70_27 + 3.2446 lineup_710_24
+ + 3.66739 lineup_710_25 + 3.25198 lineup_710_26 + 3.28058 lineup_710_27
+ + 2.43818 lineup_711_24 + 2.57099 lineup_711_25 + 2.21118 lineup_711_26
+ + 2.22278 lineup_711_27 + 2.77188 lineup_712_24 + 2.72448 lineup_712_25
+ + 2.60006 lineup_712_26 + 2.76414 lineup_712_27 + 2.38646 lineup_713_25
+ + 2.23225 lineup_713_26 + 2.3464 lineup_713_27 + 2.05918 lineup_715_24
+ + 2.04862 lineup_715_25 + 2.22818 lineup_715_26 + 2.10548 lineup_715_27
+ + 1.38542 lineup_716_24 + 0.97011 lineup_716_25 + 1.36994 lineup_716_27
+ + 1.26936 lineup_717_24 + 1.24563 lineup_717_25 + 1.31295 lineup_717_27
+ + 1.15472 lineup_719_24 + 1.25751 lineup_719_25 + 1.21796 lineup_719_26
+ + 1.26719 lineup_719_27 + 1.2031 lineup_71_24 + 1.17412 lineup_71_25
+ + 1.16096 lineup_71_26 + 1.2029 lineup_71_27 + 1.08897 lineup_721_24
+ + 1.10835 lineup_721_25 + 1.19182 lineup_721_26 + 1.15997 lineup_721_27
+ + 1.2179 lineup_722_24 + 1.22846 lineup_722_25 + 1.20823 lineup_722_27
+ + 1.68172 lineup_723_24 + 1.09772 lineup_723_25 + 1.48572 lineup_723_27
+ + 1.27456 lineup_724_24 + 1.25235 lineup_724_25 + 1.31036 lineup_724_26
+ + 1.24663 lineup_724_27 + 1.64599 lineup_725_24 + 2.43333 lineup_725_25
+ + 1.38057 lineup_725_26 + 1.38479 lineup_725_27 + 1.94653 lineup_726_24
+ + 3.50429 lineup_726_25 + 1.78992 lineup_726_27 + 2.85454 lineup_727_24
+ + 5.58884 lineup_727_25 + 2.85336 lineup_727_27 + 1.88963 lineup_728_24
+ + 3.40845 lineup_728_25 + 1.80334 lineup_728_27 + 2.67073 lineup_72_24
+ + 2.60555 lineup_72_25 + 2.5638 lineup_72_26 + 2.71206 lineup_72_27
+ + 1.25129 lineup_730_24 + 1.24434 lineup_730_25 + 1.23578 lineup_730_26
+ + 1.21688 lineup_730_27 + 1.45192 lineup_731_24 + 1.44586 lineup_731_25
+ + 1.68289 lineup_731_26 + 1.48162 lineup_731_27 + 1.74496 lineup_732_24
+ + 1.58359 lineup_732_25 + 1.46111 lineup_732_26 + 1.45751 lineup_732_27
+ + 1.72054 lineup_733_24 + 2.56544 lineup_733_25 + 1.44987 lineup_733_26
+ + 1.45417 lineup_733_27 + 1.35632 lineup_734_24 + 2.59993 lineup_734_25
+ + 1.29851 lineup_734_27 + 1.30897 lineup_735_24 + 1.32297 lineup_735_25
+ + 1.38365 lineup_735_26 + 1.35768 lineup_735_27 + 1.44987 lineup_736_24
+ + 1.85316 lineup_736_25 + 1.67208 lineup_736_26 + 1.57248 lineup_736_27
+ + 1.22239 lineup_738_24 + 1.2609 lineup_738_25 + 1.15597 lineup_738_26
+ + 1.22608 lineup_738_27 + 1.40232 lineup_739_24 + 1.36301 lineup_739_25
+ + 1.2605 lineup_739_26 + 1.43345 lineup_739_27 + 2.50781 lineup_73_24
+ + 2.40076 lineup_73_25 + 2.23534 lineup_73_26 + 2.18693 lineup_73_27
+ + 1.48117 lineup_740_24 + 1.75346 lineup_740_25 + 1.90937 lineup_740_27
+ + 1.48178 lineup_741_24 + 1.51911 lineup_741_25 + 1.47608 lineup_741_26
+ + 1.45602 lineup_741_27 + 1.20109 lineup_742_24 + 1.26863 lineup_742_25
+ + 1.31284 lineup_742_26 + 1.26591 lineup_742_27 + 1.3607 lineup_743_24
+ + 2.6517 lineup_743_25 + 1.3406 lineup_743_27 + 1.33834 lineup_745_24
+ + 1.30242 lineup_745_25 + 1.21681 lineup_745_26 + 1.36078 lineup_745_27
+ + 1.36053 lineup_746_24 + 1.58479 lineup_746_25 + 1.88232 lineup_746_26
+ + 1.66417 lineup_746_27 + 1.30767 lineup_747_24 + 1.35768 lineup_747_25
+ + 1.37964 lineup_747_26 + 1.32319 lineup_747_27 + 1.36665 lineup_749_24
+ + 1.32025 lineup_749_25 + 1.3822 lineup_749_26 + 1.30466 lineup_749_27
+ + 1.28237 lineup_750_24 + 1.26504 lineup_750_25 + 1.34583 lineup_750_26
+ + 1.27562 lineup_750_27 + 1.76529 lineup_751_24 + 1.36041 lineup_751_25
+ + 2.03292 lineup_751_26 + 1.23932 lineup_751_27 + 3.27006 lineup_752_24
+ + 5.83344 lineup_752_25 + 2.95599 lineup_752_26 + 3.24148 lineup_752_27
+ + 1.37221 lineup_753_24 + 1.59723 lineup_753_25 + 1.89575 lineup_753_26
+ + 1.67687 lineup_753_27 + 1.34675 lineup_754_24 + 1.37122 lineup_754_25
+ + 1.35662 lineup_754_27 + 1.33295 lineup_755_24 + 1.38366 lineup_755_25
+ + 1.40592 lineup_755_26 + 1.34869 lineup_755_27 + 3.31212 lineup_757_24
+ + 5.61439 lineup_757_25 + 2.80978 lineup_757_27 + 1.3238 lineup_758_24
+ + 1.26028 lineup_758_25 + 1.3652 lineup_758_27 + 1.322 lineup_759_24
+ + 1.31493 lineup_759_25 + 1.30622 lineup_759_26 + 1.28698 lineup_759_27
+ + 2.10305 lineup_75_24 + 1.64375 lineup_75_25 + 1.63236 lineup_75_26
+ + 2.348 lineup_75_27 + 1.28506 lineup_760_24 + 1.39588 lineup_760_25
+ + 1.35324 lineup_760_26 + 1.40633 lineup_760_27 + 1.20627 lineup_761_24
+ + 1.97791 lineup_761_25 + 1.45969 lineup_761_26 + 1.82591 lineup_761_27
+ + 1.44635 lineup_762_24 + 2.82131 lineup_762_25 + 1.39726 lineup_762_26
+ + 1.43142 lineup_762_27 + 1.49607 lineup_763_24 + 1.60041 lineup_763_25
+ + 2.05816 lineup_763_26 + 1.44877 lineup_763_27 + 1.36009 lineup_764_24
+ + 1.37449 lineup_764_25 + 1.43686 lineup_764_26 + 1.41017 lineup_764_27
+ + 3.30965 lineup_765_24 + 3.15544 lineup_765_25 + 3.43095 lineup_765_26
+ + 3.21456 lineup_765_27 + 1.63742 lineup_766_24 + 1.69278 lineup_766_25
+ + 2.02573 lineup_766_26 + 1.36045 lineup_766_27 + 1.43142 lineup_767_24
+ + 1.38791 lineup_767_25 + 1.4512 lineup_767_26 + 1.40732 lineup_767_27
+ + 1.50408 lineup_768_24 + 1.5613 lineup_768_25 + 1.90551 lineup_768_26
+ + 1.21774 lineup_768_27 + 2.06816 lineup_76_24 + 2.06478 lineup_76_25
+ + 1.89372 lineup_76_26 + 1.98847 lineup_76_27 + 1.41955 lineup_770_24
+ + 1.37185 lineup_770_25 + 1.43554 lineup_770_26 + 1.35582 lineup_770_27
+ + 1.4601 lineup_771_24 + 2.84831 lineup_771_25 + 1.41067 lineup_771_26
+ + 1.44506 lineup_771_27 + 1.38643 lineup_772_24 + 1.40103 lineup_772_25
+ + 1.46428 lineup_772_26 + 1.43721 lineup_772_27 + 1.39308 lineup_773_24
+ + 1.44642 lineup_773_25 + 1.44681 lineup_773_26 + 1.40464 lineup_773_27
+ + 1.6178 lineup_774_24 + 1.95169 lineup_774_25 + 1.85953 lineup_774_26
+ + 1.59899 lineup_774_27 + 2.77363 lineup_775_24 + 2.77549 lineup_775_25
+ + 2.77203 lineup_775_26 + 2.76069 lineup_775_27 + 3.9929 lineup_776_24
+ + 3.9709 lineup_776_25 + 3.84624 lineup_776_27 + 1.74465 lineup_777_24
+ + 2.1568 lineup_777_25 + 2.437 lineup_777_27 + 3.35854 lineup_778_24
+ + 3.20207 lineup_778_25 + 3.48162 lineup_778_26 + 3.26206 lineup_778_27
+ + 1.49226 lineup_779_24 + 1.46086 lineup_779_25 + 1.39086 lineup_779_26
+ + 1.44268 lineup_779_27 + 3.54649 lineup_77_24 + 3.3471 lineup_77_25
+ + 3.7217 lineup_77_26 + 3.63127 lineup_77_27 + 1.65778 lineup_780_24
+ + 1.59095 lineup_780_25 + 1.48843 lineup_780_26 + 1.51638 lineup_780_27
+ + 1.65778 lineup_781_24 + 1.59095 lineup_781_25 + 1.48843 lineup_781_26
+ + 1.51638 lineup_781_27 + 1.2581 lineup_783_24 + 2.54605 lineup_783_25
+ + 1.29743 lineup_783_27 + 1.63094 lineup_784_24 + 1.966 lineup_784_25
+ + 1.87353 lineup_784_26 + 1.61206 lineup_784_27 + 1.41193 lineup_786_24
+ + 1.46481 lineup_786_25 + 1.48802 lineup_786_26 + 1.42834 lineup_786_27
+ + 1.46065 lineup_787_24 + 1.41193 lineup_787_25 + 1.47698 lineup_787_26
+ + 1.39556 lineup_787_27 + 3.35479 lineup_789_24 + 5.98471 lineup_789_25
+ + 3.03264 lineup_789_26 + 3.32547 lineup_789_27 + 2.02052 lineup_78_24
+ + 2.00282 lineup_78_25 + 1.99643 lineup_78_26 + 2.13481 lineup_78_27
+ + 3.44878 lineup_790_24 + 3.42031 lineup_790_25 + 3.53745 lineup_790_26
+ + 3.20107 lineup_790_27 + 1.30047 lineup_791_24 + 1.26221 lineup_791_25
+ + 1.37764 lineup_791_27 + 2.33445 lineup_792_24 + 2.41363 lineup_792_25
+ + 3.05043 lineup_792_26 + 2.22548 lineup_792_27 + 1.82473 lineup_793_24
+ + 1.78322 lineup_793_25 + 1.99622 lineup_793_26 + 1.61318 lineup_793_27
+ + 1.47423 lineup_794_24 + 1.52892 lineup_794_25 + 1.3799 lineup_794_26
+ + 1.47947 lineup_794_27 + 1.47423 lineup_795_24 + 1.52892 lineup_795_25
+ + 1.3799 lineup_795_26 + 1.47947 lineup_795_27 + 1.52892 lineup_796_24
+ + 1.4291 lineup_796_25 + 1.44083 lineup_796_26 + 1.45359 lineup_796_27
+ + 1.85457 lineup_797_24 + 2.80296 lineup_797_25 + 1.57446 lineup_797_26
+ + 1.57891 lineup_797_27 + 2.17897 lineup_798_24 + 3.01415 lineup_798_25
+ + 1.75193 lineup_798_27 + 1.64569 lineup_799_24 + 1.62943 lineup_799_25
+ + 1.6358 lineup_799_26 + 1.75176 lineup_799_27 + 2.45134 lineup_800_24
+ + 2.34619 lineup_800_25 + 2.48658 lineup_800_26 + 2.31086 lineup_800_27
+ + 2.11256 lineup_801_24 + 2.08706 lineup_801_25 + 1.99316 lineup_801_26
+ + 2.1151 lineup_801_27 + 1.78322 lineup_802_24 + 1.34513 lineup_802_25
+ + 1.32463 lineup_802_26 + 1.99182 lineup_802_27 + 2.31368 lineup_803_24
+ + 2.23944 lineup_803_25 + 2.39503 lineup_803_26 + 2.31999 lineup_803_27
+ + 2.24748 lineup_804_24 + 2.24065 lineup_804_25 + 2.07673 lineup_804_26
+ + 2.15831 lineup_804_27 + 1.53301 lineup_805_24 + 2.11218 lineup_805_25
+ + 2.39751 lineup_805_26 + 2.43446 lineup_805_27 + 1.02889 lineup_806_24
+ + 1.50803 lineup_806_25 + 1.75826 lineup_806_26 + 1.815 lineup_806_27
+ + 2.39326 lineup_807_24 + 2.36993 lineup_807_25 + 2.51629 lineup_807_26
+ + 2.40515 lineup_807_27 + 3.40394 lineup_808_24 + 3.8485 lineup_808_25
+ + 3.4117 lineup_808_26 + 3.44177 lineup_808_27 + 1.47046 lineup_809_24
+ + 1.43333 lineup_809_25 + 1.36554 lineup_809_26 + 1.40986 lineup_809_27
+ + 3.00625 lineup_80_24 + 2.84973 lineup_80_25 + 3.14379 lineup_80_26
+ + 3.07281 lineup_80_27 + 1.54342 lineup_810_24 + 1.44289 lineup_810_25
+ + 1.45471 lineup_810_26 + 1.46756 lineup_810_27 + 2.36942 lineup_82_24
+ + 2.40493 lineup_82_25 + 2.24897 lineup_82_26 + 2.36135 lineup_82_27
+ + 2.75599 lineup_83_24 + 2.15016 lineup_83_25 + 2.14297 lineup_83_26
+ + 3.14816 lineup_83_27 + 2.6281 lineup_84_24 + 2.09306 lineup_84_25
+ + 2.08908 lineup_84_26 + 2.98232 lineup_84_27 + 4.76339 lineup_85_24
+ + 4.80098 lineup_85_25 + 4.46814 lineup_85_26 + 4.68871 lineup_85_27
+ + 3.73069 lineup_86_24 + 3.60978 lineup_86_25 + 3.60283 lineup_86_26
+ + 3.91649 lineup_86_27 + 2.72694 lineup_88_24 + 2.58463 lineup_88_25
+ + 2.85198 lineup_88_26 + 2.78744 lineup_88_27 + 2.93561 lineup_89_24
+ + 2.38916 lineup_89_25 + 2.40104 lineup_89_26 + 3.36072 lineup_89_27
+ + 4.32846 lineup_8_24 + 4.0305 lineup_8_25 + 4.53883 lineup_8_26
+ + 4.43031 lineup_8_27 + 2.30912 lineup_90_24 + 3.65203 lineup_90_25
+ + 2.1811 lineup_90_26 + 2.21358 lineup_90_27 + 3.13798 lineup_91_24
+ + 5.59764 lineup_91_25 + 2.83652 lineup_91_26 + 3.11055 lineup_91_27
+ + 1.33173 lineup_92_24 + 2.76454 lineup_92_25 + 1.48735 lineup_92_26
+ + 1.55222 lineup_92_27 + 1.88723 lineup_93_24 + 3.02685 lineup_93_25
+ + 1.59167 lineup_93_26 + 1.42017 lineup_93_27 + 2.74846 lineup_96_24
+ + 4.4969 lineup_96_25 + 2.577 lineup_96_26 + 2.60279 lineup_96_27
+ + 1.62041 lineup_98_24 + 3.34992 lineup_98_25 + 1.79712 lineup_98_26
+ + 1.86574 lineup_98_27 + 1.22565 lineup_99_24 + 2.49022 lineup_99_25
+ + 1.2998 lineup_99_26 + 1.32863 lineup_99_27 + 2.16244 lineup_9_24
+ + 2.24911 lineup_9_25 + 2.43969 lineup_9_26 + 2.42191 lineup_9_27
+ - 4 penalised_transfers_24 - 4 penalised_transfers_25
+ - 4 penalised_transfers_26 - 4 penalised_transfers_27
+ + 0.382294 vice_captain_101_24 + 0.674937 vice_captain_101_25
+ + 0.34245 vice_captain_101_26 + 0.378667 vice_captain_101_27
+ + 0.307591 vice_captain_105_24 + 0.606993 vice_captain_105_25
+ + 0.318017 vice_captain_105_26 + 0.328937 vice_captain_105_27
+ + 0.329742 vice_captain_106_24 + 0.63674 vice_captain_106_25
+ + 0.33067 vice_captain_106_26 + 0.342281 vice_captain_106_27
+ + 0.274476 vice_captain_107_24 + 0.529358 vice_captain_107_25
+ + 0.278775 vice_captain_107_26 + 0.29103 vice_captain_107_27
+ + 0.540563 vice_captain_108_27 + 0.332301 vice_captain_109_24
+ + 0.522724 vice_captain_109_25 + 0.298856 vice_captain_109_26
+ + 0.301938 vice_captain_109_27 + 0.18265 vice_captain_10_24
+ + 0.246729 vice_captain_10_25 + 0.230967 vice_captain_10_26
+ + 0.222223 vice_captain_10_27 + 0.354523 vice_captain_110_24
+ + 0.691284 vice_captain_110_25 + 0.360973 vice_captain_110_26
+ + 0.374096 vice_captain_110_27 + 0.37297 vice_captain_111_25
+ + 0.191159 vice_captain_111_26 + 0.196867 vice_captain_111_27
+ + 0.363736 vice_captain_112_24 + 0.592372 vice_captain_112_25
+ + 0.337368 vice_captain_112_26 + 0.340585 vice_captain_112_27
+ + 0.355358 vice_captain_113_24 + 0.389817 vice_captain_113_25
+ + 0.365289 vice_captain_113_26 + 0.385572 vice_captain_113_27
+ + 0.242277 vice_captain_114_24 + 0.402272 vice_captain_114_25
+ + 0.22474 vice_captain_114_26 + 0.225859 vice_captain_114_27
+ + 0.317389 vice_captain_116_24 + 0.565463 vice_captain_116_25
+ + 0.286584 vice_captain_116_26 + 0.314586 vice_captain_116_27
+ + 0.551414 vice_captain_117_24 + 1.018412 vice_captain_117_25
+ + 0.569607 vice_captain_117_26 + 0.522723 vice_captain_117_27
+ + 0.708378 vice_captain_119_25 + 0.389243 vice_captain_119_26
+ + 0.359734 vice_captain_119_27 + 0.12968 vice_captain_120_24
+ + 0.272467 vice_captain_120_25 + 0.144906 vice_captain_120_26
+ + 0.150333 vice_captain_120_27 + 0.235807 vice_captain_121_24
+ + 0.365854 vice_captain_121_25 + 0.203823 vice_captain_121_26
+ + 0.204362 vice_captain_121_27 + 0.293204 vice_captain_122_25
+ + 0.299876 vice_captain_122_26 + 0.282724 vice_captain_122_27
+ + 0.208795 vice_captain_125_24 + 0.220478 vice_captain_125_25
+ + 0.225932 vice_captain_125_26 + 0.213828 vice_captain_125_27
+ + 0.268372 vice_captain_126_24 + 0.2578 vice_captain_126_25
+ + 0.292778 vice_captain_126_27 + 0.208181 vice_captain_128_24
+ + 0.218265 vice_captain_128_25 + 0.22377 vice_captain_128_26
+ + 0.211543 vice_captain_128_27 + 0.303742 vice_captain_129_24
+ + 0.346447 vice_captain_129_25 + 0.403094 vice_captain_129_26
+ + 0.358664 vice_captain_129_27 + 0.48733 vice_captain_12_24
+ + 0.491084 vice_captain_12_25 + 0.521622 vice_captain_12_26
+ + 0.499529 vice_captain_12_27 + 0.202125 vice_captain_130_25
+ + 0.20759 vice_captain_130_26 + 0.193541 vice_captain_130_27
+ + 0.197636 vice_captain_131_24 + 0.243439 vice_captain_131_25
+ + 0.299588 vice_captain_131_26 + 0.274173 vice_captain_131_27
+ + 0.27425 vice_captain_132_24 + 0.289901 vice_captain_132_25
+ + 0.287926 vice_captain_132_26 + 0.287966 vice_captain_132_27
+ + 0.256528 vice_captain_133_24 + 0.276394 vice_captain_133_25
+ + 0.287866 vice_captain_133_26 + 0.276641 vice_captain_133_27
+ + 0.502632 vice_captain_134_24 + 0.531095 vice_captain_134_25
+ + 0.542118 vice_captain_134_26 + 0.504153 vice_captain_134_27
+ + 0.40615 vice_captain_135_24 + 0.417949 vice_captain_135_25
+ + 0.404442 vice_captain_135_26 + 0.399464 vice_captain_135_27
+ + 0.146122 vice_captain_138_24 + 0.157095 vice_captain_138_25
+ + 0.164481 vice_captain_138_26 + 0.159434 vice_captain_138_27
+ + 0.155124 vice_captain_139_24 + 0.179392 vice_captain_139_25
+ + 0.21209 vice_captain_139_26 + 0.18271 vice_captain_139_27
+ + 0.27289 vice_captain_13_24 + 0.258448 vice_captain_13_25
+ + 0.294449 vice_captain_13_26 + 0.290185 vice_captain_13_27
+ + 0.302911 vice_captain_141_24 + 0.30437 vice_captain_141_25
+ + 0.318427 vice_captain_141_26 + 0.300625 vice_captain_141_27
+ + 0.369447 vice_captain_143_24 + 0.393346 vice_captain_143_25
+ + 0.403839 vice_captain_143_26 + 0.376864 vice_captain_143_27
+ + 0.123187 vice_captain_144_24 + 0.129053 vice_captain_144_25
+ + 0.133502 vice_captain_144_26 + 0.129497 vice_captain_144_27
+ + 0.350948 vice_captain_145_24 + 0.301141 vice_captain_145_25
+ + 0.336477 vice_captain_145_27 + 0.346747 vice_captain_148_24
+ + 0.348483 vice_captain_148_25 + 0.365207 vice_captain_148_26
+ + 0.344027 vice_captain_148_27 + 0.540874 vice_captain_14_24
+ + 0.555342 vice_captain_14_25 + 0.60077 vice_captain_14_26
+ + 0.578732 vice_captain_14_27 + 0.242569 vice_captain_150_24
+ + 0.275481 vice_captain_150_25 + 0.318431 vice_captain_150_26
+ + 0.28821 vice_captain_150_27 + 0.215347 vice_captain_151_24
+ + 0.247853 vice_captain_151_25 + 0.290977 vice_captain_151_26
+ + 0.259358 vice_captain_151_27 + 0.348677 vice_captain_152_24
+ + 0.350491 vice_captain_152_25 + 0.367971 vice_captain_152_26
+ + 0.345834 vice_captain_152_27 + 0.195554 vice_captain_153_24
+ + 0.229304 vice_captain_153_25 + 0.271983 vice_captain_153_26
+ + 0.243326 vice_captain_153_27 + 0.276053 vice_captain_154_24
+ + 0.286996 vice_captain_154_25 + 0.279987 vice_captain_154_26
+ + 0.276573 vice_captain_154_27 + 0.114376 vice_captain_156_24
+ + 0.118383 vice_captain_156_25 + 0.118015 vice_captain_156_26
+ + 0.127931 vice_captain_156_27 + 0.18843 vice_captain_157_24
+ + 0.238522 vice_captain_157_25 + 0.259194 vice_captain_157_26
+ + 0.254534 vice_captain_157_27 + 0.198208 vice_captain_159_24
+ + 0.207429 vice_captain_159_25 + 0.206583 vice_captain_159_26
+ + 0.229401 vice_captain_159_27 + 0.164441 vice_captain_160_24
+ + 0.232676 vice_captain_160_25 + 0.264558 vice_captain_160_26
+ + 0.268249 vice_captain_160_27 + 0.299004 vice_captain_161_24
+ + 0.31621 vice_captain_161_25 + 0.317263 vice_captain_161_26
+ + 0.352109 vice_captain_161_27 + 0.15765 vice_captain_163_24
+ + 0.167596 vice_captain_163_25 + 0.170136 vice_captain_163_26
+ + 0.186923 vice_captain_163_27 + 0.206772 vice_captain_165_24
+ + 0.217284 vice_captain_165_25 + 0.217672 vice_captain_165_26
+ + 0.240623 vice_captain_165_27 + 0.096234 vice_captain_166_24
+ + 0.141344 vice_captain_166_25 + 0.163392 vice_captain_166_26
+ + 0.165945 vice_captain_166_27 + 0.094171 vice_captain_167_24
+ + 0.145587 vice_captain_167_25 + 0.17313 vice_captain_167_26
+ + 0.179328 vice_captain_167_27 + 0.239111 vice_captain_168_24
+ + 0.250451 vice_captain_168_25 + 0.25815 vice_captain_168_26
+ + 0.270296 vice_captain_168_27 + 0.223695 vice_captain_170_24
+ + 0.241509 vice_captain_170_25 + 0.245067 vice_captain_170_26
+ + 0.279887 vice_captain_170_27 + 0.339576 vice_captain_172_24
+ + 0.307584 vice_captain_172_25 + 0.33023 vice_captain_172_26
+ + 0.331176 vice_captain_172_27 + 0.188905 vice_captain_173_24
+ + 0.257507 vice_captain_173_25 + 0.293092 vice_captain_173_26
+ + 0.299717 vice_captain_173_27 + 0.12399 vice_captain_176_24
+ + 0.183237 vice_captain_176_25 + 0.213776 vice_captain_176_26
+ + 0.218692 vice_captain_176_27 + 0.259516 vice_captain_177_24
+ + 0.26612 vice_captain_177_25 + 0.269227 vice_captain_177_26
+ + 0.279164 vice_captain_177_27 + 0.166632 vice_captain_178_24
+ + 0.229124 vice_captain_178_25 + 0.258281 vice_captain_178_26
+ + 0.261657 vice_captain_178_27 + 0.324402 vice_captain_17_24
+ + 0.353032 vice_captain_17_25 + 0.332654 vice_captain_17_26
+ + 0.349505 vice_captain_17_27 + 0.312959 vice_captain_181_24
+ + 0.285201 vice_captain_181_25 + 0.304851 vice_captain_181_26
+ + 0.305671 vice_captain_181_27 + 0.201939 vice_captain_182_24
+ + 0.272857 vice_captain_182_25 + 0.308645 vice_captain_182_26
+ + 0.315184 vice_captain_182_27 + 0.1512 vice_captain_184_24
+ + 0.160306 vice_captain_184_25 + 0.161919 vice_captain_184_26
+ + 0.181148 vice_captain_184_27 + 0.118808 vice_captain_186_24
+ + 0.112945 vice_captain_186_25 + 0.122152 vice_captain_186_27
+ + 0.255767 vice_captain_191_24 + 0.178311 vice_captain_191_25
+ + 0.239723 vice_captain_191_27 + 0.29704 vice_captain_192_24
+ + 0.259391 vice_captain_192_25 + 0.286102 vice_captain_192_27
+ + 0.200963 vice_captain_193_24 + 0.208744 vice_captain_193_25
+ + 0.202626 vice_captain_193_26 + 0.22241 vice_captain_193_27
+ + 0.198216 vice_captain_194_24 + 0.131624 vice_captain_194_25
+ + 0.175867 vice_captain_194_27 + 0.243909 vice_captain_195_24
+ + 0.153662 vice_captain_195_25 + 0.221555 vice_captain_195_27
+ + 0.09185 vice_captain_196_24 + 0.092051 vice_captain_196_25
+ + 0.107279 vice_captain_196_27 + 0.313965 vice_captain_197_24
+ + 0.225289 vice_captain_197_25 + 0.288703 vice_captain_197_27
+ + 0.220727 vice_captain_198_27 + 0.360618 vice_captain_199_24
+ + 0.338302 vice_captain_199_25 + 0.393455 vice_captain_199_27
+ + 0.613846 vice_captain_19_24 + 0.617843 vice_captain_19_25
+ + 0.66307 vice_captain_19_26 + 0.633344 vice_captain_19_27
+ + 0.149612 vice_captain_1_24 + 0.157128 vice_captain_1_25
+ + 0.155681 vice_captain_1_26 + 0.15922 vice_captain_1_27
+ + 0.17531 vice_captain_200_24 + 0.175933 vice_captain_200_25
+ + 0.17377 vice_captain_200_26 + 0.177048 vice_captain_200_27
+ + 0.297186 vice_captain_202_24 + 0.280321 vice_captain_202_25
+ + 0.327234 vice_captain_202_27 + 0.230594 vice_captain_203_24
+ + 0.151653 vice_captain_203_25 + 0.211355 vice_captain_203_27
+ + 0.206329 vice_captain_204_24 + 0.203057 vice_captain_204_25
+ + 0.146403 vice_captain_204_26 + 0.203607 vice_captain_204_27
+ + 0.219691 vice_captain_205_24 + 0.219571 vice_captain_205_25
+ + 0.209326 vice_captain_205_26 + 0.222731 vice_captain_205_27
+ + 0.318595 vice_captain_207_24 + 0.293575 vice_captain_207_25
+ + 0.313732 vice_captain_207_27 + 0.204108 vice_captain_208_24
+ + 0.195656 vice_captain_208_25 + 0.225427 vice_captain_208_27
+ + 0.21003 vice_captain_209_24 + 0.222384 vice_captain_209_25
+ + 0.234446 vice_captain_209_26 + 0.198236 vice_captain_209_27
+ + 0.336318 vice_captain_20_24 + 0.426468 vice_captain_20_25
+ + 0.388088 vice_captain_20_26 + 0.367231 vice_captain_20_27
+ + 0.271488 vice_captain_210_24 + 0.254122 vice_captain_210_25
+ + 0.294591 vice_captain_210_27 + 0.374222 vice_captain_211_24
+ + 0.370498 vice_captain_211_25 + 0.397901 vice_captain_211_27
+ + 0.293236 vice_captain_212_24 + 0.290596 vice_captain_212_25
+ + 0.308808 vice_captain_212_27 + 0.248817 vice_captain_214_24
+ + 0.170273 vice_captain_214_25 + 0.222457 vice_captain_214_27
+ + 0.398558 vice_captain_216_24 + 0.369925 vice_captain_216_25
+ + 0.435177 vice_captain_216_27 + 0.305248 vice_captain_217_24
+ + 0.225085 vice_captain_217_25 + 0.291993 vice_captain_217_27
+ + 0.101769 vice_captain_219_24 + 0.103728 vice_captain_219_25
+ + 0.111015 vice_captain_219_26 + 0.108514 vice_captain_219_27
+ + 0.241004 vice_captain_21_24 + 0.459185 vice_captain_21_25
+ + 0.229825 vice_captain_21_27 + 0.28374 vice_captain_220_24
+ + 0.300881 vice_captain_220_25 + 0.384937 vice_captain_220_26
+ + 0.286136 vice_captain_220_27 + 0.327509 vice_captain_221_24
+ + 0.324138 vice_captain_221_25 + 0.350652 vice_captain_221_26
+ + 0.330151 vice_captain_221_27 + 0.223566 vice_captain_222_24
+ + 0.232651 vice_captain_222_25 + 0.28518 vice_captain_222_26
+ + 0.217233 vice_captain_222_27 + 0.119041 vice_captain_224_24
+ + 0.11697 vice_captain_224_25 + 0.12238 vice_captain_224_26
+ + 0.116437 vice_captain_224_27 + 0.272399 vice_captain_225_24
+ + 0.310365 vice_captain_225_25 + 0.325418 vice_captain_225_26
+ + 0.312058 vice_captain_225_27 + 0.453172 vice_captain_226_24
+ + 0.431083 vice_captain_226_25 + 0.457433 vice_captain_226_26
+ + 0.412117 vice_captain_226_27 + 0.280117 vice_captain_228_24
+ + 0.300109 vice_captain_228_25 + 0.385051 vice_captain_228_26
+ + 0.290185 vice_captain_228_27 + 0.221226 vice_captain_229_24
+ + 0.222825 vice_captain_229_25 + 0.237871 vice_captain_229_26
+ + 0.227049 vice_captain_229_27 + 0.23269 vice_captain_22_24
+ + 0.238692 vice_captain_22_25 + 0.257325 vice_captain_22_26
+ + 0.249311 vice_captain_22_27 + 0.348013 vice_captain_230_24
+ + 0.362937 vice_captain_230_25 + 0.339677 vice_captain_230_26
+ + 0.338908 vice_captain_230_27 + 0.331358 vice_captain_231_24
+ + 0.331173 vice_captain_231_25 + 0.36058 vice_captain_231_26
+ + 0.34033 vice_captain_231_27 + 0.238053 vice_captain_232_24
+ + 0.267971 vice_captain_232_25 + 0.277994 vice_captain_232_26
+ + 0.26365 vice_captain_232_27 + 0.307482 vice_captain_233_24
+ + 0.320563 vice_captain_233_25 + 0.300177 vice_captain_233_26
+ + 0.299504 vice_captain_233_27 + 0.262119 vice_captain_234_24
+ + 0.278013 vice_captain_234_25 + 0.353208 vice_captain_234_26
+ + 0.266167 vice_captain_234_27 + 0.433809 vice_captain_236_24
+ + 0.416476 vice_captain_236_25 + 0.452362 vice_captain_236_26
+ + 0.416247 vice_captain_236_27 + 0.196727 vice_captain_238_24
+ + 0.207983 vice_captain_238_25 + 0.261117 vice_captain_238_26
+ + 0.198571 vice_captain_238_27 + 0.142295 vice_captain_239_24
+ + 0.139957 vice_captain_239_25 + 0.146062 vice_captain_239_26
+ + 0.139355 vice_captain_239_27 + 0.164274 vice_captain_23_24
+ + 0.171901 vice_captain_23_25 + 0.143137 vice_captain_23_26
+ + 0.142435 vice_captain_23_27 + 0.280454 vice_captain_240_24
+ + 0.286049 vice_captain_240_25 + 0.3131 vice_captain_240_26
+ + 0.299362 vice_captain_240_27 + 0.114006 vice_captain_241_24
+ + 0.12017 vice_captain_241_25 + 0.159666 vice_captain_241_26
+ + 0.109494 vice_captain_241_27 + 0.245568 vice_captain_242_24
+ + 0.252244 vice_captain_242_25 + 0.316379 vice_captain_242_26
+ + 0.229889 vice_captain_242_27 + 0.309352 vice_captain_243_24
+ + 0.322575 vice_captain_243_25 + 0.301967 vice_captain_243_26
+ + 0.301286 vice_captain_243_27 + 0.218654 vice_captain_245_24
+ + 0.329783 vice_captain_245_25 + 0.252327 vice_captain_245_26
+ + 0.296984 vice_captain_245_27 + 0.398023 vice_captain_246_24
+ + 0.428805 vice_captain_246_25 + 0.421838 vice_captain_246_26
+ + 0.443726 vice_captain_246_27 + 0.142545 vice_captain_247_24
+ + 0.235405 vice_captain_247_25 + 0.1823 vice_captain_247_26
+ + 0.222613 vice_captain_247_27 + 0.33323 vice_captain_249_24
+ + 0.388719 vice_captain_249_25 + 0.371718 vice_captain_249_26
+ + 0.396794 vice_captain_249_27 + 0.294707 vice_captain_250_24
+ + 0.343554 vice_captain_250_25 + 0.333061 vice_captain_250_26
+ + 0.356697 vice_captain_250_27 + 0.180757 vice_captain_252_24
+ + 0.285966 vice_captain_252_25 + 0.208536 vice_captain_252_26
+ + 0.252486 vice_captain_252_27 + 0.221925 vice_captain_254_24
+ + 0.249899 vice_captain_254_25 + 0.240688 vice_captain_254_26
+ + 0.254672 vice_captain_254_27 + 0.193175 vice_captain_255_24
+ + 0.191767 vice_captain_255_25 + 0.219585 vice_captain_255_26
+ + 0.194708 vice_captain_255_27 + 0.366088 vice_captain_256_25
+ + 0.370753 vice_captain_256_26 + 0.375826 vice_captain_256_27
+ + 0.176955 vice_captain_257_24 + 0.277814 vice_captain_257_25
+ + 0.211996 vice_captain_257_26 + 0.255053 vice_captain_257_27
+ + 0.32077 vice_captain_258_24 + 0.602007 vice_captain_258_25
+ + 0.335761 vice_captain_258_26 + 0.308513 vice_captain_258_27
+ + 0.321997 vice_captain_259_24 + 0.384981 vice_captain_259_25
+ + 0.376538 vice_captain_259_26 + 0.406321 vice_captain_259_27
+ + 0.171385 vice_captain_25_24 + 0.22165 vice_captain_25_25
+ + 0.200431 vice_captain_25_26 + 0.188759 vice_captain_25_27
+ + 0.210222 vice_captain_260_24 + 0.322922 vice_captain_260_25
+ + 0.256873 vice_captain_260_26 + 0.306321 vice_captain_260_27
+ + 0.277139 vice_captain_261_24 + 0.316295 vice_captain_261_25
+ + 0.304566 vice_captain_261_26 + 0.321465 vice_captain_261_27
+ + 0.149421 vice_captain_262_24 + 0.245753 vice_captain_262_25
+ + 0.188334 vice_captain_262_26 + 0.231041 vice_captain_262_27
+ + 0.317183 vice_captain_263_24 + 0.384672 vice_captain_263_25
+ + 0.371583 vice_captain_263_26 + 0.393 vice_captain_263_27
+ + 0.251518 vice_captain_265_24 + 0.388165 vice_captain_265_25
+ + 0.301343 vice_captain_265_26 + 0.359626 vice_captain_265_27
+ + 0.266219 vice_captain_266_24 + 0.320049 vice_captain_266_25
+ + 0.309609 vice_captain_266_26 + 0.326691 vice_captain_266_27
+ + 0.387103 vice_captain_267_24 + 0.353166 vice_captain_267_25
+ + 0.359562 vice_captain_267_26 + 0.365168 vice_captain_267_27
+ + 0.261863 vice_captain_268_24 + 0.23763 vice_captain_268_25
+ + 0.23829 vice_captain_268_26 + 0.238919 vice_captain_268_27
+ + 0.323247 vice_captain_26_24 + 0.336315 vice_captain_26_25
+ + 0.365055 vice_captain_26_26 + 0.362836 vice_captain_26_27
+ + 0.31756 vice_captain_270_24 + 0.286503 vice_captain_270_25
+ + 0.291387 vice_captain_270_26 + 0.29367 vice_captain_270_27
+ + 0.122908 vice_captain_272_24 + 0.114479 vice_captain_272_25
+ + 0.115187 vice_captain_272_26 + 0.116547 vice_captain_272_27
+ + 0.150092 vice_captain_273_24 + 0.140711 vice_captain_273_25
+ + 0.138779 vice_captain_273_26 + 0.140309 vice_captain_273_27
+ + 0.205894 vice_captain_274_24 + 0.174659 vice_captain_274_25
+ + 0.143896 vice_captain_274_26 + 0.153558 vice_captain_274_27
+ + 0.376205 vice_captain_275_24 + 0.370337 vice_captain_275_25
+ + 0.383895 vice_captain_275_26 + 0.373766 vice_captain_275_27
+ + 0.165314 vice_captain_276_24 + 0.156006 vice_captain_276_25
+ + 0.159505 vice_captain_276_26 + 0.16097 vice_captain_276_27
+ + 0.208709 vice_captain_277_24 + 0.177474 vice_captain_277_25
+ + 0.146712 vice_captain_277_26 + 0.156373 vice_captain_277_27
+ + 0.180353 vice_captain_279_24 + 0.185521 vice_captain_279_25
+ + 0.180462 vice_captain_279_26 + 0.196145 vice_captain_279_27
+ + 0.208708 vice_captain_27_24 + 0.214107 vice_captain_27_25
+ + 0.2466 vice_captain_27_26 + 0.227002 vice_captain_27_27
+ + 0.328083 vice_captain_280_24 + 0.301416 vice_captain_280_25
+ + 0.306822 vice_captain_280_26 + 0.310686 vice_captain_280_27
+ + 0.253437 vice_captain_281_24 + 0.238744 vice_captain_281_25
+ + 0.229014 vice_captain_281_26 + 0.23445 vice_captain_281_27
+ + 0.251263 vice_captain_282_24 + 0.236057 vice_captain_282_25
+ + 0.239504 vice_captain_282_26 + 0.243155 vice_captain_282_27
+ + 0.322825 vice_captain_283_24 + 0.304195 vice_captain_283_25
+ + 0.289947 vice_captain_283_26 + 0.292517 vice_captain_283_27
+ + 0.305681 vice_captain_284_24 + 0.301276 vice_captain_284_25
+ + 0.311454 vice_captain_284_26 + 0.30385 vice_captain_284_27
+ + 0.248118 vice_captain_285_24 + 0.233128 vice_captain_285_25
+ + 0.22311 vice_captain_285_26 + 0.226297 vice_captain_285_27
+ + 0.287536 vice_captain_286_24 + 0.271657 vice_captain_286_25
+ + 0.259741 vice_captain_286_26 + 0.262766 vice_captain_286_27
+ + 0.200305 vice_captain_287_24 + 0.203843 vice_captain_287_25
+ + 0.198175 vice_captain_287_26 + 0.212818 vice_captain_287_27
+ + 0.239474 vice_captain_288_25 + 0.243473 vice_captain_288_26
+ + 0.246379 vice_captain_288_27 + 0.303599 vice_captain_289_24
+ + 0.594323 vice_captain_289_25 + 0.312386 vice_captain_289_27
+ + 0.322733 vice_captain_28_24 + 0.362787 vice_captain_28_25
+ + 0.323433 vice_captain_28_26 + 0.326142 vice_captain_28_27
+ + 0.505945 vice_captain_290_24 + 0.926479 vice_captain_290_25
+ + 0.505739 vice_captain_290_27 + 0.379099 vice_captain_291_24
+ + 0.740355 vice_captain_291_25 + 0.391278 vice_captain_291_27
+ + 0.323363 vice_captain_292_25 + 0.164223 vice_captain_292_27
+ + 0.474503 vice_captain_293_24 + 0.882187 vice_captain_293_25
+ + 0.407535 vice_captain_293_27 + 0.345611 vice_captain_294_24
+ + 0.666047 vice_captain_294_25 + 0.34237 vice_captain_294_27
+ + 0.19986 vice_captain_295_24 + 0.400861 vice_captain_295_25
+ + 0.211084 vice_captain_295_27 + 0.323512 vice_captain_297_24
+ + 0.642281 vice_captain_297_25 + 0.308132 vice_captain_297_27
+ + 0.292872 vice_captain_298_24 + 0.539474 vice_captain_298_25
+ + 0.285565 vice_captain_298_27 + 0.339508 vice_captain_29_24
+ + 0.43116 vice_captain_29_25 + 0.390635 vice_captain_29_26
+ + 0.368904 vice_captain_29_27 + 0.13891 vice_captain_2_24
+ + 0.178089 vice_captain_2_25 + 0.160498 vice_captain_2_26
+ + 0.150822 vice_captain_2_27 + 0.29154 vice_captain_300_24
+ + 0.547154 vice_captain_300_25 + 0.28266 vice_captain_300_27
+ + 0.306362 vice_captain_301_24 + 0.599872 vice_captain_301_25
+ + 0.315133 vice_captain_301_27 + 0.567576 vice_captain_302_25
+ + 0.303897 vice_captain_302_27 + 0.399381 vice_captain_303_24
+ + 0.778712 vice_captain_303_25 + 0.397466 vice_captain_303_27
+ + 0.374074 vice_captain_304_24 + 0.744948 vice_captain_304_25
+ + 0.386628 vice_captain_304_27 + 0.328573 vice_captain_307_24
+ + 0.607492 vice_captain_307_25 + 0.329985 vice_captain_307_27
+ + 0.777217 vice_captain_308_24 + 1.442166 vice_captain_308_25
+ + 0.736873 vice_captain_308_27 + 0.435356 vice_captain_309_24
+ + 0.840274 vice_captain_309_25 + 0.427555 vice_captain_309_27
+ + 0.151198 vice_captain_310_24 + 0.298623 vice_captain_310_25
+ + 0.155146 vice_captain_310_27 + 0.283706 vice_captain_311_24
+ + 0.516581 vice_captain_311_25 + 0.271878 vice_captain_311_27
+ + 0.410219 vice_captain_313_24 + 0.766795 vice_captain_313_25
+ + 0.410181 vice_captain_313_27 + 0.324788 vice_captain_314_24
+ + 0.577565 vice_captain_314_25 + 0.293315 vice_captain_314_27
+ + 0.19826 vice_captain_315_24 + 0.272432 vice_captain_315_25
+ + 0.158826 vice_captain_315_27 + 0.27819 vice_captain_316_24
+ + 0.425979 vice_captain_316_25 + 0.244708 vice_captain_316_27
+ + 0.164468 vice_captain_317_24 + 0.327672 vice_captain_317_25
+ + 0.168658 vice_captain_317_27 + 0.227245 vice_captain_318_24
+ + 0.324211 vice_captain_318_25 + 0.192013 vice_captain_318_27
+ + 0.233293 vice_captain_319_24 + 0.4675 vice_captain_319_25
+ + 0.236487 vice_captain_319_27 + 0.347535 vice_captain_31_24
+ + 0.43932 vice_captain_31_25 + 0.394258 vice_captain_31_26
+ + 0.368907 vice_captain_31_27 + 0.19856 vice_captain_320_24
+ + 0.375208 vice_captain_320_25 + 0.18664 vice_captain_320_27
+ + 0.376778 vice_captain_321_24 + 0.541519 vice_captain_321_25
+ + 0.314157 vice_captain_321_27 + 0.37994 vice_captain_326_24
+ + 0.683 vice_captain_326_25 + 0.345809 vice_captain_326_27
+ + 0.149272 vice_captain_327_24 + 0.300931 vice_captain_327_25
+ + 0.154483 vice_captain_327_27 + 0.360639 vice_captain_328_24
+ + 0.63138 vice_captain_328_25 + 0.31721 vice_captain_328_27
+ + 0.278928 vice_captain_32_24 + 0.2801 vice_captain_32_25
+ + 0.319163 vice_captain_32_26 + 0.265978 vice_captain_32_27
+ + 0.323028 vice_captain_330_24 + 0.474929 vice_captain_330_25
+ + 0.267215 vice_captain_330_27 + 0.141939 vice_captain_332_24
+ + 0.284303 vice_captain_332_25 + 0.143429 vice_captain_332_27
+ + 0.168213 vice_captain_333_24 + 0.217574 vice_captain_333_25
+ + 0.130443 vice_captain_333_27 + 0.339511 vice_captain_335_24
+ + 0.681874 vice_captain_335_25 + 0.326099 vice_captain_335_27
+ + 0.141943 vice_captain_339_24 + 0.284313 vice_captain_339_25
+ + 0.143434 vice_captain_339_27 + 0.256431 vice_captain_33_24
+ + 0.271394 vice_captain_33_25 + 0.277693 vice_captain_33_26
+ + 0.255527 vice_captain_33_27 + 0.13518 vice_captain_340_24
+ + 0.258385 vice_captain_340_25 + 0.138812 vice_captain_340_27
+ + 0.387602 vice_captain_341_24 + 0.670041 vice_captain_341_25
+ + 0.347701 vice_captain_341_26 + 0.352647 vice_captain_341_27
+ + 0.406963 vice_captain_342_24 + 0.717445 vice_captain_342_25
+ + 0.38446 vice_captain_342_26 + 0.392641 vice_captain_342_27
+ + 0.49177 vice_captain_343_24 + 0.897189 vice_captain_343_25
+ + 0.449765 vice_captain_343_26 + 0.459389 vice_captain_343_27
+ + 0.392192 vice_captain_344_24 + 0.759897 vice_captain_344_25
+ + 0.377735 vice_captain_344_26 + 0.39549 vice_captain_344_27
+ + 0.176341 vice_captain_345_24 + 0.330323 vice_captain_345_25
+ + 0.160916 vice_captain_345_26 + 0.166034 vice_captain_345_27
+ + 0.447254 vice_captain_346_24 + 0.723065 vice_captain_346_25
+ + 0.349178 vice_captain_346_26 + 0.230287 vice_captain_346_27
+ + 0.318427 vice_captain_347_24 + 0.604445 vice_captain_347_25
+ + 0.308611 vice_captain_347_26 + 0.315322 vice_captain_347_27
+ + 0.41096 vice_captain_349_24 + 0.79238 vice_captain_349_25
+ + 0.39155 vice_captain_349_26 + 0.410445 vice_captain_349_27
+ + 0.306225 vice_captain_34_24 + 0.296389 vice_captain_34_25
+ + 0.323431 vice_captain_34_26 + 0.310054 vice_captain_34_27
+ + 0.372458 vice_captain_350_24 + 0.668508 vice_captain_350_25
+ + 0.350096 vice_captain_350_26 + 0.35694 vice_captain_350_27
+ + 0.169494 vice_captain_351_24 + 0.166104 vice_captain_351_25
+ + 0.178088 vice_captain_351_26 + 0.169483 vice_captain_351_27
+ + 0.395172 vice_captain_352_24 + 0.745486 vice_captain_352_25
+ + 0.381586 vice_captain_352_26 + 0.390874 vice_captain_352_27
+ + 0.52833 vice_captain_353_24 + 0.993253 vice_captain_353_25
+ + 0.485883 vice_captain_353_26 + 0.502199 vice_captain_353_27
+ + 0.373047 vice_captain_354_24 + 0.73908 vice_captain_354_25
+ + 0.371409 vice_captain_354_26 + 0.387677 vice_captain_354_27
+ + 0.612922 vice_captain_355_24 + 1.157163 vice_captain_355_25
+ + 0.598045 vice_captain_355_26 + 0.611081 vice_captain_355_27
+ + 0.232338 vice_captain_356_24 + 0.471662 vice_captain_356_25
+ + 0.243592 vice_captain_356_26 + 0.255047 vice_captain_356_27
+ + 0.271283 vice_captain_358_24 + 0.484547 vice_captain_358_25
+ + 0.254966 vice_captain_358_26 + 0.258433 vice_captain_358_27
+ + 0.261381 vice_captain_360_24 + 0.260326 vice_captain_360_25
+ + 0.258818 vice_captain_360_26 + 0.254739 vice_captain_360_27
+ + 0.323258 vice_captain_361_24 + 0.613748 vice_captain_361_25
+ + 0.313334 vice_captain_361_26 + 0.320118 vice_captain_361_27
+ + 0.473232 vice_captain_362_24 + 0.419826 vice_captain_362_25
+ + 0.490393 vice_captain_362_27 + 0.152126 vice_captain_364_24
+ + 0.162047 vice_captain_364_25 + 0.165105 vice_captain_364_26
+ + 0.162644 vice_captain_364_27 + 0.425617 vice_captain_365_24
+ + 0.829975 vice_captain_365_25 + 0.413812 vice_captain_365_26
+ + 0.43146 vice_captain_365_27 + 0.164147 vice_captain_366_24
+ + 0.290332 vice_captain_366_25 + 0.155959 vice_captain_366_26
+ + 0.158202 vice_captain_366_27 + 0.288986 vice_captain_368_24
+ + 0.505994 vice_captain_368_25 + 0.266891 vice_captain_368_26
+ + 0.270648 vice_captain_368_27 + 0.42751 vice_captain_369_24
+ + 0.739916 vice_captain_369_25 + 0.384592 vice_captain_369_26
+ + 0.391758 vice_captain_369_27 + 0.301881 vice_captain_36_24
+ + 0.30365 vice_captain_36_25 + 0.353706 vice_captain_36_26
+ + 0.288736 vice_captain_36_27 + 0.105477 vice_captain_371_24
+ + 0.111427 vice_captain_371_25 + 0.116277 vice_captain_371_26
+ + 0.101719 vice_captain_371_27 + 0.235121 vice_captain_372_24
+ + 0.267419 vice_captain_372_25 + 0.295472 vice_captain_372_26
+ + 0.253996 vice_captain_372_27 + 0.515274 vice_captain_373_24
+ + 0.56804 vice_captain_373_25 + 0.614316 vice_captain_373_26
+ + 0.489571 vice_captain_373_27 + 0.278466 vice_captain_376_24
+ + 0.299624 vice_captain_376_25 + 0.320312 vice_captain_376_26
+ + 0.263107 vice_captain_376_27 + 0.261771 vice_captain_377_24
+ + 0.277266 vice_captain_377_25 + 0.338539 vice_captain_377_26
+ + 0.229747 vice_captain_377_27 + 0.32012 vice_captain_378_24
+ + 0.316931 vice_captain_378_25 + 0.299869 vice_captain_378_26
+ + 0.322555 vice_captain_378_27 + 0.286921 vice_captain_379_24
+ + 0.306862 vice_captain_379_25 + 0.328143 vice_captain_379_26
+ + 0.27289 vice_captain_379_27 + 0.159551 vice_captain_37_24
+ + 0.155654 vice_captain_37_25 + 0.175648 vice_captain_37_26
+ + 0.139693 vice_captain_37_27 + 0.150089 vice_captain_380_24
+ + 0.150445 vice_captain_380_25 + 0.19227 vice_captain_380_26
+ + 0.108905 vice_captain_380_27 + 0.308226 vice_captain_382_24
+ + 0.330868 vice_captain_382_25 + 0.35234 vice_captain_382_26
+ + 0.291732 vice_captain_382_27 + 0.286361 vice_captain_384_24
+ + 0.301281 vice_captain_384_25 + 0.330984 vice_captain_384_26
+ + 0.261887 vice_captain_384_27 + 0.318954 vice_captain_385_24
+ + 0.332816 vice_captain_385_25 + 0.311212 vice_captain_385_26
+ + 0.310498 vice_captain_385_27 + 0.208193 vice_captain_386_24
+ + 0.219473 vice_captain_386_25 + 0.267344 vice_captain_386_26
+ + 0.183637 vice_captain_386_27 + 0.205571 vice_captain_387_24
+ + 0.21858 vice_captain_387_25 + 0.267982 vice_captain_387_26
+ + 0.186515 vice_captain_387_27 + 0.186861 vice_captain_388_24
+ + 0.200798 vice_captain_388_25 + 0.212111 vice_captain_388_26
+ + 0.188522 vice_captain_388_27 + 0.142056 vice_captain_389_24
+ + 0.147808 vice_captain_389_25 + 0.182404 vice_captain_389_26
+ + 0.113277 vice_captain_389_27 + 0.263649 vice_captain_38_24
+ + 0.259192 vice_captain_38_25 + 0.272911 vice_captain_38_26
+ + 0.243827 vice_captain_38_27 + 0.300011 vice_captain_392_24
+ + 0.324169 vice_captain_392_25 + 0.344419 vice_captain_392_26
+ + 0.285837 vice_captain_392_27 + 0.269283 vice_captain_393_24
+ + 0.40579 vice_captain_393_25 + 0.232644 vice_captain_393_27
+ + 0.203511 vice_captain_395_24 + 0.219665 vice_captain_395_25
+ + 0.271234 vice_captain_395_26 + 0.188429 vice_captain_395_27
+ + 0.399223 vice_captain_396_24 + 0.441969 vice_captain_396_25
+ + 0.480574 vice_captain_396_26 + 0.396778 vice_captain_396_27
+ + 0.210393 vice_captain_398_24 + 0.223681 vice_captain_398_25
+ + 0.278935 vice_captain_398_26 + 0.183282 vice_captain_398_27
+ + 0.129475 vice_captain_399_24 + 0.134793 vice_captain_399_25
+ + 0.155659 vice_captain_399_26 + 0.122618 vice_captain_399_27
+ + 0.220328 vice_captain_39_24 + 0.235799 vice_captain_39_25
+ + 0.252396 vice_captain_39_26 + 0.197207 vice_captain_39_27
+ + 0.102189 vice_captain_3_24 + 0.103266 vice_captain_3_25
+ + 0.107932 vice_captain_3_26 + 0.105935 vice_captain_3_27
+ + 0.233709 vice_captain_401_24 + 0.244834 vice_captain_401_25
+ + 0.294781 vice_captain_401_26 + 0.19838 vice_captain_401_27
+ + 0.367213 vice_captain_402_24 + 0.401317 vice_captain_402_25
+ + 0.346189 vice_captain_402_26 + 0.393734 vice_captain_402_27
+ + 0.168403 vice_captain_403_24 + 0.176096 vice_captain_403_25
+ + 0.155135 vice_captain_403_26 + 0.169141 vice_captain_403_27
+ + 0.311659 vice_captain_405_24 + 0.312001 vice_captain_405_25
+ + 0.229812 vice_captain_405_26 + 0.322617 vice_captain_405_27
+ + 0.398689 vice_captain_406_24 + 0.427503 vice_captain_406_25
+ + 0.364625 vice_captain_406_26 + 0.409068 vice_captain_406_27
+ + 0.333036 vice_captain_407_24 + 0.333094 vice_captain_407_25
+ + 0.241924 vice_captain_407_26 + 0.345041 vice_captain_407_27
+ + 0.343147 vice_captain_409_24 + 0.335429 vice_captain_409_25
+ + 0.324866 vice_captain_409_26 + 0.326882 vice_captain_409_27
+ + 0.312386 vice_captain_411_24 + 0.305671 vice_captain_411_25
+ + 0.29648 vice_captain_411_26 + 0.298234 vice_captain_411_27
+ + 0.37021 vice_captain_412_24 + 0.400204 vice_captain_412_25
+ + 0.338407 vice_captain_412_26 + 0.385266 vice_captain_412_27
+ + 0.14906 vice_captain_414_24 + 0.150797 vice_captain_414_25
+ + 0.135889 vice_captain_414_26 + 0.143911 vice_captain_414_27
+ + 0.43993 vice_captain_415_24 + 0.429756 vice_captain_415_25
+ + 0.393618 vice_captain_415_26 + 0.464413 vice_captain_415_27
+ + 0.237791 vice_captain_417_24 + 0.232121 vice_captain_417_25
+ + 0.166122 vice_captain_417_26 + 0.236766 vice_captain_417_27
+ + 0.264233 vice_captain_419_24 + 0.256882 vice_captain_419_25
+ + 0.183228 vice_captain_419_26 + 0.254591 vice_captain_419_27
+ + 0.254028 vice_captain_41_24 + 0.254179 vice_captain_41_25
+ + 0.284941 vice_captain_41_26 + 0.236847 vice_captain_41_27
+ + 0.383847 vice_captain_421_24 + 0.398561 vice_captain_421_25
+ + 0.337201 vice_captain_421_26 + 0.366058 vice_captain_421_27
+ + 0.241092 vice_captain_423_24 + 0.250972 vice_captain_423_25
+ + 0.212701 vice_captain_423_26 + 0.233188 vice_captain_423_27
+ + 0.119836 vice_captain_425_24 + 0.124248 vice_captain_425_25
+ + 0.112225 vice_captain_425_26 + 0.120259 vice_captain_425_27
+ + 0.422684 vice_captain_427_24 + 0.409366 vice_captain_427_25
+ + 0.29252 vice_captain_427_26 + 0.394518 vice_captain_427_27
+ + 0.196636 vice_captain_428_25 + 0.13448 vice_captain_428_26
+ + 0.194703 vice_captain_428_27 + 0.304052 vice_captain_42_24
+ + 0.297078 vice_captain_42_25 + 0.332858 vice_captain_42_26
+ + 0.268515 vice_captain_42_27 + 0.496528 vice_captain_430_24
+ + 0.481406 vice_captain_430_25 + 0.33427 vice_captain_430_26
+ + 0.482785 vice_captain_430_27 + 0.312843 vice_captain_432_24
+ + 0.331975 vice_captain_432_25 + 0.279845 vice_captain_432_26
+ + 0.314676 vice_captain_432_27 + 0.374021 vice_captain_433_24
+ + 0.364773 vice_captain_433_25 + 0.333464 vice_captain_433_26
+ + 0.398292 vice_captain_433_27 + 0.12596 vice_captain_435_24
+ + 0.123184 vice_captain_435_25 + 0.116996 vice_captain_435_26
+ + 0.121577 vice_captain_435_27 + 0.257271 vice_captain_436_24
+ + 0.268947 vice_captain_436_25 + 0.22525 vice_captain_436_26
+ + 0.220526 vice_captain_436_27 + 0.325425 vice_captain_437_24
+ + 0.31304 vice_captain_437_25 + 0.292563 vice_captain_437_26
+ + 0.30167 vice_captain_437_27 + 0.264603 vice_captain_439_25
+ + 0.221862 vice_captain_439_26 + 0.21954 vice_captain_439_27
+ + 0.480758 vice_captain_43_24 + 0.454793 vice_captain_43_25
+ + 0.49871 vice_captain_43_26 + 0.476513 vice_captain_43_27
+ + 0.244674 vice_captain_442_24 + 0.240536 vice_captain_442_25
+ + 0.227365 vice_captain_442_26 + 0.242991 vice_captain_442_27
+ + 0.226691 vice_captain_445_24 + 0.23426 vice_captain_445_25
+ + 0.196842 vice_captain_445_26 + 0.194809 vice_captain_445_27
+ + 0.256436 vice_captain_446_24 + 0.255972 vice_captain_446_25
+ + 0.241961 vice_captain_446_26 + 0.249096 vice_captain_446_27
+ + 0.430617 vice_captain_447_24 + 0.424047 vice_captain_447_25
+ + 0.39609 vice_captain_447_26 + 0.42743 vice_captain_447_27
+ + 0.284194 vice_captain_448_24 + 0.319302 vice_captain_448_25
+ + 0.284808 vice_captain_448_26 + 0.287182 vice_captain_448_27
+ + 0.313647 vice_captain_449_24 + 0.356846 vice_captain_449_25
+ + 0.314377 vice_captain_449_26 + 0.314445 vice_captain_449_27
+ + 0.359313 vice_captain_450_24 + 0.374177 vice_captain_450_25
+ + 0.370885 vice_captain_450_27 + 0.150733 vice_captain_451_24
+ + 0.147344 vice_captain_451_25 + 0.139787 vice_captain_451_26
+ + 0.145381 vice_captain_451_27 + 0.279224 vice_captain_453_24
+ + 0.275355 vice_captain_453_25 + 0.257682 vice_captain_453_26
+ + 0.266722 vice_captain_453_27 + 0.144585 vice_captain_456_24
+ + 0.14436 vice_captain_456_25 + 0.137568 vice_captain_456_26
+ + 0.141027 vice_captain_456_27 + 0.246129 vice_captain_457_24
+ + 0.252027 vice_captain_457_25 + 0.214107 vice_captain_457_26
+ + 0.212046 vice_captain_457_27 + 0.208001 vice_captain_458_24
+ + 0.205956 vice_captain_458_25 + 0.194819 vice_captain_458_26
+ + 0.200788 vice_captain_458_27 + 0.158289 vice_captain_45_24
+ + 0.154392 vice_captain_45_25 + 0.174387 vice_captain_45_26
+ + 0.138431 vice_captain_45_27 + 0.181288 vice_captain_460_24
+ + 0.198863 vice_captain_460_25 + 0.150144 vice_captain_460_26
+ + 0.145264 vice_captain_460_27 + 0.267226 vice_captain_465_24
+ + 0.2807 vice_captain_465_25 + 0.238774 vice_captain_465_26
+ + 0.237355 vice_captain_465_27 + 0.157614 vice_captain_466_24
+ + 0.156405 vice_captain_466_25 + 0.152515 vice_captain_466_26
+ + 0.157607 vice_captain_466_27 + 0.205952 vice_captain_467_24
+ + 0.22106 vice_captain_467_25 + 0.190394 vice_captain_467_26
+ + 0.190493 vice_captain_467_27 + 0.321965 vice_captain_468_24
+ + 0.311151 vice_captain_468_25 + 0.290812 vice_captain_468_26
+ + 0.29952 vice_captain_468_27 + 0.107946 vice_captain_46_24
+ + 0.106486 vice_captain_46_25 + 0.113335 vice_captain_46_26
+ + 0.111846 vice_captain_46_27 + 0.247099 vice_captain_470_24
+ + 0.244958 vice_captain_470_25 + 0.233403 vice_captain_470_26
+ + 0.247216 vice_captain_470_27 + 0.25854 vice_captain_471_24
+ + 0.259391 vice_captain_471_25 + 0.297824 vice_captain_471_26
+ + 0.265164 vice_captain_471_27 + 0.30626 vice_captain_472_24
+ + 0.30384 vice_captain_472_25 + 0.313798 vice_captain_472_26
+ + 0.285201 vice_captain_472_27 + 0.186357 vice_captain_473_24
+ + 0.187366 vice_captain_473_25 + 0.214512 vice_captain_473_26
+ + 0.191461 vice_captain_473_27 + 0.24201 vice_captain_475_24
+ + 0.259129 vice_captain_475_25 + 0.260155 vice_captain_475_26
+ + 0.292297 vice_captain_475_27 + 0.229608 vice_captain_476_24
+ + 0.235871 vice_captain_476_25 + 0.276927 vice_captain_476_26
+ + 0.251761 vice_captain_476_27 + 0.140292 vice_captain_477_24
+ + 0.147139 vice_captain_477_25 + 0.148493 vice_captain_477_26
+ + 0.132439 vice_captain_477_27 + 0.122061 vice_captain_478_24
+ + 0.121319 vice_captain_478_25 + 0.120404 vice_captain_478_26
+ + 0.118383 vice_captain_478_27 + 0.30626 vice_captain_479_24
+ + 0.30384 vice_captain_479_25 + 0.313798 vice_captain_479_26
+ + 0.285201 vice_captain_479_27 + 0.259383 vice_captain_47_24
+ + 0.25418 vice_captain_47_25 + 0.277305 vice_captain_47_26
+ + 0.270579 vice_captain_47_27 + 0.168365 vice_captain_481_24
+ + 0.167112 vice_captain_481_25 + 0.165567 vice_captain_481_26
+ + 0.162155 vice_captain_481_27 + 0.361923 vice_captain_482_24
+ + 0.358958 vice_captain_482_25 + 0.37116 vice_captain_482_26
+ + 0.336121 vice_captain_482_27 + 0.170974 vice_captain_483_24
+ + 0.174895 vice_captain_483_25 + 0.174339 vice_captain_483_26
+ + 0.155709 vice_captain_483_27 + 0.191691 vice_captain_484_24
+ + 0.190957 vice_captain_484_25 + 0.219664 vice_captain_484_26
+ + 0.195287 vice_captain_484_27 + 0.289774 vice_captain_485_24
+ + 0.298487 vice_captain_485_25 + 0.298936 vice_captain_485_26
+ + 0.266273 vice_captain_485_27 + 0.092012 vice_captain_487_24
+ + 0.102308 vice_captain_487_25 + 0.130887 vice_captain_487_26
+ + 0.119187 vice_captain_487_27 + 0.252457 vice_captain_488_24
+ + 0.255577 vice_captain_488_25 + 0.256943 vice_captain_488_26
+ + 0.251359 vice_captain_488_27 + 0.153956 vice_captain_489_24
+ + 0.157318 vice_captain_489_25 + 0.158204 vice_captain_489_26
+ + 0.157432 vice_captain_489_27 + 0.341301 vice_captain_48_24
+ + 0.343284 vice_captain_48_25 + 0.389669 vice_captain_48_26
+ + 0.323985 vice_captain_48_27 + 0.173628 vice_captain_490_24
+ + 0.180092 vice_captain_490_25 + 0.182081 vice_captain_490_26
+ + 0.166507 vice_captain_490_27 + 0.30384 vice_captain_491_24
+ + 0.298234 vice_captain_491_25 + 0.320049 vice_captain_491_27
+ + 0.190689 vice_captain_492_24 + 0.201719 vice_captain_492_25
+ + 0.201794 vice_captain_492_27 + 0.23189 vice_captain_493_24
+ + 0.238239 vice_captain_493_25 + 0.23445 vice_captain_493_27
+ + 0.164427 vice_captain_494_24 + 0.171917 vice_captain_494_25
+ + 0.174788 vice_captain_494_27 + 0.261079 vice_captain_495_24
+ + 0.30657 vice_captain_495_25 + 0.331043 vice_captain_495_27
+ + 0.200017 vice_captain_497_24 + 0.238707 vice_captain_497_25
+ + 0.261243 vice_captain_497_27 + 0.30245 vice_captain_498_24
+ + 0.296874 vice_captain_498_25 + 0.318571 vice_captain_498_27
+ + 0.256338 vice_captain_499_24 + 0.270382 vice_captain_499_25
+ + 0.272138 vice_captain_499_27 + 0.389821 vice_captain_49_24
+ + 0.369361 vice_captain_49_25 + 0.405916 vice_captain_49_26
+ + 0.377206 vice_captain_49_27 + 0.173555 vice_captain_4_24
+ + 0.17645 vice_captain_4_25 + 0.188989 vice_captain_4_26
+ + 0.183623 vice_captain_4_27 + 0.365785 vice_captain_501_24
+ + 0.383137 vice_captain_501_25 + 0.382732 vice_captain_501_27
+ + 0.441022 vice_captain_504_24 + 0.454818 vice_captain_504_25
+ + 0.444916 vice_captain_504_27 + 0.353201 vice_captain_506_24
+ + 0.422329 vice_captain_506_25 + 0.460761 vice_captain_506_27
+ + 0.234343 vice_captain_508_24 + 0.372068 vice_captain_508_25
+ + 0.2111 vice_captain_508_26 + 0.212171 vice_captain_508_27
+ + 0.422129 vice_captain_509_24 + 0.423873 vice_captain_509_25
+ + 0.415103 vice_captain_509_27 + 0.459832 vice_captain_50_24
+ + 0.434699 vice_captain_50_25 + 0.458037 vice_captain_50_26
+ + 0.429088 vice_captain_50_27 + 0.230541 vice_captain_511_24
+ + 0.276769 vice_captain_511_25 + 0.305357 vice_captain_511_27
+ + 0.236787 vice_captain_513_24 + 0.249 vice_captain_513_25
+ + 0.248513 vice_captain_513_27 + 0.17645 vice_captain_515_24
+ + 0.185011 vice_captain_515_25 + 0.185619 vice_captain_515_27
+ + 0.530394 vice_captain_516_24 + 0.549028 vice_captain_516_25
+ + 0.538829 vice_captain_516_27 + 0.157693 vice_captain_517_24
+ + 0.201576 vice_captain_517_25 + 0.142176 vice_captain_517_27
+ + 0.15072 vice_captain_518_24 + 0.193504 vice_captain_518_25
+ + 0.13626 vice_captain_518_27 + 0.295555 vice_captain_519_24
+ + 0.345497 vice_captain_519_25 + 0.371501 vice_captain_519_27
+ + 0.369148 vice_captain_520_24 + 0.361938 vice_captain_520_25
+ + 0.389995 vice_captain_520_27 + 0.306956 vice_captain_522_24
+ + 0.354021 vice_captain_522_25 + 0.334647 vice_captain_522_26
+ + 0.289013 vice_captain_522_27 + 0.275525 vice_captain_523_24
+ + 0.297375 vice_captain_523_25 + 0.291477 vice_captain_523_26
+ + 0.319083 vice_captain_523_27 + 0.33003 vice_captain_524_24
+ + 0.363657 vice_captain_524_25 + 0.34016 vice_captain_524_26
+ + 0.378523 vice_captain_524_27 + 0.305679 vice_captain_525_24
+ + 0.326709 vice_captain_525_25 + 0.326847 vice_captain_525_26
+ + 0.312114 vice_captain_525_27 + 0.474792 vice_captain_526_24
+ + 0.522419 vice_captain_526_25 + 0.531367 vice_captain_526_26
+ + 0.51046 vice_captain_526_27 + 0.192671 vice_captain_527_24
+ + 0.21122 vice_captain_527_25 + 0.217641 vice_captain_527_26
+ + 0.215049 vice_captain_527_27 + 0.25925 vice_captain_528_24
+ + 0.308203 vice_captain_528_25 + 0.298689 vice_captain_528_26
+ + 0.262924 vice_captain_528_27 + 0.245539 vice_captain_530_24
+ + 0.295685 vice_captain_530_25 + 0.281845 vice_captain_530_26
+ + 0.242713 vice_captain_530_27 + 0.270725 vice_captain_532_24
+ + 0.323055 vice_captain_532_25 + 0.312069 vice_captain_532_26
+ + 0.274107 vice_captain_532_27 + 0.324094 vice_captain_533_24
+ + 0.35764 vice_captain_533_25 + 0.334199 vice_captain_533_26
+ + 0.37247 vice_captain_533_27 + 0.198878 vice_captain_534_24
+ + 0.209502 vice_captain_534_25 + 0.210516 vice_captain_534_26
+ + 0.203514 vice_captain_534_27 + 0.231726 vice_captain_535_24
+ + 0.248679 vice_captain_535_25 + 0.241154 vice_captain_535_26
+ + 0.267863 vice_captain_535_27 + 0.190882 vice_captain_536_24
+ + 0.233052 vice_captain_536_25 + 0.226228 vice_captain_536_26
+ + 0.198807 vice_captain_536_27 + 0.12011 vice_captain_538_24
+ + 0.132922 vice_captain_538_25 + 0.132401 vice_captain_538_26
+ + 0.144105 vice_captain_538_27 + 0.378775 vice_captain_539_24
+ + 0.402847 vice_captain_539_25 + 0.403026 vice_captain_539_26
+ + 0.383991 vice_captain_539_27 + 0.310312 vice_captain_53_24
+ + 0.296067 vice_captain_53_25 + 0.321518 vice_captain_53_26
+ + 0.301528 vice_captain_53_27 + 0.368889 vice_captain_540_24
+ + 0.375679 vice_captain_540_25 + 0.404336 vice_captain_540_26
+ + 0.396424 vice_captain_540_27 + 0.355572 vice_captain_542_24
+ + 0.38137 vice_captain_542_25 + 0.385906 vice_captain_542_26
+ + 0.372354 vice_captain_542_27 + 0.278101 vice_captain_544_24
+ + 0.333217 vice_captain_544_25 + 0.325455 vice_captain_544_26
+ + 0.289828 vice_captain_544_27 + 0.266287 vice_captain_545_24
+ + 0.209541 vice_captain_545_25 + 0.313034 vice_captain_545_26
+ + 0.199324 vice_captain_545_27 + 0.29947 vice_captain_546_24
+ + 0.309067 vice_captain_546_25 + 0.319138 vice_captain_546_26
+ + 0.290987 vice_captain_546_27 + 0.183773 vice_captain_547_24
+ + 0.145832 vice_captain_547_25 + 0.199443 vice_captain_547_26
+ + 0.134028 vice_captain_547_27 + 0.196471 vice_captain_548_24
+ + 0.1593 vice_captain_548_25 + 0.2335 vice_captain_548_26
+ + 0.151585 vice_captain_548_27 + 0.135034 vice_captain_54_24
+ + 0.134071 vice_captain_54_25 + 0.137977 vice_captain_54_26
+ + 0.129927 vice_captain_54_27 + 0.3289 vice_captain_551_24
+ + 0.2599 vice_captain_551_25 + 0.376685 vice_captain_551_26
+ + 0.246973 vice_captain_551_27 + 0.271314 vice_captain_553_24
+ + 0.459394 vice_captain_553_25 + 0.240334 vice_captain_553_27
+ + 0.30674 vice_captain_554_24 + 0.288421 vice_captain_554_25
+ + 0.288759 vice_captain_554_26 + 0.279084 vice_captain_554_27
+ + 0.108066 vice_captain_555_24 + 0.104169 vice_captain_555_25
+ + 0.109372 vice_captain_555_26 + 0.102859 vice_captain_555_27
+ + 0.378978 vice_captain_557_24 + 0.356218 vice_captain_557_25
+ + 0.385281 vice_captain_557_26 + 0.348904 vice_captain_557_27
+ + 0.267931 vice_captain_559_24 + 0.260917 vice_captain_559_25
+ + 0.282016 vice_captain_559_26 + 0.266108 vice_captain_559_27
+ + 0.279638 vice_captain_55_24 + 0.272726 vice_captain_55_25
+ + 0.302004 vice_captain_55_26 + 0.295835 vice_captain_55_27
+ + 0.218354 vice_captain_560_24 + 0.172681 vice_captain_560_25
+ + 0.255585 vice_captain_560_26 + 0.155266 vice_captain_560_27
+ + 0.123166 vice_captain_561_24 + 0.118859 vice_captain_561_25
+ + 0.124609 vice_captain_561_26 + 0.117412 vice_captain_561_27
+ + 0.356202 vice_captain_563_24 + 0.285437 vice_captain_563_25
+ + 0.390377 vice_captain_563_26 + 0.259947 vice_captain_563_27
+ + 0.29339 vice_captain_564_24 + 0.302911 vice_captain_564_25
+ + 0.312903 vice_captain_564_26 + 0.284973 vice_captain_564_27
+ + 0.329456 vice_captain_565_24 + 0.318381 vice_captain_565_25
+ + 0.349638 vice_captain_565_26 + 0.324219 vice_captain_565_27
+ + 0.300532 vice_captain_566_24 + 0.564329 vice_captain_566_25
+ + 0.269653 vice_captain_566_26 + 0.27862 vice_captain_566_27
+ + 0.356736 vice_captain_567_24 + 0.34211 vice_captain_567_25
+ + 0.371242 vice_captain_567_26 + 0.336621 vice_captain_567_27
+ + 0.357654 vice_captain_569_24 + 0.370231 vice_captain_569_25
+ + 0.383431 vice_captain_569_26 + 0.346536 vice_captain_569_27
+ + 0.343964 vice_captain_570_24 + 0.325851 vice_captain_570_25
+ + 0.34949 vice_captain_570_26 + 0.318363 vice_captain_570_27
+ + 0.291582 vice_captain_572_24 + 0.238108 vice_captain_572_25
+ + 0.335763 vice_captain_572_26 + 0.227509 vice_captain_572_27
+ + 0.302837 vice_captain_573_24 + 0.246478 vice_captain_573_25
+ + 0.356407 vice_captain_573_26 + 0.23756 vice_captain_573_27
+ + 0.132163 vice_captain_574_24 + 0.129877 vice_captain_574_25
+ + 0.135549 vice_captain_574_26 + 0.12845 vice_captain_574_27
+ + 0.232336 vice_captain_576_24 + 0.238671 vice_captain_576_25
+ + 0.275136 vice_captain_576_26 + 0.251003 vice_captain_576_27
+ + 0.203783 vice_captain_577_24 + 0.240741 vice_captain_577_25
+ + 0.23124 vice_captain_577_26 + 0.204377 vice_captain_577_27
+ + 0.129011 vice_captain_578_24 + 0.134698 vice_captain_578_25
+ + 0.143385 vice_captain_578_26 + 0.142658 vice_captain_578_27
+ + 0.266219 vice_captain_579_24 + 0.320049 vice_captain_579_25
+ + 0.309609 vice_captain_579_26 + 0.326691 vice_captain_579_27
+ + 0.312386 vice_captain_580_24 + 0.305671 vice_captain_580_25
+ + 0.29648 vice_captain_580_26 + 0.298234 vice_captain_580_27
+ + 0.169219 vice_captain_581_24 + 0.162481 vice_captain_581_25
+ + 0.110935 vice_captain_581_26 + 0.160878 vice_captain_581_27
+ + 0.209564 vice_captain_582_24 + 0.412496 vice_captain_582_25
+ + 0.213139 vice_captain_582_27 + 0.308604 vice_captain_584_24
+ + 0.306979 vice_captain_584_25 + 0.339957 vice_captain_584_26
+ + 0.280652 vice_captain_584_27 + 0.196175 vice_captain_586_24
+ + 0.389889 vice_captain_586_25 + 0.199704 vice_captain_586_27
+ + 0.177745 vice_captain_587_24 + 0.180003 vice_captain_587_25
+ + 0.180884 vice_captain_587_26 + 0.179808 vice_captain_587_27
+ + 0.187425 vice_captain_588_24 + 0.304137 vice_captain_588_25
+ + 0.23 vice_captain_588_26 + 0.2827 vice_captain_588_27
+ + 0.249427 vice_captain_58_24 + 0.243274 vice_captain_58_25
+ + 0.263059 vice_captain_58_26 + 0.253867 vice_captain_58_27
+ + 0.45779 vice_captain_590_24 + 0.471878 vice_captain_590_25
+ + 0.470234 vice_captain_590_26 + 0.449827 vice_captain_590_27
+ + 0.440729 vice_captain_591_24 + 0.399483 vice_captain_591_25
+ + 0.408627 vice_captain_591_26 + 0.418826 vice_captain_591_27
+ + 0.182449 vice_captain_592_24 + 0.18462 vice_captain_592_25
+ + 0.215005 vice_captain_592_26 + 0.194518 vice_captain_592_27
+ + 0.2776 vice_captain_594_24 + 0.288278 vice_captain_594_25
+ + 0.296022 vice_captain_594_26 + 0.309866 vice_captain_594_27
+ + 0.223066 vice_captain_595_24 + 0.179928 vice_captain_595_25
+ + 0.183847 vice_captain_595_26 + 0.265259 vice_captain_595_27
+ + 0.384654 vice_captain_596_24 + 0.347346 vice_captain_596_25
+ + 0.373756 vice_captain_596_26 + 0.374858 vice_captain_596_27
+ + 0.349237 vice_captain_597_24 + 0.368611 vice_captain_597_25
+ + 0.407179 vice_captain_597_26 + 0.317457 vice_captain_597_27
+ + 0.19674 vice_captain_598_24 + 0.162392 vice_captain_598_25
+ + 0.243373 vice_captain_598_26 + 0.161726 vice_captain_598_27
+ + 0.409473 vice_captain_599_24 + 0.388769 vice_captain_599_25
+ + 0.427813 vice_captain_599_26 + 0.412653 vice_captain_599_27
+ + 0.388257 vice_captain_5_24 + 0.475449 vice_captain_5_25
+ + 0.420958 vice_captain_5_26 + 0.400188 vice_captain_5_27
+ + 0.243584 vice_captain_601_24 + 0.281241 vice_captain_601_25
+ + 0.269539 vice_captain_601_26 + 0.286209 vice_captain_601_27
+ + 0.24414 vice_captain_602_24 + 0.353116 vice_captain_602_25
+ + 0.2021 vice_captain_602_27 + 0.277209 vice_captain_603_24
+ + 0.295715 vice_captain_603_25 + 0.250152 vice_captain_603_26
+ + 0.282772 vice_captain_603_27 + 0.272914 vice_captain_604_25
+ + 0.232846 vice_captain_604_26 + 0.230668 vice_captain_604_27
+ + 0.214348 vice_captain_606_24 + 0.246236 vice_captain_606_25
+ + 0.288208 vice_captain_606_26 + 0.259202 vice_captain_606_27
+ + 0.327717 vice_captain_607_24 + 0.309735 vice_captain_607_25
+ + 0.343517 vice_captain_607_26 + 0.335362 vice_captain_607_27
+ + 0.16962 vice_captain_608_24 + 0.182975 vice_captain_608_25
+ + 0.188176 vice_captain_608_26 + 0.209814 vice_captain_608_27
+ + 0.51838 vice_captain_60_24 + 0.528556 vice_captain_60_25
+ + 0.611817 vice_captain_60_26 + 0.524102 vice_captain_60_27
+ + 0.248309 vice_captain_610_25 + 0.232028 vice_captain_610_26
+ + 0.23155 vice_captain_610_27 + 0.293875 vice_captain_611_24
+ + 0.212292 vice_captain_611_25 + 0.286568 vice_captain_611_27
+ + 0.367563 vice_captain_614_24 + 0.738106 vice_captain_614_25
+ + 0.353554 vice_captain_614_27 + 0.146821 vice_captain_615_24
+ + 0.149794 vice_captain_615_25 + 0.161735 vice_captain_615_26
+ + 0.153946 vice_captain_615_27 + 0.38758 vice_captain_616_24
+ + 0.679471 vice_captain_616_25 + 0.355333 vice_captain_616_26
+ + 0.360792 vice_captain_616_27 + 0.32058 vice_captain_617_24
+ + 0.335041 vice_captain_617_25 + 0.387415 vice_captain_617_26
+ + 0.30737 vice_captain_617_27 + 0.124237 vice_captain_618_24
+ + 0.12031 vice_captain_618_25 + 0.126023 vice_captain_618_26
+ + 0.122061 vice_captain_618_27 + 0.154392 vice_captain_619_24
+ + 0.113269 vice_captain_619_25 + 0.111454 vice_captain_619_26
+ + 0.173974 vice_captain_619_27 + 0.258967 vice_captain_621_24
+ + 0.273576 vice_captain_621_25 + 0.28372 vice_captain_621_26
+ + 0.270265 vice_captain_621_27 + 0.17441 vice_captain_622_24
+ + 0.186842 vice_captain_622_25 + 0.211724 vice_captain_622_26
+ + 0.15122 vice_captain_622_27 + 0.141911 vice_captain_623_24
+ + 0.132563 vice_captain_623_25 + 0.140345 vice_captain_623_27
+ + 0.106011 vice_captain_624_24 + 0.119528 vice_captain_624_25
+ + 0.119372 vice_captain_624_26 + 0.127745 vice_captain_624_27
+ + 0.165945 vice_captain_625_24 + 0.150165 vice_captain_625_25
+ + 0.138188 vice_captain_625_26 + 0.137836 vice_captain_625_27
+ + 0.208123 vice_captain_626_24 + 0.37791 vice_captain_626_25
+ + 0.199202 vice_captain_626_27 + 0.113611 vice_captain_627_24
+ + 0.233023 vice_captain_627_25 + 0.121679 vice_captain_627_27
+ + 0.118853 vice_captain_629_24 + 0.231941 vice_captain_629_25
+ + 0.117191 vice_captain_629_27 + 0.210404 vice_captain_62_24
+ + 0.202574 vice_captain_62_25 + 0.190016 vice_captain_62_26
+ + 0.186428 vice_captain_62_27 + 0.430825 vice_captain_630_24
+ + 0.775798 vice_captain_630_25 + 0.371229 vice_captain_630_27
+ + 0.251192 vice_captain_631_24 + 0.464904 vice_captain_631_25
+ + 0.243966 vice_captain_631_27 + 0.111791 vice_captain_632_24
+ + 0.118463 vice_captain_632_25 + 0.125018 vice_captain_632_26
+ + 0.112237 vice_captain_632_27 + 0.232497 vice_captain_633_24
+ + 0.235485 vice_captain_633_25 + 0.174918 vice_captain_633_26
+ + 0.246351 vice_captain_633_27 + 0.168535 vice_captain_634_24
+ + 0.161835 vice_captain_634_25 + 0.110575 vice_captain_634_26
+ + 0.16024 vice_captain_634_27 + 0.245246 vice_captain_635_24
+ + 0.263396 vice_captain_635_25 + 0.232427 vice_captain_635_26
+ + 0.257729 vice_captain_635_27 + 0.290462 vice_captain_636_24
+ + 0.326691 vice_captain_636_25 + 0.291095 vice_captain_636_26
+ + 0.293545 vice_captain_636_27 + 0.156383 vice_captain_637_24
+ + 0.162316 vice_captain_637_25 + 0.132984 vice_captain_637_26
+ + 0.13139 vice_captain_637_27 + 0.275334 vice_captain_638_24
+ + 0.276779 vice_captain_638_25 + 0.276658 vice_captain_638_26
+ + 0.272363 vice_captain_638_27 + 0.259628 vice_captain_639_24
+ + 0.301539 vice_captain_639_25 + 0.325588 vice_captain_639_27
+ + 0.302877 vice_captain_63_27 + 0.152758 vice_captain_640_24
+ + 0.151797 vice_captain_640_25 + 0.147198 vice_captain_640_27
+ + 0.175191 vice_captain_641_27 + 0.269582 vice_captain_642_24
+ + 0.284481 vice_captain_642_25 + 0.284582 vice_captain_642_26
+ + 0.274052 vice_captain_642_27 + 0.183321 vice_captain_644_24
+ + 0.185829 vice_captain_644_25 + 0.189455 vice_captain_644_26
+ + 0.204505 vice_captain_644_27 + 0.150245 vice_captain_645_24
+ + 0.162653 vice_captain_645_25 + 0.162049 vice_captain_645_26
+ + 0.172126 vice_captain_645_27 + 0.283652 vice_captain_646_24
+ + 0.307281 vice_captain_646_25 + 0.290462 vice_captain_646_26
+ + 0.30437 vice_captain_646_27 + 0.285201 vice_captain_647_24
+ + 0.312386 vice_captain_647_25 + 0.29339 vice_captain_647_26
+ + 0.324404 vice_captain_647_27 + 0.132471 vice_captain_649_24
+ + 0.144539 vice_captain_649_25 + 0.138516 vice_captain_649_26
+ + 0.15017 vice_captain_649_27 + 0.219467 vice_captain_64_24
+ + 0.21105 vice_captain_64_25 + 0.209013 vice_captain_64_26
+ + 0.220008 vice_captain_64_27 + 0.101981 vice_captain_650_24
+ + 0.109574 vice_captain_650_25 + 0.106652 vice_captain_650_26
+ + 0.110289 vice_captain_650_27 + 0.127931 vice_captain_652_24
+ + 0.11917 vice_captain_652_25 + 0.120199 vice_captain_652_26
+ + 0.121319 vice_captain_652_27 + 0.138431 vice_captain_653_24
+ + 0.137836 vice_captain_653_25 + 0.16109 vice_captain_653_26
+ + 0.141344 vice_captain_653_27 + 0.142288 vice_captain_654_24
+ + 0.15892 vice_captain_654_25 + 0.147666 vice_captain_654_26
+ + 0.144988 vice_captain_654_27 + 0.163316 vice_captain_655_24
+ + 0.165787 vice_captain_655_25 + 0.167501 vice_captain_655_26
+ + 0.168435 vice_captain_655_27 + 0.124937 vice_captain_657_24
+ + 0.122746 vice_captain_657_25 + 0.128467 vice_captain_657_26
+ + 0.122183 vice_captain_657_27 + 0.146622 vice_captain_658_24
+ + 0.157687 vice_captain_658_25 + 0.154499 vice_captain_658_26
+ + 0.143639 vice_captain_658_27 + 0.304851 vice_captain_659_24
+ + 0.266219 vice_captain_659_25 + 0.293627 vice_captain_659_27
+ + 0.295751 vice_captain_65_24 + 0.293447 vice_captain_65_25
+ + 0.293596 vice_captain_65_26 + 0.314879 vice_captain_65_27
+ + 0.240827 vice_captain_660_24 + 0.254246 vice_captain_660_25
+ + 0.255366 vice_captain_660_26 + 0.284147 vice_captain_660_27
+ + 0.376728 vice_captain_661_24 + 0.428633 vice_captain_661_25
+ + 0.40819 vice_captain_661_26 + 0.428559 vice_captain_661_27
+ + 0.167618 vice_captain_662_24 + 0.153496 vice_captain_662_25
+ + 0.155155 vice_captain_662_26 + 0.156961 vice_captain_662_27
+ + 0.302863 vice_captain_663_24 + 0.305762 vice_captain_663_25
+ + 0.308031 vice_captain_663_26 + 0.305527 vice_captain_663_27
+ + 0.54301 vice_captain_664_24 + 0.567829 vice_captain_664_25
+ + 0.553857 vice_captain_664_26 + 0.518432 vice_captain_664_27
+ + 0.339511 vice_captain_665_24 + 0.681874 vice_captain_665_25
+ + 0.326099 vice_captain_665_27 + 0.114499 vice_captain_666_24
+ + 0.115408 vice_captain_666_25 + 0.116115 vice_captain_666_26
+ + 0.115533 vice_captain_666_27 + 0.228853 vice_captain_668_24
+ + 0.440303 vice_captain_668_25 + 0.223469 vice_captain_668_27
+ + 0.291397 vice_captain_669_24 + 0.309585 vice_captain_669_25
+ + 0.33561 vice_captain_669_26 + 0.266969 vice_captain_669_27
+ + 0.259292 vice_captain_66_24 + 0.253073 vice_captain_66_25
+ + 0.250056 vice_captain_66_26 + 0.263625 vice_captain_66_27
+ + 0.182682 vice_captain_671_24 + 0.113358 vice_captain_671_25
+ + 0.157288 vice_captain_671_27 + 0.196426 vice_captain_672_24
+ + 0.193829 vice_captain_672_25 + 0.214892 vice_captain_672_26
+ + 0.208428 vice_captain_672_27 + 0.155516 vice_captain_673_26
+ + 0.16369 vice_captain_673_27 + 0.119827 vice_captain_674_24
+ + 0.166413 vice_captain_674_25 + 0.188021 vice_captain_674_26
+ + 0.190523 vice_captain_674_27 + 0.174245 vice_captain_675_24
+ + 0.18714 vice_captain_675_25 + 0.189611 vice_captain_675_26
+ + 0.210722 vice_captain_675_27 + 0.224153 vice_captain_676_24
+ + 0.269468 vice_captain_676_25 + 0.262757 vice_captain_676_26
+ + 0.233829 vice_captain_676_27 + 0.136286 vice_captain_677_24
+ + 0.133634 vice_captain_677_25 + 0.141157 vice_captain_677_27
+ + 0.351913 vice_captain_678_24 + 0.697879 vice_captain_678_25
+ + 0.3552 vice_captain_678_26 + 0.374797 vice_captain_678_27
+ + 0.239442 vice_captain_679_24 + 0.24677 vice_captain_679_25
+ + 0.208596 vice_captain_679_26 + 0.210903 vice_captain_679_27
+ + 0.141595 vice_captain_681_24 + 0.134925 vice_captain_681_25
+ + 0.145943 vice_captain_681_27 + 0.19011 vice_captain_682_24
+ + 0.254523 vice_captain_682_25 + 0.150165 vice_captain_682_27
+ + 0.121552 vice_captain_684_24 + 0.235986 vice_captain_684_25
+ + 0.120119 vice_captain_684_26 + 0.122715 vice_captain_684_27
+ + 0.115786 vice_captain_685_24 + 0.12177 vice_captain_685_25
+ + 0.126107 vice_captain_685_26 + 0.112197 vice_captain_685_27
+ + 0.351366 vice_captain_687_24 + 0.30377 vice_captain_687_25
+ + 0.337538 vice_captain_687_27 + 0.348775 vice_captain_688_24
+ + 0.327351 vice_captain_688_25 + 0.310353 vice_captain_688_26
+ + 0.310654 vice_captain_688_27 + 0.322338 vice_captain_689_24
+ + 0.345155 vice_captain_689_25 + 0.348328 vice_captain_689_26
+ + 0.335704 vice_captain_689_27 + 0.140596 vice_captain_690_24
+ + 0.152778 vice_captain_690_25 + 0.160877 vice_captain_690_26
+ + 0.157566 vice_captain_690_27 + 0.21318 vice_captain_691_24
+ + 0.23789 vice_captain_691_25 + 0.240857 vice_captain_691_26
+ + 0.257271 vice_captain_691_27 + 0.306685 vice_captain_692_24
+ + 0.302265 vice_captain_692_25 + 0.312477 vice_captain_692_26
+ + 0.304848 vice_captain_692_27 + 0.150935 vice_captain_694_24
+ + 0.164021 vice_captain_694_25 + 0.169466 vice_captain_694_26
+ + 0.192872 vice_captain_694_27 + 0.292061 vice_captain_695_24
+ + 0.307276 vice_captain_695_25 + 0.337565 vice_captain_695_26
+ + 0.267103 vice_captain_695_27 + 0.306042 vice_captain_696_24
+ + 0.322094 vice_captain_696_25 + 0.28008 vice_captain_696_26
+ + 0.280829 vice_captain_696_27 + 0.250333 vice_captain_697_24
+ + 0.201093 vice_captain_697_25 + 0.282882 vice_captain_697_26
+ + 0.186367 vice_captain_697_27 + 0.20584 vice_captain_698_24
+ + 0.196824 vice_captain_698_25 + 0.208861 vice_captain_698_26
+ + 0.193795 vice_captain_698_27 + 0.297054 vice_captain_699_24
+ + 0.299759 vice_captain_699_25 + 0.338615 vice_captain_699_26
+ + 0.280314 vice_captain_699_27 + 0.369195 vice_captain_6_24
+ + 0.380386 vice_captain_6_25 + 0.410928 vice_captain_6_26
+ + 0.39762 vice_captain_6_27 + 0.238976 vice_captain_700_24
+ + 0.259453 vice_captain_700_25 + 0.270907 vice_captain_700_26
+ + 0.257146 vice_captain_700_27 + 0.180988 vice_captain_701_24
+ + 0.349608 vice_captain_701_25 + 0.178624 vice_captain_701_26
+ + 0.183288 vice_captain_701_27 + 0.179863 vice_captain_703_24
+ + 0.192237 vice_captain_703_25 + 0.232727 vice_captain_703_26
+ + 0.165772 vice_captain_703_27 + 0.126688 vice_captain_704_24
+ + 0.135955 vice_captain_704_25 + 0.139151 vice_captain_704_26
+ + 0.136198 vice_captain_704_27 + 0.274225 vice_captain_705_24
+ + 0.26615 vice_captain_705_25 + 0.259535 vice_captain_705_26
+ + 0.269904 vice_captain_705_27 + 0.194039 vice_captain_706_24
+ + 0.207311 vice_captain_706_25 + 0.209344 vice_captain_706_26
+ + 0.228795 vice_captain_706_27 + 0.218722 vice_captain_707_24
+ + 0.199943 vice_captain_707_25 + 0.185691 vice_captain_707_26
+ + 0.185272 vice_captain_707_27 + 0.223092 vice_captain_708_24
+ + 0.451496 vice_captain_708_25 + 0.233222 vice_captain_708_27
+ + 0.199601 vice_captain_709_24 + 0.209648 vice_captain_709_25
+ + 0.219458 vice_captain_709_26 + 0.190009 vice_captain_709_27
+ + 0.251602 vice_captain_70_24 + 0.199782 vice_captain_70_25
+ + 0.201449 vice_captain_70_26 + 0.288406 vice_captain_70_27
+ + 0.32446 vice_captain_710_24 + 0.366739 vice_captain_710_25
+ + 0.325198 vice_captain_710_26 + 0.328058 vice_captain_710_27
+ + 0.243818 vice_captain_711_24 + 0.257099 vice_captain_711_25
+ + 0.221118 vice_captain_711_26 + 0.222278 vice_captain_711_27
+ + 0.277188 vice_captain_712_24 + 0.272448 vice_captain_712_25
+ + 0.260006 vice_captain_712_26 + 0.276414 vice_captain_712_27
+ + 0.238646 vice_captain_713_25 + 0.223225 vice_captain_713_26
+ + 0.23464 vice_captain_713_27 + 0.205918 vice_captain_715_24
+ + 0.204862 vice_captain_715_25 + 0.222818 vice_captain_715_26
+ + 0.210548 vice_captain_715_27 + 0.138542 vice_captain_716_24
+ + 0.097011 vice_captain_716_25 + 0.136994 vice_captain_716_27
+ + 0.126936 vice_captain_717_24 + 0.124563 vice_captain_717_25
+ + 0.131295 vice_captain_717_27 + 0.115472 vice_captain_719_24
+ + 0.125751 vice_captain_719_25 + 0.121796 vice_captain_719_26
+ + 0.126719 vice_captain_719_27 + 0.12031 vice_captain_71_24
+ + 0.117412 vice_captain_71_25 + 0.116096 vice_captain_71_26
+ + 0.12029 vice_captain_71_27 + 0.108897 vice_captain_721_24
+ + 0.110835 vice_captain_721_25 + 0.119182 vice_captain_721_26
+ + 0.115997 vice_captain_721_27 + 0.12179 vice_captain_722_24
+ + 0.122846 vice_captain_722_25 + 0.120823 vice_captain_722_27
+ + 0.168172 vice_captain_723_24 + 0.109772 vice_captain_723_25
+ + 0.148572 vice_captain_723_27 + 0.127456 vice_captain_724_24
+ + 0.125235 vice_captain_724_25 + 0.131036 vice_captain_724_26
+ + 0.124663 vice_captain_724_27 + 0.164599 vice_captain_725_24
+ + 0.243333 vice_captain_725_25 + 0.138057 vice_captain_725_26
+ + 0.138479 vice_captain_725_27 + 0.194653 vice_captain_726_24
+ + 0.350429 vice_captain_726_25 + 0.178992 vice_captain_726_27
+ + 0.285454 vice_captain_727_24 + 0.558884 vice_captain_727_25
+ + 0.285336 vice_captain_727_27 + 0.188963 vice_captain_728_24
+ + 0.340845 vice_captain_728_25 + 0.180334 vice_captain_728_27
+ + 0.267073 vice_captain_72_24 + 0.260555 vice_captain_72_25
+ + 0.25638 vice_captain_72_26 + 0.271206 vice_captain_72_27
+ + 0.125129 vice_captain_730_24 + 0.124434 vice_captain_730_25
+ + 0.123578 vice_captain_730_26 + 0.121688 vice_captain_730_27
+ + 0.145192 vice_captain_731_24 + 0.144586 vice_captain_731_25
+ + 0.168289 vice_captain_731_26 + 0.148162 vice_captain_731_27
+ + 0.174496 vice_captain_732_24 + 0.158359 vice_captain_732_25
+ + 0.146111 vice_captain_732_26 + 0.145751 vice_captain_732_27
+ + 0.172054 vice_captain_733_24 + 0.256544 vice_captain_733_25
+ + 0.144987 vice_captain_733_26 + 0.145417 vice_captain_733_27
+ + 0.135632 vice_captain_734_24 + 0.259993 vice_captain_734_25
+ + 0.129851 vice_captain_734_27 + 0.130897 vice_captain_735_24
+ + 0.132297 vice_captain_735_25 + 0.138365 vice_captain_735_26
+ + 0.135768 vice_captain_735_27 + 0.144987 vice_captain_736_24
+ + 0.185316 vice_captain_736_25 + 0.167208 vice_captain_736_26
+ + 0.157248 vice_captain_736_27 + 0.122239 vice_captain_738_24
+ + 0.12609 vice_captain_738_25 + 0.115597 vice_captain_738_26
+ + 0.122608 vice_captain_738_27 + 0.140232 vice_captain_739_24
+ + 0.136301 vice_captain_739_25 + 0.12605 vice_captain_739_26
+ + 0.143345 vice_captain_739_27 + 0.250781 vice_captain_73_24
+ + 0.240076 vice_captain_73_25 + 0.223534 vice_captain_73_26
+ + 0.218693 vice_captain_73_27 + 0.148117 vice_captain_740_24
+ + 0.175346 vice_captain_740_25 + 0.190937 vice_captain_740_27
+ + 0.148178 vice_captain_741_24 + 0.151911 vice_captain_741_25
+ + 0.147608 vice_captain_741_26 + 0.145602 vice_captain_741_27
+ + 0.120109 vice_captain_742_24 + 0.126863 vice_captain_742_25
+ + 0.131284 vice_captain_742_26 + 0.126591 vice_captain_742_27
+ + 0.13607 vice_captain_743_24 + 0.26517 vice_captain_743_25
+ + 0.13406 vice_captain_743_27 + 0.133834 vice_captain_745_24
+ + 0.130242 vice_captain_745_25 + 0.121681 vice_captain_745_26
+ + 0.136078 vice_captain_745_27 + 0.136053 vice_captain_746_24
+ + 0.158479 vice_captain_746_25 + 0.188232 vice_captain_746_26
+ + 0.166417 vice_captain_746_27 + 0.130767 vice_captain_747_24
+ + 0.135768 vice_captain_747_25 + 0.137964 vice_captain_747_26
+ + 0.132319 vice_captain_747_27 + 0.136665 vice_captain_749_24
+ + 0.132025 vice_captain_749_25 + 0.13822 vice_captain_749_26
+ + 0.130466 vice_captain_749_27 + 0.128237 vice_captain_750_24
+ + 0.126504 vice_captain_750_25 + 0.134583 vice_captain_750_26
+ + 0.127562 vice_captain_750_27 + 0.176529 vice_captain_751_24
+ + 0.136041 vice_captain_751_25 + 0.203292 vice_captain_751_26
+ + 0.123932 vice_captain_751_27 + 0.327006 vice_captain_752_24
+ + 0.583344 vice_captain_752_25 + 0.295599 vice_captain_752_26
+ + 0.324148 vice_captain_752_27 + 0.137221 vice_captain_753_24
+ + 0.159723 vice_captain_753_25 + 0.189575 vice_captain_753_26
+ + 0.167687 vice_captain_753_27 + 0.134675 vice_captain_754_24
+ + 0.137122 vice_captain_754_25 + 0.135662 vice_captain_754_27
+ + 0.133295 vice_captain_755_24 + 0.138366 vice_captain_755_25
+ + 0.140592 vice_captain_755_26 + 0.134869 vice_captain_755_27
+ + 0.331212 vice_captain_757_24 + 0.561439 vice_captain_757_25
+ + 0.280978 vice_captain_757_27 + 0.13238 vice_captain_758_24
+ + 0.126028 vice_captain_758_25 + 0.13652 vice_captain_758_27
+ + 0.1322 vice_captain_759_24 + 0.131493 vice_captain_759_25
+ + 0.130622 vice_captain_759_26 + 0.128698 vice_captain_759_27
+ + 0.210305 vice_captain_75_24 + 0.164375 vice_captain_75_25
+ + 0.163236 vice_captain_75_26 + 0.2348 vice_captain_75_27
+ + 0.128506 vice_captain_760_24 + 0.139588 vice_captain_760_25
+ + 0.135324 vice_captain_760_26 + 0.140633 vice_captain_760_27
+ + 0.120627 vice_captain_761_24 + 0.197791 vice_captain_761_25
+ + 0.145969 vice_captain_761_26 + 0.182591 vice_captain_761_27
+ + 0.144635 vice_captain_762_24 + 0.282131 vice_captain_762_25
+ + 0.139726 vice_captain_762_26 + 0.143142 vice_captain_762_27
+ + 0.149607 vice_captain_763_24 + 0.160041 vice_captain_763_25
+ + 0.205816 vice_captain_763_26 + 0.144877 vice_captain_763_27
+ + 0.136009 vice_captain_764_24 + 0.137449 vice_captain_764_25
+ + 0.143686 vice_captain_764_26 + 0.141017 vice_captain_764_27
+ + 0.330965 vice_captain_765_24 + 0.315544 vice_captain_765_25
+ + 0.343095 vice_captain_765_26 + 0.321456 vice_captain_765_27
+ + 0.163742 vice_captain_766_24 + 0.169278 vice_captain_766_25
+ + 0.202573 vice_captain_766_26 + 0.136045 vice_captain_766_27
+ + 0.143142 vice_captain_767_24 + 0.138791 vice_captain_767_25
+ + 0.14512 vice_captain_767_26 + 0.140732 vice_captain_767_27
+ + 0.150408 vice_captain_768_24 + 0.15613 vice_captain_768_25
+ + 0.190551 vice_captain_768_26 + 0.121774 vice_captain_768_27
+ + 0.206816 vice_captain_76_24 + 0.206478 vice_captain_76_25
+ + 0.189372 vice_captain_76_26 + 0.198847 vice_captain_76_27
+ + 0.141955 vice_captain_770_24 + 0.137185 vice_captain_770_25
+ + 0.143554 vice_captain_770_26 + 0.135582 vice_captain_770_27
+ + 0.14601 vice_captain_771_24 + 0.284831 vice_captain_771_25
+ + 0.141067 vice_captain_771_26 + 0.144506 vice_captain_771_27
+ + 0.138643 vice_captain_772_24 + 0.140103 vice_captain_772_25
+ + 0.146428 vice_captain_772_26 + 0.143721 vice_captain_772_27
+ + 0.139308 vice_captain_773_24 + 0.144642 vice_captain_773_25
+ + 0.144681 vice_captain_773_26 + 0.140464 vice_captain_773_27
+ + 0.16178 vice_captain_774_24 + 0.195169 vice_captain_774_25
+ + 0.185953 vice_captain_774_26 + 0.159899 vice_captain_774_27
+ + 0.277363 vice_captain_775_24 + 0.277549 vice_captain_775_25
+ + 0.277203 vice_captain_775_26 + 0.276069 vice_captain_775_27
+ + 0.39929 vice_captain_776_24 + 0.39709 vice_captain_776_25
+ + 0.384624 vice_captain_776_27 + 0.174465 vice_captain_777_24
+ + 0.21568 vice_captain_777_25 + 0.2437 vice_captain_777_27
+ + 0.335854 vice_captain_778_24 + 0.320207 vice_captain_778_25
+ + 0.348162 vice_captain_778_26 + 0.326206 vice_captain_778_27
+ + 0.149226 vice_captain_779_24 + 0.146086 vice_captain_779_25
+ + 0.139086 vice_captain_779_26 + 0.144268 vice_captain_779_27
+ + 0.354649 vice_captain_77_24 + 0.33471 vice_captain_77_25
+ + 0.37217 vice_captain_77_26 + 0.363127 vice_captain_77_27
+ + 0.165778 vice_captain_780_24 + 0.159095 vice_captain_780_25
+ + 0.148843 vice_captain_780_26 + 0.151638 vice_captain_780_27
+ + 0.165778 vice_captain_781_24 + 0.159095 vice_captain_781_25
+ + 0.148843 vice_captain_781_26 + 0.151638 vice_captain_781_27
+ + 0.12581 vice_captain_783_24 + 0.254605 vice_captain_783_25
+ + 0.129743 vice_captain_783_27 + 0.163094 vice_captain_784_24
+ + 0.1966 vice_captain_784_25 + 0.187353 vice_captain_784_26
+ + 0.161206 vice_captain_784_27 + 0.141193 vice_captain_786_24
+ + 0.146481 vice_captain_786_25 + 0.148802 vice_captain_786_26
+ + 0.142834 vice_captain_786_27 + 0.146065 vice_captain_787_24
+ + 0.141193 vice_captain_787_25 + 0.147698 vice_captain_787_26
+ + 0.139556 vice_captain_787_27 + 0.335479 vice_captain_789_24
+ + 0.598471 vice_captain_789_25 + 0.303264 vice_captain_789_26
+ + 0.332547 vice_captain_789_27 + 0.202052 vice_captain_78_24
+ + 0.200282 vice_captain_78_25 + 0.199643 vice_captain_78_26
+ + 0.213481 vice_captain_78_27 + 0.344878 vice_captain_790_24
+ + 0.342031 vice_captain_790_25 + 0.353745 vice_captain_790_26
+ + 0.320107 vice_captain_790_27 + 0.130047 vice_captain_791_24
+ + 0.126221 vice_captain_791_25 + 0.137764 vice_captain_791_27
+ + 0.233445 vice_captain_792_24 + 0.241363 vice_captain_792_25
+ + 0.305043 vice_captain_792_26 + 0.222548 vice_captain_792_27
+ + 0.182473 vice_captain_793_24 + 0.178322 vice_captain_793_25
+ + 0.199622 vice_captain_793_26 + 0.161318 vice_captain_793_27
+ + 0.147423 vice_captain_794_24 + 0.152892 vice_captain_794_25
+ + 0.13799 vice_captain_794_26 + 0.147947 vice_captain_794_27
+ + 0.147423 vice_captain_795_24 + 0.152892 vice_captain_795_25
+ + 0.13799 vice_captain_795_26 + 0.147947 vice_captain_795_27
+ + 0.152892 vice_captain_796_24 + 0.14291 vice_captain_796_25
+ + 0.144083 vice_captain_796_26 + 0.145359 vice_captain_796_27
+ + 0.185457 vice_captain_797_24 + 0.280296 vice_captain_797_25
+ + 0.157446 vice_captain_797_26 + 0.157891 vice_captain_797_27
+ + 0.217897 vice_captain_798_24 + 0.301415 vice_captain_798_25
+ + 0.175193 vice_captain_798_27 + 0.164569 vice_captain_799_24
+ + 0.162943 vice_captain_799_25 + 0.16358 vice_captain_799_26
+ + 0.175176 vice_captain_799_27 + 0.245134 vice_captain_800_24
+ + 0.234619 vice_captain_800_25 + 0.248658 vice_captain_800_26
+ + 0.231086 vice_captain_800_27 + 0.211256 vice_captain_801_24
+ + 0.208706 vice_captain_801_25 + 0.199316 vice_captain_801_26
+ + 0.21151 vice_captain_801_27 + 0.178322 vice_captain_802_24
+ + 0.134513 vice_captain_802_25 + 0.132463 vice_captain_802_26
+ + 0.199182 vice_captain_802_27 + 0.231368 vice_captain_803_24
+ + 0.223944 vice_captain_803_25 + 0.239503 vice_captain_803_26
+ + 0.231999 vice_captain_803_27 + 0.224748 vice_captain_804_24
+ + 0.224065 vice_captain_804_25 + 0.207673 vice_captain_804_26
+ + 0.215831 vice_captain_804_27 + 0.153301 vice_captain_805_24
+ + 0.211218 vice_captain_805_25 + 0.239751 vice_captain_805_26
+ + 0.243446 vice_captain_805_27 + 0.102889 vice_captain_806_24
+ + 0.150803 vice_captain_806_25 + 0.175826 vice_captain_806_26
+ + 0.1815 vice_captain_806_27 + 0.239326 vice_captain_807_24
+ + 0.236993 vice_captain_807_25 + 0.251629 vice_captain_807_26
+ + 0.240515 vice_captain_807_27 + 0.340394 vice_captain_808_24
+ + 0.38485 vice_captain_808_25 + 0.34117 vice_captain_808_26
+ + 0.344177 vice_captain_808_27 + 0.147046 vice_captain_809_24
+ + 0.143333 vice_captain_809_25 + 0.136554 vice_captain_809_26
+ + 0.140986 vice_captain_809_27 + 0.300625 vice_captain_80_24
+ + 0.284973 vice_captain_80_25 + 0.314379 vice_captain_80_26
+ + 0.307281 vice_captain_80_27 + 0.154342 vice_captain_810_24
+ + 0.144289 vice_captain_810_25 + 0.145471 vice_captain_810_26
+ + 0.146756 vice_captain_810_27 + 0.236942 vice_captain_82_24
+ + 0.240493 vice_captain_82_25 + 0.224897 vice_captain_82_26
+ + 0.236135 vice_captain_82_27 + 0.275599 vice_captain_83_24
+ + 0.215016 vice_captain_83_25 + 0.214297 vice_captain_83_26
+ + 0.314816 vice_captain_83_27 + 0.26281 vice_captain_84_24
+ + 0.209306 vice_captain_84_25 + 0.208908 vice_captain_84_26
+ + 0.298232 vice_captain_84_27 + 0.476339 vice_captain_85_24
+ + 0.480098 vice_captain_85_25 + 0.446814 vice_captain_85_26
+ + 0.468871 vice_captain_85_27 + 0.373069 vice_captain_86_24
+ + 0.360978 vice_captain_86_25 + 0.360283 vice_captain_86_26
+ + 0.391649 vice_captain_86_27 + 0.272694 vice_captain_88_24
+ + 0.258463 vice_captain_88_25 + 0.285198 vice_captain_88_26
+ + 0.278744 vice_captain_88_27 + 0.293561 vice_captain_89_24
+ + 0.238916 vice_captain_89_25 + 0.240104 vice_captain_89_26
+ + 0.336072 vice_captain_89_27 + 0.432846 vice_captain_8_24
+ + 0.40305 vice_captain_8_25 + 0.453883 vice_captain_8_26
+ + 0.443031 vice_captain_8_27 + 0.230912 vice_captain_90_24
+ + 0.365203 vice_captain_90_25 + 0.21811 vice_captain_90_26
+ + 0.221358 vice_captain_90_27 + 0.313798 vice_captain_91_24
+ + 0.559764 vice_captain_91_25 + 0.283652 vice_captain_91_26
+ + 0.311055 vice_captain_91_27 + 0.133173 vice_captain_92_24
+ + 0.276454 vice_captain_92_25 + 0.148735 vice_captain_92_26
+ + 0.155222 vice_captain_92_27 + 0.188723 vice_captain_93_24
+ + 0.302685 vice_captain_93_25 + 0.159167 vice_captain_93_26
+ + 0.142017 vice_captain_93_27 + 0.274846 vice_captain_96_24
+ + 0.44969 vice_captain_96_25 + 0.2577 vice_captain_96_26
+ + 0.260279 vice_captain_96_27 + 0.162041 vice_captain_98_24
+ + 0.334992 vice_captain_98_25 + 0.179712 vice_captain_98_26
+ + 0.186574 vice_captain_98_27 + 0.122565 vice_captain_99_24
+ + 0.249022 vice_captain_99_25 + 0.12998 vice_captain_99_26
+ + 0.132863 vice_captain_99_27 + 0.216244 vice_captain_9_24
+ + 0.224911 vice_captain_9_25 + 0.243969 vice_captain_9_26
+ + 0.242191 vice_captain_9_27
 Subject To
 Captain_and_vice_captain_can_not_be_the_same_player_constraint_for_player_100_in_gameweek_24:
  captain_100_24 + vice_captain_100_24 <= 1
@@ -27836,7 +27832,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 3.9 transfer_in_284_24 + 4.4 transfer_in_285_24 + 4.3 transfer_in_286_24
  + 4.5 transfer_in_287_24 + 5.3 transfer_in_288_24 + 3.9 transfer_in_289_24
  + 3.9 transfer_in_28_24 + 8.5 transfer_in_290_24 + 5.7 transfer_in_291_24
- + 4.7 transfer_in_292_24 + 7.4 transfer_in_293_24 + 8 transfer_in_294_24
+ + 4.7 transfer_in_292_24 + 7.4 transfer_in_293_24 + 8.1 transfer_in_294_24
  + 4.8 transfer_in_295_24 + 5 transfer_in_296_24 + 7.2 transfer_in_297_24
  + 4.5 transfer_in_298_24 + 5 transfer_in_299_24 + 5.6 transfer_in_29_24
  + 3.9 transfer_in_2_24 + 4.9 transfer_in_300_24 + 3.7 transfer_in_301_24
@@ -27864,7 +27860,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 5.7 transfer_in_35_24 + 4.4 transfer_in_360_24 + 3.8 transfer_in_361_24
  + 5.9 transfer_in_362_24 + 4.4 transfer_in_363_24 + 4.7 transfer_in_364_24
  + 5.6 transfer_in_365_24 + 3.8 transfer_in_366_24 + 3.9 transfer_in_367_24
- + 5.3 transfer_in_368_24 + 5.5 transfer_in_369_24 + 4.7 transfer_in_36_24
+ + 5.3 transfer_in_368_24 + 5.5 transfer_in_369_24 + 4.6 transfer_in_36_24
  + 4.5 transfer_in_370_24 + 4.4 transfer_in_371_24 + 6.8 transfer_in_372_24
  + 8.2 transfer_in_373_24 + 4 transfer_in_374_24 + 4 transfer_in_375_24
  + 5.3 transfer_in_376_24 + 5.1 transfer_in_377_24 + 5.1 transfer_in_378_24
@@ -27922,7 +27918,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  + 9.6 transfer_in_516_24 + 4 transfer_in_517_24 + 4 transfer_in_518_24
  + 4.8 transfer_in_519_24 + 4.1 transfer_in_51_24 + 5.3 transfer_in_520_24
  + 3.9 transfer_in_521_24 + 4.4 transfer_in_522_24 + 5.7 transfer_in_523_24
- + 4.2 transfer_in_524_24 + 5.6 transfer_in_525_24 + 8 transfer_in_526_24
+ + 4.2 transfer_in_524_24 + 5.6 transfer_in_525_24 + 7.9 transfer_in_526_24
  + 5.2 transfer_in_527_24 + 4.6 transfer_in_528_24 + 4.3 transfer_in_529_24
  + 4.4 transfer_in_52_24 + 4.2 transfer_in_530_24 + 5 transfer_in_531_24
  + 4.5 transfer_in_532_24 + 4.2 transfer_in_533_24 + 4.6 transfer_in_534_24
@@ -28106,7 +28102,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  - 4.4 transfer_out_285_24 - 4.3 transfer_out_286_24 - 4.5 transfer_out_287_24
  - 5.3 transfer_out_288_24 - 3.9 transfer_out_289_24 - 3.9 transfer_out_28_24
  - 8.5 transfer_out_290_24 - 5.7 transfer_out_291_24 - 4.7 transfer_out_292_24
- - 7.4 transfer_out_293_24 - 8 transfer_out_294_24 - 4.8 transfer_out_295_24
+ - 7.4 transfer_out_293_24 - 8.1 transfer_out_294_24 - 4.8 transfer_out_295_24
  - 5 transfer_out_296_24 - 7.2 transfer_out_297_24 - 4.5 transfer_out_298_24
  - 5 transfer_out_299_24 - 5.6 transfer_out_29_24 - 3.9 transfer_out_2_24
  - 4.9 transfer_out_300_24 - 3.7 transfer_out_301_24 - 4.9 transfer_out_302_24
@@ -28135,7 +28131,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  - 3.8 transfer_out_361_24 - 5.9 transfer_out_362_24 - 4.4 transfer_out_363_24
  - 4.7 transfer_out_364_24 - 5.6 transfer_out_365_24 - 3.8 transfer_out_366_24
  - 3.9 transfer_out_367_24 - 5.3 transfer_out_368_24 - 5.5 transfer_out_369_24
- - 4.7 transfer_out_36_24 - 4.5 transfer_out_370_24 - 4.4 transfer_out_371_24
+ - 4.6 transfer_out_36_24 - 4.5 transfer_out_370_24 - 4.4 transfer_out_371_24
  - 6.8 transfer_out_372_24 - 8.2 transfer_out_373_24 - 4 transfer_out_374_24
  - 4 transfer_out_375_24 - 5.3 transfer_out_376_24 - 5.1 transfer_out_377_24
  - 5.1 transfer_out_378_24 - 5.8 transfer_out_379_24 - 3.8 transfer_out_37_24
@@ -28193,7 +28189,7 @@ Money_in_bank_constraint_for_gameweek_24: - money_in_bank_23
  - 4 transfer_out_518_24 - 4.8 transfer_out_519_24 - 4.1 transfer_out_51_24
  - 5.3 transfer_out_520_24 - 3.9 transfer_out_521_24 - 4.4 transfer_out_522_24
  - 5.7 transfer_out_523_24 - 4.2 transfer_out_524_24 - 5.6 transfer_out_525_24
- - 8 transfer_out_526_24 - 5.2 transfer_out_527_24 - 4.6 transfer_out_528_24
+ - 7.9 transfer_out_526_24 - 5.2 transfer_out_527_24 - 4.6 transfer_out_528_24
  - 4.3 transfer_out_529_24 - 4.4 transfer_out_52_24 - 4.2 transfer_out_530_24
  - 5 transfer_out_531_24 - 4.5 transfer_out_532_24 - 4.2 transfer_out_533_24
  - 4.6 transfer_out_534_24 - 5.6 transfer_out_535_24 - 4.4 transfer_out_536_24
@@ -28378,7 +28374,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 3.9 transfer_in_284_25 + 4.4 transfer_in_285_25 + 4.3 transfer_in_286_25
  + 4.5 transfer_in_287_25 + 5.3 transfer_in_288_25 + 3.9 transfer_in_289_25
  + 3.9 transfer_in_28_25 + 8.5 transfer_in_290_25 + 5.7 transfer_in_291_25
- + 4.7 transfer_in_292_25 + 7.4 transfer_in_293_25 + 8 transfer_in_294_25
+ + 4.7 transfer_in_292_25 + 7.4 transfer_in_293_25 + 8.1 transfer_in_294_25
  + 4.8 transfer_in_295_25 + 5 transfer_in_296_25 + 7.2 transfer_in_297_25
  + 4.5 transfer_in_298_25 + 5 transfer_in_299_25 + 5.6 transfer_in_29_25
  + 3.9 transfer_in_2_25 + 4.9 transfer_in_300_25 + 3.7 transfer_in_301_25
@@ -28406,7 +28402,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 5.7 transfer_in_35_25 + 4.4 transfer_in_360_25 + 3.8 transfer_in_361_25
  + 5.9 transfer_in_362_25 + 4.4 transfer_in_363_25 + 4.7 transfer_in_364_25
  + 5.6 transfer_in_365_25 + 3.8 transfer_in_366_25 + 3.9 transfer_in_367_25
- + 5.3 transfer_in_368_25 + 5.5 transfer_in_369_25 + 4.7 transfer_in_36_25
+ + 5.3 transfer_in_368_25 + 5.5 transfer_in_369_25 + 4.6 transfer_in_36_25
  + 4.5 transfer_in_370_25 + 4.4 transfer_in_371_25 + 6.8 transfer_in_372_25
  + 8.2 transfer_in_373_25 + 4 transfer_in_374_25 + 4 transfer_in_375_25
  + 5.3 transfer_in_376_25 + 5.1 transfer_in_377_25 + 5.1 transfer_in_378_25
@@ -28464,7 +28460,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  + 9.6 transfer_in_516_25 + 4 transfer_in_517_25 + 4 transfer_in_518_25
  + 4.8 transfer_in_519_25 + 4.1 transfer_in_51_25 + 5.3 transfer_in_520_25
  + 3.9 transfer_in_521_25 + 4.4 transfer_in_522_25 + 5.7 transfer_in_523_25
- + 4.2 transfer_in_524_25 + 5.6 transfer_in_525_25 + 8 transfer_in_526_25
+ + 4.2 transfer_in_524_25 + 5.6 transfer_in_525_25 + 7.9 transfer_in_526_25
  + 5.2 transfer_in_527_25 + 4.6 transfer_in_528_25 + 4.3 transfer_in_529_25
  + 4.4 transfer_in_52_25 + 4.2 transfer_in_530_25 + 5 transfer_in_531_25
  + 4.5 transfer_in_532_25 + 4.2 transfer_in_533_25 + 4.6 transfer_in_534_25
@@ -28648,7 +28644,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  - 4.4 transfer_out_285_25 - 4.3 transfer_out_286_25 - 4.5 transfer_out_287_25
  - 5.3 transfer_out_288_25 - 3.9 transfer_out_289_25 - 3.9 transfer_out_28_25
  - 8.5 transfer_out_290_25 - 5.7 transfer_out_291_25 - 4.7 transfer_out_292_25
- - 7.4 transfer_out_293_25 - 8 transfer_out_294_25 - 4.8 transfer_out_295_25
+ - 7.4 transfer_out_293_25 - 8.1 transfer_out_294_25 - 4.8 transfer_out_295_25
  - 5 transfer_out_296_25 - 7.2 transfer_out_297_25 - 4.5 transfer_out_298_25
  - 5 transfer_out_299_25 - 5.6 transfer_out_29_25 - 3.9 transfer_out_2_25
  - 4.9 transfer_out_300_25 - 3.7 transfer_out_301_25 - 4.9 transfer_out_302_25
@@ -28677,7 +28673,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  - 3.8 transfer_out_361_25 - 5.9 transfer_out_362_25 - 4.4 transfer_out_363_25
  - 4.7 transfer_out_364_25 - 5.6 transfer_out_365_25 - 3.8 transfer_out_366_25
  - 3.9 transfer_out_367_25 - 5.3 transfer_out_368_25 - 5.5 transfer_out_369_25
- - 4.7 transfer_out_36_25 - 4.5 transfer_out_370_25 - 4.4 transfer_out_371_25
+ - 4.6 transfer_out_36_25 - 4.5 transfer_out_370_25 - 4.4 transfer_out_371_25
  - 6.8 transfer_out_372_25 - 8.2 transfer_out_373_25 - 4 transfer_out_374_25
  - 4 transfer_out_375_25 - 5.3 transfer_out_376_25 - 5.1 transfer_out_377_25
  - 5.1 transfer_out_378_25 - 5.8 transfer_out_379_25 - 3.8 transfer_out_37_25
@@ -28735,7 +28731,7 @@ Money_in_bank_constraint_for_gameweek_25: - money_in_bank_24
  - 4 transfer_out_518_25 - 4.8 transfer_out_519_25 - 4.1 transfer_out_51_25
  - 5.3 transfer_out_520_25 - 3.9 transfer_out_521_25 - 4.4 transfer_out_522_25
  - 5.7 transfer_out_523_25 - 4.2 transfer_out_524_25 - 5.6 transfer_out_525_25
- - 8 transfer_out_526_25 - 5.2 transfer_out_527_25 - 4.6 transfer_out_528_25
+ - 7.9 transfer_out_526_25 - 5.2 transfer_out_527_25 - 4.6 transfer_out_528_25
  - 4.3 transfer_out_529_25 - 4.4 transfer_out_52_25 - 4.2 transfer_out_530_25
  - 5 transfer_out_531_25 - 4.5 transfer_out_532_25 - 4.2 transfer_out_533_25
  - 4.6 transfer_out_534_25 - 5.6 transfer_out_535_25 - 4.4 transfer_out_536_25
@@ -28920,7 +28916,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 3.9 transfer_in_284_26 + 4.4 transfer_in_285_26 + 4.3 transfer_in_286_26
  + 4.5 transfer_in_287_26 + 5.3 transfer_in_288_26 + 3.9 transfer_in_289_26
  + 3.9 transfer_in_28_26 + 8.5 transfer_in_290_26 + 5.7 transfer_in_291_26
- + 4.7 transfer_in_292_26 + 7.4 transfer_in_293_26 + 8 transfer_in_294_26
+ + 4.7 transfer_in_292_26 + 7.4 transfer_in_293_26 + 8.1 transfer_in_294_26
  + 4.8 transfer_in_295_26 + 5 transfer_in_296_26 + 7.2 transfer_in_297_26
  + 4.5 transfer_in_298_26 + 5 transfer_in_299_26 + 5.6 transfer_in_29_26
  + 3.9 transfer_in_2_26 + 4.9 transfer_in_300_26 + 3.7 transfer_in_301_26
@@ -28948,7 +28944,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 5.7 transfer_in_35_26 + 4.4 transfer_in_360_26 + 3.8 transfer_in_361_26
  + 5.9 transfer_in_362_26 + 4.4 transfer_in_363_26 + 4.7 transfer_in_364_26
  + 5.6 transfer_in_365_26 + 3.8 transfer_in_366_26 + 3.9 transfer_in_367_26
- + 5.3 transfer_in_368_26 + 5.5 transfer_in_369_26 + 4.7 transfer_in_36_26
+ + 5.3 transfer_in_368_26 + 5.5 transfer_in_369_26 + 4.6 transfer_in_36_26
  + 4.5 transfer_in_370_26 + 4.4 transfer_in_371_26 + 6.8 transfer_in_372_26
  + 8.2 transfer_in_373_26 + 4 transfer_in_374_26 + 4 transfer_in_375_26
  + 5.3 transfer_in_376_26 + 5.1 transfer_in_377_26 + 5.1 transfer_in_378_26
@@ -29006,7 +29002,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  + 9.6 transfer_in_516_26 + 4 transfer_in_517_26 + 4 transfer_in_518_26
  + 4.8 transfer_in_519_26 + 4.1 transfer_in_51_26 + 5.3 transfer_in_520_26
  + 3.9 transfer_in_521_26 + 4.4 transfer_in_522_26 + 5.7 transfer_in_523_26
- + 4.2 transfer_in_524_26 + 5.6 transfer_in_525_26 + 8 transfer_in_526_26
+ + 4.2 transfer_in_524_26 + 5.6 transfer_in_525_26 + 7.9 transfer_in_526_26
  + 5.2 transfer_in_527_26 + 4.6 transfer_in_528_26 + 4.3 transfer_in_529_26
  + 4.4 transfer_in_52_26 + 4.2 transfer_in_530_26 + 5 transfer_in_531_26
  + 4.5 transfer_in_532_26 + 4.2 transfer_in_533_26 + 4.6 transfer_in_534_26
@@ -29190,7 +29186,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  - 4.4 transfer_out_285_26 - 4.3 transfer_out_286_26 - 4.5 transfer_out_287_26
  - 5.3 transfer_out_288_26 - 3.9 transfer_out_289_26 - 3.9 transfer_out_28_26
  - 8.5 transfer_out_290_26 - 5.7 transfer_out_291_26 - 4.7 transfer_out_292_26
- - 7.4 transfer_out_293_26 - 8 transfer_out_294_26 - 4.8 transfer_out_295_26
+ - 7.4 transfer_out_293_26 - 8.1 transfer_out_294_26 - 4.8 transfer_out_295_26
  - 5 transfer_out_296_26 - 7.2 transfer_out_297_26 - 4.5 transfer_out_298_26
  - 5 transfer_out_299_26 - 5.6 transfer_out_29_26 - 3.9 transfer_out_2_26
  - 4.9 transfer_out_300_26 - 3.7 transfer_out_301_26 - 4.9 transfer_out_302_26
@@ -29219,7 +29215,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  - 3.8 transfer_out_361_26 - 5.9 transfer_out_362_26 - 4.4 transfer_out_363_26
  - 4.7 transfer_out_364_26 - 5.6 transfer_out_365_26 - 3.8 transfer_out_366_26
  - 3.9 transfer_out_367_26 - 5.3 transfer_out_368_26 - 5.5 transfer_out_369_26
- - 4.7 transfer_out_36_26 - 4.5 transfer_out_370_26 - 4.4 transfer_out_371_26
+ - 4.6 transfer_out_36_26 - 4.5 transfer_out_370_26 - 4.4 transfer_out_371_26
  - 6.8 transfer_out_372_26 - 8.2 transfer_out_373_26 - 4 transfer_out_374_26
  - 4 transfer_out_375_26 - 5.3 transfer_out_376_26 - 5.1 transfer_out_377_26
  - 5.1 transfer_out_378_26 - 5.8 transfer_out_379_26 - 3.8 transfer_out_37_26
@@ -29277,7 +29273,7 @@ Money_in_bank_constraint_for_gameweek_26: - money_in_bank_25
  - 4 transfer_out_518_26 - 4.8 transfer_out_519_26 - 4.1 transfer_out_51_26
  - 5.3 transfer_out_520_26 - 3.9 transfer_out_521_26 - 4.4 transfer_out_522_26
  - 5.7 transfer_out_523_26 - 4.2 transfer_out_524_26 - 5.6 transfer_out_525_26
- - 8 transfer_out_526_26 - 5.2 transfer_out_527_26 - 4.6 transfer_out_528_26
+ - 7.9 transfer_out_526_26 - 5.2 transfer_out_527_26 - 4.6 transfer_out_528_26
  - 4.3 transfer_out_529_26 - 4.4 transfer_out_52_26 - 4.2 transfer_out_530_26
  - 5 transfer_out_531_26 - 4.5 transfer_out_532_26 - 4.2 transfer_out_533_26
  - 4.6 transfer_out_534_26 - 5.6 transfer_out_535_26 - 4.4 transfer_out_536_26
@@ -29462,7 +29458,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  + 3.9 transfer_in_284_27 + 4.4 transfer_in_285_27 + 4.3 transfer_in_286_27
  + 4.5 transfer_in_287_27 + 5.3 transfer_in_288_27 + 3.9 transfer_in_289_27
  + 3.9 transfer_in_28_27 + 8.5 transfer_in_290_27 + 5.7 transfer_in_291_27
- + 4.7 transfer_in_292_27 + 7.4 transfer_in_293_27 + 8 transfer_in_294_27
+ + 4.7 transfer_in_292_27 + 7.4 transfer_in_293_27 + 8.1 transfer_in_294_27
  + 4.8 transfer_in_295_27 + 5 transfer_in_296_27 + 7.2 transfer_in_297_27
  + 4.5 transfer_in_298_27 + 5 transfer_in_299_27 + 5.6 transfer_in_29_27
  + 3.9 transfer_in_2_27 + 4.9 transfer_in_300_27 + 3.7 transfer_in_301_27
@@ -29490,7 +29486,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  + 5.7 transfer_in_35_27 + 4.4 transfer_in_360_27 + 3.8 transfer_in_361_27
  + 5.9 transfer_in_362_27 + 4.4 transfer_in_363_27 + 4.7 transfer_in_364_27
  + 5.6 transfer_in_365_27 + 3.8 transfer_in_366_27 + 3.9 transfer_in_367_27
- + 5.3 transfer_in_368_27 + 5.5 transfer_in_369_27 + 4.7 transfer_in_36_27
+ + 5.3 transfer_in_368_27 + 5.5 transfer_in_369_27 + 4.6 transfer_in_36_27
  + 4.5 transfer_in_370_27 + 4.4 transfer_in_371_27 + 6.8 transfer_in_372_27
  + 8.2 transfer_in_373_27 + 4 transfer_in_374_27 + 4 transfer_in_375_27
  + 5.3 transfer_in_376_27 + 5.1 transfer_in_377_27 + 5.1 transfer_in_378_27
@@ -29548,7 +29544,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  + 9.6 transfer_in_516_27 + 4 transfer_in_517_27 + 4 transfer_in_518_27
  + 4.8 transfer_in_519_27 + 4.1 transfer_in_51_27 + 5.3 transfer_in_520_27
  + 3.9 transfer_in_521_27 + 4.4 transfer_in_522_27 + 5.7 transfer_in_523_27
- + 4.2 transfer_in_524_27 + 5.6 transfer_in_525_27 + 8 transfer_in_526_27
+ + 4.2 transfer_in_524_27 + 5.6 transfer_in_525_27 + 7.9 transfer_in_526_27
  + 5.2 transfer_in_527_27 + 4.6 transfer_in_528_27 + 4.3 transfer_in_529_27
  + 4.4 transfer_in_52_27 + 4.2 transfer_in_530_27 + 5 transfer_in_531_27
  + 4.5 transfer_in_532_27 + 4.2 transfer_in_533_27 + 4.6 transfer_in_534_27
@@ -29732,7 +29728,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  - 4.4 transfer_out_285_27 - 4.3 transfer_out_286_27 - 4.5 transfer_out_287_27
  - 5.3 transfer_out_288_27 - 3.9 transfer_out_289_27 - 3.9 transfer_out_28_27
  - 8.5 transfer_out_290_27 - 5.7 transfer_out_291_27 - 4.7 transfer_out_292_27
- - 7.4 transfer_out_293_27 - 8 transfer_out_294_27 - 4.8 transfer_out_295_27
+ - 7.4 transfer_out_293_27 - 8.1 transfer_out_294_27 - 4.8 transfer_out_295_27
  - 5 transfer_out_296_27 - 7.2 transfer_out_297_27 - 4.5 transfer_out_298_27
  - 5 transfer_out_299_27 - 5.6 transfer_out_29_27 - 3.9 transfer_out_2_27
  - 4.9 transfer_out_300_27 - 3.7 transfer_out_301_27 - 4.9 transfer_out_302_27
@@ -29761,7 +29757,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  - 3.8 transfer_out_361_27 - 5.9 transfer_out_362_27 - 4.4 transfer_out_363_27
  - 4.7 transfer_out_364_27 - 5.6 transfer_out_365_27 - 3.8 transfer_out_366_27
  - 3.9 transfer_out_367_27 - 5.3 transfer_out_368_27 - 5.5 transfer_out_369_27
- - 4.7 transfer_out_36_27 - 4.5 transfer_out_370_27 - 4.4 transfer_out_371_27
+ - 4.6 transfer_out_36_27 - 4.5 transfer_out_370_27 - 4.4 transfer_out_371_27
  - 6.8 transfer_out_372_27 - 8.2 transfer_out_373_27 - 4 transfer_out_374_27
  - 4 transfer_out_375_27 - 5.3 transfer_out_376_27 - 5.1 transfer_out_377_27
  - 5.1 transfer_out_378_27 - 5.8 transfer_out_379_27 - 3.8 transfer_out_37_27
@@ -29819,7 +29815,7 @@ Money_in_bank_constraint_for_gameweek_27: - money_in_bank_26
  - 4 transfer_out_518_27 - 4.8 transfer_out_519_27 - 4.1 transfer_out_51_27
  - 5.3 transfer_out_520_27 - 3.9 transfer_out_521_27 - 4.4 transfer_out_522_27
  - 5.7 transfer_out_523_27 - 4.2 transfer_out_524_27 - 5.6 transfer_out_525_27
- - 8 transfer_out_526_27 - 5.2 transfer_out_527_27 - 4.6 transfer_out_528_27
+ - 7.9 transfer_out_526_27 - 5.2 transfer_out_527_27 - 4.6 transfer_out_528_27
  - 4.3 transfer_out_529_27 - 4.4 transfer_out_52_27 - 4.2 transfer_out_530_27
  - 5 transfer_out_531_27 - 4.5 transfer_out_532_27 - 4.2 transfer_out_533_27
  - 4.6 transfer_out_534_27 - 5.6 transfer_out_535_27 - 4.4 transfer_out_536_27
@@ -38383,9 +38379,9 @@ Probability_of_appearance_for_lineup_player_111_for_gameweek_24: lineup_111_24
 Probability_of_appearance_for_lineup_player_111_for_gameweek_25: lineup_111_25
  <= 0
 Probability_of_appearance_for_lineup_player_111_for_gameweek_26: lineup_111_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_111_for_gameweek_27: lineup_111_27
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_112_for_gameweek_24: lineup_112_24
  <= 1
 Probability_of_appearance_for_lineup_player_112_for_gameweek_25: lineup_112_25
@@ -39487,9 +39483,9 @@ Probability_of_appearance_for_lineup_player_236_for_gameweek_24: lineup_236_24
 Probability_of_appearance_for_lineup_player_236_for_gameweek_25: lineup_236_25
  <= 0
 Probability_of_appearance_for_lineup_player_236_for_gameweek_26: lineup_236_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_236_for_gameweek_27: lineup_236_27
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_237_for_gameweek_24: lineup_237_24
  <= 0
 Probability_of_appearance_for_lineup_player_237_for_gameweek_25: lineup_237_25
@@ -41731,11 +41727,11 @@ Probability_of_appearance_for_lineup_player_489_for_gameweek_26: lineup_489_26
 Probability_of_appearance_for_lineup_player_489_for_gameweek_27: lineup_489_27
  <= 0
 Probability_of_appearance_for_lineup_player_48_for_gameweek_24: lineup_48_24
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_48_for_gameweek_25: lineup_48_25
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_48_for_gameweek_26: lineup_48_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_48_for_gameweek_27: lineup_48_27
  <= 1
 Probability_of_appearance_for_lineup_player_490_for_gameweek_24: lineup_490_24
@@ -43615,9 +43611,9 @@ Probability_of_appearance_for_lineup_player_701_for_gameweek_24: lineup_701_24
 Probability_of_appearance_for_lineup_player_701_for_gameweek_25: lineup_701_25
  <= 0
 Probability_of_appearance_for_lineup_player_701_for_gameweek_26: lineup_701_26
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_701_for_gameweek_27: lineup_701_27
- <= 1
+ <= 0
 Probability_of_appearance_for_lineup_player_702_for_gameweek_24: lineup_702_24
  <= 0
 Probability_of_appearance_for_lineup_player_702_for_gameweek_25: lineup_702_25
@@ -45953,9 +45949,9 @@ Probability_of_appearance_for_squad_player_235_for_gameweek_27: squad_235_27
 Probability_of_appearance_for_squad_player_236_for_gameweek_24: squad_236_24
  <= 0
 Probability_of_appearance_for_squad_player_236_for_gameweek_25: squad_236_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_236_for_gameweek_26: squad_236_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_236_for_gameweek_27: squad_236_27
  <= 1
 Probability_of_appearance_for_squad_player_237_for_gameweek_24: squad_237_24
@@ -46995,13 +46991,13 @@ Probability_of_appearance_for_squad_player_353_for_gameweek_26: squad_353_26
 Probability_of_appearance_for_squad_player_353_for_gameweek_27: squad_353_27
  <= 1
 Probability_of_appearance_for_squad_player_354_for_gameweek_24: squad_354_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_354_for_gameweek_25: squad_354_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_354_for_gameweek_26: squad_354_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_354_for_gameweek_27: squad_354_27
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_355_for_gameweek_24: squad_355_24
  <= 1
 Probability_of_appearance_for_squad_player_355_for_gameweek_25: squad_355_25
@@ -47115,13 +47111,13 @@ Probability_of_appearance_for_squad_player_367_for_gameweek_26: squad_367_26
 Probability_of_appearance_for_squad_player_367_for_gameweek_27: squad_367_27
  <= 0
 Probability_of_appearance_for_squad_player_368_for_gameweek_24: squad_368_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_368_for_gameweek_25: squad_368_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_368_for_gameweek_26: squad_368_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_368_for_gameweek_27: squad_368_27
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_369_for_gameweek_24: squad_369_24
  <= 1
 Probability_of_appearance_for_squad_player_369_for_gameweek_25: squad_369_25
@@ -47329,7 +47325,7 @@ Probability_of_appearance_for_squad_player_391_for_gameweek_25: squad_391_25
 Probability_of_appearance_for_squad_player_391_for_gameweek_26: squad_391_26
  <= 0
 Probability_of_appearance_for_squad_player_391_for_gameweek_27: squad_391_27
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_392_for_gameweek_24: squad_392_24
  <= 1
 Probability_of_appearance_for_squad_player_392_for_gameweek_25: squad_392_25
@@ -48191,9 +48187,9 @@ Probability_of_appearance_for_squad_player_489_for_gameweek_26: squad_489_26
 Probability_of_appearance_for_squad_player_489_for_gameweek_27: squad_489_27
  <= 0
 Probability_of_appearance_for_squad_player_48_for_gameweek_24: squad_48_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_48_for_gameweek_25: squad_48_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_48_for_gameweek_26: squad_48_26
  <= 1
 Probability_of_appearance_for_squad_player_48_for_gameweek_27: squad_48_27
@@ -48355,13 +48351,13 @@ Probability_of_appearance_for_squad_player_507_for_gameweek_26: squad_507_26
 Probability_of_appearance_for_squad_player_507_for_gameweek_27: squad_507_27
  <= 0
 Probability_of_appearance_for_squad_player_508_for_gameweek_24: squad_508_24
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_508_for_gameweek_25: squad_508_25
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_508_for_gameweek_26: squad_508_26
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_508_for_gameweek_27: squad_508_27
- <= 0
+ <= 1
 Probability_of_appearance_for_squad_player_509_for_gameweek_24: squad_509_24
  <= 1
 Probability_of_appearance_for_squad_player_509_for_gameweek_25: squad_509_25
@@ -51179,13 +51175,13 @@ Probability_of_appearance_for_squad_player_98_for_gameweek_26: squad_98_26
 Probability_of_appearance_for_squad_player_98_for_gameweek_27: squad_98_27
  <= 1
 Probability_of_appearance_for_squad_player_99_for_gameweek_24: squad_99_24
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_99_for_gameweek_25: squad_99_25
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_99_for_gameweek_26: squad_99_26
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_99_for_gameweek_27: squad_99_27
- <= 1
+ <= 0
 Probability_of_appearance_for_squad_player_9_for_gameweek_24: squad_9_24 <= 0
 Probability_of_appearance_for_squad_player_9_for_gameweek_25: squad_9_25 <= 0
 Probability_of_appearance_for_squad_player_9_for_gameweek_26: squad_9_26 <= 0

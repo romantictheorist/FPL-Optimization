@@ -1,7 +1,7 @@
 --------------------------------------------------
 Gameweek 24 summary:
 --------------------------------------------------
-Total expected points: 59.44
+Total expected points: 59.11
 Money in bank: 1.5
 Free transfers available: 1
 Transfers made: 2

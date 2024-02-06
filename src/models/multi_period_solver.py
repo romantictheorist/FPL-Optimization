@@ -30,6 +30,8 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
         objective="regular",
         decay_base=0.85,
     ):
+
+        # Step 1: Set the instance variables
         self.team_id = team_id
         self.gameweek = gameweek
         self.num_free_transfers = num_free_transfers
@@ -37,19 +39,21 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
         self.objective = objective
         self.decay_base = decay_base
 
+        # Step 2: Get lists of future gameweeks
         self.future_gameweeks = list(range(self.gameweek, self.gameweek + self.horizon))
         self.all_gameweeks = [self.gameweek - 1] + list(
             range(self.gameweek, self.gameweek + self.horizon)
         )
 
-        # Fecth the data only if it hasn't been fetched yet
+        # Step 3: Check if the gameweek is valid
+        if self._check_gameweek(gameweek=self.gameweek):
+            self.current_gw = self.gameweek - 1
+
+        # Step 4: Get the data needed for the optimization problem
         if OptimizeMultiPeriod._cached_data is None:
             print("Fetching data...")
-
-            # Fetch the raw data
             data = self._get_data(team_id=self.team_id)
-            # Get the current gameweek
-            current_gw = data["current_gw"]
+
             # List of keys to save
             data_to_save = [
                 "gameweek_df",
@@ -57,26 +61,28 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
                 "teams_df",
                 "predicted_points_df",
             ]
+
             # Save raw data
             self._save_data(
                 data={key: data[key] for key in data_to_save if key in data},
-                destination=f"../../data/raw/gw_{current_gw}/",
+                destination=f"../../data/raw/gw_{self.current_gw}/",
             )
+
             # Process the raw data
             processed_data = self._process_data(data=data)
+
             # Save the processed data
             self._save_data(
                 data={"merged_df": processed_data["merged_df"]},
-                destination=f"../../data/processed/gw_{current_gw}/",
+                destination=f"../../data/processed/gw_{self.current_gw}/",
             )
             # Set the class variable to the processed data
             OptimizeMultiPeriod._cached_data = processed_data
 
-        # Unpack the needed (processed) data from the class variable into instance variables
+        # Step 5: Unpack the needed (processed) data from the class variable into instance variables
         self.merged_df = self._cached_data["merged_df"]
         self.positions_df = self._cached_data["positions_df"]
         self.teams_df = self._cached_data["teams_df"]
-        self.current_gw = self._cached_data["current_gw"]
         self.initial_squad = self._cached_data["initial_squad"]
         self.bank_balance = self._cached_data["bank_balance"]
         self.players = self._cached_data["players"]
@@ -103,28 +109,25 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
         --------
         None
         """
-        # Step 1: Check if the gameweek is valid
-        self._check_gameweek
-
-        # Step 2: Set the optimization problem
+        # Step 1: Set the optimization problem
         self._set_problem()
 
-        # Step 3: Set the optimization variables for the problem
+        # Step 2: Set the optimization variables for the problem
         self._set_variables()
 
-        # Step 4: Set the optimization dictionaries (i.e. player cost, expected points, probability of appearance, etc.)
+        # Step 3: Set the optimization dictionaries (i.e. player cost, expected points, probability of appearance, etc.)
         self._set_dictionaries()
 
-        # Step 5: Set the initial conditions for the optimization problem
+        # Step 4: Set the initial conditions for the optimization problem
         self._set_initial_conditions()
 
-        # Step 6: Set the constraints for the optimization problem
+        # Step 5: Set the constraints for the optimization problem
         self._set_constraints()
 
-        # Step 7: Set the objective function for the optimization problem
+        # Step 6: Set the objective function for the optimization problem
         self._set_objective()
 
-        # Step 8: Solve the optimization problem
+        # Step 7: Solve the optimization problem
         print("Solving model...")
         self.model.solve(pulp.PULP_CBC_CMD(msg=0))
 
@@ -137,10 +140,10 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
             print("Time:", round(self.model.solutionTime, 2))
             print("Objective:", round(self.model.objective.value(), 2))
 
-        # Step 9: Get the results of the optimization problem
+        # Step 8: Get the results of the optimization problem
         self.get_results()
 
-        # Step 10: Check the results of the optimization problem
+        # Step 9: Check the results of the optimization problem
         self._check_results(results=self.results_df)
 
     def _get_data(self, team_id: int):
@@ -168,23 +171,46 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
             - bank_balance: Bank balance
         """
 
-        general_data = self._get_general_data()
-        gameweek_df = general_data["gameweek"]
-        positions_df = general_data["positions"]
-        teams_df = general_data["teams"]
-        current_gw = general_data["current_gw"]
+        # Only pull data from the API and FPLForm.com if it hasn't been pulled yet
+        raw_path = f"../../data/raw/gw_{self.current_gw}/"
 
-        initial_squad = self._get_team_ids(team_id=team_id, gameweek=current_gw)
+        if (
+            os.path.exists(raw_path + "gameweek_df.csv")
+            and os.path.exists(raw_path + "positions_df.csv")
+            and os.path.exists(raw_path + "teams_df.csv")
+        ):
+            print("Data already pulled from FPL API.")
+            gameweek_df = pd.read_csv(raw_path + "gameweek_df.csv")
+            positions_df = pd.read_csv(raw_path + "positions_df.csv")
+            teams_df = pd.read_csv(raw_path + "teams_df.csv")
+        else:
+            print("Pulling data from FPL API...")
+            general_data = self._get_general_data()
+            gameweek_df = general_data["gameweek"]
+            positions_df = general_data["positions"]
+            teams_df = general_data["teams"]
+
+        # Only pull data from FPLForm.com if today's data hasn't been pulled yet
+        today = datetime.today().strftime("%Y_%m_%d")
+        if os.path.exists(raw_path + f"predicted_points_df_{today}.csv"):
+            print("Predicted points already pulled from FPLForm.com.")
+            predicted_points_df = pd.read_csv(
+                raw_path + f"predicted_points_df_{today}.csv"
+            )
+        else:
+            print("Pulling predicted points from FPLForm.com...")
+            predicted_points_df = self._get_predicted_points()
+
+        # Pull team data from the FPL API
+        initial_squad = self._get_team_ids(team_id=team_id, gameweek=self.current_gw)
         bank_balance = self._get_team_data(team_id=team_id)["bank_balance"]
 
-        predicted_points_df = self._get_predicted_points()
-
+        # Store the data in a dictionary
         data = {
             "gameweek_df": gameweek_df,
             "positions_df": positions_df,
             "teams_df": teams_df,
             "predicted_points_df": predicted_points_df,
-            "current_gw": current_gw,
             "initial_squad": initial_squad,
             "bank_balance": bank_balance,
         }
@@ -249,27 +275,36 @@ class OptimizeMultiPeriod(FPLDataPuller, FPLFormScraper, ProcessData):
                 current_date = datetime.today().strftime("%Y_%m_%d")
                 value.to_csv(f"{destination}{key}_{current_date}.csv", index=False)
 
-    def _check_gameweek(self):
+    def _check_gameweek(self, gameweek: int):
         """
         Summary:
         --------
         Function to if the gameweek is valid.
         If the gameweek given is not valid, i.e. if it is not the next gameweek, raise a ValueError.
 
+        Arguments:
+        ----------
+        gameweek (int): Gameweek to check
+
         Returns:
         --------
-        None
+        True if the gameweek is valid, otherwise raises a ValueError.
         """
-        if self.gameweek > self.current_gw + 1:
+
+        # Get the current gameweek
+        current_gw = self._get_current_gameweek()
+
+        if gameweek < current_gw + 1:
             raise ValueError(
-                f"Cannot optimize for GW{self.gameweek}. Optimization can only start from the next gameweek (i.e. GW{self.current_gw + 1})."
+                f"Cannot optimize for GW{gameweek} since it has already passed. Optimization can only start from the next gameweek (i.e. GW{current_gw + 1})."
             )
-        elif self.gameweek < self.current_gw + 1:
+
+        elif gameweek > current_gw + 1:
             raise ValueError(
-                f"Cannot optimize for GW{self.gameweek} since it has already passed. Optimization can only start from the next gameweek (i.e. GW{self.current_gw + 1})."
+                f"Cannot optimize for GW{gameweek} since it is ahead of the next gameweek. Optimization can only start from the next gameweek (i.e. GW{current_gw + 1})."
             )
         else:
-            pass
+            return True
 
     def _set_problem(self):
         """
@@ -997,7 +1032,7 @@ if __name__ == "__main__":
         if results is not None:
             solved_model.writeLP(f"../../models/multi_period/{name}_model.lp")
             results["dataframe"].to_csv(
-                f"../../data/external/{name}_results.csv", index=False
+                f"../../data/results/{name}_results.csv", index=False
             )
 
             with open(f"../../reports/{name}_summary.txt", "w") as f:

@@ -1,7 +1,7 @@
 --------------------------------------------------
 Gameweek 24 summary:
 --------------------------------------------------
-Total expected points: 58.14
+Total expected points: 57.86
 Money in bank: 5.7
 Free transfers available: 1
 Transfers made: 2
@@ -13,8 +13,8 @@ Player 430 (Trippier @ NEW) transferred out.
 --------------------------------------------------
 Gameweek 25 summary:
 --------------------------------------------------
-Total expected points: 91.84
-Money in bank: 0.7
+Total expected points: 91.59
+Money in bank: 0.6
 Free transfers available: 1
 Transfers made: 1
 Penalised transfers: 0
@@ -23,8 +23,8 @@ Player 526 (Bowen @ WHU) transferred out.
 --------------------------------------------------
 Gameweek 26 summary:
 --------------------------------------------------
-Total expected points: 63.76
-Money in bank: 3.6
+Total expected points: 63.64
+Money in bank: 3.5
 Free transfers available: 1
 Transfers made: 2
 Penalised transfers: 1

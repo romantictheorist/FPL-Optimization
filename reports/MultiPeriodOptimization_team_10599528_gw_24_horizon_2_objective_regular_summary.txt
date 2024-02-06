@@ -1,26 +1,28 @@
 --------------------------------------------------
 Gameweek 24 summary:
 --------------------------------------------------
-Total expected points: 60.37
+Total expected points: 60.58
 Money in bank: 1.4
 Free transfers available: 1
-Transfers made: 3
-Penalised transfers: 2
+Transfers made: 4
+Penalised transfers: 3
 Player 230 (Johnstone @ CRY) transferred out.
 Player 290 (Alexander-Arnold @ LIV) transferred in.
 Player 313 (Virgil @ LIV) transferred in.
 Player 614 (Kaminski @ LUT) transferred in.
+Player 353 (Foden @ MCI) transferred in.
 Player 369 (Walker @ MCI) transferred out.
 Player 430 (Trippier @ NEW) transferred out.
+Player 526 (Bowen @ WHU) transferred out.
 --------------------------------------------------
 Gameweek 25 summary:
 --------------------------------------------------
-Total expected points: 103.44
-Money in bank: 0.0
+Total expected points: 106.89
+Money in bank: 1.0
 Free transfers available: 1
 Transfers made: 2
 Penalised transfers: 1
 Player 14 (Ødegaard @ ARS) transferred out.
+Player 19 (Saka @ ARS) transferred out.
 Player 308 (Salah @ LIV) transferred in.
 Player 630 (Barkley @ LUT) transferred in.
-Player 526 (Bowen @ WHU) transferred out.
