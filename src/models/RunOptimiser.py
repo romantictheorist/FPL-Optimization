@@ -539,7 +539,7 @@ if __name__ == "__main__":
     summary = opt.get_summary()
     print(summary)
 
-    model.writeLP(f"../../models/fpl_optimiser_{opt.team_id}_horizon_{opt.horizon}")
-    results.to_csv(f"../../data/results/{opt.team_id}_horizon_{opt.horizon}")
-    with open(f"../../reports/summary_{opt.team_id}_horizon_{opt.horizon}", "w") as f:
+    model.writeLP(f"../../models/fpl_optimiser_{opt.team_id}_horizon_{opt.horizon}.lp")
+    results.to_csv(f"../../data/results/{opt.team_id}_horizon_{opt.horizon}.csv", index=False)
+    with open(f"../../reports/summary_{opt.team_id}_horizon_{opt.horizon}.txt", "w") as f:
         f.write(summary)
