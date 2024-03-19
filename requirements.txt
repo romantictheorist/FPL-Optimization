@@ -1,57 +1,5 @@
-bs4==0.0.2
-exceptiongroup==1.2.0
-importlib-metadata==7.0.1
-ipykernel==6.29.2
 pandas==2.2.0
-pickleshare==0.7.5
 pulp==2.8.0
-pysocks==1.7.1
 requests==2.31.0
-selenium==4.17.2
-# appnope==0.1.4 # Installed as dependency for ipykernel
-# asttokens==2.4.1 # Installed as dependency for stack-data
-# attrs==23.2.0 # Installed as dependency for outcome, trio
-# beautifulsoup4==4.12.3 # Installed as dependency for bs4
-# certifi==2024.2.2 # Installed as dependency for requests, selenium
-# charset-normalizer==3.3.2 # Installed as dependency for requests
-# comm==0.2.1 # Installed as dependency for ipykernel
-# debugpy==1.8.0 # Installed as dependency for ipykernel
-# decorator==5.1.1 # Installed as dependency for ipython
-# executing==2.0.1 # Installed as dependency for stack-data
-# h11==0.14.0 # Installed as dependency for wsproto
-# idna==3.6 # Installed as dependency for requests, trio
-# ipython==8.21.0 # Installed as dependency for ipykernel
-# jedi==0.19.1 # Installed as dependency for ipython
-# jupyter-client==8.6.0 # Installed as dependency for ipykernel
-# jupyter-core==5.7.1 # Installed as dependency for ipykernel, jupyter-client
-# matplotlib-inline==0.1.6 # Installed as dependency for ipykernel, ipython
-# nest-asyncio==1.6.0 # Installed as dependency for ipykernel
-# numpy==1.26.4 # Installed as dependency for pandas
-# outcome==1.3.0.post0 # Installed as dependency for trio
-# packaging==23.2 # Installed as dependency for ipykernel
-# parso==0.8.3 # Installed as dependency for jedi
-# pexpect==4.9.0 # Installed as dependency for ipython
-# platformdirs==4.2.0 # Installed as dependency for jupyter-core
-# prompt-toolkit==3.0.43 # Installed as dependency for ipython
-# psutil==5.9.8 # Installed as dependency for ipykernel
-# ptyprocess==0.7.0 # Installed as dependency for pexpect
-# pure-eval==0.2.2 # Installed as dependency for stack-data
-# pygments==2.17.2 # Installed as dependency for ipython
-# python-dateutil==2.8.2 # Installed as dependency for jupyter-client, pandas
-# pytz==2024.1 # Installed as dependency for pandas
-# pyzmq==25.1.2 # Installed as dependency for ipykernel, jupyter-client
-# six==1.16.0 # Installed as dependency for asttokens, python-dateutil
-# sniffio==1.3.0 # Installed as dependency for trio
-# sortedcontainers==2.4.0 # Installed as dependency for trio
-# soupsieve==2.5 # Installed as dependency for beautifulsoup4
-# stack-data==0.6.3 # Installed as dependency for ipython
-# tornado==6.4 # Installed as dependency for ipykernel, jupyter-client
-# traitlets==5.14.1 # Installed as dependency for comm, ipykernel, ipython, jupyter-client, jupyter-core, matplotlib-inline
-# trio==0.24.0 # Installed as dependency for selenium, trio-websocket
-# trio-websocket==0.11.1 # Installed as dependency for selenium
-# typing-extensions==4.9.0 # Installed as dependency for selenium
-# tzdata==2023.4 # Installed as dependency for pandas
-# urllib3==2.2.0 # Installed as dependency for requests, selenium
-# wcwidth==0.2.13 # Installed as dependency for prompt-toolkit
-# wsproto==1.2.0 # Installed as dependency for trio-websocket
-# zipp==3.17.0 # Installed as dependency for importlib-metadata
+
+
