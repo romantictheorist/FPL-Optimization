@@ -150,6 +150,7 @@ Running the optimiser will provide the following:
 
 - TXT file located under `reports` containing a summary of actions for each gameweek, including the teams total expected
   points, its cost, its captain and its transfers.
+- Solved LP model located under `models`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
