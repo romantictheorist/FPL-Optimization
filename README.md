@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/dannybozbay/fpl-optimization">
-    <img src="https://e0.365dm.com/22/08/2048x1152/skysports-fantasy-premier-league_5864666.jpg?20220814171817" alt="Logo" width="500" height="250">
+    <img src="https://cf-images.eu-west-1.prod.boltdns.net/v1/static/2508689025001/001172a9-87d5-4723-b991-59d47e89d7bb/87ae00c7-6916-47f4-abca-7f6fe10a5684/1280x720/match/image.jpg" alt="Logo" width="500" height="275">
   </a>
 
 <h3 align="center">Winning FPL With Linear Optimisation</h3>
