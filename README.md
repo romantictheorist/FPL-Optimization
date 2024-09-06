@@ -137,7 +137,7 @@ After installing the optimiser, you can run it by following these steps:
 1. Set your FPL Team ID (`team_id`) and the number of gameweeks you wish to optimise for (`horizon`) in
    the `settings.json` file and save it.
 
-2. Run  `src/models/RunOptimiser.py`
+2. Run  the script `run_optimiser.py`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
