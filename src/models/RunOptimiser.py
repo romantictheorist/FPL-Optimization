@@ -1,8 +1,8 @@
 import pandas as pd
 import pulp
-from pulp import LpProblem, LpMaximize, LpVariable, lpSum, LpStatus, value
+from pulp import LpMaximize, LpProblem, LpStatus, LpVariable, lpSum, value
 
-from src.models.PrepareOptimiser import PrepareDatasetForOptimiser
+from models.PrepareOptimiser import PrepareDatasetForOptimiser
 
 
 class FantasyOptimiser:

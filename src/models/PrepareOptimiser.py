@@ -5,8 +5,8 @@ from typing import List
 
 import pandas as pd
 
-from src.data.FantasyData import FantasyData
-from src.data.FantasyTeam import FantasyTeam
+from data.FantasyData import FantasyData
+from data.FantasyTeam import FantasyTeam
 
 
 @dataclass
