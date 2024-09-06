@@ -2,7 +2,7 @@ import pandas as pd
 import pulp
 from pulp import LpMaximize, LpProblem, LpStatus, LpVariable, lpSum, value
 
-from models.PrepareOptimiser import PrepareDatasetForOptimiser
+from models.prepare import PrepareDatasetForOptimiser
 
 
 class FantasyOptimiser:
@@ -525,21 +525,3 @@ class FantasyOptimiser:
                     f"Results for GW{gw} did not pass checks:\n{warnings_str}"
                 )
 
-
-if __name__ == "__main__":
-    # Initialise optimiser
-    opt = FantasyOptimiser()
-
-    # Solve the optimisation problem
-    opt.solve()
-
-    # Export solved model, results and summary of actions
-    model = opt.get_model()
-    results = opt.get_results()
-    summary = opt.get_summary()
-    print(summary)
-
-    model.writeLP(f"../../models/fpl_optimiser_{opt.team_id}_horizon_{opt.horizon}.lp")
-    results.to_csv(f"../../data/results/{opt.team_id}_horizon_{opt.horizon}.csv", index=False)
-    with open(f"../../reports/summary_{opt.team_id}_horizon_{opt.horizon}.txt", "w") as f:
-        f.write(summary)

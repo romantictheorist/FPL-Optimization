@@ -92,7 +92,7 @@ class PrepareDatasetForOptimiser:
 
     def __post_init__(self):
         # Load settings from JSON file
-        with open("../settings.json", "r") as f:
+        with open("settings.json", "r") as f:
             settings = json.load(f)
 
         # Set the parameters
@@ -225,7 +225,7 @@ class PrepareDatasetForOptimiser:
         players_df["price"] = players_df["price"] / 10
 
         # Read and preprocess FPLForm data
-        location = "../../data/external/fpl-form-predicted-points.csv"
+        location = "data/external/fpl-form-predicted-points.csv"
         if not os.path.isfile(location):
             raise FileNotFoundError(
                 f"FPLForm Predicted Points file not found at location: {location}"

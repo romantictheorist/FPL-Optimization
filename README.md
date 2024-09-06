@@ -124,7 +124,7 @@ select most effective lineup, captain and transfers for each gameweek. No more b
    pip install -r requirements.txt
    ```
 
-3. Download the latest points projection from FPLForm and save it under `data/external` with the
+3. Download the latest points projection from [FPLForm](https://fplform.com/export-fpl-form-data) and save it under `data/external` with the
    name `fpl-form-predicted-points.csv`. Be sure to set the upper range of gameweeks to ***GW38*** and select
    ***With Extra Columns*** before generating the CSV file.
 
@@ -135,7 +135,7 @@ select most effective lineup, captain and transfers for each gameweek. No more b
 After installing the optimiser, you can run it by following these steps:
 
 1. Set your FPL Team ID (`team_id`) and the number of gameweeks you wish to optimise for (`horizon`) in
-   the `src/settings.json` file and save it.
+   the `settings.json` file and save it.
 
 2. Run  `src/models/RunOptimiser.py`
 
