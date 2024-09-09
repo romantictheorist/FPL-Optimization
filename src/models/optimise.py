@@ -26,6 +26,7 @@ class FantasyOptimiser:
     - `get_model()`: Returns the solved model of the optimization problem.
 
     """
+
     def __init__(self):
         # Prepare and store dataset for optimization
         self.dataset = PrepareDatasetForOptimiser().dataset
@@ -40,12 +41,12 @@ class FantasyOptimiser:
         self.summary = ""
 
     def solve(self):
-        print("*"*50)
-        print(f"FANTASY OPTIMISER STARTED: Team {self.team_id}, Horizon {self.horizon}")
-        print("*"*50)
-        
+        print("=" * 50)
+        print(f"Fantasy Optimizer | Team {self.team_id}, Horizon {self.horizon}")
+        print("=" * 50)
+
         # Access the prepared dataset
-        print("Accessing Fantasy Dataset...")
+        print("INFO: Accessing Fantasy Dataset...")
         players = self.dataset.players
         teams = self.dataset.teams
         positions = self.dataset.positions
@@ -60,11 +61,11 @@ class FantasyOptimiser:
         squad_select = self.dataset.squad_select
 
         # Defining the optimisation problem
-        print("Initialising optimiser...")
+        print("INFO: Initializing optimizer (LpMaximize)...")
         prob = LpProblem(name="FantasyOptimiser", sense=LpMaximize)
 
         # Problem variables
-        print("Defining variables...")
+        print("INFO: Defining variables...")
         squad = LpVariable.dicts("Squad", (players, all_gameweeks), cat="Binary")
         lineup = LpVariable.dicts("Lineup", (players, future_gameweeks), cat="Binary")
         captain = LpVariable.dicts("Captain", (players, future_gameweeks), cat="Binary")
@@ -95,7 +96,7 @@ class FantasyOptimiser:
         )
 
         # Counters and trackers to use for defining constraints and initial conditions
-        print("Defining counters...")
+        print("INFO: Defining counters...")
         squad_counter = {
             gw: lpSum([squad[p][gw] for p in players]) for gw in future_gameweeks
         }
@@ -124,7 +125,9 @@ class FantasyOptimiser:
             for gw in future_gameweeks
         }
         revenue = {
-            gw: lpSum([transfer_out[p][gw] * self._get_player_price(p) for p in players])
+            gw: lpSum(
+                [transfer_out[p][gw] * self._get_player_price(p) for p in players]
+            )
             for gw in future_gameweeks
         }
         expenditure = {
@@ -139,7 +142,7 @@ class FantasyOptimiser:
         }
 
         # Initial conditions
-        print("Defining initial conditions...")
+        print("INFO: Setting initial conditions...")
         transfer_counter[current_gameweek] = 1
         prob += (
             money_in_bank[current_gameweek] == bank_balance,
@@ -161,7 +164,8 @@ class FantasyOptimiser:
                     f"Player not in the initial squad constraint for player {p}",
                 )
 
-        print("Defining constraints...")
+        # Defining constraints
+        print("INFO: Defining constraints...")
         for gw in future_gameweeks:
             # Squad and lineup constraints:
             prob += (
@@ -288,14 +292,15 @@ class FantasyOptimiser:
         prob += objective_func
 
         # Solve the optimisation problem
-        print("Solving optimiser...")
+        print("INFO: Solving optimizer...")
         status = prob.solve(pulp.PULP_CBC_CMD(msg=False))
 
         # If optimal solution is found, get the results
         if LpStatus[status] != "Optimal":
+            print("ERROR: No optimal solution found.")
             raise ValueError(f"Solution could not be found: {LpStatus[status]}")
         else:
-            print("Solution found...")
+            print("INFO: Solution found.")
 
         optimized_results_list = []
         for gw in future_gameweeks:
@@ -328,56 +333,63 @@ class FantasyOptimiser:
         )
         optimized_results_df.reset_index(drop=True, inplace=True)
 
-        # Check results: if pass, update placeholders and generate summary of actions
-        print("Checking solution...")
+        # Checking results
+        print("INFO: Checking results...")
         if self._check_results(optimized_results_df):
             self.results = optimized_results_df
             self.model = prob
 
+            print("INFO: Generating summary...")
+
             summary_list: list[str] = []
+            summary_list.append(
+                f"SUMMARY OF ACTIONS (Team {self.team_id}, Horizon {self.horizon})\n"
+            )
 
             for gw in self.dataset.future_gameweeks:
                 gw_results = self.results[self.results["GW"] == gw]
-                summary_list.append("=" * 20)
-                summary_list.append(f"Gameweek: {gw}")
-                summary_list.append("=" * 20)
+
+                summary_list.append(f"Gameweek {gw}")
                 summary_list.append(
-                    f"Total Expected Points: {round(gw_results[gw_results['In Lineup'] == 1]['xP'].sum() +
-                                                    gw_results[gw_results['Is Captain'] == 1]['xP'].item(), 2)}"
+                    f"  - Expected Points: {round(gw_results[gw_results['In Lineup'] == 1]['xP'].sum() + gw_results[gw_results['Is Captain'] == 1]['xP'].item(), 2)}"
                 )
                 summary_list.append(
-                    f"Total Cost: {round(gw_results[gw_results['In Squad'] == 1]['Price'].sum(), 2)}"
+                    f"  - Total Cost: {round(gw_results[gw_results['In Squad'] == 1]['Price'].sum(), 2)}"
                 )
                 summary_list.append(
-                    f"Captain: {gw_results[gw_results['Is Captain'] == 1]['Name'].item()}"
+                    f"  - Captain: {gw_results[gw_results['Is Captain'] == 1]['Name'].item()}"
                 )
                 summary_list.append(
-                    f"Vice Captain: {gw_results[gw_results['Is Vice Captain'] == 1]['Name'].item()}"
+                    f"  - Vice Captain: {gw_results[gw_results['Is Vice Captain'] == 1]['Name'].item()}"
                 )
                 summary_list.append(
-                    f"Bank Balance: {round(money_in_bank[gw].varValue, 2)}"
+                    f"  - Bank Balance: {round(money_in_bank[gw].varValue, 2)}"
                 )
                 summary_list.append(
-                    f"Free Transfers Available: {free_transfers[gw].varValue}"
-                )
-                summary_list.append(f"Transfers Made: {value(transfer_counter[gw])}")
-                summary_list.append(
-                    f"Penalised Transfers: {penalised_transfers[gw].varValue}"
+                    f"  - Free Transfers: {free_transfers[gw].varValue}"
                 )
                 summary_list.append(
-                    f"Players Transferred In: {gw_results[gw_results['Transferred In'] == 1]['Name'].values}"
+                    f"  - Transfers Made: {value(transfer_counter[gw])}"
                 )
                 summary_list.append(
-                    f"Players Transferred Out: {gw_results[gw_results['Transferred Out'] == 1]['Name'].values}"
+                    f"  - Penalised Transfers: {penalised_transfers[gw].varValue}"
+                )
+                summary_list.append(
+                    f"  - Players In: {', '.join(gw_results[gw_results['Transferred In'] == 1]['Name'].values)}"
+                )
+                summary_list.append(
+                    f"  - Players Out: {', '.join(gw_results[gw_results['Transferred Out'] == 1]['Name'].values)}\n"
                 )
 
             summary_str = "\n".join(summary_list)
 
             self.summary = summary_str
 
-            print("*"*50)
-            print("FANTASY OPTIMISER FINISHED")
-            print("*"*50)
+        print("=" * 50)
+        print(
+            f"Fantasy Optimizer Complete | Team {self.team_id}, Horizon {self.horizon}"
+        )
+        print("=" * 50)
 
     def get_model(self) -> LpProblem:
         if self.model is None:
@@ -529,4 +541,3 @@ class FantasyOptimiser:
                 raise Warning(
                     f"Results for GW{gw} did not pass checks:\n{warnings_str}"
                 )
-
