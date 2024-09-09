@@ -1,4 +1,4 @@
-from models.optimise import FantasyOptimiser
+from src.models.optimise import FantasyOptimiser
 
 # Initialise optimiser
 optimiser = FantasyOptimiser()

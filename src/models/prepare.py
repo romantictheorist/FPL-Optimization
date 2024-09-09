@@ -5,8 +5,8 @@ from typing import List
 
 import pandas as pd
 
-from data.FantasyData import FantasyData
-from data.FantasyTeam import FantasyTeam
+from ..data.FantasyData import FantasyData
+from ..data.FantasyTeam import FantasyTeam
 
 
 @dataclass
@@ -106,10 +106,6 @@ class PrepareDatasetForOptimiser:
         # Check horizon: if pass, update dataset placeholder
         if self.check_valid_horizon():
             self.dataset = self.prepare_data()
-
-            print("=" * 50)
-            print(f"Dataset prepared: team {self.team_id} with horizon {self.horizon}")
-            print("=" * 50)
 
     def prepare_data(self):
         team_id = self.team_id
@@ -268,11 +264,3 @@ class PrepareDatasetForOptimiser:
         merged_df = merged_df.fillna(0)
 
         return merged_df
-
-
-if __name__ == "__main__":
-    prep = PrepareDatasetForOptimiser()
-    data = prep.dataset
-    print(f"Current GW: {data.current_gameweek}")
-    print(f"Bank Balance: {data.bank_balance}")
-    print(f"Free Transfers Available: {data.free_transfers}")

@@ -2,7 +2,7 @@ import pandas as pd
 import pulp
 from pulp import LpMaximize, LpProblem, LpStatus, LpVariable, lpSum, value
 
-from models.prepare import PrepareDatasetForOptimiser
+from .prepare import PrepareDatasetForOptimiser
 
 
 class FantasyOptimiser:
@@ -40,6 +40,10 @@ class FantasyOptimiser:
         self.summary = ""
 
     def solve(self):
+        print("*"*50)
+        print(f"FANTASY OPTIMISER STARTED: Team {self.team_id}, Horizon {self.horizon}")
+        print("*"*50)
+        
         # Access the prepared dataset
         print("Accessing Fantasy Dataset...")
         players = self.dataset.players
@@ -56,11 +60,11 @@ class FantasyOptimiser:
         squad_select = self.dataset.squad_select
 
         # Defining the optimisation problem
-        print("Starting optimisation...")
+        print("Initialising optimiser...")
         prob = LpProblem(name="FantasyOptimiser", sense=LpMaximize)
 
         # Problem variables
-        print("Defining model variables...")
+        print("Defining variables...")
         squad = LpVariable.dicts("Squad", (players, all_gameweeks), cat="Binary")
         lineup = LpVariable.dicts("Lineup", (players, future_gameweeks), cat="Binary")
         captain = LpVariable.dicts("Captain", (players, future_gameweeks), cat="Binary")
@@ -157,7 +161,7 @@ class FantasyOptimiser:
                     f"Player not in the initial squad constraint for player {p}",
                 )
 
-        print("Defining model constraints...")
+        print("Defining constraints...")
         for gw in future_gameweeks:
             # Squad and lineup constraints:
             prob += (
@@ -284,15 +288,14 @@ class FantasyOptimiser:
         prob += objective_func
 
         # Solve the optimisation problem
-        print("Solving model...")
+        print("Solving optimiser...")
         status = prob.solve(pulp.PULP_CBC_CMD(msg=False))
 
         # If optimal solution is found, get the results
-        print("Getting results...")
         if LpStatus[status] != "Optimal":
             raise ValueError(f"Solution could not be found: {LpStatus[status]}")
         else:
-            pass
+            print("Solution found...")
 
         optimized_results_list = []
         for gw in future_gameweeks:
@@ -326,7 +329,7 @@ class FantasyOptimiser:
         optimized_results_df.reset_index(drop=True, inplace=True)
 
         # Check results: if pass, update placeholders and generate summary of actions
-        print("Checking results...")
+        print("Checking solution...")
         if self._check_results(optimized_results_df):
             self.results = optimized_results_df
             self.model = prob
@@ -372,7 +375,9 @@ class FantasyOptimiser:
 
             self.summary = summary_str
 
-            print("Optimisation complete.")
+            print("*"*50)
+            print("FANTASY OPTIMISER FINISHED")
+            print("*"*50)
 
     def get_model(self) -> LpProblem:
         if self.model is None:
