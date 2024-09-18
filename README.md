@@ -83,50 +83,74 @@
 
 ## About The Project
 
-Winning your fantasy football leagues can be tough and frustrating process, but a rewarding one if you get things right.
-Unfortunately grabbing that first place position usually requires getting many things right...on many occasions.
-Most importantly your initial team selection, your weekly captain choice and your weekly transfers. But how often do we
-just guess these decisions from instinct? And why should we when there is so much DATA available to us?
+Winning your fantasy football league can be a challenging and sometimes frustrating journey—but when you get it right, it’s incredibly rewarding. The path to victory often requires nailing multiple decisions, consistently. The key elements? Your initial team selection, weekly captain choice, and timely transfers. Yet, how often do we rely purely on instinct for these decisions? Why guess when we have a wealth of data at our fingertips?
 
-The goal of this project is to use that data with PuLP (an open-source linear programming package for python) to
-maximise
-the expected points of your Fantasy Premier League team. By formulating constraints and objectives, the algorithm aims
-select most effective lineup, captain and transfers for each gameweek. No more blind guessing!
+This project leverages that data with PuLP, an open-source linear programming package in Python, to maximize your Fantasy Premier League team's expected points. By setting up constraints and objectives, the algorithm optimizes your lineup, captain, and transfers for each gameweek. Say goodbye to blind guessing and hello to data-driven success!
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Built With
-
-* [![Python][Python.js]][Python-url]
-* [![Pandas][Pandas.js]][Pandas-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
 
-## Getting Started
+## Installation
 
-### Prerequisites and installation
+To get started with the optimiser, follow these steps to set up your development environment:
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/dannybozbay/FPL-Optimization.git
-   ```
+**1. Clone the Repository**
 
-2. Create a Python (3.11 or higher) environment with the required dependencies
-   ```sh
-   cd fpl-optimization
-   python3 -m venv .venv
-   source .venv/bin/activate
-   pip install -r requirements.txt
-   ```
+First, clone the repository to your local machine using Git:
 
-3. Download the latest points projection from [FPLForm](https://fplform.com/export-fpl-form-data) and save it under `data/external` with the
-   name `fpl-form-predicted-points.csv`. Be sure to set the upper range of gameweeks to ***GW38*** and select
-   ***With Extra Columns*** before generating the CSV file.
+```bash
+git clone https://github.com/dannybozbay/FPL-Optimization.git
+```
+
+**2. Navigate to the Project Directory**
+
+Change to the project directory:
+
+```bash
+cd FPL-Optimization
+```
+
+**3. Create a Python Virtual Environment**
+
+It's recommended to use a virtual environment to manage dependencies. Create a virtual environment with venv:
+
+```bash
+python3 -m venv venv
+```
+
+Activate the virtual environment:
+
+* On **Windows**:
+
+    ```bash
+    venv\Scripts\activate
+    ```
+
+* On **macOS/Linux**:
+
+    ```bash
+   source venv/bin/activate
+    ```
+
+**4. Install Dependencies**
+
+Install the required packages listed in *requirements.txt*:
+
+```bash
+pip install -r requirements.txt
+```
+
+**5. Download Points Projection Data**
+
+Download the latest points projection from [FPLForm](https://fplform.com/export-fpl-form-data) and save it inside `data/external` with the name `fpl-form-predicted-points.csv`. Be sure to set the upper range of gameweeks to *GW3* and select *With Extra Columns* before generating the CSV file.
+
+**6. Start Using the Project**
+
+You are now ready to use the optimiser. Follow the documentation and examples provided in the repository to get started.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -190,9 +214,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Danny Bozbay - dannybozbay@gmail.com
-
-Project Link: [https://github.com/dannybozbay/fpl-optimization](https://github.com/dannybozbay/fpl-optimization)
+Email: dannybozbay@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,9 +224,7 @@ Project Link: [https://github.com/dannybozbay/fpl-optimization](https://github.c
 
 ## Acknowledgments
 
-A special thanks to Sertalpbila for not only inspiring this project with his own work, but for also providing
-some incredibly useful video tutorials on how to approach this problem. I could not recommend them enough if you wish
-to tackle this problem yourself!
+A special thanks to Sertalpbila for inspiring this project with his own work and for providing invaluable video tutorials on how to approach the problem. If you're looking to tackle this challenge yourself, I highly recommend checking them out!
 
 * [https://github.com/sertalpbilal/FPL-Optimization-Tools](sertal)
 * [https://www.youtube.com/playlist?list=PLrIyJJU8_viOags1yudB_wyafRuTNs1Ed]()
